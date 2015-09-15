@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link href="/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <style>
+        .brand-logo{
+            width: 62%;
+        }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
+ript>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+    <script type="text/javascript" src="/bootstrap-3.3.5-dist/js/bootstrap.min.js" ></script>
+
+  </head>
+
+</html>
+
+
+
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a  class='navbar-brand' href="/">
+          <img alt="Brand" class='brand-logo' src="/wordpress/wp-content/uploads/2014/01/moveit-title-small.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="/install/">Install</a></li>
+
+
+
+        <li class="dropdown">
+          <a href="/documentation/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Documentation <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/documentation/">Documentation</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/concepts/">Concepts</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/tutorials/">Tutorials</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/faqs/">FAQS</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/code-api/">Code API</a></li>
+          </ul>
+        </li>
+        <li><a href="/robots/">Robots</a></li>
+        <li class="dropdown">
+          <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/about/">About</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/about/moveit-status/">status</a></li>
+            <li role='separator' class='divider'>
+          </ul>
+        </li>
+        <li><a href="/media/">Media</a></li>
+        <li><a href="/support/">Support</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div class="container">
+    <div class='row'>
+      <div class='col-sm-8'>
+        <br><br><br>
+            <h2 id="system-architecture">System Architecture</h2>
+
+<p><img src="/wordpress/wp-content/uploads/2013/12/Overview.0012.jpg" style="width: 100%;" /></p>
+
+<h3 id="the-movegroup-node">The move_group node</h3>
+
+<p>The figure above shows the high-level system architecture for the primary node provided by MoveIt! called <em>move_group</em>. This node serves as an integrator: pulling all the individual components together to provide a set of ROS actions and services for users to use.</p>
+
+<h3 id="user-interface">User Interface</h3>
+
+<p>The users can access the actions and services provided by <em>move_group</em> in one of three ways:</p>
+
+<ul>
+  <li>
+    <p><strong>In C++</strong> - using the _move_group_interface package that provides an easy to setup interface to move_group using C++</p>
+  </li>
+  <li>
+    <p><strong>In Python</strong> - using the moveit_commander package</p>
+  </li>
+  <li>
+    <p><strong>Through a GUI</strong> - using the Motion Planning plugin to Rviz (the ROS visualizer)</p>
+  </li>
+</ul>
+
+<p><em>move_group</em> can be configured using the ROS param server from where it will also get the URDF and SRDF for the robot.</p>
+
+<h3 id="configuration">Configuration</h3>
+
+<p>move_group is a ROS node. It uses the ROS param server to get three kinds of information:</p>
+
+<ol>
+  <li>
+    <p>URDF - <em>move_group</em> looks for the <em>robot_description</em> parameter on the ROS param server to get the URDF for the robot.</p>
+  </li>
+  <li>
+    <p>SRDF - <em>move_group</em> looks for the <em>robot_description_semantic</em> parameter on the ROS param server to get the SRDF for the robot. The SRDF is typically created (once) by a user using the MoveIt! Setup Assistant.</p>
+  </li>
+  <li>
+    <p>MoveIt! configuration - <em>move_group</em> will look on the ROS param server for other configuration specific to MoveIt! including joint limits, kinematics, motion planning, perception and other information. Config files for these components are automatically generated by the MoveIt! setup assistant and stored in the <em>config</em> directory of the corresponding MoveIt! config package for the robot.</p>
+  </li>
+</ol>
+
+<h3 id="robot-interface">Robot Interface</h3>
+
+<p><em>move_group</em> talks to the robot through ROS topics and actions. It communicates with the robot to get current state information (positions of the joints, etc.), to get point clouds and other sensor data from the robot sensors and to talk to the controllers on the robot.</p>
+
+<h4 id="joint-state-information">Joint State Information</h4>
+
+<p><em>move_group</em> listens on the <em>/joint_states</em> topic for determining the current state information - i.e. determining where each joint of the robot is. <em>move_group</em> is capable of listening to multiple publishers on this topic even if they are publishing only partial information about the robot state (e.g. separate publishers may be used for the arm and mobile base of a robot). Note that <em>move_group</em> will not setup its own joint state publisher - this is something that has to be implemented on each robot.</p>
+
+<h4 id="transform-information">Transform Information</h4>
+
+<p><em>move_group</em> monitors transform information using the ROS TF library. This allows the node to get global information about the robot’s pose (among other things). E.g., the ROS navigation stack will publish the transform between the map frame and base frame of the robot to TF. <em>move_group</em> can use TF to figure out this transform for internal use. Note that <em>move_group</em> only listens to TF. To publish TF information from your robot, you will need to have a <em>robot_state_publisher</em> node running on your robot.</p>
+
+<h4 id="controller-interface">Controller Interface</h4>
+
+<p><em>move_group</em> talks to the controllers on the robot using the FollowJointTrajectoryAction interface. This is a ROS action interface. A server on the robot needs to service this action - this server is not provided by <em>move_group</em> itself. <em>move_group</em> will only instantiate a client to talk to this controller action server on your robot.</p>
+
+<h4 id="planning-scene">Planning Scene</h4>
+
+<p><em>move_group</em> uses the Planning Scene Monitor to maintain a <em>planning scene</em>, which is a representation of the world and the current state of the robot. The robot state can include any objects carried by the robot which are considered to be rigidly attached to the robot. More details on the architecture for maintaining and updating the <em>planning scene</em> are outlined in the Planning Scene section below.</p>
+
+<h4 id="extensible-capabilities">Extensible Capabilities</h4>
+
+<p><em>move_group</em> is structured to be easily extensible - individual capabilities like pick and place, kinematics, motion planning are actually implemented as separate plugins with a common base class. The plugins are configurable using ROS through a set of ROS yaml parameters and through the use of the ROS pluginlib library. Most users will not have to configure move_group plugins since they come automatically configured in the launch files generated by the MoveIt! Setup Assistant.</p>
+
+<hr />
+
+<h2 id="motion-planning">Motion Planning</h2>
+
+<h3 id="the-motion-planning-plugin"><strong>The Motion Planning Plugin</strong></h3>
+
+<p>MoveIt! works with motion planners through a <em>plugin</em> interface. This allows MoveIt! to communicate with and use different motion planners from multiple libraries, making MoveIt! easily extensible. The interface to the motion planners is through a ROS Action or service (offered by the <em>move_group</em> node). The default motion planners for move_group are configured using OMPL and the MoveIt! interface to OMPL by the MoveIt! Setup Assistant.</p>
+
+<h3 id="the-motion-plan-request"><strong>The Motion Plan Request</strong></h3>
+
+<p>The motion plan request clearly specifies what you would like the motion planner to do. Typically, you will be asking the motion planner to move an arm to a different location (in joint space) or the end-effector to a new pose. Collisions are checked for by default (including self-collisions). You can <em>attach</em> an object to the end-effector (or any part of the robot), e.g. if the robot picks up an object. This allows the motion planner to account for the motion of the object while planning paths. You can also specify constraints for the motion planner to check - the inbuilt constraints provided by MoveIt! are <em>kinematic constraints</em>:</p>
+
+<ul>
+  <li>
+    <p>Position constraints - restrict the position of a link to lie within a region of space</p>
+  </li>
+  <li>
+    <p>Orientation constraints - restrict the orientation of a link to lie within specified roll, pitch or yaw limits</p>
+  </li>
+  <li>
+    <p>Visibility constraints - restrict a point on a link to lie within the visibility cone for a particular sensor</p>
+  </li>
+  <li>
+    <p>Joint constraints - restrict a joint to lie between two values</p>
+  </li>
+  <li>
+    <p>User-specified constraints - you can also specify your own constraints with a user-defined callback.</p>
+  </li>
+</ul>
+
+<h3 id="the-motion-plan-result"><strong>The Motion Plan Result</strong></h3>
+
+<p>The move_group node will generate a desired trajectory in response to your motion plan request. This trajectory will move the arm (or any group of joints) to the desired location. Note that the result coming out of move_group is a trajectory and not just a path - <em>move_group</em> will use the desired maximum velocities and accelerations (if specified) to generate a trajectory that obeys velocity and acceleration constraints at the joint level.</p>
+
+<h3 id="the-motion-planning-pipeline-motion-planners-and-plan-request-adapters"><strong>The Motion Planning Pipeline: Motion planners and Plan Request Adapters</strong></h3>
+
+<p><img src="/wordpress/wp-content/uploads/2013/12/Overview.002.jpg" style="width:100%;" /></p>
+
+<p>The complete motion planning pipeline chains together a motion planner with other components called <em>planning request adapters</em>. Planning request adapters allow for pre-processing motion plan requests and post-processing motion plan responses. Pre-processing is useful in several situations, e.g. when a start state for the robot is slightly outside the specified joint limits for the robot. Post-processing is needed for several other operations, e.g. to convert paths generated for a robot into time-parameterized trajectories.
+MoveIt! provides a set of default motion planning adapters that each perform a very specific function.</p>
+
+<h5 id="fixstartstatebounds"><strong>FixStartStateBounds</strong></h5>
+
+<p>The fix start state bounds adapter fixes the start state to be within the joint limits specified in the URDF. The need for this adapter arises in situations where the joint limits for the physical robot are not properly configured. The robot may then end up in a configuration where one or more of its joints is slightly outside its joint limits. In this case, the motion planner is unable to plan since it will think that the starting state is outside joint limits. The “FixStartStateBounds” planning request adapter will “fix” the start state by moving it to the joint limit. However, this is obviously not the right solution every time - e.g. where the joint is really outside its joint limits by a large amount. A parameter for the adapter specifies how much the joint can be outside its limits for it to be “fixable”.</p>
+
+<h5 id="fixworkspacebounds"><strong>FixWorkspaceBounds</strong></h5>
+
+<p>The fix workspace bounds adapter will specify a default workspace for planning: a cube of size 10 m x 10 m x 10 m. This workspace will only be specified if the planning request to the planner does not have these fields filled in.</p>
+
+<h5 id="fixstartstatecollision"><strong>FixStartStateCollision</strong></h5>
+
+<p>The fix start state collision adapter will attempt to sample a new collision-free configuration near a specified configuration (in collision) by perturbing the joint values by a small amount. The amount that it will perturb the values by is specified by a “jiggle_factor” parameter that controls the perturbation as a percentage of the total range of motion for the joint. The other parameter for this adapter specifies how many random perturbations the adapter will sample before giving up.</p>
+
+<h5 id="fixstartstatepathconstraints"><strong>FixStartStatePathConstraints</strong></h5>
+
+<p>This adapter is applied when the start state for a motion plan does not obey the specified path constraints. It will attempt to plan a path between the current configuration of the robot to a new location where the path constraint is obeyed. The new location will serve as the start state for planning.</p>
+
+<h5 id="addtimeparameterization"><strong>AddTimeParameterization</strong></h5>
+
+<p>The motion planners will typically generate “kinematic paths”, i.e., paths that do not obey any velocity or acceleration constraints and are not time parameterized. This adapter will “time parameterize” the motion plans by applying velocity and acceleration constraints.</p>
+
+<hr />
+
+<h3 id="ompl">OMPL</h3>
+
+<p>OMPL (Open Motion Planning Library) is an open-source motion planning library that primarily implements randomized motion planners. MoveIt! integrates directly with OMPL and uses the motion planners from that library as its primary/default set of planners. The planners in OMPL are abstract; i.e. OMPL has no concept of a robot. Instead, MoveIt! configures OMPL and provides the back-end for OMPL to work with problems in Robotics.</p>
+
+<h2 id="planning-scene-1">Planning Scene</h2>
+
+<p><img src="/wordpress/wp-content/uploads/2013/12/Overview.0031.jpg" style="width:100%;" /></p>
+
+<p>The <em>planning scene</em> is used to represent the world around the robot and also stores the state of the robot itself. It is maintained by the <em>planning scene monitor</em> inside the <em>move group</em> node. The planning scene monitor listens to:</p>
+
+<ul>
+  <li>
+    <p>State Information: on the <em>joint_states</em> topic</p>
+  </li>
+  <li>
+    <p>Sensor Information: using the world geometry monitor described below</p>
+  </li>
+  <li>
+    <p>World geometry information: from user input on the <em>planning_scene</em> topic (as a planning scene diff).</p>
+  </li>
+</ul>
+
+<h3 id="world-geometry-monitor">World Geometry Monitor</h3>
+
+<p>The world geometry monitor builds world geometry using information from the sensors on the robot and from user input. It uses the <em>occupancy map monitor</em> described below to build a 3D representation of the environment around the robot and augments that with information on the <em>planning_scene</em> topic for adding object information.</p>
+
+<h3 id="d-perception">3D Perception</h3>
+
+<p><img src="/wordpress/wp-content/uploads/2013/12/Overview.004.jpg" style="width:100%;" /></p>
+
+<p>3D perception in MoveIt! is handled by the <em>occupancy map monitor</em>. The occupancy map monitor uses a plugin architecture to handle different kinds of sensor input as shown in the Figure above. In particular, MoveIt! has inbuilt support for handling two kinds of inputs:</p>
+
+<ul>
+  <li>
+    <p><strong>Point clouds</strong>: handled by the <em>point cloud occupancy map updater</em> plugin</p>
+  </li>
+  <li>
+    <p><strong>Depth images</strong>: handled by the <em>depth image occupancy map updater</em> plugin</p>
+  </li>
+</ul>
+
+<p>Note that you can add your own types of updaters as a plugin to the occupancy map monitor.</p>
+
+<h4 id="octomap">Octomap</h4>
+
+<p>The Occupancy map monitor uses an <a href="http://octomap.github.io/"><em>Octomap</em></a> to maintain the occupancy map of the environment. The <em>Octomap</em> can actually encode probabilistic information about individual cells although this information is not currently used in MoveIt!. The <em>Octomap</em> can directly be passed into FCL, the collision checking library that MoveIt! uses.</p>
+
+<h4 id="depth-image-occupancy-map-updater">Depth Image Occupancy Map Updater</h4>
+
+<p>The depth image occupancy map updater includes its own <em>self-filter</em>, i.e. it will remove visible parts of the robot from the depth map. It uses current information about the robot (the robot state) to carry out this operation.</p>
+
+<hr />
+
+<h2 id="kinematics"><strong>Kinematics</strong></h2>
+
+<h3 id="the-kinematics-plugin"><strong>The Kinematics Plugin</strong></h3>
+
+<p>MoveIt! uses a plugin infrastructure, especially targeted towards allowing users to write their own inverse kinematics algorithms. Forward kinematics and finding jacobians is integrated within the RobotState class itself. The default inverse kinematics plugin for MoveIt! is configured using a numerical jacobian-based solver. This plugin is automatically configured by the MoveIt! Setup Assistant.</p>
+
+<h3 id="ikfast-plugin"><strong>IKFast Plugin</strong></h3>
+
+<p>Often, users may choose to implement their own kinematics solvers, e.g. the PR2 has its own kinematics solvers. A popular approach to implementing such a solver is using the IKFast package to generate the C++ code needed to work with your particular robot.</p>
+
+<hr />
+
+<h2 id="collision-checking"><strong>Collision Checking</strong></h2>
+
+<p>Collision checking in MoveIt! is configured inside a Planning Scene using the <em>CollisionWorld</em> object. Fortunately, MoveIt! is setup so that users never really have to worry about how collision checking is happening. Collision checking in MoveIt! is mainly carried out using the <a href="http://gamma.cs.unc.edu/FCL/fcl_docs/webpage/generated/index.html">FCL</a> package.</p>
+
+<h3 id="collision-objects"><strong>Collision Objects</strong></h3>
+
+<p>MoveIt! supports collision checking for different types of objects including:</p>
+
+<ul>
+  <li>
+    <p>Meshes</p>
+  </li>
+  <li>
+    <p>Primitive Shapes - e.g. boxes, cylinders, cones, spheres and planes</p>
+  </li>
+  <li>
+    <p>Octomap - the <em>Octomap</em> object can be directly used for collision checking</p>
+  </li>
+</ul>
+
+<h3 id="fcl"><strong>FCL</strong></h3>
+
+<p>FCL, the <em>Flexible Collision Library</em> is the primary collision checking library used in MoveIt!</p>
+
+<h3 id="allowed-collision-matrix-acm"><strong>Allowed Collision Matrix (ACM)</strong></h3>
+
+<p>One of the important concepts to understand in MoveIt! is the <em>Allowed Collision Matrix</em> or <em>ACM</em>. Collision checking is a very expensive operation often accounting for close to 90% of the computational expense during motion planning. The ACM encodes a binary value corresponding to the need to check for collision between two pairs of bodies (which could be on the robot or in the world). If the value corresponding to two bodies is set to 1 in the ACM, this specifies that a collision check between the two bodies is not needed. This would happen if, e.g., the two bodies are always so far way that they would never collide with each other.</p>
+
+<hr />
+
+<h2 id="trajectory-processing"><strong>Trajectory Processing</strong></h2>
+
+<h3 id="time-parameterization"><strong>Time parameterization</strong></h3>
+
+<p>Motion planners will typically only generate “paths”, i.e. there is no timing information associated with the paths. MoveIt! includes trajectory processing routines that can work on these paths and generate trajectories that are properly time-parameterized accounting for the maximum velocity and acceleration limits imposed on individual joints. These limits are read from a special <em>joint_limits.yaml</em> file that is specified for each robot.</p>
+
+      </div>
+      <div class='col-sm-3 col-sm-offset-1'>
+        <h4>BLOG</h4>
+        <ul class="list-group">
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/07/02/going-underwater.html">MoveIt! goes underwater!</a></h5>
+      <p>MoveIt! on an underwater Girona500 AUV robot and 4-DOF arm for autonomous underwater manipulation...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/06/04/icra-2015-update.html">ICRA 2015 Update</a></h5>
+      <p>The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/05/25/see-you-at-icra-2015.html">See you at ICRA 2015</a></h5>
+      <p>MoveIt! will be at ICRA 2015. Catch MoveIt! developers and users at the following:...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/03/17/versatile-manipulation-baxter-robot-with-moveit-used-to-teach-robotics-fundamentals-at-columbia-university.html">Versatile Manipulation: Baxter Robot with MoveIt! Used to Teach Robotics Fundamentals at Columbia University</a></h5>
+      <p>From factory assembly lines to warehouses and living rooms, robots are always expanding their role in our lives. Both hardware and software are critical for this transformation, so students taking the Intro to Robotics class in Columbia University’s Mechanical Engineering Dept. are using a Baxter Robot (Rethink Robotics Inc.) along with MoveIt! to learn robotics fundamentals. ...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/02/18/new-pal-mobile-manipulation-robot-tiago-runs-moveit.html">New PAL Mobile Manipulation Robot TIAGo runs MoveIt!</a></h5>
+      <p>From factory assembly lines to warehouses and living rooms, robots are always expanding their role in our lives. Both hardware and software are critical for this transformation, so students taking the Intro to Robotics class in Columbia University’s Mechanical Engineering Dept. are using a Baxter Robot (Rethink Robotics Inc.) along with MoveIt! to learn robotics fundamentals. ...</p>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+</body>

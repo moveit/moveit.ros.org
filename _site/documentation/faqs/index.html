@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link href="/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <style>
+        .brand-logo{
+            width: 62%;
+        }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
+ript>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+    <script type="text/javascript" src="/bootstrap-3.3.5-dist/js/bootstrap.min.js" ></script>
+
+  </head>
+
+</html>
+
+
+
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a  class='navbar-brand' href="/">
+          <img alt="Brand" class='brand-logo' src="/wordpress/wp-content/uploads/2014/01/moveit-title-small.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="/install/">Install</a></li>
+
+
+
+        <li class="dropdown">
+          <a href="/documentation/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Documentation <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/documentation/">Documentation</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/concepts/">Concepts</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/tutorials/">Tutorials</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/faqs/">FAQS</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/code-api/">Code API</a></li>
+          </ul>
+        </li>
+        <li><a href="/robots/">Robots</a></li>
+        <li class="dropdown">
+          <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/about/">About</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/about/moveit-status/">status</a></li>
+            <li role='separator' class='divider'>
+          </ul>
+        </li>
+        <li><a href="/media/">Media</a></li>
+        <li><a href="/support/">Support</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div class="container">
+    <div class='row'>
+      <div class='col-sm-8'>
+        <br><br><br>
+            <h2 id="general">General</h2>
+
+<p><em>Who manages MoveIt!?</em></p>
+
+<ul>
+  <li>MoveIt! is currently coordinated and managed by Sachin Chitta.</li>
+</ul>
+
+<p><em>How do I install MoveIt!?</em></p>
+
+<ul>
+  <li>Follow the <a href="/install/">Installation instructions</a>.</li>
+</ul>
+
+<p><em>What operating systems does MoveIt! work with?</em></p>
+
+<ul>
+  <li>The primary operating system that MoveIt! is developed against is Ubuntu Linux.</li>
+</ul>
+
+<p><em>What is the difference between MoveIt! and ROS?</em></p>
+
+<ul>
+  <li>ROS (Robot Operating System) is an open-source meta-operating system for robots that provides low-level functionality like a build system, message passing, device drivers and some integrated capabilities like navigation. MoveIt! provides functionality for kinematics, motion/path planning, collision checking, 3D perception, robot interaction and much, much more. MoveIt! is a primary source of a lot of the functionality for manipulation (and mobile manipulation) in ROS. MoveIt! builds on the ROS messaging and build systems and utilizes some of the common tools in ROS like the ROS Visualizer (Rviz) and the ROS robot format (URDF). MoveIt! is fast becoming the entry point into ROS, especially through the use of the MoveIt! Setup Assistant for configuring new robots.</li>
+</ul>
+
+<p><em>What is the difference between MoveIt! and Arm Navigation?</em></p>
+
+<ul>
+  <li>Arm Navigation was the predecessor to MoveIt!. MoveIt! is significantly different to Arm Navigation in system architecture and implementation, especially in terms of performance and extensibility. MoveIt! moved away from the process based architecture that Arm Navigation used, mainly to lower the cost of maintaining a representation of the world in multiple nodes. MoveIt! also takes advantage of the parallelization provided by collision checkers like FCL.</li>
+</ul>
+
+<p><em>What is the difference between MoveIt! and ROS-Industrial?</em></p>
+
+<ul>
+  <li>The ROS-Industrial consortium aims to use the advanced tools in MoveIt! and ROS to build and demonstrate advanced applications in industry. They were inspired by the success of Arm Navigation (MoveIt!’s predecessor) on the PR2 robot. ROS-Industrial also develops and maintains ROS drivers for industrial robots (using the PR2 drivers as a template in several cases).</li>
+</ul>
+
+<p><em>What is the difference between MoveIt! and OMPL?</em></p>
+
+<ul>
+  <li><a href="http://ompl.kavrakilab.org">OMPL</a> is an open-source motion planning library that is used by MoveIt! for motion planning. MoveIt! uses an extensible plugin architecture and other motion planning libraries can also easily be integrated with MoveIt!. OMPL provides a variety of high-quality well-tested randomized planners.</li>
+</ul>
+
+<p><em>Where can I find the current status of MoveIt!?</em></p>
+
+<ul>
+  <li>You can find a list of components in MoveIt! and their status on the <a href="/about/moveit-status/">Status</a> page.</li>
+</ul>
+
+<h2 id="bugsissues">Bugs/Issues</h2>
+
+<p><em>I have a fix for a bug in the MoveIt! tutorials. What should I do?</em></p>
+
+<ul>
+  <li>The MoveIt! tutorials now live next to the code for each package. To correct the tutorials, fork the appropriate package (on github), make the corrections and do a pull request.</li>
+</ul>
+
+<p><em>I have a fix for a bug in MoveIt! itself. What should I do?</em></p>
+
+<ul>
+  <li>To correct the code, fork the appropriate repository (on github), make the corrections and do a pull request.</li>
+</ul>
+
+<p><em>I found a bug in the MoveIt! code itself, what should I do?</em></p>
+
+<ul>
+  <li>Put an issue report in the corresponding repository on github (see the <a href="/support/">Support page</a> for a list of repos).</li>
+</ul>
+
+<h2 id="robots">Robots</h2>
+
+<p><em>I would like to add a new robot to the list of robots using MoveIt!. What should I do?</em></p>
+
+<ul>
+  <li>Send an email to the moveit-users mailing list with the following information: Name of the robot, Your name, Your affiliation, Location of URDF package for robot, Location of MoveIt! package for the robot, Any additional instructions for running MoveIt! with your robot (e.g. installing additional packages, robot-specific configuration, etc.)</li>
+</ul>
+
+<p><em>I would like to be listed as an official maintainer for a robot. What are my responsibilities?</em></p>
+
+<ul>
+  <li>You need to have access to the robot and be willing to maintain its MoveIt! configuration package, the MoveIt! interface and any associated components. Other responsibilities may include answering questions on the moveit-users mailing list.</li>
+</ul>
+
+<p><em>What robots does MoveIt! support?</em></p>
+
+<ul>
+  <li>MoveIt! has been used on over 65 robots. To find a list of robots that MoveIt! has been used with, check the <a href="/robots/">Robots</a> page.</li>
+</ul>
+
+<h2 id="community">Community</h2>
+
+<p><em>How do I join the moveit-users mailing list?</em></p>
+
+<ul>
+  <li>Use this link: <a href="https://groups.google.com/forum/#!forum/moveit-users/join">Join the MoveIt! users mailing list</a> (moveit-users <em>at</em> googlegroups <em>dot</em> com)</li>
+</ul>
+
+<h2 id="code">Code</h2>
+
+<p><em>Is there a style guide for MoveIt!?</em></p>
+
+<ul>
+  <li>We use the <a href="http://wiki.ros.org/CppStyleGuide">ROS Style guide</a> for all development.</li>
+</ul>
+
+<p><em>Where can I find the changelogs for MoveIt!?</em></p>
+
+<ul>
+  <li>The change logs for MoveIt! can be found directly on the <a href="http://wiki.ros.org/moveit">MoveIt! ROS Wiki page</a>.</li>
+</ul>
+
+      </div>
+      <div class='col-sm-3 col-sm-offset-1'>
+        <h4>BLOG</h4>
+        <ul class="list-group">
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/07/02/going-underwater.html">MoveIt! goes underwater!</a></h5>
+      <p>MoveIt! on an underwater Girona500 AUV robot and 4-DOF arm for autonomous underwater manipulation...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/06/04/icra-2015-update.html">ICRA 2015 Update</a></h5>
+      <p>The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/05/25/see-you-at-icra-2015.html">See you at ICRA 2015</a></h5>
+      <p>MoveIt! will be at ICRA 2015. Catch MoveIt! developers and users at the following:...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/03/17/versatile-manipulation-baxter-robot-with-moveit-used-to-teach-robotics-fundamentals-at-columbia-university.html">Versatile Manipulation: Baxter Robot with MoveIt! Used to Teach Robotics Fundamentals at Columbia University</a></h5>
+      <p>From factory assembly lines to warehouses and living rooms, robots are always expanding their role in our lives. Both hardware and software are critical for this transformation, so students taking the Intro to Robotics class in Columbia University’s Mechanical Engineering Dept. are using a Baxter Robot (Rethink Robotics Inc.) along with MoveIt! to learn robotics fundamentals. ...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/02/18/new-pal-mobile-manipulation-robot-tiago-runs-moveit.html">New PAL Mobile Manipulation Robot TIAGo runs MoveIt!</a></h5>
+      <p>From factory assembly lines to warehouses and living rooms, robots are always expanding their role in our lives. Both hardware and software are critical for this transformation, so students taking the Intro to Robotics class in Columbia University’s Mechanical Engineering Dept. are using a Baxter Robot (Rethink Robotics Inc.) along with MoveIt! to learn robotics fundamentals. ...</p>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+</body>

@@ -1,0 +1,56 @@
+---
+author: admin
+comments: false
+date: 2015-05-24 22:40:43+00:00
+layout: post
+slug: see-you-at-icra-2015
+title: See you at ICRA 2015
+description: MoveIt! will be at ICRA 2015. Catch MoveIt! developers and users at the following:...
+media_type:
+media_link: 
+wordpress_id: 1139
+categories:
+- MoveIt!
+- ROS
+---
+
+MoveIt! will be at ICRA 2015. Catch MoveIt! developers and users at the following:
+
+
+
+###  Competitions
+
+
+
+[Amazon Picking Challenge](http://amazonpickingchallenge.org) (May 26-28, 2015) - Come watch some of the best robotic manipulation teams in the world pick objects off Kiva pods. Its completely autonomous and we expect several teams to be using MoveIt!.
+
+
+
+###  Papers
+
+
+
+
+
+####  Wednesday May 27, 2015
+
+
+
+
+
+
+
+  * ["Experience-Based Planning with Sparse Roadmap Spanners"](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_2.html#wea2t5_04), David Coleman, Ioan A. Sucan, Mark Moll, Kei Okada, and Nikolaus Correll, CU Boulder, Google X, University of Tokyo, WeA2T5 Regular Session, WSCC 609
+
+
+  * ["Towards a Data-Driven Approach to Human Preferences in Motion Planning"](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_2.html#wea2t5_07), Arjun Menon, Pooja Kacker, Sachin Chitta, SRI International, WeA2T5 Regular Session, WSCC 609
+
+
+
+
+
+
+###  Events
+
+
+[ROS Industrial Community Meeting](http://rosindustrial.org/events/2015/5/26/ros-industrial-community-meeting) - The next ROS-Industrial Community meeting will be hosted by SwRI May 26, 2015, at ICRA 2015 in Seattle in Room 620 at the WSCC. Hear presentations from community members, including Fetch Robotics, NIST, SwRI, and UT Austin, about the latest developments in open source software solutions for factory automation. The event is free to and open to all ICRA attendees.
