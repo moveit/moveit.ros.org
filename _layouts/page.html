@@ -1,0 +1,19 @@
+{% include default.html %}
+
+
+<body>
+  {% include nav-bar.html %}
+  <div class="container">
+    <div class='row'>
+      <div class='col-sm-8'>
+        <br><br><br>
+            {{ content }}
+      </div>
+      <div class='col-sm-3 col-sm-offset-1'>
+        <h4>BLOG</h4>
+        {% include side-blog.html %}
+      </div>
+    </div>
+  </div>
+
+</body>

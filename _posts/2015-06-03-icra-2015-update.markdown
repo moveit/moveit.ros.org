@@ -1,0 +1,70 @@
+---
+author: admin
+comments: false
+date: 2015-06-03 18:40:32+00:00
+layout: post
+slug: icra-2015-update
+title: ICRA 2015 Update
+description: The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part...
+media_type: image
+media_link: /wordpress/wp-content/uploads/2015/06/IMG_14271-624x467.jpg
+wordpress_id: 1149
+categories:
+- MoveIt!
+- ROS
+---
+
+The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part. We saw everything from two-armed industrial robot platforms to custom arms with a small hand attached to them. Team RBO from Berlin finished first, using a vacuum gripper and a mobile manipulator to pick 11 out of 12 objects, followed by Team MIT. Teams traveled from all over the world for the competition and some of them spent the entire night chipping away at the problem in the convention center. Perception, grasping and system integration seemed to be the key factors in how teams fared, and its interesting to note that vacuum (suction) grippers were a runaway success.
+
+
+MoveIt! was used by several teams in the competition, and also cited in several papers. Here is a list of papers presented at ICRA 2015 that cited or used MoveIt!:
+
+***
+  <div class='row'>
+    <div class='col-sm-4'>
+      <img src='/wordpress/wp-content/uploads/2015/06/IMG_1421-e1433356777714-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
+    </div>
+    <div class='col-sm-4'>
+      <img src='/wordpress/wp-content/uploads/2015/06/IMG_14271-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
+    </div>
+    <div class='col-sm-4'>
+      <img src='/wordpress/wp-content/uploads/2015/06/IMG_14351-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
+    </div>
+    <div class='col-sm-4'>
+      <img src='/wordpress/wp-content/uploads/2015/06/IMG_1438-e1433356756361-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
+    </div>
+
+  </div>
+
+---
+  1. [The Affordance Template ROS Package for Robot Task Programming](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_4.html#frp2t6_03), Stephen Hart, Paul Dinh and Kimberly Hambuchen
+
+
+  2. [New Brooms Sweep Clean - an Autonomous Robotic Cleaning Assistant for Professional Office Cleaning](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_4.html#fra1t6_03), Richard Bormann, Joshua Hampp and Martin Haegele
+
+
+  3. [Towards a Data-Driven Approach to Human Preferences in Motion Planning](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_2.html#wea2t5_07), Arjun Menon, Pooja Kacker and Sachin Chitta
+
+
+  4. [VIBI: Assistive Vision-Based Interface for Robot Manipulation](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_4.html#fra1t6_01), Camilo Alfonso Perez Quintero, Oscar Alejandro Ramirez and Martin Jagersand
+
+
+  5. [Modeling of Movement Control Architectures Based on Motion Primitives Using Domain-Specific Languages](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_4.html#fra2t5_03), Arne Nordmann, Sebastian Wrede and Jochen H. Steil
+
+
+  6. [Experience-Based Planning with Sparse Roadmap Spanners](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_2.html#wea2t5_04), David Coleman, Ioan A. S ̧ ucan, Mark Moll, Kei Okada, and Nikolaus Correll
+
+
+  7. [An Autonomous Robotic Assistant for Drinking](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_4.html#frp2t10_08), Sebastian Schroer, Ingo Killmann, Barbara Frank, Martin Volker, Lukas Fiederer, Tonio Ball and Wolfram Burgard
+
+
+  8. [Towards Manipulation Planning with Temporal Logic Specifications](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_2.html#wea1t6_04), Keliang He, Morteza Lahijanian, Lydia E. Kavraki, and Moshe Y. Vardi
+
+
+  9. [A Framework for End-User Instruction of a Robot Assistant for Manufacturing](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_4.html#frp2t5_03), Kelleher R. Guerin, Colin Lea, Chris Paxton, Gregory D. Hager
+
+
+  10. [Simultaneous Localization, Mapping, and Manipulation for Unsupervised Object Discovery](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_2.html#wep1t2_08), Lu Ma, Mahsa Ghafarianzadeh, David Coleman, Nikolaus Correll, and Gabe Sibley
+
+
+  11. [Robot Programming by Demonstration with Situated Spatial Language Understanding](https://ras.papercept.net/conferences/conferences/ICRA15/program/ICRA15_ContentListWeb_2.html#wep2t5_08), Maxwell Forbes, Rajesh P. N. Rao, Luke Zettlemoyer and Maya Cakmak

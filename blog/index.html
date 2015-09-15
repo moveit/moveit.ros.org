@@ -1,0 +1,24 @@
+---
+author: admin
+comments: false
+date: 2013-12-08 23:55:02+00:00
+layout: page
+slug: blog
+title: Blog
+
+---
+
+<ul>
+  {% for post in site.posts %}
+    <div>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.description }}</p>
+      {% if post.media_type == 'video'  %}
+        <iframe style="width:100%; " height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
+      {% elsif post.media_type == 'image' %}
+          <img src="{{ post.media_link }}" style="width:100%;">
+      {% endif %}
+    </div>
+    <hr>
+  {% endfor %}
+</ul>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link href="/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <style>
+        .brand-logo{
+            width: 62%;
+        }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
+ript>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+    <script type="text/javascript" src="/bootstrap-3.3.5-dist/js/bootstrap.min.js" ></script>
+
+  </head>
+
+</html>
+
+
+
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a  class='navbar-brand' href="/">
+          <img alt="Brand" class='brand-logo' src="/wordpress/wp-content/uploads/2014/01/moveit-title-small.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="/install/">Install</a></li>
+
+
+
+        <li class="dropdown">
+          <a href="/documentation/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Documentation <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/documentation/">Documentation</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/concepts/">Concepts</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/tutorials/">Tutorials</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/faqs/">FAQS</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/code-api/">Code API</a></li>
+          </ul>
+        </li>
+        <li><a href="/robots/">Robots</a></li>
+        <li class="dropdown">
+          <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/about/">About</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/about/moveit-status/">status</a></li>
+            <li role='separator' class='divider'>
+          </ul>
+        </li>
+        <li><a href="/media/">Media</a></li>
+        <li><a href="/support/">Support</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div class="container">
+    <div class='row'>
+      <div class='col-sm-8'>
+        <br><br><br>
+            <h1 id="beginners-tutorials">Beginner’s Tutorials</h1>
+
+<p>These tutorials will run you through how to use MoveIt! with your robot. It is assumed that you have already configured MoveIt! for your robot - check the <a href="/robots">list of robots running MoveIt!</a> to see whether MoveIt! is already available for your robot. (Otherwise, skip to the tutorial on Setting up MoveIt! for your robot).</p>
+
+<p>The primary user interface to MoveIt! is through the <em>move_group_interface</em>. You can use this interface both through C++ and Python. A GUI-based interface is available through the use of the MoveIt! Rviz Plugin. We will walk through each of these interfaces in detail.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tutorial</th>
+      <th style="text-align: left">Level</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/move_group_interface_tutorial.html">The move_group_interface (C++)</a></td>
+      <td style="text-align: left">User</td>
+      <td>This tutorial will explain how to use the C++ interface to the <em>move_group</em> node in your code</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/scripts/doc/move_group_python_interface_tutorial.html">The move_group_interface (Python)</a></td>
+      <td style="text-align: left">User</td>
+      <td>This tutorial will run you through using the python interface to the <em>move_group</em> node for scripting advanced behaviors</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/moveit_ros_visualization/html/doc/tutorial.html">The MoveIt! Rviz Plugin (Rviz)</a></td>
+      <td style="text-align: left">User</td>
+      <td>This tutorial will run you through the process of moving your robot using the MoveIt! Rviz plugin.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="advanced-tutorials">Advanced Tutorials</h1>
+
+<p>This set of advanced tutorials is meant for developers who are using MoveIt!’s C++ API. Most users wanting to access MoveIt! in C++ or Python should use the <em>move_group_interface</em> (above).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tutorial</th>
+      <th>Level</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/kinematics/src/doc/kinematics_tutorial.html">Kinematics - RobotState and RobotModel (C++)</a></td>
+      <td>Advanced</td>
+      <td>This tutorial introduces the kinematics C++ API for forward and inverse kinematics, setting and getting joint values, dealing with joint limits and computing jacobians</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/kinematics/src/doc/kinematics_configuration.html">Kinematics - Configuration</a></td>
+      <td>Advanced</td>
+      <td>This tutorial presents the configuration parameters for the Kinematics components in MoveIt!, including setting up position only IK.</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/planning_scene_tutorial.html">Planning Scene (C++)</a></td>
+      <td>Advanced</td>
+      <td>This tutorial shows how to use the planning scene C++ API for collision checking, checking constraints or for specifying user constraints</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/planning_scene_ros_api_tutorial.html">Planning Scene (ROS)</a></td>
+      <td>Advanced</td>
+      <td>This tutorial shows how to use the planning scene ROS API for adding objects into the world, removing objects form the world and attaching and detaching objects from the robot</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/motion_planning_api_tutorial.html">Motion Planning (C++)</a></td>
+      <td>Advanced</td>
+      <td>This tutorial illustrates the basics of loading a motion planner (using the ROS pluginlib library), calling it and setting joint space goals, pose goals and kinematic constraints</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/planning_pipeline_tutorial.html">Motion Planning Pipeline(C++)</a></td>
+      <td>Advanced</td>
+      <td>This tutorial illustrates the basics of loading a motion planning pipeline and the use of planning request adapters for pre-processing and post-processing</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="integrating-a-new-robot-with-moveit">Integrating a new robot with MoveIt!</h1>
+
+<p>First, check whether your robot has already been integrated with MoveIt! (see the list of <a href="/robots/">robots using MoveIt! here</a>). Otherwise, follow the tutorials in this section to integrate your robot with MoveIt! (and share your results on the MoveIt! mailing list)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tutorial</th>
+      <th>Level</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/moveit_setup_assistant/html/doc/tutorial.html">MoveIt! Setup Assistant</a></td>
+      <td>User</td>
+      <td>Configure MoveIt! for a new robot using the MoveIt! Setup Assistant and interact with a visualized model of the robot in Rviz</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/controller_configuration.html">Control</a></td>
+      <td>User</td>
+      <td>Setup MoveIt! to talk to the existing controllers on your robot</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/perception_configuration.html">Perception</a></td>
+      <td>User</td>
+      <td>Setup perception with MoveIt! and the sensors on your robot</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/moveit_ros_visualization/html/doc/tutorial.html">Rviz Integration</a></td>
+      <td>User</td>
+      <td>The Rviz Motion Planning Interface: Beginner’s Tutorial</td>
+    </tr>
+    <tr>
+      <td><a href="http://docs.ros.org/indigo/api/moveit_ikfast/html/doc/ikfast_tutorial.html">MoveIt! IKFast Tutorial</a> (Optional)</td>
+      <td>User</td>
+      <td>Creating and integrating an IKFast Kinematics Plugin with MoveIt!</td>
+    </tr>
+  </tbody>
+</table>
+
+      </div>
+      <div class='col-sm-3 col-sm-offset-1'>
+        <h4>BLOG</h4>
+        <ul class="list-group">
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/07/02/going-underwater.html">MoveIt! goes underwater!</a></h5>
+      <p>MoveIt! on an underwater Girona500 AUV robot and 4-DOF arm for autonomous underwater manipulation...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/06/04/icra-2015-update.html">ICRA 2015 Update</a></h5>
+      <p>The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/05/25/see-you-at-icra-2015.html">See you at ICRA 2015</a></h5>
+      <p>MoveIt! will be at ICRA 2015. Catch MoveIt! developers and users at the following:...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/03/17/versatile-manipulation-baxter-robot-with-moveit-used-to-teach-robotics-fundamentals-at-columbia-university.html">Versatile Manipulation: Baxter Robot with MoveIt! Used to Teach Robotics Fundamentals at Columbia University</a></h5>
+      <p>From factory assembly lines to warehouses and living rooms, robots are always expanding their role in our lives. Both hardware and software are critical for this transformation, so students taking the Intro to Robotics class in Columbia University’s Mechanical Engineering Dept. are using a Baxter Robot (Rethink Robotics Inc.) along with MoveIt! to learn robotics fundamentals. ...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/02/18/new-pal-mobile-manipulation-robot-tiago-runs-moveit.html">New PAL Mobile Manipulation Robot TIAGo runs MoveIt!</a></h5>
+      <p>From factory assembly lines to warehouses and living rooms, robots are always expanding their role in our lives. Both hardware and software are critical for this transformation, so students taking the Intro to Robotics class in Columbia University’s Mechanical Engineering Dept. are using a Baxter Robot (Rethink Robotics Inc.) along with MoveIt! to learn robotics fundamentals. ...</p>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+</body>

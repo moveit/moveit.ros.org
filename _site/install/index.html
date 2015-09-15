@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link href="/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <style>
+        .brand-logo{
+            width: 62%;
+        }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
+ript>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+    <script type="text/javascript" src="/bootstrap-3.3.5-dist/js/bootstrap.min.js" ></script>
+
+  </head>
+
+</html>
+
+
+
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a  class='navbar-brand' href="/">
+          <img alt="Brand" class='brand-logo' src="/wordpress/wp-content/uploads/2014/01/moveit-title-small.png">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="/install/">Install</a></li>
+
+
+
+        <li class="dropdown">
+          <a href="/documentation/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Documentation <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/documentation/">Documentation</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/concepts/">Concepts</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/tutorials/">Tutorials</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/documentation/faqs/">FAQS</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/code-api/">Code API</a></li>
+          </ul>
+        </li>
+        <li><a href="/robots/">Robots</a></li>
+        <li class="dropdown">
+          <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/about/">About</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/about/moveit-status/">status</a></li>
+            <li role='separator' class='divider'>
+          </ul>
+        </li>
+        <li><a href="/media/">Media</a></li>
+        <li><a href="/support/">Support</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div class="container">
+    <div class='row'>
+      <div class='col-sm-8'>
+        <br><br><br>
+            <blockquote>
+  <p><strong>MoveIt! is currently developed and works against Ubuntu and ROS Indigo and Hydro. It is recommended that you move to ROS Indigo for the latest features. MoveIt! for ROS Groovy is no longer actively supported.</strong></p>
+</blockquote>
+
+<p><em>Note for Ubuntu 13.4 32 bit users</em>: There is a bug with GCC 4.7 on Ubuntu 13.4 32bit with Eigen 3.1.2. It’s not likely to be fixed, so upgrade/downgrade your system to 13.4 64 bit resp. 12.4.</p>
+
+<p><em>If you are a developer</em>: please scroll down for instructions on installing from source. Most users should be able to use just the binary instructions.</p>
+
+<hr />
+
+<h2 id="binary-installation-instructions-for-users">Binary Installation Instructions (for users)</h2>
+
+<h4 id="step-0-install-ros">STEP 0: Install ROS</h4>
+
+<p>Follow all the instructions to install the base version of ROS: <a href="http://wiki.ros.org/indigo/Installation/Ubuntu">Install ROS-Base</a>. Please make sure you have followed all the ROS installation steps, including calls to rosdep.</p>
+
+<p>MoveIt! can be installed directly as a set of debian packages on Ubuntu. To get a complete installation, choose your ROS distribution below:</p>
+
+<h4 id="ros-hydro"><strong>ROS Hydro</strong></h4>
+
+<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+        ROS Hydro Installation Instructions
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <div class="toggle_content" style="display: block;"><p></p>
+        <h4>STEP 1: Ubuntu Installation: Debian Packages for MoveIt!</h4>
+        <div><div id="highlighter_352350" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash functions">sudo</code> <code class="bash plain">apt-get </code><code class="bash functions">install</code> <code class="bash plain">ros-hydro-moveit-full</code></div></div></td></tr></tbody></table></div></div>
+        <h4>STEP 2: Debian Packages for MoveIt! with the PR2</h4>
+        <p>If you would like to use MoveIt! with the PR2 with ROS Hydro (recommended if you are following the tutorials on the MoveIt! wiki):</p>
+        <div><div id="highlighter_919688" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash functions">sudo</code> <code class="bash plain">apt-get </code><code class="bash functions">install</code> <code class="bash plain">ros-hydro-moveit-full-pr2</code></div></div></td></tr></tbody></table></div></div>
+        <h4>STEP 3: Setup your environment</h4>
+        <div><div id="highlighter_886489" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash functions">source</code> <code class="bash plain">/opt/ros/hydro/setup</code><code class="bash plain">.</code><code class="bash functions">bash</code></div></div></td></tr></tbody></table></div></div>
+        <p></p></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h4 id="ros-indigo"><strong>ROS Indigo</strong></h4>
+
+<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+        ROS Indigo Installation Instructions
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <div class="toggle_content" style="display: block;"><p></p>
+          <h4>STEP 1: Ubuntu Installation: Debian Packages for MoveIt!</h4>
+          <div><div id="highlighter_390226" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash functions">sudo</code> <code class="bash plain">apt-get </code><code class="bash functions">install</code> <code class="bash plain">ros-indigo-moveit-full</code></div></div></td></tr></tbody></table></div></div>
+          <h4>STEP 2: Debian Packages for MoveIt! with the PR2</h4>
+          <p>These are not yet fully available for the PR2.</p>
+          <h4>STEP 3: Setup your environment</h4>
+          <div><div id="highlighter_784502" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash functions">source</code> <code class="bash plain">/opt/ros/indigo/setup</code><code class="bash plain">.</code><code class="bash functions">bash</code></div></div></td></tr></tbody></table></div></div>
+          <p></p>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 id="source-installation-instructions-for-developers">Source Installation Instructions (for developers)</h2>
+
+<h4 id="step-0-install-ros-1"><strong>STEP 0: Install ROS</strong></h4>
+
+<p>Follow all the instructions to install the base version of ROS: <a href="http://www.ros.org/wiki/hydro/Installation/Ubuntu">Install ROS-Base</a>. Please make sure you have followed all the ROS installation steps, including calls to rosdep.</p>
+
+<h4 id="step-1-get-the-wstool-package"><strong>STEP 1: Get the wstool package</strong></h4>
+
+<p><code>sudo apt-get install python-wstool</code></p>
+
+<p>Now follow the steps for your particular ROS version.</p>
+
+<h4 id="step-2--3-ros-hydro"><strong>STEP 2 &amp; 3: ROS Hydro</strong></h4>
+<div class="accordion" id="accordion3">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+        ROS Hydro Instructions
+      </a>
+    </div>
+    <div id="collapseThree" class="accordion-body collapse">
+      <div class="toggle_content" style="display: block;"><p></p>
+      <h4>STEP 2: Download the source code</h4>
+      <div><div id="highlighter_439348" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash functions">source</code> <code class="bash plain">/opt/ros/hydro/setup</code><code class="bash plain">.</code><code class="bash functions">bash</code></div><div class="line number2 index1 alt1 highlighted"><code class="bash functions">mkdir</code> <code class="bash plain">moveit</code></div><div class="line number3 index2 alt2 highlighted"><code class="bash functions">cd</code> <code class="bash plain">moveit</code></div><div class="line number4 index3 alt1 highlighted"><code class="bash functions">mkdir</code> <code class="bash plain">src</code></div><div class="line number5 index4 alt2 highlighted"><code class="bash functions">cd</code> <code class="bash plain">src/</code></div><div class="line number6 index5 alt1 highlighted"><code class="bash plain">wstool init .</code></div><div class="line number7 index6 alt2 highlighted"><code class="bash plain">wstool merge https:</code><code class="bash plain">//raw</code><code class="bash plain">.github.com</code><code class="bash plain">/ros-planning/moveit_docs/hydro-devel/moveit</code><code class="bash plain">.rosinstall</code></div><div class="line number8 index7 alt1 highlighted"><code class="bash plain">wstool update</code></div><div class="line number9 index8 alt2 highlighted"><code class="bash functions">cd</code> <code class="bash plain">..</code></div></div></td></tr></tbody></table></div></div>
+      <h4>STEP 3: Make sure MoveIt! dependencies are installed</h4>
+      <div><div id="highlighter_550652" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash plain">rosdep </code><code class="bash functions">install</code> <code class="bash plain">--from-paths src --ignore-src --rosdistro hydro -y</code></div></div></td></tr></tbody></table></div></div>
+      <p></p></div>
+    </div>
+  </div>
+</div>
+
+<h4 id="step-2--3-ros-indigo"><strong>STEP 2 &amp; 3: ROS Indigo</strong></h4>
+
+<div class="accordion" id="accordion3">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+        ROS Indigo Instructions
+      </a>
+    </div>
+    <div id="collapseFour" class="accordion-body collapse">
+    <div class="toggle_content" style="display: block;"><p></p>
+    <h4>STEP 2: Download the source code</h4>
+    <div><div id="highlighter_230766" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash functions">source</code> <code class="bash plain">/opt/ros/indigo/setup</code><code class="bash plain">.</code><code class="bash functions">bash</code></div><div class="line number2 index1 alt1 highlighted"><code class="bash functions">mkdir</code> <code class="bash plain">moveit</code></div><div class="line number3 index2 alt2 highlighted"><code class="bash functions">cd</code> <code class="bash plain">moveit</code></div><div class="line number4 index3 alt1 highlighted"><code class="bash functions">mkdir</code> <code class="bash plain">src</code></div><div class="line number5 index4 alt2 highlighted"><code class="bash functions">cd</code> <code class="bash plain">src/</code></div><div class="line number6 index5 alt1 highlighted"><code class="bash plain">wstool init .</code></div><div class="line number7 index6 alt2 highlighted"><code class="bash plain">wstool merge https:</code><code class="bash plain">//raw</code><code class="bash plain">.github.com</code><code class="bash plain">/ros-planning/moveit_docs/indigo-devel/moveit</code><code class="bash plain">.rosinstall</code></div><div class="line number8 index7 alt1 highlighted"><code class="bash plain">wstool update</code></div><div class="line number9 index8 alt2 highlighted"><code class="bash functions">cd</code> <code class="bash plain">..</code></div></div></td></tr></tbody></table></div></div>
+    <h4>STEP 3: Make sure MoveIt! dependencies are installed</h4>
+    <div><div id="highlighter_730265" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash plain">rosdep </code><code class="bash functions">install</code> <code class="bash plain">--from-paths src --ignore-src --rosdistro indigo -y</code></div></div></td></tr></tbody></table></div></div>
+    <p></p></div>
+    </div>
+  </div>
+</div>
+
+<h4 id="step-4-build-moveit"><strong>STEP 4: Build MoveIt!</strong></h4>
+
+<p>Assuming you are in the moveit folder created above,</p>
+
+<p><code>catkin_make</code></p>
+
+<h4 id="step-5-setup-your-environment"><strong>STEP 5: Setup your environment</strong></h4>
+
+<p>You will have to do this every time you work with this particular source install of the code. Assuming you are in the moveit folder created above,</p>
+
+<p><code>
+  source devel/setup.bash
+  # or .zsh, depending on your shell
+</code></p>
+
+      </div>
+      <div class='col-sm-3 col-sm-offset-1'>
+        <h4>BLOG</h4>
+        <ul class="list-group">
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/07/02/going-underwater.html">MoveIt! goes underwater!</a></h5>
+      <p>MoveIt! on an underwater Girona500 AUV robot and 4-DOF arm for autonomous underwater manipulation...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/06/04/icra-2015-update.html">ICRA 2015 Update</a></h5>
+      <p>The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/05/25/see-you-at-icra-2015.html">See you at ICRA 2015</a></h5>
+      <p>MoveIt! will be at ICRA 2015. Catch MoveIt! developers and users at the following:...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/03/17/versatile-manipulation-baxter-robot-with-moveit-used-to-teach-robotics-fundamentals-at-columbia-university.html">Versatile Manipulation: Baxter Robot with MoveIt! Used to Teach Robotics Fundamentals at Columbia University</a></h5>
+      <p>From factory assembly lines to warehouses and living rooms, robots are always expanding their role in our lives. Both hardware and software are critical for this transformation, so students taking the Intro to Robotics class in Columbia University’s Mechanical Engineering Dept. are using a Baxter Robot (Rethink Robotics Inc.) along with MoveIt! to learn robotics fundamentals. ...</p>
+    </li>
+  
+    <li class="list-group-item">
+      <h5><a href="/moveit!/ros/2015/02/18/new-pal-mobile-manipulation-robot-tiago-runs-moveit.html">New PAL Mobile Manipulation Robot TIAGo runs MoveIt!</a></h5>
+      <p>From factory assembly lines to warehouses and living rooms, robots are always expanding their role in our lives. Both hardware and software are critical for this transformation, so students taking the Intro to Robotics class in Columbia University’s Mechanical Engineering Dept. are using a Baxter Robot (Rethink Robotics Inc.) along with MoveIt! to learn robotics fundamentals. ...</p>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+</body>

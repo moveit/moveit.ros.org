@@ -1,0 +1,17 @@
+{% include default.html %}
+
+
+<body>
+  {% include nav-bar.html %}
+  <div class="container">
+    <div class='row'>
+      <div class='col-sm-8'>
+        <br><br><br>
+        <h3>{{ page.title }}</h3>
+        {{ content }}
+        {% include share-page.html %}
+      </div>
+    </div>
+  </div>
+
+</body>

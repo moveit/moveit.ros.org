@@ -1,0 +1,16 @@
+/*
+ Theme Name:   MoveIt Theme
+ Theme URI:    http://moveit.ros.org
+ Description:  Theme for MoveIt site, child of Twenty Twelve
+ Author:       Dave Hershberger
+ Author URI:   http://moveit.ros.org
+ Template:     twentytwelve
+ Version:      1.0.0
+ Tags:         custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, gray, light, microformats, one-column, post-formats, right sidebar, rtl-language-support, sticky-post, theme-options, translation-ready, two columns, white
+ Text Domain:  twenty-twelve-moveit-child
+*/
+
+@import url("../twentyfourteen/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
