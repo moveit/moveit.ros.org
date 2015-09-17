@@ -22,3 +22,5 @@ MoveIt! is the most widely used open-source software for manipulation and has be
 
 
 **Need Custom Development?**: If you need help with integration of MoveIt! on your robot or applications, please email _robot_ dot _moveit_ at _gmail_ dot _com_
+
+**<h5><a href="https://groups.google.com/forum/#!forum/moveit-users/join">Join the MoveIt! users mailing list</a></h5>
