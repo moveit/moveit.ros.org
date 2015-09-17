@@ -23,8 +23,7 @@ MoveIt! is the most widely used open-source software for manipulation and has be
 
 **Need Custom Development?**: If you need help with integration of MoveIt! on your robot or applications, please email _robot_ dot _moveit_ at _gmail_ dot _com_
 
-<a href="https://groups.google.com/forum/#!forum/moveit-users/join">Join the MoveIt! users mailing list</a>
-
 <a href="https://twitter.com/moveitrobot" class="twitter-follow-button" data-show-count="false">Follow @moveitrobot</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
+Join the <a href="https://groups.google.com/forum/#!forum/moveit-users/join">MoveIt! users mailing list</a>
