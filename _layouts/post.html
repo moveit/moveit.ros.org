@@ -3,15 +3,32 @@
 
 <body>
   {% include nav-bar.html %}
+  <br><br><br><br><br>
   <div class="container">
     <div class='row'>
       <div class='col-sm-8'>
         <br><br><br>
         <h3>{{ page.title }}</h3>
         {{ content }}
+        <hr>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-sm-12'>
         {% include share-page.html %}
       </div>
     </div>
+    <hr>
+    <div class='row'>
+      <div class='col-sm-4'>
+        <-- <a href="{{page.next.url}}">{{ page.next.title }}</a>
+      </div>
+      <div class='col-sm-4'></div>
+      <div class='col-sm-4'>
+        <a href="{{page.previous.url}}">{{ page.previous.title }}</a> -->
+      </div>
+    </div>
   </div>
-
+  <br><br><br><br>
 </body>
+{% include footer.html %}
