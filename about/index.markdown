@@ -25,7 +25,8 @@ We are working on a technical publication that will be a better resource to cite
   * Ioan A. Sucan and Sachin Chitta, "MoveIt!", [Online] Available: [http://moveit.ros.org](http://moveit.ros.org)
 
 
-
+### Website 
+The website is maintained by Sachin Chitta and Praveen Singh.
 
 ### License
 
