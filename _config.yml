@@ -1,1 +1,3 @@
 url: http://julienking.github.io
+gems:
+  - jekyll-feed
