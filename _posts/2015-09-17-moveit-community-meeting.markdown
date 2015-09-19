@@ -5,9 +5,9 @@ date: 2015-09-17 18:15:12+00:00
 layout: post
 slug: moveit-community
 title: Report on First MoveIt! Community Meeting
-description: Watch video of the First MoveIt! Community Meeting in case you missed it.
+description: Watch video of the First MoveIt! Community Meeting in case you missed it. Thank you for coming to the MoveIt! Community Meeting and thanks to the presenters for making this a huge success. There were more than 240 people registered and more than 150 who attended from all over the world...
 media_type: video
-media_link: https://youtu.be/D5rs9uLrveg
+media_link: https://www.youtube.com/embed/D5rs9uLrveg
 categories:
 - MoveIt!
 - ROS
