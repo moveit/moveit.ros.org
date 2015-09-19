@@ -6,7 +6,10 @@ layout: page
 slug: wiki
 title: Wiki Deprecated
 redirect_from: 
-  - "/wiki/Environment_Representation/Overview"
+  - "/wiki/Environment_Representation/Overview/"
+  - "/wiki/"
 ---
 
-The MoveIt! wiki has been deprecated and removed.
+**MoveIt! Wiki Deprecated**
+
+The MoveIt! wiki has been deprecated and removed. All documentation can now be found in the [Documentation](documentation) part of this website.  
