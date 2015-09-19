@@ -1,3 +1,4 @@
 url: http://julienking.github.io
 gems:
   - jekyll-feed
+  - jekyll-redirect-from
