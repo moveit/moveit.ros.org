@@ -9,7 +9,7 @@ description: The Shadow Robot Company has released the RoNex series of products 
 media_type: video
 media_link: https://www.youtube.com/embed/Dk5-1W1d6zw
 redirect_from: 
-  - "/blog/ronex-and-moveit/"
+  - "/ronex-and-moveit/"
 wordpress_id: 1057
 categories:
 - MoveIt!

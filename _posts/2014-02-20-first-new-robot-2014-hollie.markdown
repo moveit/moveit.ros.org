@@ -9,7 +9,7 @@ description: HoLLiE is an Acronym for “House of Living Labs intelligent Escort
 media_type: image
 media_link: /wordpress/wp-content/uploads/2014/02/hollie.png
 redirect_from: 
-  - "/blog/first-new-robot-2014-hollie/"
+  - "/first-new-robot-2014-hollie/"
 wordpress_id: 918
 categories:
 - General

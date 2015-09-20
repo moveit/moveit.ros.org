@@ -9,7 +9,7 @@ description: Risto Kojcev, a joint PhD student between the BioRobotics Institute
 media_type: video
 media_link: https://www.youtube.com/embed/jQc3z7FQwHw
 redirect_from: 
-  - "/blog/new-capabilities-in-moveit-the-cartesian-path-planner-plugin/"
+  - "/new-capabilities-in-moveit-the-cartesian-path-planner-plugin/"
 wordpress_id: 1081
 categories:
 - MoveIt!

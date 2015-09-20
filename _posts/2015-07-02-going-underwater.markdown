@@ -9,7 +9,7 @@ description: MoveIt! on an underwater Girona500 AUV robot and 4-DOF arm for auto
 media_type: video
 media_link: https://www.youtube.com/embed/VuSOrMWsfbg
 redirect_from: 
-  - "/blog/going-underwater/"
+  - "/going-underwater/"
 wordpress_id: 1181
 categories:
 - MoveIt!
