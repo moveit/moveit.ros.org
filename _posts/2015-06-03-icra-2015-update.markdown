@@ -8,6 +8,8 @@ title: ICRA 2015 Update
 description: The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part...
 media_type: image
 media_link: /wordpress/wp-content/uploads/2015/06/IMG_14271-624x467.jpg
+redirect_from: 
+  - "/blog/icra-2015-update/"
 wordpress_id: 1149
 categories:
 - MoveIt!
