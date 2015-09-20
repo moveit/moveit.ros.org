@@ -9,7 +9,7 @@ description: Alten Mechatronics recently used the motion planners available with
 media_type: video
 media_link: https://www.youtube.com/embed/VfEJ_xxU4LY
 redirect_from: 
-  - "/blog/alten-mechatronics-applies-robotic-technology-in-fei-transmission-electron-microscopes-tem/"
+  - "/alten-mechatronics-applies-robotic-technology-in-fei-transmission-electron-microscopes-tem/"
 wordpress_id: 1093
 categories:
 - MoveIt!

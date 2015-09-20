@@ -9,7 +9,7 @@ description: From factory assembly lines to warehouses and living rooms, robots 
 media_type: image
 media_link: /wordpress/wp-content/uploads/2015/02/TIAGO.png
 redirect_from: 
-  - "/blog/new-pal-mobile-manipulation-robot-tiago-runs-moveit/"
+  - "/new-pal-mobile-manipulation-robot-tiago-runs-moveit/"
 wordpress_id: 1117
 categories:
 - MoveIt!

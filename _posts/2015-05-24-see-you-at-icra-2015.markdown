@@ -9,7 +9,7 @@ description: MoveIt! will be at ICRA 2015. Catch MoveIt! developers and users at
 media_type:
 media_link: 
 redirect_from: 
-  - "/blog/see-you-at-icra-2015/"
+  - "/see-you-at-icra-2015/"
 wordpress_id: 1139
 categories:
 - MoveIt!

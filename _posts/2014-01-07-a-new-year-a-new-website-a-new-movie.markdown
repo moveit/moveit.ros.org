@@ -9,7 +9,7 @@ description: The MoveIt! development team would like to wish you a very happy ne
 media_type: video
 media_link: https://www.youtube.com/embed/dblCGZzeUqs
 redirect_from: 
-  - "/blog/a-new-year-a-new-website-a-new-movie/"
+  - "/a-new-year-a-new-website-a-new-movie/"
 wordpress_id: 744
 categories:
 - MoveIt!

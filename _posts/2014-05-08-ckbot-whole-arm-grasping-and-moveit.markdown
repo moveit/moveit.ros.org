@@ -9,7 +9,7 @@ description: Jun Seo, at the GRASP Lab in the University of Pennsylvania, has be
 media_type: video
 media_link: https://www.youtube.com/embed/EK6f5495fXs
 redirect_from: 
-  - "/blog/ckbot-whole-arm-grasping-and-moveit/"
+  - "/ckbot-whole-arm-grasping-and-moveit/"
 wordpress_id: 984
 categories:
 - MoveIt!

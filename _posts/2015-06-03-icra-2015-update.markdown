@@ -9,7 +9,7 @@ description: The 2015 IEEE ICRA conference featured a large number of participan
 media_type: image
 media_link: /wordpress/wp-content/uploads/2015/06/IMG_14271-624x467.jpg
 redirect_from: 
-  - "/blog/icra-2015-update/"
+  - "/icra-2015-update/"
 wordpress_id: 1149
 categories:
 - MoveIt!

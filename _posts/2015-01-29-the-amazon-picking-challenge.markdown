@@ -9,7 +9,7 @@ description: Amazon's automated warehouses are successful at removing much of th
 media_type: image
 media_link: /wordpress/wp-content/uploads/2015/01/amazon_pick_banner_robot.png
 redirect_from: 
-  - "/blog/the-amazon-picking-challenge/"
+  - "/the-amazon-picking-challenge/"
 wordpress_id: 1097
 categories:
 - MoveIt!
