@@ -1,0 +1,20 @@
+---
+author: admin
+comments: false
+date: 2013-10-22 08:15:12+00:00
+layout: post
+slug: robobusiness-2013
+title: MoveIt! at RoboBusiness 2013
+description: MoveIt! was demonstrated at RoboBusiness 2013 and the ROS-Industrial Consortium Meeting.
+media_type: image
+media_link: http://moveit.ros.org/assets/robobusiness.png
+categories:
+- MoveIt!
+- ROS
+---
+![]({{ site.url }}/assets/robobusiness.png)
+
+**MoveIt! at RoboBusiness 2013 and the ROS-Industrial Consortium Meeting (Oct. 23-25, 2013)**
+
+* Sachin Chitta is giving an update on MoveIt! at the ROS-Industrial Consortium Meeting on Wednesday, October 23, 2013 at 10:10 AM.
+* MoveIt! will be featured at the SRI International booth at RoboBusiness 2013 on Thursday, October 24 and Friday, October 25, 2013 where core members of the MoveIt! development team (including Sachin, Acorn Pooley and Dave Hershberger) will be on hand at different times to talk about future plans and new features for MoveIt! 
