@@ -8,6 +8,8 @@ title: 'Versatile Manipulation: Baxter Robot with MoveIt! Used to Teach Robotics
 description: From factory assembly lines to warehouses and living rooms, robots are always expanding their role in our lives. Both hardware and software are critical for this transformation, so students taking the Intro to Robotics class in Columbia University’s Mechanical Engineering Dept. are using a Baxter Robot (Rethink Robotics Inc.) along with MoveIt! to learn robotics fundamentals. ...
 media_type: image
 media_link: /wordpress/wp-content/uploads/2015/03/IMG_7324.jpg
+redirect_from: 
+  - "/blog/versatile-manipulation-baxter-robot-with-moveit-used-to-teach-robotics-fundamentals-at-columbia-university/"
 wordpress_id: 1129
 categories:
 - MoveIt!

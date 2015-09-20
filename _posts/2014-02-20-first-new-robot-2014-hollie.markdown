@@ -8,6 +8,8 @@ title: First new robot of 2014 - HoLLiE
 description: HoLLiE is an Acronym for “House of Living Labs intelligent Escort“ and was developed at the FZI Karlsruhe as part of the “House of Living Labs” (HoLL).
 media_type: image
 media_link: /wordpress/wp-content/uploads/2014/02/hollie.png
+redirect_from: 
+  - "/blog/first-new-robot-2014-hollie/"
 wordpress_id: 918
 categories:
 - General

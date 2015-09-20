@@ -8,6 +8,8 @@ title: Alten Mechatronics Applies Robotic Technology in FEI Transmission Electro
 description: Alten Mechatronics recently used the motion planners available with MoveIt! for a new application with path planning for Transmission Electron Microscopes. Read the ROS-I blog post and watch the movie below for more details about this novel use of MoveIt! to plan collision-free paths.
 media_type: video
 media_link: https://www.youtube.com/embed/VfEJ_xxU4LY
+redirect_from: 
+  - "/blog/alten-mechatronics-applies-robotic-technology-in-fei-transmission-electron-microscopes-tem/"
 wordpress_id: 1093
 categories:
 - MoveIt!

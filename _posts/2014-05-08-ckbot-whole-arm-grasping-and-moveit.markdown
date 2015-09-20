@@ -8,6 +8,8 @@ title: CKBot, Whole-arm Grasping and MoveIt!
 description: Jun Seo, at the GRASP Lab in the University of Pennsylvania, has been working on integrating MoveIt! with the CKBot robotic platform. CKBot is a modular robot that can be configured in custom ways for different tasks. It consists of cubical modules approximately 6 cm on each side that can be connected to each other quickly. Jun has written a [fantastic tutorial](http://www.seas.upenn.edu/~juse/tutorial/ckbot_moveit.html) on the integration of MoveIt! with CKBot, which is a good template for anyone integrating a new custom robot with MoveIt!.
 media_type: video
 media_link: https://www.youtube.com/embed/EK6f5495fXs
+redirect_from: 
+  - "/blog/ckbot-whole-arm-grasping-and-moveit/"
 wordpress_id: 984
 categories:
 - MoveIt!
