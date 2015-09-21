@@ -13,16 +13,16 @@ wordpress_id: 408
   * Company: Rethink Robotics
 
 	
-  * Website:
+  * Website: http://sdk.rethinkrobotics.com
 
 	
   * MoveIt! Config Package: [https://github.com/ros-planning/moveit_robots/tree/master/baxter](https://github.com/ros-planning/moveit_robots/tree/master/baxter)
 
 	
-  * Maintainer(s) : 
+  * Maintainer(s) : rsdk.support@rethinkrobotics.com
 
 	
-  * STATUS: [Alpha]()
+  * STATUS: [Release 1.1]()
 
 
 
@@ -34,7 +34,7 @@ wordpress_id: 408
 
 
 	
-  * ROS Groovy (Current)
+  * ROS Indigo (Current)
 
 
 
@@ -42,15 +42,12 @@ wordpress_id: 408
 ### Installation
 
 
+For install instructions, please follow Rethink Robotics MoveIt tutorial: http://sdk.rethinkrobotics.com/wiki/MoveIt_Tutorial 
 
+#### Kinect with Baxter and Moveit
+A tutorial to get started with the Kinect: http://sdk.rethinkrobotics.com/wiki/Kinect_basics
 
-
-	
-  1. Follow [MoveIt! installation instructions](/install)
-
-	
-  2. Install the moveit_robots package (which contains the Baxter moveit config package):[sourcecode language="bash" gutter="false"]
-sudo apt-get install ros-groovy-moveit-robots
-[/sourcecode]
-
+#### Custom IKFast
+To create a custom IKFast package for your specific Baxter, please follow this tutorial:
+http://sdk.rethinkrobotics.com/wiki/Custom_IKFast_for_your_Baxter
 
