@@ -42,12 +42,11 @@ wordpress_id: 408
 ### Installation
 
 
-For install instructions, please follow Rethink Robotics MoveIt tutorial: http://sdk.rethinkrobotics.com/wiki/MoveIt_Tutorial 
+For install instructions, please follow [Rethink Robotics MoveIt tutorial](http://sdk.rethinkrobotics.com/wiki/MoveIt_Tutorial)
 
 #### Kinect with Baxter and Moveit
-A tutorial to get started with the Kinect: http://sdk.rethinkrobotics.com/wiki/Kinect_basics
+A tutorial to get [started with the Kinect](http://sdk.rethinkrobotics.com/wiki/Kinect_basics)
 
 #### Custom IKFast
-To create a custom IKFast package for your specific Baxter, please follow this tutorial:
-http://sdk.rethinkrobotics.com/wiki/Custom_IKFast_for_your_Baxter
+To create a custom IKFast package for your specific Baxter, please follow [this tutorial](http://sdk.rethinkrobotics.com/wiki/Custom_IKFast_for_your_Baxter)
 
