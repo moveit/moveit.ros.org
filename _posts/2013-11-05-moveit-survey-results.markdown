@@ -6,11 +6,16 @@ layout: post
 slug: moveit-survey-results
 title: MoveIt! Survey Results (2013)
 description: The results of the MoveIt! survey are in.
+redirect_from: 
+  - "data/surveys/MoveIt!-2013-Survey.pdf"
 categories:
 - MoveIt!
 - ROS
 ---
-Results of the MoveIt! Survey are now posted here. The response was fantastic - we had 105 responses by the deadline. There are 65 different robots on which MoveIt! is being used now, with multiple instances of each robot listed in the survey. Read the report to see more!
+Results of the MoveIt! Survey are now posted [here]({{ site.url }}/assets/pdfs/2013/survey/MoveIt!-2013-Survey.pdf). The response was fantastic - we had 105 responses by the deadline. There are 65 different robots on which MoveIt! is being used now, with multiple instances of each robot listed in the survey. Read the report to see more!
+
+**List of Robots using MoveIt!**
+
 * ABB IRB2400    
 * ABB IRB6640    
 * Aldebaran Nao (2)    
