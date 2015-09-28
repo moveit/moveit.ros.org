@@ -1,0 +1,30 @@
+---
+author: admin
+comments: false
+date: 2015-09-28 08:15:12+00:00
+layout: post
+slug: iros
+title: MoveIt! Upcoming Events - IROS 2015
+media_type: image
+media_link: http://moveit.ros.org/assets/iros2015.jpg
+description: Come meet MoveIt! developers and users at IROS 2015 in Hamburg...
+categories:
+- MoveIt!
+- ROS
+---
+
+![]({{ site.url }}/assets/iros2015.jpg)
+
+Come meet MoveIt! and ROS developers and users at IROS 2015 in Hamburg. MoveIt! is cited in several papers in the conference:
+
+* Paper WeFT4.4, Deng, Hao (Shenzhen Institutes of Advance Technology, Chinese Academy of Sc), Xia, Zeyang (Shenzhen Institutes of Advanced Technology, Chinese Academy of S), Weng, Shaokui (Shenzhen Institutes of Advanced Technology), Gan, Yangzhou (Shenzhen Institutes of Advance Technology, Chinese Academy of Sc), Xiong, Jing (Chinese Academy of Sciences), Ou, Yongsheng (Lehigh University), Zhang, Jianwei (University of Hamburg), [Motion Planning and Control of a Robotic System for Orthodontic Archwire Bending](https://ras.papercept.net/conferences/scripts/abstract.pl?ConfID=103&Number=2142)
+* Paper ThDT4.5, Wabersich, Kim Peter (University of Stuttgart), Toussaint, Marc (University of Stuttgart), [Automatic Testing and MiniMax Optimization of System Parameters for Best Worst-Case Performance](https://ras.papercept.net/conferences/scripts/abstract.pl?ConfID=103&Number=1562)
+* Paper TuFT7.2, Holz, Dirk (University of Bonn), Topalidou-Kyniazopoulou, Angeliki (University of Bonn), Stueckler, Joerg (Technical University Munich), Behnke, Sven (University of Bonn), [Real-Time Object Detection, Localization and Verification for Fast Robotic Depalletizing](https://ras.papercept.net/conferences/scripts/abstract.pl?ConfID=103&Number=648)
+* Paper WeAT1.5, Gao, Yixing (Imperial College London), Chang, Hyung Jin (Imperial College London), Demiris, Yiannis (Imperial College London) [User Modelling for Personalised Dressing Assistance by Humanoid Robots](https://ras.papercept.net/conferences/scripts/abstract.pl?ConfID=103&Number=1159)
+* Paper ThCT7.1, Luo, Ren (National Taiwan University), Lai, Po-Jen (National Taiwan University), Ee, Vincent Wei Sen (National Taiwan University), [Transparent Object Recognition and Retrieval for Robotic Bio-Laboratory Automation Applications](https://ras.papercept.net/conferences/scripts/abstract.pl?ConfID=103&Number=1902)
+
+Several companies using MoveIt! and ROS will also be at the conference. Make sure to visit their booths:
+
+* PAL Robotics
+* Rethink Robotics
+* Clearpath Robotics
