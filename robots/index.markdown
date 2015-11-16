@@ -183,6 +183,15 @@ wordpress_id: 127
 															<td><a title="MEKA M3" href="/meka-m3/">MEKA M3</a></td>
 															<td><a title="HOLLIE" href="/hollie/">HOLLIE</a></td>
 														</tr>
+
+<tr><td><a title="Robotis-Bioloid" href="/robotis-bioloid/"><img title="RobotisBioloid" src="/assets/bioloid-moveit.png" alt="" width="95" height="120"></a></td>
+															<td><a title="Scorbot ER4U" href="/scorbot-er4u"><img title="ScorbotER4U" src="/assets/scorbot-er4u.jpg" alt="" width="160" height="120"></a></td>
+																												</tr>
+
+														<tr><td><a title="Robotis Bioloid" href="/robotis-bioloid/">Robotis Bioloid</a></td>
+															<td><a title="Scorbot ER4U" href="/scorbot-er4u/">Scorbot ER4U</a></td>
+																													</tr>
+
 													</tbody></table><br>
 													<table style="width:100%; " class="table">
 														<tbody>
