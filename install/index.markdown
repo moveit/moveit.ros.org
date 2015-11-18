@@ -62,10 +62,10 @@ MoveIt! can be installed directly as a set of debian packages on Ubuntu. To get 
 
 #### **ROS Indigo**
 
-<div class="accordion" id="accordion2">
+<div class="accordion" id="accordion3">
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseTwo">
         ROS Indigo Installation Instructions
       </a>
     </div>
@@ -102,10 +102,10 @@ Follow all the instructions to install the base version of ROS: [Install ROS-Bas
 Now follow the steps for your particular ROS version.
 
 #### **STEP 2 & 3: ROS Hydro**
-<div class="accordion" id="accordion3">
+<div class="accordion" id="accordion4">
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#collapseThree">
         ROS Hydro Instructions
       </a>
     </div>
@@ -124,10 +124,10 @@ Now follow the steps for your particular ROS version.
 
 #### **STEP 2 & 3: ROS Indigo**
 
-<div class="accordion" id="accordion3">
+<div class="accordion" id="accordion5">
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseFour">
         ROS Indigo Instructions
       </a>
     </div>
@@ -145,10 +145,10 @@ Now follow the steps for your particular ROS version.
 
 #### **STEP 2 & 3: ROS Jade**
 
-<div class="accordion" id="accordion3">
+<div class="accordion" id="accordion6">
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#collapseFour">
         ROS Jade Instructions (Using Indigo binaries)
       </a>
     </div>
