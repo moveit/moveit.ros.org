@@ -148,11 +148,11 @@ Now follow the steps for your particular ROS version.
 <div class="accordion" id="accordion6">
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#collapseFour">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#collapseFive">
         ROS Jade Instructions (Using Indigo binaries)
       </a>
     </div>
-    <div id="collapseFour" class="accordion-body collapse">
+    <div id="collapseFive" class="accordion-body collapse">
     <div class="toggle_content" style="display: block;"><p></p>
     <h4>STEP 2: Download the source code</h4>
     <div><div id="highlighter_230766" class="syntaxhighlighter nogutter  bash"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container"><div class="line number1 index0 alt2 highlighted"><code class="bash functions">source</code> <code class="bash plain">/opt/ros/indigo/setup</code><code class="bash plain">.</code><code class="bash functions">bash</code></div><div class="line number2 index1 alt1 highlighted"><code class="bash functions">mkdir</code> <code class="bash plain">moveit</code></div><div class="line number3 index2 alt2 highlighted"><code class="bash functions">cd</code> <code class="bash plain">moveit</code></div><div class="line number4 index3 alt1 highlighted"><code class="bash functions">mkdir</code> <code class="bash plain">src</code></div><div class="line number5 index4 alt2 highlighted"><code class="bash functions">cd</code> <code class="bash plain">src/</code></div><div class="line number6 index5 alt1 highlighted"><code class="bash plain">wstool init .</code></div><div class="line number7 index6 alt2 highlighted"><code class="bash plain">wstool merge https:</code><code class="bash plain">//raw</code><code class="bash plain">.github.com</code><code class="bash plain">/ros-planning/moveit_docs/jade-devel/moveit</code><code class="bash plain">.rosinstall</code></div><div class="line number8 index7 alt1 highlighted"><code class="bash plain">wstool update</code></div><div class="line number9 index8 alt2 highlighted"><code class="bash functions">cd</code> <code class="bash plain">..</code></div></div></td></tr></tbody></table></div></div>
