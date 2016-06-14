@@ -20,6 +20,7 @@ Tutorial | Level | Description
 [The move_group_interface (C++)](http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/move_group_interface_tutorial.html) | User | This tutorial will explain how to use the C++ interface to the _move_group_ node in your code
 [The move_group_interface (Python)](http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/scripts/doc/move_group_python_interface_tutorial.html) |User|This tutorial will run you through using the python interface to the _move_group_ node for scripting advanced behaviors
 [The MoveIt! Rviz Plugin (Rviz)](http://docs.ros.org/indigo/api/moveit_ros_visualization/html/doc/tutorial.html) | User |This tutorial will run you through the process of moving your robot using the MoveIt! Rviz plugin.
+[Rviz Joystick Control (Rviz)](http://docs.ros.org/jade/api/moveit_ros_visualization/html/doc/joystick.html) | User |How to use a PS3 or Xbox controller to move end effectors in Rviz and plan to new poses
 
 # Advanced Tutorials
 
