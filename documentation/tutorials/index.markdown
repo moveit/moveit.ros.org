@@ -52,3 +52,4 @@ Tutorial | Level | Description
 [Perception](http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/perception_configuration.html) | User | Setup perception with MoveIt! and the sensors on your robot
 [Rviz Integration](http://docs.ros.org/indigo/api/moveit_ros_visualization/html/doc/tutorial.html) | User |The Rviz Motion Planning Interface: Beginner's Tutorial
 [MoveIt! IKFast Tutorial](http://docs.ros.org/indigo/api/moveit_ikfast/html/doc/ikfast_tutorial.html) (Optional) | User | Creating and integrating an IKFast Kinematics Plugin with MoveIt!
+[MoveIt! TRAC-IK Plugin](https://bitbucket.org/traclabs/trac_ik/src/HEAD/trac_ik_kinematics_plugin/) (Optional) | User | Using TRAC-IK for improved MoveIt! Inverse Kinematics over the default KDL solver
