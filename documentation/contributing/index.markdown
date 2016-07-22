@@ -97,6 +97,6 @@ Isaac IY Saito | Tokyo Open Source Robotics | [130s](https://github.com/130s) | 
 Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta) | Original Manager & Author of MoveIt!
 Ioan Sucan | Google X | [isucan](https://github.com/isucan) | Original Author of MoveIt!
 Ian McMahon | Rethink Robotics | [IanTheEngineer](https://github.com/IanTheEngineer) | Releasing
-Gijs Hoorn | Delft Univ / ROS-Industrial | [gavanderhoorn](https://github.com/gavanderhoorn) | IKFast Plugin
+Gijs Hoorn | Delft University of Technology | [gavanderhoorn](https://github.com/gavanderhoorn) | IKFast Plugin
 Jorge Nicho | SwRI / ROS-Industrial | [jrgnicho](https://github.com/jrgnicho) | IKFast Plugin
 Christian Dornhege | University of Freiburg | [dornhege](https://github.com/dornhege) | PR2 Code Base
