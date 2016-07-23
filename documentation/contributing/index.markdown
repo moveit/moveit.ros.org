@@ -98,5 +98,5 @@ Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta)
 Ioan Sucan | Google X | [isucan](https://github.com/isucan) | Original Author of MoveIt!
 Ian McMahon | Rethink Robotics | [IanTheEngineer](https://github.com/IanTheEngineer) | Releasing
 Gijs van der Hoorn | Delft Univ. of Tech / ROS-Industrial. | [gavanderhoorn](https://github.com/gavanderhoorn) | IKFast Plugin
-Jorge Nicho | SwRI / ROS-Industrial | [jrgnicho](https://github.com/jrgnicho) | IKFast Plugin
+Jorge Nicho | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho) | IKFast Plugin
 Christian Dornhege | University of Freiburg | [dornhege](https://github.com/dornhege) | PR2 Code Base
