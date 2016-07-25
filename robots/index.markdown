@@ -131,27 +131,27 @@ wordpress_id: 127
 									<table style="width:100%; " class="table">
 										<tbody>
 											<tr><td><a title="PhantomX Pincher" href="/phantomx-pincher"><img title="ArbotixPincher" src="/wordpress/wp-content/uploads/2013/12/ArbotixPincher-e1388531950445.jpg" alt="" width="120" height="120"></a></td>
-												<td><a title="ClamArm" href="/clamarm/"><img title="clamarm" src="/wordpress/wp-content/uploads/2013/12/clamarm-e1388531998109.jpg" alt="" width="162" height="120"></a></td>
 												<td><a title="HDT Arm" href="/hdt-arm"><img title="hdtarm" src="/wordpress/wp-content/uploads/2013/12/hdtarm-e1388532070528.jpg" alt="" width="240" height="120"></a></td>
 												<td><a title="Lynxmotion Servo" href="/lynxmotion-servo"><img title="LynxMotionArm" src="/wordpress/wp-content/uploads/2013/12/LynxMotionArm-e1388532111892.jpg" alt="" width="191" height="120"></a></td>
+                                                <td><a title="Schunk Powerball" href="/schunk-powerball/"><img title="SchunkLWA" src="/wordpress/wp-content/uploads/2013/12/SchunkLWA-e1388532377367.jpg" alt="" width="119" height="120"></a></td>
 											</tr>
 
 											<tr><td><a title="PhantomX Pincher" href="/phantomx-pincher/">PhantomX Pincher</a></td>
-												<td><a title="ClamArm" href="/clamarm/">ClamArm</a></td>
 												<td><a title="HDT Arm" href="/hdt-arm/">HDT Arm</a></td>
 												<td><a title="Lynxmotion Servo" href="/lynxmotion-servo/">Lynxmotion Servo Erector Arm</a></td>
+												<td><a title="Schunk Powerball" href="/schunk-powerball/">Schunk Powerball</a></td>
 											</tr>
 										</tbody></table><br>
 										<table style="width:100%; " class="table">
 											<tbody>
 												<tr><td><a title="PAL Robotics REEM" href="/pal-robotics-reem"><img title="PAL-REEM" src="/wordpress/wp-content/uploads/2013/12/PAL-REEM-e1388532330290.jpg" alt="" width="120" height="120"></a></td>
-													<td><a title="Schunk Powerball" href="/schunk-powerball/"><img title="SchunkLWA" src="/wordpress/wp-content/uploads/2013/12/SchunkLWA-e1388532377367.jpg" alt="" width="119" height="120"></a></td>
+												    <td><a title="PAL Robotics TIAGo" href="/pal-robotics-tiago"><img title="PAL-TIAGo" src="/pal-robotics-tiago/pal-robotics-tiago.png" alt="" width="120" height="120"></a></td>
 													<td><a title="Robotnik X-WAM" href="/x-wam/"><img title="x-wam0-scaled" src="/wordpress/wp-content/uploads/2013/12/x-wam0-scaled-e1388532424601.jpg" alt="" width="159" height="120"></a></td>
 													<td><a title="Barrett WAM" href="/barrett-wam/"><img class="alignnone size-full wp-image-489" title="BarrettWAM" src="/wordpress/wp-content/uploads/2013/12/BarrettWAM-e1388532460154.jpg" alt="" width="168" height="120"></a></td>
 												</tr>
 
 												<tr><td><a title="PAL Robotics REEM" href="/pal-robotics-reem/">PAL Robotics REEM</a></td>
-													<td><a title="Schunk Powerball" href="/schunk-powerball/">Schunk Powerball</a></td>
+                                                    <td><a title="PAL Robotics TIAGo" href="/pal-robotics-tiago/">PAL Robotics TIAGo</a></td>
 													<td><a title="Robotnik X-WAM" href="/x-wam/">Robotnik X-WAM</a></td>
 													<td><a title="Barrett WAM" href="/barrett-wam/">Barrett WAM</a></td>
 												</tr>
