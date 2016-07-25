@@ -10,19 +10,19 @@ wordpress_id: 586
 
 
 	
-  * Organization: PAL Robotics
+  * Company: PAL Robotics
 
 	
-  * Website:
+  * Website: [REEM](http://pal-robotics.com/en/products/reem-c/)
 
 	
-  * MoveIt! Config Package:
+  * MoveIt! Config Package: [https://github.com/pal-robotics/reemc_moveit_config](https://github.com/pal-robotics/reemc_moveit_config)
 
 	
   * Maintainer(s) :
 
 	
-  * STATUS: [Alpha](/about/moveit-status/#legend)
+  * STATUS: [Stable](/about/moveit-status/#legend)
 
 
 
@@ -39,7 +39,12 @@ wordpress_id: 586
 ### Installation
 
 
+To use the reemc_moveit_config package you need the reemc_description package that contains the robot's URDF. It is publicly available at [https://github.com/pal-robotics/reemc_robot.git](https://github.com/pal-robotics/reemc_robot.git)
 
+
+You can find launch and configuration files for the REEM-C simulation in the following repo:
+
+[https://github.com/pal-robotics/reemc_simulation.git](https://github.com/pal-robotics/reemc_simulation.git)
 
 
 
