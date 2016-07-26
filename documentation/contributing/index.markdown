@@ -29,6 +29,8 @@ i.e. [pr2_moveit_tutorials](https://github.com/ros-planning/moveit_pr2/tree/indi
 
 For deploying documentation changes to the web, [Section 3 of rosdoc_lite wiki](http://wiki.ros.org/rosdoc_lite) says that "rosdoc_lite is automatically run for packages in repositories that have rosinstall files listed in the rosdistro repository." This is done about once every 24 hours, [overnight](http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation).
 
+Note that ``README.md`` files that are popular on Github should be mainly used to redirect users to the corresponding Sphinx files and website pages.
+
 ### moveit.ros.org
 
 Once you have created new Sphinx documentation, you'll need to create links to it from the main moveit.ros.org website so that other users can find it. Additionally, some higher level documentation can be found directly on this website, so you'll need to edit it there as well.
@@ -50,6 +52,8 @@ Bugs should be reported to the Github issues page of the appropriate repo. Pleas
 ### Pull Requests
 
 Our policy for contributing changes to the code base is that no one, not even the maintainers, should commit directly to the repo. Rather, you should create a feature branch on your own fork of the project then create a PR when it's ready to be reviewed by someone else. All changes should be merged by someone other than the author of the PR. The only exceptions to this rule is when cherry-picking commits from older branches (previous ROS releases) to newer branches, and release-related commits (CHANGELOGS, tags).
+
+See [MoveIt! Code Style](code.html) for details on how to format your pull requests.
 
 ## Reviewing Pull Requests
 
