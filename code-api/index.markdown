@@ -11,7 +11,7 @@ wordpress_id: 619
 MoveIt! code API for ROS Indigo is listed here. (For corresponding documentation for ROS Hydro, scroll to the bottom of the page)
 
 
-##ROS Hydro Code API
+## ROS Indigo Code API
 
 ### Move Group Interface
 
@@ -80,7 +80,7 @@ _This API is meant for advanced developers. Most users should use the Move Group
 
 
 
-##ROS Hydro Code API
+## ROS Hydro Code API
 
 
 
