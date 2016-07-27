@@ -33,7 +33,7 @@ For deploying documentation changes to the web, [Section 3 of rosdoc_lite wiki](
 
 Once you have created new Sphinx documentation, you'll need to create links to it from the main moveit.ros.org website so that other users can find it. Additionally, some higher level documentation can be found directly on this website, so you'll need to edit it there as well.
 
-To edit or add pages on the MoveIt! website, go to [https://github.com/ros-planning/moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) and either edit inline using Github's web-based editing capability, or ``git clone`` the repo and push pull requests back to the repo.
+To edit or add pages on the MoveIt! website, go to [https://github.com/julienking/julienking.github.io](https://github.com/julienking/julienking.github.io) and either edit inline using Github's web-based editing capability, or ``git clone`` the repo and push pull requests back to the repo.
 
 ## Answering User Questions
 
