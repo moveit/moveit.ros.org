@@ -1,4 +1,4 @@
-url: http://julienking.github.io
+url: http://moveit.ros.org
 gems:
   - jekyll-feed
   - jekyll-redirect-from
