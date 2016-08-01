@@ -151,14 +151,6 @@ _How do I join the moveit-users mailing list?_
 ## Code
 
 
-_Is there a style guide for MoveIt!?_
-
-
-
-
-  * We use the [ROS Style guide](http://wiki.ros.org/CppStyleGuide) for all development.
-
-
 _Where can I find the changelogs for MoveIt!?_
 
 
