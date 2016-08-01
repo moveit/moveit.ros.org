@@ -1,3 +1,12 @@
+---
+author: davetcoleman
+comments: true
+date: 2016-8-1 02:13:26+00:00
+layout: page
+slug: code
+title: Code
+---
+
 # MoveIt! Code Style
 
 We use the [ROS C++ Style guide](http://wiki.ros.org/CppStyleGuide) for all C++ development and the [ROS Python Style guide](http://wiki.ros.org/PyStyleGuide) for Python.
