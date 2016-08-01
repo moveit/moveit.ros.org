@@ -195,7 +195,7 @@ wordpress_id: 127
 													</tbody></table><br>
 													<table style="width:100%; " class="table">
 														<tbody>
-															<tr><td><strong>Need Custom Development?</strong>: The MoveIt! development team at SRI International is open to contracting and consulting opportunities around MoveIt!. If you need help with integration of MoveIt! on your robot or applications, please email <em>robot</em> dot <em>moveit</em> at <em>gmail</em> dot <em>com</em>.</td>
+															<tr><td><strong>Need Custom Development?</strong>: If you need help with integration of MoveIt! on your robot or applications, please email <em>robot</em> dot <em>moveit</em> at <em>gmail</em> dot <em>com</em>.</td>
 															</tr>
 														</tbody></table><p></p>
 													</div>
