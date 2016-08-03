@@ -44,7 +44,7 @@ _This API is meant for advanced developers. Most users should use the Move Group
   * [Planning](http://docs.ros.org/indigo/api/moveit_ros_planning/html) - The planning components in MoveIt! ROS, especially the planning scene, kinematics and monitors
 
 
-  * [Move Group](http://docs.ros.org/indigo/api/moveit_rosmove_group/html) - The _move_group_node_
+  * [Move Group](http://docs.ros.org/indigo/api/moveit_ros_move_group/html) - The _move_group_node_
 
 
   * [Perception](http://docs.ros.org/indigo/api/moveit_ros_perception/html) - The perception components in MoveIt! ROS
@@ -114,7 +114,7 @@ _This API is meant for advanced developers. Most users should use the Move Group
   * [Planning](http://docs.ros.org/hydro/api/moveit_ros_planning/html) - The planning components in MoveIt! ROS, especially the planning scene, kinematics and monitors
 
 
-  * [Move Group](http://docs.ros.org/hydro/api/moveit_rosmove_group/html) - The _move_group_node_
+  * [Move Group](http://docs.ros.org/hydro/api/moveit_ros_move_group/html) - The _move_group_node_
 
 
   * [Perception](http://docs.ros.org/hydro/api/moveit_ros_perception/html) - The perception components in MoveIt! ROS
