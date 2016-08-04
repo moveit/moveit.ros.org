@@ -16,11 +16,22 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+
+        <!-- Section -->
         <li><a href="/">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="/install/">Install</a></li>
 
+        <!-- Section -->
+        <li class="dropdown">
+          <a href="/install" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Install <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/install">Users: Binary</a></li>
+            <li role='separator' class='divider'>
+            <li><a href="/install/source_install.html">Developers: Source</a></li>
+          </ul>
+        </li>
 
-
+        <!-- Section -->
         <li class="dropdown">
           <a href="/documentation/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 Documentation <span class="caret"></span></a>
@@ -36,7 +47,11 @@
             <li><a href="/code-api/">Code API</a></li>
           </ul>
         </li>
+
+        <!-- Section -->
         <li><a href="/robots/">Robots</a></li>
+
+        <!-- Section -->
         <li class="dropdown">
           <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 About <span class="caret"></span></a>
@@ -44,23 +59,31 @@
             <li><a href="/about/">About</a></li>
             <li role='separator' class='divider'>
             <li><a href="/about/moveit-status/">status</a></li>
-            <li role='separator' class='divider'>
           </ul>
         </li>
+
+        <!-- Section -->
         <li><a href="/media/">Media</a></li>
+
+        <!-- Section -->
         <li><a href="/support/">Support</a></li>
 
+        <!-- Section -->
         <li class="dropdown">
           <a href="/documentation/contributing" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 Contribute <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/documentation/contributing">Contribute</a></li>
+            <li role='separator' class='divider'>
             <li><a href="/documentation/contributing/pullrequests.html">Handling Contributions</a></li>
             <li role='separator' class='divider'>
-            <li><a href="/documentation/contributing/code.html">Code Style</a></li>
+            <li><a href="/documentation/contributing/code.html">Style Guidelines</a></li>
           </ul>
         </li>
+
+        <!-- Section -->
         <li><a href="/blog/">Blog</a></li>
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
