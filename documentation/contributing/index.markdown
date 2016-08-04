@@ -51,13 +51,9 @@ Bugs should be reported to the Github issues page of the appropriate repo. Pleas
 
 ### Pull Requests
 
-Our policy for contributing changes to the code base is that no one, not even the maintainers, should commit directly to the repo. Rather, you should create a feature branch on your own fork of the project then create a PR when it's ready to be reviewed by someone else. All changes should be merged by someone other than the author of the PR. The only exceptions to this rule is when cherry-picking commits from older branches (previous ROS releases) to newer branches, and release-related commits (CHANGELOGS, tags).
+Our policy for contributing changes to the code base is that no one, not even the maintainers, should commit directly to the repo. Rather, you should create a feature branch on your own fork of the project and create a pull-request when it's ready to be reviewed by someone else. To ease the process of merging yoru requests, please follow your part of the [Guideline for Handling Contributions](pullrequests.markdown).
 
 See [MoveIt! Code Style](code.html) for details on how to format your pull requests.
-
-## Reviewing Pull Requests
-
-Anyone can review open pull requests and comment on the changes. While only a handful of developers have push access to the repositories, your +1 in the comment threads helps us merge changes with more confidence and quickness.
 
 ### Running Tests Locally
 
