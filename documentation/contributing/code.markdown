@@ -22,7 +22,7 @@ In addition MoveIt! has some extra style preferences:
  - Avoid C-style functions such as ``FLT_EPSILON`` - instead use ``std::numeric_limits<double>::epsilon()``
  - Boost is an encouraged library when functionality is not available in the standard library
  - Prefer full variable names over short acryonms - e.g. ``robot_state_`` over ``rs_``
- - Deprecate functions using [MOVEIT_DEPRECATED](https://github.com/ros-planning/moveit_core/blob/kinetic-devel/macros/include/moveit/macros/deprecation.h) in deprecation.h
+ - Deprecate functions using MOVEIT_DEPRECATED in [deprecation.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/macros/moveit_core/include/moveit/macros/deprecation.h)
 
 ## ROS
 
