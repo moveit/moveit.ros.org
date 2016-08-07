@@ -66,7 +66,7 @@ We will use Google Hangouts for the video conferencing software. Note that Googl
 
 ### MoveIt! Integrated Manipulation Simulation
 
-One of the objectives of WMD is to resurrect an end-to-end simulation of a robot performing pick-and-place using perception, MoveIt!, and Gazebo - similar to the now deprecated [PR2 Tabletop Manipulation pipeline](http://wiki.ros.org/pr2_tabletop_manipulation_apps). Fetch robotics will be providing a solution for on this day for testing. More info TBD.
+One of the objectives of WMD is to resurrect an end-to-end simulation of a robot performing pick-and-place using perception, MoveIt!, and Gazebo - similar to the no longer supported [PR2 Tabletop Manipulation pipeline for ROS Fuerte](http://wiki.ros.org/pr2_tabletop_manipulation_apps). Fetch robotics will be providing a solution for on this day for testing. More info TBD.
 
 ## Discussion
 
