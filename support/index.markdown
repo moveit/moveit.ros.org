@@ -11,7 +11,7 @@ wordpress_id: 89
 
 ### FAQs
 
-  * First, check out the list of [Frequently Asked Questions (FAQs)](/faqs) to see if your question has been answered already.
+  * First, check out the list of [Frequently Asked Questions (FAQs)](/documentation/faqs) to see if your question has been answered already.
 
 ### Mailing List
 
@@ -39,4 +39,4 @@ Change logs are available directly from the corresponding [ROS wiki page for Mov
 
 ### Developer Discussions
 
-For discussion of development, maintenance, testing, and releases see the [Discoure](http://discourse.ros.org/c/moveit-developers) category. This location is not for MoveIt! users questions or application to specific robots.
+For discussion of future development, maintenance, testing, and releases see the [Discourse](http://discourse.ros.org/c/moveit-developers) category. This location is not for MoveIt! users questions or specific robot application questions.
