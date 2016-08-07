@@ -4,7 +4,7 @@ comments: true
 date: 2016-8-3 13:24:00+00:00
 layout: page
 slug: pullrequests
-title: Pullrequests
+title: Pull Requests
 ---
 
 # Handling Contributions
