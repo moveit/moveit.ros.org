@@ -9,8 +9,6 @@ title: source_install
 
 # Source Installation Instructions
 
-For developers.
-
 ## Prerequisites
 
 Install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Jade](http://www.ros.org/wiki/jade/Installation/Ubuntu), or [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu). Please make sure you have followed all steps, including calls to ``rosdep``.
@@ -35,7 +33,7 @@ Pull down required repositories and build from within the ``/src`` directory of 
     wstool update
     rosdep install --from-paths . --ignore-src --rosdistro indigo
     cd ..
-    catkin config --extend /opt/ros/indigo --install --cmake-args -DCMAKE_BUILD_TYPE=Release
+    catkin config --extend /opt/ros/indigo --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
 See final section below **Source The Catkin Workspace**
@@ -49,7 +47,7 @@ Pull down required repositories and build from within the ``/src`` directory of 
     wstool update
     rosdep install --from-paths . --ignore-src --rosdistro jade
     cd ..
-    catkin config --extend /opt/ros/jade --install --cmake-args -DCMAKE_BUILD_TYPE=Release
+    catkin config --extend /opt/ros/jade --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
 See final section below **Source The Catkin Workspace**
@@ -60,13 +58,13 @@ See final section below **Source The Catkin Workspace**
 
 The Kinetic MoveIt! branch currently requires using the ROS ``shadow-fixed`` repositories:
 
-    sudo echo 'deb http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main' > /etc/apt/sources.list.d/ros-latest.list
+    echo 'deb http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main' | sudo tee --append /etc/apt/sources.list.d/ros-latest.list
     sudo apt-get update
 
-FCL is currently not properly released into Kinetic, instead use this temporary debian:
+FCL is currently not properly released into Kinetic, instead use this temporary debian via a setup script:
 
     wget https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/.travis.before_script
-    source .travis.before_script # Temporary install method for FCL before it is released properly
+    source .travis.before_script
 
 Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
 
@@ -78,7 +76,7 @@ Note: you may need to remove the ``fcl`` dependency temporarily in ``moveit/move
 
     rosdep install --from-paths . --ignore-src --rosdistro kinetic
     cd ..
-    catkin config --extend /opt/ros/kinetic --install --cmake-args -DCMAKE_BUILD_TYPE=Release
+    catkin config --extend /opt/ros/kinetic --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
 See final section below **Source The Catkin Workspace**
@@ -88,7 +86,3 @@ See final section below **Source The Catkin Workspace**
 Setup your environment - you can do this every time you work with this particular source install of the code, or you can add this to your ``.bashrc``:
 
     source ~/ws_moveit/devel/setup.bash # or .zsh, depending on your shell
-
-## Previous ROS Versions
-
-See [Source Installation Instructions for unsupported versions of MoveIt!](deprecated)
