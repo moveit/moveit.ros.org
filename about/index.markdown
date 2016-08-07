@@ -5,90 +5,57 @@ date: 2013-11-20 04:37:44+00:00
 layout: page
 slug: about
 title: About
-wordpress_id: 87
 ---
 
-### Contact
-
+## Contact
 
 For media or other general queries about MoveIt!, please contact _robot.moveit@gmail.com_
 
+## Citing MoveIt!
 
-### Citing MoveIt!
-
-
-We are working on a technical publication that will be a better resource to cite MoveIt! in the near future. In the meantime, please use the following citation for MoveIt!
-
-
+Please use the following citation for MoveIt!
 
 
   * Ioan A. Sucan and Sachin Chitta, "MoveIt!", [Online] Available: [http://moveit.ros.org](http://moveit.ros.org)
 
-
-### Website 
-The website is maintained by Sachin Chitta and Praveen Singh.
-
-### License
+## License
 
 
 MoveIt! is open source and released under the BSD License. Each individual file in the MoveIt! source code contains a copy of the license.
 
+## Maintainers
 
-### Source Code
+The MoveIt! project is currently maintained by the following contributors with commit-access:
 
+Name | Organization | GitHub ID | Project Specialities
+------------ |:------------- |-------------|-------------|
+Michael Ferguson | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson) | Releasing and Regressions
+Dave Coleman | Correll Lab, CU Boulder | [davetcoleman](https://github.com/davetcoleman) | Reviewing PRs
+Robert Haschke | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke) | Fixing Bugs, Reviewing PRs
+Michael Görner | University of Hamburg | [v4hn](https://github.com/v4hn) | Fixing Bugs, New Features
+Isaac IY Saito | Tokyo Open Source Robotics | [130s](https://github.com/130s) | Releasing and Continuous Integration
+Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta) | Original Founder & Author of MoveIt!
+Ioan Sucan | Google X | [isucan](https://github.com/isucan) | Original Founder & Author of MoveIt!
+Ian McMahon | Rethink Robotics | [IanTheEngineer](https://github.com/IanTheEngineer) | Releasing
+Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://github.com/gavanderhoorn) | IKFast Plugin
+Jorge Nicho | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho) | IKFast Plugin
+Christian Dornhege | University of Freiburg | [dornhege](https://github.com/dornhege) | PR2 Code Base
 
-MoveIt! code is hosted on github in the [ros-planning organization](http://github.com/ros-planning) in the following repos:
+## Maintainer Alumni
 
+We would like to acknowledge past maintainers of MoveIt!
 
+Name             | GitHub ID |
+------------     |:------------- |
+Dave Hershburger | hersh |
+Acorn Pooley | N/A |
 
-
-  * [moveit_core](https://github.com/ros-planning/moveit_core) - Core C++ libraries
-
-
-  * [moveit_ros](https://github.com/ros-planning/moveit_ros) - ROS components
-
-
-  * [moveit_msgs](https://github.com/ros-planning/moveit_msgs) - MoveIt! messages
-
-
-  * [moveit_setup_assistant](https://github.com/ros-planning/moveit_setup_assistant) - MoveIt! Setup Assistant
-
-
-  * [moveit_planners](https://github.com/ros-planning/moveit_planners) - MoveIt! Planning libraries
-
-
-  * [moveit_commander](https://github.com/ros-planning/moveit_commander) - MoveIt! Commander
-
-
-  * [moveit_pr2](https://github.com/ros-planning/moveit_pr2) - PR2 specific MoveIt! configuration and plugins
-
-
-  * [moveit_robots](https://github.com/ros-planning/moveit_robots) - Robot specific MoveIt! files
-
-
-  * [moveit_plugins](https://github.com/ros-planning/moveit_plugins) - MoveIt! plugins for common functionality
-
-
-  * [moveit_ikfast](https://github.com/ros-planning/moveit_ikfast) - MoveIt! IKFast interface
-
-
-  * [moveit_resources](https://github.com/ros-planning/moveit_resources) - MoveIt! resources for testing, etc.
-
-
-  * [moveit_docs](https://github.com/ros-planning/moveit_docs) - MoveIt! documentation
-
-
-
-
-
-### Acknowledgements
+## Acknowledgements
 
 
 MoveIt! was initially developed at Willow Garage and we thank Willow Garage for its support of the MoveIt! project. We would also like to thank SRI International for its continuing support of the MoveIt! project since October 2013.
 
 We gratefully acknowledges the contributions of the following people to MoveIt! and associated packages that MoveIt! uses (or has used at some point):
-
-
 
 
   * Lydia Kavraki, Mark Moll, and associated members of the Kavraki Lab (Rice University) for developing OMPL - a suite of randomized planners that MoveIt! uses extensively.
@@ -110,6 +77,9 @@ We gratefully acknowledges the contributions of the following people to MoveIt! 
 
 
   * Michael Ferguson for writing the simple controller manager plugin
+
+
+  * Sachin Chitta and Praveen Singh for creating the current website
 
 
 MoveIt! evolved from the Arm Navigation and Grasping Pipeline components of ROS and we gratefully acknowledge the seminal contributions of all developers and researchers to those packages, especially Edward Gil Jones, Matei Ciocarlie, Kaijen Hsiao, Adam Leeper, and Ken Anderson.
