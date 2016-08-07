@@ -4,7 +4,7 @@ comments: false
 date: 2016-8-4 20:43:44+00:00
 layout: page
 slug: source_install
-title: source_install
+title: Source Install
 ---
 
 # Source Installation Instructions
