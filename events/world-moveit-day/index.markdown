@@ -7,7 +7,7 @@ slug: world_moveit_day
 title: World MoveIt! Day
 ---
 
-# World MoveIt! Day
+![World MoveIt! Day]({{ site.url }}/assets/images/world_moveit_day.png)
 
 ## Time
 
@@ -18,10 +18,12 @@ title: World MoveIt! Day
   - Fetch Robotics, San Jose, California. Contact: Michael Ferguson
   - ROS Industrial at Southwest Research Institute, San Antonio, Texas. Contact: Paul Hvass
   - Xamla Robotics Team at Provisio GmbH, Münster, Germany. Contact: Andreas Köpf
+  - JSK at the University of Tokyo in Tokyo, Japan. Contact: Kei Okada
 
 ## Other Participating Organizations
 
   * Open Source Robotics Foundation
+  * Tokyo Opensource Robotics Kyokai Association
 
 ## Organizers
 

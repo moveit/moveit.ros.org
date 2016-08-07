@@ -17,7 +17,7 @@ MoveIt! is released every month or so into Ubuntu Debians via the ROS infrastruc
 
 ## Prerequisite: Install ROS
 
-Follow all the instructions to install the base version of ROS: [Install ROS-Base](http://wiki.ros.org/indigo/Installation/Ubuntu). Please make sure you have followed all the ROS installation steps, including calls to rosdep.
+Follow all the instructions to install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Jade](http://www.ros.org/wiki/jade/Installation/Ubuntu), or [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu). Please make sure you have followed all steps, including calls to ``rosdep``.
 
 Choose your ROS distribution below:
 
