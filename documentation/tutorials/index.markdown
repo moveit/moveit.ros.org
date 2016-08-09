@@ -35,7 +35,7 @@ Tutorial | Level | Description
 [Planning Scene (ROS)](http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/planning_scene_ros_api_tutorial.html) | Advanced | This tutorial shows how to use the planning scene ROS API for adding objects into the world, removing objects form the world and attaching and detaching objects from the robot
 [Motion Planning (C++)](http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/motion_planning_api_tutorial.html) | Advanced | This tutorial illustrates the basics of loading a motion planner (using the ROS pluginlib library), calling it and setting joint space goals, pose goals and kinematic constraints
 [Motion Planning Pipeline(C++)](http://docs.ros.org/indigo/api/pr2_moveit_tutorials/html/planning/src/doc/planning_pipeline_tutorial.html) | Advanced | This tutorial illustrates the basics of loading a motion planning pipeline and the use of planning request adapters for pre-processing and post-processing
-[Open Motion Planning Library Integration (C++)](http://docs.ros.org/jade/api/moveit_planners_ompl/html/doc/tutorial.html) | Advanced | Information on advanced configurations for using planners in OMPL
+[Open Motion Planning Library Integration (C++)](http://docs.ros.org/jade/api/moveit_planners_ompl/html/tutorial.html) | Advanced | Information on advanced configurations for using planners in OMPL
 
 # Integrating a new robot with MoveIt!
 
