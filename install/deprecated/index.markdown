@@ -4,8 +4,7 @@ comments: false
 date: 2016-07-29 16:27:44+00:00
 layout: page
 slug: install
-title: Install
-wordpress_id: 25
+title: Deprecated Install
 ---
 
 ## Source Installation Instructions for unsupported versions of MoveIt!
@@ -61,4 +60,3 @@ You will have to do this every time you work with this particular source install
   source devel/setup.bash
   # or .zsh, depending on your shell
 ```
-
