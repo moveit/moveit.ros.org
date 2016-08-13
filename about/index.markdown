@@ -52,11 +52,9 @@ Acorn Pooley | N/A |
 
 ## Acknowledgements
 
-
-MoveIt! was initially developed at Willow Garage and we thank Willow Garage for its support of the MoveIt! project. We would also like to thank SRI International for its continuing support of the MoveIt! project since October 2013.
+MoveIt! was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli and Dave Hershberger and we thank Willow Garage for its support of the MoveIt! project. We would also like to thank SRI International for its support of the MoveIt! project between October 2013 and June 2015.
 
 We gratefully acknowledges the contributions of the following people to MoveIt! and associated packages that MoveIt! uses (or has used at some point):
-
 
   * Lydia Kavraki, Mark Moll, and associated members of the Kavraki Lab (Rice University) for developing OMPL - a suite of randomized planners that MoveIt! uses extensively.
 
