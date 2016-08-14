@@ -59,11 +59,16 @@ If you would like to help the MoveIt! project by tackling an issue, assign yours
 
 If you have ideas and improvements for the project, feel free to add your own issues to the tracker, using the "simple improvements" label if applicable. If you want to claim them for yourself, just immediately assign them to your username.
 
-Improving our documentation is a major goal of WMD - please add to our Sphynx and Markdown-based documentation within our packages and on the MoveIt! website. For more details see [Contributing](http://moveit.ros.org/documentation/contributing/).
+
+### Documentation
+
+Improving our documentation is a major goal of WMD - please add to our Sphynx and Markdown-based documentation within our packages and on the MoveIt! website. If you have studied extensively an aspect of MoveIt! that is not currently documented, please convert your notes into a pull request in the appropriate location. If you've started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request to help others in the future with the same question.
+
+For more details on modifying documentation, see [Contributing](http://moveit.ros.org/documentation/contributing/).
 
 ### Video Conference
 
-We will use Google Hangouts for the video conferencing software. Note that Google's video chat software is limited to 25 particpants.
+We will use Google Hangouts for the video conferencing software. Note that Google's video chat software is limited to 25 participants.
 
 ### MoveIt! Integrated Manipulation Simulation
 
