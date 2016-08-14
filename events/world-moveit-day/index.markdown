@@ -24,6 +24,7 @@ title: World MoveIt! Day
 
   * Open Source Robotics Foundation
   * Tokyo Opensource Robotics Kyokai Association
+  * Search-based Planning Laboratory at CMU
 
 ## Organizers
 
