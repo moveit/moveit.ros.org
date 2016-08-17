@@ -67,11 +67,7 @@ Run test for all packages:
 
 ### Using Docker to Review Pull Requests
 
-Docker can help you easily evaluate someone else's changes without breaking your local setup, as well as test on other versions of Linux other than your local installed version. MoveIt! now has an [official MoveIt! Docker build](https://hub.docker.com/r/davetcoleman/moveit_docker/) that lets you quickly get a MoveIt! setup in a local container. Once docker is setup on your system, all you really need is:
-
-    docker run -it moveit/moveit_docker:moveit-kinetic-source
-
-Though there are many other images available for various ROS distros and purposes.
+Docker is very useful for testing pull requests and code changes without breaking your regular development environment. For more information see the [Docker Usage Instructions](/install/docker).
 
 ## Adding New Features
 
