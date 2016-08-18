@@ -77,3 +77,14 @@ One of the objectives of WMD is to resurrect an end-to-end simulation of a robot
 ## Discussion
 
 See the [Discourse Topic](http://discourse.ros.org/t/world-moveit-day-planning/365)
+
+## Sponorship
+
+We'd like to thank the following sponsors:
+
+- [Fetch Robotics](http://fetchrobotics.com/) for sponsoring the main event, stickers, and helping organize
+- [Travis CI](http://travis-ci.com) for providing increased continuous integration time on their build farm for this event
+
+<img src="http://moveit.picknik.io/assets/images/travis-ci.png" width="300" css="margin-right:20px">
+
+<img src="http://fetchrobotics.com/wp-content/uploads/2015/01/Fetch_Horizontal.png" width="300">
