@@ -86,4 +86,5 @@ We'd like to thank the following sponsors:
 - [Travis CI](http://travis-ci.com) for providing increased continuous integration time on their build farm for this event
 
 <img src="http://moveit.picknik.io/assets/images/travis-ci.png" width="300" css="margin-right:20px">
+
 <img src="http://fetchrobotics.com/wp-content/uploads/2015/01/Fetch_Horizontal.png" width="300">
