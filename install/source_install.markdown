@@ -61,19 +61,11 @@ The Kinetic MoveIt! branch currently requires using the ROS ``shadow-fixed`` rep
     echo 'deb http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main' | sudo tee --append /etc/apt/sources.list.d/ros-latest.list
     sudo apt-get update
 
-FCL is currently not properly released into Kinetic, instead use this temporary debian via a setup script:
-
-    wget https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/.travis.before_script
-    source .travis.before_script
-
 Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
 
     wstool init .
     wstool merge https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/moveit.rosinstall
     wstool update
-
-Note: you may need to remove the ``fcl`` dependency temporarily in ``moveit/moveit_core/package.xml`` before running ``rosdep install``:
-
     rosdep install --from-paths . --ignore-src --rosdistro kinetic
     cd ..
     catkin config --extend /opt/ros/kinetic --cmake-args -DCMAKE_BUILD_TYPE=Release
