@@ -85,8 +85,5 @@ We'd like to thank the following sponsors:
 - [Fetch Robotics](http://fetchrobotics.com/) for sponsoring the main event, stickers, and helping organize
 - [Travis CI](http://travis-ci.com) for providing increased continuous integration time on their build farm for this event
 
-![Travis CI](http://moveit.picknik.io/assets/images/travis-ci.png)
-![Fetch](http://fetchrobotics.com/wp-content/uploads/2015/01/Fetch_Horizontal.png)
-
-<img src="http://moveit.picknik.io/assets/images/travis-ci.png" width="100">
-<img src="http://fetchrobotics.com/wp-content/uploads/2015/01/Fetch_Horizontal.png" width="100">
+<img src="http://moveit.picknik.io/assets/images/travis-ci.png" width="300">
+<img src="http://fetchrobotics.com/wp-content/uploads/2015/01/Fetch_Horizontal.png" width="300">
