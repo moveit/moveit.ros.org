@@ -30,7 +30,7 @@ The MoveIt! project is currently maintained by the following contributors with c
 Name | Organization | GitHub ID | Project Specialities
 ------------ |:------------- |-------------|-------------|
 Michael Ferguson | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson) | Releasing and Regressions
-Dave Coleman | Correll Lab, CU Boulder | [davetcoleman](https://github.com/davetcoleman) | Reviewing PRs
+Dave Coleman | Correll Lab, CU Boulder | [davetcoleman](https://github.com/davetcoleman) | Reviewing PRs, Organizing Events
 Robert Haschke | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke) | Fixing Bugs, Reviewing PRs
 Michael Görner | University of Hamburg | [v4hn](https://github.com/v4hn) | Fixing Bugs, New Features
 Isaac IY Saito | Tokyo Open Source Robotics | [130s](https://github.com/130s) | Releasing and Continuous Integration
