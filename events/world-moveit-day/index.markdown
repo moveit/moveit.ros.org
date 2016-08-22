@@ -53,12 +53,15 @@ If you aren't near an organized event we encourage you to have your own event in
 
 ### Finding Where You Can Help
 
-All suggested areas for improvement will be tracked on the new unified moveit repo and the "Assignee" meta data will be used to track issues that [need someone to tackle them](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee). The label [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3A%22simple+improvements%22) will be used to indicate the issue can probably be tackled in less than a few hours, and the label [documentation](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+label%3Adocumentation+no%3Aassignee) will be used for suggested tutorials, changes to the website, etc. Both labels are ideal for a World MoveIt! Day project.
+Suggested areas for improvement will be tracked on the new unified moveit repo via several labels that are ideal for World MoveIt! Day:
 
-If you would like to help the MoveIt! project by tackling an issue, assign yourself as the "Assignee" in the right side column so we know that you are working on it. Feel free to ask further questions in each issue's comments.
+- [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates the issue can probably be tackled in less than a few hours.
+- [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggestes new tutorials, changes to the website, etc.
+- [assigned](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+is%3Aissue+label%3Aassigned) aids developers to find issues that are not already being worked on.
 
-If you have ideas and improvements for the project, feel free to add your own issues to the tracker, using the "simple improvements" label if applicable. If you want to claim them for yourself, just immediately assign them to your username.
+If you would like to help the MoveIt! project by tackling an issue, claim the issue by commenting "I'll work on this" and a maintainer will then hopefully add the label "assigned". Feel free to ask further questions in each issue's comments.
 
+If you have ideas and improvements for the project, please add your own issues to the tracker, using the "simple improvements" label if applicable. Its fine if you want to then claim them for yourself.
 
 ### Documentation
 
