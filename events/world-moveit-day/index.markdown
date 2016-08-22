@@ -58,6 +58,7 @@ Suggested areas for improvement will be tracked on the new unified moveit repo v
 - [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates the issue can probably be tackled in less than a few hours.
 - [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggestes new tutorials, changes to the website, etc.
 - [assigned](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+is%3Aissue+label%3Aassigned) aids developers to find issues that are not already being worked on.
+- **no label** - even issues that are not marked as "simple" can be worked on for World MoveIt! day, though they will likely take longer than one day to compelete
 
 If you would like to help the MoveIt! project by tackling an issue, claim the issue by commenting "I'll work on this" and a maintainer will then hopefully add the label "assigned". Feel free to ask further questions in each issue's comments.
 
