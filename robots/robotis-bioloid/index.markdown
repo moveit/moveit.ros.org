@@ -16,7 +16,7 @@ wordpress_id:
 
   * Maintainer(s) : dxydas7@gmail.com
 
-  * STATUS: [Alpha](/about/moveit-status/#legend)
+  * STATUS: [Alpha](/about/moveit-status#status-code-robots)
 
 
 ### Versions
