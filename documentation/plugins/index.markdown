@@ -137,6 +137,8 @@ By implementing the [ControllerHandle.h](https://github.com/ros-planning/moveit/
 
 ### Field of Application
 
+TODO
+
 ### Interface Description
 
 The interface is defined in [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h). 
@@ -148,11 +150,18 @@ An examplary implementation of this interface is the [joint_trajectory_controlle
 <a name="MoveItSensorManager"></a>
 ## moveit_sensor_manager::MoveItSensorManager
 
+This plugin is used to integrade sensores into the planning process.
+
 ### Usage
 
-### Interface Description
+Holds information of sensors e.g.: The maximum distance along the Z axis at which observations can be executed.
+It can point a sensor towards a particular point in space. This may require executing a trajectory, but it may or may not execute that trajectory.
+If it does not, it returns it as part of the sensor_trajectory. This is the recommended behaviour, since the caller of this function can perform checks on the safety of the trajectory.
+The function returns true on success (either completing execution succesfully or computing a trajecotory successufully)
 
 ### Concrete Implementation
+
+TODO 
 
 <a name="ConstraintSamplerAllocator"></a>
 ## constraint_samplers::ConstraintSamplerAllocator
