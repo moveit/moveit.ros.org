@@ -94,6 +94,10 @@ Plugin API for loading a custom collision detection robot/world.
 
 ### Field of Application
 
+If you want to use an costumized collision detection algorithm for selfcollisions or collisions with the environment then this is a useful plugin which provides you with the necessary interfaces.
+
 ### Interface Description
+
+The interface is defined in the [collision_plugin.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h). It mainly consits of an initialize function which has to be overwritten.
 
 ### Concrete Implementation
