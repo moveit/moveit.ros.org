@@ -17,7 +17,7 @@ wordpress_id:
   * Maintainer(s) : baijuchaudhari@gmail.com
 
 	
-  * STATUS: [BETA](Experimental)
+  * STATUS: [BETA](/about/moveit-status/#legend)
 
 
 

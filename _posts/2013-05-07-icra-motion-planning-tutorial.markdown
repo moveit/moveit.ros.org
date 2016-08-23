@@ -61,7 +61,7 @@ You can register for the tutorial when you register through the ICRA site. Howev
 * 10:00 - 10:30 - Coffee Break
 * 10:30 - 10:45 - Functional gradient optimization for manipulation (Siddhartha Srinivasa) - [PDF]({{ site.url}}/assets/pdfs/2013/icra2013tutorial/PRL-CHOMP.pdf)
 * 10:45 - 11:00 - Representing and planning with constraints for mobile manipulation (Dmitry Berenson)
-* 11:00 - 11:15 - Real-time collision checking and motion planning in dynamic scenes (Dinesh Manocha) - [PDF]({{ site.url }}/assets/pdf/2013/icra2013tutorials/ICRA-2013.pdf)
+* 11:00 - 11:15 - Real-time collision checking and motion planning in dynamic scenes (Dinesh Manocha) - [PDF]({{ site.url }}/assets/pdfs/2013/icra2013tutorial/ICRA-2013.pdf)
 * 11:15 - 12:30 - Hands on; live demo while attendees follow instructions:
   * Setup Assistant - SRDF, Groups, Setup Assistant (Dave Coleman and Ioan Sucan)
   * Running demo.launch (for the Motoman robot)
