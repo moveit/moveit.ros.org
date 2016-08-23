@@ -69,9 +69,14 @@ The well documented interface is located [here](https://github.com/ros-planning/
 ### Concrete Implementations
 Examples for implementations of the KinematicsBase are the KDL plugin ([header](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h), [cpp](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/kdl_kinematics_plugin/src/kdl_kinematics_plugin.cpp)) or the SrvKinematicsPlugin ([header](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h), [cpp](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/src/srv_kinematics_plugin.cpp)).
 <a name="Planner"></a>
-## planning_interface::Planner
+## planning_interface::Planner (Deprecated? Probably replaced by PlannerManager)
 <a name="PlannerManager"></a>
 ## planning_interface::PlannerManager
+
+### Usage
+
+Used to manage planners . 
+
 <a name="MoveItControllerManager"></a>
 ## moveit_controller_manager::MoveItControllerManager
 <a name="ControllerHandleAllocator"></a>
