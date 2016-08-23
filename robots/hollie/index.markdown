@@ -22,7 +22,7 @@ wordpress_id: 904
   * Maintainer(s) : Andreas Hermann
 
 	
-  * STATUS: [Alpha](/about/moveit-status#legend)
+  * STATUS: [Alpha](/about/moveit-status#status-code-robots)
 
 
 

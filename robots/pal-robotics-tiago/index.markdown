@@ -22,7 +22,7 @@ wordpress_id: 569
   * Maintainer(s) : tiago-support@pal-robotics.com
 
 	
-  * STATUS: [Stable](/about/moveit-status/#legend)
+  * STATUS: [Stable](/about/moveit-status#status-code-robots)
 
 
 
