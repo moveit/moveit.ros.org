@@ -58,8 +58,22 @@ Moveit offers different [default capabilities](https://github.com/ros-planning/m
 
 <a name="OccupancyMapUpdater"></a>
 ## occupancy_map_monitor::OccupancyMapUpdater
+
+### Usage
+
+### Interface Description
+
+### Concrete Implementation
+
 <a name="PlanningRequestAdapter"></a>
 ## planning_request_adapter::PlanningRequestAdapter
+
+### Usage
+
+### Interface Description
+
+### Concrete Implementation
+
 <a name="KinematicsBase"></a>
 ## kinematics::KinematicsBase
 The KinematicsBase interface enables you, to:
@@ -89,6 +103,13 @@ An examplary implemenation of a planner is the [OMPL Planner](https://github.com
 
 <a name="MoveItControllerManager"></a>
 ## moveit_controller_manager::MoveItControllerManager
+
+### Usage
+
+### Interface Description
+
+### Concrete Implementation
+
 <a name="ControllerHandleAllocator"></a>
 ## moveit_ros_control_interface::ControllerHandleAllocator
 
@@ -108,8 +129,22 @@ An examplary implementation of this interface is the [joint_trajectory_controlle
 
 <a name="MoveItSensorManager"></a>
 ## moveit_sensor_manager::MoveItSensorManager
+
+### Usage
+
+### Interface Description
+
+### Concrete Implementation
+
 <a name="ConstraintSamplerAllocator"></a>
 ## constraint_samplers::ConstraintSamplerAllocator
+
+### Usage
+
+### Interface Description
+
+### Concrete Implementation
+
 <a name="CollisionPlugin"></a>
 ## collision_detection::CollisionPlugin
 
