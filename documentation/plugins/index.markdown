@@ -90,7 +90,7 @@ Examples for implementations of the KinematicsBase are the KDL plugin ([header](
 
 ### Usage
 
-By implementing the [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h) interface it is possible to offer allocations of handlers for action based controllers.  
+By implementing the [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h) interface it is possible to offer allocations of handlers for action based controllers. The controler handler are based on the class [MoveItControllerHandle](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h). These handlers communicate with the controller in order to e.g. send trajectories.
 
 ### Field of Application
 
