@@ -75,7 +75,15 @@ Examples for implementations of the KinematicsBase are the KDL plugin ([header](
 
 ### Usage
 
-Used to manage planners . 
+Base class for writing for MoveIt planner by implementing it you can provide your own planners.
+
+### Interface Description
+
+The interface is defined in [planning_interface.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/planning_interface/include/moveit/planning_interface/planning_interface.h).
+
+### Concrete Implementation
+
+MoveIt comes with explicit implemenations of planners such as the [OMPL Planner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/ompl/ompl_interface/src/ompl_planner_manager.cpp). 
 
 <a name="MoveItControllerManager"></a>
 ## moveit_controller_manager::MoveItControllerManager
