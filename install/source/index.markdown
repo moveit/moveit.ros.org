@@ -61,7 +61,7 @@ See final section below **Source The Catkin Workspace**
 
 The Kinetic MoveIt! branch currently requires using the ROS ``shadow-fixed`` repositories:
 
-    echo 'deb http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main' | sudo tee --append /etc/apt/sources.list.d/ros-latest.list
+    echo 'deb http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main' | sudo tee /etc/apt/sources.list.d/ros-latest.list
     sudo apt-get update
 
 Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
