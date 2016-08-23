@@ -22,7 +22,7 @@ wordpress_id: 153
   * Maintainer(s) :
 
 	
-  * STATUS: [Alpha](/about/moveit-status#legend)
+  * STATUS: [Alpha](/about/moveit-status#status-code-robots)
 
 
 
@@ -77,10 +77,10 @@ For using the PR2 with a F/T sensor, use the PR2 MoveIt! config package from KTH
 
 
 	
-  1. Pick and Place ([Alpha](/wordpress/?page_id=164#legend))
+  1. Pick and Place ([Alpha](/about/moveit-status#status-code-components))
 
 	
-  2. Benchmarking ([Alpha](/wordpress/?page_id=164#legend))
+  2. Benchmarking ([Alpha](/about/moveit-status#status-code-components))
 
 
 

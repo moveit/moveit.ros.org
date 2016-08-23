@@ -22,7 +22,7 @@ wordpress_id: 595
   * Maintainer(s) :
 
 	
-  * STATUS: [Alpha](/about/moveit-status#legend)
+  * STATUS: [Alpha](/about/moveit-status#status-code-robots)
 
 
 
