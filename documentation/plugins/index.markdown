@@ -59,6 +59,15 @@ Moveit offers different [default capabilities](https://github.com/ros-planning/m
 ## planning_request_adapter::PlanningRequestAdapter
 <a name="KinematicsBase"></a>
 ## kinematics::KinematicsBase
+The KinematicsBase interface enables you, to:
+
+- write your own forward and inverse kinematic solvers
+- wrap external kinematic solver libraries
+
+### Interface Description
+The well documented interface is located [here](https://github.com/ros-planning/moveit/blob/3464e3d27bd8655aa6187ca5d3a031a4f72663e2/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h).
+### Concrete Implementations
+Examples for implementations of the KinematicsBase are the KDL plugin ([header](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h), [cpp](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/kdl_kinematics_plugin/src/kdl_kinematics_plugin.cpp)) or the SrvKinematicsPlugin ([header](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h), [cpp](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/src/srv_kinematics_plugin.cpp)).
 <a name="Planner"></a>
 ## planning_interface::Planner
 <a name="PlannerManager"></a>
