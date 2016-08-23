@@ -63,3 +63,41 @@ An example for a specific plugin is the [cartesian_path_service_capability](http
 ## constraint_samplers::ConstraintSamplerAllocator
 <a name="CollisionPlugin"></a>
 ## collision_detection::CollisionPlugin
+
+Plugin API for loading a custom collision detection robot/world.
+
+### Usage
+
+ <PRE>
+  namespace my_collision_checker
+  {
+  class MyCollisionDetectorAllocator :
+    public collision_detection::CollisionDetectorAllocatorTemplate<MyCollisionWorld, MyCollisionRobot, MyCollisionDetectorAllocator>
+  {
+    public:
+      static const std::string NAME_;
+  };
+  const std::string MyCollisionDetectorAllocator::NAME_("my_checker");
+  }
+  namespace collision_detection
+  {
+  class MyCollisionDetectionLoader : public CollisionPlugin
+  {
+  public:
+    virtual bool initialize(const planning_scene::PlanningScenePtr& scene, bool exclusive) const
+    {
+      scene->setActiveCollisionDetector(my_collision_checker::MyCollisionDetectorAllocator::create(), exclusive);
+      return true;
+     }
+   };
+ </PRE>
+
+### Field of Application
+
+If you want to use an costumized collision detection algorithm for selfcollisions or collisions with the environment then this is a useful plugin which provides you with the necessary interfaces.
+
+### Interface Description
+
+The interface is defined in the [collision_plugin.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h). It mainly consits of an initialize function which has to be overwritten.
+
+### Concrete Implementation
