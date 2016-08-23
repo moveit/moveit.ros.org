@@ -51,7 +51,7 @@ void move_group::MoveGroupCartesianPathService::initialize()
 }
 </PRE>
 
-Moveit offers different [default capabilities](https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_ros/move_group/src/default_capabilities) 
+Moveit offers different [default capabilities](https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_ros/move_group/src/default_capabilities).
 
 <a name="OccupancyMapUpdater"></a>
 ## occupancy_map_monitor::OccupancyMapUpdater
