@@ -89,6 +89,8 @@ The interface is defined in [ControllerHandle.h](https://github.com/ros-planning
 
 ### Concrete Implementation
 
+An examplary implementation of this interface is the [joint_trajectory_controller_plugin.cpp](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp).
+
 <a name="MoveItSensorManager"></a>
 ## moveit_sensor_manager::MoveItSensorManager
 <a name="ConstraintSamplerAllocator"></a>
