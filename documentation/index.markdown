@@ -14,7 +14,7 @@ wordpress_id: 85
 In this section, we will run through some of the basic concepts underlying the MoveIt! system architecture, interfaces and usage.
 
 
-### [Tutorials](tutorials)
+### [Tutorials](http://docs.ros.org/indigo/api/moveit_tutorials/html/)
 
 
 A set of beginner and advanced tutorials will run you through the key concepts in developing and running MoveIt!

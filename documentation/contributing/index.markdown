@@ -13,19 +13,17 @@ We want to encourage all MoveIt! users to contribute back to the open source pro
 
 ## Enhancing Documentation
 
-Documentation for the MoveIt! project can be found in two places: within the source repositories and on the main website:
+Documentation for the MoveIt! project can be found in two places: in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) and on this website:
 
-### Within the source repositories as Sphinx files
+### Within moveit_tutorials as Sphinx files
 
-Tutorials and other concepts are documented as [reStructredText](http://docutils.sourceforge.net/rst.html) files (similar to Markdown) in ``doc`` folders in various MoveIt! packages. For example, many of the beginner tutorials use the PR2 robot as an example, and their documentation pages can be found [here](https://github.com/ros-planning/moveit_pr2/tree/indigo-devel/pr2_moveit_tutorials/planning/src/doc)
-
-To edit or add more tutorials, create Github pull requests to the appropriate location and the maintainers will graciously approve your help after review.
+Tutorials are documented as [reStructredText](http://docutils.sourceforge.net/rst.html) files (similar to Markdown) in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials). These tutorials mostly use the PR2 as their example robot and include example source code you can run. To edit or add more tutorials, create Github pull requests to that repo and the maintainers will graciously approve your help after review.
 
 If you are interested in generating the html pages locally on your machine, install [rosdoc_lite](http://wiki.ros.org/rosdoc_lite) (``apt-get install ros-kinetic-rosdoc-lite``) and run in the root of the package:
 
     rosdoc_lite .
 
-i.e. [pr2_moveit_tutorials](https://github.com/ros-planning/moveit_pr2/tree/indigo-devel/pr2_moveit_tutorials). This will automatically pick up the rosdoc.yaml and write the documentation to ``doc/html``
+This will automatically pick up the rosdoc.yaml and write the documentation to ``doc/html``
 
 For deploying documentation changes to the web, [Section 3 of rosdoc_lite wiki](http://wiki.ros.org/rosdoc_lite) says that "rosdoc_lite is automatically run for packages in repositories that have rosinstall files listed in the rosdistro repository." This is done about once every 24 hours, [overnight](http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation).
 
