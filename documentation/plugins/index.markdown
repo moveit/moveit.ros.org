@@ -83,7 +83,7 @@ The interface is defined in [planning_interface.h](https://github.com/ros-planni
 
 ### Concrete Implementation
 
-MoveIt comes with explicit implemenations of planners such as the [OMPL Planner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/ompl/ompl_interface/src/ompl_planner_manager.cpp). 
+An examplary implemenation of a planner is the [OMPL Planner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/ompl/ompl_interface/src/ompl_planner_manager.cpp). 
 
 <a name="MoveItControllerManager"></a>
 ## moveit_controller_manager::MoveItControllerManager
