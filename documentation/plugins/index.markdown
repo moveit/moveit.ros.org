@@ -81,15 +81,17 @@ joint_limits:
 
 ### Usage
 
+By implementing the [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h) interface it is possible to offer allocations of handlers for action based controllers.  
+
 ### Field of Application
 
 ### Interface Description
 
-The interface is defined in [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h).
+The interface is defined in [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h). 
 
 ### Concrete Implementation
 
-An examplary implementation of this interface is the [joint_trajectory_controller_plugin.cpp](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp).
+An examplary implementation of this interface is the [joint_trajectory_controller_plugin.cpp](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp). This is also currently the only implementation available.
 
 <a name="MoveItSensorManager"></a>
 ## moveit_sensor_manager::MoveItSensorManager
