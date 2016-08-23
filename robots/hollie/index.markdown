@@ -13,7 +13,7 @@ wordpress_id: 904
   * Organization: FZI
 
 	
-  * Website: [http://www.fzi.de/en/forschung/projekte/hollie/](http://www.fzi.de/en/forschung/projekte/hollie/)
+  * Website: [http://www.fzi.de/forschung/projekt-details/hollie](http://www.fzi.de/forschung/projekt-details/hollie/)
 
 	
   * MoveIt! Config Package: 

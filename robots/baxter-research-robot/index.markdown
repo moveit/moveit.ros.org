@@ -22,7 +22,7 @@ wordpress_id: 408
   * Maintainer(s) : rsdk.support@rethinkrobotics.com
 
 	
-  * STATUS: [Release 1.1]()
+  * STATUS: [Release 1.1](/about/moveit-status/#legend)
 
 
 

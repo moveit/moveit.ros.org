@@ -12,7 +12,7 @@ wordpress_id: 127
 	<p>MoveIt! has now been used on over 65 robots by the community. This page collects information about using MoveIt! with different robots. Click on individual robots to see details.<br>
 	</p><table style="width:100%; " class="table">
 	<tbody>
-		<tr><td><strong>We are looking for robot maintainers and new robots:</strong> If you are willing to maintain the MoveIt! packages for any robot in this list or if you would like to add a robot to this list, please email the <a title="Mailing List" href="/wordpress/?page_id=89#mailing_list">moveit-users</a> mailing list.</td>
+		<tr><td><strong>We are looking for robot maintainers and new robots:</strong> If you are willing to maintain the MoveIt! packages for any robot in this list or if you would like to add a robot to this list, please email the <a title="Mailing List" href="https://groups.google.com/forum/#!forum/moveit-users/join">moveit-users</a> mailing list.</td>
 		</tr>
 	</tbody></table><br>
 	<table style="width:100%; " class="table">

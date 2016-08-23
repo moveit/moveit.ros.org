@@ -16,7 +16,7 @@ wordpress_id: 499
   * Website:
 
 	
-  * MoveIt! Config Package: [https://github.com/ros-planning/moveit_robots/tree/master/r2_moveit_config](https://github.com/ros-planning/moveit_robots/tree/master/r2_moveit_config)
+  * MoveIt! Config Package: [https://github.com/ros-planning/moveit_robots/tree/master/r2_moveit_generated](https://github.com/ros-planning/moveit_robots/tree/master/r2_moveit_generated)
 
 	
   * Maintainer(s) :
