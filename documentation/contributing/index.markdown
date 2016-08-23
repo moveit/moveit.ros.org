@@ -13,21 +13,11 @@ We want to encourage all MoveIt! users to contribute back to the open source pro
 
 ## Enhancing Documentation
 
-Documentation for the MoveIt! project can be found in two places: in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) and on this website:
+Documentation for the MoveIt! project can be found in two places: in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) and on this website. Github's popular ``README.md`` files should be mainly used to redirect users to the corresponding Sphinx files and website pages.
 
 ### Within moveit_tutorials as Sphinx files
 
 Tutorials are documented as [reStructredText](http://docutils.sourceforge.net/rst.html) files (similar to Markdown) in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials). These tutorials mostly use the PR2 as their example robot and include example source code you can run. To edit or add more tutorials, create Github pull requests to that repo and the maintainers will graciously approve your help after review.
-
-If you are interested in generating the html pages locally on your machine, install [rosdoc_lite](http://wiki.ros.org/rosdoc_lite) (``apt-get install ros-kinetic-rosdoc-lite``) and run in the root of the package:
-
-    rosdoc_lite .
-
-This will automatically pick up the rosdoc.yaml and write the documentation to ``doc/html``
-
-For deploying documentation changes to the web, [Section 3 of rosdoc_lite wiki](http://wiki.ros.org/rosdoc_lite) says that "rosdoc_lite is automatically run for packages in repositories that have rosinstall files listed in the rosdistro repository." This is done about once every 24 hours, [overnight](http://wiki.ros.org/rosdistro/Tutorials/Indexing%20Your%20ROS%20Repository%20for%20Documentation%20Generation).
-
-Note that ``README.md`` files that are popular on Github should be mainly used to redirect users to the corresponding Sphinx files and website pages.
 
 ### moveit.ros.org
 
