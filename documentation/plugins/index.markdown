@@ -79,9 +79,15 @@ joint_limits:
 <a name="ControllerHandleAllocator"></a>
 ## moveit_ros_control_interface::ControllerHandleAllocator
 
+### Usage
+
+### Field of Application
+
 ### Interface Description
 
 The interface is defined in [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h).
+
+### Concrete Implementation
 
 <a name="MoveItSensorManager"></a>
 ## moveit_sensor_manager::MoveItSensorManager
