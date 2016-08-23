@@ -33,7 +33,7 @@ By implementing the [move_group_capability.h](https://github.com/ros-planning/mo
 
 ### Field of Application
 
-Plugins usually create communication functionality in form of a ros-service or a simple ros-topic and can operate on the move group context. Therefore, can be the possible applications very diverse.
+Plugins of this type usually create communication functionality in form of a ros-service or a simple ros-topic and can operate on the move group context. Therefore, can be the possible applications very diverse.
 
 ### Interface Description
 
