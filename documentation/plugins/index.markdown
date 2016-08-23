@@ -150,7 +150,7 @@ An examplary implementation of this interface is the [joint_trajectory_controlle
 <a name="MoveItSensorManager"></a>
 ## moveit_sensor_manager::MoveItSensorManager
 
-This plugin is used to integrade sensores into the planning process.
+This plugin is used to integrade sensores into the planning process. Defined in: [sensor_manager.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/sensor_manager/include/moveit/sensor_manager/sensor_manager.h)
 
 ### Usage
 
