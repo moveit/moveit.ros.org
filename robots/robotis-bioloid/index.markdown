@@ -14,9 +14,9 @@ wordpress_id:
 
   * MoveIt! Config Package: [https://github.com/dxydas/ros-bioloid/tree/master/src/bioloid_moveit_config](https://github.com/dxydas/ros-bioloid/tree/master/src/bioloid_moveit_config)
 
-  * Maintainer(s) : [dxydas7@gmail.com](dxydas7@gmail.com)
+  * Maintainer(s) : dxydas7@gmail.com
 
-  * STATUS: [Alpha]()
+  * STATUS: [Alpha](/about/moveit-status#status-code-robots)
 
 
 ### Versions

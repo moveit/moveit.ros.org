@@ -13,7 +13,7 @@ wordpress_id: 904
   * Organization: FZI
 
 	
-  * Website: [http://www.fzi.de/en/forschung/projekte/hollie/](http://www.fzi.de/en/forschung/projekte/hollie/)
+  * Website: [http://www.fzi.de/forschung/projekt-details/hollie](http://www.fzi.de/forschung/projekt-details/hollie/)
 
 	
   * MoveIt! Config Package: 
@@ -22,7 +22,7 @@ wordpress_id: 904
   * Maintainer(s) : Andreas Hermann
 
 	
-  * STATUS: [Alpha](/about/moveit-status#legend)
+  * STATUS: [Alpha](/about/moveit-status#status-code-robots)
 
 
 
