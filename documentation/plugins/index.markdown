@@ -106,9 +106,27 @@ An examplary implemenation of a planner is the [OMPL Planner](https://github.com
 
 ### Usage
 
-### Interface Description
+MoveIt! does not enforce how controllers are implemented. To make your controllers usable by MoveIt, this interface needs to be implemented. The main purpose of this interface is to expose the set of known controllers and potentially to allow activating and deactivating them, if multiple controllers are available.
+It is often the case that multiple controllers could be used to execute a motion. Marking a controller as default makes MoveIt prefer this controller when multiple options are available.
+The manager also coordinates the switch between two controllers.
+A controller can be active or inactive. This means that MoveIt could activate the controller when needed, and de-activate controllers that overlap (control the same set of joints)
 
 ### Concrete Implementation
+
+The interfaces are defined in [controller_manager.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h).
+A concrete implemntation can be found here: [moveit_simple_controller_manager](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_plugins/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h)
+
+controller_manager.launch could be look like this:
+
+```
+<launch>
+  <rosparam file="$(find xamla_egomo_moveit_config_dev)/config/controllers.yaml"/>
+  <param name="use_controller_manager" value="true"/>
+  <param name="trajectory_execution/execution_duration_monitoring" value="true"/>
+  <param name="moveit_controller_manager" value="moveit_simple_controller_manager/MoveItSimpleControllerManager"/>
+</launch>
+```
+where the controllers are defined in the 'controllers.yaml'.
 
 <a name="ControllerHandleAllocator"></a>
 ## moveit_ros_control_interface::ControllerHandleAllocator
