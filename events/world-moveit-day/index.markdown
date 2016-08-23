@@ -51,6 +51,10 @@ If you aren't near an organized event we encourage you to have your own event in
 
 ## Logistics
 
+### What version of MoveIt! should you use?
+
+If you are a beginner, we recommend the stable Indigo branch/release. The PR2, MoveIt! tutorials, and Fetch simulation all work reliably with this release. The Jade and Kinetic branches/releases are much newer and likely have various road blocks to overcome. However if you are an advanced user - please help us overcome them by testing it!
+
 ### Finding Where You Can Help
 
 Suggested areas for improvement will be tracked on the new unified moveit repo via several labels that are ideal for World MoveIt! Day:
@@ -72,15 +76,30 @@ For more details on modifying documentation, see [Contributing](http://moveit.ro
 
 ### Video Conference
 
-We will use Google Hangouts for the video conferencing software. Note that Google's video chat software is limited to 25 participants.
+We will use Google Hangouts for the video conferencing software. Please join the following video call (limited to 10 particpants overnight Pacific time, but will increase to 25 participants during the day in Pacific time):
+
+[Google Hangouts Video Link](https://hangouts.google.com/hangouts/_/fetchrobotics.com/mferguson)
+
+Note: this link is subject to change throughout the day, check back
 
 ### MoveIt! Integrated Manipulation Simulation
 
-One of the objectives of WMD is to resurrect an end-to-end simulation of a robot performing pick-and-place using perception, MoveIt!, and Gazebo - similar to the no longer supported [PR2 Tabletop Manipulation pipeline for ROS Fuerte](http://wiki.ros.org/pr2_tabletop_manipulation_apps). Fetch robotics will be providing a solution for on this day for testing. More info TBD.
+One of the objectives of WMD is to resurrect an end-to-end simulation of a robot performing pick-and-place using perception, MoveIt!, and Gazebo - similar to the no longer supported [PR2 Tabletop Manipulation pipeline for ROS Fuerte](http://wiki.ros.org/pr2_tabletop_manipulation_apps). Fetch Robotics has such an [integrated simulation](http://docs.fetchrobotics.com/gazebo.html#mm-demo) that is well tested and stable in ROS Indigo but has the following caveats for Jade and Kinetic:
+
+On Jade, you must check out the following (this has been tested, but not in the past 2 weeks):
+
+* https://github.com/fetchrobotics/fetch_gazebo (gazebo5 branch is tested and works, but robot is funky colored)
+
+On Kinetic, you will need full source. WARNING: this is untested and likely will require a lot of hacking:
+
+* https://github.com/fetchrobotics/fetch_gazebo
+* https://github.com/fetchrobotics/fetch_ros (for urdf)
+* https://github.com/mikeferguson/simple_grasping
+* https://github.com/mikeferguson/moveit_python
 
 ## Discussion
 
-See the [Discourse Topic](http://discourse.ros.org/t/world-moveit-day-planning/365)
+If you have any questions refer to the [Discourse Topic](http://discourse.ros.org/t/world-moveit-day-planning/365)
 
 ## Sponorship
 
