@@ -74,13 +74,17 @@ Improving our documentation is a major goal of WMD - please add to our Sphynx an
 
 For more details on modifying documentation, see [Contributing](http://moveit.ros.org/documentation/contributing/).
 
-### Video Conference
+### Video Conference and IRC
+
+We're having issues with Google Hangouts so have switched to good old IRC and are in #moveit at irc.freenode.net.
 
 We will use Google Hangouts for the video conferencing software. Please join the following video call (limited to 10 particpants overnight Pacific time, but will increase to 25 participants during the day in Pacific time):
 
 [Google Hangouts Video Link](https://hangouts.google.com/hangouts/_/fetchrobotics.com/mferguson)
 
 Note: this link is subject to change throughout the day, check back
+
+Some people are also using https://appear.in/world-moveit-day
 
 ### MoveIt! Integrated Manipulation Simulation
 
