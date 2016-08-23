@@ -63,3 +63,9 @@ An example for a specific pluging is the [cartesian_path_service_capability](htt
 ## constraint_samplers::ConstraintSamplerAllocator
 <a name="CollisionPlugin"></a>
 ## collision_detection::CollisionPlugin
+
+### Field of Application
+
+### Interface Description
+
+### Concrete Implementation
