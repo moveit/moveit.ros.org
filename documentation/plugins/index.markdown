@@ -13,15 +13,17 @@ MoveIt connects a number of different fields and provides a lot of interfaces so
 The following lists the different types of plugins and provides an overview over the use of them within the framework.
 
 * [move_group::MoveGroupCapability](#MoveGroupCapability)
-* [occupancy_map_monitor::OccupancyMapUpdater](#OccupancyMapUpdater)
-* [planning_request_adapter::PlanningRequestAdapter](#PlanningRequestAdapter)
 * [kinematics::KinematicsBase](#KinematicsBase)
 * [planning_interface::PlannerManager](#PlannerManager)
 * [moveit_controller_manager::MoveItControllerManager](#MoveItControllerManager)
 * [moveit_ros_control_interface::ControllerHandleAllocator](#ControllerHandleAllocator)
 * [moveit_sensor_manager::MoveItSensorManager](#MoveItSensorManager)
-* [constraint_samplers::ConstraintSamplerAllocator](#ConstraintSamplerAllocator)
 * [collision_detection::CollisionPlugin](#CollisionPlugin)
+
+TODO:
+* [occupancy_map_monitor::OccupancyMapUpdater](#OccupancyMapUpdater)
+* [planning_request_adapter::PlanningRequestAdapter](#PlanningRequestAdapter)
+* [constraint_samplers::ConstraintSamplerAllocator](#ConstraintSamplerAllocator)
 
 Deprecated:
 
