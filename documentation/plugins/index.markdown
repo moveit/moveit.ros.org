@@ -29,19 +29,19 @@ The following lists the different types of plugins and provides an overview over
 
 ### Usage
 
-By implementing the [move_group_capability.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h) interface it is possible to realize functionalities that are executed frequently. Each capability has access to the [move group context](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/move_group/include/moveit/move_group/move_group_context.h) including e.g. obstacle for collision avoidance.
+By implementing the [move_group_capability.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h) interface it is possible to realize functionalities that are executed frequently. Each capability has access to the [move group context](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/include/moveit/move_group/move_group_context.h) including e.g. obstacle for collision avoidance.
 
 ### Field of Application
 
-Plugins usually create communication functionallity in form of a ros-service or a simple ros-topic and can operate on the move group context. Therefore, can be the possible applications very diverse. 
+Plugins usually create communication functionallity in form of a ros-service or a simple ros-topic and can operate on the move group context. Therefore, can be the possible applications very diverse.
 
 ### Interface Description
 
-The interface is defined in the [move_group_capability.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h). It mainly consits of an initialize function which has to be overwritten.
+The interface is defined in the [move_group_capability.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h). It mainly consits of an initialize function which has to be overwritten.
 
 ### Concrete Implementation
 
-An example for a specific pluging is the [cartesian_path_service_capability](https://github.com/ros-planning/moveit/blob/3c207ad694ab6fb94a428145ab53810ced74a262/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp). This particular plugin can be used to compute a cartesian path. 
+An example for a specific pluging is the [cartesian_path_service_capability](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp). This particular plugin can be used to compute a cartesian path. Moveit offers different [default capabilities](https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_ros/move_group/src/default_capabilities) 
 
 <a name="OccupancyMapUpdater"></a>
 ## occupancy_map_monitor::OccupancyMapUpdater
