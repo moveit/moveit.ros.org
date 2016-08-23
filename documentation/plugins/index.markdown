@@ -16,13 +16,16 @@ The following lists the different types of plugins and provides an overview over
 * [occupancy_map_monitor::OccupancyMapUpdater](#OccupancyMapUpdater)
 * [planning_request_adapter::PlanningRequestAdapter](#PlanningRequestAdapter)
 * [kinematics::KinematicsBase](#KinematicsBase)
-* [planning_interface::Planner](#Planner)
 * [planning_interface::PlannerManager](#PlannerManager)
 * [moveit_controller_manager::MoveItControllerManager](#MoveItControllerManager)
 * [moveit_ros_control_interface::ControllerHandleAllocator](#ControllerHandleAllocator)
 * [moveit_sensor_manager::MoveItSensorManager](#MoveItSensorManager)
 * [constraint_samplers::ConstraintSamplerAllocator](#ConstraintSamplerAllocator)
 * [collision_detection::CollisionPlugin](#CollisionPlugin)
+
+Deprecated:
+
+* [planning_interface::Planner](#Planner)
 
 <a name="MoveGroupCapability"></a>
 ## move_group::MoveGroupCapability
@@ -68,8 +71,7 @@ The KinematicsBase interface enables you, to:
 The well documented interface is located [here](https://github.com/ros-planning/moveit/blob/3464e3d27bd8655aa6187ca5d3a031a4f72663e2/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h).
 ### Concrete Implementations
 Examples for implementations of the KinematicsBase are the KDL plugin ([header](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h), [cpp](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/kdl_kinematics_plugin/src/kdl_kinematics_plugin.cpp)) or the SrvKinematicsPlugin ([header](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h), [cpp](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/src/srv_kinematics_plugin.cpp)).
-<a name="Planner"></a>
-## planning_interface::Planner (Deprecated? Probably replaced by PlannerManager)
+
 <a name="PlannerManager"></a>
 ## planning_interface::PlannerManager
 
@@ -149,3 +151,10 @@ The interface is defined in the [collision_plugin.h](https://github.com/ros-plan
 
 ### Concrete Implementation
 NO IMPLEMENTATIONS AVAILAVLE
+
+<a name="Planner"></a>
+## planning_interface::Planner (Deprecated!)
+
+### Info
+
+Old base class for MoveIt planners which has been removed in commit daa9fd2062df65e713e6c40570b2f7dceafed178. Was replaced by PlannerManager. This class is currently used by the planners [SBPLMetaPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/sbpl/ros/sbpl_interface_ros/src/sbpl_meta_plugin.cpp) and [ChompPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/chomp/ros/chomp_interface_ros/src/chomp_plugin.cpp).
