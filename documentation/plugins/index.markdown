@@ -64,6 +64,34 @@ An example for a specific pluging is the [cartesian_path_service_capability](htt
 <a name="CollisionPlugin"></a>
 ## collision_detection::CollisionPlugin
 
+Plugin API for loading a custom collision detection robot/world.
+
+### Usage
+
+ <PRE>
+  namespace my_collision_checker
+  {
+  class MyCollisionDetectorAllocator :
+    public collision_detection::CollisionDetectorAllocatorTemplate<MyCollisionWorld, MyCollisionRobot, MyCollisionDetectorAllocator>
+  {
+    public:
+      static const std::string NAME_;
+  };
+  const std::string MyCollisionDetectorAllocator::NAME_("my_checker");
+  }
+  namespace collision_detection
+  {
+  class MyCollisionDetectionLoader : public CollisionPlugin
+  {
+  public:
+    virtual bool initialize(const planning_scene::PlanningScenePtr& scene, bool exclusive) const
+    {
+      scene->setActiveCollisionDetector(my_collision_checker::MyCollisionDetectorAllocator::create(), exclusive);
+      return true;
+     }
+   };
+ </PRE>
+
 ### Field of Application
 
 ### Interface Description
