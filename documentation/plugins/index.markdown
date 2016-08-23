@@ -33,15 +33,15 @@ By implementing the [move_group_capability.h](https://github.com/ros-planning/mo
 
 ### Field of Application
 
-Plugins usually create communication functionallity in form of a ros-service or a simple ros-topic and can operate on the move group context. Therefore, can be the possible applications very diverse.
+Plugins usually create communication functionality in form of a ros-service or a simple ros-topic and can operate on the move group context. Therefore, can be the possible applications very diverse.
 
 ### Interface Description
 
-The interface is defined in the [move_group_capability.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h). It mainly consits of an initialize function which has to be overwritten.
+The interface is defined in the [move_group_capability.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h). It mainly consists of an initialize function which has to be overwritten.
 
 ### Concrete Implementation
 
-An example for a specific pluging is the [cartesian_path_service_capability](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp). This particular plugin can be used to compute a cartesian path. Moveit offers different [default capabilities](https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_ros/move_group/src/default_capabilities) 
+An example for a specific plugin is the [cartesian_path_service_capability](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp). This particular plugin can be used to compute a cartesian path. Moveit offers different [default capabilities](https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_ros/move_group/src/default_capabilities) 
 
 <a name="OccupancyMapUpdater"></a>
 ## occupancy_map_monitor::OccupancyMapUpdater
