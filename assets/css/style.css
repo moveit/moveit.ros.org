@@ -31,6 +31,19 @@
      color: #f39c12;
  }
 
+ #share-page-social-fb:hover {
+     color: #3B5998;
+ }
+ #share-page-social-tw:hover {
+     color: #4099FF;
+ }
+ #share-page-social-gp:hover {
+     color: #d34836;
+ }
+ #share-page-social-em:hover {
+     color: #f39c12;
+ }
+
  table {
      width: 100%;
  }
