@@ -12,6 +12,7 @@ title: Source Code
 MoveIt! code is hosted on github in the [ros-planning organization](http://github.com/ros-planning) in the following repos:
 
   * [moveit](https://github.com/ros-planning/moveit) - Main repo of MoveIt!, contains the following packages:
+    * moveit - Metapackage
     * moveit_core - Core C++ libraries
     * moveit_ros - Metapackage
     * moveit_ros_benchmarks
@@ -37,9 +38,20 @@ MoveIt! code is hosted on github in the [ros-planning organization](http://githu
   * [moveit_advanced](https://github.com/ros-planning/moveit_advanced) - Experimental advanced capabilities of MoveIt!
   * [srdfdom](https://github.com/ros-planning/srdfdom) - Semantic Robot Description Format
   * [warehouse_ros](https://github.com/ros-planning/warehouse_ros) - Abstract interface for persisting ROS message data
+  * [random_numbers](https://github.com/ros-planning/random_numbers) - package for generating random numbers
+
+For completeness, the following two repos are where documentation can be found:
+
+  * [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) - this main website
+  * [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) - step by step examples for learning MoveIt!
+
+In addition, the following repos exist for testing:
+
+  * [moveit_ci](https://github.com/ros-planning/moveit_ci) - script to run with Travis for continuous integration
+  * [moveit_kinematics_tests](https://github.com/ros-planning/moveit_kinematics_tests) - experimental repo with tests
 
 # Code Health
 
-We use [Travis](https://travis-ci.org/ros-planning/) continous integration for testing pull requests and overall code health. Travis status badges should be visible on the README.md of every MoveIt! repository.
+We use [Travis](https://travis-ci.org/ros-planning/) continous integration combined with the [moveit_ci](https://github.com/ros-planning/moveit_ci) for testing pull requests and overall code health. Travis status badges should be visible on the README.md of every MoveIt! repository.
 
 To see an overview of the activity for MoveIt! check our [Open HUB Project Summary](https://www.openhub.net/p/moveit_).

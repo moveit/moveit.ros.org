@@ -15,9 +15,9 @@ We want to encourage all MoveIt! users to contribute back to the open source pro
 
 Documentation for the MoveIt! project can be found in two places: in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) and on this website. Github's popular ``README.md`` files should be mainly used to redirect users to the corresponding Sphinx files and website pages.
 
-### Within moveit_tutorials as Sphinx files
+### moveit_tutorials
 
-Tutorials are documented as [reStructredText](http://docutils.sourceforge.net/rst.html) files (similar to Markdown) in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials). These tutorials mostly use the PR2 as their example robot and include example source code you can run. To edit or add more tutorials, create Github pull requests to that repo and the maintainers will graciously approve your help after review.
+Tutorials are documented as [reStructredText](http://docutils.sourceforge.net/rst.html) files (similar to Markdown) using Sphinx in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials). These tutorials mostly use the PR2 as their example robot and include example source code you can run. To edit or add more tutorials, create Github pull requests to that repo and the maintainers will graciously approve your help after review.
 
 ### moveit.ros.org
 
