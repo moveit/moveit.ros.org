@@ -48,13 +48,13 @@ The interface is defined in the [move_group_capability.h](https://github.com/ros
 
 An example for a specific plugin is the [cartesian_path_service_capability](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp). This particular plugin can be used to compute a cartesian path. The implementation of the intialized function is shown below. In the example the plugin advertises a topic containing information about the trajectory and a service for computing a new trajectory.  
 
-<PRE>
+```
 void move_group::MoveGroupCartesianPathService::initialize()
 {
   display_path_ = node_handle_.advertise<moveit_msgs::DisplayTrajectory>(planning_pipeline::PlanningPipeline::DISPLAY_PATH_TOPIC, 10, true);
   cartesian_path_service_ = root_node_handle_.advertiseService(CARTESIAN_PATH_SERVICE_NAME, &MoveGroupCartesianPathService::computeService, this);
 }
-</PRE>
+```
 
 Moveit offers different [default capabilities](https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_ros/move_group/src/default_capabilities). A description of these can be found [here](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_ros/move_group/default_capabilities_plugin_description.xml).
 
@@ -181,7 +181,7 @@ Plugin API for loading a custom collision detection robot/world.
 
 ### Usage
 
- <PRE>
+```
   namespace my_collision_checker
   {
   class MyCollisionDetectorAllocator :
@@ -203,7 +203,7 @@ Plugin API for loading a custom collision detection robot/world.
       return true;
      }
    };
- </PRE>
+```
 
 ### Field of Application
 
