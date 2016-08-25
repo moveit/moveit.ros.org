@@ -29,9 +29,10 @@ Post issues to the corresponding github repo for MoveIt! - default to the main "
 
 ### Web documentation issues
 
-Post issues about the web documentation to the website github package.
+Post issues about the web documentation to the appropriate github repo:
 
-  * [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org/issues) - Issues related to the Documentation.
+  * [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org/issues) - Issues related to the Jekyl-based website
+  * [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) - Issues related to the Sphinx-based tutorials
 
 ### Change Logs
 
