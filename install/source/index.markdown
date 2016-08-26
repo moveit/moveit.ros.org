@@ -57,8 +57,6 @@ See final section below **Source The Catkin Workspace**
 
 > **Warning:** the Kinetic branch is in beta stage, use at your own risk
 
-> **Note:** make sure geometric_shapes is not installed from debian until the next release (after 0.5.0)
-
 The Kinetic MoveIt! branch currently requires using the ROS ``shadow-fixed`` repositories:
 
     echo 'deb http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main' | sudo tee /etc/apt/sources.list.d/ros-latest.list
