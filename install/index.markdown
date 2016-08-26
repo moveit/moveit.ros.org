@@ -79,4 +79,4 @@ See [Source Installation Instructions for unsupported versions of MoveIt!](depre
 
 ## Quick Start
 
-Try planning in Rviz with the PR2 move_group demo: [MoveIt! Rviz Plugin Tutorial](http://docs.ros.org/indigo/api/moveit_ros_visualization/html/doc/tutorial.html)
+Try planning in Rviz with the PR2 move_group demo: [MoveIt! Rviz Plugin Tutorial](http://docs.ros.org/indigo/api/moveit_tutorials/html/doc/ros_visualization/visualization_tutorial.html)
