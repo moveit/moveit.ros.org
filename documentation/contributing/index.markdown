@@ -43,6 +43,10 @@ Our policy for contributing changes to the code base is that no one, not even th
 
 See [MoveIt! Code Style](code.html) for details on how to format your pull requests.
 
+### Checking For ABI Compliance
+
+In LTS releases efforts should be made to avoid breaking ABI and API (binary and source-level compatibility) for MoveIt!'s C/C++ libraries. To aid in checking this, we recommend the [Linux ABI Compliance-Checker](http://ispras.linuxbase.org/index.php/ABI_compliance_checker)
+
 ### Running Tests Locally
 
 You can run MoveIt! tests locally with catkin-tools. To run a test for just 1 package:
