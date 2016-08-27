@@ -47,8 +47,6 @@ See bottom of page for quick start
 
 ## ROS Jade
 
-Partial support for Jade is currently available, see [Github Issue](https://github.com/ros-planning/moveit/issues/22)
-
 ### Ubuntu Installation: Debian Packages for MoveIt!
 
 Simply run:
