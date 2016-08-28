@@ -51,9 +51,7 @@ See bottom of page for quick start
 
 Simply run:
 
-    sudo apt-get install ros-jade-moveit-*
-
-*Note*: the meta package ``moveit-full`` is not yet available but will be replaced with the new metapackage ``moveit``
+    sudo apt-get install ros-jade-moveit
 
 ### Setup your environment
 
