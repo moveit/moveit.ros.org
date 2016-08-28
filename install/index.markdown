@@ -25,7 +25,7 @@ Choose your ROS distribution below:
 
 ## ROS Indigo
 
-*Note for Ubuntu 13.4 32 bit users*: There is a bug with GCC 4.7 on Ubuntu 13.4 32bit with Eigen 3.1.2. It's not likely to be fixed, so upgrade/downgrade your system to 13.4 64 bit resp. 12.4.
+*Note for Ubuntu 13.04 32 bit users*: There is a bug with GCC 4.7 on Ubuntu 13.04 32bit with Eigen 3.1.2. It's not likely to be fixed, so upgrade/downgrade your system to 13.04 64 bit resp. 12.04.
 
 ### Ubuntu Installation: Debian Packages for MoveIt!
 
@@ -46,8 +46,6 @@ See bottom of page for quick start
 * * *
 
 ## ROS Jade
-
-Partial support for Jade is currently available, see [Github Issue](https://github.com/ros-planning/moveit/issues/22)
 
 ### Ubuntu Installation: Debian Packages for MoveIt!
 
