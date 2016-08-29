@@ -89,11 +89,13 @@ Setup your environment - you can do this every time you work with this particula
 In order to build from source you'll need to install the [mongo c++ drivers](https://github.com/mongodb/mongo-cxx-driver/wiki/Download-and-Compile-the-Legacy-Driver)
 
 First get the driver:
+
 ```
 git clone -b 26compat https://github.com/mongodb/mongo-cxx-driver.git
 ```
 
 Then compile using scons:
+
 ```
 sudo apt-get install scons
 scons --prefix=/usr/local/ --full --use-system-boost --disable-warnings-as-errors
@@ -103,6 +105,7 @@ sudo scons install
 ### Adding the relevant packages to your workspace
 
 You'll need to add those two packages to the workspace (jade-devel branch works for both kinetic and jade):
+
 ```
 cd ~/ws_moveit/src
 wstool set -yu warehouse_ros_mongo --git https://github.com/TheBrewCrew/warehouse_ros_mongo.git -v jade-devel
@@ -110,6 +113,7 @@ wstool set -yu warehouse_ros --git https://github.com/ros-planning/warehouse_ros
 ```
 
 Then compile
+
 ```
 catkin build
 ```
