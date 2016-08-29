@@ -6,11 +6,13 @@ script:
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --only-4xx --check-html --alt-ignore '/.*/'
 
-# branch whitelist, only for GitHub Pages
+# branch whitelist - this seems like a no-op (since the RegEx includes
+# everything), but it isn't: by default, Travis excludes the `gh-pages` branch,
+# and you need to explicitly enable it.
 branches:
   only:
   - gh-pages     # test the gh-pages branch
-  - /pages-(.*)/ # test every branch which starts with "pages-"
+  - /(.*)/       # test every other branch
 
 env:
   global:
