@@ -13,6 +13,12 @@ wordpress_id: 85
 
 In this section, we will run through some of the basic concepts underlying the MoveIt! system architecture, interfaces and usage.
 
+### [Plugin Interfaces](plugins)
+
+MoveIt! provides many interfaces so that users can override different parts of
+the framework and implement new concepts without having to touching the core of
+the framework. This section lists the different types of plugins and provides
+an overview of how to use them within the framework.
 
 ### [Tutorials](http://docs.ros.org/indigo/api/moveit_tutorials/html/)
 
