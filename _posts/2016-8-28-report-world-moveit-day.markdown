@@ -27,6 +27,7 @@ A few stats from the event and the 5 days since:
 Some key improvements:
 
 **Documentation**
+
 - IKFast instructions updated for 14.04 / 16.04
 - New tutorials website setup and expanded upon
 - All broken links fixed throughout documentation and website
