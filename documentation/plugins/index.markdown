@@ -9,7 +9,7 @@ title: Plugins
 
 # Plugin Interfaces
 
-MoveIt connects a number of different fields and provides a lot of interfaces so that users can override different parts of the framework and implement new concepts without having to touching the core of the framework.
+MoveIt! connects a number of different fields and provides a lot of interfaces so that users can override different parts of the framework and implement new concepts without having to touching the core of the framework.
 The following lists the different types of plugins and provides an overview over the use of them within the framework.
 
 * [move_group::MoveGroupCapability](#MoveGroupCapability)
@@ -251,7 +251,7 @@ If you want to use an costumized collision detection algorithm for selfcollision
 The interface is defined in the [collision_plugin.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h). It mainly consits of an initialize function which has to be overwritten.
 
 ### Concrete Implementation
-NO IMPLEMENTATIONS AVAILAVLE
+NO IMPLEMENTATIONS AVAILABLE
 
 <a name="Planner"></a>
 ## planning_interface::Planner (Deprecated!)
