@@ -12,25 +12,24 @@ title: Plugins
 MoveIt! connects a number of different fields and provides a lot of interfaces so that users can override different parts of the framework and implement new concepts without having to touching the core of the framework.
 The following lists the different types of plugins and provides an overview over the use of them within the framework.
 
-* [move_group::MoveGroupCapability](#MoveGroupCapability)
+* [move_group::MoveGroupCapability](#movegroupcapability)
 * [kinematics::KinematicsBase](#kinematicsbase)
-* [planning_interface::PlannerManager](#PlannerManager)
-* [moveit_controller_manager::MoveItControllerManager](#MoveItControllerManager)
-* [moveit_ros_control_interface::ControllerHandleAllocator](#ControllerHandleAllocator)
-* [moveit_sensor_manager::MoveItSensorManager](#MoveItSensorManager)
-* [collision_detection::CollisionPlugin](#CollisionPlugin)
-* [planning_request_adapter::PlanningRequestAdapter](#PlanningRequestAdapter)
-
-TODO
-* [occupancy_map_monitor::OccupancyMapUpdater](#OccupancyMapUpdater)
-* [constraint_samplers::ConstraintSamplerAllocator](#ConstraintSamplerAllocator)
+* [planning_interface::PlannerManager](#plannermanager)
+* [moveit_controller_manager::MoveItControllerManager](#moveitcontrollermanager)
+* [moveit_ros_control_interface::ControllerHandleAllocator](#controllerhandleallocator)
+* [moveit_sensor_manager::MoveItSensorManager](#moveitsensormanager)
+* [collision_detection::CollisionPlugin](#collisionplugin)
+* [planning_request_adapter::PlanningRequestAdapter](#planningrequestadapter)
+* [occupancy_map_monitor::OccupancyMapUpdater](#occupancymapupdater)
+* [constraint_samplers::ConstraintSamplerAllocator](#constraintsamplerallocator)
 
 Deprecated:
 
 * [planning_interface::Planner](#Planner)
 
-<a name="MoveGroupCapability"></a>
-## move_group::MoveGroupCapability
+***
+## MoveGroupCapability
+*move_group::MoveGroupCapability*
 
 ### Usage
 
@@ -58,8 +57,9 @@ void move_group::MoveGroupCartesianPathService::initialize()
 }
 ```
 
-<a name="OccupancyMapUpdater"></a>
-## occupancy_map_monitor::OccupancyMapUpdater
+***
+## OccupancyMapUpdater
+*occupancy_map_monitor::OccupancyMapUpdater*
 
 TODO
 
@@ -75,8 +75,9 @@ TODO
 
 TODO
 
-<a name="PlanningRequestAdapter"></a>
-## planning_request_adapter::PlanningRequestAdapter
+***
+## PlanningRequestAdapter
+*planning_request_adapter::PlanningRequestAdapter*
 
 The concept of this type of plugin is explained as part of the [MoveIt concept documentation](/documentation/concepts/#the-motion-planning-pipeline-motion-planners-and-plan-request-adapters).
 
@@ -99,7 +100,10 @@ The interface is located [here](https://github.com/ros-planning/moveit/blob/kine
 
 The planning request adapters are currently specified in ``ompl_planning_pipeline.launch`` generated for each robot. Examples for implementations of the PlanningRequestAdapters can all be found in this [moveit_ros_planning folder](https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_ros/planning/planning_request_adapter_plugins/src)
 
+***
 ## KinematicsBase
+*kinematics::KinematicsBase*
+
 The KinematicsBase interface enables you, to:
 
 - write your own forward and inverse kinematic solvers
@@ -120,8 +124,9 @@ Examples for implementations of the KinematicsBase are
   [header](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h),
   [cpp](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/src/srv_kinematics_plugin.cpp)
 
-<a name="PlannerManager"></a>
-## planning_interface::PlannerManager
+***
+## PlannerManager
+*planning_interface::PlannerManager*
 
 ### Usage
 
@@ -135,8 +140,9 @@ The interface is defined in [planning_interface.h](https://github.com/ros-planni
 
 MoveIt!'s default implementation of this interface is the [OMPL Planner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/ompl/ompl_interface/src/ompl_planner_manager.cpp).
 
-<a name="MoveItControllerManager"></a>
-## moveit_controller_manager::MoveItControllerManager
+***
+## MoveItControllerManager
+*moveit_controller_manager::MoveItControllerManager*
 
 ### Usage
 
@@ -162,8 +168,9 @@ controller_manager.launch could be look like this:
 ```
 where the controllers are defined in the 'controllers.yaml'.
 
-<a name="ControllerHandleAllocator"></a>
-## moveit_ros_control_interface::ControllerHandleAllocator
+***
+## ControllerHandleAllocator
+*moveit_ros_control_interface::ControllerHandleAllocator*
 
 ### Usage
 
@@ -181,8 +188,9 @@ The interface is defined in [ControllerHandle.h](https://github.com/ros-planning
 
 An examplary implementation of this interface is the [joint_trajectory_controller_plugin.cpp](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp). This is also currently the only implementation available.
 
-<a name="MoveItSensorManager"></a>
-## moveit_sensor_manager::MoveItSensorManager
+***
+## MoveItSensorManager
+*moveit_sensor_manager::MoveItSensorManager*
 
 This plugin is used to integrade sensores into the planning process. Defined in: [sensor_manager.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/sensor_manager/include/moveit/sensor_manager/sensor_manager.h)
 
@@ -197,8 +205,9 @@ The function returns true on success (either completing execution succesfully or
 
 TODO
 
-<a name="ConstraintSamplerAllocator"></a>
-## constraint_samplers::ConstraintSamplerAllocator
+***
+## ConstraintSamplerAllocator
+*constraint_samplers::ConstraintSamplerAllocator*
 
 ### Usage
 
@@ -212,8 +221,9 @@ TODO
 
 TODO
 
-<a name="CollisionPlugin"></a>
-## collision_detection::CollisionPlugin
+***
+## CollisionPlugin
+*collision_detection::CollisionPlugin*
 
 Plugin API for loading a custom collision detection robot/world.
 
@@ -254,8 +264,11 @@ The interface is defined in the [collision_plugin.h](https://github.com/ros-plan
 ### Concrete Implementation
 NO IMPLEMENTATIONS AVAILABLE
 
-<a name="Planner"></a>
-## planning_interface::Planner (Deprecated!)
+***
+## Planner
+*planning_interface::Planner*
+
+Deprecated!
 
 ### Info
 
