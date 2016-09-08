@@ -7,13 +7,13 @@ slug: install
 title: Install
 ---
 
-> MoveIt! is currently developed against **Ubuntu and ROS Indigo and Jade**. **ROS Kinetic** is not yet released. It is recommended that you move to ROS Jade for the latest features.
-
-**Developers:**: see [source install](source_install.html) instructions.
-
 # Binary Installation Instructions
 
-MoveIt! is released every month or so into Ubuntu Debians via the ROS infrastructure. For more information see the [target platforms](http://www.ros.org/reps/rep-0003.html)
+MoveIt! is released every month or so into Ubuntu debian packages via the ROS infrastructure. For more information see the [target platforms](http://www.ros.org/reps/rep-0003.html).
+
+MoveIt! is currently released into ROS **Indigo** and **Jade**. ROS **Kinetic** is not yet released but is under active development.
+
+**Developers:** see [source install](source/) instructions.
 
 ## Prerequisite: Install ROS
 
@@ -27,13 +27,13 @@ Choose your ROS distribution below:
 
 *Note for Ubuntu 13.04 32 bit users*: There is a bug with GCC 4.7 on Ubuntu 13.04 32bit with Eigen 3.1.2. It's not likely to be fixed, so upgrade/downgrade your system to 13.04 64 bit resp. 12.04.
 
-### Ubuntu Installation: Debian Packages for MoveIt!
+### Install Ubuntu Packages
 
 Simply run:
 
     sudo apt-get install ros-indigo-moveit-full
 
-### Optional: Install PR2 Debian Packages for MoveIt!
+### Optional: Install PR2 Ubuntu Packages for MoveIt!
 
     sudo apt-get install ros-indigo-moveit-full-pr2
 
@@ -47,7 +47,7 @@ See bottom of page for quick start
 
 ## ROS Jade
 
-### Ubuntu Installation: Debian Packages for MoveIt!
+### Install Ubuntu Packages
 
 Simply run:
 
@@ -63,7 +63,7 @@ See bottom of page for quick start
 
 ## ROS Kinetic
 
-MoveIt! for Kinetic is not yet released, see [Github Issue](https://github.com/ros-planning/moveit/issues/18)
+MoveIt! for Kinetic is not yet released, see [Github Issue](https://github.com/ros-planning/moveit/issues/18).
 
 * * *
 
