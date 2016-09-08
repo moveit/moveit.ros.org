@@ -55,7 +55,7 @@ See final section below **Source The Catkin Workspace**
 
 ## Kinetic
 
-> **Warning:** the Kinetic branch is in beta stage, use at your own risk
+> **Warning:** the Kinetic branch is in beta, use at your own risk
 
 The Kinetic MoveIt! branch currently requires using the ROS ``shadow-fixed`` repositories:
 
@@ -80,9 +80,11 @@ Setup your environment - you can do this every time you work with this particula
 
     source ~/ws_moveit/devel/setup.bash # or .zsh, depending on your shell
 
-## Warehouse support (jade/kinetic)
+## Warehouse Support (Jade/Kinetic only)
 
-**Those instructions are temporary, until the warehouse_ros_mongo package is updated to an Ubuntu supported mongo driver.**
+> **Note:** These instructions are temporary, until the warehouse_ros_mongo package is updated to an Ubuntu supported mongo driver.
+
+The Warehouse functionality allows planning scenes, robot states, and benchmark data to be loaded to and from a database.
 
 ### Compiling the mongo driver
 
@@ -102,9 +104,9 @@ scons --prefix=/usr/local/ --full --use-system-boost --disable-warnings-as-error
 sudo scons install
 ```
 
-### Adding the relevant packages to your workspace
+### Adding warehouse_ros and warehouse_ros_mongo packages
 
-You'll need to add those two packages to the workspace (jade-devel branch works for both kinetic and jade):
+You'll next need to add two packages to the workspace (jade-devel branch works for both kinetic and jade):
 
 ```
 cd ~/ws_moveit/src
