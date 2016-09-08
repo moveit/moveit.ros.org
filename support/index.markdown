@@ -5,21 +5,20 @@ date: 2013-11-20 04:39:45+00:00
 layout: page
 slug: support
 title: Support
-wordpress_id: 89
 ---
 
 
-### FAQs
+### FAQ
 
-  * First, check out the list of [Frequently Asked Questions (FAQs)](/documentation/faqs) to see if your question has been answered already.
+  * First, check out the list of [Frequently Asked Questions](/documentation/faqs) to see if your question has been answered already.
 
 ### Mailing List
 
+  * Search the [Mailing List Archive](https://groups.google.com/forum/#%21forum/moveit-users) for a similar question to yours
+
   * [Join the MoveIt! users mailing list](https://groups.google.com/forum/#!forum/moveit-users/join) (moveit-users _at_ googlegroups _dot_ com)
 
-  * Browse the [Mailing List Archive](https://groups.google.com/forum/#%21forum/moveit-users)
-
-### MoveIt! issues
+### MoveIt! Issues
 
 Post issues to the corresponding github repo for MoveIt! - default to the main "moveit" repo when unsure:
 
@@ -27,7 +26,7 @@ Post issues to the corresponding github repo for MoveIt! - default to the main "
   * [moveit_robots](https://github.com/ros-planning/moveit_robots/issues) - Issues related to a specific robot type's moveit configuration
   * [moveit_pr2](https://github.com/ros-planning/moveit_pr2/issues) - Issues related to the PR2 specific set of MoveIt! packages.
 
-### Web documentation issues
+### Web Documentation Issues
 
 Post issues about the web documentation to the appropriate github repo:
 

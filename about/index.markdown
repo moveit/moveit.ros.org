@@ -7,21 +7,15 @@ slug: about
 title: About
 ---
 
-## Contact
+## License
 
-For media or other general queries about MoveIt!, please contact _robot.moveit@gmail.com_
+MoveIt! is open source and released under the [BSD License v3](https://opensource.org/licenses/BSD-3-Clause). Each individual file in the MoveIt! source code should contain a copy of the license.
 
 ## Citing MoveIt!
 
 Please use the following citation for MoveIt!
 
-
   * Ioan A. Sucan and Sachin Chitta, "MoveIt!", [Online] Available: [http://moveit.ros.org](http://moveit.ros.org)
-
-## License
-
-
-MoveIt! is open source and released under the BSD License. Each individual file in the MoveIt! source code contains a copy of the license.
 
 ## Maintainers
 
@@ -58,27 +52,19 @@ We gratefully acknowledges the contributions of the following people to MoveIt! 
 
   * Lydia Kavraki, Mark Moll, and associated members of the Kavraki Lab (Rice University) for developing OMPL - a suite of randomized planners that MoveIt! uses extensively.
 
-
   * Dinesh Manocha and Jia Pan of UNC Chapel Hill for developing FCL - a package of collision checking algorithm used extensively by MoveIt!
-
 
   * Maxim Likhachev (CMU), Ben Cohen (Penn) and Mike Phillips (CMU) for developing SBPL, a search-based planning library integrated with MoveIt!
 
-
   * Armin Hornung, Kai Wurm, Maren Bennewitz, Cyril Stachniss, and Wolfram Burgard for developing Octomap - software for 3D occupancy mapping used by MoveIt!
-
 
   * Mrinal Kalakrishnan, Peter Pastor and Stefan Schaal at USC for developing STOMP, the distance field components in MoveIt! and the implementation of the CHOMP algorithm in Arm Navigation
 
-
   * Dave Coleman from the University of Colorado, Boulder for developing the MoveIt! Setup Assistant and adding documentation to the MoveIt! website.
-
 
   * Michael Ferguson for writing the simple controller manager plugin
 
-
   * Sachin Chitta and Praveen Singh for creating the current website
-
 
 MoveIt! evolved from the Arm Navigation and Grasping Pipeline components of ROS and we gratefully acknowledge the seminal contributions of all developers and researchers to those packages, especially Edward Gil Jones, Matei Ciocarlie, Kaijen Hsiao, Adam Leeper, and Ken Anderson.
 
