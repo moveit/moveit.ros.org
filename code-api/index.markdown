@@ -37,6 +37,8 @@ _This API is meant for advanced developers. Most users should use the Move Group
 
   * [OMPL Interface](http://docs.ros.org/jade/api/moveit_planners_ompl/html) - The set of classes that allow MoveIt! to talk with OMPL.
 
+***
+
 ## ROS Indigo Code API
 
 ### Move Group Interface

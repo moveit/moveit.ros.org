@@ -41,19 +41,14 @@ _Where can I find the current status of MoveIt!?_
 
 _I have a fix for a bug in the MoveIt! tutorials. What should I do?_
 
-  * The MoveIt! tutorials now live next to the code for each package. To correct the tutorials, fork the appropriate package (on github), make the corrections and do a pull request.
+  * The MoveIt! tutorials live in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials). To correct the tutorials, fork that package (on github), make the corrections and create a pull request.
 
 
-_I have a fix for a bug in MoveIt! itself. What should I do?_
+_I have a found a bug in MoveIt! itself. What should I do?_
 
 
-  * To correct the code, fork the appropriate repository (on github), make the corrections and do a pull request.
+  * See [Contributing](http://moveit.ros.org/documentation/contributing/)
 
-
-_I found a bug in the MoveIt! code itself, what should I do?_
-
-
-  * Put an issue report in the corresponding repository on github (see the [Support page](/support/) for a list of repos).
 
 ## Robots
 
@@ -79,4 +74,4 @@ _How do I join the moveit-users mailing list?_
 
 _Where can I find the changelogs for MoveIt!?_
 
-  * The change logs for MoveIt! can be found directly on the [MoveIt! ROS Wiki page](http://wiki.ros.org/moveit).
+  * The change logs for MoveIt! can be found directly on the [MoveIt! ROS Wiki page](http://wiki.ros.org/moveit). Announcements on the mailing list also inform users of the latest changes.

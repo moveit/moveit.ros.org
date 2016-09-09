@@ -8,11 +8,13 @@ title: Concepts
 wordpress_id: 194
 ---
 
+# Concepts
+
+The following is an overview of how MoveIt! works. For more concrete documentation and details see the [tutorials](http://docs.ros.org/indigo/api/moveit_tutorials/html/)
+
 ## System Architecture
 
 <img src='/wordpress/wp-content/uploads/2013/12/Overview.0012.jpg' style="width: 100%;"/>
-
-
 
 ### The move_group node
 
