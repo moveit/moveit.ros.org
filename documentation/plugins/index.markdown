@@ -151,7 +151,7 @@ A controller can be active or inactive. This means that MoveIt could activate th
 ### Concrete Implementation
 
 The interfaces are defined in [controller_manager.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h).
-A concrete implemntation can be found here: [moveit_simple_controller_manager](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_plugins/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h)
+A concrete implementation can be found here: [moveit_simple_controller_manager](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_plugins/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h)
 
 controller_manager.launch could be look like this:
 
@@ -173,7 +173,7 @@ where the controllers are defined in the 'controllers.yaml'.
 
 ### Usage
 
-By implementing the [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h) interface it is possible to offer allocations of handlers for action based controllers. The controler handler are based on the class [MoveItControllerHandle](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h). These handlers communicate with the controller in order to e.g. send trajectories.
+By implementing the [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h) interface it is possible to offer allocations of handlers for action based controllers. The controller handler are based on the class [MoveItControllerHandle](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h). These handlers communicate with the controller in order to e.g. send trajectories.
 
 ### Field of Application
 
@@ -193,14 +193,14 @@ An examplary implementation of this interface is the [joint_trajectory_controlle
 
 *moveit_sensor_manager::MoveItSensorManager*
 
-This plugin is used to integrade sensores into the planning process. Defined in: [sensor_manager.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/sensor_manager/include/moveit/sensor_manager/sensor_manager.h)
+This plugin is used to integrate sensores into the planning process. Defined in: [sensor_manager.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/sensor_manager/include/moveit/sensor_manager/sensor_manager.h)
 
 ### Usage
 
 Holds information of sensors e.g.: The maximum distance along the Z axis at which observations can be executed.
 It can point a sensor towards a particular point in space. This may require executing a trajectory, but it may or may not execute that trajectory.
 If it does not, it returns it as part of the sensor_trajectory. This is the recommended behaviour, since the caller of this function can perform checks on the safety of the trajectory.
-The function returns true on success (either completing execution succesfully or computing a trajecotory successufully)
+The function returns true on success (either completing execution successfully or computing a trajecotory successfully)
 
 ### Concrete Implementation
 
@@ -260,7 +260,7 @@ Plugin API for loading a custom collision detection robot/world.
 
 ### Field of Application
 
-If you want to use an costumized collision detection algorithm for selfcollisions or collisions with the environment then this is a useful plugin which provides you with the necessary interfaces.
+If you want to use a customized collision detection algorithm for self-collisions or collisions with the environment then this is the plugin that provides the necessary interfaces.
 
 ### Interface Description
 
@@ -299,4 +299,5 @@ Deprecated!
 
 ### Info
 
-Old base class for MoveIt planners which has been removed in commit daa9fd2062df65e713e6c40570b2f7dceafed178. Was replaced by PlannerManager. This class is currently used by the planners [SBPLMetaPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/sbpl/ros/sbpl_interface_ros/src/sbpl_meta_plugin.cpp) and [ChompPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/chomp/ros/chomp_interface_ros/src/chomp_plugin.cpp).
+Old base class for MoveIt planners which has been removed in commit daa9fd2062df65e713e6c40570b2f7dceafed178. Was replaced by PlannerManager.
+This class can still be found in use by outdated code, for example [SBPLMetaPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/sbpl/ros/sbpl_interface_ros/src/sbpl_meta_plugin.cpp) and [ChompPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/chomp/ros/chomp_interface_ros/src/chomp_plugin.cpp).
