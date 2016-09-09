@@ -16,7 +16,7 @@ In this section, we will run through some of the basic concepts underlying the M
 ### [Plugin Interfaces](plugins)
 
 MoveIt! provides many interfaces so that users can override different parts of
-the framework and implement new concepts without having to touching the core of
+the framework and implement new concepts without having to touch the core of
 the framework. This section lists the different types of plugins and provides
 an overview of how to use them within the framework.
 
