@@ -4,7 +4,7 @@ comments: false
 date: 2016-09-02 00:00:00+00:00
 layout: post
 slug: firstjaderelease
-title: The 1st official MoveIt! release into ROS Jade
+title: MoveIt! officially released into ROS Jade
 media_type: image
 media_link: http://www.ros.org/news/assets_c/2015/05/jadeturtle_LoRes-thumb-480x519-1131.jpg
 description: If you’re running your robot packages with ROS Jade, and/or if you want to try the newest MoveIt!, start at moveit.ros.org/install
