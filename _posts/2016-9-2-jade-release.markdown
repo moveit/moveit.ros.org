@@ -13,8 +13,6 @@ categories:
 - ROS
 ---
 
-![1st Jade release](http://www.ros.org/news/assets_c/2015/05/jadeturtle_LoRes-thumb-480x519-1131.jpg)
-
 If you're running your robot packages with ROS Jade, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](http://moveit.ros.org/install/)
 
 Among numerous bug-fixes, there are quite a number of new features included:
@@ -33,6 +31,8 @@ Among numerous bug-fixes, there are quite a number of new features included:
 - [ApplyPlanningSceneService capability](https://github.com/ros-planning/moveit_ros/pull/686)
 
 - [Extended planning_interface::PlanningSceneInterface](https://github.com/ros-planning/moveit_ros/issues/630)
+
+![1st Jade release](http://www.ros.org/news/assets_c/2015/05/jadeturtle_LoRes-thumb-480x519-1131.jpg)
 
 ROS Indigo
 ==========
