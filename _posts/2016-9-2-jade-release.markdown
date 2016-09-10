@@ -7,14 +7,11 @@ slug: firstjaderelease
 title: The 1st official MoveIt! release into ROS Jade
 media_type: image
 media_link: http://www.ros.org/news/assets_c/2015/05/jadeturtle_LoRes-thumb-480x519-1131.jpg
-description: The 1st official MoveIt! release into ROS Jade
+description: If you’re running your robot packages with ROS Jade, and/or if you want to try the newest MoveIt!, start at moveit.ros.org/install
 categories:
 - MoveIt!
 - ROS
 ---
-
-The 1st official MoveIt! release into ROS Jade
-==============================================
 
 ![1st Jade release](http://www.ros.org/news/assets_c/2015/05/jadeturtle_LoRes-thumb-480x519-1131.jpg)
 
@@ -37,8 +34,8 @@ Among numerous bug-fixes, there are quite a number of new features included:
 
 - [Extended planning_interface::PlanningSceneInterface](https://github.com/ros-planning/moveit_ros/issues/630)
 
-MoveIt! for ROS Indigo
-======================
+ROS Indigo
+==========
 
 For now, the newest features and bugfixes have only been released in Jade.
 
@@ -46,9 +43,9 @@ Contributors are working hard towards a new binary release into Indigo as well.
 The release will include the above mentioned features and bug fixes too and will
 also address multiple safety issues that were known among senior MoveIt developers already for some time:
 
-- https://github.com/ros-planning/moveit/pull/191
-- https://github.com/ros-planning/moveit/pull/63
-- https://github.com/ros-planning/moveit/commit/b317a5722f40c61f0b86a934a5b1e65c7c45e38a
+- [https://github.com/ros-planning/moveit/pull/191](https://github.com/ros-planning/moveit/pull/191)
+- [https://github.com/ros-planning/moveit/pull/63](https://github.com/ros-planning/moveit/pull/63)
+- [https://github.com/ros-planning/moveit/commit/b317a5722f40c61f0b86a934a5b1e65c7c45e38a](https://github.com/ros-planning/moveit/commit/b317a5722f40c61f0b86a934a5b1e65c7c45e38a)
 
 For Indigo, if you don't mind building from source, go for it: [moveit.ros.org/install/source](http://moveit.ros.org/install/source/)
 Be aware though that the repository branches are used for active development, so you might hit severe regressions in the current HEADs.
