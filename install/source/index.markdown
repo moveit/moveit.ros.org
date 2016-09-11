@@ -55,12 +55,7 @@ See final section below **Source The Catkin Workspace**
 
 ## Kinetic
 
-> **Warning:** the Kinetic branch is in beta, use at your own risk
-
-The Kinetic MoveIt! branch currently requires using the ROS ``shadow-fixed`` repositories:
-
-    echo 'deb http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main' | sudo tee /etc/apt/sources.list.d/ros-latest.list
-    sudo apt-get update
+> **Warning:** the Kinetic branch is in [beta](https://github.com/ros-planning/moveit/issues/18), use at your own risk
 
 Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
 
