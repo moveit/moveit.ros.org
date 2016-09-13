@@ -95,13 +95,14 @@ Then compile using scons:
 
 ```
 sudo apt-get install scons
-scons --prefix=/usr/local/ --full --use-system-boost --disable-warnings-as-errors
+cd mongo-cxx-driver
+sudo scons --prefix=/usr/local/ --full --use-system-boost --disable-warnings-as-errors
 sudo scons install
 ```
 
 ### Adding warehouse_ros and warehouse_ros_mongo packages
 
-You'll next need to add two packages to the workspace (jade-devel branch works for both kinetic and jade):
+You'll next need to add two packages to your catkin workspace. The jade-devel branches for the warehouse packages work for both kinetic and jade distros.
 
 ```
 cd ~/ws_moveit/src
