@@ -5,15 +5,22 @@ date: 2013-12-08 05:22:09+00:00
 layout: page
 slug: moveit-status
 title: Status
-wordpress_id: 164
 ---
 
-This page highlights the status of MoveIt! components - it indicates how stable individual components are and how well they have been tested. It also indicates how much support users can expect for different components and robots. (See legend below for description of the codes.)
+# MoveIt! Status
 
+## Roadmap
 
-### Current STATUS (Components)
+Upcoming milestones as of September 2016:
 
+- [First release of Kinetic](https://github.com/ros-planning/moveit/issues/18)
+- [New release of Indigo](https://github.com/ros-planning/moveit/issues/100)
 
+* * *
+
+## Current Status (Components)
+
+The following highlights the status of MoveIt! components - it indicates how stable individual components are and how well they have been tested. It also indicates how much support users can expect for different components and robots. (See legend below for description of the codes.)
 
 Component |  Status
 |--------------|------------:|
@@ -43,17 +50,7 @@ Pick and Place| Alpha
 Dual-arm Manipulation| Alpha
 MoveIt! Setup Assistant| Beta
 
-
-### **Current STATUS (Robots)**
-
-To see the current status of MoveIt! on any robot, check the [Robots using MoveIt!](/robots) page and the individual robot page.
-
-* * *
-
-
-
-
-### **STATUS Code (Components)**
+### Status Code (Components)
 
 Code | Description
 |--------------|------------|
@@ -62,8 +59,13 @@ Alpha | This component is experimental and has not been widely tested. Users sho
 Beta | This component is undergoing wide testing with the intention of being moved to Stable status. Users are encouraged to ask about testing this component and contributing to moving it to Stable status.
 Stable | This component is widely tested and expected to work on a wide variety of robots. Users should expect support for this component and immediately notify the maintainers of any bugs.
 
+* * *
 
-### **STATUS Code (Robots)**
+## Current Status (Robots)
+
+To see the current status of MoveIt! on any robot, check the [Robots using MoveIt!](/robots) page and the individual robot page.
+
+### Status Code (Robots)
 
 Code | Description
 |--------------|------------|
