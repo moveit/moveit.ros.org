@@ -106,7 +106,7 @@ You'll next need to add two packages to your catkin workspace. The jade-devel br
 
 ```
 cd ~/ws_moveit/src
-wstool set -yu warehouse_ros_mongo --git https://github.com/TheBrewCrew/warehouse_ros_mongo.git -v jade-devel
+wstool set -yu warehouse_ros_mongo --git https://github.com/ros-planning/warehouse_ros_mongo.git -v jade-devel
 wstool set -yu warehouse_ros --git https://github.com/ros-planning/warehouse_ros.git -v jade-devel
 ```
 
