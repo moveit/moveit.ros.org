@@ -16,7 +16,7 @@ wordpress_id: 408
   * Website: http://sdk.rethinkrobotics.com
 
 	
-  * MoveIt! Config Package: [https://github.com/ros-planning/moveit_robots/tree/master/baxter](https://github.com/ros-planning/moveit_robots/tree/master/baxter)
+  * MoveIt! Config Package: [https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/baxter](https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/baxter)
 
 	
   * Maintainer(s) : rsdk.support@rethinkrobotics.com
