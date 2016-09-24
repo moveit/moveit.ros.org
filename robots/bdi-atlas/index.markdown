@@ -16,7 +16,7 @@ wordpress_id: 416
   * Website:
 
 	
-  * MoveIt! Config Package: [https://github.com/ros-planning/moveit_robots/tree/master/atlas_v3_moveit_config](https://github.com/ros-planning/moveit_robots/tree/master/atlas_v3_moveit_config)
+  * MoveIt! Config Package: [https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/atlas_v3_moveit_config](https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/atlas_v3_moveit_config)
 
 	
   * Maintainer(s) :
