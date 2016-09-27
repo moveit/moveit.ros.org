@@ -300,4 +300,4 @@ Deprecated!
 ### Info
 
 Old base class for MoveIt planners which has been removed in commit daa9fd2062df65e713e6c40570b2f7dceafed178. Was replaced by PlannerManager.
-This class can still be found in use by outdated code, for example [SBPLMetaPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/sbpl/ros/sbpl_interface_ros/src/sbpl_meta_plugin.cpp) and [ChompPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/chomp/ros/chomp_interface_ros/src/chomp_plugin.cpp).
+This class can still be found in use by outdated code, for example [SBPLMetaPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/sbpl/ros/sbpl_interface_ros/src/sbpl_meta_plugin.cpp) and [ChompPlanner](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_planners/chomp/chomp_interface/src/chomp_plugin.cpp).
