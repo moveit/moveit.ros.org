@@ -30,7 +30,7 @@ This makes it much more likely to get your changes merged soon, because if maint
 
 If you feel everyone forgot about your request, add a short note saying "ping" or "Could someone please review/merge this?" to the request. It might be that the item dropped of everyone's TODO list for no reason.
 
-### Review Requests and +1
+### Reviewing and Approving Requests
 
 All feedback on existing pull-requests is welcome and appreciated. If you are familiar with the code someone requests to change, please step up and review their requests. The maintainer's time is often quite limited. This usually boils down to answering the following questions and provide feedback in the request:
 
@@ -41,9 +41,7 @@ All feedback on existing pull-requests is welcome and appreciated. If you are fa
  - If the request targets a stable release: Is the change [ABI compatible](https://en.wikipedia.org/wiki/Application_binary_interface) or is there a good reason (e.g. safety) to break it?
  - Does the patch respect the [MoveIt! Code Style](code.html)?
 
-If (and only if) you answer all these questions with "yes", add a note saying "+1" to the request.
-Do **not** +1 if you are only confirming you would like to see the claimed feature in MoveIt! - this may mislead maintainers to think it has been reviewed when it has not.
-If you are unsure about some part of the request, feel free to add a note and ask the author for details and explanations of individual changes.
+If (and only if) you answer all these questions with "yes", use Github's [pull request review](https://help.github.com/articles/about-pull-request-reviews/) feature to approve the PR. This entails pressing the green "Review Changes" button, giving a review summary, and choosing "Approve" if it is ready to be merged in. If you are unsure about some part of the request, feel free to add a note and ask the author for details and explanations of individual changes.
 
 ## Maintainer Side
 
@@ -56,10 +54,10 @@ The ``*-devel`` branches must not be force-pushed.
 No one is allowed to directly commit to the ``*-devel`` branches of the repositories. Instead they should create feature branches and add pull-requests.
 The only commits that might be pushed directly are cherry-picks from older branches (see below) and administrative changes (e.g. CHANGELOGS, tags).
 
-### 1+1 == Merge
+### Two "Approves" == Merge
 
-If you see a trustworthy "+1" note in a request or the requestor is a fellow maintainer and all feedback has been addressed by the requestor,
-merge the request after your own review. Otherwise add a "+1" note after you are satisfied after the review.
+If you see a trustworthy approval review in a request or the requestor is a fellow maintainer and all feedback has been addressed by the requestor,
+merge the request after your own review. Otherwise submit an "Approval" review after you are satisfied after the review.
 
 ### Squash-Merge If Possible
 
