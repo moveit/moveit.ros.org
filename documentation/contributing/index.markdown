@@ -27,11 +27,19 @@ To edit or add pages on the MoveIt! website, go to [https://github.com/ros-plann
 
 ## Answering User Questions
 
-You can contribute greatly to the MoveIt! community by answer other people's questions on the [MoveIt! mailing list](https://groups.google.com/forum/#!forum/moveit-users)
+You can contribute greatly to the MoveIt! community by answering other people's questions on the [answers.ros.org](http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:moveit/page:1/), ROS community's official question-answer forum. Please feel free help answer questions there, and gain Karma in the process!
 
-Additionally, the ROS community asks questions pertaining to MoveIt on [answers.ros.org](http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:moveit/page:1/). Please feel free help answer questions there, and gain Karma in the process!
+Those who are willing to answer MoveIt!-related questions only can get notified via emails by the following simple step:
+
+ 1. Open your profile page, by clicking your account name on the top. Then open `email alerts` tab.
+ 2. At `Choose email tag filter`, click `only interesting tags` radio button. Select frequency you'd like to get notified other than `never`. See example screenshot below.
+ 3. Go to the [top page](http://answers.ros.org/questions/). In `Interesting tags` text field on the right, add `moveit` (and any tags you'd like to get notifications about).
+
+ ![img](../../assets/answers.ros_config_receive-notification.png)
 
 As an aside, a lot of documentation exists as Q&As on there, and if you feel so compelled, help us move some of that documentation onto the website.
+
+[MoveIt! mailing list](https://groups.google.com/forum/#!forum/moveit-users) should be used for announcement and discussion.
 
 ## Reporting & Fixing Bugs
 
