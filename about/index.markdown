@@ -34,6 +34,7 @@ Ian McMahon | Rethink Robotics | [IanTheEngineer](https://github.com/IanTheEngin
 Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://github.com/gavanderhoorn) | IKFast Plugin
 Jorge Nicho | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho) | IKFast Plugin
 Christian Dornhege | University of Freiburg | [dornhege](https://github.com/dornhege) | PR2 Code Base
+Maarten de Vries | Delft Robotics | [de-vri-es](https://github.com/de-vri-es) | Code Modernization
 
 ## Maintainer Alumni
 
