@@ -19,7 +19,8 @@ _What operating systems does MoveIt! work with?_
 
 _What is the difference between MoveIt! and ROS?_
 
-  * ROS (Robot Operating System) is an open-source meta-operating system for robots that provides low-level functionality like a build system, message passing, device drivers and some integrated capabilities like navigation. MoveIt! provides functionality for kinematics, motion/path planning, collision checking, 3D perception, robot interaction and much, much more. MoveIt! is a primary source of a lot of the functionality for manipulation (and mobile manipulation) in ROS. MoveIt! builds on the ROS messaging and build systems and utilizes some of the common tools in ROS like the ROS Visualizer (Rviz) and the ROS robot format (URDF). MoveIt! is fast becoming the entry point into ROS, especially through the use of the MoveIt! Setup Assistant for configuring new robots.
+  * MoveIt! runs on top of ROS (Robot Operating System).
+  * ROS is an open-source meta-operating system for robots that provides low-level functionality like a build system, message passing, device drivers and some integrated capabilities like navigation. MoveIt! provides functionality for kinematics, motion/path planning, collision checking, 3D perception, robot interaction and much, much more. MoveIt! is a primary source of a lot of the functionality for manipulation (and mobile manipulation) in ROS. MoveIt! builds on the ROS messaging and build systems and utilizes some of the common tools in ROS like the ROS Visualizer (Rviz) and the ROS robot format (URDF). MoveIt! is fast becoming the entry point into ROS, especially through the use of the MoveIt! Setup Assistant for configuring new robots.
 
 _What is the difference between MoveIt! and Arm Navigation?_
 
@@ -27,7 +28,8 @@ _What is the difference between MoveIt! and Arm Navigation?_
 
 _What is the difference between MoveIt! and ROS-Industrial?_
 
-  * The ROS-Industrial consortium aims to use the advanced tools in MoveIt! and ROS to build and demonstrate advanced applications in industry. They were inspired by the success of Arm Navigation (MoveIt!'s predecessor) on the PR2 robot. ROS-Industrial also develops and maintains ROS drivers for industrial robots (using the PR2 drivers as a template in several cases).
+  * The ROS-Industrial consortium aims to use the advanced tools in MoveIt! and ROS to build and demonstrate advanced applications in industry. They were inspired by the success of Arm Navigation (MoveIt!'s predecessor) on the PR2 robot. 
+  * ROS-Industrial also develops and maintains ROS drivers for industrial robots (using the PR2 drivers as a template in several cases).
 
 _What is the difference between MoveIt! and OMPL?_
 
