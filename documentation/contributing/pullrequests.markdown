@@ -64,7 +64,7 @@ merge the request after your own review. Otherwise add a "+1" note after you are
 ### Squash-Merge If Possible
 
 Pull-requests with a single commit should *always* be squash-merged (github supports this via a drop-down list on the "merge" button).
-If a request contains "fixup commits" it should also be squash-merged. If you are unsure this is to the requestor's liking, ask him.
+If a request contains "fixup commits" it should also be squash-merged. If you are unsure this is to the requestor's liking, ask them.
 
 ### Feature Branches in Upstream Repositories
 
