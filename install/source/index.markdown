@@ -23,7 +23,7 @@ Optionally create a new workspace, you can name it whatever:
     mkdir -p ~/ws_moveit/src
     cd ~/ws_moveit/src
 
-Follow the instrucitons below for either Indigo, Jade, or Kinetic:
+Follow the instructions below for either Indigo, Jade, or Kinetic:
 
 ## Indigo
 
@@ -37,7 +37,7 @@ Pull down required repositories and build from within the ``/src`` directory of 
     catkin config --extend /opt/ros/indigo --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
-See final section below **Source The Catkin Workspace**
+See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
 
 ## Jade
 
@@ -51,7 +51,7 @@ Pull down required repositories and build from within the ``/src`` directory of 
     catkin config --extend /opt/ros/jade --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
-See final section below **Source The Catkin Workspace**
+See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
 
 ## Kinetic
 
@@ -67,51 +67,10 @@ Pull down required repositories and build from within the ``/src`` directory of 
     catkin config --extend /opt/ros/kinetic --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
-See final section below **Source The Catkin Workspace**
+See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
 
 ## Source the Catkin Workspace
 
 Setup your environment - you can do this every time you work with this particular source install of the code, or you can add this to your ``.bashrc``:
 
     source ~/ws_moveit/devel/setup.bash # or .zsh, depending on your shell
-
-## Warehouse Support (Jade/Kinetic only)
-
-> **Note:** These instructions are temporary, until the warehouse_ros_mongo package is updated to an Ubuntu supported mongo driver.
-
-The Warehouse functionality allows planning scenes, robot states, and benchmark data to be loaded to and from a database.
-
-### Compiling the mongo driver
-
-In order to build from source you'll need to install the [mongo c++ drivers](https://github.com/mongodb/mongo-cxx-driver/wiki/Download-and-Compile-the-Legacy-Driver)
-
-First get the driver:
-
-```
-git clone -b 26compat https://github.com/mongodb/mongo-cxx-driver.git
-```
-
-Then compile using scons:
-
-```
-sudo apt-get install scons
-cd mongo-cxx-driver
-sudo scons --prefix=/usr/local/ --full --use-system-boost --disable-warnings-as-errors
-sudo scons install
-```
-
-### Adding warehouse_ros and warehouse_ros_mongo packages
-
-You'll next need to add two packages to your catkin workspace. The jade-devel branches for the warehouse packages work for both kinetic and jade distros.
-
-```
-cd ~/ws_moveit/src
-wstool set -yu warehouse_ros_mongo --git https://github.com/ros-planning/warehouse_ros_mongo.git -v jade-devel
-wstool set -yu warehouse_ros --git https://github.com/ros-planning/warehouse_ros.git -v jade-devel
-```
-
-Then compile
-
-```
-catkin build
-```
