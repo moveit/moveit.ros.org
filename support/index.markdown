@@ -18,6 +18,10 @@ title: Support
   * Also [join the MoveIt! users mailing list](https://groups.google.com/forum/#!forum/moveit-users/join) (moveit-users _at_ googlegroups _dot_ com) for receiving announcements. 
     * (September 2016) We are transitioning to not using the mailing list for basic user questions but only for announcements and high level milestone questions.
 
+### Developer Discussions
+
+For discussion of future development, maintenance, testing, and releases see the [Discourse](http://discourse.ros.org/c/moveit-developers) category. This location is not for MoveIt! users questions or specific robot application questions.
+
 ### MoveIt! Issues
 
 Post issues to the corresponding github repo for MoveIt! - default to the main "moveit" repo when unsure:
@@ -36,7 +40,3 @@ Post issues about the web documentation to the appropriate github repo:
 ### Change Logs
 
 Change logs are available directly from the corresponding [ROS wiki page for MoveIt!](http://wiki.ros.org/moveit).
-
-### Developer Discussions
-
-For discussion of future development, maintenance, testing, and releases see the [Discourse](http://discourse.ros.org/c/moveit-developers) category. This location is not for MoveIt! users questions or specific robot application questions.
