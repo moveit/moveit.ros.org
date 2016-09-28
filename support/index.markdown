@@ -12,11 +12,11 @@ title: Support
 
   * First, check out the list of [Frequently Asked Questions](/documentation/faqs) to see if your question has been answered already.
 
-### Mailing List
+### Find Troubleshooting Information
 
-  * Search the [Mailing List Archive](https://groups.google.com/forum/#%21forum/moveit-users) for a similar question to yours
-
-  * [Join the MoveIt! users mailing list](https://groups.google.com/forum/#!forum/moveit-users/join) (moveit-users _at_ googlegroups _dot_ com)
+  * Ask a question at [answers.ros.org](http://answers.ros.org/), the official question forum of ROS and MoveIt!, if you haven't found similar questions.
+  * Also [join the MoveIt! users mailing list](https://groups.google.com/forum/#!forum/moveit-users/join) (moveit-users _at_ googlegroups _dot_ com) for receiving announcements. 
+    * (September 2016) We are transitioning to not using the mailing list for basic user questions but only for announcements and high level milestone questions.
 
 ### MoveIt! Issues
 
