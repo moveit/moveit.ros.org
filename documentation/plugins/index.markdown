@@ -80,12 +80,12 @@ The well documented interface is located [here](https://github.com/ros-planning/
 Examples for implementations of the KinematicsBase are
 
 - the KDL plugin:
-  [header](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h),
-  [cpp](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/kdl_kinematics_plugin/src/kdl_kinematics_plugin.cpp)
+  [header](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h),
+  [cpp](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_kinematics/kdl_kinematics_plugin/src/kdl_kinematics_plugin.cpp)
 
 - the SrvKinematicsPlugin:
-  [header](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h),
-  [cpp](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_ros/planning/srv_kinematics_plugin/src/srv_kinematics_plugin.cpp)
+  [header](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_kinematics/srv_kinematics_plugin/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h),
+  [cpp](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_kinematics/srv_kinematics_plugin/src/srv_kinematics_plugin.cpp)
 
 ***
 
