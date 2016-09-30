@@ -9,7 +9,7 @@ title: Dependencies Source Install
 
 # Building Common MoveIt! Dependencies from Source in Catkin
 
-For advanced users wishing to develop on common libraries that MoveIt! depends on, we provide some *loose experimental* instructions for doing so within a combined catkin workspace. These instructions are liable to become outdated and developers are recommended to use these along with the libraries' main install instructions, but the following will hopefully help developers dig deeper into the combined software. If you find errors, please submit pull requests to fix.
+For advanced users wishing to develop on common libraries that MoveIt! depends on, we provide some **loose experimental/unsupported** instructions for doing so within a combined catkin workspace. These instructions are liable to become outdated and developers are recommended to use these along with the libraries' main install instructions, but the following will hopefully help developers dig deeper into the combined software. If you find errors, please submit pull requests to fix.
 
 These instructions assume you are using catkin_tools and are using ROS Kinetic. Currently we have instructions for:
 
