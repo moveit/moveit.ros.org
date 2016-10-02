@@ -86,7 +86,7 @@ Clone the repo into your catkin workspace and choose the version used by your cu
 
     git clone https://github.com/flexible-collision-library/fcl
     cd fcl
-    git checkout -b tags/0.5.0   # for kinetic
+    git checkout fcl-0.5   # for kinetic
 
 Next manually add a package.xml as used in the ROS release wrapper:
 
