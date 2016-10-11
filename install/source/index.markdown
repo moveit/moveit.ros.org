@@ -12,7 +12,11 @@ redirect_from: "/install/source_install.html"
 
 ## Prerequisites
 
-Install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Jade](http://www.ros.org/wiki/jade/Installation/Ubuntu), or [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu). Please make sure you have followed all steps, including calls to ``rosdep``.
+Install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Jade](http://www.ros.org/wiki/jade/Installation/Ubuntu), or [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu). Please make sure you have followed all steps and have the latest versions of packages installed:
+
+    rosdep update
+    sudo apt-get update
+    sudo apt-get dist-upgrade
 
 Source installation requires [wstool](http://wiki.ros.org/wstool), and [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/):
 
@@ -56,11 +60,6 @@ See final section below **Source The Catkin Workspace**. Optionally for MongoDB,
 ## Kinetic
 
 > **Warning:** the Kinetic branch is in [beta](https://github.com/ros-planning/moveit/issues/18), use at your own risk
-
-Note Sep 28, 2016: The Kinetic MoveIt! branch currently requires using the ROS ``shadow-fixed`` repositories until the next buildfarm sync:
-
-    echo 'deb http://packages.ros.org/ros-shadow-fixed/ubuntu xenial main' | sudo tee /etc/apt/sources.list.d/ros-latest.list
-    sudo apt-get update
 
 Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
 
