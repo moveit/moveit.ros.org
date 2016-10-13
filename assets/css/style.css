@@ -52,3 +52,9 @@
      margin-top: 10px;
      background: lavender;
  }
+
+ /* Other small tweaks */
+
+ pre code {
+     font-size: 90%;
+ }
