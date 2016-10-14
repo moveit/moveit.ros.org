@@ -24,3 +24,4 @@ Our second MoveIt! community meeting webcast will be on October 27th at 8am Paci
 Final agenda and details on how to join the AnyMeeting webcast will be sent out closer to the event.
 
 ![World MoveIt! Day]({{ site.url }}/assets/images/community_meeting_2016.jpg)
+*King Julian, MoveIt!'s mascot who likes to "moveit moveit"*
