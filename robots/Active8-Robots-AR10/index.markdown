@@ -1,10 +1,10 @@
 ---
 author: admin
 comments: false
-date: 2013-12-31 23:56:19+00:00
+date: 2016-10-19
 layout: page
-slug: ckbot
-title: CKBot
+slug: AR10
+title: AR10
 wordpress_id: 548
 ---
 
