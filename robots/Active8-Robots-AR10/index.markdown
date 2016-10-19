@@ -13,7 +13,7 @@ wordpress_id:
   * Organization: Active8 Robots
 
 	
-  * Website: http://www.active8robots.com/robots/ar10-robotic-hand/
+  * Website: http://www.active-robots.com/ar10-humanoid-robotic-hand
   
   
   * URDF Location: https://github.com/Active8Robots/AR10/tree/master/ar10_description
