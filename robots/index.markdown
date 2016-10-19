@@ -186,7 +186,7 @@ wordpress_id: 127
 
 <tr><td><a title="Robotis-Bioloid" href="/robots/robotis-bioloid/"><img title="RobotisBioloid" src="/assets/bioloid-moveit.png" alt="" width="95" height="120"></a></td>
 															<td><a title="Scorbot ER4U" href="/robots/scorbot-er4u"><img title="ScorbotER4U" src="/assets/scorbot-er4u.jpg" alt="" width="160" height="120"></a></td>
-															<td><a title="AR10 Robotic Hand" href="/robots/Active8 Robots AR10"><img title="AR10 Robotic Hand" src="/assets/AR10.jpg" alt="" width="160" height="120"></a></td>
+															<td><a title="AR10 Robotic Hand" href="/robots/Active8 Robots AR10"><img title="AR10 Robotic Hand" src="/assets/AR10.jpg" alt="" width="120" height="120"></a></td>
 																												</tr>
 
 														<tr><td><a title="Robotis Bioloid" href="/robots/robotis-bioloid/">Robotis Bioloid</a></td>
