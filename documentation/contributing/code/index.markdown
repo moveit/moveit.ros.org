@@ -5,6 +5,7 @@ date: 2016-8-1 02:13:26+00:00
 layout: page
 slug: code
 title: Style Guidelines
+redirect_from: "/documentation/contributing/code.html"
 ---
 
 # MoveIt! Code Style Guidelines
