@@ -59,8 +59,6 @@ See final section below **Source The Catkin Workspace**. Optionally for MongoDB,
 
 ## Kinetic
 
-> **Warning:** the Kinetic branch is in [beta](https://github.com/ros-planning/moveit/issues/18), use at your own risk
-
 Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
 
     wstool init .

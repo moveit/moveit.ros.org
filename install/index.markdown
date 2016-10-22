@@ -11,7 +11,7 @@ title: Install
 
 MoveIt! is released every month or so into Ubuntu debian packages via the ROS infrastructure. For more information see the [target platforms](http://www.ros.org/reps/rep-0003.html).
 
-MoveIt! is currently released into ROS **Indigo** and **Jade**. ROS **Kinetic** is not yet released but is under active development.
+MoveIt! is currently released into ROS **Indigo**, **Jade**, and **Kinetic**.
 
 **Developers:** see [source install](source/) instructions.
 
@@ -63,7 +63,17 @@ See bottom of page for quick start
 
 ## ROS Kinetic
 
-MoveIt! for Kinetic is not yet released, see [Github Issue](https://github.com/ros-planning/moveit/issues/18).
+### Install Ubuntu Packages
+
+Simply run:
+
+    sudo apt-get install ros-kinetic-moveit
+
+### Setup your environment
+
+    source /opt/ros/kinetic/setup.bash
+
+See bottom of page for quick start
 
 * * *
 

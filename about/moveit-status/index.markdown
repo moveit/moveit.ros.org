@@ -11,9 +11,8 @@ title: Status
 
 ## Roadmap
 
-Upcoming milestones as of September 2016:
+Upcoming milestones as of October 2016:
 
-- [First release of Kinetic](https://github.com/ros-planning/moveit/issues/18)
 - [New release of Indigo](https://github.com/ros-planning/moveit/issues/100)
 
 * * *
