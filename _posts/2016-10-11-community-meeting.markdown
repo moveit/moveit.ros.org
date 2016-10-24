@@ -17,7 +17,7 @@ Our second MoveIt! community meeting webcast will be on October 27th at 8am Paci
 
 - Recent Developments in MoveIt! - Dave Coleman
 - The Search-Based Planning Library (SBPL) - Dr. Maxim Likhachev and Andrew Dornbush
-- Updates from the Flexible Collision Checking Library (FCL) - Dr. Dinesh Manocha
+- Updates from the Flexible Collision Checking Library (FCL) - Dr. Dinesh Manocha and Jia Pan
 - Delft's Winning Amazon Picking Challenge Entry - Mukunda Bharatheesha
 - MoveIt! @ Fetch Robotics - Michael Ferguson
 - Q&A with original MoveIt! Developer & Founder - Dr. Ioan Sucan
