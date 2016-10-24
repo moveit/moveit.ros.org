@@ -20,8 +20,15 @@ Our second MoveIt! community meeting webcast will be on October 27th at 8am Paci
 - Updates from the Flexible Collision Checking Library (FCL) - Dr. Dinesh Manocha
 - Delft's Winning Amazon Picking Challenge Entry - Mukunda Bharatheesha
 - MoveIt! @ Fetch Robotics - Michael Ferguson
+- Q&A with original MoveIt! Developer & Founder - Dr. Ioan Sucan
 
-Final agenda and details on how to join the AnyMeeting webcast will be sent out closer to the event.
+Webcast connection details:
+
+- Audience Log-in URL: [https://www.anymeeting.com/321-297-612](https://www.anymeeting.com/321-297-612)
+- Dial-in Number: +1-213-416-1560
+- Attendee PIN: 912 3329#
+
+Ubuntu users: the **Chrome browser is recommended** due to issues with Firefox and the AnyMeeting plugin.
 
 ![World MoveIt! Day]({{ site.url }}/assets/images/community_meeting_2016.jpg)
 *King Julian, MoveIt!'s mascot who likes to "moveit moveit"*
