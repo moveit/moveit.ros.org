@@ -23,11 +23,11 @@ The MoveIt! project is currently maintained by the following contributors with c
 
 Name | Organization | GitHub ID | Project Specialities
 ------------ |:------------- |-------------|-------------|
-Michael Ferguson | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson) | Releasing and Regressions
-Dave Coleman | Correll Lab, CU Boulder | [davetcoleman](https://github.com/davetcoleman) | Reviewing PRs, Organizing Events
+Dave Coleman | Correll Lab, CU Boulder | [davetcoleman](https://github.com/davetcoleman) | Reviewing PRs, Community Organizer
 Robert Haschke | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke) | Fixing Bugs, Reviewing PRs
 Michael Görner | University of Hamburg | [v4hn](https://github.com/v4hn) | Fixing Bugs, New Features
 Isaac IY Saito | Tokyo Open Source Robotics | [130s](https://github.com/130s) | Releasing and Continuous Integration
+Michael Ferguson | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson) | Industry Advisor
 Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta) | Original Founder & Author of MoveIt!
 Ioan Sucan | Google X | [isucan](https://github.com/isucan) | Original Founder & Author of MoveIt!
 Ian McMahon | Rethink Robotics | [IanTheEngineer](https://github.com/IanTheEngineer) | Releasing
