@@ -5,6 +5,7 @@ date: 2013-11-20 04:37:44+00:00
 layout: page
 slug: packages
 title: Source Code
+redirect_from: "/about/source_code.html"
 ---
 
 # Source Code
