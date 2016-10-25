@@ -81,4 +81,4 @@ Unit tests and integration tests are **always** welcomed, please add them to you
 
 ## Continuous Integration
 
-For an understanding of how MoveIt!'s continuous integration and Travis is setup, see [Continuous Integration](continuous_integration).
+For an understanding of how MoveIt!'s continuous integration and Travis is setup, see [Continuous Integration](continuous_integration/).
