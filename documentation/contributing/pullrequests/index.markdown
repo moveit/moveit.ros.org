@@ -5,6 +5,7 @@ date: 2016-8-3 13:24:00+00:00
 layout: page
 slug: pullrequests
 title: Pull Requests
+redirect_from: "/documentation/contributing/pullrequests.html"
 ---
 
 # Handling Contributions

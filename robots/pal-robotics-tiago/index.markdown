@@ -9,19 +9,19 @@ wordpress_id: 569
 ---
 
 
-	
+
   * Company: PAL Robotics
 
-	
+
   * Website: [TIAGo](http://tiago.pal-robotics.com/)
 
-	
+
   * MoveIt! Config Package: [https://github.com/pal-robotics/tiago_moveit_config](https://github.com/pal-robotics/tiago_moveit_config)
 
-	
+
   * Maintainer(s) : tiago-support@pal-robotics.com
 
-	
+
   * STATUS: [Stable](/about/moveit-status#status-code-robots)
 
 
@@ -39,6 +39,3 @@ wordpress_id: 569
 ### Installation
 
 For more information please refer to [http://wiki.ros.org/Robots/TIAGo](http://wiki.ros.org/Robots/TIAGo)
-
-
-
