@@ -39,7 +39,7 @@ All feedback on existing pull-requests is welcome and appreciated. If you are fa
  - Does it address all edge-cases you are aware of?
  - If a new interface is introduced: Is this interface general enough for likely future modifications? Otherwise we might have to break API later on if we wish to add more useful features to the same module.
  - If the request targets a stable release: Is the change [ABI compatible](https://en.wikipedia.org/wiki/Application_binary_interface) or is there a good reason (e.g. safety) to break it?
- - Does the patch respect the [MoveIt! Code Style](code.html)?
+ - Does the patch respect the [MoveIt! Code Style](code)?
 
 If (and only if) you answer all these questions with "yes", use Github's [pull request review](https://help.github.com/articles/about-pull-request-reviews/) feature to approve the PR. This entails pressing the green "Review Changes" button, giving a review summary, and choosing "Approve" if it is ready to be merged in. If you are unsure about some part of the request, feel free to add a note and ask the author for details and explanations of individual changes.
 
