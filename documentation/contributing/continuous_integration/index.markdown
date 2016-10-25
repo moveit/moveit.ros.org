@@ -5,6 +5,7 @@ date: 2016-9-14 02:13:26+00:00
 layout: page
 slug: contributing
 title: Continuous Integration
+redirect_from: "/documentation/contributing/continuous_integration.html"
 ---
 
 # MoveIt!'s Continuous Integration
