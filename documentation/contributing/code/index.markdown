@@ -44,8 +44,9 @@ e.g. `include/moveit_core/...`, `include/moveit_ros_planning/...`, etc.
 
 ## clang-format Auto Code Formatting
 
+You can run **clang-format** in several ways.
 
-You can run **clang-format** in several ways:
+Please note that we rely on clang-format version **3.6**. Sadly, newer versions are not fully backward compatible.
 
 ### Command Line
 
