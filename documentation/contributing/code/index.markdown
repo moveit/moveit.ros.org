@@ -58,6 +58,16 @@ Format entire directory recursively including subfolders:
 
     find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-3.6 -i -style=file $1
 
+### Exceptions to clang-format
+
+Occationally the auto formatting used by clang-format might not make sense e.g. for lists of items that are easier to read on separate lines. It can be overwritten with the commands:
+
+    // clang-format off
+    ... some untouched code
+    // clang-format on
+
+Use this sparingly though.
+
 ### Emacs Editor Configuration
 
 In your ``~/.emacs`` config file, add the following:
