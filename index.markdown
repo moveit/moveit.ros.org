@@ -39,6 +39,17 @@ Sachin Chitta, Ioan Sucan, Acorn Pooley, Suat Gedikli, Willow Garage, May 2013
 
 * * *
 
+
+Integrated Sensing with MoveIt!
+
+<p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NIKbV8AVC6g" frameborder="0" allowfullscreen></iframe>
+</p>
+
+
+* * *
+
+
 [Visit the MoveIt! Youtube Channel](http://www.youtube.com/user/moveitrobot)
 
 <a href="https://twitter.com/moveitrobot" class="twitter-follow-button" data-show-count="false">Follow @moveitrobot</a>
