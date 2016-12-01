@@ -10,6 +10,9 @@ redirect_from: "/install/source_install.html"
 
 # Source Installation Instructions
 
+**Virtual Machines:** There have been many reports of problems with the ROS visualization tool RViz when used in virtual machines.
+We therefore discourage the use of virtual machines with MoveIt! unless you are not interested in visualization support.
+
 ## Prerequisites
 
 Install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Jade](http://www.ros.org/wiki/jade/Installation/Ubuntu), or [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu). Please make sure you have followed all steps and have the latest versions of packages installed:
