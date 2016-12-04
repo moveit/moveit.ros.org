@@ -15,6 +15,9 @@ MoveIt! is currently released into ROS **Indigo** and **Jade**. ROS **Kinetic** 
 
 **Developers:** see [source install](source/) instructions.
 
+**Virtual Machines:** There have been many reports of problems with the ROS visualization tool RViz when used in virtual machines.
+We therefore discourage the use of virtual machines with MoveIt! unless you are not interested in visualization support.
+
 ## Prerequisite: Install ROS
 
 Follow all the instructions to install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Jade](http://www.ros.org/wiki/jade/Installation/Ubuntu), or [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu). Please make sure you have followed all steps, including calls to ``rosdep``.
