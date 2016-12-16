@@ -31,7 +31,7 @@ Some new features and bug-fixes added since the [last release into Jade](http://
 
 If you're running your robot packages with ROS Kinetic, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](http://moveit.ros.org/install/)
 
-![1st Kinetic release](http://www.ros.org/news/2016/05/23/kinetic.png)
+![1st Kinetic release](http://www.ros.org/news/assets_c/2016/04/kinetic-thumb-640x530-1441.png)
 
 Update on ROS Indigo
 ====================
