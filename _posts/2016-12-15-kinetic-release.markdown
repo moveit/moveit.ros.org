@@ -6,8 +6,8 @@ layout: post
 slug: firstkineticrelease
 title: MoveIt! officially released into ROS Kinetic
 media_type: image
-media_link: http://wiki.ros.org/kinetic?action=AttachFile&do=get&target=kinetic.png
-description: We are happy to announce MoveIt! is now released into ROS [Kinetic](http://wiki.ros.org/kinetic) LTS (Long Term Support)!
+media_link: http://www.ros.org/news/2016/05/23/kinetic.png
+description: MoveIt! is now released into ROS [Kinetic](http://wiki.ros.org/kinetic) LTS (Long Term Support)! Kinetic is now the recommended ROS version that comes with the newest capabilities and bug fixes for MoveIt!.
 categories:
 - MoveIt!
 - ROS
