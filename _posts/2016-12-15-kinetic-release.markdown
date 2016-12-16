@@ -7,7 +7,7 @@ slug: firstkineticrelease
 title: MoveIt! officially released into ROS Kinetic
 media_type: image
 media_link: http://www.ros.org/news/2016/05/23/kinetic.png
-description: MoveIt! is now released into ROS [Kinetic](http://wiki.ros.org/kinetic) LTS (Long Term Support)! Kinetic is now the recommended ROS version that comes with the newest capabilities and bug fixes for MoveIt!.
+description: MoveIt! is now released into ROS Kinetic LTS (Long Term Support)! Kinetic is now the recommended ROS version that comes with the newest capabilities and bug fixes for MoveIt!.
 categories:
 - MoveIt!
 - ROS
@@ -30,6 +30,8 @@ Some new features and bug-fixes added since the [last release into Jade](http://
 - Fedora support is added. Feedback (and fix if necessary) welcomed!
 
 If you're running your robot packages with ROS Kinetic, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](http://moveit.ros.org/install/)
+
+![1st Kinetic release](http://www.ros.org/news/2016/05/23/kinetic.png)
 
 Update on ROS Indigo
 ====================
