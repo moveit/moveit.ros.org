@@ -14,9 +14,9 @@ title: Support
 
 ### Find Troubleshooting Information
 
-  * Ask a question at [answers.ros.org](http://answers.ros.org/), the official question forum of ROS and MoveIt!, if you haven't found similar questions.
-  * Join [the MoveIt! users mailing list](https://groups.google.com/forum/#!forum/moveit-users) (moveit-users _at_ googlegroups _dot_ com) for receiving announcements from [here](https://groups.google.com/forum/#!forum/moveit-users/join). In the [list page](https://groups.google.com/forum/#!forum/moveit-users) you can also find previous good discussions.
-    * (September 2016) We are transitioning to no longer using the mailing list for basic user questions but only for announcements and high level milestone questions.
+  * Ask questions at [answers.ros.org](http://answers.ros.org/), the official question forum of ROS and MoveIt!, if you haven't found similar questions.
+  * Join [the MoveIt! users mailing list](https://groups.google.com/forum/#!forum/moveit-users) (moveit-users _at_ googlegroups _dot_ com) to receive announcements from [here](https://groups.google.com/forum/#!forum/moveit-users/join). In the [list page](https://groups.google.com/forum/#!forum/moveit-users) you can also find previous good discussions. **Please refrain from asking basic user questions here**.
+  * Join the IRC channel #moveit in the [FreeNode](http://freenode.net) network for casual discussion.
 
 ### Developer Discussions
 
