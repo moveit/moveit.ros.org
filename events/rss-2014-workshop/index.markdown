@@ -22,10 +22,10 @@ wordpress_id: 884
 
 
 
-	
+
   * Date: Sunday, July 13, 2014
 
-	
+
   * Venue: RSS 2014, Berkeley, California
 
 
@@ -34,7 +34,7 @@ wordpress_id: 884
 ### Registration
 
 
-All attendees must register through the [RSS conference registration site](http://www.roboticsconference.org/registration.html) (there is a workshops only registration option available for those not attending the whole conference).
+All attendees must register through the [RSS conference registration site](http://www.roboticsconference.org/) (there is a workshops only registration option available for those not attending the whole conference).
 
 
 ### Organizers
@@ -43,13 +43,13 @@ All attendees must register through the [RSS conference registration site](http:
 
 
 
-	
+
   * Sachin Chitta, SRI International
 
-	
+
   * Ioan Sucan, Google
 
-	
+
   * Torsten Kroeger, Google
 
 
@@ -73,37 +73,37 @@ The workshop will consist of a combination of invited talks and panel discussion
 
 
 
-	
+
   * Introduction: Organizers (8:30-8:35 AM)
 
-	
+
   * Plenary Introduction Talk: Vijay Kumar (8:35-9:05 AM)
 
-	
+
   * **Session (Talks)**: Robotics in Industry – New Directions
 
-	
+
     * Erik Nieves, Yaskawa (9:05-9:25 AM)
 
-	
+
     * Rainer Bischoff, KUKA Laboratories GmBH (9:25-9:45 AM)
 
-	
+
     * Phil Freeman, Boeing (9:45-10:05 AM)
 
-	
+
     * Coffee Break (10:05-10:25 AM)
 
-	
+
     * Murad Kurwa, Flextronics (10:25-10:45 AM)
 
-	
+
     * Paul Millman, Intuitive Surgical (10:45-11:10 AM)
 
 
 
 
-	
+
   * **Panel Discussion:** _Robotics in Industry and Academia – New Directions, New Opportunities_ (11:20-11:50 AM)
 
 
@@ -115,31 +115,31 @@ The workshop will consist of a combination of invited talks and panel discussion
 
 
 
-	
+
   * **Session (Talks):**Robotics Startups
 
-	
+
     * Hanns Wolfram Tappeiner, Anki Robotics (15:00-15:20 PM)
 
-	
+
     * Jim Ostrowski, Blue River Technology (15:20-15:40 PM)
 
-	
+
     * Matt Williamson, Rethink Robotics (15:40-16:00 PM)
 
-	
+
     * Chris Anderson, 3D Robotics (16:00-16:20 PM)
 
-	
+
     * Coffee Break (16:20-16:50 PM)
 
-	
+
     * Joe Romano, Kiva Systems (16:50-17:10 PM)
 
-	
+
     * Steve Lavalle, Oculus, UIUC (17:10-17:30 PM)
 
-	
+
     * **Panel Discussion:** _The Startup Experience – Guts to Glory_ (17:30-18:00 PM)
 
 
