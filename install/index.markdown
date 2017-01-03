@@ -34,7 +34,7 @@ Choose your ROS distribution below:
 
 Simply run:
 
-    sudo apt-get install ros-indigo-moveit-full
+    sudo apt-get install ros-indigo-moveit
 
 ### Optional: Install PR2 Ubuntu Packages for MoveIt!
 
