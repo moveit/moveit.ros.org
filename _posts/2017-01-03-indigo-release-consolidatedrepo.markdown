@@ -5,9 +5,7 @@ date: 2017-01-03 00:00:00+00:00
 layout: post
 slug: firstIndigoRelease
 title: First MoveIt! release in 2017 into ROS Indigo
-media_type: image
-media_link: __TBD__
-description: MoveIt! updated for ROS Indigo LTS includes many new features!
+description: First update for Indigo since 6 months ago including many features.
 categories:
 - MoveIt!
 - ROS
