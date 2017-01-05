@@ -44,19 +44,21 @@ e.g. `include/moveit_core/...`, `include/moveit_ros_planning/...`, etc.
 
 ## clang-format Auto Code Formatting
 
-You can run **clang-format** in several ways.
+You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
-Please note that we rely on clang-format version **3.6**. Sadly, newer versions are not fully backward compatible.
+    sudo apt-get install clang-format-3.8
+
+Please note that we rely on clang-format version **3.8**. Sadly, newer versions are not fully backward compatible.
 
 ### Command Line
 
 Format single file:
 
-    clang-format-3.6 -i -style=file MY_ROS_NODE.cpp
+    clang-format-3.8 -i -style=file MY_ROS_NODE.cpp
 
 Format entire directory recursively including subfolders:
 
-    find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-3.6 -i -style=file $1
+    find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-3.8 -i -style=file $1
 
 ### Exceptions to clang-format
 
@@ -81,7 +83,7 @@ Format your source code if its in some directory such as the ``catkin_ws`` (feel
 (and
 (string-match "/catkin_ws/.*\\.\\(h\\|cpp\\)$" buffer-file-name)
 (save-some-buffers 'no-confirm)
-(shell-command (concat "clang-format-3.6 -style=file -i " buffer-file-name))
+(shell-command (concat "clang-format-3.8 -style=file -i " buffer-file-name))
 (message (concat "Saved and ran clang-format on " buffer-file-name))
 (revert-buffer t t t)
 ))
@@ -95,4 +97,4 @@ Set a keyboard shortcut to run, such as F12
 
 Install the [clang-format](https://atom.io/packages/clang-format) package via the Atom package manager or ``apm install clang-format``.
 
-In the package settings set ``clang-format-3.6`` as your executable and point 'Style' to your ``.clang-format`` file.
+In the package settings set ``clang-format-3.8`` as your executable and point 'Style' to your ``.clang-format`` file.
