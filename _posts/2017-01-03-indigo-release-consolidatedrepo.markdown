@@ -18,11 +18,13 @@ During this time, MoveIt! maintenance has been refurbished and we now [consolida
 Change to installation
 ======================
 
-Now you can install the binaries of all the basic libraries by a single line of command without specifying many packages:
+You can install the binaries of all the basic libraries by a single line of command without specifying many packages:
 
 ```
 $ apt-get install ros-indigo-moveit
 ```
+
+  NOTE that `ros-indigo-moveit-full` is temporarily gone. It'll be back again upon the next public sync (cf. [previous public sync announcement](https://discourse.ros.org/t/new-packages-for-indigo-2016-12-28/1039/2)).
 
 If you want to build MoveIt! from source instead of binaries, then simply clone the single repo:
 
@@ -33,6 +35,28 @@ $ git clone git@github.com:ros-planning/moveit.git       (ssh)
 ```
 
 For more info about installation, check the tutorial [moveit.ros.org/install](http://moveit.ros.org/install/).
+
+Things you should know
+======================
+
+* **Rebuild your full (moveit-related) workspace** or you might experience problems.
+  There have been some (mostly internal) binary-incompatible changes for speedup and safety.
+
+* **Make sure you have the new version of all relevant moveit packages.**
+  Because of reorganization of the development process and the package structure, you might find your system omitted some packages when installing updates in ubuntu.
+  Updating them explicitly should work though.
+
+* **The move_group node loads all core-plugins implicitly.**
+  If you notice unwanted services/actions, you can disable these explicitly in your `move_group.launch`.
+  [The change to our `move_group.launch` template](https://github.com/ros-planning/moveit/pull/359/files#diff-738c7ef082dc116580b8bb77c1b20e26) illustrates the changed interface.
+
+* **"Invalid Trajectory: start point deviates from current robot state more than ..."**
+  MoveIt 0.7.3+ ensures that the start state of the robot is near the current state before executing a trajectory.
+  The check might be violated if the noise in your JointStates exceeds the default threshold value of 0.01 per joint even if your robot did not move between planning and execution.
+  In this case you can increase the threshold value in the ros parameter `/move_group/trajectory_execution/allowed_start_tolerance` - or disable the check by setting it to 0.0
+
+* **MoveIt 0.7.5+ provides libraries called `libmoveit*.so.0.7.3`.**
+  This version suffix is called an SONAME and (in MoveIt indigo) indicates the last version that broke binary compatibility.
 
 Changelog
 =========
