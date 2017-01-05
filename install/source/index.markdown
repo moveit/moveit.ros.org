@@ -21,9 +21,9 @@ Install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Jade]
     sudo apt-get update
     sudo apt-get dist-upgrade
 
-Source installation requires [wstool](http://wiki.ros.org/wstool), and [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/):
+Source installation requires [wstool](http://wiki.ros.org/wstool), [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/), and optionally clang-format:
 
-    sudo apt-get install python-wstool python-catkin-tools
+    sudo apt-get install python-wstool python-catkin-tools clang-format-3.8
 
 Optionally create a new workspace, you can name it whatever:
 
