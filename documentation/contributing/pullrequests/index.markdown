@@ -86,3 +86,27 @@ If the commits apply cleanly to future branches and there is no evidence that th
 Otherwise either the requestor or the maintainer should create new pull-requests targeting the later branches.
 If possible, merge these *together* with the original request.
 In this context it might be worth spending some time on making use of features available in later ROS distributions to simplify the code, e.g. by using a new coding standard or a more current version of a library.
+
+### Making a new release
+
+Release person must have a write access to both devel repos (e.g. [github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)) as well as release repos (e.g. [github.com/ros-gbp/moveit-release](https://github.com/ros-gbp/moveit-release)).
+
+#### Typical protocol for a single release
+If each step ends with issues, they need to be fixed before moving on.
+
+1. Notify maintainers to freeze new merge until you finish.
+1. Plan the possible date where you finish releasing tasks. Then communicate with ROS buildfarm mainteners at https://discourse.ros.org/c/release to tell that we want soak time of one or two weeks so that maintainers/early adopters can test the binaries from [shadow repo](http://wiki.ros.org/ShadowRepository) and add necessary fix if any.
+1. Run ROS buildfarm prerelease test for **all** supported Ubuntu distribution in [REP-0003](http://www.ros.org/reps/rep-0003.html) 
+  * As long as REP-0003 supports, we must test even EOLed Ubuntu distro (e.g. Saucy for ROS Indigo was retired in 2014 but REP-0003 still supports it and there's no way as of December 2016 to skip it. See [moveit/#100](https://github.com/ros-planning/moveit/issues/100)).
+1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to sort out per the type of changes (e.g. bugfix, new capability, maintenance, documentation).
+1. Create a new tag with an appropriate version number (see the version policy section). Utilize `catkin_prepare_release` command that bumps the versions in package xml and in changelog files, creates a new tag, and pushes it to the remote repo.
+1. Run `bloom`. Open a pull request against [rosdistro](https://github.com/ros/rosdistro) as bloom suggests at the end of its run.
+1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [moveit-users mailinglist](https://groups.google.com/forum/#!forum/moveit-users).
+1. Notify maintainers to resume new merge.
+
+#### Release versioning policy
+
+* We use the minor version to differentiate the releases from different development branches.
+  * As of December 2016, Indigo 0.7.x (indigo-devel branch), Jade 0.8.x (jade-devel), Kinetic 0.9.x (kinetic-devel).
+* For API/ABI disrupting changes, we often introduce them even into the distributions already released (unlike what's suggested [Release Policy on ROS wiki](http://wiki.ros.org/Distributions/ReleasePolicy#Planning_your_Development)) depending on the discussion among developers. When that happens, we carefully raise attention of the users but most likely won't add special version handling.
+* See also [best practice](https://discourse.ros.org/t/maintainer-best-practices-handling-changes-through-ros-releases/771).
