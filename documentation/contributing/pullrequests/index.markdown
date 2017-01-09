@@ -99,9 +99,30 @@ If each step ends with issues, they need to be fixed before moving on.
 1. Run ROS buildfarm prerelease test for **all** supported Ubuntu distributions in [REP-0003](http://www.ros.org/reps/rep-0003.html).
   * You can see [here](http://wiki.ros.org/bloom/Tutorials/PrereleaseTest) for the general instruction of prerelease test. If you're done for the setup already and just want to refer to command examples, see [here](http://wiki.ros.org/regression_tests#Running_prerelease_test).
   * As long as REP-0003 supports, we must test even EOLed Ubuntu distros (e.g. Saucy for ROS Indigo was retired in 2014 but REP-0003 still supports it and there's no way as of December 2016 to skip it. See [moveit/#100](https://github.com/ros-planning/moveit/issues/100#issuecomment-268826497) as a previous example).
-1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to sort out per the type of changes (e.g. bugfix, new capability, maintenance, documentation).
-1. Create a new tag with an appropriate version number (see the version policy section). Utilize `catkin_prepare_release` command that bumps the versions in package xml and in changelog files, creates a new tag, and pushes it to the remote repo.
-1. Run `bloom`. Open a pull request against [rosdistro](https://github.com/ros/rosdistro) as bloom suggests at the end of its run. [Example of such a request](https://github.com/ros/rosdistro/pull/13512).
+    * For Ubuntu Saucy, there's no Docker image available online for ROS prerelease test AFA known as of Dec 2016. You can still run following [this post](https://github.com/ros-planning/moveit/pull/391#issuecomment-269725623).
+1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to sort out per the type of changes (e.g. bugfix, new capability, maintenance, documentation). Example of the whole command set:
+
+  ```
+  cd moveit                              (Top directory of your clooned moveit repo.)
+  git checkout kinetic-devel
+  git log                                (Make sure the HEAD is what you want to release with. If it's not then update accordingly.)
+  catkin_generate_changelog
+  emacs `find . -iname CHANGELOG.rst`    (Edit each file. Emacs forever, but replace it if necessary :/)
+  ```
+
+1. Create a new tag with an appropriate version number (see the version policy section). Utilize `catkin_prepare_release` command that bumps the versions in package xml and in changelog files, creates a new tag, and pushes it to the remote repo. Example command:
+  ```
+  (Assuming you're at the same directory as previously)
+
+  catkin_prepare_release --bump patch    (Or without any option it suggests bumping minor version.)
+  git tag                                (Confirm among all tags that the tag with the intended version is locally created. Also go online ([github.com/ros-planning/moveit/releases](https://github.com/ros-planning/moveit/releases)) to see the tag is uploaded.)
+  ```
+1. Run `bloom`. Open a pull request against [rosdistro](https://github.com/ros/rosdistro) as bloom suggests at the end of its run. [Example of such a request](https://github.com/ros/rosdistro/pull/13512). Example command:
+
+  ```
+bloom-release --rosdistro kinetic --track kinetic moveit
+  ```
+
 1. Notify maintainers to resume new merge.
 1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [moveit-users mailinglist](https://groups.google.com/forum/#!forum/moveit-users).
 
