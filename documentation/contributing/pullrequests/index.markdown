@@ -110,12 +110,12 @@ If each step ends with issues, they need to be fixed before moving on.
   emacs `find . -iname CHANGELOG.rst`    (Edit each file. Emacs forever, but replace it if necessary :/)
   ```
 
-1. Create a new tag with an appropriate version number (see the version policy section). Utilize `catkin_prepare_release` command that bumps the versions in package xml and in changelog files, creates a new tag, and pushes it to the remote repo. Example command:
+1. Create a new tag with an appropriate version number (see the version policy section). Utilize `catkin_prepare_release` command that bumps the versions in package xml and in changelog files, creates a new tag, and pushes it to the remote repo (you can check at [github.com/ros-planning/moveit/releases](https://github.com/ros-planning/moveit/releases)). Example command:
   ```
   (Assuming you're at the same directory as previously)
 
   catkin_prepare_release --bump patch    (Or without any option it suggests bumping minor version.)
-  git tag                                (Confirm among all tags that the tag with the intended version is locally created. Also go online ([github.com/ros-planning/moveit/releases](https://github.com/ros-planning/moveit/releases)) to see the tag is uploaded.)
+  git tag                                (Confirm among all tags that the tag with the intended version is locally created. Also go online to see the tag is uploaded.)
   ```
 1. Run `bloom`. Open a pull request against [rosdistro](https://github.com/ros/rosdistro) as bloom suggests at the end of its run. [Example of such a request](https://github.com/ros/rosdistro/pull/13512). Example command:
 
