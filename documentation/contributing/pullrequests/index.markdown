@@ -100,6 +100,16 @@ If each step ends with issues, they need to be fixed before moving on.
   * You can see [here](http://wiki.ros.org/bloom/Tutorials/PrereleaseTest) for the general instruction of prerelease test. If you're done for the setup already and just want to refer to command examples, see [here](http://wiki.ros.org/regression_tests#Running_prerelease_test).
   * As long as REP-0003 supports, we must test even EOLed Ubuntu distros (e.g. Saucy for ROS Indigo was retired in 2014 but REP-0003 still supports it and there's no way as of December 2016 to skip it. See [moveit/#100](https://github.com/ros-planning/moveit/issues/100#issuecomment-268826497) as a previous example).
     * For Ubuntu Saucy, there's no Docker image available online for ROS prerelease test AFA known as of Dec 2016. You can still run following [this post](https://github.com/ros-planning/moveit/pull/391#issuecomment-269725623).
+  * Example commands:
+    Default for Kinetic-Xenial where the `HEAD` at the moveit repo is what we want to release, and Kinetic-Wily (basically the same except for the Ubuntu distro type):
+
+    ```
+_DIR_PRLTEST=/tmp/prerelease_job_kin-xen; mkdir -p $_DIR_PRLTEST && cd $_DIR_PRLTEST
+
+generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu xenial amd64  moveit   --level 0  --output-dir ./
+
+generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu wily amd64  moveit   --level 0  --output-dir ./
+```
 1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to sort out per the type of changes (e.g. bugfix, new capability, maintenance, documentation). Example of the whole command set:
 
   ```
