@@ -87,11 +87,11 @@ Otherwise either the requestor or the maintainer should create new pull-requests
 If possible, merge these *together* with the original request.
 In this context it might be worth spending some time on making use of features available in later ROS distributions to simplify the code, e.g. by using a new coding standard or a more current version of a library.
 
-### Making a new release
+## Making a new release
 
 Release person must have a write access to both devel repos (e.g. [github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)) as well as release repos (e.g. [github.com/ros-gbp/moveit-release](https://github.com/ros-gbp/moveit-release)).
 
-#### Typical protocol for a single release
+### Typical protocol for a single release
 If each step ends with issues, they need to be fixed before moving on.
 
 0. Create an issue to track the status of the upcoming release a few days before you start your release work, to notify maintainers to freeze new merge until you finish.
@@ -105,7 +105,7 @@ If each step ends with issues, they need to be fixed before moving on.
 1. Notify maintainers to resume new merge.
 1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [moveit-users mailinglist](https://groups.google.com/forum/#!forum/moveit-users).
 
-#### Release versioning policy
+### Release versioning policy
 
 * We use the minor version to differentiate the releases from different development branches.
   * As of December 2016, Indigo 0.7.x (indigo-devel branch), Jade 0.8.x (jade-devel), Kinetic 0.9.x (kinetic-devel).
