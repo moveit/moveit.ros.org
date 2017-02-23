@@ -24,6 +24,8 @@ In addition MoveIt! has some extra style preferences:
  - Boost is an encouraged library when functionality is not available in the standard library
  - Prefer full variable names over short acryonms - e.g. ``robot_state_`` over ``rs_``
  - Deprecate functions using MOVEIT_DEPRECATED in [deprecation.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/macros/include/moveit/macros/deprecation.h)
+ - Catch known exceptions and log them in detail. Avoid using ``catch (...)`` as it hides every information of a possible fault. We want to know if something goes wrong.
+ - We don't catch exceptions that don't derive from ``std::exception`` in MoveIt. It is the responsibility of the plugin provider to handle non-``std::exception``-derived exceptions locally. 
 
 ## ROS
 
