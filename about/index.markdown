@@ -45,9 +45,9 @@ Name             | GitHub ID |
 Dave Hershburger | hersh |
 Acorn Pooley | N/A |
 
-## Acknowledgements
+## History and Acknowledgements
 
-MoveIt! was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli and Dave Hershberger and we thank Willow Garage for its support of the MoveIt! project. We would also like to thank SRI International for its support of the MoveIt! project between October 2013 and June 2015.
+MoveIt!'s first [commit](https://github.com/ros-planning/moveit/commit/206e93c555a6ddcdbe826809c30b90b89bbb52d8) was October 2011. MoveIt! was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli and Dave Hershberger and we thank Willow Garage for its support of the MoveIt! project. We would also like to thank SRI International for its support of the MoveIt! project between October 2013 and June 2015.
 
 We gratefully acknowledges the contributions of the following people to MoveIt! and associated packages that MoveIt! uses (or has used at some point):
 
