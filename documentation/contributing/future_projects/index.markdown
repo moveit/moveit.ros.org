@@ -17,10 +17,10 @@ The following are a list of potential projects that would greatly benefit the Mo
 * Difficulty level: Medium
 * List of potential mentors: Dave Coleman, Michael Görner
 * Detailed description: The Setup Assistant is a quick-start wizard for taking an arbitrary robot and configuring it to work with MoveIt! for motion planning. A new version of this assistant would include:
-* New grasping screen for setting up end effectors: align axis with z-direction, open/close parameters, etc
-* New perception screen for using laser scanner point clouds: ability to easily configure a XBox Kinetic, etc for use with a robot planning scene, possibly including calibration
-* More GUIs for saving and loading various settings that are currently hidden in text files
-* Parse existing text files (launch/config/package.xml) files and handle user-edits of these files as diffs
+  * New grasping screen for setting up end effectors: align axis with z-direction, open/close parameters, etc
+  * New perception screen for using laser scanner point clouds: ability to easily configure a XBox Kinetic, etc for use with a robot planning scene, possibly including calibration
+  * More GUIs for saving and loading various settings that are currently hidden in text files
+  * Parse existing text files (launch/config/package.xml) files and handle user-edits of these files as diffs
 
 ## Perception Pipeline Improvements
 
@@ -43,9 +43,9 @@ The following are a list of potential projects that would greatly benefit the Mo
 * List of potential mentors: Dave Coleman, Michael Görner
 * Detailed description: MoveIt! severely lacks a good grasping library for generating candidate object grasps during manipulation. The old GraspIt solution is deprecated and nearly impossible to use. Currently MoveIt! users create their own, or hard code simple heuristics. This task could include:
 
-* Investigating available grasp planners and choosing the best one to support out of the box for MoveIt!
-* Possibly use the machine-learning-based grasp generator [Agile Grasps](http://wiki.ros.org/agile_grasp)
-* Improve tutorials and documentation for grasping in MoveIt!
+  * Investigating available grasp planners and choosing the best one to support out of the box for MoveIt!
+  * Possibly use the machine-learning-based grasp generator [Agile Grasps](http://wiki.ros.org/agile_grasp)
+  * Improve tutorials and documentation for grasping in MoveIt!
 
 ## Add More Motion Planning Libraries
 
@@ -55,10 +55,10 @@ The following are a list of potential projects that would greatly benefit the Mo
 * List of potential mentors: Dave Coleman, Mark Moll
 * Detailed description: MoveIt! was designed to be highly plugin-based and originally supported 3 planning libraries. Today that number has shrunk to basically 1. There are many good alternative motion planning libraries that could be (re)added to MoveIt!, including:
 
-* SBPL
-* STOMP
-* ITOMP
-* [DRAKE](https://github.com/RobotLocomotion/drake/issues/459)
+  * SBPL
+  * STOMP
+  * ITOMP
+  * [DRAKE](https://github.com/RobotLocomotion/drake/issues/459)
 
 ## Improve Warehouse Support
 
@@ -83,7 +83,7 @@ The following are a list of potential projects that would greatly benefit the Mo
 * The new system needs to be documented in tutorials
 * It would be nice if, as a proof of concept, some additional basic planning algorithms could be implemented as a plugin. Ideally, this would include at least one algorithm that is not sampling-based, just to demonstrate that this can be done
 
-## MoveIt! Continous Collision Checking
+## MoveIt! Continuous Collision Checking
 
 * List of prerequisites: ROS, experience with MoveIt!
 * Description of programming skills: C++
