@@ -90,3 +90,12 @@ The following are a list of potential projects that would greatly benefit the Mo
 * Difficulty level: Medium
 * List of potential mentors: Levi Armstrong
 * Detailed description: MoveIt! currently only checks for collisions at discrete steps in a planned trajectory. This has the downside that if the discretization is too large, then potential collisions may be missed when planning in tight or constrained environments. This project involves using the flexible-collision-library (FCL) to add continuous collision checking to mitigate collisions in constrained spaces.
+
+## Mobile base integration
+
+* List of prerequisites: ROS, some control theory background
+* Description of programming skills: C++
+* Difficulty level: Medium
+* List of potential mentors: (TBA)
+* Detailed description: Goal is to provide a standard way for integrating mobile base into move group that typically handles arms. While there's a non-standard way to incorporate holonomic drive that requires modifying your robot model ([example](https://groups.google.com/forum/#%21searchin/moveit-users/virtual$20base/moveit-users/G7vG7r23YzI/vpMUoa1hza4J)), customization your robot package for such a common functionality is not ideal at all. We also extend to cover non-holonomic drive robots. This is [an FAQ](https://github.com/ros-planning/moveit/issues/375) among MoveIt! users.
+
