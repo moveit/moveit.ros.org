@@ -1,4 +1,6 @@
-# Future Projects
+# Potential Code Sprints and Future Projects
+
+<img src="/assets/images/moveit_code_sprint.png" width="300"/>
 
 The following are a list of potential projects that would greatly benefit the MoveIt! project if accomplished. This list serves as a start point for potential funding of code sprints or student projects, but is by no means an exhaustive list.
 
@@ -98,4 +100,3 @@ The following are a list of potential projects that would greatly benefit the Mo
 * Difficulty level: Medium
 * List of potential mentors: (TBA)
 * Detailed description: Goal is to provide a standard way for integrating mobile base into move group that typically handles arms. While there's a non-standard way to incorporate holonomic drive that requires modifying your robot model ([example](https://groups.google.com/forum/#%21searchin/moveit-users/virtual$20base/moveit-users/G7vG7r23YzI/vpMUoa1hza4J)), customization your robot package for such a common functionality is not ideal at all. We also extend to cover non-holonomic drive robots. This is [an FAQ](https://github.com/ros-planning/moveit/issues/375) among MoveIt! users.
-
