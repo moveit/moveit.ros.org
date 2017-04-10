@@ -1,3 +1,12 @@
+---
+author: davetcoleman
+comments: true
+date: 2017-4-9 02:13:26+00:00
+layout: page
+slug: code
+title: Code Sprints
+---
+
 # Potential Code Sprints and Future Projects
 
 <img src="/assets/images/moveit_code_sprint.png" width="300"/>
