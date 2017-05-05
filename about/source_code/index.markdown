@@ -38,6 +38,7 @@ MoveIt! code is hosted on github in the [ros-planning organization](http://githu
   * [moveit_visual_tools](https://github.com/ros-planning/moveit_visual_tools) - display and debugging data in Rviz
   * [moveit_advanced](https://github.com/ros-planning/moveit_advanced) - Experimental advanced capabilities
   * [moveit_pr2](https://github.com/ros-planning/moveit_pr2) - PR2 specific MoveIt! configuration and plugins
+  * [rqt_moveit](https://github.com/ros-visualization/rqt_moveit/) - Plugin for the GUI framework of ROS, RQT
   * [srdfdom](https://github.com/ros-planning/srdfdom) - Semantic Robot Description Format
   * [warehouse_ros](https://github.com/ros-planning/warehouse_ros) - Abstract interface for persisting ROS message data
   * [random_numbers](https://github.com/ros-planning/random_numbers) - package for generating random numbers
