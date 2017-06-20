@@ -55,7 +55,7 @@ For a built-by-source container of MoveIt:
 
     docker run -it moveit/moveit:kinetic-source
 
-Any of the three current distros work: [indigo, jade, kinetic]
+Any of the three current distros work: [indigo, kinetic, lunar]
 
 To make the source container more useful for developing and testing code, we recommend you install the following extra dependencies because the docker container is very bare-bones:
 

@@ -15,7 +15,7 @@ We therefore discourage the use of virtual machines with MoveIt! unless you are 
 
 ## Prerequisites
 
-Install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Jade](http://www.ros.org/wiki/jade/Installation/Ubuntu), or [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu). Please make sure you have followed all steps and have the latest versions of packages installed:
+Install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu), or [Lunar](http://www.ros.org/wiki/lunar/Installation/Ubuntu). Please make sure you have followed all steps and have the latest versions of packages installed:
 
     rosdep update
     sudo apt-get update
@@ -30,7 +30,7 @@ Optionally create a new workspace, you can name it whatever:
     mkdir -p ~/ws_moveit/src
     cd ~/ws_moveit/src
 
-Follow the instructions below for either Indigo, Jade, or Kinetic:
+Follow the instructions below for either Indigo, Kinetic, or Lunar:
 
 ## Indigo
 
@@ -39,23 +39,9 @@ Pull down required repositories and build from within the ``/src`` directory of 
     wstool init .
     wstool merge https://raw.githubusercontent.com/ros-planning/moveit/indigo-devel/moveit.rosinstall
     wstool update
-    rosdep install --from-paths . --ignore-src --rosdistro indigo
+    rosdep install -y --from-paths . --ignore-src --rosdistro indigo
     cd ..
     catkin config --extend /opt/ros/indigo --cmake-args -DCMAKE_BUILD_TYPE=Release
-    catkin build
-
-See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
-
-## Jade
-
-Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
-
-    wstool init .
-    wstool merge https://raw.githubusercontent.com/ros-planning/moveit/jade-devel/moveit.rosinstall
-    wstool update
-    rosdep install --from-paths . --ignore-src --rosdistro jade
-    cd ..
-    catkin config --extend /opt/ros/jade --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
 See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
@@ -67,9 +53,25 @@ Pull down required repositories and build from within the ``/src`` directory of 
     wstool init .
     wstool merge https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/moveit.rosinstall
     wstool update
-    rosdep install --from-paths . --ignore-src --rosdistro kinetic
+    rosdep install -y --from-paths . --ignore-src --rosdistro kinetic
     cd ..
     catkin config --extend /opt/ros/kinetic --cmake-args -DCMAKE_BUILD_TYPE=Release
+    catkin build
+
+See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
+
+## Lunar
+
+> **Note:** Lunar support is still in beta. Additionally, it is currently the same code base as the kinetic-devel branch, our recommended distro
+
+Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
+
+    wstool init .
+    wstool merge https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/moveit.rosinstall
+    wstool update
+    rosdep install -y --from-paths . --ignore-src --rosdistro lunar
+    cd ..
+    catkin config --extend /opt/ros/lunar --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
 See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
