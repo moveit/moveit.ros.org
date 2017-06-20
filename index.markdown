@@ -12,6 +12,13 @@ MoveIt! is state of the art software for mobile manipulation, incorporating the 
 
 MoveIt! is the most widely used open-source software for manipulation and has been used on over 65 robots. See the [Robots](/robots/) page for a list of some of the robots that MoveIt! is being used with.
 
+MoveIt! Montage 2017
+<p>
+  <iframe src="//www.youtube.com/embed/0og1SaZYtRc" frameborder="0" width="560" height="315"></iframe>
+</p>
+
+* * *
+
 MoveIt! Montage 2013
 <p>
   <iframe src="//www.youtube.com/embed/dblCGZzeUqs" frameborder="0" width="560" height="315"></iframe>
