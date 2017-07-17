@@ -8,7 +8,7 @@ title: Pull Requests
 redirect_from: "/documentation/contributing/pullrequests.html"
 ---
 
-# Handling Contributions
+# Handling Pull Requests
 
 MoveIt is a huge project with multiple maintainers and many contributing users.
 Thus, sometimes it becomes quite hard to keep track of all open requests and their current state.
