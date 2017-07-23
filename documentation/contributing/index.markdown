@@ -9,15 +9,17 @@ title: Contributing
 
 # Contributing to MoveIt!
 
-We want to encourage all MoveIt! users to contribute back to the open source project, whether enhancing documentation, answer user questions, reporting & fixing bugs, reviewing pull requests, or adding new features.
+First off, thank you for considering contributing to MoveIt! - it's people like you that make this motion planning framework such a quality project. We want to encourage all MoveIt! users to contribute back to the open source project, whether enhancing documentation, answer user questions, writing blog posts, reporting & fixing bugs, reviewing open pull requests, or adding new features.
+
+Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, we should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
 ## Enhancing Documentation
 
-Documentation for the MoveIt! project can be found in two places: in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) and on this website. Github's popular ``README.md`` files should be mainly used to redirect users to the corresponding Sphinx files and website pages.
+Documentation for the MoveIt! project can be found in two places: in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) and on this website. Github's popular ``README.md`` files should be mainly used to redirect users to the corresponding tutorial and website pages.
 
-### moveit_tutorials
+### Tutorials
 
-Tutorials are documented as [reStructredText](http://docutils.sourceforge.net/rst.html) files (similar to Markdown) using Sphinx in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials). These tutorials mostly use the PR2 as their example robot and include example source code you can run. To edit or add more tutorials, create Github pull requests to that repo and the maintainers will graciously approve your help after review.
+Tutorials are documented as [reStructredText](http://docutils.sourceforge.net/rst.html) files (similar to Markdown) using Sphinx in the [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) source repository. These tutorials mostly use the PR2 as their example robot and include example source code you can run. To edit or add more tutorials, create Github pull requests to that repository and the maintainers will graciously approve your help after review.
 
 ### moveit.ros.org
 
@@ -39,7 +41,7 @@ Those who are willing to answer MoveIt!-related questions only can get notified 
 
 As an aside, a lot of documentation exists as Q&As on there, and if you feel so compelled, help us move some of that documentation onto the website.
 
-[MoveIt! mailing list](https://groups.google.com/forum/#!forum/moveit-users) should be used for announcement and discussion.
+[MoveIt! mailing list](https://groups.google.com/forum/#!forum/moveit-users) should be used for announcement and discussion only.
 
 ## Reporting & Fixing Bugs
 
@@ -47,13 +49,11 @@ Bugs should be reported to the Github issues page of the appropriate repo. Pleas
 
 ### Pull Requests
 
-Our policy for contributing changes to the code base is that no one, not even the maintainers, should commit directly to the repo. Rather, you should create a feature branch on your own fork of the project and create a pull-request when it's ready to be reviewed by someone else. To ease the process of merging your requests, please follow your part of the [Guideline for Handling Contributions](pullrequests).
-
-See [MoveIt! Code Style](code) for details on how to format your pull requests.
+Our policy for contributing changes to the code base is that no one, not even the maintainers, should commit directly to the repo. Rather, you should create a feature branch on your own fork of the project and create a pull-request when it's ready to be reviewed by someone else. To ease the process of merging your requests, please follow your part of the [Guideline for Handling Pull Requests](pullrequests). See [MoveIt! Code Style](code) for details on how to format your pull requests - a requirement for our automated build farm. Note all contributions to MoveIt! must be BSD or similar open source license.
 
 ### Checking For ABI Compliance
 
-In LTS releases efforts should be made to avoid breaking ABI and API (binary and source-level compatibility) for MoveIt!'s C/C++ libraries. To aid in checking this, we recommend the [Linux ABI Compliance-Checker](http://ispras.linuxbase.org/index.php/ABI_compliance_checker)
+In LTS releases efforts should be made to avoid breaking ABI and API (binary and source-level compatibility) for MoveIt!'s C/C++ libraries. To aid in checking this, we optionally recommend the [Linux ABI Compliance-Checker](http://ispras.linuxbase.org/index.php/ABI_compliance_checker).
 
 ### Running Tests Locally
 
