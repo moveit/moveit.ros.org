@@ -11,7 +11,7 @@ title: Install
 
 MoveIt! is released every month or so into Ubuntu debian packages via the ROS infrastructure. For more information see the [target platforms](http://www.ros.org/reps/rep-0003.html).
 
-MoveIt! is currently released into ROS **Indigo**, **Jade**, and **Kinetic**.
+MoveIt! is currently released into ROS **Indigo**,  **Kinetic**, and **Lunar**.
 
 **Developers:** see [source install](source/) instructions.
 
@@ -20,7 +20,8 @@ We therefore discourage the use of virtual machines with MoveIt! unless you are 
 
 ## Prerequisite: Install ROS
 
-Follow all the instructions to install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Jade](http://www.ros.org/wiki/jade/Installation/Ubuntu), or [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu). Please make sure you have followed all steps, including calls to ``rosdep``.
+Follow all the instructions to install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu), or
+[Lunar](http://www.ros.org/wiki/lunar/Installation/Ubuntu). Please make sure you have followed all steps, including calls to ``rosdep``.
 
 Choose your ROS distribution below:
 
@@ -48,22 +49,6 @@ See bottom of page for quick start
 
 * * *
 
-## ROS Jade
-
-### Install Ubuntu Packages
-
-Simply run:
-
-    sudo apt-get install ros-jade-moveit
-
-### Setup your environment
-
-    source /opt/ros/jade/setup.bash
-
-See bottom of page for quick start
-
-* * *
-
 ## ROS Kinetic
 
 ### Install Ubuntu Packages
@@ -75,6 +60,22 @@ Simply run:
 ### Setup your environment
 
     source /opt/ros/kinetic/setup.bash
+
+See bottom of page for quick start
+
+* * *
+
+## ROS Lunar
+
+### Install Ubuntu Packages
+
+Simply run:
+
+    sudo apt-get install ros-lunar-moveit
+
+### Setup your environment
+
+    source /opt/ros/lunar/setup.bash
 
 See bottom of page for quick start
 
