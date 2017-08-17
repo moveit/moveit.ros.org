@@ -35,6 +35,7 @@ Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://githu
 Jorge Nicho | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho) | IKFast Plugin
 Christian Dornhege | University of Freiburg | [dornhege](https://github.com/dornhege) | PR2 Code Base
 Maarten de Vries | Delft Robotics | [de-vri-es](https://github.com/de-vri-es) | Code Modernization
+Bence Magyar | Heriot-Watt University | [bmagyar](https://github.com/bmagyar) | Stomp Planner, ROS-Controls
 
 ## Maintainer Alumni
 
