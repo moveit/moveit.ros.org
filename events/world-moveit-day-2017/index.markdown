@@ -7,7 +7,7 @@ slug: world_moveit_day_2017
 title: World MoveIt! Day 2017
 ---
 
-![World MoveIt! Day]({{ site.url }}/assets/images/world_moveit_day_2017.png)
+<img src="/assets/images/world_moveit_day_2017.png" alt="World MoveIt! Day" style="width: 700px;"/>
 
 ## Time
 
@@ -26,7 +26,7 @@ title: World MoveIt! Day 2017
 - [Advanced Remanufacturing and Technology Centre](http://www.artc.a-star.edu.sg), Singapore
   - Contact: Chan Min Ling
 - [PickNik Consulting (Univ. Colorado)](http://picknik.ai), Boulder, USA
-  - Contact: Dave Coleman
+  - Contact: Andy McEvoy
 
 ## Other Participating Organizations
 
@@ -57,7 +57,7 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 
 **The Xamla Robotics Team at Provisio GmbH** in Münster, Germany will be hosting an event with food, soft drinks, and a UR5 for testing
 
-**Advanced Remanufacturing and Technology Centre** in Singapore will be hosting an event
+**Advanced Remanufacturing and Technology Centre** in Singapore will be hosting an event with lunch
 
 **PickNik Consulting** will be hosting an event at the University of Colorado Computer Science Robotics lab in the Engineering Center. Lunch will be provided.
 
