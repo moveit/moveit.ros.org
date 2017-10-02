@@ -18,7 +18,7 @@ title: World MoveIt! Day 2017
 - [Verb Surgical](http://www.verbsurgical.com/), San Francisco Bay Area, USA
   - Contact: Dave Coleman
 - [Magazino](https://www.magazino.eu/), Munich, Germany
-  - Contact: Michael Görner
+  - Contact: Nikolas Engelhard
 - [Southwest Research Institute](http://www.swri.org/ros-industrial), San Antonio, USA
   - Contact: Jorge Nicho
 - [Xamla Robotics (PROVISIO GmbH)](http://xamla.com/en/), Münster, Germany
@@ -27,12 +27,13 @@ title: World MoveIt! Day 2017
   - Contact: Chan Min Ling
 - [PickNik Consulting (Univ. Colorado)](http://picknik.ai), Boulder, USA
   - Contact: Andy McEvoy
+- [Shadow Robot Company](https://www.shadowrobot.com), London, UK
+  - Contact: Ugo Cupcic
 
 ## Other Participating Organizations
 
   * Open Robotics
   * Tokyo Opensource Robotics Kyokai Association
-  * Shadow Robot Company
 
 ## Organizers
 
@@ -57,9 +58,11 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 
 **The Xamla Robotics Team at Provisio GmbH** in Münster, Germany will be hosting an event with food, soft drinks, and a UR5 for testing
 
-**Advanced Remanufacturing and Technology Centre** in Singapore will be hosting an event with lunch
+**Advanced Remanufacturing and Technology Centre** EVENT ON THURSDAY OCTOBER 19th due to a national holiday. Lunch will be provided. To signup and for more details see the [EventBrite](https://www.eventbrite.sg/e/world-moveit-day-asia-pacific-tickets-38378316578).
 
 **PickNik Consulting** will be hosting an event at the University of Colorado Computer Science Robotics lab in the Engineering Center. Lunch will be provided.
+
+**Shadow Robot** will either be held at our office in Islington or at UCL's place in Here East (both venues in London). In particular, we'd like to show you a demo of what we're doing with our hardware. For more information see [EventBrite](https://www.eventbrite.co.uk/e/world-moveit-day-shadow-robot-company-ucl-hackathon-tickets-38493613434)
 
 If you aren't near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events. We would also like to mail your team or event some MoveIt! stickers to schwag out your robots with. State your intent to join [on this form](https://goo.gl/forms/Luia41ONpu1T0JJp2).
 
