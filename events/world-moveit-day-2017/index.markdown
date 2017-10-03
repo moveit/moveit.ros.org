@@ -23,7 +23,7 @@ title: World MoveIt! Day 2017
   - Contact: Jorge Nicho
 - [Xamla Robotics (PROVISIO GmbH)](http://xamla.com/en/), Münster, Germany
   - Contact: Andreas Köpf
-- [Advanced Remanufacturing and Technology Centre](http://www.artc.a-star.edu.sg), Singapore
+- [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
   - Contact: Chan Min Ling
 - [PickNik Consulting (Univ. Colorado)](http://picknik.ai), Boulder, USA
   - Contact: Andy McEvoy
@@ -50,7 +50,7 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 
 ## Event Location Details
 
-**Verb Surgical** will be hosting an event with lunch and in house engineers to help with the hackathon. An NDA will be required before entering the building
+**Verb Surgical** will be hosting an event with lunch and in house engineers to help with the hackathon. Fetch Robotics will provide a Fetch robot to test MoveIt! on. Please signup on [on this form](https://goo.gl/forms/Luia41ONpu1T0JJp2). An NDA will be required before entering the building.
 
 **Magazino** will be hosting an event with food and a UR5
 
@@ -58,7 +58,7 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 
 **The Xamla Robotics Team at Provisio GmbH** in Münster, Germany will be hosting an event with food, soft drinks, and a UR5 for testing
 
-**Advanced Remanufacturing and Technology Centre** EVENT ON THURSDAY OCTOBER 19th due to a national holiday. Lunch will be provided. To signup and for more details see the [EventBrite](https://www.eventbrite.sg/e/world-moveit-day-asia-pacific-tickets-38378316578).
+**ROS-Industrial Asian Pacific Consortium** EVENT ON THURSDAY OCTOBER 19th due to a national holiday. Lunch will be provided. To register and obtain the video conference details please sign up here: [EventBrite](https://www.eventbrite.sg/e/world-moveit-day-asia-pacific-tickets-38378316578).
 
 **PickNik Consulting** will be hosting an event at the University of Colorado Computer Science Robotics lab in the Engineering Center. Lunch will be provided.
 
@@ -114,3 +114,5 @@ We'd like to thank the following sponsors:
 <img src="/assets/images/sponsors/xamla.png" width="100" css="margin-right:20px"/>
 
 <img src="/assets/images/sponsors/astar.jpg" width="200" css="margin-right:20px"/>
+
+<img src="/assets/images/sponsors/fetch-robotics.png" width="200" css="margin-right:20px"/>
