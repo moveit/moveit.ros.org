@@ -19,12 +19,13 @@ We're excited to announce that this year's [World MoveIt! Day](/events/world-mov
 
 We will be having several event locations including:
 
-- [Verb Surgical](http://www.verbsurgical.com/), San Francisco Bay Area. Lunch and in house engineers will help with the hackathon.
-- [Magazino](https://www.magazino.eu/), Munich, Germany.
+- [Verb Surgical](http://www.verbsurgical.com/), San Francisco Bay Area
+- [Magazino](https://www.magazino.eu/), Munich, Germany
 - [Southwest Research Institute](http://www.swri.org/ros-industrial), San Antonio, USA
-- [Xamla Robotics (PROVISIO GmbH)](http://xamla.com/en/), Münster, Germany
+- [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
 - [Advanced Remanufacturing and Technology Centre](http://www.artc.a-star.edu.sg), Singapore
 - [PickNik Robotics (Univ. Colorado)](http://picknik.ai), Boulder, USA
+- [Shadow Robot Company](https://www.shadowrobot.com), London, UK
 
 You are encouraged to have your own event in your lab/organization/company and video conference in to all the other events.  Please let us know your intention to join [here](https://goo.gl/forms/Luia41ONpu1T0JJp2).
 
