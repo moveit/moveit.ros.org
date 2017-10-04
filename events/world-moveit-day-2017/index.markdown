@@ -54,7 +54,7 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 
 **Magazino** will be hosting an event with food and a UR5
 
-**ROS Industrial at Southwest Research Institute** will be hosting an event on the SwRI campus in their new robotics lab in building 68.
+**ROS Industrial at Southwest Research Institute** will be hosting an event on the SwRI campus in their new robotics lab in building 68. For details and to signup see [EventBrite](https://www.eventbrite.com/e/world-moveit-day-san-antonio-tickets-38599423916)
 
 **The Xamla Robotics Team at Provisio GmbH** in Münster, Germany will be hosting an event with food, soft drinks, and a UR5 for testing
 
