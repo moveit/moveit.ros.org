@@ -26,6 +26,7 @@ We will be having several event locations including:
 - [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore (THURSDAY OCTOBER 19th)
 - [PickNik Robotics (Univ. Colorado)](http://picknik.ai), Boulder, USA
 - [Shadow Robot Company](https://www.shadowrobot.com), London, UK
+- [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/), Tokyo, Japan (THURSDAY OCTOBER 19th)
 
 You are encouraged to have your own event in your lab/organization/company and video conference in to all the other events.  Please let us know your intention to join [here](https://goo.gl/forms/Luia41ONpu1T0JJp2).
 

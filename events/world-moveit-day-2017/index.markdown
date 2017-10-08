@@ -29,11 +29,12 @@ title: World MoveIt! Day 2017
   - Contact: Andy McEvoy
 - [Shadow Robot Company](https://www.shadowrobot.com), London, UK
   - Contact: Ugo Cupcic
+- [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/), Tokyo, Japan
+  - Contact: Ryosuke Tajima
 
 ## Other Participating Organizations
 
   * Open Robotics
-  * Tokyo Opensource Robotics Kyokai Association
 
 ## Organizers
 
@@ -63,6 +64,8 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 **PickNik Consulting** will be hosting an event at the University of Colorado Computer Science Robotics lab in the Engineering Center. Lunch will be provided.
 
 **Shadow Robot** will either be held at our office in Islington or at UCL's place in Here East (both venues in London). In particular, we'd like to show you a demo of what we're doing with our hardware. For more information see [EventBrite](https://www.eventbrite.co.uk/e/world-moveit-day-shadow-robot-company-ucl-hackathon-tickets-38493613434)
+
+**Tokyo Opensource Robotics Kyokai Association (TORK)** will be hosting an event at [Yurakucho, Tokyo](https://www.google.co.jp/maps/@35.6750008,139.7644287,3a,75y,80.29h,74.26t/data=!3m6!1e1!3m4!1sAF1QipP3nruLhFixmjzdA-Or1On0l6LFPpHe--Aym6p8!2e10!7i11988!8i5994) with food, soft drinks, hand-on training seminar, lightning talks and in house engineers to help with the hackathon. EVENT ON THURSDAY OCTOBER 19th. To register and obtain, please sign up here: [connpass](https://rosjp.connpass.com/event/68964/).
 
 If you aren't near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events. We would also like to mail your team or event some MoveIt! stickers to schwag out your robots with. State your intent to join [on this form](https://goo.gl/forms/Luia41ONpu1T0JJp2).
 
@@ -116,3 +119,5 @@ We'd like to thank the following sponsors:
 <img src="/assets/images/sponsors/astar.jpg" width="200" css="margin-right:20px"/>
 
 <img src="/assets/images/sponsors/fetch-robotics.png" width="200" css="margin-right:20px"/>
+
+<img src="/assets/images/sponsors/tork.png" width="200" css="margin-right:20px"/>
