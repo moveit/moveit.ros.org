@@ -61,7 +61,7 @@ Please state your intent to join [on this form](https://goo.gl/forms/Luia41ONpu1
 
 **ROS-Industrial Asian Pacific Consortium** EVENT ON THURSDAY OCTOBER 19th due to a national holiday. Lunch will be provided. To register and obtain the video conference details please sign up here: [EventBrite](https://www.eventbrite.sg/e/world-moveit-day-asia-pacific-tickets-38378316578).
 
-**PickNik Consulting** will be hosting an event at the University of Colorado Computer Science Robotics lab in the Engineering Center. Lunch will be provided.
+**PickNik Consulting** will be hosting an event at the University of Colorado Computer Science Robotics lab in the Engineering Center. Lunch will be provided. RSVP here: [Meetup](https://www.meetup.com/BoulderIsForRobots/events/243990181/).
 
 **Shadow Robot** will either be held at our office in Islington or at UCL's place in Here East (both venues in London). In particular, we'd like to show you a demo of what we're doing with our hardware. For more information see [EventBrite](https://www.eventbrite.co.uk/e/world-moveit-day-shadow-robot-company-ucl-hackathon-tickets-38493613434)
 
