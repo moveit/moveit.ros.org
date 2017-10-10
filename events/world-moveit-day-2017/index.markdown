@@ -9,9 +9,11 @@ title: World MoveIt! Day 2017
 
 <img src="/assets/images/world_moveit_day_2017.png" alt="World MoveIt! Day" style="width: 700px;"/>
 
-## Time
+## Date
 
-  * Date: October 18th, 2017
+  * **October 18th, 2017**
+  * See specific locations for details on times. 
+  * Note that the Tokyo and Singapore locations will have their event on the 19th
 
 ## Description
 
@@ -47,11 +49,11 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 
 ## Signup
 
-Please state your intent to join [on this form](https://goo.gl/forms/Luia41ONpu1T0JJp2).
+Please state your intent to join the international event [on this form](https://goo.gl/forms/Luia41ONpu1T0JJp2). Note that specific locations have their own signups in addition to this form.
 
 ## Event Location Details
 
-**Verb Surgical** will be hosting an event with lunch and in-house engineers to help with the hackathon. Fetch Robotics will provide a Fetch robot to test MoveIt! on. Please signup [on this form](https://goo.gl/forms/Luia41ONpu1T0JJp2). An NDA will be required before entering the building. Dave Coleman will attend this meeting.
+**Verb Surgical** will be hosting an event with lunch and in-house engineers to help with the hackathon. Fetch Robotics will provide a Fetch robot to test MoveIt! on. For more details and to signup see [EventBrite](https://www.eventbrite.com/e/world-moveit-day-bay-area-tickets-38781550662). Dave Coleman will attend this meeting.
 
 **Magazino** will be hosting an event with food, drinks, and a UR5 robot arm on their premises in Munich. In-house engineers will join the event. Michael 'v4hn' Görner will attend this meeting.
 
