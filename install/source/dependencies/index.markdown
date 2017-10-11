@@ -58,10 +58,6 @@ Now you should be able to build using regular ``catkin build``
 
 OMPL is MoveIt!'s main planning library, their official install instructions can be found [here](http://ompl.kavrakilab.org/installation.html).
 
-To install from source within catkin, first ensure you do not have the binary installed versions, as it will override any local build of OMPL that your try to overlay. To understand the limitation see this [Github issue](https://github.com/ros-planning/moveit/issues/169#issuecomment-242849008):
-
-    sudo apt-get -qq remove ros-kinetic-ompl
-
 Clone the OMPL repos from either Bitbucket or Github into your catkin workspace:
 
     git clone https://github.com/ompl/ompl
@@ -71,15 +67,19 @@ Next manually add a package.xml as used in the ROS release wrapper for OMPL (mod
 
     wget https://raw.githubusercontent.com/ros-gbp/ompl-release/debian/kinetic/xenial/ompl/package.xml
 
+Lastly, because of overlay issues you have to change the order of include variables in **MoveIt's** build system.
+Sadly, this cannot be changed in the upstream project, because it would break the default use case.
+To understand this limitation see this [Github issue](https://github.com/ros-planning/moveit/issues/169#issuecomment-242849008):
+
+    Edit moveit/moveit_planners/ompl/CMakeLists.txt
+    Locate the include_directories directive and exchange the two variables ${OMPL_INCLUDE_DIRS} and ${catkin_INCLUDE_DIRS}
+
 Now you should be able to build using regular ``catkin build``
 
 ## Flexible Collision Library (FCL)
 
 FCL is MoveIt!'s default collision checker, their official install instructions can be found [here](https://github.com/flexible-collision-library/fcl).
 
-To install from source within catkin, first remove any binary installed verions:
-
-    sudo apt-get -qq remove libfcl0 libfcl-dev ros-kinetic-octomap
     sudo apt-get -qq install libccd-dev
 
 Clone the repo into your catkin workspace and choose the version used by your current ROS version:
