@@ -91,6 +91,8 @@ If you would like to help the MoveIt! project by tackling an issue, claim the is
 
 If you have ideas and improvements for the project, please add your own issues to the tracker, using the appropriate labels where applicable. It's fine if you want to then claim them for yourself.
 
+Other larger code sprint ideas can be found [on this page](http://moveit.ros.org/documentation/contributing/future_projects/). While they will take longer than a day the ideas might provide a good reference for other things to contribute on WMD.
+
 ### Documentation
 
 Improving our documentation is a major goal of WMD - please add to our Sphynx and Markdown-based documentation within our packages and on the MoveIt! website. If you have studied extensively an aspect of MoveIt! that is not currently documented, please convert your notes into a pull request in the appropriate location. If you've started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request to help others in the future with the same question.
