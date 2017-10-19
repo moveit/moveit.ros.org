@@ -101,7 +101,7 @@ For more details on modifying documentation, see [Contributing](http://moveit.ro
 
 ### Video Conference and IRC
 
-Join the conversation on IRC with #moveit at irc.freenode.net.
+Join the conversation on IRC with #moveit at irc.freenode.net. For those new to IRC try [this web client](https://webchat.freenode.net).
 
 Joint the video conference on [Appear.In](https://appear.in/world-moveit-day)
 
