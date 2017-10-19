@@ -91,6 +91,8 @@ If you would like to help the MoveIt! project by tackling an issue, claim the is
 
 If you have ideas and improvements for the project, please add your own issues to the tracker, using the appropriate labels where applicable. It's fine if you want to then claim them for yourself.
 
+Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/ros-planning/moveit_tutorials/issues).
+
 Other larger code sprint ideas can be found [on this page](http://moveit.ros.org/documentation/contributing/future_projects/). While they will take longer than a day the ideas might provide a good reference for other things to contribute on WMD.
 
 ### Documentation
