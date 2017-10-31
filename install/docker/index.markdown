@@ -70,13 +70,11 @@ MoveIt!'s docker containers are built automatically on dockerhub.com, but you ca
 
 ## Using GUI's with Docker
 
-These instructions are currently experiemental. For more details see the [ROS tutorial](http://wiki.ros.org/docker/Tutorials/GUI):
+In the kinetic and newer branches there is a tool to help use GUI's inside docker environments.
 
-    # This is not the safest way however, as you then compromise the access control to X server on your host
-    xhost +local:root # for the lazy and reckless
+With a current checkout of kinetic-devel or newer there is a script in the `.docker` subdirectory. Run the following to get into the moveit/moveit docker image with gui support.
 
-    docker run -it --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" moveit/moveit:kinetic-source
-    export containerId=$(docker ps -l -q)
+    cd .docker
+    ./gui-docker --rm -it moveit/moveit /bin/bash
 
-    # Close security hole:
-    xhost -local:root
+This will attempt to use nvidia-docker if hardware and drivers are available.
