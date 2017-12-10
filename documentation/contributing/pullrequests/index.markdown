@@ -103,36 +103,36 @@ If each step ends with issues, they need to be fixed before moving on.
   * Example commands:
     Default for Kinetic-Xenial where the `HEAD` at the moveit repo is what we want to release, and Kinetic-Wily (basically the same except for the Ubuntu distro type):
 
-    ```
-_DIR_PRLTEST=/tmp/prerelease_job_kin-xen; mkdir -p $_DIR_PRLTEST && cd $_DIR_PRLTEST
+     ```
+     _DIR_PRLTEST=/tmp/prerelease_job_kin-xen; mkdir -p $_DIR_PRLTEST && cd $_DIR_PRLTEST
+     
+     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu xenial amd64  moveit   --level 0  --output-dir ./
+     
+     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu wily amd64  moveit   --level 0  --output-dir ./
+     ```
 
-generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu xenial amd64  moveit   --level 0  --output-dir ./
-
-generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu wily amd64  moveit   --level 0  --output-dir ./
-```
 1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to sort out per the type of changes (e.g. bugfix, new capability, maintenance, documentation). Example of the whole command set:
 
-  ```
-  cd moveit                              (Top directory of your clooned moveit repo.)
-  git checkout kinetic-devel
-  git log                                (Make sure the HEAD is what you want to release with. If it's not then update accordingly.)
-  catkin_generate_changelog
-  emacs `find . -iname CHANGELOG.rst`    (Edit each file. Emacs forever, but replace it if necessary :/)
-  ```
-
+   ```
+   cd moveit                              (Top directory of your clooned moveit repo.)
+   git checkout kinetic-devel
+   git log                                (Make sure the HEAD is what you want to release with. If it's not then update accordingly.)
+   catkin_generate_changelog
+   emacs `find . -iname CHANGELOG.rst`    (Edit each file. Emacs forever, but replace it if necessary :/)
+   ```
 1. Create a new tag with an appropriate version number (see the version policy section). Utilize `catkin_prepare_release` command that bumps the versions in package xml and in changelog files, creates a new tag, and pushes it to the remote repo (you can check at [github.com/ros-planning/moveit/releases](https://github.com/ros-planning/moveit/releases)). Example command:
-  ```
-  (Assuming you're at the same directory as previously)
 
-  catkin_prepare_release --bump patch    (Or without any option it suggests bumping minor version.)
-  git tag                                (Confirm among all tags that the tag with the intended version is locally created. Also go online to see the tag is uploaded.)
-  ```
+   ```
+   (Assuming you're at the same directory as previously)
+ 
+   catkin_prepare_release --bump patch    (Or without any option it suggests bumping minor version.)
+   git tag                                (Confirm among all tags that the tag with the intended version is locally created. Also go online to see the tag is uploaded.)
+   ```
 1. Run `bloom`. Open a pull request against [rosdistro](https://github.com/ros/rosdistro) as bloom suggests at the end of its run. [Example of such a request](https://github.com/ros/rosdistro/pull/13512). Example command:
 
-  ```
-bloom-release --rosdistro kinetic --track kinetic moveit
-  ```
-
+   ```
+   bloom-release --rosdistro kinetic --track kinetic moveit
+   ```
 1. Notify maintainers to resume new merge.
 1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [moveit-users mailinglist](https://groups.google.com/forum/#!forum/moveit-users).
 
