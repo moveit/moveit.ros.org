@@ -100,3 +100,27 @@ Set a keyboard shortcut to run, such as F12
 Install the [clang-format](https://atom.io/packages/clang-format) package via the Atom package manager or ``apm install clang-format``.
 
 In the package settings set ``clang-format-3.8`` as your executable and point 'Style' to your ``.clang-format`` file.
+
+## clang-tidy Linting
+
+**clang-tidy** is a linting tool for C++. Where **clang-format** will fix the formatting of your code
+(wrong indentation, line length, etc), **clang-tidy** will fix programming errors to make your code
+more modern, more readable, and less prone to common bugs.
+
+You can install clang-tidy and other clang related tools with
+`sudo apt-get install clang libclang-dev clang-tidy-3.8 clang-format-3.8`
+
+To add it to a new package, add `set(CMAKE_EXPORT_COMPILE_COMMANDS ON)` to `CMakeLists.txt` and rebuild.
+You can also make a specific clang-tidy build with
+```
+catkin config --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+catkin build
+```
+
+Run it on a specific folder, such as `collision_detection`, with
+```
+run-clang-tidy-3.8.py -fix -p=/home/brycew/Desktop/moveit_ws/build/moveit_core/  collision_detection
+```
+
+Note that if you have multiple layers of nested for loops that need to be converted, clang-tidy
+will only fix one at a time. So be sure to run the above command a few times to convert all code.
