@@ -13,9 +13,9 @@ categories:
 - ROS
 ---
 
-![Franka Emika Robot]({{ site.url }}/assets/images/Franka_Emika_Panda.jpg)
+<img src="{{ site.url }}/assets/images/Franka_Emika_Panda.jpg" width="750"/>
 
-We are excited to announce that the robotic arm manufacturer Franka Emika is partnering with PickNik to sponsor a MoveIt! codesprint to further improve MoveIt!’s tutorials, documentation, and website.
+We are excited to announce that the robotic arm manufacturer [Franka Emika](https://franka.de/) is partnering with [PickNik](http://picknik.ai/) to sponsor a MoveIt! codesprint to further improve MoveIt!’s tutorials, documentation, and website.
 
 Although MoveIt! is a widely used motion planning framework and ROS package, its documentation needs a bit of updating. The website and tutorials consistently get minor improvements and contributions from the dedicated community, but a much larger holistic effort is needed in improving the overall information flow and ensuring that all major concepts in MoveIt! are included.
 
@@ -27,6 +27,6 @@ There are several key objectives we want to achieve:
  - Clean up the content and organization of the tutorials to help new users learn MoveIt! faster
  - Revamp the aesthetic appearance of the MoveIt! website
 
-We would like to thank [Franka Emika](https://franka.de/) for agreeing to sponsor this code sprint and their newest sensitive robotic arm - Panda - becoming the new flagship robot in the MoveIt! tutorials. You can find more information about open-source libraries and existing ROS integration of Panda at [https://frankaemika.github.io](https://frankaemika.github.io).
+We would like to thank Franka Emika for agreeing to sponsor this code sprint and their newest sensitive robotic arm - Panda - becoming the new flagship robot in the MoveIt! tutorials. You can find more information about open-source libraries and existing ROS integration of Panda at [https://frankaemika.github.io](https://frankaemika.github.io).
 
-<img src="{{ site.url }}/assets/images/sponsors/franka_logo.png" width="500" css="margin-right:20px"/>
+<img src="{{ site.url }}/assets/images/sponsors/franka_logo.png" width="300" css="margin-top:20px"/>
