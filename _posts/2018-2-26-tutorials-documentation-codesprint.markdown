@@ -19,7 +19,7 @@ We are excited to announce that the robotic arm manufacturer [Franka Emika](http
 
 Although MoveIt! is a widely used motion planning framework and ROS package, its documentation needs a bit of updating. The website and tutorials consistently get minor improvements and contributions from the dedicated community, but a much larger holistic effort is needed in improving the overall information flow and ensuring that all major concepts in MoveIt! are included.
 
-Many MoveIt! users have noticed that the tutorials have not been migrated fully from previous ROS versions. In addition, our current example robot is the now retired PR2 robot. While once a revolutionary robot, the PR2 does not have support in ROS Kinetic, is no longer manufactured, and is very expensive.
+Many MoveIt! users have noticed that the tutorials have not been migrated fully from previous ROS versions. In addition, our current example robot is the now retired PR2 robot. While once a revolutionary robot, the PR2 is not officially supported in latest ROS releases, is no longer manufactured, and is very expensive.
 
 There are several key objectives we want to achieve:
 
