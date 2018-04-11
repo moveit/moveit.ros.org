@@ -18,15 +18,15 @@ The following is an overview of how MoveIt! works. For more concrete documentati
 
 ### The move_group node
 
-The figure above shows the high-level system architecture for the primary node provided by MoveIt! called [move_group](http://docs.ros.org/jade/api/moveit_ros_move_group/html/move__group_8cpp.html). This node serves as an integrator: pulling all the individual components together to provide a set of ROS actions and services for users to use.
+The figure above shows the high-level system architecture for the primary node provided by MoveIt! called [move_group](http://docs.ros.org/kinetic/api/moveit_ros_move_group/html/move__group_8cpp.html). This node serves as an integrator: pulling all the individual components together to provide a set of ROS actions and services for users to use.
 
 ### User Interface
 
 The users can access the actions and services provided by _move_group_ in one of three ways:
 
-  * **In C++** - using the [move_group_interface](http://docs.ros.org/jade/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveGroup.html) package that provides an easy to setup C++ interface to move_group
+  * **In C++** - using the [move_group_interface](http://docs.ros.org/kinetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveGroup.html) package that provides an easy to setup C++ interface to move_group
 
-  * **In Python** - using the [moveit_commander](http://docs.ros.org/jade/api/moveit_commander/html/classmoveit__commander_1_1move__group_1_1MoveGroupCommander.html) package
+  * **In Python** - using the [moveit_commander](http://docs.ros.org/kinetic/api/moveit_commander/html/classmoveit__commander_1_1move__group_1_1MoveGroupCommander.html) package
 
   * **Through a GUI** - using the [Motion Planning plugin to Rviz](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/ros_visualization/visualization_tutorial.html) (the ROS visualizer)
 
@@ -230,4 +230,4 @@ Collision checking is a very expensive operation often accounting for close to 9
 
 ### **Time parameterization**
 
-Motion planners will typically only generate "paths", i.e. there is no timing information associated with the paths. MoveIt! includes a [trajectory processing routine](http://docs.ros.org/jade/api/moveit_core/html/classtrajectory__processing_1_1IterativeParabolicTimeParameterization.html) that can work on these paths and generate trajectories that are properly time-parameterized accounting for the maximum velocity and acceleration limits imposed on individual joints. These limits are read from a special _joint_limits.yaml_ file that is specified for each robot.
+Motion planners will typically only generate "paths", i.e. there is no timing information associated with the paths. MoveIt! includes a [trajectory processing routine](http://docs.ros.org/kinetic/api/moveit_core/html/classtrajectory__processing_1_1IterativeParabolicTimeParameterization.html) that can work on these paths and generate trajectories that are properly time-parameterized accounting for the maximum velocity and acceleration limits imposed on individual joints. These limits are read from a special _joint_limits.yaml_ file that is specified for each robot.
