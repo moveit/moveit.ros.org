@@ -62,6 +62,6 @@ Integrated Sensing with MoveIt!
 <a href="https://twitter.com/moveitrobot" class="twitter-follow-button" data-show-count="false">Follow @moveitrobot</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-Join the <a href="https://groups.google.com/forum/#!forum/moveit-users/join">MoveIt! users mailing list</a>
+Watch the <a href="https://discourse.ros.org/c/moveit">MoveIt! Discourse Channel</a>
 
 See a list of suggested [code sprints](http://moveit.ros.org/documentation/contributing/future_projects/)
