@@ -67,7 +67,7 @@ If a request contains "fixup commits" it should also be squash-merged. If you ar
 
 ### Feature Branches in Upstream Repositories
 
-Pull requests should originate from a user's fork of the main MoveIt! upstream repository as much as possible. Github has a new feature that allows a MoveIt! maintainer to contribute to a contributor's pull request branch [even if the branch is on another user's fork](https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork/). Use of this is encouraged.
+Pull requests should originate from a user's fork of the main MoveIt! upstream repository as much as possible. Github has a feature that allows a MoveIt! maintainer to contribute to a contributor's pull request branch [even if the branch is on another user's fork](https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork/). Use of this is encouraged.
 
 In rare cases, if a maintainer expects support in the development of a patch from non-maintainer users, they are free to create a new branch in the upstream repository instead. This enables other maintainers to directly push changes there and enables users to add pull-requests targeting the feature branch. To keep the list of branches clear and unambiguous, **names for such branches should always follow the pattern ``pr-<ros distribution>-<keyword description>``**. This makes it clear these branches are not relevant to users not involved in the respective request.
 
