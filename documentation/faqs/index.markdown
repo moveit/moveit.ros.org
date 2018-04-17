@@ -28,7 +28,7 @@ _What is the difference between MoveIt! and Arm Navigation?_
 
 _What is the difference between MoveIt! and ROS-Industrial?_
 
-  * The ROS-Industrial consortium aims to use the advanced tools in MoveIt! and ROS to build and demonstrate advanced applications in industry. They were inspired by the success of Arm Navigation (MoveIt!'s predecessor) on the PR2 robot. 
+  * The ROS-Industrial consortium aims to use the advanced tools in MoveIt! and ROS to build and demonstrate advanced applications in industry. They were inspired by the success of Arm Navigation (MoveIt!'s predecessor) on the PR2 robot.
   * ROS-Industrial also develops and maintains ROS drivers for industrial robots (using the PR2 drivers as a template in several cases).
 
 _What is the difference between MoveIt! and OMPL?_
@@ -56,11 +56,11 @@ _I have a found a bug in MoveIt! itself. What should I do?_
 
 _I would like to add a new robot to the list of robots using MoveIt!. What should I do?_
 
-  * Send an email to the moveit-users mailing list with the following information: Name of the robot, Your name, Your affiliation, Location of URDF package for robot, Location of MoveIt! package for the robot, Any additional instructions for running MoveIt! with your robot (e.g. installing additional packages, robot-specific configuration, etc.)
+  * Create a pull request to [moveit.ros.org's Github repo](https://github.com/ros-planning/moveit.ros.org) or email [PickNik Consulting](http://picknik.ai/connect) for additional assitance.
 
 _I would like to be listed as an official maintainer for a robot. What are my responsibilities?_
 
-  * You need to have access to the robot and be willing to maintain its MoveIt! configuration package, the MoveIt! interface and any associated components. Other responsibilities may include answering questions on the moveit-users mailing list.
+  * You need to have access to the robot and be willing to maintain its MoveIt! configuration package, the MoveIt! interface and any associated components.
 
 _What robots does MoveIt! support?_
 
@@ -68,9 +68,9 @@ _What robots does MoveIt! support?_
 
 ## Community
 
-_How do I join the moveit-users mailing list?_
+_How do I hear the latest announcements on MoveIt!?_
 
-  * Use this link: [Join the MoveIt! users mailing list](https://groups.google.com/forum/#!forum/moveit-users/join) (moveit-users _at_ googlegroups _dot_ com)
+  * Watch the <a href="https://discourse.ros.org/c/moveit">MoveIt! Category on ROS Discourse</a>
 
 ## Code
 

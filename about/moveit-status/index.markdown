@@ -69,6 +69,6 @@ To see the current status of MoveIt! on any robot, check the [Robots using MoveI
 Code | Description
 |--------------|------------|
 Unsupported | There is no support for MoveIt! on this robot, i.e. no one has used MoveIt! with this robot.
-Alpha | MoveIt! has been integrated on this robot by at least one user. A MoveIt! config package is available (but maybe not publicly). Ask on the moveit-users mailing list to see if someone is willing to share the config package with you.
+Alpha | MoveIt! has been integrated on this robot by at least one user. A MoveIt! config package is available (but maybe not publicly). Ask on the [ROS Discourse Moveit category](https://discourse.ros.org/c/moveit) to see if someone is willing to share the config package with you.
 Beta | MoveIt! has been extensively tested on this robot and is actively maintained for this robot. The MoveIt! config package for this robot is publicly available.
 Stable | MoveIt! is officially supported on this robot.
