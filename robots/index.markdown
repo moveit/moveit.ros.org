@@ -12,7 +12,7 @@ wordpress_id: 127
 	<p>MoveIt! has now been used on over 65 robots by the community. This page collects information about using MoveIt! with different robots. Click on individual robots to see details.<br>
 	</p><table style="width:100%; " class="table">
 	<tbody>
-		<tr><td><strong>We are looking for robot maintainers and new robots:</strong> If you are willing to maintain the MoveIt! packages for any robot in this list or if you would like to add a robot to this list, please email the <a title="Mailing List" href="https://groups.google.com/forum/#!forum/moveit-users/join">moveit-users</a> mailing list.</td>
+		<tr><td><strong>We are looking for robot maintainers and new robots:</strong> If you are willing to maintain the MoveIt! packages for any robot in this list or if you would like to add a robot to this list, please post on the <a title="Discourse Category" href="https://discourse.ros.org/c/moveit">ROS Discourse category</a>.</td>
 		</tr>
 	</tbody></table><br>
 	<table style="width:100%; " class="table">
@@ -197,7 +197,7 @@ wordpress_id: 127
 													</tbody></table><br>
 													<table style="width:100%; " class="table">
 														<tbody>
-															<tr><td><strong>Need Custom Development?</strong>: If you need help with integration of MoveIt! on your robot or applications, please email <em>robot</em> dot <em>moveit</em> at <em>gmail</em> dot <em>com</em>.</td>
+															<tr><td><strong>Need Custom Development?</strong>: If you need help with integration of MoveIt! on your robot or applications, please contact <a href="http://picknik.ai/connect">PickNik Consulting</a>.</td>
 															</tr>
 														</tbody></table><p></p>
 													</div>

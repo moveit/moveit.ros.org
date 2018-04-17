@@ -105,9 +105,9 @@ If each step ends with issues, they need to be fixed before moving on.
 
      ```
      _DIR_PRLTEST=/tmp/prerelease_job_kin-xen; mkdir -p $_DIR_PRLTEST && cd $_DIR_PRLTEST
-     
+
      generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu xenial amd64  moveit   --level 0  --output-dir ./
-     
+
      generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu wily amd64  moveit   --level 0  --output-dir ./
      ```
 
@@ -124,7 +124,7 @@ If each step ends with issues, they need to be fixed before moving on.
 
    ```
    (Assuming you're at the same directory as previously)
- 
+
    catkin_prepare_release --bump patch    (Or without any option it suggests bumping minor version.)
    git tag                                (Confirm among all tags that the tag with the intended version is locally created. Also go online to see the tag is uploaded.)
    ```
@@ -134,7 +134,7 @@ If each step ends with issues, they need to be fixed before moving on.
    bloom-release --rosdistro kinetic --track kinetic moveit
    ```
 1. Notify maintainers to resume new merge.
-1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [moveit-users mailinglist](https://groups.google.com/forum/#!forum/moveit-users).
+1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt! category](https://discourse.ros.org/c/moveit).
 
 ### Release versioning policy
 

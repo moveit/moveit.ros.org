@@ -15,16 +15,16 @@ title: Support
 ### Find Troubleshooting Information
 
   * Ask questions at [answers.ros.org](http://answers.ros.org/), the official question forum of ROS and MoveIt!, if you haven't found similar questions.
-  * Join [the MoveIt! users mailing list](https://groups.google.com/forum/#!forum/moveit-users) (moveit-users _at_ googlegroups _dot_ com) to receive announcements from [here](https://groups.google.com/forum/#!forum/moveit-users/join). In the [list page](https://groups.google.com/forum/#!forum/moveit-users) you can also find previous good discussions. **Please refrain from asking basic user questions here**.
+  * Check the old [Google Groups list page](https://groups.google.com/forum/#!forum/moveit-users) to find previous valuable discussions.
   * Join the IRC channel #moveit in the [FreeNode](http://freenode.net) network for casual discussion.
 
-### Developer Discussions
+### Announcements and Developer Discussions
 
-For discussion of future development, maintenance, testing, and releases see the [Discourse](http://discourse.ros.org/c/moveit-developers) category. This location is not for MoveIt! users questions or specific robot application questions.
+For project announcements, discussion of future development, maintenance, testing, and releases see the [Discourse](http://discourse.ros.org/c/moveit) category. This location is not for MoveIt! users questions or specific robot application questions. **Technical questions should be directed to answers.ros.org with the moveit tag**.
 
 ### MoveIt! Issues
 
-Post issues to the corresponding github repo for MoveIt! - default to the main "moveit" repo when unsure:
+Post issues to the corresponding Github repo for MoveIt! - default to the main "moveit" repo when unsure:
 
   * [moveit](https://github.com/ros-planning/moveit/issues) - Most issues in MoveIt!
   * [moveit_robots](https://github.com/ros-planning/moveit_robots/issues) - Issues related to a specific robot type's moveit configuration
