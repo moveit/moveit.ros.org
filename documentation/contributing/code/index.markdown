@@ -54,11 +54,13 @@ Please note that we rely on clang-format version **3.8**. Sadly, newer versions 
 
 ### Command Line
 
-Format single file:
+Add [this](https://raw.githubusercontent.com/davetcoleman/roscpp_code_format/master/.clang-format) format file at ~/catkin_ws/.clang-format. Now any file inside your catkin workspace will be formatted with the ROS style guidelines described in this config file.
+
+Format a single file:
 
     clang-format-3.8 -i -style=file MY_ROS_NODE.cpp
 
-Format entire directory recursively including subfolders:
+Format an entire directory recursively including subfolders:
 
     find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-3.8 -i -style=file $1
 
