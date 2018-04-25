@@ -52,13 +52,15 @@ You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
 Please note that we rely on clang-format version **3.8**. Sadly, newer versions are not fully backward compatible.
 
+clang-format requires a configuration file in the root of your catkin workspace. The MoveIt! repo contains this file [here](https://github.com/ros-planning/moveit/blob/kinetic-devel/.clang-format).
+
 ### Command Line
 
-Format single file:
+Format a single file:
 
     clang-format-3.8 -i -style=file MY_ROS_NODE.cpp
 
-Format entire directory recursively including subfolders:
+Format an entire directory recursively including subfolders:
 
     find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-3.8 -i -style=file $1
 
