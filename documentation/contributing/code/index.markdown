@@ -52,9 +52,9 @@ You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
 Please note that we rely on clang-format version **3.8**. Sadly, newer versions are not fully backward compatible.
 
-### Command Line
+clang-format requires a configuration file in the root of your catkin workspace. The MoveIt! repo contains this file [here](https://github.com/ros-planning/moveit/blob/kinetic-devel/.clang-format).
 
-Add [this](https://raw.githubusercontent.com/davetcoleman/roscpp_code_format/master/.clang-format) format file at ~/catkin_ws/.clang-format. Now any file inside your catkin workspace will be formatted with the ROS style guidelines described in this config file.
+### Command Line
 
 Format a single file:
 
