@@ -13,7 +13,7 @@ categories:
 - ROS
 ---
 
-<img src="{{ site.url }}/assets/images/google_summer_of_code.jpg" width="750" style="margin-top:20px"/>
+<img src="{{ site.url }}/assets/images/gsoc.png" width="750" style="margin-top:20px"/>
 
 The MoveIt! project, [Open Robotics](https://www.osrfoundation.org), and [PickNik](http://picknik.ai/) are excited to announce that MoveIt! was selected for 3 [Google Summer of Code](https://summerofcode.withgoogle.com/) (GSoC) grants this summer. GSoC is an international program in which Google awards stipends to students who complete a free and open-source software coding project during the summer.
 
