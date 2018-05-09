@@ -6,7 +6,7 @@ layout: post
 slug: google-summer-of-code
 title: The MoveIt! Project is Selected for 3 Google Summer of Code Grants
 media_type: image
-media_link: http://moveit.ros.org/assets/images/google_summer_of_code.jpg
+media_link: http://moveit.ros.org/assets/images/gsoc.png
 description: We are excited to announce that MoveIt! was selected for 3 Google Summer of Code (GSoC) grants for the summer of 2018.
 categories:
 - MoveIt!
