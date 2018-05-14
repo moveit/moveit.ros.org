@@ -10,8 +10,7 @@ redirect_from: "/install/source_install.html"
 
 # Source Installation Instructions
 
-**Virtual Machines:** There have been many reports of problems with the ROS visualization tool RViz when used in virtual machines.
-We therefore discourage the use of virtual machines with MoveIt! unless you are not interested in visualization support.
+**Virtual Machines:** MoveIt! is available on Linux. We recommend developing with MoveIt on a native Ubuntu install. If you are unable to run Linux natively on your machine, the next best thing would be to set up a virtual machine using VMware. There are known issues with the ROS visualization tool RViz when used with VirtualBox.
 
 ## Prerequisites
 
