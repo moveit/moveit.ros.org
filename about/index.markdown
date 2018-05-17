@@ -45,6 +45,14 @@ Name             | GitHub ID |
 Dave Hershburger | hersh |
 Acorn Pooley | N/A |
 
+## Sponsors
+
+<img src="{{ site.url }}/assets/images/sponsors/picknik.png" width="300" style="margin-top:20px" href="http://picknik.ai"/>
+[PickNik](http://picknik.ai/) was founded with the mission of growing the MoveIt! project through community building and contract consulting.
+
+<img src="{{ site.url }}/assets/images/sponsors/franka_logo.png" width="300" style="margin-top:20px" href="https://franka.de"/>
+Franka Emika sponsored a codesprint in 2018 to improve MoveIt!'s tutorials, documentation, and website. [Learn more](http://moveit.ros.org/moveit!/ros/2018/02/26/tutorials-documentation-codesprint.html).
+
 ## History and Acknowledgements
 
 MoveIt!'s first [commit](https://github.com/ros-planning/moveit/commit/206e93c555a6ddcdbe826809c30b90b89bbb52d8) was October 2011. MoveIt! was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli and Dave Hershberger and we thank Willow Garage for its support of the MoveIt! project. We would also like to thank SRI International for its support of the MoveIt! project between October 2013 and June 2015.
