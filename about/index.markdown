@@ -47,10 +47,12 @@ Acorn Pooley | N/A |
 
 ## Sponsors
 
-<img src="{{ site.url }}/assets/images/sponsors/picknik.png" width="300" style="margin-top:20px" href="http://picknik.ai"/>
+<a href="http://picknik.ai"><img src="{{ site.url }}/assets/images/sponsors/picknik.png" height="60" style="margin-top:20px"/></a>
+
 [PickNik](http://picknik.ai/) was founded with the mission of growing the MoveIt! project through community building and contract consulting.
 
-<img src="{{ site.url }}/assets/images/sponsors/franka_logo.png" width="300" style="margin-top:20px" href="https://franka.de"/>
+<a href="https://franka.de"><img src="{{ site.url }}/assets/images/sponsors/franka_logo.png" height="60" style="margin-top:20px"/></a>
+
 Franka Emika sponsored a codesprint in 2018 to improve MoveIt!'s tutorials, documentation, and website. [Learn more](http://moveit.ros.org/moveit!/ros/2018/02/26/tutorials-documentation-codesprint.html).
 
 ## History and Acknowledgements
