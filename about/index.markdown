@@ -23,18 +23,17 @@ The MoveIt! project is currently maintained by the following contributors with c
 
 Name | Organization | GitHub ID 
 ------------ |:------------- |-------------|
-Dave Coleman | PickNik LLC | [davetcoleman](https://github.com/davetcoleman)
+Dave Coleman | PickNik Consulting | [davetcoleman](https://github.com/davetcoleman)
 Robert Haschke | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke)
 Michael Görner | University of Hamburg | [v4hn](https://github.com/v4hn)
 Isaac IY Saito | PlusOne Robotics | [130s](https://github.com/130s)
 Michael Ferguson | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson)
-Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta)
-Ioan Sucan | Google X | [isucan](https://github.com/isucan)
 Ian McMahon | Rethink Robotics | [IanTheEngineer](https://github.com/IanTheEngineer)
 Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://github.com/gavanderhoorn)
 Jorge Nicho | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho)
 Maarten de Vries | Delft Robotics | [de-vri-es](https://github.com/de-vri-es)
 Bence Magyar | Heriot-Watt University | [bmagyar](https://github.com/bmagyar)
+Mike Lautman | PickNik Consulting | [mlautman](https://github.com/mlautman)
 
 ## Maintainer Alumni
 
@@ -42,6 +41,8 @@ We would like to acknowledge past maintainers of MoveIt!
 
 Name | Past Organization | GitHub ID 
 ------------ |:------------- |-------------|
+Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta)
+Ioan Sucan | Google X | [isucan](https://github.com/isucan)
 Dave Hershburger | Kinema Systems | [hersh](https://github.com/hersh) |
 Acorn Pooley | SRI International | N/A |
 
