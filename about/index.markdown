@@ -37,7 +37,7 @@ Mike Lautman | PickNik Consulting | [mlautman](https://github.com/mlautman)
 
 ## Maintainer Alumni
 
-We would like to acknowledge past maintainers of MoveIt!
+We would like to acknowledge past maintainers of MoveIt! who have since moved on. Their great work made this project what it is today:
 
 Name | Past Organization | GitHub ID 
 ------------ |:------------- |-------------|
