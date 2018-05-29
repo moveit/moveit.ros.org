@@ -59,18 +59,18 @@ Pull down required repositories and build from within the ``/src`` directory of 
 
 See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
 
-## Lunar
+## Melodic
 
-> **Note:** Lunar support is still in beta. Additionally, it is currently the same code base as the kinetic-devel branch, our recommended distro
+> **Note:** Melodic support is still in beta
 
 Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
 
     wstool init .
-    wstool merge https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/moveit.rosinstall
+    wstool merge https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/moveit.rosinstall
     wstool update
-    rosdep install -y --from-paths . --ignore-src --rosdistro lunar
+    rosdep install -y --from-paths . --ignore-src --rosdistro melodic
     cd ..
-    catkin config --extend /opt/ros/lunar --cmake-args -DCMAKE_BUILD_TYPE=Release
+    catkin config --extend /opt/ros/melodic --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
 See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
