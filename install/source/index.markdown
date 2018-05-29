@@ -62,7 +62,7 @@ See final section below **Source The Catkin Workspace**. Optionally for MongoDB,
 
 ## Melodic
 
-> **Note:** Melodic support is still in alpha, and does not build yet
+> **Note:** Melodic support is still in beta
 
 Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
 
