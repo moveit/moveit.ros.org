@@ -26,7 +26,7 @@ Name | Organization | GitHub ID
 Dave Coleman | PickNik Consulting | [davetcoleman](https://github.com/davetcoleman)
 Robert Haschke | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke)
 Michael Görner | University of Hamburg | [v4hn](https://github.com/v4hn)
-Isaac IY Saito | PlusOne Robotics | [130s](https://github.com/130s)
+Isaac IY Saito | Plus One Robotics | [130s](https://github.com/130s)
 Michael Ferguson | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson)
 Ian McMahon | Rethink Robotics | [IanTheEngineer](https://github.com/IanTheEngineer)
 Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://github.com/gavanderhoorn)
