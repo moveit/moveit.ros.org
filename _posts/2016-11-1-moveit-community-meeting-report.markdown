@@ -20,7 +20,7 @@ Thank you for coming to the MoveIt! Community Meeting and thanks to the presente
 * Updates from the Flexible Collision Checking Library (FCL) - Dr. Dinesh Manocha
 * Delft’s Winning Amazon Picking Challenge Entry - Mukunda Bharatheesha
 * MoveIt! @ Fetch Robotics - Michael Ferguson
-* Q&A with original MoveIt! Developer & Founder - Dr. Ioan Sucan
+* Q&amp;A with original MoveIt! Developer & Founder - Dr. Ioan Sucan
 
 In case you missed it, the video is available below
 

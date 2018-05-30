@@ -39,7 +39,7 @@ Those who are willing to answer MoveIt!-related questions only can get notified 
 
  ![img](../../assets/answers.ros_config_receive-notification.png)
 
-As an aside, a lot of documentation exists as Q&As on there, and if you feel so compelled, help us move some of that documentation onto the website.
+As an aside, a lot of documentation exists as Q&amp;As on there, and if you feel so compelled, help us move some of that documentation onto the website.
 
 [MoveIt! mailing list](https://groups.google.com/forum/#!forum/moveit-users) should be used for announcement and discussion only.
 
