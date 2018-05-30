@@ -32,6 +32,7 @@ In addition MoveIt! has some extra style preferences:
  - The ROS logging functionality is utilized and namespacing your logs are recommended, i.e. ``ROS_INFO_NAMED("planning_scene", "Starting listener")``. 
    - This makes it easier to understand where output is coming from on the command line and allows for more fine-grained filtering of terminal output noise.
    - The use of the file name as the NAMED namespace is best practice, i.e. planning_scene.cpp would use "planning_scene"
+   - Avoid using the same namespace as the package name, as this is already output by the logger
 
 ## Shared Ptrs
 
