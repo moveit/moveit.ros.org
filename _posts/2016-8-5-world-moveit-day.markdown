@@ -15,7 +15,7 @@ categories:
 
 ![World MoveIt! Day]({{ site.url }}/assets/images/world_moveit_day.png)
 
-Join us on August 23rd for an international hackathon to improve the MoveIt! code base, documentation, and community. Following the heels of the repo merge, we hope to fix all broken links in the documentation, close as many longstanding pull requests and issues as possible, and have some fun with a newly released integrated simulation of MoveIt! manipulation + Gazebo + Fetch for us to test. An hour long Q&A session is scheduled at 9am Pacific to allow the community to meet the people merging their pull requests.
+Join us on August 23rd for an international hackathon to improve the MoveIt! code base, documentation, and community. Following the heels of the repo merge, we hope to fix all broken links in the documentation, close as many longstanding pull requests and issues as possible, and have some fun with a newly released integrated simulation of MoveIt! manipulation + Gazebo + Fetch for us to test. An hour long Q&amp;A session is scheduled at 9am Pacific to allow the community to meet the people merging their pull requests.
 
 We will be having several event locations including:
 
