@@ -28,7 +28,7 @@ The users can access the actions and services provided by _move_group_ in one of
 
   * **In Python** - using the [moveit_commander](http://docs.ros.org/kinetic/api/moveit_commander/html/classmoveit__commander_1_1move__group_1_1MoveGroupCommander.html) package
 
-  * **Through a GUI** - using the [Motion Planning plugin to Rviz](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/ros_visualization/visualization_tutorial.html) (the ROS visualizer)
+  * **Through a GUI** - using the [Motion Planning plugin to Rviz](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html) (the ROS visualizer)
 
 _move_group_ can be configured using the ROS param server from where it will also get the URDF and SRDF for the robot.
 
@@ -202,7 +202,7 @@ MoveIt! uses a plugin infrastructure, especially targeted towards allowing users
 
 ### **IKFast Plugin**
 
-Often, users may choose to implement their own kinematics solvers, e.g. the PR2 has its own kinematics solvers. A popular approach to implementing such a solver is using the [IKFast package](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/ikfast_tutorial.html) to generate the C++ code needed to work with your particular robot.
+Often, users may choose to implement their own kinematics solvers, e.g. the PR2 has its own kinematics solvers. A popular approach to implementing such a solver is using the [IKFast package](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/ikfast/ikfast_tutorial.html) to generate the C++ code needed to work with your particular robot.
 
 * * *
 
