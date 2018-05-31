@@ -6,7 +6,7 @@ layout: post
 slug: firstmelodicrelease
 title: MoveIt! beta officially released into ROS Melodic
 media_type: image
-media_link: https://discourse.ros.org/t/ros-melodic-morenia-release/4871
+media_link: http://wiki.ros.org/melodic?action=AttachFile&do=get&target=melodic.jpg
 description: MoveIt! is now released into ROS Melodic LTS (Long Term Support)!
 categories:
 - MoveIt!
@@ -17,6 +17,6 @@ MoveIt! is now released into ROS [Melodic](http://wiki.ros.org/melodic) LTS (Lon
 
 While MoveIt! in Melodic is still beta, if you're running your robot packages with ROS Melodic, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](http://moveit.ros.org/install/)
 
-![1st Melodic release](http://wiki.ros.org/melodic?action=AttachFile&do=get&target=melodic.jpg)
-
 --Your friendly MoveIt! maintenance team.
+
+<img src="http://wiki.ros.org/melodic?action=AttachFile&do=get&target=melodic.jpg" height="400"/>
