@@ -73,6 +73,17 @@ Next manually add a package.xml as used in the ROS release wrapper for OMPL (mod
 
 Now you should be able to build using regular ``catkin build``
 
+If you are building packages that use your source install of OMPL, you should not use ``catkin_package(CATKIN_DEPENDS ompl)`` to link agianst your source install. Instead you should include OMPL just like you would include Boost or Eigen.
+
+Add these 3 items to your ``CMakeLists.txt``:
+
+```
+find_package(ompl)
+
+include_directories(SYSTEM ${OMPL_INCLUDE_DIRS})  # Can append ${OMPL_INCLUDE_DIRS} at the end of an existing include_ directories()
+
+link_directories(${OMPL_LIBRARY_DIRS})
+```
 ## Flexible Collision Library (FCL)
 
 FCL is MoveIt!'s default collision checker, their official install instructions can be found [here](https://github.com/flexible-collision-library/fcl).
