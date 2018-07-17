@@ -33,7 +33,7 @@ Follow the instructions below for either Indigo, Kinetic, or Lunar:
 
 ## Indigo
 
-Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
+Pull down required repositories and build from within the root directory of your catkin workspace:
 
     wstool init src
     wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/indigo-devel/moveit.rosinstall
@@ -46,7 +46,7 @@ See final section below **Source The Catkin Workspace**. Optionally for MongoDB,
 
 ## Kinetic
 
-Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
+Pull down required repositories and build from within the root directory of your catkin workspace:
 
     wstool init src
     wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/moveit.rosinstall
@@ -61,7 +61,7 @@ See final section below **Source The Catkin Workspace**. Optionally for MongoDB,
 
 > **Note:** Melodic support is still in beta
 
-Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
+Pull down required repositories and build from within the root directory of your catkin workspace:
 
     wstool init src
     wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/moveit.rosinstall
