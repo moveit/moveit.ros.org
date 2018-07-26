@@ -6,7 +6,6 @@ We will be having several international event locations including:
 - [Iron Ox](http://ironox.com/), San Francisco, USA
 - [PickNik Consulting](https://picknik.ai/), Boulder, USA
 - [Fraunhofer IPA](https://www.ipa.fraunhofer.de/en.html) / [RIC-EU](https://rosindustrial.org/ric-eu/), Stuttgart, Germany
-- ? [MassRobotics](https://www.massrobotics.org/), Boston, USA
 - [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
 - [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/), Kashiwa, Japan
 (held on Friday, October 26!)
