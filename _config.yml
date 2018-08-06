@@ -1,4 +1,4 @@
 url: http://moveit.ros.org
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
