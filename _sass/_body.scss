@@ -1,0 +1,42 @@
+body{
+  background-color: $dark-blue;
+  color: $text;
+  font-family: $font-family-base;
+  &.blog{
+    background-color: $white;
+    color: $dark-text;
+  }
+}
+
+pre code {
+  font-size: 90%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.github {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(45deg, $dark-blue 50%, $white 50%);
+  z-index: 1;
+  img {
+    width: 40px;
+    transform: rotate(45deg);
+    top: 5px;
+    position: absolute;
+    left: 32px;
+  }
+}

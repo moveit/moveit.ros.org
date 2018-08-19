@@ -2,3 +2,6 @@ url: http://moveit.ros.org
 gems:
   - jekyll-feed
   - jekyll-redirect-from
+
+sass:
+  style: compressed

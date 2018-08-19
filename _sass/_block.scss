@@ -1,0 +1,31 @@
+.blog-single {
+  max-width: 300px;
+  margin: 0 auto 50px;
+}
+
+.blog-image-wrapper {
+  height: 160px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.blog-image-wrapper img,
+.blog-image-wrapper iframe{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blog-text-wrapper {
+  h3{
+    font-size: 17px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+  p {
+    line-height: 24px;
+  }
+}
