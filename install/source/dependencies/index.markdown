@@ -96,4 +96,4 @@ In order for ``moveit_core`` to wait until ``fcl`` is finished build, edit ``fcl
  - Rename the project to ``libfcl-dev``
  - Rename dependency ``libccd`` to ``libccd-dev``
 
-Now you should be able to build using regular ``catkin build``
+Now you should be able to build using ``catkin build --install``. Note the install flag is unfortuantly required for reasons that are unclear to this author.
