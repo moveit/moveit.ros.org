@@ -72,7 +72,9 @@ Sadly, this cannot be changed in the upstream project, because it would break th
 To understand this limitation see this [Github issue](https://github.com/ros-planning/moveit/issues/169#issuecomment-242849008):
 
     Edit moveit/moveit_planners/ompl/CMakeLists.txt
-    Locate the include_directories directive and exchange the two variables ${OMPL_INCLUDE_DIRS} and ${catkin_INCLUDE_DIRS}
+    Locate the include_directories directive and exchange the two variables ${OMPL_INCLUDE_DIRS} and ${catkin_INCLUDE_DIRS},
+    so that ${OMPL_INCLUDE_DIRS} is added before ${catkin_INCLUDE_DIRS}.
+
 
 Now you should be able to build using regular ``catkin build``
 
