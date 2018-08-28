@@ -12,11 +12,11 @@ title: Blog
   {% for post in site.posts limit: 1 %}
   <div class="col-sm-6 col-md-8">
     {% if post.media_type == 'video' %}
-    <div class="blog-image-wrapper">
+    <div class="blog-image-wrapper blog-image-wrapper-main">
       <iframe style="width:100%; " height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
     </div>
     {% elsif post.media_type == 'image' %}
-    <div class="blog-image-wrapper">
+    <div class="blog-image-wrapper blog-image-wrapper-main">
       <img src="{{ post.media_link }}" style="width:100%; ">
     </div>
     {% endif %}
@@ -29,11 +29,10 @@ title: Blog
       <p>{{ post.description }}</p>
     </div>
   </div>
-</div>
-{% endfor %}
+  {% endfor %}
 </div>
 <div class="row">
-  {% for post in site.posts %}
+  {% for post in site.posts offset:1 %}
   <div class="col-sm-6 col-lg-4">
     <div class="blog-single">
       {% if post.media_type == 'video' %}

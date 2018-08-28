@@ -9,6 +9,9 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 25px;
+  &-main{
+    height: 320px;
+  }
 }
 
 .blog-image-wrapper img,

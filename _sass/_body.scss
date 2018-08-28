@@ -1,10 +1,16 @@
-body{
+body {
   background-color: $dark-blue;
   color: $text;
   font-family: $font-family-base;
-  &.blog{
+  &.blog {
     background-color: $white;
     color: $dark-text;
+  }
+}
+
+.container{
+  &-blog{
+    margin: 40px auto;
   }
 }
 
@@ -32,6 +38,14 @@ p {
   height: 80px;
   background: linear-gradient(45deg, $dark-blue 50%, $white 50%);
   z-index: 1;
+  &-blog {
+    width: 73px;
+    height: 73px;
+    img {
+      top: 3px;
+      left: 30px;
+    }
+  }
   img {
     width: 40px;
     transform: rotate(45deg);

@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   padding: 70px 10px 70px 0;
+  &-blog {
+    padding: 10px 10px 0 0;
+  }
 
   .logo {
     flex: 1;
@@ -19,7 +22,7 @@
         list-style: none;
         padding: 10px;
         font-size: 14px;
-        color: rgba(255,255,255,0.4);
+        color: rgba(255, 255, 255, 0.4);
         text-transform: uppercase;
         letter-spacing: 1px;
       }
@@ -34,11 +37,11 @@
   width: 50px;
   height: 50px;
   position: relative;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
   position: relative;
   span {
-    transition: .25s ease-in-out;
+    transition: 0.25s ease-in-out;
     display: block;
     position: absolute;
     height: 9px;
@@ -49,11 +52,11 @@
     left: 0;
     &::before,
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       width: 5px;
       height: 5px;
-      background:$white;
+      background: $white;
       left: 2px;
       top: 2px;
       display: block;
