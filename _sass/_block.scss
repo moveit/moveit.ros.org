@@ -9,17 +9,25 @@
   position: relative;
   overflow: hidden;
   margin-bottom: 25px;
+
+  img, iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   &-main{
     height: 320px;
+    img,
+    iframe {
+      @media screen and (max-width: 729px){
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
   }
-}
-
-.blog-image-wrapper img,
-.blog-image-wrapper iframe{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .blog-text-wrapper {
