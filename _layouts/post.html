@@ -1,28 +1,45 @@
 {% include default.html %}
 
-<body>
+<body class="white">
   {% include nav-bar-blog.html %}
   <div class="container">
-    <div class='row'>
-      <div class='col-sm-8'>
-        <h3>{{ page.title }}</h3>
-        {{ content }}
-        <hr>
+    <div class='row justify-content-between'>
+      <div class='col-sm-12 col-md-6'>
+        <div class="single-post">
+          <div class="image-wrapper">
+            <img src="{{ page.media_link }}" />
+          </div>
+          <h3>{{ page.title }}</h3>
+          {{ content }}
+        </div>
+      </div>
+      <div class='col-sm-5 col-lg-3 d-sm-none d-md-block'>
+        <div class="other-post">
+          {% for post in site.posts offset:1 limit:2 %}
+            <div class="col-sm-12">
+              <div class="other-single">
+                {% if post.media_type == 'video' %}
+                <div class="image-wrapper">
+                  <iframe style="width:100%; " height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
+                </div>
+                {% elsif post.media_type == 'image' %}
+                <div class="image-wrapper">
+                  <img src="{{ post.media_link }}" style="width:100%;">
+                </div>
+                {% endif %}
+                <div class="text-wrapper">
+                  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                  <p>{{ post.description }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
     <div class='row'>
       <div class='col-sm-12'>
         {% include share-page.html %}
-      </div>
-    </div>
-    <hr>
-    <div class='row'>
-      <div class='col-sm-4'>
-        &lt;-- <a href="{{page.next.url}}">{{ page.next.title }}</a>
-      </div>
-      <div class='col-sm-4'></div>
-      <div class='col-sm-4'>
-        <a href="{{page.previous.url}}">{{ page.previous.title }}</a> --&gt;
       </div>
     </div>
   </div>
