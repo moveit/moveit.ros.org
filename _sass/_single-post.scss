@@ -12,13 +12,7 @@
       max-width: 100%;
       position: absolute;
       top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      @media screen and (max-width: 768px){
-        top: auto;
-        left: 50%;
-        transform: translateX(-50%);
-      }
+      transform: translateY(-50%);
     }
   }
 
@@ -30,10 +24,11 @@
     margin-bottom: 18px;
   }
 
-  content{
-    display: block;
-    font-size: 18px;
-    margin-bottom: 20px;
+  .content{
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
   }
 
   p {
