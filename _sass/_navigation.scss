@@ -1,19 +1,83 @@
-.navigation {
-  display: flex;
-  justify-content: space-between;
+.navbar {
   padding: 70px 10px 70px 0;
   &-blog {
-    padding: 10px 10px 0 0;
+    padding: 10px 10px 10px 0;
+    ul {
+      margin-right: 15px;
+    }
   }
-
-  .logo {
-    flex: 1;
+  @media screen and (max-width: 992px){
+    padding: 30px 10px;
+  }
+  .navbar-collapse {
+    @media screen and (max-width: 992px){
+      padding-top: 20px;
+    }
+    .navbar-brand{
+      max-width: 200px;
+    }
+  }
+  .navbar-toggler{
+    &:hover, &:focus{
+      outline: none;
+      border: none;
+    }
+    .icon-bar {
+      display: block;
+      width: 35px;
+      background-color: #ffffff;
+      height: 3px;
+      border-radius: 1px;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s;
+      &:nth-of-type(1) {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform-origin: 10% 10%;
+        -ms-transform-origin: 10% 10%;
+        transform-origin: 10% 10%;
+      }
+      &:nth-of-type(2) {
+        opacity: 0;
+        filter: alpha(opacity=0);
+      }
+      &:nth-of-type(3) {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transform-origin: 10% 90%;
+        -ms-transform-origin: 10% 90%;
+        transform-origin: 10% 90%;
+      }
+      & + .icon-bar {
+        margin-top: 7px;
+      }
+    }
+    &.collapsed{
+      .icon-bar {
+        &:nth-of-type(1) {
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+        }
+        &:nth-of-type(2) {
+          opacity: 1;
+	        filter: alpha(opacity=100);
+        }
+        &:nth-of-type(3) {
+          -webkit-transform: rotate(0);
+          -ms-transform: rotate(0);
+          transform: rotate(0);
+        }
+      }
+    }
   }
 
   ul {
     padding: 0;
     flex: 4;
-    text-align: right;
+    justify-content: flex-end;
     li {
       list-style: none;
       display: inline-block;
@@ -25,92 +89,28 @@
         color: rgba(255, 255, 255, 0.4);
         text-transform: uppercase;
         letter-spacing: 1px;
-      }
-    }
-    &.submenu {
-      display: none;
-    }
-  }
-}
-
-#toggle-nav {
-  width: 50px;
-  height: 50px;
-  position: relative;
-  transition: 0.5s ease-in-out;
-  cursor: pointer;
-  position: relative;
-  span {
-    transition: 0.25s ease-in-out;
-    display: block;
-    position: absolute;
-    height: 9px;
-    width: 100%;
-    background: $blue;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    &::before,
-    &::after {
-      content: '';
-      position: absolute;
-      width: 5px;
-      height: 5px;
-      background: $white;
-      left: 2px;
-      top: 2px;
-      display: block;
-      border-radius: 50px;
-      z-index: 4444444;
-    }
-    &::after {
-      left: auto;
-      right: 2px;
-    }
-    &:nth-child(1) {
-      top: 0px;
-      transform-origin: left center;
-    }
-    &:nth-child(2) {
-      top: 18px;
-      transform-origin: left center;
-    }
-    &:nth-child(3) {
-      top: 36px;
-      transform-origin: left center;
-    }
-    &.open {
-      span {
-        &:nth-child(1) {
-          transform: rotate(35deg);
-          top: -16px;
-          left: 8px;
-          width: 45px;
-        }
-        &:nth-child(2) {
-          transform: rotate(-35deg);
-          top: 31px;
-          left: 8px;
-          width: 45px;
-        }
-        &:nth-child(3) {
-          transform: rotate(35deg);
-          top: 26px;
-          left: 8px;
-          width: 45px;
+        &:hover {
+          color: #fff;
         }
       }
     }
   }
-}
-
-.toggle-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  border: 2px solid $blue;
-  padding: 15px;
-  padding-bottom: 13px;
-  background: $white;
+  .dropdown-menu {
+    background-color: #333439;
+    padding: 0;
+    .dropdown-item {
+      text-transform: none;
+      border: 1px solid rgba(0,0,0,0.1);
+      &:hover {
+        background-color: #333439;
+        color: #fff;
+      }
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+  .button {
+    align-self: center;
+  }
 }

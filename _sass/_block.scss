@@ -21,7 +21,7 @@
     height: 320px;
     img,
     iframe {
-      @media screen and (max-width: 729px){
+      @media screen and (max-width: 768px){
         top: auto;
         left: 50%;
         transform: translateX(-50%);

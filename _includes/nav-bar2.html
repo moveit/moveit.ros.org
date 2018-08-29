@@ -2,92 +2,61 @@
   <div class="github">
     <img alt="Github logo" src="/assets/images/github.svg">
   </div>
-  <div class="container">
-    <div class="navigation">
-      <div class="logo">
+  <div class="container container-navigation">
+    <nav class="navbar navbar-expand-lg">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <a class='navbar-brand' href="/">
           <img alt="Brand" class='brand-logo' src="/assets/images/logo/logo@2x.png">
         </a>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/documentation/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Docs
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/documentation/">Documentation Index</a>
+                <a class="dropdown-item" href="/documentation/concepts/">Concepts</a>
+                <a class="dropdown-item" href="/documentation/plugins/">Plugin Interfaces</a>
+                <a class="dropdown-item" href="/documentation/planners/">Planners</a>
+                <a class="dropdown-item" href="/documentation/faqs/">FAQ</a>
+                <a class="dropdown-item" href="/code-api/">Code API</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/blog/">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/about/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/about/">About</a>
+                <a class="dropdown-item" href="/about/source_code/">Source Code</a>
+                <a class="dropdown-item" href="/about/moveit-status/">Status</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/documentation/contributing" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contribute
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/documentation/contributing/">Contributing</a>
+                <a class="dropdown-item" href="/documentation/contributing/pullrequests/">Pull Requests</a>
+                <a class="dropdown-item" href="/documentation/contributing/code/">Style Guidelines</a>
+                <a class="dropdown-item" href="/documentation/contributing/future_projects/">Code Sprints</a>
+              </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/support/">Support</a>
+          </li>
+          <a class="button" href="/install">INSTALL NOW</a>
+        </ul>
       </div>
-      <ul class="d-none d-lg-block">
-        <li class="dropdown">
-          <a href="/documentation/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            Docs
-            <span class="caret"></span>
-          </a>
-          <ul class="submenu dropdown">
-            <li>
-              <a href="/documentation/">Documentation Index</a>
-            </li>
-            <li>
-              <a href="/documentation/concepts/">Concepts</a>
-            </li>
-            <li>
-              <a href="/documentation/plugins/">Plugin Interfaces</a>
-            </li>
-            <li>
-              <a href="/documentation/planners/">Planners</a>
-            </li>
-            <li>
-              <a href="/documentation/faqs/">FAQ</a>
-            </li>
-            <li>
-              <a href="/code-api/">Code API</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="/blog/">Blog</a>
-        </li>
-        <li class="dropdown">
-          <a href="/about/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            About
-            <span class="caret"></span>
-          </a>
-          <ul class="submenu dropdown">
-            <li>
-              <a href="/about/">About</a>
-            </li>
-            <li>
-              <a href="/about/source_code/">Source Code</a>
-            </li>
-            <li>
-              <a href="/about/moveit-status/">Status</a>
-            </li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="/documentation/contributing" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            Contribute
-            <span class="caret"></span>
-          </a>
-          <ul class="submenu dropdown">
-            <li>
-              <a href="/documentation/contributing/">Contributing</a>
-            </li>
-            <li>
-              <a href="/documentation/contributing/pullrequests/">Pull Requests</a>
-            </li>
-            <li>
-              <a href="/documentation/contributing/code/">Style Guidelines</a>
-            </li>
-            <li>
-              <a href="/documentation/contributing/future_projects/">Code Sprints</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="/support/">Support</a>
-        </li>
-        <a class="button" href="/">INSTALL NOW</a>
-      </ul>
-      <div class="d-lg-none toggle-wrapper">
-        <div id="toggle-nav">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </div>
+    </nav>
   </div>
 </div>
