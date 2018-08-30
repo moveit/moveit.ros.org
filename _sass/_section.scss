@@ -1,6 +1,7 @@
 .section {
 }
 .section--second {
+  margin-bottom: 100px;
   ul {
     padding: 0;
     display: flex;
@@ -43,5 +44,12 @@
         font-size: 13px;
       }
     }
+  }
+}
+
+.last-section {
+  margin: 100px 0;
+  & > div {
+    margin-right: 80px;
   }
 }
