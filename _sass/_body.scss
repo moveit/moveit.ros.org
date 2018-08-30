@@ -23,6 +23,13 @@ pre code {
   font-size: 90%;
 }
 
+h1{
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 40px;
+  line-height: 64px;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -33,6 +40,10 @@ a {
 
 p {
   margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
 }
 
 .github {
