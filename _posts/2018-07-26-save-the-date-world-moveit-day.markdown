@@ -26,4 +26,6 @@ We will be having several international event locations including:
 - [Southwest Research Institute](https://www.swri.org/), San Antonio, USA
 
 Beyond these event locations, you are encouraged to have your own event in your lab/organization/company and video conference into all the other events.
-Please let us know your intention to join [here](https://docs.google.com/forms/d/e/1FAIpQLSdk_xMOVdqusdvT6vr5s6AnXV-GdtchCjrX-BXpyw642ahcBg/viewform?usp=sf_link)!
+Please let us know your intention to join [here](https://docs.google.com/forms/d/e/1FAIpQLSdk_xMOVdqusdvT6vr5s6AnXV-GdtchCjrX-BXpyw642ahcBg/viewform)!
+
+For more details, see the [event page](/events/world-moveit-day-2018/).
