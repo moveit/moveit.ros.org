@@ -17,7 +17,7 @@ title: World MoveIt! Day 2018
 
 ## Description
 
-World MoveIt! Day is an international hackathon to improve the MoveIt! code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements for the now five year old framework. Everyone is welcome to participate from their local workplace, simply by working on open issues. In addition, a number of companies and groups host meetings on their sites all over the world. A video feed will unite the various locations and enable more collaboration. Maintainers will take part in some of these locations.
+World MoveIt! Day is an international hackathon to improve the MoveIt! code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements for the now seven year old framework. Everyone is welcome to participate from their local workplace, simply by working on open issues. In addition, a number of companies and groups host meetings on their sites all over the world. A video feed will unite the various locations and enable more collaboration. Maintainers will take part in some of these locations.
 
 ## Locations
 
@@ -51,7 +51,7 @@ If you aren't near an organized event we encourage you to have your own event in
 
 ### What version of MoveIt! should you use?
 
-We recommend the Kinetic LTS branch/release. The Lunar release is simply a copy of the Kinetic branch (it is not forked yet) and the Indigo branch is considered "stable" - only ABI/API-stable changes will be backported. 
+We recommend the Kinetic LTS branch/release. The Melodic release is also a good choice but is new and has been tested less. The Indigo branch is considered stable and frozen - and only critical bug fixes will be backported.
 
 For your convenience, a VirtualBox image for ROS Kinetic on Ubuntu 16.04 is available [here](http://backend.picknik.ai/).
 
@@ -85,20 +85,18 @@ Join the conversation on IRC with #moveit at irc.freenode.net. For those new to 
 
 Joint the video conference on [Appear.In](https://appear.in/world-moveit-day)
 
-Note: this link is subject to change throughout the day, check back.
-
 ## Sponorship
 
 We'd like to thank the following sponsors:
 
-<img src="/assets/images/wmd18/iron_ox_logo.png" alt="Iron Ox" width="200" css="margin-right:20px"/>
+[<img src="/assets/images/wmd18/picknik_logo.png" alt="PickNik Consulting" width="200" css="margin-right:20px"/>](http://picknik.ai)
 
-<img src="/assets/images/wmd18/picknik_logo.png" alt="PickNik Consulting" width="200" css="margin-right:20px"/>
+[<img src="/assets/images/wmd18/iron_ox_logo.png" alt="Iron Ox" width="150" css="margin-right:20px"/>](http://ironox.com)
 
-<img src="/assets/images/wmd18/fraunhokfer_ipa_logo.png" alt="Fraunhofer IPA" width="200" css="margin-right:20px"/>
+[<img src="/assets/images/wmd18/fraunhokfer_ipa_logo.png" alt="Fraunhofer IPA" width="200" css="margin-right:20px"/>](https://www.ipa.fraunhofer.de/en.html)
 
-<img src="/assets/images/wmd18/ros_i_logo.png" alt="ROS-Industrial Asian Pacific Consortium" width="200" css="margin-right:20px"/>
+[<img src="/assets/images/wmd18/ros_i_logo.png" alt="ROS-Industrial Asian Pacific Consortium" width="200" css="margin-right:20px"/>](http://rosindustrial.org/ric-apac/)
 
-<img src="/assets/images/wmd18/tokyo_os_logo.png" alt="Tokyo Opensource Robotics Kyokai Association" width="200" css="margin-right:20px"/>
+[<img src="/assets/images/wmd18/tokyo_os_logo.png" alt="Tokyo Opensource Robotics Kyokai Association" width="200" css="margin-right:20px"/>](http://opensource-robotics.tokyo.jp/)
 
-<img src="/assets/images/wmd18/swri_logo_jpg" alt="Southwest Research Institute" width="200" css="margin-right:20px"/>
+[<img src="/assets/images/wmd18/swri_logo_jpg" alt="Southwest Research Institute" width="200" css="margin-right:20px"/>](https://www.swri.org/)
