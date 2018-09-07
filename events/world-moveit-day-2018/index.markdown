@@ -99,4 +99,4 @@ We'd like to thank the following sponsors:
 
 [<img src="/assets/images/wmd18/tokyo_os_logo.png" alt="Tokyo Opensource Robotics Kyokai Association" width="200" css="margin-right:20px"/>](http://opensource-robotics.tokyo.jp/)
 
-[<img src="/assets/images/wmd18/swri_logo_jpg" alt="Southwest Research Institute" width="200" css="margin-right:20px"/>](https://www.swri.org/)
+[<img src="/assets/images/wmd18/swri_logo.jpg" alt="Southwest Research Institute" width="200" css="margin-right:20px"/>](https://www.swri.org/)
