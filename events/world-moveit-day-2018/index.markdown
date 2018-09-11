@@ -28,6 +28,7 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
   - Organizer: Dave Coleman
 - [Fraunhofer IPA](https://www.ipa.fraunhofer.de/en.html) / [RIC-EU](https://rosindustrial.org/ric-eu/), Stuttgart, Germany
   - Organizer: Michael 'v4hn' Görner
+  - [Event details](https://rosindustrial.org/events/2018/10/25/world-moveit-day)
 - [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
   - October 26
   - Organizer: Chan Min Ling
