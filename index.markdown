@@ -118,40 +118,48 @@ redirect_from: '/moveit/'
             </div>
         </div>
     </div>
-    <div class="row justify-content-between">
-        <div class="col-xs-12 col-md-4 col-sm-6">
-            <h1>MoveIt! Setup Assistant</h1>
-            <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius. </p>
+    <div class="row justify-content-between block-with-image">
+        <div class="col-xs-12 col-lg-4 col-sm-6">
+            <div class="text-block text-block--left">
+                <h1>MoveIt! Setup Assistant</h1>
+                <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
+            </div>
         </div>
-        <div class="col-xs-12 col-sm-6">
-            <img style="max-width:100%" src="/assets/images/svg/hero-images@2x.png">
-        </div>
-    </div>
-    <div class="row justify-content-between">
-        <div class="col-xs-12 col-sm-6">
-            <img style="max-width:100%" src="/assets/images/svg/hero-images@2x.png">
-        </div>
-        <div class="col-xs-12 col-md-4 col-sm-6">
-            <h1>Rviz Motion Planning Plugin</h1>
-            <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius. </p>
+        <div class="col-xs-12 col-sm-6 col-lg-7">
+            <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen4.png">
         </div>
     </div>
-    <div class="row justify-content-between">
-        <div class="col-xs-12 col-md-4 col-sm-6">
-            <h1>MoveIt! Setup Assistant</h1>
-            <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius. </p>
+    <div class="row justify-content-between block-with-image">
+        <div class="col-xs-12 col-sm-6 col-lg-7">
+            <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen1.png">
         </div>
-        <div class="col-xs-12 col-sm-6">
-            <img style="max-width:100%" src="/assets/images/svg/hero-images@2x.png">
+        <div class="col-xs-12 col-lg-4 col-sm-6">
+            <div class="text-block text-block--right">
+                <h1>Rviz Motion Planning Plugin</h1>
+                <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
+            </div>
         </div>
     </div>
-    <div class="row justify-content-between">
-        <div class="col-xs-12 col-sm-6">
-            <img style="max-width:100%" src="/assets/images/svg/hero-images@2x.png">
+    <div class="row justify-content-between block-with-image">
+        <div class="col-xs-12 col-lg-4 col-sm-6">
+            <div class="text-block text-block--left">
+                <h1>MoveIt! Setup Assistant</h1>
+                <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
+            </div>
         </div>
-        <div class="col-xs-12 col-md-4 col-sm-6">
-            <h1>Rviz Motion Planning Plugin</h1>
-            <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius. </p>
+        <div class="col-xs-12 col-sm-6 col-lg-7">
+            <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen2.png">
+        </div>
+    </div>
+    <div class="row justify-content-between block-with-image">
+        <div class="col-xs-12 col-sm-6 col-lg-7">
+            <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen3.png">
+        </div>
+        <div class="col-xs-12 col-lg-4 col-sm-6">
+            <div class="text-block text-block--right">
+                <h1>Rviz Motion Planning Plugin</h1>
+                <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
+            </div>
         </div>
     </div>
     <div class="row last-section">
