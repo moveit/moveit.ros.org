@@ -1,5 +1,5 @@
 body {
-  background-color: $dark-blue;
+  background: linear-gradient(to top, #1D1F25 0%, #15161B 100%);
   color: $text;
   font-family: $font-family-base;
   &.white {
