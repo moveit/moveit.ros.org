@@ -65,3 +65,135 @@
     }
   }
 }
+
+.homepage--divider {
+  .homepage--divider-image {
+    background-image: url('/assets/images/background.jpg');
+    width: 100%;
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+  }
+
+  .homepage--divider--content {
+    background-color: #333439;
+  }
+
+  h2 {
+    padding-top: 150px;
+    color: $white;
+  }
+
+  h3 {
+    color: $white;
+  }
+
+  .time-line {
+    display: flex;
+    width: 100%;
+    border-radius: 4px;
+    height: 24px;
+    margin: 20px auto;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .time-line--blue {
+    background-color: #0A58F7;
+    border-radius: 4px 0 0 4px;
+    width: 40%;
+  }
+  .time-line--orange {
+    border-radius: 0 4px 4px 0;
+    width: 15%;
+    background-color: #F7A20A;
+  }
+  .time-line-content {
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .time-line--info {
+    margin-right: 50px;
+    display: flex;
+    &:last-child {
+      margin-right: 0;
+      flex: 1;
+      justify-content: flex-end;
+    }
+    small {
+      display: block
+    }
+  }
+  .time-line-box {
+    height: 16px;
+    width: 16px;
+    border-radius: 4px;
+    margin-right: 11px;
+    position: relative;
+    top: 5px;
+  }
+  .time-line-box--blue {
+    background-color: #0A58F7;
+  }
+  .time-line-box--red {
+    background-color: #F70A0A;
+  }
+  .time-line-box--orange {
+    background-color: #F7A20A;
+  }
+
+  .version-wrapper {
+    margin-bottom: 70px;
+  }
+
+  .version-header{
+    display: flex;
+    h2 {
+      font-size: 40px;
+      color: $white;
+      display: inline-block;
+      margin-right: 16px;
+    }
+    .label {
+      border-radius: 16px;
+      color: rgba(255,255,255,0.8);
+      font-size: 12px;
+      padding: 2px 12px;
+      align-self: center;
+    }
+    .label--blue {
+      background-color: #0A58F7;
+    }
+    .label--red {
+      background-color: #F70A0A;
+    }
+    .label--orange {
+      background-color: #F7A20A;
+    }
+    .label--green {
+      background-color: #0AF74D;
+      color: rgba(0,0,0,0.8);
+    }
+  }
+
+  .version-date{
+    margin-bottom: 20px;
+    p{
+      margin-bottom: 0;
+      color: $white;
+    }
+  }
+
+  .version-content{
+    max-width: 340px;
+    h4{
+      color: $white;
+      font-size: 17px;
+      font-weight: bold;
+      line-height: 21px;
+    }
+    p{
+      font-size: 17px;
+      line-height: 32px;
+    }
+  }
+}

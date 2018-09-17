@@ -86,7 +86,7 @@ redirect_from: '/moveit/'
                                 </li>
                                 <li>
                                     <span>
-                                        <img src="/assets/images/icons/ic-control.svg">
+                                        <img src="/assets/images/icons/ic-sine.svg">
                                     </span>
                                     <h3>
                                         Control
@@ -183,30 +183,126 @@ redirect_from: '/moveit/'
         </div>
     </div>
 </div>
-<div style="background-image: url('/assets/images/background.svg'); width: 100%; height: 700px; background-size:cover; position: relative; top:-400px; z-index:-1;">
-</div>
-<div class="container">
-    <div class='row'>
-      <div class='col-sm-12'>
-            <div class="homepage">
-                <div class="row last-section">
-                    <div class="col-xs-12 col-sm-5">
-                        <img style="width:638px" src="/assets/images/svg/why-moveit-images@2x.png">
+<div class="homepage--divider">
+    <div class="homepage--divider-image"></div>
+    <div class="homepage--divider--content">
+        <div class="container">
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <h2 class="h1 text-center">Current and Future Versions</h2>
+                </div>
+                <div class='col-sm-12'>
+                    <h3>MoveIt! 2.0</h3>
+                    <div class="time-line">
+                        <div class="time-line--blue"></div>
+                        <div class="time-line--orange"></div>
                     </div>
-                    <div class="col-xs-12 col-md-4 col-sm-6">
-                        <h1>Why MoveIt!?</h1>
-                        <p>
-                            MoveIt! is state of the art software for mobile manipulation, incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation. It provides an easy-to-use platform for developing advanced robotics applications, evaluating new robot designs and building integrated robotics products for industrial, commercial, R&D and other domains.
-                        </p>
-                        <p>
-                            MoveIt! is the most widely used open-source software for manipulation and has been used on over 65 robots. See the Robots page for a list of some of the robots that MoveIt! is being used with.
-                        </p>
+                    <div class="time-line-content">
+                        <div class="time-line--info">
+                            <p>June 25 2019</p>
+                        </div>
+                        <div class="time-line--info">
+                            <span class="time-line-box time-line-box--blue"></span>
+                            <p>
+                                Development
+                                <small>June 25 2018</small>
+                            </p>
+                        </div>
+                        <div class="time-line--info">
+                            <span class="time-line-box time-line-box--orange"></span>
+                            <p>
+                                Feature freeze
+                                <small>August 31 2018</small>
+                            </p>
+                        </div>
+                        <div class="time-line--info">
+                            <span class="time-line-box time-line-box--red"></span>
+                            <p>
+                                Code freeze
+                                <small>December 31 2018</small>
+                            </p>
+                        </div>
+                        <div class="time-line--info">
+                            <p>June 25 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-sm-12 col-md-6 version-wrapper'>
+                    <div class="version-header">
+                        <h2>Indigo</h2>
+                        <span class="label label--blue">NEW</span>
+                    </div>
+                    <div class="version-date">
+                        <p>Date released: 04/24/2018</p>
+                        <p>End of life: TBD</p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
+                    </div>
+                </div>
+                <div class='col-sm-12 col-md-6 version-wrapper'>
+                    <div class="version-header">
+                        <h2>Lunar</h2>
+                        <span class="label label--red">DISCONTINUED</span>
+                    </div>
+                    <div class="version-date">
+                        <p>Date released: 04/24/2018</p>
+                        <p>End of life: TBD</p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
+                    </div>
+                </div>
+                <div class='col-sm-12 col-md-6 version-wrapper'>
+                    <div class="version-header">
+                        <h2>Kinetic</h2>
+                    </div>
+                    <div class="version-date">
+                        <p>Date released: 04/24/2018</p>
+                        <p>End of life: TBD</p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
+                    </div>
+                </div>
+                <div class='col-sm-12 col-md-6 version-wrapper'>
+                    <div class="version-header">
+                        <h2>Melodic</h2>
+                        <span class="label label--blue">NEXT RELEASE</span>
+                    </div>
+                    <div class="version-date">
+                        <p>Date released: 04/24/2018</p>
+                        <p>End of life: TBD</p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
+                    </div>
+                </div>
+                <div class='col-sm-12 col-md-6 version-wrapper'>
+                    <div class="version-header">
+                        <h2>MoveIt! 2.0</h2>
+                        <span class="label label--green">COMING SOON</span>
+                    </div>
+                    <div class="version-date">
+                        <p>Date released: 04/24/2018</p>
+                        <p>End of life: TBD</p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <!--
 
 MoveIt! is the most widely used open-source software for manipulation and has been used on over 65 robots. See the [Robots](/robots/) page for a list of some of the robots that MoveIt! is being used with.
