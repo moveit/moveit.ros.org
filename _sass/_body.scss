@@ -3,6 +3,7 @@ body {
   color: $text;
   font-family: $font-family-base;
   &.white {
+    background: none;
     background-color: $white;
     color: $dark-text;
   }
