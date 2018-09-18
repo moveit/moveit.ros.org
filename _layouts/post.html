@@ -26,6 +26,10 @@
                 <div class="image-wrapper">
                   <img src="{{ post.media_link }}" style="width:100%;">
                 </div>
+                {% else %}
+                <div class="image-wrapper">
+                  <img src="/" style="width:100%;">
+                </div>
                 {% endif %}
                 <div class="text-wrapper">
                   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
