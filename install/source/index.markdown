@@ -26,20 +26,19 @@ Source installation requires [wstool](http://wiki.ros.org/wstool), [catkin_tools
 
 Optionally create a new workspace, you can name it whatever:
 
-    mkdir -p ~/ws_moveit/src
-    cd ~/ws_moveit/src
+    mkdir ~/ws_moveit
+    cd ~/ws_moveit
 
 Follow the instructions below for either Indigo, Kinetic, or Lunar:
 
 ## Indigo
 
-Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
+Pull down required repositories and build from within the root directory of your catkin workspace:
 
-    wstool init .
-    wstool merge https://raw.githubusercontent.com/ros-planning/moveit/indigo-devel/moveit.rosinstall
-    wstool update
-    rosdep install -y --from-paths . --ignore-src --rosdistro indigo
-    cd ..
+    wstool init src
+    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/indigo-devel/moveit.rosinstall
+    wstool update -t src
+    rosdep install -y --from-paths src --ignore-src --rosdistro indigo
     catkin config --extend /opt/ros/indigo --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
@@ -47,13 +46,12 @@ See final section below **Source The Catkin Workspace**. Optionally for MongoDB,
 
 ## Kinetic
 
-Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
+Pull down required repositories and build from within the root directory of your catkin workspace:
 
-    wstool init .
-    wstool merge https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/moveit.rosinstall
-    wstool update
-    rosdep install -y --from-paths . --ignore-src --rosdistro kinetic
-    cd ..
+    wstool init src
+    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/moveit.rosinstall
+    wstool update -t src
+    rosdep install -y --from-paths src --ignore-src --rosdistro kinetic
     catkin config --extend /opt/ros/kinetic --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
@@ -63,13 +61,12 @@ See final section below **Source The Catkin Workspace**. Optionally for MongoDB,
 
 > **Note:** Melodic support is still in beta
 
-Pull down required repositories and build from within the ``/src`` directory of your catkin workspace:
+Pull down required repositories and build from within the root directory of your catkin workspace:
 
-    wstool init .
-    wstool merge https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/moveit.rosinstall
-    wstool update
-    rosdep install -y --from-paths . --ignore-src --rosdistro melodic
-    cd ..
+    wstool init src
+    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/moveit.rosinstall
+    wstool update -t src
+    rosdep install -y --from-paths src --ignore-src --rosdistro melodic
     catkin config --extend /opt/ros/melodic --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 

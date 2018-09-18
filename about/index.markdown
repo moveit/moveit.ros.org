@@ -31,7 +31,6 @@ Michael Ferguson | Fetch Robotics | [mikeferguson](https://github.com/mikefergus
 Ian McMahon | Rethink Robotics | [IanTheEngineer](https://github.com/IanTheEngineer)
 Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://github.com/gavanderhoorn)
 Jorge Nicho | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho)
-Maarten de Vries | Delft Robotics | [de-vri-es](https://github.com/de-vri-es)
 Bence Magyar | Heriot-Watt University | [bmagyar](https://github.com/bmagyar)
 Mike Lautman | PickNik Consulting | [mlautman](https://github.com/mlautman)
 
@@ -45,6 +44,7 @@ Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta)
 Ioan Sucan | Google X | [isucan](https://github.com/isucan)
 Dave Hershburger | Kinema Systems | [hersh](https://github.com/hersh) |
 Acorn Pooley | SRI International | N/A |
+Maarten de Vries | Delft Robotics | [de-vri-es](https://github.com/de-vri-es)
 
 ## Sponsors
 
