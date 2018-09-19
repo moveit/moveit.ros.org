@@ -12,7 +12,7 @@ redirect_from: '/moveit/'
       <div class='col-sm-12'>
             <div class="homepage">
                 <div class="row justify-content-between">
-                    <div class="col-xs-12 col-lg-5 col-sm-8">
+                    <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
                                 <span class="blue">Announcement</span>
@@ -26,9 +26,9 @@ redirect_from: '/moveit/'
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-12 col-lg-6">
                         <div class="info-box">
-                            <img style="width:638px" src="/assets/images/svg/hero-images@2x.png" alt="Robot hand">
+                            <img class="robot-hand" src="/assets/images/main/hero@2x.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
                                     Latest: Ubuntu 16.04
@@ -122,21 +122,21 @@ redirect_from: '/moveit/'
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-lg-4 col-sm-6">
+                    <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--left">
                             <h1>MoveIt! Setup Assistant</h1>
                             <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-lg-7">
+                    <div class="col-xs-12 col-md-6 col-lg-7">
                         <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen4.png">
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-sm-6 col-lg-7">
+                    <div class="col-xs-12 col-md-6 col-lg-7">
                         <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen1.png">
                     </div>
-                    <div class="col-xs-12 col-lg-4 col-sm-6">
+                    <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
                             <h1>Rviz Motion Planning Plugin</h1>
                             <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
@@ -144,21 +144,21 @@ redirect_from: '/moveit/'
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-lg-4 col-sm-6">
+                    <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--left">
                             <h1>MoveIt! Setup Assistant</h1>
                             <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-lg-7">
+                    <div class="col-xs-12 col-md-6 col-lg-7">
                         <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen2.png">
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-sm-6 col-lg-7">
+                    <div class="col-xs-12 col-md-6 col-lg-7">
                         <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen3.png">
                     </div>
-                    <div class="col-xs-12 col-lg-4 col-sm-6">
+                    <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
                             <h1>Rviz Motion Planning Plugin</h1>
                             <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
@@ -166,10 +166,10 @@ redirect_from: '/moveit/'
                     </div>
                 </div>
                 <div class="row last-section" style="background-image">
-                    <div class="col-xs-12 col-sm-5">
-                        <img style="width:638px" src="/assets/images/svg/why-moveit-images@2x.png">
+                    <div class="col-xs-12 col-md-5">
+                        <img style="width:638px" src="/assets/images/main/why-moveit-images@2x.png">
                     </div>
-                    <div class="col-xs-12 col-md-4 col-sm-6">
+                    <div class="col-xs-12 col-lg-4 col-sm-12">
                         <h1>Why MoveIt!?</h1>
                         <p>
                             MoveIt! is state of the art software for mobile manipulation, incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation. It provides an easy-to-use platform for developing advanced robotics applications, evaluating new robot designs and building integrated robotics products for industrial, commercial, R&D and other domains.
@@ -187,7 +187,7 @@ redirect_from: '/moveit/'
     <div class="homepage--divider-image"></div>
     <div class="homepage--divider--content">
         <div class="container">
-            <div class='row'>
+            <div class='row current-version'>
                 <div class='col-sm-12'>
                     <h2 class="h1 text-center">Current and Future Versions</h2>
                 </div>
@@ -229,9 +229,9 @@ redirect_from: '/moveit/'
                 </div>
             </div>
             <div class='row'>
-                <div class='col-sm-12 col-md-6 version-wrapper'>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h2>Indigo</h2>
+                        <h3>Indigo</h3>
                         <span class="label label--blue">NEW</span>
                     </div>
                     <div class="version-date">
@@ -243,9 +243,9 @@ redirect_from: '/moveit/'
                         <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
                     </div>
                 </div>
-                <div class='col-sm-12 col-md-6 version-wrapper'>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h2>Lunar</h2>
+                        <h3>Lunar</h3>
                         <span class="label label--red">DISCONTINUED</span>
                     </div>
                     <div class="version-date">
@@ -257,9 +257,9 @@ redirect_from: '/moveit/'
                         <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
                     </div>
                 </div>
-                <div class='col-sm-12 col-md-6 version-wrapper'>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h2>Kinetic</h2>
+                        <h3>Kinetic</h3>
                     </div>
                     <div class="version-date">
                         <p>Date released: 04/24/2018</p>
@@ -270,9 +270,9 @@ redirect_from: '/moveit/'
                         <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
                     </div>
                 </div>
-                <div class='col-sm-12 col-md-6 version-wrapper'>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h2>Melodic</h2>
+                        <h3>Melodic</h3>
                         <span class="label label--blue">NEXT RELEASE</span>
                     </div>
                     <div class="version-date">
@@ -284,9 +284,9 @@ redirect_from: '/moveit/'
                         <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
                     </div>
                 </div>
-                <div class='col-sm-12 col-md-6 version-wrapper'>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h2>MoveIt! 2.0</h2>
+                        <h3>MoveIt! 2.0</h3>
                         <span class="label label--green">COMING SOON</span>
                     </div>
                     <div class="version-date">
@@ -302,61 +302,3 @@ redirect_from: '/moveit/'
         </div>
     </div>
 </div>
-
-<!--
-
-MoveIt! is the most widely used open-source software for manipulation and has been used on over 65 robots. See the [Robots](/robots/) page for a list of some of the robots that MoveIt! is being used with.
-
-MoveIt! Montage 2017
-<p>
-  <iframe src="//www.youtube.com/embed/0og1SaZYtRc" frameborder="0" width="560" height="315"></iframe>
-</p>
-
-* * *
-
-MoveIt! Montage 2013
-<p>
-  <iframe src="//www.youtube.com/embed/dblCGZzeUqs" frameborder="0" width="560" height="315"></iframe>
-</p>
-
-* * *
-
-MoveIt! Pick and Place
-
-<p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jk_s98U5ob8" frameborder="0" allowfullscreen></iframe>
-</p>
-
-Sachin Chitta, Ioan Sucan, Suat Gedikli, Acorn Pooley, Willow Garage, August 2013
-
-* * *
-
-MoveIt! Introduction
-
-<p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vAeEEoxVhAo" frameborder="0" allowfullscreen></iframe>
-</p>
-
-Sachin Chitta, Ioan Sucan, Acorn Pooley, Suat Gedikli, Willow Garage, May 2013
-
-* * *
-
-
-Integrated Sensing with MoveIt!
-
-<p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/NIKbV8AVC6g" frameborder="0" allowfullscreen></iframe>
-</p>
-
-
-* * *
-
-
-[Visit the MoveIt! Youtube Channel](http://www.youtube.com/user/moveitrobot)
-
-<a href="https://twitter.com/moveitrobot" class="twitter-follow-button" data-show-count="false">Follow @moveitrobot</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-Watch the <a href="https://discourse.ros.org/c/moveit">MoveIt! Discourse Channel</a>
-
-See a list of suggested [code sprints](http://moveit.ros.org/documentation/contributing/future_projects/) -->

@@ -5,11 +5,13 @@
   ul {
     padding: 0;
     display: flex;
-    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    @media screen and (max-width: 480px){
+      justify-content: center;
+    }
     li {
       list-style: none;
       flex: 0 0 33%;
@@ -21,6 +23,14 @@
       padding-left: 15px;
       margin-bottom: 80px;
       text-align: center;
+      @media screen and (max-width: 768px){
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+      @media screen and (max-width: 480px){
+        flex: 0 0 100%;
+        max-width: 300px;
+      }
       span {
         display: block;
         width: 96px;
@@ -49,7 +59,15 @@
 
 .last-section {
   margin: 100px 0;
+  img{
+    @media screen and (max-width: 992px){
+      display: none;
+    }
+  }
   & > div {
     margin-right: 80px;
+    @media screen and (max-width: 992px){
+      margin-right: 0;
+    }
   }
 }

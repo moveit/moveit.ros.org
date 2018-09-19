@@ -44,13 +44,27 @@
 .block-with-image {
   padding: 100px 0;
   align-items: center;
+  @media screen and (max-width: 992px){
+    padding-top: 0;
+  }
   .text-block {
     max-width: 340px;
+    @media screen and (max-width: 768px){
+      max-width: none;
+    }
   }
   .text-block--left {
     padding-right: 30px;
+    @media screen and (max-width: 768px){
+      padding-right: 0;
+      padding-bottom: 30px;
+    }
   }
   .text-block--right {
     padding-left: 30px;
+    @media screen and (max-width: 768px){
+      padding-left: 0;
+      padding-top: 30px;
+    }
   }
 }

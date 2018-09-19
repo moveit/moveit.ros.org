@@ -1,11 +1,10 @@
 body {
-  background: linear-gradient(to top, #1D1F25 0%, #15161B 100%);
-  color: $text;
+  background-color: $white;
+  color: $dark-text;
   font-family: $font-family-base;
-  &.white {
-    background: none;
-    background-color: $white;
-    color: $dark-text;
+  &.black {
+    background: linear-gradient(to top, #1D1F25 0%, #15161B 100%);
+    color: $text;
   }
 }
 
@@ -16,6 +15,11 @@ body {
   &-navigation{
     @media screen and (max-width: 992px){
       max-width: none !important;
+    }
+  }
+  &-footer{
+    @media screen and (max-width: 768px){
+      max-width: 100%;
     }
   }
 }
