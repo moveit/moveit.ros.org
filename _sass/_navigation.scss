@@ -1,12 +1,12 @@
 .navbar {
   padding: 70px 10px 70px 0;
   &-blog {
-    padding: 10px 10px 10px 0;
+    padding: 10px 0;
     ul {
       margin-right: 15px;
     }
   }
-  @media screen and (max-width: 992px){
+  @media screen and (max-width: 1199px){
     padding: 30px 10px;
   }
   .navbar-collapse {

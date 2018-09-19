@@ -21,7 +21,7 @@ Please use the following citation for MoveIt!
 
 The MoveIt! project is currently maintained by the following contributors with commit-access:
 
-Name | Organization | GitHub ID 
+Name | Organization | GitHub ID
 ------------ |:------------- |-------------|
 Dave Coleman | PickNik Consulting | [davetcoleman](https://github.com/davetcoleman)
 Robert Haschke | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke)
@@ -38,7 +38,7 @@ Mike Lautman | PickNik Consulting | [mlautman](https://github.com/mlautman)
 
 We would like to acknowledge past maintainers of MoveIt! who have since moved on. Their great work made this project what it is today:
 
-Name | Past Organization | GitHub ID 
+Name | Past Organization | GitHub ID
 ------------ |:------------- |-------------|
 Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta)
 Ioan Sucan | Google X | [isucan](https://github.com/isucan)
@@ -94,12 +94,3 @@ We ask that you not:
 * use the logos to, or in connection with, content that disparages us or sullies MoveIt!'s reputation
 
 The logo files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
-
-### Download
-
-* [PNG Large](http://moveit.ros.org/assets/logo/moveit_logo_large.png)
-* [PNG Medium](http://moveit.ros.org/assets/logo/moveit_logo_small.png)
-* [PNG Small](http://moveit.ros.org/assets/logo/moveit_logo_small.png)
-* [SVG](http://moveit.ros.org/assets/logo/moveit_logo.svg)
-* [PDF](http://moveit.ros.org/assets/logo/moveit_logo.pdf)
-* [AI](http://moveit.ros.org/assets/logo/moveit_logo.ai)

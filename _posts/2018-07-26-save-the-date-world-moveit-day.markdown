@@ -12,9 +12,8 @@ categories:
 - ROS
 ---
 
-<img src="{{ site.url }}/assets/images/world_moveit_day_2018.png" width="750" style="margin-top:20px"/>
-
 We’re excited to announce that this year’s World MoveIt! Day will be Thursday, October 25, 2018! The event is a day long international hackathon to improve the MoveIt! code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements building off of six years of dedicated work.
+
 We will be having several international event locations including:
 
 - [Iron Ox](http://ironox.com/), San Francisco, USA

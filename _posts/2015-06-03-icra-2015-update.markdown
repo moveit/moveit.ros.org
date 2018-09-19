@@ -8,7 +8,7 @@ title: ICRA 2015 Update
 description: The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part...
 media_type: image
 media_link: /wordpress/wp-content/uploads/2015/06/IMG_14271-624x467.jpg
-redirect_from: 
+redirect_from:
   - "/icra-2015-update/"
 wordpress_id: 1149
 categories:
@@ -16,8 +16,7 @@ categories:
 - ROS
 ---
 
-The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part. We saw everything from two-armed industrial robot platforms to custom arms with a small hand attached to them. Team RBO from Berlin finished first, using a vacuum gripper and a mobile manipulator to pick 11 out of 12 objects, followed by Team MIT. Teams traveled from all over the world for the competition and some of them spent the entire night chipping away at the problem in the convention center. Perception, grasping and system integration seemed to be the key factors in how teams fared, and its interesting to note that vacuum (suction) grippers were a runaway success.
-
+The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part. We saw everything from two-armed industrial robot platforms to custom arms with a small hand attached to them. Team RBO from Berlin finished first, using a vacuum gripper and a mobile manipulator to pick 11 out of 12 objects, followed by Team MIT. Teams traveled from all over the world for the competition and some of them spent the entire night chipping away at the problem in the convention center. Perception, grasping and system integration seemed to be the key factors in how teams fared, and its interesting to note that vacuum (suction)grippers were a runaway success.
 
 MoveIt! was used by several teams in the competition, and also cited in several papers. Here is a list of papers presented at ICRA 2015 that cited or used MoveIt!:
 

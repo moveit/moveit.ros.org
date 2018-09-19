@@ -5,6 +5,9 @@ body {
   &.black {
     background: linear-gradient(to top, #1D1F25 0%, #15161B 100%);
     color: $text;
+    h1 {
+      color: $white;
+    }
   }
 }
 
@@ -30,7 +33,6 @@ pre code {
 
 h1, .h1{
   font-size: 40px;
-  color: #fff;
   margin-bottom: 40px;
   line-height: 64px;
 }
@@ -45,6 +47,9 @@ a {
 
 p {
   margin-bottom: 10px;
+  &.dark-text{
+    color: $dark-text;
+  }
 }
 
 img {
@@ -59,7 +64,7 @@ img {
   height: 80px;
   background: linear-gradient(45deg, transparent 50%, $white 50%);
   z-index: 1;
-  @media screen and (max-width: 992px){
+  @media screen and (max-width: 1199px){
     width: 91px;
     height: 91px;
   }
