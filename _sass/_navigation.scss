@@ -14,7 +14,10 @@
       padding-top: 20px;
     }
     .navbar-brand{
-      max-width: 200px;
+      img {
+        width: 192px;
+        max-width: 100%;
+      }
     }
   }
   .navbar-toggler{

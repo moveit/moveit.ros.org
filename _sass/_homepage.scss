@@ -1,6 +1,11 @@
 .homepage {
   .main{
     margin-bottom: 200px;
+    @media screen and (max-width: 992px){
+      max-width: 80%;
+      margin: 0 auto 100px;
+      text-align: center;
+    }
     &-tag {
       background-color: #27282E;
       color: #fff;
@@ -8,10 +13,17 @@
       font-size: 12px;
       padding: 2px;
       margin-bottom: 20px;
+      text-align: left;
+      @media screen and (max-width: 520px){
+        text-align: center;
+      }
       span {
         display: inline-block;
         margin-left: 5px;
         border-radius: 16px;
+        @media screen and (max-width: 520px){
+          margin: 5px;
+        }
         &.blue {
           background-color: #0A58F7;
           margin-right: 5px;
@@ -29,14 +41,36 @@
   .info-box {
     position: relative;
     margin-bottom: 250px;
+    @media screen and (max-width: 992px){
+      margin: 0 auto 250px;
+      display: flex;
+      justify-content: space-around;
+    }
+    @media screen and (max-width: 768px){
+      margin-bottom: 100px;
+    }
+    .robot-hand {
+      width: 700px;
+      max-width: none;
+      @media screen and (max-width: 992px){
+        display: none;
+      }
+    }
     &-content {
       position: absolute;
       background: #fff;
-      padding: 15px 60px;
+      padding: 15px 100px;
       text-align: center;
-      bottom: -140px;
+      bottom: -70px;
+      left: -100px;
       border-radius: 4px;
       box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+      @media screen and (max-width: 992px){
+        position: static;
+      }
+      @media screen and (max-width: 520px){
+        padding: 15px 60px;
+      }
     }
     &-header {
       font-size: 18px;
@@ -77,6 +111,12 @@
 
   .homepage--divider--content {
     background-color: #333439;
+  }
+
+  .current-version{
+    @media screen and (max-width: 992px){
+      display: none;
+    }
   }
 
   h2 {
@@ -147,7 +187,7 @@
 
   .version-header{
     display: flex;
-    h2 {
+    h3 {
       font-size: 40px;
       color: $white;
       display: inline-block;
