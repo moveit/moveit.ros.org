@@ -1,12 +1,10 @@
 ---
 author: admin
 comments: false
-date: 2013-11-20 04:37:44+00:00
+date: 2018-11-19 04:37:44+00:00
 layout: page
 slug: press_kit
 title: Press kit
-redirect_from: "/about/press_kit.html"
-
 ---
 
 ## Logo Guidelines
