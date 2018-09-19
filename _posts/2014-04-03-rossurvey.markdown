@@ -8,14 +8,13 @@ title: MoveIt! scores high in the ROS survey
 description: New ROS survey results are out and MoveIt! scored high on the list of ROS packages important to users.
 media_type: image
 media_link: /wordpress/wp-content/uploads/2014/02/which-ros-pkgs-thumb-480x629-536.png
-redirect_from: 
+redirect_from:
   - "/rossurvey/"
 wordpress_id: 973
 categories:
 - MoveIt!
 - ROS
 ---
-
 
 New ROS survey results are out and MoveIt! scored high on the list of ROS packages important to users. MoveIt! was the third highest package on that list, underscoring its value to the community as a foundation for building advanced robotic applications! Rviz was the highest on that list followed by the ROS navigation stack - these  two packages are among the oldest software packages in ROS. Another point noting is that Arms and end-effectors also scored high on the list of hardware being used with ROS, pointing to the growing popularity and use of manipulation and mobile manipulation systems.
 

@@ -3,28 +3,46 @@
   margin: 0 auto 50px;
 }
 
+.blog-align-center{
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 575px){
+    margin-bottom: 50px;
+  }
+}
+
 .blog-image-wrapper {
   height: 160px;
   width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 25px;
+  border: 1px solid rgba(128, 128, 128, 0.1);
 
   img, iframe {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
   }
 
   &-main{
     height: 320px;
+    margin-bottom: 50px;
     img,
     iframe {
       @media screen and (max-width: 768px){
         top: auto;
         left: 50%;
         transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
       }
     }
   }

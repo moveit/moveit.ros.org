@@ -13,8 +13,6 @@ categories:
 - ROS
 ---
 
->
 The MoveIt! project, [Open Robotics](https://www.osrfoundation.org), and [PickNik](http://picknik.ai/) are excited to announce that MoveIt! was selected for 3 [Google Summer of Code](https://summerofcode.withgoogle.com/) (GSoC) grants this summer. GSoC is an international program in which Google awards stipends to students who complete a free and open-source software coding project during the summer.
-{: .content}
 
 Ridhwan Luthra will be working on the perception pipeline, Mohmmad Ayman Salah will be making improvements to the Setup Assistant with Gazebo and Raghavender Sahdev will be improving the motion planning interfaces. Dave Coleman (PickNik), Michael Goerner (University of Hamburg), Mark Moll (Rice University), Feroze Naina (Mercedes-Benz), Mike Lautman (PickNik), and Andy McEvoy (PickNik) will be co-mentors for the students.

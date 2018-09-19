@@ -1,4 +1,5 @@
 .section {
+  margin: 50px auto 100px;
 }
 .section--second {
   margin-bottom: 100px;
@@ -45,6 +46,10 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
       }
       h3 {
         font-size: 24px;

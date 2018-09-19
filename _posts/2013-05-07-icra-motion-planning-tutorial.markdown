@@ -8,12 +8,13 @@ title: ICRA Motion Planning Tutorial 2013
 media_type: video
 media_link: https://www.youtube.com/embed/vAeEEoxVhAo
 description: The ICRA 2015 Tutorial on Motion Planning is intended to expose both novice and expert users to the most recent developments, both theoretical and practical, on the topic of motion planning for mobile manipulation.
-redirect_from: 
+redirect_from:
   - "/wiki/Tutorials/ICRA2013/"
 categories:
 - MoveIt!
 - ROS
 ---
+
 **Time and Venue**
 
 * Date - Friday May 10, 2013
@@ -25,7 +26,7 @@ categories:
 * Ioan Sucan, Willow Garage
 * Mark Moll, Rice University
 * Lydia Kavraki, Rice University
-* Maxim Likhachev, CMU 
+* Maxim Likhachev, CMU
 
 **Abstract**
 
@@ -37,7 +38,7 @@ You can register for the tutorial when you register through the ICRA site. Howev
 
 * your areas of interest
 * whether you are more of an end user or developer
-* experience with ROS 
+* experience with ROS
 
 **Invited Speakers**
 
@@ -50,7 +51,7 @@ You can register for the tutorial when you register through the ICRA site. Howev
 * Felix Meßmer (Fraunhofer IPA)
 * Adolfo Rodriguez Tsouroukdissian (Presenter: Jordi Pagès), (PAL Robotics, S.L.)
 * Ryan Luna (Rice University)
-* Dave Coleman (University of Colorado at Boulder) 
+* Dave Coleman (University of Colorado at Boulder)
 
 **Schedule**
 
@@ -71,7 +72,7 @@ You can register for the tutorial when you register through the ICRA site. Howev
   * Integration with Control - ROS Interface
   * Live Demo - Obstacle avoidance, replanning, dual-arm planning
   * Programmatic interface - C++/Python
-  * Scripting interface 
+  * Scripting interface
 
 * 12:30 - 14:00 - Lunch
 * 14:00 - 14:15 - Motion planning with the Care-O-Bot and Rob@Work (Fraunhofer IPA) - [PDF]({{ site.url }}/assets/pdfs/2013/icra2013tutorial/ICRA2013_MoveIt-Workshop_MoveIt-at-IPA.pdf)
@@ -82,15 +83,15 @@ You can register for the tutorial when you register through the ICRA site. Howev
 * 15:20 - 15:30 - Sparse Roadmaps (Kostas Bekris) - [PDF]({{ site.url }}/assets/pdfs/2013/icra2013tutorial/spanner_roadmaps_Bekris.pdf)
 * 15:30 - 16:00 - Coffee Break
 * 16:00 - 16:30 - Ongoing and Future Developments in MoveIt!
-  * Pick and Place with Object Recognition (Sachin Chitta/ Ioan Sucan) - [PDF]({{ site.url }}/assets/pdfs/2013/icra2013tutorial/ICRATutorial-PickPlace.pdf) 
+  * Pick and Place with Object Recognition (Sachin Chitta/ Ioan Sucan) - [PDF]({{ site.url }}/assets/pdfs/2013/icra2013tutorial/ICRATutorial-PickPlace.pdf)
 * 16:30 - 17:00 - Lightning Talks (5 minutes each)
   * John Schulman (Berkeley) - TrajOpt - Trajectory optimization software for motion planning
-  * Norman Hendrich (Hamburg) - Domestic Robot/Jaco Arm - [PDF]({{ site.url }}/assets/pdfs/2013/icra2013tutorial/icra-jaco-moveit.pdf) 
+  * Norman Hendrich (Hamburg) - Domestic Robot/Jaco Arm - [PDF]({{ site.url }}/assets/pdfs/2013/icra2013tutorial/icra-jaco-moveit.pdf)
   * Armin Hornung (Freiburg) - Whole-Body Motion Planning for Manipulation of Articulated Objects (PDF)
   * Christian Scheurer (KUKA Labs) - Autonomous Fetch and Carry Task with OmniRob
   * Dave Coleman (University of Colorado, Boulder) - MoveIt! integrated on a custom robot
   * Javier V. Gomez (Universidad Carlos III Madrid) - Motion Learning with Fast Marching - [PDF]({{ site.url }}/assets/pdfs/2013/icra2013tutorial/ICRA2013_FML.pdf)
-  * If you are interested in giving a lightning talk about how you are using MoveIt!, please talk to the organizers in the morning. 
+  * If you are interested in giving a lightning talk about how you are using MoveIt!, please talk to the organizers in the morning.
 
 **Preparation for the Tutorial**
 
@@ -98,10 +99,10 @@ For some of the hands-on talks, you will have the opportunity to follow along on
 
 * Ubuntu 12.04
 * ROS Groovy
-* MoveIt! (follow Groovy/Installation instructions) 
+* MoveIt! (follow Groovy/Installation instructions)
 
 **Links**
 
 * MoveIt! - The MoveIt! wiki
 * OMPL - The Open Motion Planning Library
-* SBPL - The Search-based Planning Library 
+* SBPL - The Search-based Planning Library

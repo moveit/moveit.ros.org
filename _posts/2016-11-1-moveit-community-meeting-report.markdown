@@ -13,7 +13,7 @@ categories:
 - ROS
 ---
 
-Thank you for coming to the MoveIt! Community Meeting and thanks to the presenters for making this a huge success. 
+Thank you for coming to the MoveIt! Community Meeting and thanks to the presenters for making this a huge success.
 
 * Recent Developments in MoveIt! - Dave Coleman
 * The Search-Based Planning Library (SBPL) - Dr. Maxim Likhachev and Andrew Dornbush

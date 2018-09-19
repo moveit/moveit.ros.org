@@ -13,9 +13,7 @@ categories:
 - ROS
 ---
 
-![]({{ site.url }}/assets/robobusiness.png)
-
-Come meet MoveIt! and ROS developers and users at RoboBusiness 2015 in San Jose. MoveIt! developers 
+Come meet MoveIt! and ROS developers and users at RoboBusiness 2015 in San Jose. MoveIt! developers
 will be presenting on multiple panels:
 
 * Wednesday, September 23, 2015: 3:15-4:00 PM: Leveraging Open Source in Commercial Robotics
@@ -28,7 +26,7 @@ will be presenting on multiple panels:
   * Matthew Wicks (Intelligrated)
   * Alfredo Valadez (Wynright)
 
-* Thursday, September 24, 2015: 4:45-5:30 PM: State of the Art Flexible Software Solutions. 
+* Thursday, September 24, 2015: 4:45-5:30 PM: State of the Art Flexible Software Solutions.
   * Sachin Chitta (Stealth Robotics Startup, Moderator)
   * John Dulchinos (Jabil)
   * Nate Koenig (OSRF)
@@ -37,6 +35,6 @@ will be presenting on multiple panels:
 Several companies using MoveIt! and ROS will also be at the conference. Make sure to visit their booths:
 
 * Rethink Robotics
-* Fetch Robotics 
+* Fetch Robotics
 * SRI International
-* Clearpath 
+* Clearpath

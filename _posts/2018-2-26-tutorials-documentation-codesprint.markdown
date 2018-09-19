@@ -13,8 +13,6 @@ categories:
 - ROS
 ---
 
-<img src="{{ site.url }}/assets/images/Franka_Emika_Panda.jpg" width="750" style="margin-top:20px"/>
-
 We are excited to announce that the robotic arm manufacturer [Franka Emika](https://franka.de/) is partnering with [PickNik](http://picknik.ai/) to sponsor a MoveIt! codesprint to further improve MoveIt!’s tutorials, documentation, and website.
 
 Although MoveIt! is a widely used motion planning framework and ROS package, its documentation needs a bit of updating. The website and tutorials consistently get minor improvements and contributions from the dedicated community, but a much larger holistic effort is needed in improving the overall information flow and ensuring that all major concepts in MoveIt! are included.
