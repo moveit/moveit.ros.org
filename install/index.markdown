@@ -89,4 +89,4 @@ See [Source Installation Instructions for unsupported versions of MoveIt!](depre
 
 ## Quick Start
 
-Next, start planning in Rviz with the Panda demos: [MoveIt! Rviz Plugin Tutorial](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html)
+Next, start planning in Rviz with the Panda demos: [MoveIt! Rviz Plugin Tutorial](https://ros-planning.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html)
