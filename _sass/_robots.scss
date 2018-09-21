@@ -1,4 +1,13 @@
 .robots{
+  .robots-main{
+    margin-bottom: 50px;
+    &--bottom{
+      margin-bottom: 50px;
+      p{
+        margin-top: 50px;
+      }
+    }
+  }
   .robots-single{
     margin-bottom: 100px;
   }

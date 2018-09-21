@@ -10,22 +10,16 @@ wordpress_id: 127
 <div class="robots">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12">
-			<h1>{{page.title}}</h1>
+			<div class="robots-main">
+				<h1>{{page.title}}</h1>
+				<p>MoveIt! has now been used on over 100 robots by the community. On this page, click on the robots to see more information about using MoveIt! with different robots.</p>
+				<hr/>
+				<p>See something missing? If you would like to add a robot to this list, please email <a href="mailto:dave@picknik.ai">dave@picknik.ai.</a></p>
+				<p>We are also looking for robot maintainers and new robots. If you are willing to maintain the MoveIt! packages for any robot in this list please post on the ROS Discourse category.</p>
+			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper">
-					<img title="Motoman SIA10d" src="/wordpress/wp-content/uploads/2013/12/motomansia10d-e1388518407577.jpg" alt="">
-				</div>
-				<div class="robots-content">
-					<h2>SIA5/SIA10d/SIA20</h2>
-					<h3>Motoman</h3>
-					<a href="/robots/sia5/">View package</a>
-				</div>
-			</div>
-		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
@@ -41,48 +35,12 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="Kinova Jaco" src="/wordpress/wp-content/uploads/2013/12/Kinova-e1388518514672.jpg" alt="">
-				</div>
-				<div class="robots-content">
-					<h2>Jaco</h2>
-					<h3>Kinova</h3>
-					<a href="/robots/kinova-jaco/">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper">
-					<img title="ABB IRB 2400" src="/wordpress/wp-content/uploads/2013/12/ABBIRB2400-e1388518661309.jpg" alt="">
-				</div>
-				<div class="robots-content">
-					<h2>IRB 2400</h2>
-					<h3>ABB</h3>
-					<a href="/robots/abb-irb-2400/">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper">
 					<img title="PR2" src="/wordpress/wp-content/uploads/2013/12/PR2-e1388509296455.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>PR2</h2>
-					<h3></h3>
+					<h3>Willow Garage</h3>
 					<a href="/robots/pr2/">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper">
-					<img title="Baxter" src="/wordpress/wp-content/uploads/2013/12/Baxter-e1388511817410.jpg" alt="">
-				</div>
-				<div class="robots-content">
-					<h2>Baxter</h2>
-					<h3>Research Robot</h3>
-					<a href="/robots/baxter-research-robot/">View package</a>
 				</div>
 			</div>
 		</div>
@@ -92,8 +50,8 @@ wordpress_id: 127
 					<img title="BDI_Atlas" src="/wordpress/wp-content/uploads/2013/12/BDI_Atlas-e1388509367753.png" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>BDI</h2>
-					<h3>Atlas</h3>
+					<h2>Atlas</h2>
+					<h3>Boston Dynamics</h3>
 					<a href="/robots/bdi-atlas/">View package</a>
 				</div>
 			</div>
@@ -105,7 +63,7 @@ wordpress_id: 127
 				</div>
 				<div class="robots-content">
 					<h2>Robonaut</h2>
-					<h3></h3>
+					<h3>NASA Johnson Space Center</h3>
 					<a href="/robots/robonaut/">View package</a>
 				</div>
 			</div>
@@ -125,23 +83,11 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="Fanucm10ia" src="/wordpress/wp-content/uploads/2013/12/Fanucm10ia-e1388521738343.jpg" alt="">
-				</div>
-				<div class="robots-content">
-					<h2>m10ia</h2>
-					<h3>Fanuc</h3>
-					<a href="/robots/fanuc-m10ia">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper">
 					<img title="BioRobArm" src="/wordpress/wp-content/uploads/2013/12/BioRobArm-e1388521821293.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Arm</h2>
-					<h3>BioRob</h3>
+					<h2>BioRob Arm</h2>
+					<h3></h3>
 					<a href="/robots/biorob-arm/">View package</a>
 				</div>
 			</div>
@@ -177,7 +123,7 @@ wordpress_id: 127
 				</div>
 				<div class="robots-content">
 					<h2>HOAP3</h2>
-					<h3></h3>
+					<h3>Fujitsu</h3>
 					<a href="/robots/hoap3/">View package</a>
 				</div>
 			</div>
@@ -188,8 +134,8 @@ wordpress_id: 127
 					<img title="CytonVeta" src="/wordpress/wp-content/uploads/2013/12/CytonVeta-e1388525159306.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Veta</h2>
-					<h3>Cyton</h3>
+					<h2>Cyton Veta</h2>
+					<h3></h3>
 					<a href="/robots/cyton-veta">View package</a>
 				</div>
 			</div>
@@ -225,7 +171,7 @@ wordpress_id: 127
 				</div>
 				<div class="robots-content">
 					<h2>XL-Terabot</h2>
-					<h3>Summit</h3>
+					<h3>Robotnik</h3>
 					<a href="/robots/summit-xl-terabot/">View package</a>
 				</div>
 			</div>
@@ -236,8 +182,8 @@ wordpress_id: 127
 					<img title="HRP-4-big" src="/wordpress/wp-content/uploads/2013/12/HRP-4-big-e1388526318605.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>HRP-4</h2>
-					<h3></h3>
+					<h2>HRP 4</h2>
+					<h3>Kawada</h3>
 					<a href="/robots/hrp-4/">View package</a>
 				</div>
 			</div>
@@ -285,7 +231,7 @@ wordpress_id: 127
 				</div>
 				<div class="robots-content">
 					<h2>Care-O-Bot</h2>
-					<h3></h3>
+					<h3>Fraunhofer IPA</h3>
 					<a href="/robots/care-o-bot">View package</a>
 				</div>
 			</div>
@@ -296,8 +242,8 @@ wordpress_id: 127
 					<img title="hrp-2" src="/wordpress/wp-content/uploads/2013/12/hrp-2-e1388526968197.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>HRP-2</h2>
-					<h3></h3>
+					<h2>HRP 2</h2>
+					<h3>Kawada</h3>
 					<a href="/robots/hrp-2/">View package</a>
 				</div>
 			</div>
@@ -308,8 +254,8 @@ wordpress_id: 127
 					<img title="SchunkDextrousHand" src="/wordpress/wp-content/uploads/2013/12/SchunkDextrousHand-e1388530720580.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Hand</h2>
-					<h3>Schunk Dextrous</h3>
+					<h2>Dextrous Hand</h2>
+					<h3>Schunk</h3>
 					<a href="/robots/schunk-dextrous-hand/">View package</a>
 				</div>
 			</div>
@@ -333,7 +279,7 @@ wordpress_id: 127
 				</div>
 				<div class="robots-content">
 					<h2>CKBot</h2>
-					<h3></h3>
+					<h3>ModLab (Penn)</h3>
 					<a href="/robots/ckbot/">View package</a>
 				</div>
 			</div>
@@ -357,7 +303,7 @@ wordpress_id: 127
 				</div>
 				<div class="robots-content">
 					<h2>Rob@Work</h2>
-					<h3></h3>
+					<h3>Fraunhofer IPA</h3>
 					<a href="/robots/robwork/">View package</a>
 				</div>
 			</div>
@@ -380,8 +326,8 @@ wordpress_id: 127
 					<img title="korus_homemate" src="/wordpress/wp-content/uploads/2013/12/korus_homemate-e1388531695134.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Homemate Robot</h2>
-					<h3>Korus</h3>
+					<h2>Korus Homemate Robot</h2>
+					<h3></h3>
 					<a href="/robots/korus-homemate-robot/">View package</a>
 				</div>
 			</div>
@@ -393,7 +339,7 @@ wordpress_id: 127
 				</div>
 				<div class="robots-content">
 					<h2>Katana</h2>
-					<h3></h3>
+					<h3>Neuronics</h3>
 					<a href="/robots/katana/">View package</a>
 				</div>
 			</div>
@@ -404,8 +350,8 @@ wordpress_id: 127
 					<img title="ArbotixPincher" src="/wordpress/wp-content/uploads/2013/12/ArbotixPincher-e1388531950445.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Pincher</h2>
-					<h3>PhantomX</h3>
+					<h2>PhantomX Pincher</h2>
+					<h3>Trossen Robotics</h3>
 					<a href="/robots/phantomx-pincher">View package</a>
 				</div>
 			</div>
@@ -416,8 +362,8 @@ wordpress_id: 127
 					<img title="hdtarm" src="/wordpress/wp-content/uploads/2013/12/hdtarm-e1388532070528.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Arm</h2>
-					<h3>HDT</h3>
+					<h2>HDT Arm</h2>
+					<h3></h3>
 					<a href="/robots/hdt-arm">View package</a>
 				</div>
 			</div>
@@ -428,7 +374,7 @@ wordpress_id: 127
 					<img title="LynxMotionArm" src="/wordpress/wp-content/uploads/2013/12/LynxMotionArm-e1388532111892.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Servo</h2>
+					<h2>Servo Erector Arm</h2>
 					<h3>Lynxmotion</h3>
 					<a href="/robots/lynxmotion-servo">View package</a>
 				</div>
@@ -500,8 +446,8 @@ wordpress_id: 127
 					<img title="ClopemaRobot" src="/wordpress/wp-content/uploads/2013/12/ClopemaRobot-e1388532605291.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Robot</h2>
-					<h3>Clopema</h3>
+					<h2>Clopema Robot</h2>
+					<h3>CENTRE FOR RESEARCH AND TECHNOLOGY HELLAS</h3>
 					<a href="/robots/clopema-robot/">View package</a>
 				</div>
 			</div>
@@ -509,11 +455,11 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="DLR_Hit_Hand" src="/wordpress/wp-content/uploads/2013/12/DLR_Hit_Hand-e1388532641151.jpg" alt="">
+					<img title="DLR Hit Hand" src="/wordpress/wp-content/uploads/2013/12/DLR_Hit_Hand-e1388532641151.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Hand</h2>
-					<h3>DLR-HIT</h3>
+					<h2>Hit Hand</h2>
+					<h3>DLR</h3>
 					<a href="/robots/dlr-hit-hand/">View package</a>
 				</div>
 			</div>
@@ -525,7 +471,7 @@ wordpress_id: 127
 				</div>
 				<div class="robots-content">
 					<h2>iCub</h2>
-					<h3></h3>
+					<h3>IIT</h3>
 					<a href="/robots/icub/">View package</a>
 				</div>
 			</div>
@@ -585,7 +531,7 @@ wordpress_id: 127
 				</div>
 				<div class="robots-content">
 					<h2>HOLLIE</h2>
-					<h3></h3>
+					<h3>Youbot</h3>
 					<a href="/robots/hollie/">View package</a>
 				</div>
 			</div>
@@ -596,8 +542,8 @@ wordpress_id: 127
 					<img title="RobotisBioloid" src="/assets/bioloid-moveit.png" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>Robotis-Bioloid</h2>
-					<h3></h3>
+					<h2>Bioloid</h2>
+					<h3>Robotis</h3>
 					<a href="/robots/robotis-bioloid/">View package</a>
 				</div>
 			</div>
@@ -608,8 +554,8 @@ wordpress_id: 127
 					<img title="ScorbotER4U" src="/assets/scorbot-er4u.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>ER4U</h2>
-					<h3>Scorbot</h3>
+					<h2>Scorbot ER4U</h2>
+					<h3></h3>
 					<a href="/robots/scorbot-er4u">View package</a>
 				</div>
 			</div>
@@ -617,13 +563,670 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="AR10 Robotic Hand" src="/assets/AR10.jpg" alt="">
+					<img title="Active8 Robots AR10 Robotic Hand" src="/assets/AR10.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>AR10</h2>
-					<h3>Robotic Hand</h3>
+					<h2>AR10 Robotic Hand</h2>
+					<h3>Active8 Robots</h3>
 					<a href="/robots/Active8-Robots-AR10">View package</a>
 				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 52" src="/assets/images/robots/ABB IRB52.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 52</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 120" src="/assets/images/robots/ABB IRB120.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 120</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 120t" src="/assets/images/robots/ABB IRB_120T.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 120t</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 1200" src="/assets/images/robots/ABB_IRB1200.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 1200</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 1600" src="/assets/images/robots/ABB IRB 1600.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 1600</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 2400" src="/wordpress/wp-content/uploads/2013/12/ABBIRB2400-e1388518661309.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 2400</h2>
+					<h3>ABB</h3>
+					<a href="/robots/abb-irb-2400/">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 2600" src="/assets/images/robots/ABB IRB 2600.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 2600</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 4400" src="/assets/images/robots/ABB IRB 4400.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 4400</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 4600" src="/assets/images/robots/ABB IRB 4600.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 4600</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 5400" src="/assets/images/robots/ABB IRB 5400.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 5400</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 6600" src="/assets/images/robots/ABB IRB 6600.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 6600</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 6640" src="/assets/images/robots/ABB IRB 6640.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 6640</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 6650" src="/assets/images/robots/ABB IRB 6650S.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 6650</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="ABB IRB 7600" src="/assets/images/robots/ABB IRB 7600.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>IRB 7600</h2>
+					<h3>ABB</h3>
+					<a href="https://github.com/ros-industrial/abb_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Franka Emika Panda" src="/assets/images/robots/Franka Emika Panda.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>Panda</h2>
+					<h3>Franka Emika</h3>
+					<!-- <a href="/" target="_blank">View package</a> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanucm10ia" src="/wordpress/wp-content/uploads/2013/12/Fanucm10ia-e1388521738343.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>m10ia</h2>
+					<h3>Fanuc</h3>
+					<a href="/robots/fanuc-m10ia">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc irmate200ib3l" src="/assets/images/robots/Fanuc irmate200ib3l.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>irmate200ib3l</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc irmate200ib" src="/assets/images/robots/Fanuc irmate200ib.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>irmate200ib</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc irmate200ic5h" src="/assets/images/robots/Fanuc irmate200ic5h.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>irmate200ic5h</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc irmate200ic5l" src="/assets/images/robots/Fanuc irmate200ic5l.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>irmate200ic5l</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc irmate200ic" src="/assets/images/robots/Fanuc irmate200ic.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>irmate200ic</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc m16ib20" src="/assets/images/robots/Fanuc m16ib20.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>m16ib20</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc m16ib" src="/assets/images/robots/Fanuc m16ib.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>m16ib</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc m20ia/10l" src="/assets/images/robots/m20ia_10l.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>m20ia/10l</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc m20ia" src="/assets/images/robots/Fanuc m20ia.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>m20ia</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc m-430ia/2f" src="/assets/images/robots/m-430ia_2f.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>m-430ia/2f</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc m-430ia/2p" src="/assets/images/robots/m-430ia_2p.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>m-430ia/2p</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc m-430ia" src="/assets/images/robots/m-430ia.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>m-430ia</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fanuc m-6ib" src="/assets/images/robots/m-6ib.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>m-6ib</h2>
+					<h3>Fanuc</h3>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Fetch Robotics Fetch" src="/assets/images/robots/Fetch Robotics Fetch.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>Fetch</h2>
+					<h3>Fetch Robotics</h3>
+					<!-- <a href="/" target="_blank">View package</a> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Kinova Jaco" src="/wordpress/wp-content/uploads/2013/12/Kinova-e1388518514672.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>Jaco</h2>
+					<h3>Kinova</h3>
+					<a href="/robots/kinova-jaco/">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Kinova Jaco2" src="/assets/images/robots/Kinova Jaco2.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>Jaco2</h2>
+					<h3>Kinova</h3>
+					<!-- <a href="/" target="_blank">View package</a> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Kinova Movo" src="/assets/images/robots/Kinova Movo.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>Movo</h2>
+					<h3>Kinova</h3>
+					<!-- <a href="/" target="_blank">View package</a> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="KUKA KR 10" src="/assets/images/robots/KUKA kr210.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>KR 10</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="KUKA KR 210" src="/assets/images/robots/KUKA kr210.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>KR 210</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="KUKA KR 150" src="/assets/images/robots/KUKA KR 150.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>KR 150</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="KUKA KR 16" src="/assets/images/robots/KUKA KR 16.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>KR 16</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="KUKA KR 3" src="/assets/images/robots/KUKA KR 5.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>KR 3</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="KUKA KR 5" src="/assets/images/robots/KUKA KR 5.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>KR 5</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="KUKA KR 6" src="/assets/images/robots/KUKA KR 6.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>KR 6</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="KUKA KR IIWA" src="/assets/images/robots/KUKA IIWA.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>KR IIWA</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman SIA10d" src="/wordpress/wp-content/uploads/2013/12/motomansia10d-e1388518407577.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>SIA5/SIA10d/SIA20</h2>
+					<h3>Motoman</h3>
+					<a href="/robots/sia5/">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman bmda3" src="/assets/images/robots/Motoman bmda3.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>bmda3</h2>
+					<h3>Motoman</h3>
+					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman epx series" src="/assets/images/robots/Motoman epx.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>epx series</h2>
+					<h3>Motoman</h3>
+					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman mh5" src="/assets/images/robots/Motoman mh5.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>mh5</h2>
+					<h3>Motoman</h3>
+					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman mh" src="/assets/images/robots/Motoman mh5.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>mh</h2>
+					<h3>Motoman</h3>
+					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman mpl80" src="/assets/images/robots/Motoman mh5.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>mpl80</h2>
+					<h3>Motoman</h3>
+					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="NASA Johnson Space Center Valkyrie" src="/assets/images/robots/NASA Johnson Space Center Valkyrie.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>Valkyrie</h2>
+					<h3>NASA Johnson Space Center</h3>
+					<!-- <a href="/" target="_blank">View package</a> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Unbounded Robotics UBR-1" src="/assets/images/robots/Unbounded Robotics UBR-1.jpeg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>UBR-1</h2>
+					<h3>Unbounded Robotics</h3>
+					<!-- <a href="/" target="_blank">View package</a> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Rethink Robotics Baxter Research Robot" src="/assets/images/robots/Rethink Robotics Baxter Research Robot.jpeg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>Baxter Research Robot</h2>
+					<h3>Rethink Robotics</h3>
+					<a href="/robots/baxter-research-robot/">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Rethink Robotics Sawyer" src="/assets/images/robots/Rethink Robotics Sawyer.jpeg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>Sawyer</h2>
+					<h3>Rethink Robotics</h3>
+					<a href="http://sdk.rethinkrobotics.com" target="_blank">View website</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Robotnik JR2" src="/assets/images/robots/Robotnik  JR2.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>JR2</h2>
+					<h3>Robotnik</h3>
+					<!-- <a href="/" target="_blank">View package</a> -->
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Staubli rx160" src="/assets/images/robots/Staubli rx160.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>rx160</h2>
+					<h3>Staubli</h3>
+					<a href="http://sdk.rethinkrobotics.com" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Universal Robots UR3" src="/assets/images/robots/Universal Robots UR3.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>UR3</h2>
+					<h3>Universal Robots</h3>
+					<a href="https://github.com/ros-industrial/universal_robot" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12">
+			<div class="robots-main--bottom">
+				<hr/>
+				<p><strong>Need Custom Development?</strong> If you need help with integration of MoveIt! on your robot or applications, please contact <a href="http://picknik.ai/connect" target="_blank">PickNik Consulting</a>
+				</p>
 			</div>
 		</div>
 	</div>
