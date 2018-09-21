@@ -22,7 +22,7 @@ redirect_from: '/moveit/'
                             <p class="main-text">Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation</p>
                             <div class="button-group">
                                 <a class="button button-yellow" href="/">Watch our montage</a>
-                                <a class="button button-transparent" href="/">Learn more</a>
+                                <a class="button button-transparent" href="http://moveit.ros.org/documentation/faqs/">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -31,16 +31,16 @@ redirect_from: '/moveit/'
                             <img class="robot-hand" src="/assets/images/main/hero@2x.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
-                                    Latest: Ubuntu 16.04
+                                    Latest: Melodic / Ubuntu 18.04
                                 </div>
-                                <a href="/" class="info-box-button button">Install from debian</a>
+                                <a href="http://moveit.ros.org/install/" target="_blank" class="info-box-button button">Install from debian</a>
                                 <div class="info-box-version">
-                                    Version: 1.26.1
+                                    Version: 0.10.0
                                 </div>
                                 <div class="link-group">
-                                    <a href="/" class="info-box-link">Install from Source</a>
+                                    <a href="http://moveit.ros.org/install/source/" target="_blank" class="info-box-link">Install from Source</a>
                                     <span>|</span>
-                                    <a href="/" class="info-box-link">View on Github</a>
+                                    <a href="https://github.com/ros-planning/moveit" target="_blank" class="info-box-link">View on Github</a>
                                 </div>
                                 <img src="/assets/images/logo/ROS_logo.png" alt="ROS logo" class="info-box-logo" />
                             </div>
@@ -59,7 +59,7 @@ redirect_from: '/moveit/'
                                         Motion planning
                                     </h3>
                                     <p>
-                                        Cras sit amet efficitur tellus aenean hendrerit magna at lorem luctus molestie.
+                                        Generate high-degree of freedom trajectories through cluttered environments and avoid local minimums.
                                     </p>
                                 </li>
                                 <li>
@@ -70,7 +70,7 @@ redirect_from: '/moveit/'
                                         Manipulation
                                     </h3>
                                     <p>
-                                        Donec elementum ac nunc non fermentum. Donec sit amet turpis.
+                                        Analyze and interact with your environment with grasp generation
                                     </p>
                                 </li>
                                 <li>
@@ -78,10 +78,10 @@ redirect_from: '/moveit/'
                                         <img src="/assets/images/icons/ic-kinematics.svg">
                                     </span>
                                     <h3>
-                                        Kinematics
+                                        Inverse Kinematics
                                     </h3>
                                     <p>
-                                        Nunc semper neque et ante vestibulum volutpat. Vivamus posuere justo.
+                                        Solve for joint positions for a given pose, even in over-actuated arms
                                     </p>
                                 </li>
                                 <li>
@@ -92,7 +92,7 @@ redirect_from: '/moveit/'
                                         Control
                                     </h3>
                                     <p>
-                                        Phasellus ut ligula a nunc vestibulum euismod. Morbi sollicitudin nulla.
+                                        Execute time-parameterized joint trajectories to low level hardware controllers through common interfaces
                                     </p>
                                 </li>
                                 <li>
@@ -103,7 +103,7 @@ redirect_from: '/moveit/'
                                         3D Perception
                                     </h3>
                                     <p>
-                                        Mauris ac quam euismod, pharetra orci id, ornare augue.
+                                        Connect to depth sensors and point clouds with Octomaps
                                     </p>
                                 </li>
                                 <li>
@@ -111,10 +111,10 @@ redirect_from: '/moveit/'
                                         <img src="/assets/images/icons/ic-navigation.svg">
                                     </span>
                                     <h3>
-                                        Navigation
+                                        Collision Checking
                                     </h3>
                                     <p>
-                                        Sed consequat, eros eu tristique laoreet, mi ex fermentum diam.
+                                        Avoid obstacles using geometric primitives, meshes, or point cloud data
                                     </p>
                                 </li>
                             </ul>
