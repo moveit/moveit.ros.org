@@ -79,7 +79,7 @@ FCL is MoveIt!'s default collision checker, their official install instructions 
 
 To install from source within catkin, first remove any binary installed verions:
 
-    sudo apt-get -qq remove libfcl0 libfcl-dev ros-kinetic-octomap
+    sudo apt-get -qq remove libfcl0 libfcl-dev
     sudo apt-get -qq install libccd-dev
 
 Clone the repo into your catkin workspace and choose the version used by your current ROS version:
@@ -92,6 +92,8 @@ Next manually add a package.xml as used in the ROS release wrapper:
 
     wget https://raw.githubusercontent.com/ros-gbp/fcl-release/debian/jade/fcl/package.xml
 
-In order for ``moveit_core`` to wait until ``fcl`` is finished build, edit ``fcl/package.xml`` and rename the project to ``libfcl-dev``.
+In order for ``moveit_core`` to wait until ``fcl`` is finished build, edit ``fcl/package.xml`` and
+ - Rename the project to ``libfcl-dev``
+ - Rename dependency ``libccd`` to ``libccd-dev``
 
-Now you should be able to build using regular ``catkin build``
+Now you should be able to build using ``catkin build --install``. Note the install flag is unfortuantly required for reasons that are unclear to this author.
