@@ -64,15 +64,19 @@ img {
   height: 80px;
   background: linear-gradient(45deg, transparent 50%, $white 50%);
   z-index: 1;
-  @media screen and (max-width: 1199px){
-    width: 91px;
-    height: 91px;
+}
+
+
+.github-corner{
+  &:hover{
+    .octo-arm{
+      animation: octocat-wave 560ms ease-in-out infinite;
+    }
   }
-  img {
-    width: 40px;
-    position: absolute;
-    transform: rotate(45deg);
-    top: 10px;
-    left: 35px;
-  }
+}
+
+@keyframes octocat-wave{
+  0%,100%{transform:rotate(0)}
+  20%,60%{transform:rotate(-25deg)}
+  40%,80%{transform:rotate(10deg)}
 }

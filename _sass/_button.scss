@@ -8,6 +8,7 @@
   font-size: 13px;
   display: inline-block;
   border: 1px solid $blue;
+  cursor: pointer;
   &:hover {
     background-color: $white;
     color: $blue;

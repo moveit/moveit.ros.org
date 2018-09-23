@@ -11,6 +11,21 @@ redirect_from: '/moveit/'
     <div class='row'>
       <div class='col-sm-12'>
             <div class="homepage">
+                <div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="modalVideoLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Montage video</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0og1SaZYtRc" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="row justify-content-between">
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
@@ -21,7 +36,7 @@ redirect_from: '/moveit/'
                             <h1>Moving robots into the future</h1>
                             <p class="main-text">Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation</p>
                             <div class="button-group">
-                                <a class="button button-yellow" href="/">Watch our montage</a>
+                                <button class="button button-yellow" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
                                 <a class="button button-transparent" href="http://moveit.ros.org/documentation/faqs/">Learn more</a>
                             </div>
                         </div>
