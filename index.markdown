@@ -36,7 +36,8 @@ redirect_from: '/moveit/'
                             <h1>Moving robots into the future</h1>
                             <p class="main-text">Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation</p>
                             <div class="button-group">
-                                <button class="button button-yellow" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
+                                <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
+                                <a class="button button-yellow modal-link" href="https://www.youtube.com/watch?v=0og1SaZYtRc" target="_blank">Watch our montage</a>
                                 <a class="button button-transparent" href="http://moveit.ros.org/documentation/faqs/">Learn more</a>
                             </div>
                         </div>
@@ -206,7 +207,7 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12'>
                     <h2 class="h1 text-center">Current and Future Versions</h2>
                 </div>
-                <div class='col-sm-12'>
+                <div class='col-sm-12 time-line-wrappper'>
                     <h3>Melodic Morenia LTS</h3>
                     <div class="time-line">
                         <div class="time-line--blue"></div>
