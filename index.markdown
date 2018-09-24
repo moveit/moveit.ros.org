@@ -228,14 +228,14 @@ redirect_from: '/moveit/'
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
                                 Feature freeze
-                                <small>12 April 2018</small>
+                                <small>April 2019</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--red"></span>
                             <p>
                                 Code freeze
-                                <small>15 May 2019</small>
+                                <small>May 2019</small>
                             </p>
                         </div>
                         <div class="time-line--info">
@@ -263,7 +263,7 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>Melodic LTS</h3>
-                        <span class="label label--green">In Development</span>
+                        <span class="label label--blue">In Development</span>
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 17.10, 18.04</p>
@@ -293,7 +293,7 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>Indigo</h3>
-                        <span class="label label--blue">Maintained</span>
+                        <span class="label label--orange">Maintained</span>
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 14.04</p>
