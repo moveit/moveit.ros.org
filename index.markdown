@@ -214,31 +214,31 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="time-line-content">
                         <div class="time-line--info">
-                            <p>June 25 2019</p>
+                            <p>23 May 2018</p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--blue"></span>
                             <p>
                                 Development
-                                <small>June 25 2018</small>
+                                <small>23 May 2018</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
                                 Feature freeze
-                                <small>August 31 2018</small>
+                                <small>12 April 2018</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--red"></span>
                             <p>
                                 Code freeze
-                                <small>December 31 2018</small>
+                                <small>15 May 2019</small>
                             </p>
                         </div>
                         <div class="time-line--info">
-                            <p>June 25 2019</p>
+                            <p>23 May 2019</p>
                         </div>
                     </div>
                 </div>
@@ -246,71 +246,92 @@ redirect_from: '/moveit/'
             <div class='row'>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>Indigo</h3>
-                        <span class="label label--blue">NEW</span>
+                        <h3>MoveIt! 2.0</h3>
+                        <span class="label label--green">Seeking Funding</span>
                     </div>
                     <div class="version-date">
-                        <p>Date released: 04/24/2018</p>
-                        <p>End of life: TBD</p>
+                        <p><span>Platforms:</span> Ubuntu 18.04</p>
+                        <p><span>Date released:</span> TBD</p>
+                        <p><span>End of life:</span> TBD</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
+                        <p>PickNik is actively seeking funding for development of this critical component to the ROS2 ecosystem.</p>
+                    </div>
+                </div>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
+                    <div class="version-header">
+                        <h3>Melodic LTS</h3>
+                        <span class="label label--green">In Development</span>
+                    </div>
+                    <div class="version-date">
+                        <p><span>Platforms:</span> Ubuntu 17.10, 18.04</p>
+                        <p><span>Date released:</span> 23 May 2018</p>
+                        <p><span>End of life:</span> May 2023</p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>This LTS builds on the latest version of ROS1 but has had less adoption because it does not run on Ubuntu 16.04. Breaking API changes are accepted.</p>
+                    </div>
+                </div>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
+                    <div class="version-header">
+                        <h3>Kinetic LTS</h3>
+                        <span class="label label--green">Recommended</span>
+                    </div>
+                    <div class="version-date">
+                        <p><span>Platforms:</span> Ubuntu 15.10, 16.04</p>
+                        <p><span>Date released:</span> 23 May 2016</p>
+                        <p><span>End of life:</span> TBD</p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>This LTS is still actively being improved as its the most popular version amoung the maintainers. The API should be stable, but not ABI.</p>
+                    </div>
+                </div>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
+                    <div class="version-header">
+                        <h3>Indigo</h3>
+                        <span class="label label--blue">Maintained</span>
+                    </div>
+                    <div class="version-date">
+                        <p><span>Platforms:</span> Ubuntu 14.04</p>
+                        <p><span>Date released:</span> 22 July 2014</p>
+                        <p><span>End of life:</span> April 2019</p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>This LTS is still still used by some users but only critical bug fixes are accepted. The API is stable.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>Lunar</h3>
-                        <span class="label label--red">DISCONTINUED</span>
+                        <span class="label label--red">Discontinued</span>
                     </div>
                     <div class="version-date">
-                        <p>Date released: 04/24/2018</p>
-                        <p>End of life: TBD</p>
+                        <p><span>Platforms:</span> Ubuntu 16.04, 16.10, 17.04</p>
+                        <p><span>Date released:</span> 23 May 2017</p>
+                        <p><span>End of life:</span> 23 May 2018</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
+                        <p>This non-LTS was released as debians until ROS Melodic was released. We no longer release updates for the Lunar distro.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>Kinetic</h3>
+                        <h3>Jade</h3>
+                        <span class="label label--red">Discontinued</span>
                     </div>
                     <div class="version-date">
-                        <p>Date released: 04/24/2018</p>
-                        <p>End of life: TBD</p>
+                        <p><span>Platforms:</span> Ubuntu 14.04, 14.10, 15.04</p>
+                        <p><span>Date released:</span> 23 May 2015</p>
+                        <p><span>End of life:</span> 23 May 2016</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Melodic</h3>
-                        <span class="label label--blue">NEXT RELEASE</span>
-                    </div>
-                    <div class="version-date">
-                        <p>Date released: 04/24/2018</p>
-                        <p>End of life: TBD</p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>MoveIt! 2.0</h3>
-                        <span class="label label--green">COMING SOON</span>
-                    </div>
-                    <div class="version-date">
-                        <p>Date released: 04/24/2018</p>
-                        <p>End of life: TBD</p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>Quisque dapibus interdum erat, in pulvinar turpis tincidunt non. Donec enim ligula, luctus et odio eget, dignissim semper nibh. Aenean mi turpis, malesuada et sem blandit, imperdiet sodales libero.</p>
+                        <p>This non-LTS was released as debians until ROS Kinetic was released. We no longer release updates for the Jade distro.</p>
                     </div>
                 </div>
             </div>
