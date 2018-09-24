@@ -207,7 +207,7 @@ redirect_from: '/moveit/'
                     <h2 class="h1 text-center">Current and Future Versions</h2>
                 </div>
                 <div class='col-sm-12'>
-                    <h3>MoveIt! 2.0</h3>
+                    <h3>Melodic Morenia LTS</h3>
                     <div class="time-line">
                         <div class="time-line--blue"></div>
                         <div class="time-line--orange"></div>
