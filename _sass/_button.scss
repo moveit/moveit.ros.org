@@ -52,4 +52,15 @@
       color: #fff;
     }
   }
+  &.modal-btn{
+    @media screen and (max-width: 601px){
+      display: none;
+    }
+  }
+  &.modal-link{
+    display: none;
+    @media screen and (max-width: 601px){
+      display: inline-block;
+    }
+  }
 }
