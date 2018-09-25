@@ -3,7 +3,7 @@ body {
   color: $dark-text;
   font-family: $font-family-base;
   &.black {
-    background: linear-gradient(to top, #1D1F25 0%, #15161B 100%);
+    background: linear-gradient(to top, #1d1f25 0%, #15161b 100%);
     color: $text;
     h1 {
       color: $white;
@@ -11,27 +11,48 @@ body {
   }
 }
 
-.container{
-  &-blog{
+.container {
+  &-blog {
     margin: 40px auto;
   }
-  &-navigation{
-    @media screen and (max-width: 992px){
+  &-navigation {
+    @media screen and (max-width: 992px) {
       max-width: none !important;
     }
   }
-  &-footer{
-    @media screen and (max-width: 768px){
+  &-footer {
+    @media screen and (max-width: 768px) {
       max-width: 100%;
     }
   }
 }
-
-pre code {
-  font-size: 90%;
+pre {
+  &.highlight {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  code {
+    font-size: 90%;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
+  }
 }
 
-h1, .h1{
+h1,
+.h1 {
   font-size: 40px;
   margin-bottom: 40px;
   line-height: 64px;
@@ -47,13 +68,24 @@ a {
 
 p {
   margin-bottom: 10px;
-  &.dark-text{
+  &.dark-text {
     color: $dark-text;
   }
 }
 
 img {
   max-width: 100%;
+}
+
+.sub-pages {
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  h3 {
+    margin-bottom: 13px;
+    margin-top: 25px;
+  }
 }
 
 .github {
@@ -66,17 +98,25 @@ img {
   z-index: 1;
 }
 
-
-.github-corner{
-  &:hover{
-    .octo-arm{
+.github-corner {
+  &:hover {
+    .octo-arm {
       animation: octocat-wave 560ms ease-in-out infinite;
     }
   }
 }
 
-@keyframes octocat-wave{
-  0%,100%{transform:rotate(0)}
-  20%,60%{transform:rotate(-25deg)}
-  40%,80%{transform:rotate(10deg)}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
 }

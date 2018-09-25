@@ -42,14 +42,14 @@ This will attempt to use nvidia-docker if hardware and drivers are available.
 
     docker run -it moveit/moveit:kinetic-release
 
-## MoveIt! Contrainer Types
+## MoveIt! Container Types
 
 There are many variants of the MoveIt! Docker available as documented [here](http://moveit.ros.org/documentation/contributing/continuous_integration/). For example, any of the three current distros work: [indigo, kinetic, lunar]. Over variations include:
 
- - **moveit/moveit:kinetic-source** contains a full MoveIt! workspace downloaded and built to ~/ws_moveit/src. This container is useful for developers wanting to test or develop in a sandbox.
- - **moveit/moveit:kinetic-release** builds ontop of the CI image, the full debian-based install of MoveIt! using apt-get.
- - **moveit/moveit:kinetic-ci** an image optimized for running continuous integration with Travis
- - **moveit/moveit:kinetic-ci-shadow** an image optimized for running continuous integration with Travis using the latest unreleased build of ROS
+- **moveit/moveit:kinetic-source** contains a full MoveIt! workspace downloaded and built to ~/ws_moveit/src. This container is useful for developers wanting to test or develop in a sandbox.
+- **moveit/moveit:kinetic-release** builds ontop of the CI image, the full debian-based install of MoveIt! using apt-get.
+- **moveit/moveit:kinetic-ci** an image optimized for running continuous integration with Travis
+- **moveit/moveit:kinetic-ci-shadow** an image optimized for running continuous integration with Travis using the latest unreleased build of ROS
 
 ## Advanced
 

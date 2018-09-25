@@ -1,31 +1,36 @@
 .homepage {
-  .main{
+  &-main-wrapper {
+    @media screen and (max-width: 1440px) {
+      overflow-x: hidden;
+    }
+  }
+  .main {
     margin-bottom: 200px;
-    @media screen and (max-width: 992px){
+    @media screen and (max-width: 992px) {
       max-width: 80%;
       margin: 0 auto 100px;
       text-align: center;
     }
     &-tag {
-      background-color: #27282E;
+      background-color: #27282e;
       color: #fff;
       border-radius: 16px;
       font-size: 12px;
       padding: 2px;
       margin-bottom: 20px;
       text-align: left;
-      @media screen and (max-width: 520px){
+      @media screen and (max-width: 520px) {
         text-align: center;
       }
       span {
         display: inline-block;
         margin-left: 5px;
         border-radius: 16px;
-        @media screen and (max-width: 520px){
+        @media screen and (max-width: 520px) {
           margin: 5px;
         }
         &.blue {
-          background-color: #0A58F7;
+          background-color: #0a58f7;
           margin-right: 5px;
           padding: 0px 10px;
           margin-left: 0;
@@ -41,23 +46,23 @@
   .info-box {
     position: relative;
     margin-bottom: 250px;
-    @media screen and (max-width: 992px){
+    @media screen and (max-width: 992px) {
       margin: 0 auto 250px;
       display: flex;
       justify-content: space-around;
     }
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 768px) {
       margin-bottom: 100px;
     }
     .robot-hand {
       width: 700px;
       max-width: none;
-      @media screen and (max-width: 992px){
+      @media screen and (max-width: 992px) {
         position: absolute;
         width: 500px;
         z-index: -1;
       }
-      @media screen and (max-width: 520px){
+      @media screen and (max-width: 520px) {
         left: 5px;
       }
     }
@@ -69,23 +74,23 @@
       bottom: -70px;
       left: -100px;
       border-radius: 4px;
-      box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
-      @media screen and (max-width: 992px){
+      box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+      @media screen and (max-width: 992px) {
         position: static;
         margin-top: 238px;
       }
-      @media screen and (max-width: 520px){
+      @media screen and (max-width: 520px) {
         padding: 15px 60px;
       }
     }
     &-header {
       font-size: 18px;
-      color: #1A1B21;
+      color: #1a1b21;
       margin: 20px auto;
     }
     &-version {
       font-size: 14px;
-      color: rgba(27,28,34,0.6);
+      color: rgba(27, 28, 34, 0.6);
       margin-bottom: 15px;
     }
     &-logo {
@@ -93,10 +98,10 @@
     }
     .link-group {
       font-size: 14px;
-      color: #191A1F;
+      color: #191a1f;
       margin-bottom: 20px;
       a {
-        color: #191A1F;
+        color: #191a1f;
         padding: 0 5px;
         &:hover {
           color: #007bff;
@@ -119,8 +124,8 @@
     background-color: #333439;
   }
 
-  .time-line-wrappper{
-    @media screen and (max-width: 992px){
+  .time-line-wrappper {
+    @media screen and (max-width: 992px) {
       display: none;
     }
   }
@@ -128,7 +133,7 @@
   h2 {
     padding-top: 150px;
     color: $white;
-    @media screen and (max-width: 992px){
+    @media screen and (max-width: 992px) {
       padding-top: 50px;
     }
   }
@@ -143,17 +148,17 @@
     border-radius: 4px;
     height: 24px;
     margin: 20px auto;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
   }
   .time-line--blue {
-    background-color: #0A58F7;
+    background-color: #0a58f7;
     border-radius: 4px 0 0 4px;
     width: 40%;
   }
   .time-line--orange {
     border-radius: 0 4px 4px 0;
     width: 15%;
-    background-color: #F7A20A;
+    background-color: #f7a20a;
   }
   .time-line-content {
     display: flex;
@@ -169,7 +174,7 @@
       justify-content: flex-end;
     }
     small {
-      display: block
+      display: block;
     }
   }
   .time-line-box {
@@ -181,20 +186,20 @@
     top: 5px;
   }
   .time-line-box--blue {
-    background-color: #0A58F7;
+    background-color: #0a58f7;
   }
   .time-line-box--red {
-    background-color: #F70A0A;
+    background-color: #f70a0a;
   }
   .time-line-box--orange {
-    background-color: #F7A20A;
+    background-color: #f7a20a;
   }
 
   .version-wrapper {
     margin-bottom: 70px;
   }
 
-  .version-header{
+  .version-header {
     display: flex;
     h3 {
       font-size: 40px;
@@ -204,46 +209,46 @@
     }
     .label {
       border-radius: 16px;
-      color: rgba(255,255,255,0.8);
+      color: rgba(255, 255, 255, 0.8);
       font-size: 12px;
       padding: 2px 12px;
       align-self: center;
       text-transform: uppercase;
     }
     .label--blue {
-      background-color: #0A58F7;
+      background-color: #0a58f7;
     }
     .label--red {
-      background-color: #F70A0A;
+      background-color: #f70a0a;
     }
     .label--orange {
-      background-color: #F7A20A;
+      background-color: #f7a20a;
     }
     .label--green {
-      background-color: #0AF74D;
-      color: rgba(0,0,0,0.8);
+      background-color: #0af74d;
+      color: rgba(0, 0, 0, 0.8);
     }
   }
 
-  .version-date{
+  .version-date {
     margin-bottom: 20px;
-    p{
+    p {
       margin-bottom: 0;
-      span{
+      span {
         color: $white;
       }
     }
   }
 
-  .version-content{
+  .version-content {
     max-width: 340px;
-    h4{
+    h4 {
       color: $white;
       font-size: 17px;
       font-weight: bold;
       line-height: 21px;
     }
-    p{
+    p {
       font-size: 17px;
       line-height: 32px;
     }
