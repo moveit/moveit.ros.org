@@ -106,3 +106,5 @@ We'd like to thank the following sponsors:
 [<img src="/assets/images/wmd18/omronsinicx_logo.jpeg" alt="OMRON SINIC X Corporation" width="200" css="margin-right:20px"/>](http://tinyurl.com/omronsinicx)
 
 [<img src="/assets/images/wmd18/swri_logo.jpg" alt="Southwest Research Institute" width="200" css="margin-right:20px"/>](https://www.swri.org/)
+
+[<img src="/assets/images/wmd18/cic-du.png" alt="Cluster Innovation Centre" width="150" css="margin-right:20px"/>](https://ducic.ac.in/)
