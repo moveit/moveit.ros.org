@@ -1,7 +1,7 @@
 footer {
   background: radial-gradient(circle, #1d1f25 0%, #15161b 100%);
   padding: 60px 0;
-  @media screen and (max-width: 575px){
+  @media screen and (max-width: 575px) {
     text-align: center;
   }
 
@@ -14,9 +14,13 @@ footer {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.4);
     margin-bottom: 20px;
-    @media screen and (max-width: 575px){
+    @media screen and (max-width: 575px) {
       margin-top: 50px;
     }
+  }
+
+  p {
+    color: $text;
   }
 
   ul {
@@ -33,7 +37,7 @@ footer {
 
   .button {
     margin-top: 50px;
-    @media screen and (max-width: 575px){
+    @media screen and (max-width: 575px) {
       margin-top: 20px;
       margin-bottom: 50px;
     }

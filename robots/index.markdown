@@ -7,6 +7,7 @@ slug: robots
 title: Robots
 wordpress_id: 127
 ---
+
 <div class="robots">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12">
@@ -14,7 +15,7 @@ wordpress_id: 127
 				<h1>{{page.title}}</h1>
 				<p>MoveIt! has now been used on over 100 robots by the community. On this page, click on the robots to see more information about using MoveIt! with different robots.</p>
 				<hr/>
-				<p>See something missing? If you would like to add a robot to this list, please email <a href="mailto:dave@picknik.ai">dave@picknik.ai.</a></p>
+				<p>See something missing? If you would like to add a robot to this list, please email <a href="mailto:support@picknik.ai">support@picknik.ai</a></p>
 				<p>We are also looking for robot maintainers and new robots. If you are willing to maintain the MoveIt! packages for any robot in this list please post on the <a href="https://discourse.ros.org/c/moveit" target="_blank">ROS Discourse category</a>.</p>
 			</div>
 		</div>
@@ -28,7 +29,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>UR5/UR10</h2>
 					<h3>Universal Robots</h3>
-					<a href="/robots/ur5/">View package</a>
+					<a href="https://github.com/ros-industrial/universal_robot" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -100,7 +101,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>LWR/LBR</h2>
 					<h3>KUKA</h3>
-					<a href="/robots/kuka-lwrlbr/">View package</a>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -112,7 +113,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>OmniRob</h2>
 					<h3>KUKA</h3>
-					<a href="/robots/kuka-omnirob">View package</a>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -484,7 +485,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>REEM-C</h2>
 					<h3>PAL Robotics</h3>
-					<a href="/robots/pal-robotics-reem-c">View package</a>
+					<a href="http://pal-robotics.com/en/products/reem-c/" target="_blank">View website</a>
 				</div>
 			</div>
 		</div>
@@ -508,7 +509,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>youbot</h2>
 					<h3>KUKA</h3>
-					<a href="/robots/kuka-youbot">View package</a>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -532,7 +533,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>HOLLIE</h2>
 					<h3>Youbot</h3>
-					<a href="/robots/hollie/">View package</a>
+					<a href="http://www.fzi.de/forschung/projekt-details/hollie" target="_blank">View website</a>
 				</div>
 			</div>
 		</div>
@@ -544,7 +545,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Bioloid</h2>
 					<h3>Robotis</h3>
-					<a href="/robots/robotis-bioloid/">View package</a>
+					<a href="https://dxydas.wordpress.com" target="_blank">View website</a>
 				</div>
 			</div>
 		</div>
@@ -640,7 +641,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>IRB 2400</h2>
 					<h3>ABB</h3>
-					<a href="/robots/abb-irb-2400/">View package</a>
+					<a href="https://github.com/ros-industrial/abb" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -760,7 +761,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>m10ia</h2>
 					<h3>Fanuc</h3>
-					<a href="/robots/fanuc-m10ia">View package</a>
+					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -1072,7 +1073,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>SIA5/SIA10d/SIA20</h2>
 					<h3>Motoman</h3>
-					<a href="/robots/sia5/">View package</a>
+					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -1168,7 +1169,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Baxter Research Robot</h2>
 					<h3>Rethink Robotics</h3>
-					<a href="/robots/baxter-research-robot/">View package</a>
+					<a href="http://sdk.rethinkrobotics.com" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>

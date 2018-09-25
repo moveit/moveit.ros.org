@@ -10,29 +10,33 @@ title: Blog
 
 <div class="row">
   {% for post in site.posts limit: 1 %}
-    <div class="col-sm-6 col-lg-8">
-      <a href="{{ post.url }}">
-        {% if post.media_type == 'video' %}
-        <div class="blog-image-wrapper blog-image-wrapper-main">
-          <iframe style="width:100%; " height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
-        </div>
-        {% elsif post.media_type == 'image' %}
-        <div class="blog-image-wrapper blog-image-wrapper-main">
-          <img src="{{ post.media_link }}" style="width:100%; ">
-        </div>
-        {% endif %}
-      </a>
-    </div>
-    <div class="col-sm-6 col-lg-4 blog-align-center">
-      <a href="{{ post.url }}">
-        <div class="blog-text-wrapper">
-          <h3>
-            {{ post.title }}
-          </h3>
-          <p class="dark-text">{{ post.description }}</p>
-        </div>
-      </a>
-    </div>
+  <div class="col-sm-6 col-lg-8">
+    <a href="{{ post.url }}">
+      {% if post.media_type == 'video' %}
+      <div class="blog-image-wrapper blog-image-wrapper-main">
+        <iframe style="width:100%;" height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+      {% elsif post.media_type == 'image' %}
+      <div class="blog-image-wrapper blog-image-wrapper-main">
+        <img src="{{ post.media_link }}">
+      </div>
+      {% else %}
+      <div class="blog-image-wrapper blog-image-wrapper-main">
+        <img src="/assets/images/main/default-image.png" style="width:100%;">
+      </div>
+      {% endif %}
+    </a>
+  </div>
+  <div class="col-sm-6 col-lg-4 blog-align-center">
+    <a href="{{ post.url }}">
+      <div class="blog-text-wrapper">
+        <h3>
+          {{ post.title }}
+        </h3>
+        <p class="dark-text">{{ post.description }}</p>
+      </div>
+    </a>
+  </div>
   {% endfor %}
 </div>
 <div class="row">
@@ -42,11 +46,11 @@ title: Blog
       <a href="{{ post.url }}">
         {% if post.media_type == 'video' %}
         <div class="blog-image-wrapper">
-          <iframe style="width:100%; " height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
+          <iframe style="width:100%;" height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
         </div>
         {% elsif post.media_type == 'image' %}
         <div class="blog-image-wrapper">
-          <img src="{{ post.media_link }}" style="width:100%;">
+          <img src="{{ post.media_link }}">
         </div>
         {% else %}
         <div class="blog-image-wrapper">

@@ -14,7 +14,7 @@
     color: $blue;
   }
   &-yellow {
-    background-color: #F7A20A;
+    background-color: #f7a20a;
     border-color: #f7a20a;
     color: #000;
     text-transform: uppercase;
@@ -22,14 +22,15 @@
     margin-bottom: 25px;
     &:hover {
       background-color: #000;
-      color: #F7A20A;
+      color: #f7a20a;
     }
   }
+
   &--install {
-    padding: 12px 20px;
+    padding: 12px 18px;
   }
 
-  &-transparent{
+  &-transparent {
     background-color: transparent;
     border-color: #fff;
     color: #fff;
@@ -43,23 +44,23 @@
   }
   &.info-box-button {
     background-color: #fff;
-    color: #0A58F7;
+    color: #0a58f7;
     text-transform: uppercase;
     padding: 10px 28px;
     margin-bottom: 10px;
     &:hover {
-      background-color: #0A58F7;
+      background-color: #0a58f7;
       color: #fff;
     }
   }
-  &.modal-btn{
-    @media screen and (max-width: 601px){
+  &.modal-btn {
+    @media screen and (max-width: 601px) {
       display: none;
     }
   }
-  &.modal-link{
+  &.modal-link {
     display: none;
-    @media screen and (max-width: 601px){
+    @media screen and (max-width: 601px) {
       display: inline-block;
     }
   }

@@ -7,6 +7,7 @@ slug: index
 title: index
 redirect_from: '/moveit/'
 ---
+
 <div class="container">
     <div class='row'>
       <div class='col-sm-12'>
@@ -21,12 +22,12 @@ redirect_from: '/moveit/'
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0og1SaZYtRc" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0og1SaZYtRc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-between">
+                <div class="row justify-content-between homepage-main-wrapper">
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
@@ -140,44 +141,44 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--left">
-                            <h1>MoveIt! Setup Assistant</h1>
-                            <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
+                            <h1>Rviz Motion Planning Plugin</h1>
+                            <p>Out-of-the box visual demonstrations allow new users interactive experimentation with various planning algorithms around obstacles. Execution on physical hardware is then just a click away.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen4.png">
+                        <img style="max-width:100%" alt="Rviz Motion Planning Plugin" src="/assets/images/screens/Rviz Motion Planning Plugin.png">
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen1.png">
+                        <img style="max-width:100%" alt="Setup Assistant" src="/assets/images/screens/Setup Assistant.png">
                     </div>
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
-                            <h1>Rviz Motion Planning Plugin</h1>
-                            <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
+                            <h1>MoveIt! Setup Assistant</h1>
+                            <p>Quickly setup any robot to work with MoveIt! with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control!</p>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--left">
-                            <h1>MoveIt! Setup Assistant</h1>
-                            <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
+                            <h1>Python Scripting and Interpreter</h1>
+                            <p>Use high level Python scripts to orchestrate complex motion planning, leveraging high-performance C++ libraries in the background. Or use the C++ interfaces directly.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen2.png">
+                        <img style="max-width:100%" alt="Python Scripting" src="/assets/images/screens/python2.png">
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Screen" src="/assets/images/screens/screen3.png">
+                        <img style="max-width:100%" alt="Gazebo Simulation" src="/assets/images/screens/Gazebo1.png">
                     </div>
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
-                            <h1>Rviz Motion Planning Plugin</h1>
-                            <p>Cras sit amet efficitur tellus. Aenean hendrerit magna at lorem luctus molestie. Ut dictum eros ut rhoncus varius.</p>
+                            <h1>Gazebo Simulation</h1>
+                            <p>Speed up development and testing cycles by leveraging a full physics-based simulator with MoveIt!. Combine Gazebo, ROS Control, and MoveIt! for a powerful robotics development platform.</p>
                         </div>
                     </div>
                 </div>

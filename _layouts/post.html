@@ -7,13 +7,13 @@
       <div class='col-sm-12 col-md-6'>
         <div class="single-post">
           <div class="image-wrapper">
-          {% if page.media_type == 'video' %}
-          <iframe style="width:100%; " height="315" src="{{ page.media_link }}" frameborder="0" allowfullscreen></iframe>
-          {% elsif page.media_type == 'image' %}
-          <img src="{{ page.media_link }}" style="width:100%;">
-          {% else %}
-          <img src="/assets/images/main/default-image.png" style="width:100%;">
-          {% endif %}
+            {% if page.media_type == 'video' %}
+            <iframe style="width:100%;" height="315" src="{{ page.media_link }}" frameborder="0" allowfullscreen></iframe>
+            {% elsif page.media_type == 'image' %}
+            <img src="{{ page.media_link }}">
+            {% else %}
+            <img src="/assets/images/main/default-image.png" style="width:100%;">
+            {% endif %}
           </div>
           <h3>{{ page.title }}</h3>
           {{ content }}
@@ -22,29 +22,29 @@
       <div class='col-sm-5 col-lg-3 d-sm-none d-md-block'>
         <div class="other-post">
           {% for post in site.related_posts limit:2 %}
-            <div class="col-sm-12">
-              <div class="other-single">
-                <a href="{{ post.url }}">
-                  {% if post.media_type == 'video' %}
-                  <div class="image-wrapper">
-                    <iframe style="width:100%; " height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
-                  </div>
-                  {% elsif post.media_type == 'image' %}
-                  <div class="image-wrapper">
-                    <img src="{{ post.media_link }}" style="width:100%;">
-                  </div>
-                  {% else %}
-                  <div class="image-wrapper">
-                    <img src="/assets/images/main/default-image.png" style="width:100%;">
-                  </div>
-                  {% endif %}
-                  <div class="text-wrapper">
-                    <h3>{{ post.title }}</h3>
-                    <p>{{ post.description }}</p>
-                  </div>
-                </a>
-              </div>
+          <div class="col-sm-12">
+            <div class="other-single">
+              <a href="{{ post.url }}">
+                {% if post.media_type == 'video' %}
+                <div class="image-wrapper">
+                  <iframe style="width:100%;" height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
+                </div>
+                {% elsif post.media_type == 'image' %}
+                <div class="image-wrapper">
+                  <img src="{{ post.media_link }}">
+                </div>
+                {% else %}
+                <div class="image-wrapper">
+                  <img src="/assets/images/main/default-image.png" style="width:100%;">
+                </div>
+                {% endif %}
+                <div class="text-wrapper">
+                  <h3>{{ post.title }}</h3>
+                  <p>{{ post.description }}</p>
+                </div>
+              </a>
             </div>
+          </div>
           {% endfor %}
         </div>
       </div>
