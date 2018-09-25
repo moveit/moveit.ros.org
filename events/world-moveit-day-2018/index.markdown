@@ -28,14 +28,18 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
   - Organizer: Dave Coleman
 - [Fraunhofer IPA](https://www.ipa.fraunhofer.de/en.html) / [RIC-EU](https://rosindustrial.org/ric-eu/), Stuttgart, Germany
   - Organizer: Michael 'v4hn' Görner
+  - [Event details](https://rosindustrial.org/events/2018/10/25/world-moveit-day)
 - [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
   - October 26
   - Organizer: Chan Min Ling
-- [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/), Tokyo, Japan
+- [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/) and [OMRON SINIC X Corporation](http://tinyurl.com/omronsinicx), Tokyo (Kashiwa), Japan
   - October 26
   - Organizer: Ryosuke Tajima
 - [Southwest Research Institute](https://www.swri.org/), San Antonio, USA
   - Organizer: Matt Robinson
+- [Cluster Innovation Centre](https://ducic.ac.in/), New Delhi, India
+  - Organizer: Ridhwan Luthra
+  - [Event Details](https://www.meetup.com/rosindia/events/254064159/)
 
 ## General Information Contacts
 
@@ -98,5 +102,7 @@ We'd like to thank the following sponsors:
 [<img src="/assets/images/wmd18/ros_i_logo.png" alt="ROS-Industrial Asian Pacific Consortium" width="200" css="margin-right:20px"/>](http://rosindustrial.org/ric-apac/)
 
 [<img src="/assets/images/wmd18/tokyo_os_logo.png" alt="Tokyo Opensource Robotics Kyokai Association" width="200" css="margin-right:20px"/>](http://opensource-robotics.tokyo.jp/)
+
+[<img src="/assets/images/wmd18/omronsinicx_logo.jpeg" alt="OMRON SINIC X Corporation" width="200" css="margin-right:20px"/>](http://tinyurl.com/omronsinicx)
 
 [<img src="/assets/images/wmd18/swri_logo.jpg" alt="Southwest Research Institute" width="200" css="margin-right:20px"/>](https://www.swri.org/)
