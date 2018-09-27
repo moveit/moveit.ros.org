@@ -17,8 +17,7 @@ title: Blog
         <iframe style="width:100%;" height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
       </div>
       {% elsif post.media_type == 'image' %}
-      <div class="blog-image-wrapper blog-image-wrapper-main">
-        <img src="{{ post.media_link }}">
+      <div class="blog-image-wrapper blog-image-wrapper-main real-image" style="background-image: url('{{ post.media_link }}');">
       </div>
       {% else %}
       <div class="blog-image-wrapper blog-image-wrapper-main">
@@ -49,8 +48,7 @@ title: Blog
           <iframe style="width:100%;" height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
         </div>
         {% elsif post.media_type == 'image' %}
-        <div class="blog-image-wrapper">
-          <img src="{{ post.media_link }}">
+        <div class="blog-image-wrapper real-image" style="background-image: url('{{ post.media_link }}');">
         </div>
         {% else %}
         <div class="blog-image-wrapper">
