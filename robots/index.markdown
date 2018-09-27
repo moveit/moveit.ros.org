@@ -27,7 +27,7 @@ wordpress_id: 127
 					<img title="Universal Robots UR5" src="/wordpress/wp-content/uploads/2013/12/UR5_Robot01-e1388518464480.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>UR5/UR10</h2>
+					<h2>UR5</h2>
 					<h3>Universal Robots</h3>
 					<a href="https://github.com/ros-industrial/universal_robot" target="_blank">View package</a>
 				</div>
@@ -36,36 +36,60 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="PR2" src="/wordpress/wp-content/uploads/2013/12/PR2-e1388509296455.jpg" alt="">
+					<img title="Universal Robots UR10" src="/wordpress/wp-content/uploads/2013/12/UR5_Robot01-e1388518464480.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>UR10</h2>
+					<h3>Universal Robots</h3>
+					<a href="https://github.com/ros-industrial/universal_robot" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="PR2" src="/assets/images/robots/Willow Garage PR2.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>PR2</h2>
 					<h3>Willow Garage</h3>
-					<a href="/robots/pr2/">View package</a>
+					<a href="https://github.com/ros-planning/moveit_pr2/" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="BDI_Atlas" src="/wordpress/wp-content/uploads/2013/12/BDI_Atlas-e1388509367753.png" alt="">
+					<img title="BDI_Atlas" src="/assets/images/robots/Boston Dynamics Atlas.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>Atlas</h2>
 					<h3>Boston Dynamics</h3>
-					<a href="/robots/bdi-atlas/">View package</a>
+					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/atlas_v3_moveit_config" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="Robonaut" src="/wordpress/wp-content/uploads/2013/12/Robonaut-e1388511469876.png" alt="">
+					<img title="Robonaut" src="/assets/images/robots/NASA Johnson Space Center Robonaut.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>Robonaut</h2>
 					<h3>NASA Johnson Space Center</h3>
 					<a href="/robots/robonaut/">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Robonaut 2" src="/assets/images/robots/NASA Johnson Space Center Robonaut 2.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>Robonaut 2</h2>
+					<h3>NASA Johnson Space Center</h3>
+					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/r2_moveit_generated" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -84,12 +108,24 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="BioRobArm" src="/wordpress/wp-content/uploads/2013/12/BioRobArm-e1388521821293.jpg" alt="">
+					<img title="Bionic Robotics BioRobArm" src="/wordpress/wp-content/uploads/2013/12/BioRobArm-e1388521821293.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>BioRob Arm</h2>
-					<h3></h3>
+					<h3>Bionic Robotics</h3>
 					<a href="/robots/biorob-arm/">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="KUKA-LBR" src="/wordpress/wp-content/uploads/2013/12/KUKA-LWR-e1388522358443.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>LBR</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -99,7 +135,7 @@ wordpress_id: 127
 					<img title="KUKA-LWR" src="/wordpress/wp-content/uploads/2013/12/KUKA-LWR-e1388522358443.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>LWR/LBR</h2>
+					<h2>LWR</h2>
 					<h3>KUKA</h3>
 					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
 				</div>
@@ -120,10 +156,10 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img class="alignnone size-full wp-image-455" title="hoap3" src="/wordpress/wp-content/uploads/2013/12/hoap3-e1388525014516.jpg" alt="">
+					<img class="alignnone size-full wp-image-455" title="hoap3" src="/assets/images/robots/Fujitsu Hoap3.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>HOAP3</h2>
+					<h2>HOAP-3</h2>
 					<h3>Fujitsu</h3>
 					<a href="/robots/hoap3/">View package</a>
 				</div>
@@ -144,7 +180,7 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="tum_rosie" src="/wordpress/wp-content/uploads/2013/12/tum_rosie-e1388525208828.jpg" alt="">
+					<img title="tum_rosie" src="/assets/images/robots/TUM Rosie.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>Rosie</h2>
@@ -183,7 +219,7 @@ wordpress_id: 127
 					<img title="HRP-4-big" src="/wordpress/wp-content/uploads/2013/12/HRP-4-big-e1388526318605.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>HRP 4</h2>
+					<h2>HRP-4</h2>
 					<h3>Kawada</h3>
 					<a href="/robots/hrp-4/">View package</a>
 				</div>
@@ -243,7 +279,7 @@ wordpress_id: 127
 					<img title="hrp-2" src="/wordpress/wp-content/uploads/2013/12/hrp-2-e1388526968197.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>HRP 2</h2>
+					<h2>HRP-2</h2>
 					<h3>Kawada</h3>
 					<a href="/robots/hrp-2/">View package</a>
 				</div>
@@ -252,7 +288,7 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="SchunkDextrousHand" src="/wordpress/wp-content/uploads/2013/12/SchunkDextrousHand-e1388530720580.jpg" alt="">
+					<img title="SchunkDextrousHand" src="/assets/images/robots/Schunk Dextrous Hand.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>Dextrous Hand</h2>
@@ -291,7 +327,7 @@ wordpress_id: 127
 					<img title="denso_vs060" src="/wordpress/wp-content/uploads/2013/12/denso_vs060-e1388531067495.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>vs060</h2>
+					<h2>Robot (vs060)</h2>
 					<h3>Denso</h3>
 					<a href="/robots/denso-vs060/">View package</a>
 				</div>
@@ -312,11 +348,11 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="hubo" src="/wordpress/wp-content/uploads/2013/12/hubo-e1388531632150.jpg" alt="">
+					<img title="hubo" src="/assets/images/robots/Kaist Hubo.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>Hubo</h2>
-					<h3></h3>
+					<h3>Kaist</h3>
 					<a href="/robots/hubo/">View package</a>
 				</div>
 			</div>
@@ -396,12 +432,12 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="PAL-REEM" src="/wordpress/wp-content/uploads/2013/12/PAL-REEM-e1388532330290.jpg" alt="">
+					<img title="PAL-REEM" src="/assets/images/robots/PAL Robotics REEM.png" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>REEM</h2>
 					<h3>PAL Robotics</h3>
-					<a href="/robots/pal-robotics-reem">View package</a>
+					<a href="https://github.com/pal-robotics/reem_moveit_config" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -413,7 +449,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>TIAGo</h2>
 					<h3>PAL Robotics</h3>
-					<a href="/robots/pal-robotics-tiago">View package</a>
+					<a href="https://github.com/pal-robotics/tiago_moveit_config" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -480,12 +516,12 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="PAL-REEM-C" src="/wordpress/wp-content/uploads/2013/12/PAL-REEM-C-e1388532733759.jpg" alt="">
+					<img title="PAL-REEM-C" src="/assets/images/robots/PAL Robotics REEM-C.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>REEM-C</h2>
 					<h3>PAL Robotics</h3>
-					<a href="http://pal-robotics.com/en/products/reem-c/" target="_blank">View website</a>
+					<a href="https://github.com/pal-robotics/reemc_moveit_config" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -507,7 +543,7 @@ wordpress_id: 127
 					<img title="KUKA-youbot" src="/wordpress/wp-content/uploads/2013/12/KUKA-youbot-e1388602391704.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>youbot</h2>
+					<h2>Youbot</h2>
 					<h3>KUKA</h3>
 					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
 				</div>
@@ -516,7 +552,7 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="meka_m3" src="/wordpress/wp-content/uploads/2013/12/meka_m3-e1388602452527.jpg" alt="">
+					<img title="meka_m3" src="/assets/images/robots/MEKA M3.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>M3</h2>
@@ -533,7 +569,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>HOLLIE</h2>
 					<h3>Youbot</h3>
-					<a href="http://www.fzi.de/forschung/projekt-details/hollie" target="_blank">View website</a>
+					<a href="http://www.fzi.de/forschung/projekt-details/hollie" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -545,7 +581,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Bioloid</h2>
 					<h3>Robotis</h3>
-					<a href="https://dxydas.wordpress.com" target="_blank">View website</a>
+					<a href="https://dxydas.wordpress.com" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -749,7 +785,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Panda</h2>
 					<h3>Franka Emika</h3>
-					<!-- <a href="/" target="_blank">View package</a> -->
+					<a href="https://github.com/frankaemika/franka_ros" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -929,7 +965,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Fetch</h2>
 					<h3>Fetch Robotics</h3>
-					<!-- <a href="/" target="_blank">View package</a> -->
+					<a href="https://github.com/frankaemika/franka_ros" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -941,7 +977,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Jaco</h2>
 					<h3>Kinova</h3>
-					<a href="/robots/kinova-jaco/">View package</a>
+					<a href="https://github.com/Kinovarobotics/kinova-ros/tree/master/kinova_moveit" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -953,7 +989,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Jaco2</h2>
 					<h3>Kinova</h3>
-					<!-- <a href="/" target="_blank">View package</a> -->
+					<a href="https://github.com/Kinovarobotics/kinova-ros/tree/master/kinova_moveit" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -965,14 +1001,14 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Movo</h2>
 					<h3>Kinova</h3>
-					<!-- <a href="/" target="_blank">View package</a> -->
+					<a href="https://github.com/Kinovarobotics/kinova-ros/tree/master/kinova_moveit" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="KUKA KR 10" src="/assets/images/robots/KUKA kr210.png" alt="">
+					<img title="KUKA KR 10" src="/assets/images/robots/KUKA KR 10.jpg" alt="">
 				</div>
 				<div class="robots-content">
 					<h2>KR 10</h2>
@@ -1056,6 +1092,18 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
+					<img title="KUKA KR 120" src="/assets/images/robots/KUKA KR 120.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>KR 120</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
 					<img title="KUKA KR IIWA" src="/assets/images/robots/KUKA IIWA.png" alt="">
 				</div>
 				<div class="robots-content">
@@ -1068,10 +1116,58 @@ wordpress_id: 127
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper">
-					<img title="Motoman SIA10d" src="/wordpress/wp-content/uploads/2013/12/motomansia10d-e1388518407577.jpg" alt="">
+					<img title="Motoman MH12" src="/assets/images/robots/Motoman MH12.jpg" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>SIA5/SIA10d/SIA20</h2>
+					<h2>MH12</h2>
+					<h3>Motoman</h3>
+					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman MH50" src="/assets/images/robots/Motoman MH50.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>MH50</h2>
+					<h3>Motoman</h3>
+					<a href="https://github.com/ros-industrial/motoman" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman SIA5D" src="/assets/images/robots/Motoman SIA5D.png" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>SIA5D</h2>
+					<h3>Motoman</h3>
+					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman SIA20" src="/assets/images/robots/Motoman SIA20.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>SIA20</h2>
+					<h3>Motoman</h3>
+					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper">
+					<img title="Motoman SIA10D" src="/assets/images/robots/Motoman SIA10D.jpg" alt="">
+				</div>
+				<div class="robots-content">
+					<h2>SIA10D</h2>
 					<h3>Motoman</h3>
 					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
 				</div>
@@ -1107,7 +1203,7 @@ wordpress_id: 127
 					<img title="Motoman mh5" src="/assets/images/robots/Motoman mh5.png" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>mh5</h2>
+					<h2>MH 5</h2>
 					<h3>Motoman</h3>
 					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
 				</div>
@@ -1131,7 +1227,7 @@ wordpress_id: 127
 					<img title="Motoman mpl80" src="/assets/images/robots/Motoman mh5.png" alt="">
 				</div>
 				<div class="robots-content">
-					<h2>mpl80</h2>
+					<h2>MPL80</h2>
 					<h3>Motoman</h3>
 					<a href="https://github.com/ros-industrial/motoman_experimental" target="_blank">View package</a>
 				</div>
@@ -1169,7 +1265,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Baxter Research Robot</h2>
 					<h3>Rethink Robotics</h3>
-					<a href="http://sdk.rethinkrobotics.com" target="_blank">View package</a>
+					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/baxter" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -1181,7 +1277,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>Sawyer</h2>
 					<h3>Rethink Robotics</h3>
-					<a href="http://sdk.rethinkrobotics.com" target="_blank">View website</a>
+					<a href="https://github.com/RethinkRobotics/sawyer_moveit" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -1205,7 +1301,7 @@ wordpress_id: 127
 				<div class="robots-content">
 					<h2>rx160</h2>
 					<h3>Staubli</h3>
-					<a href="http://sdk.rethinkrobotics.com" target="_blank">View package</a>
+					<a href="https://github.com/ros-industrial/staubli" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
