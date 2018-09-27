@@ -9,9 +9,9 @@ title: Install
 
 # Binary Installation Instructions
 
-MoveIt! is released every month or so into Ubuntu debian packages via the ROS infrastructure. For more information see the [target platforms](http://www.ros.org/reps/rep-0003.html).
+MoveIt! is released every month or so into Ubuntu debian packages via the ROS infrastructure. For more information see the [ROS target platforms](http://www.ros.org/reps/rep-0003.html) and [MoveIt! releases status](http://moveit.ros.org/).
 
-MoveIt! is currently released into ROS **Indigo**,  **Kinetic**, and **Lunar**.
+MoveIt! is currently released into ROS **Indigo**,  **Kinetic**, and **Melodic**.
 
 **Developers:** see [source install](source/) instructions.
 
@@ -21,13 +21,15 @@ We therefore discourage the use of virtual machines with MoveIt! unless you are 
 ## Prerequisite: Install ROS
 
 Follow all the instructions to install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu), or
-[Lunar](http://www.ros.org/wiki/lunar/Installation/Ubuntu). Please make sure you have followed all steps, including calls to ``rosdep``.
+[Melodic](http://www.ros.org/wiki/melodic/Installation/Ubuntu). Please make sure you have followed all steps, including calls to ``rosdep``.
 
 Choose your ROS distribution below:
 
 * * *
 
-## ROS Indigo
+## ROS Indigo LTS
+
+Platforms: Ubuntu 14.04
 
 *Note for Ubuntu 13.04 32 bit users*: There is a bug with GCC 4.7 on Ubuntu 13.04 32bit with Eigen 3.1.2. It's not likely to be fixed, so upgrade/downgrade your system to 13.04 64 bit resp. 12.04.
 
@@ -49,7 +51,9 @@ See bottom of page for quick start
 
 * * *
 
-## ROS Kinetic
+## ROS Kinetic LTS
+
+Platforms: Ubuntu 15.10, 16.04
 
 ### Install Ubuntu Packages
 
@@ -65,17 +69,19 @@ See bottom of page for quick start
 
 * * *
 
-## ROS Lunar
+## ROS Melodic LTS
+
+Platforms: Ubuntu 17.10, 18.04
 
 ### Install Ubuntu Packages
 
 Simply run:
 
-    sudo apt-get install ros-lunar-moveit
+    sudo apt-get install ros-melodic-moveit
 
 ### Setup your environment
 
-    source /opt/ros/lunar/setup.bash
+    source /opt/ros/melodic/setup.bash
 
 See bottom of page for quick start
 
@@ -89,4 +95,4 @@ See [Source Installation Instructions for unsupported versions of MoveIt!](depre
 
 ## Quick Start
 
-Next, start planning in Rviz with the Panda demos: [MoveIt! Rviz Plugin Tutorial](https://ros-planning.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html)
+Next, start planning in Rviz with the Panda demos: [MoveIt! Getting Started Tutorial](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html)

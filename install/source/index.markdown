@@ -10,11 +10,11 @@ redirect_from: "/install/source_install.html"
 
 # Source Installation Instructions
 
-**Virtual Machines:** MoveIt! is available on Linux. We recommend developing with MoveIt on a native Ubuntu install. If you are unable to run Linux natively on your machine, the next best thing would be to set up a virtual machine using VMware. There are known issues with the ROS visualization tool RViz when used with VirtualBox.
+**Virtual Machines:** MoveIt! is available on Linux. We recommend developing with MoveIt on a native Ubuntu install. If you are unable to run Linux natively on your machine, the next best thing would be to set up a virtual machine using VMware. There are known issues with the ROS visualization tool RViz when used with VirtualBox - be sure to enable virtualization in your BIOS.
 
 ## Prerequisites
 
-Install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu), or [Lunar](http://www.ros.org/wiki/lunar/Installation/Ubuntu). Please make sure you have followed all steps and have the latest versions of packages installed:
+Install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu), or [Melodic](http://www.ros.org/wiki/melodic/Installation/Ubuntu). Please make sure you have followed all steps and have the latest versions of packages installed:
 
     rosdep update
     sudo apt-get update
@@ -29,7 +29,7 @@ Optionally create a new workspace, you can name it whatever:
     mkdir ~/ws_moveit
     cd ~/ws_moveit
 
-Follow the instructions below for either Indigo, Kinetic, or Lunar:
+Follow the instructions below for either Indigo, Kinetic, or Melodic:
 
 ## Indigo
 
@@ -42,7 +42,7 @@ Pull down required repositories and build from within the root directory of your
     catkin config --extend /opt/ros/indigo --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
-See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
+See final section below **Source The Catkin Workspace**.
 
 ## Kinetic
 
@@ -55,7 +55,7 @@ Pull down required repositories and build from within the root directory of your
     catkin config --extend /opt/ros/kinetic --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
-See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
+See final section below **Source The Catkin Workspace**.
 
 ## Melodic
 
@@ -70,10 +70,14 @@ Pull down required repositories and build from within the root directory of your
     catkin config --extend /opt/ros/melodic --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
-See final section below **Source The Catkin Workspace**. Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
+See final section below **Source The Catkin Workspace**.
 
 ## Source the Catkin Workspace
 
 Setup your environment - you can do this every time you work with this particular source install of the code, or you can add this to your ``.bashrc``:
 
     source ~/ws_moveit/devel/setup.bash # or .zsh, depending on your shell
+
+## Optional Source Install Dependencies
+
+Optionally for MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
