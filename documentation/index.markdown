@@ -27,6 +27,6 @@ A set of beginner and advanced tutorials will run you through the key concepts i
 
 FAQs answer frequently asked questions about MoveIt!, about the system architecture, getting MoveIt! to work on different robots and about the capabilities and applications provided by MoveIt!
 
-### [Source Code & API](/source_code_&_api)
+### [Source Code & API](/documentation/source-code-api/)
 
 Doxygen generated API documentation.
