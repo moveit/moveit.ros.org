@@ -12,8 +12,6 @@ categories:
 - ROS
 ---
 
-<img src="{{ site.url }}/assets/images/roscon18/ROSConMadrid.png" width="400" style="margin-top:20px"/>
-
 Join us at ROSCon Madrid this year to meet your fellow developers, bring your ideas, and ask pressing questions about MoveIt!. There will be several chances to learn more about MoveIt!:
 
 **Talks**
