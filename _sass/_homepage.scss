@@ -12,6 +12,10 @@
       text-align: center;
     }
     &-tag {
+      width: 87%;
+      @media screen and (max-width: 1199px) {
+        width: 100%;
+      }
       a {
         position: relative;
         display: block;
