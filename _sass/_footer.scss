@@ -6,8 +6,17 @@ footer {
   }
 
   .footer-logo {
+    display: block;
     width: 155px;
     margin-bottom: 18px;
+  }
+
+  .footer-last-link {
+    margin-top: 30px;
+    text-align: center;
+    a {
+      color: $white;
+    }
   }
 
   h4 {
