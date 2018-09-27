@@ -194,7 +194,7 @@ redirect_from: '/moveit/'
                             MoveIt! is state of the art software for mobile manipulation, incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation. It provides an easy-to-use platform for developing advanced robotics applications, evaluating new robot designs and building integrated robotics products for industrial, commercial, R&D and other domains.
                         </p>
                         <p>
-                            MoveIt! is the most widely used open-source software for manipulation and has been used on over 65 robots. See the Robots page for a list of some of the robots that MoveIt! is being used with.
+                            MoveIt! is the most widely used open-source software for manipulation and has been used on over 100 robots. See the Robots page for a list of some of the robots that MoveIt! is being used with.
                         </p>
                     </div>
                 </div>
@@ -211,10 +211,9 @@ redirect_from: '/moveit/'
                     <h2 class="h1 text-center">Current and Future Versions</h2>
                 </div>
                 <div class='col-sm-12 time-line-wrappper'>
-                    <h3>Melodic Morenia</h3>
+                    <h3>Melodic LTS</h3>
                     <div class="time-line">
                         <div class="time-line--blue"></div>
-                        <div class="time-line--orange"></div>
                     </div>
                     <div class="time-line-content">
                         <div class="time-line--info">

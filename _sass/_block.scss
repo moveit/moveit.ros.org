@@ -18,6 +18,12 @@
   overflow: hidden;
   margin-bottom: 25px;
   border: 1px solid rgba(128, 128, 128, 0.1);
+  &.real-image {
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
   img,
   iframe {
