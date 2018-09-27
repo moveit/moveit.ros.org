@@ -13,8 +13,6 @@ categories:
 - ROS
 ---
 
-![]({{ site.url }}/assets/iros2015.jpg)
-
 Come meet MoveIt! and ROS developers and users at IROS 2015 in Hamburg. MoveIt! is cited in several papers in the conference:
 
 * Paper WeFT4.4, Deng, Hao (Shenzhen Institutes of Advance Technology, Chinese Academy of Sc), Xia, Zeyang (Shenzhen Institutes of Advanced Technology, Chinese Academy of S), Weng, Shaokui (Shenzhen Institutes of Advanced Technology), Gan, Yangzhou (Shenzhen Institutes of Advance Technology, Chinese Academy of Sc), Xiong, Jing (Chinese Academy of Sciences), Ou, Yongsheng (Lehigh University), Zhang, Jianwei (University of Hamburg), [Motion Planning and Control of a Robotic System for Orthodontic Archwire Bending](https://ras.papercept.net/conferences/scripts/abstract.pl?ConfID=103&Number=2142)

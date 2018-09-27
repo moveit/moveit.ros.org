@@ -1,0 +1,56 @@
+footer {
+  background: radial-gradient(circle, #1d1f25 0%, #15161b 100%);
+  padding: 60px 0;
+  @media screen and (max-width: 992px) {
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 155px;
+    margin-bottom: 18px;
+  }
+
+  h4 {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 20px;
+    @media screen and (max-width: 992px) {
+      margin-top: 25px;
+    }
+  }
+
+  p {
+    color: $text;
+  }
+
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      padding: 6px 0;
+      a {
+        color: $white;
+        font-size: 12;
+      }
+    }
+  }
+
+  .button {
+    margin-top: 50px;
+    @media screen and (max-width: 992px) {
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .single-footer-navigation {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    @media screen and (max-width: 992px) {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}

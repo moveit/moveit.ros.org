@@ -7,8 +7,8 @@ slug: see-you-at-icra-2015
 title: See you at ICRA 2015
 description: MoveIt! will be at ICRA 2015. Catch MoveIt! developers and users at the following:...
 media_type:
-media_link: 
-redirect_from: 
+media_link:
+redirect_from:
   - "/see-you-at-icra-2015/"
 wordpress_id: 1139
 categories:
@@ -17,8 +17,6 @@ categories:
 ---
 
 MoveIt! will be at ICRA 2015. Catch MoveIt! developers and users at the following:
-
-
 
 ###  Competitions
 

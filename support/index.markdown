@@ -2,7 +2,7 @@
 author: admin
 comments: false
 date: 2013-11-20 04:39:45+00:00
-layout: page
+layout: support
 slug: support
 title: Support
 ---

@@ -13,8 +13,6 @@ categories:
 - ROS
 ---
 
-![World MoveIt! Day]({{ site.url }}/assets/images/report_on_world_moveit_day.jpg)
-
 Thank you for joining us for our first international MoveIt! hackathon event! It was a great success with many participants from around the world joining, many issues fixed, and features added. At the Fetch event in California 18 participants joined throughout the day, and at the Xamla event in Germany 9 participants joined.
 
 A few stats from the event and the 5 days since:
