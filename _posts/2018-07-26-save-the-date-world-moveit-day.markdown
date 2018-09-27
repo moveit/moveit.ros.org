@@ -20,8 +20,7 @@ We will be having several international event locations including:
 - [PickNik Consulting](https://picknik.ai/), Boulder, USA
 - [Fraunhofer IPA](https://www.ipa.fraunhofer.de/en.html) / [RIC-EU](https://rosindustrial.org/ric-eu/), Stuttgart, Germany
 - [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
-- [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/), Kashiwa, Japan
-(held on Friday, October 26!)
+- [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/) and [OMRON SINIC X Corporation](http://tinyurl.com/omronsinicx), Tokyo (Kashiwa), Japan (held on Friday, October 26!)
 - [Southwest Research Institute](https://www.swri.org/), San Antonio, USA
 - [Cluster Innovation Centre](https://www.meetup.com/rosindia/events/254064159/), New Delhi, India
 
