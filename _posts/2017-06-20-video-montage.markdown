@@ -15,6 +15,4 @@ categories:
 
 MoveIt! is 5 years old and has been used all over the world for a myriad of applications and robot morphologies! Checkout our new montage:
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/0og1SaZYtRc" frameborder="0" allowfullscreen></iframe>
-
 Note that credits with timestamps are available on the YouTube page's description.

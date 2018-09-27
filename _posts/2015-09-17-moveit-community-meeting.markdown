@@ -25,7 +25,7 @@ Thanks to all the presenters for the great talks:
 * Team VIGIR at the DRC - Stefan Kohlbrecher (Technische Universität Darmstadt)
 * ROS 2.0 and Manipulation - Jackie Kay (OSRF)
 
-In other news, MoveIt! now has a twitter account for updates: @moveitrobot 
+In other news, MoveIt! now has a twitter account for updates: @moveitrobot
 
 **Meeting Video**
 

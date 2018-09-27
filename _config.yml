@@ -2,3 +2,6 @@ url: http://moveit.ros.org
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+
+sass:
+  style: compressed

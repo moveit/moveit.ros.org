@@ -1,0 +1,68 @@
+.button {
+  padding: 12px 30px;
+  text-align: center;
+  background-color: $blue;
+  border-radius: 4px;
+  color: $white;
+  letter-spacing: 1px;
+  font-size: 13px;
+  display: inline-block;
+  border: 1px solid $blue;
+  cursor: pointer;
+  &:hover {
+    background-color: $white;
+    color: $blue;
+  }
+  &-yellow {
+    background-color: #f7a20a;
+    border-color: #f7a20a;
+    color: #000;
+    text-transform: uppercase;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    &:hover {
+      background-color: #000;
+      color: #f7a20a;
+    }
+  }
+
+  &--install {
+    padding: 12px 18px;
+    margin-left: 30px;
+  }
+
+  &-transparent {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    &:hover {
+      background-color: #fff;
+      color: $dark-text;
+    }
+  }
+  &.info-box-button {
+    background-color: #fff;
+    color: #0a58f7;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    margin-bottom: 10px;
+    &:hover {
+      background-color: #0a58f7;
+      color: #fff;
+    }
+  }
+  &.modal-btn {
+    @media screen and (max-width: 601px) {
+      display: none;
+    }
+  }
+  &.modal-link {
+    display: none;
+    @media screen and (max-width: 601px) {
+      display: inline-block;
+    }
+  }
+}

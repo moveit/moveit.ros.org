@@ -1,0 +1,29 @@
+.modal{
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  min-height: 450px;
+
+  &-content{
+    width: 600px;
+  }
+
+  &-dialog{
+    max-width: 600px;
+  }
+
+  &-header{
+    border-bottom: none;
+    color: $dark-text;
+    h5{
+      text-transform: uppercase;
+    }
+  }
+
+  &-body{
+    margin: 0 auto;
+  }
+}

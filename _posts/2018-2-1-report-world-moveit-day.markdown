@@ -13,8 +13,6 @@ categories:
 - ROS
 ---
 
-![World MoveIt! Day]({{ site.url }}/assets/images/wmd17/SF1.jpg)
-
 Thank you for joining us for our second annual international MoveIt! hackathon event! We are thrilled to report that World MoveIt! Day was a great success last October, setting new records for the annual event. We would like to thank everyone who participated, sponsored, and supported.
 
 We’re excited to see new locations and interest in MoveIt!

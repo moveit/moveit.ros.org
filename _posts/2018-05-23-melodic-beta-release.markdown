@@ -20,5 +20,3 @@ While MoveIt! in Melodic is still beta, if you're running your robot packages wi
 See the [MIGRATION.md](https://github.com/ros-planning/moveit/blob/melodic-devel/MIGRATION.md) for a list of breaking changes in this release.
 
 --Your friendly MoveIt! maintenance team.
-
-<img src="http://wiki.ros.org/melodic?action=AttachFile&do=get&target=melodic.jpg" height="400"/>
