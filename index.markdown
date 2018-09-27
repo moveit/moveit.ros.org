@@ -31,10 +31,12 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <span class="blue">Announcement</span>
-                                <span>World MoveIt! Day 2018 will be on October 25th</span>
+                                <a href="/events/world-moveit-day-2018/">
+                                    <span class="blue">Announcement</span>
+                                    <span>World MoveIt! Day 2018 will be on October 25th</span>
+                                </a>
                             </div>
-                            <h1>Moving robots into the future</h1>
+                            <h1>Moving robots into the&nbsp;future</h1>
                             <p class="main-text">Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation</p>
                             <div class="button-group">
                                 <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
@@ -50,12 +52,12 @@ redirect_from: '/moveit/'
                                 <div class="info-box-header">
                                     Latest: Melodic / Ubuntu 18.04
                                 </div>
-                                <a href="http://moveit.ros.org/install/" target="_blank" class="info-box-button button">Install from debian</a>
+                                <a href="http://moveit.ros.org/install/" class="info-box-button button">Install from debian</a>
                                 <div class="info-box-version">
                                     Version: 0.10.0
                                 </div>
                                 <div class="link-group">
-                                    <a href="http://moveit.ros.org/install/source/" target="_blank" class="info-box-link">Install from Source</a>
+                                    <a href="http://moveit.ros.org/install/source/" class="info-box-link">Install from Source</a>
                                     <span>|</span>
                                     <a href="https://github.com/ros-planning/moveit" target="_blank" class="info-box-link">View on Github</a>
                                 </div>
@@ -76,7 +78,7 @@ redirect_from: '/moveit/'
                                         Motion planning
                                     </h3>
                                     <p>
-                                        Generate high-degree of freedom trajectories through cluttered environments and avoid local minimums.
+                                        Generate high-degree of freedom trajectories through cluttered environments and avoid local minimums
                                     </p>
                                 </li>
                                 <li>
@@ -209,7 +211,7 @@ redirect_from: '/moveit/'
                     <h2 class="h1 text-center">Current and Future Versions</h2>
                 </div>
                 <div class='col-sm-12 time-line-wrappper'>
-                    <h3>Melodic Morenia LTS</h3>
+                    <h3>Melodic Morenia</h3>
                     <div class="time-line">
                         <div class="time-line--blue"></div>
                         <div class="time-line--orange"></div>
