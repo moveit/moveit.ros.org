@@ -7,16 +7,6 @@ slug: about
 title: About
 ---
 
-## License
-
-MoveIt! is open source and released under the [BSD License v3](https://opensource.org/licenses/BSD-3-Clause). Each individual file in the MoveIt! source code should contain a copy of the license.
-
-## Citing MoveIt!
-
-Please use the following citation for MoveIt!
-
-  * Ioan A. Sucan and Sachin Chitta, "MoveIt!", [Online] Available: [http://moveit.ros.org](http://moveit.ros.org)
-
 ## Maintainers
 
 The MoveIt! project is currently maintained by the following contributors with commit-access:
@@ -45,6 +35,16 @@ Ioan Sucan | Google X | [isucan](https://github.com/isucan)
 Dave Hershburger | Kinema Systems | [hersh](https://github.com/hersh) |
 Acorn Pooley | SRI International | N/A |
 Maarten de Vries | Delft Robotics | [de-vri-es](https://github.com/de-vri-es)
+
+## License
+
+MoveIt! is open source and released under the [BSD License v3](https://opensource.org/licenses/BSD-3-Clause). Each individual file in the MoveIt! source code should contain a copy of the license.
+
+## Citing MoveIt!
+
+Please use the following citation for MoveIt!
+
+  * Ioan A. Sucan and Sachin Chitta, "MoveIt!", [Online] Available: [http://moveit.ros.org](http://moveit.ros.org)
 
 ## Sponsors
 
