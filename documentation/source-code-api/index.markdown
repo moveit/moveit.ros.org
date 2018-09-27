@@ -5,7 +5,6 @@ date: 2016-10-19 04:37:44+00:00
 layout: page
 slug: packages
 title: Source Code & API
-redirect_from: '/about/source_code_&_api.html'
 ---
 
 # Source Code
