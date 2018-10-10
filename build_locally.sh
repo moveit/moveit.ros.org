@@ -17,8 +17,8 @@ export PATH=$HOME/gems/bin:$PATH
 gem install jekyll bundler
 bundle install
 
-# Build website using same script as Travis
-./.travis.sh
+# Build website using similar script as Travis, but skip htmlproofer because it fails locally:
+bundle exec jekyll build --strict_front_matter
 
 # Launch website
 echo
