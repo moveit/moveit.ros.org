@@ -8,7 +8,6 @@
     overflow: hidden;
     margin-bottom: 25px;
     &.real-image {
-      background-size: cover;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -53,7 +52,6 @@
       margin-bottom: 20px;
       border: 1px solid #e7e7e7;
       &.real-image {
-        background-size: cover;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
