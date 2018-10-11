@@ -26,12 +26,13 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
   - [Event details](https://www.eventbrite.com/e/world-moveit-day-2018-bay-area-tickets-49609912584)
 - [PickNik Consulting](http://picknik.ai), Boulder, USA
   - Organizer: Dave Coleman
+  - [Event details](https://www.meetup.com/BoulderIsForRobots/events/254921086/)
 - [Fraunhofer IPA](https://www.ipa.fraunhofer.de/en.html) / [RIC-EU](https://rosindustrial.org/ric-eu/), Stuttgart, Germany
   - Organizer: Michael 'v4hn' Görner
   - [Event details](https://rosindustrial.org/events/2018/10/25/world-moveit-day)
 - [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
   - October 26
-  - Organizer: Chan Min Ling
+  - Organizer: Nicholas Yeo
 - [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/) and [OMRON SINIC X Corporation](http://tinyurl.com/omronsinicx), Tokyo (Kashiwa), Japan
   - October 26
   - Organizer: Ryosuke Tajima
