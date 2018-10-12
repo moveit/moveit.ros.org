@@ -33,6 +33,7 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 - [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
   - October 26
   - Organizer: Nicholas Yeo
+- [Event details](https://www.eventbrite.sg/e/world-moveit-day-asia-pacific-2018-tickets-48267276724)
 - [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/) and [OMRON SINIC X Corporation](http://tinyurl.com/omronsinicx), Tokyo (Kashiwa), Japan
   - October 26
   - Organizer: Ryosuke Tajima
