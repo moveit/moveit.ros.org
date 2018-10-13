@@ -37,7 +37,7 @@ Those who are willing to answer MoveIt!-related questions only can get notified 
  2. At `Choose email tag filter`, click `only interesting tags` radio button. Select frequency you'd like to get notified other than `never`. See example screenshot below.
  3. Go to the [top page](http://answers.ros.org/questions/). In `Interesting tags` text field on the right, add `moveit` (and any tags you'd like to get notifications about).
 
- ![img](../../assets/answers.ros_config_receive-notification.png)
+ ![img](../../assets/images/answers.ros_config_receive-notification.png)
 
 As an aside, a lot of documentation exists as Q&amp;As on there, and if you feel so compelled, help us move some of that documentation onto the website.
 

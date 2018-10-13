@@ -6,7 +6,7 @@ layout: post
 slug: robobusiness
 title: MoveIt! Upcoming Events - RoboBusiness 2015
 media_type: image
-media_link: http://moveit.ros.org/assets/robobusiness.png
+media_link: http://moveit.ros.org/assets/images/robobusiness.png
 description: Come meet MoveIt! developers and users at RoboBusiness 2015 in San Jose...
 categories:
 - MoveIt!
