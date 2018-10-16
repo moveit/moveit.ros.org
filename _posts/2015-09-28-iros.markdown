@@ -6,7 +6,7 @@ layout: post
 slug: iros
 title: MoveIt! Upcoming Events - IROS 2015
 media_type: image
-media_link: http://moveit.ros.org/assets/iros2015.jpg
+media_link: http://moveit.ros.org/assets/images/iros2015.jpg
 description: Come meet MoveIt! developers and users at IROS 2015 in Hamburg...
 categories:
 - MoveIt!

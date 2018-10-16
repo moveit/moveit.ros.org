@@ -529,7 +529,7 @@ wordpress_id: 127
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/bioloid-moveit.png');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/bioloid-moveit.png');">
 				</div>
 				<div class="robots-content">
 					<h2>Bioloid</h2>
@@ -540,7 +540,7 @@ wordpress_id: 127
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/scorbot-er4u.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/scorbot-er4u.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Scorbot ER4U</h2>
@@ -551,7 +551,7 @@ wordpress_id: 127
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/AR10.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/AR10.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>AR10 Robotic Hand</h2>
