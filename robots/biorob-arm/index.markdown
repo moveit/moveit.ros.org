@@ -16,7 +16,7 @@ wordpress_id: 845
   * Website:
 
 	
-  * MoveIt! Config Package: 
+  * MoveIt! Config Package:
 
 	
   * Maintainer(s) :
