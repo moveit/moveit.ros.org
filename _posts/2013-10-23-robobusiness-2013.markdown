@@ -7,7 +7,7 @@ slug: robobusiness-2013
 title: MoveIt! at RoboBusiness 2013
 description: MoveIt! was demonstrated at RoboBusiness 2013 and the ROS-Industrial Consortium Meeting.
 media_type: image
-media_link: http://moveit.ros.org/assets/robobusiness.png
+media_link: http://moveit.ros.org/assets/images/robobusiness.png
 categories:
 - MoveIt!
 - ROS
