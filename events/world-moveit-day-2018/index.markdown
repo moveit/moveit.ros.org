@@ -42,7 +42,7 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 - [Cluster Innovation Centre](https://ducic.ac.in/), New Delhi, India
   - Organizer: Ridhwan Luthra
   - [Event Details](https://www.meetup.com/rosindia/events/254064159/)
-- [Shadow Robot Company](https://www.shadowrobot.com/)
+- [Shadow Robot Company](https://www.shadowrobot.com/), London, UK
   - Organizer: Andriy Petlovanyy
   - [Event Details](https://www.shadowrobot.com/world-moveit-day-2018-register-now/)
 
