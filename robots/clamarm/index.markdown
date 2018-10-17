@@ -16,7 +16,7 @@ wordpress_id: 562
   * Website:
 
 	
-  * MoveIt! Config Package: 
+  * MoveIt! Config Package:
 
 	
   * Maintainer(s): Dave Coleman
