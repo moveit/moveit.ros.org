@@ -21,18 +21,6 @@ The following are a list of potential projects that would greatly benefit the Mo
 - List of potential mentors: Dave Coleman, Michael Görner
 - Detailed description: Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt! plans. Create new window on MoveIt! Setup Assistant for automatically generating interfaces to low level controllers from MoveIt!. Improve the [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_plugins/moveit_ros_control_interface). Documentation on how to combine the components.
 
-## MoveIt! Setup Assistant 2.0
-
-- List of prerequisites: ROS
-- Description of programming skills: C++
-- Difficulty level: Medium
-- List of potential mentors: Dave Coleman, Michael Görner
-- Detailed description: The Setup Assistant is a quick-start wizard for taking an arbitrary robot and configuring it to work with MoveIt! for motion planning. A new version of this assistant would include:
-  - New grasping screen for setting up end effectors: align axis with z-direction, open/close parameters, etc
-  - New perception screen for using laser scanner point clouds: ability to easily configure a XBox Kinetic, etc for use with a robot planning scene, possibly including calibration
-  - More GUIs for saving and loading various settings that are currently hidden in text files
-  - Parse existing text files (launch/config/package.xml) files and handle user-edits of these files as diffs
-
 ## Perception Pipeline Improvements
 
 - List of prerequisites: ROS, some robotic perception background such as OpenCV or PCL
