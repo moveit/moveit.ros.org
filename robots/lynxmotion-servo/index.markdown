@@ -16,7 +16,7 @@ wordpress_id: 566
   * Website: https://github.com/mnovo/lynxmotion_ros
 
 	
-  * MoveIt! Config Package: 
+  * MoveIt! Config Package:
 
 	
   * Maintainer(s) :

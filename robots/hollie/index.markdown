@@ -16,7 +16,7 @@ wordpress_id: 904
   * Website: [http://www.fzi.de/forschung/projekt-details/hollie](http://www.fzi.de/forschung/projekt-details/hollie/)
 
 	
-  * MoveIt! Config Package: 
+  * MoveIt! Config Package:
 
 	
   * Maintainer(s) : Andreas Hermann
