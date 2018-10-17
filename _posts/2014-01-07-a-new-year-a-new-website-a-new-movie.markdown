@@ -8,7 +8,7 @@ title: A New Year, A New Website, A New Movie
 description: The MoveIt! development team would like to wish you a very happy new year and bring new tidings.
 media_type: video
 media_link: https://www.youtube.com/embed/dblCGZzeUqs
-redirect_from: 
+redirect_from:
   - "/a-new-year-a-new-website-a-new-movie/"
 wordpress_id: 744
 categories:

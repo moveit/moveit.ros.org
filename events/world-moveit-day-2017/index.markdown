@@ -12,7 +12,7 @@ title: World MoveIt! Day 2017
 ## Date
 
   * **October 18th, 2017**
-  * See specific locations for details on times. 
+  * See specific locations for details on times.
   * Note that the Tokyo and Singapore locations will have their event on the 19th
 
 ## Description
