@@ -7,92 +7,63 @@ slug: install
 title: Install
 ---
 
-# Binary Installation Instructions
+# Install MoveIt!
 
-MoveIt! is released every month or so into Ubuntu debian packages via the ROS infrastructure. For more information see the [ROS target platforms](http://www.ros.org/reps/rep-0003.html) and [MoveIt! releases status](http://moveit.ros.org/).
+MoveIt! is supported on the following systems:
 
-MoveIt! is currently released into ROS **Indigo**,  **Kinetic**, and **Melodic**.
+* Ubuntu 17.10, 18.04 / [ROS Melodic](http://www.ros.org/wiki/melodic/Installation/Ubuntu)
+* Ubuntu 15.10, 16.04 / [ROS Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu)
+* Ubuntu 14.04 / [ROS Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu)
+* Windows 10 - experimental
 
-**Developers:** see [source install](source/) instructions.
+### Prereq: Install ROS
 
-**Virtual Machines:** There have been many reports of problems with the ROS visualization tool RViz when used in virtual machines.
-We therefore discourage the use of virtual machines with MoveIt! unless you are not interested in visualization support.
+Follow all the instructions to [install ROS](http://wiki.ros.org/ROS/Installation), including calls to ``rosdep``.
 
-## Prerequisite: Install ROS
+## Install on Ubuntu
 
-Follow all the instructions to install ROS [Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu), [Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu), or
-[Melodic](http://www.ros.org/wiki/melodic/Installation/Ubuntu). Please make sure you have followed all steps, including calls to ``rosdep``.
+Choose your version of ROS:
 
-Choose your ROS distribution below:
-
-* * *
-
-## ROS Indigo LTS
-
-Platforms: Ubuntu 14.04
-
-*Note for Ubuntu 13.04 32 bit users*: There is a bug with GCC 4.7 on Ubuntu 13.04 32bit with Eigen 3.1.2. It's not likely to be fixed, so upgrade/downgrade your system to 13.04 64 bit resp. 12.04.
-
-### Install Ubuntu Packages
-
-Simply run:
-
-    sudo apt-get install ros-indigo-moveit
-
-### Optional: Install PR2 Ubuntu Packages for MoveIt!
-
-    sudo apt-get install ros-indigo-moveit-full-pr2
-
-### Setup your environment
-
-    source /opt/ros/indigo/setup.bash
-
-See bottom of page for quick start
-
-* * *
-
-## ROS Kinetic LTS
-
-Platforms: Ubuntu 15.10, 16.04
-
-### Install Ubuntu Packages
-
-Simply run:
-
-    sudo apt-get install ros-kinetic-moveit
-
-### Setup your environment
-
-    source /opt/ros/kinetic/setup.bash
-
-See bottom of page for quick start
-
-* * *
-
-## ROS Melodic LTS
-
-Platforms: Ubuntu 17.10, 18.04
-
-### Install Ubuntu Packages
-
-Simply run:
+### ROS Melodic - *latest*
 
     sudo apt-get install ros-melodic-moveit
 
-### Setup your environment
+### ROS Kinetic
 
-    source /opt/ros/melodic/setup.bash
+    sudo apt-get install ros-kinetic-moveit
 
-See bottom of page for quick start
+### ROS Indigo
 
-* * *
+    sudo apt-get install ros-indigo-moveit
 
-## Previous ROS Versions
+## Install on Windows
 
-See [Source Installation Instructions for unsupported versions of MoveIt!](deprecated)
-
-* * *
+See [Getting Started with MoveIt! and UR3 on Windows](https://ms-iot.github.io/ROSOnWindows/Moveit/UR3.html).
 
 ## Quick Start
 
-Next, start planning in Rviz with the Panda demos: [MoveIt! Getting Started Tutorial](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html)
+Start planning in Rviz with with the [MoveIt! Getting Started Tutorial](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html)
+
+---
+
+## Other Setups
+
+- Source Build
+
+    See [building from source](http://moveit.ros.org/install/source/)
+
+- Docker
+
+    See [Docker instructions](http://moveit.ros.org/install/docker/)
+
+- Virtual Machines
+
+    We recommend developing with MoveIt on a native Ubuntu install. If you are unable to run Linux natively on your machine, the next best thing would be to set up a virtual machine using VMware. There are known issues with the ROS visualization tool RViz when used with VirtualBox - be sure to enable virtualization in your BIOS.
+
+- Older Versions
+
+    For previous versions, see [Source Installation Instructions for unsupported versions of MoveIt!](deprecated)
+
+## About Our Release Process
+
+MoveIt! is released every few months into Ubuntu debian packages via the ROS infrastructure. For more information see the [ROS target platforms](http://www.ros.org/reps/rep-0003.html) and [MoveIt!'s release process](http://moveit.ros.org/documentation/contributing/pullrequests/)
