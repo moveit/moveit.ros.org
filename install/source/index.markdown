@@ -59,8 +59,6 @@ See final section below **Source The Catkin Workspace**.
 
 ## Melodic
 
-> **Note:** Melodic support is still in beta
-
 Pull down required repositories and build from within the root directory of your catkin workspace:
 
     wstool init src
@@ -68,6 +66,15 @@ Pull down required repositories and build from within the root directory of your
     wstool update -t src
     rosdep install -y --from-paths src --ignore-src --rosdistro melodic
     catkin config --extend /opt/ros/melodic --cmake-args -DCMAKE_BUILD_TYPE=Release
+    catkin build
+
+Note: there is an approach [in beta](https://github.com/ros-planning/moveit/issues/925) to build Melodic on Ubuntu 16.04 with ROS Kinetic, use at your own risk:
+
+    wstool init src
+    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/moveit.rosinstall
+    wstool update -t src
+    rosdep install -y --from-paths src --ignore-src --rosdistro kinetic
+    catkin config --extend /opt/ros/kinetic --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
 See final section below **Source The Catkin Workspace**.
