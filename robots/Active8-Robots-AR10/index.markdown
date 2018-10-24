@@ -12,7 +12,7 @@ title: AR10
   * Organization: Active8 Robots
 
 
-  * Website: [http://www.active-robots.com/ar10-humanoid-robotic-hand](http://www.active-robots.com/ar10-humanoid-robotic-hand)
+  * Website: [https://www.active-robots.com/ar10-humanoid-robotic-hand-7691.html](https://www.active-robots.com/ar10-humanoid-robotic-hand-7691.html)
 
 
   * URDF Location: [ar10_description](https://github.com/Active8Robots/AR10/tree/master/ar10_description)
