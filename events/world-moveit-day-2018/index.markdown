@@ -37,7 +37,7 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 - [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/) and [OMRON SINIC X Corporation](http://tinyurl.com/omronsinicx), Tokyo (Kashiwa), Japan
   - October 26
   - Organizer: Ryosuke Tajima
-- [Southwest Research Institute](https://www.swri.org/), San Antonio, USA
+- [Southwest Research Institute](https://www.swri.org/)/[ ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, USA
   - Organizer: Matt Robinson
   - [Event Details](https://www.evite.com/event/030AUF672VIUQMVHQEPI2KHJ4AIZNA/rsvp?utm_source=NA&utm_medium=sharable_invite&utm_campaign=send_sharable_link)
 - [Cluster Innovation Centre](https://ducic.ac.in/), New Delhi, India
