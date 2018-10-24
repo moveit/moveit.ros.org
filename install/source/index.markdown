@@ -5,7 +5,6 @@ date: 2016-8-4 20:43:44+00:00
 layout: page
 slug: source_install
 title: Source Install
-redirect_from: "/install/source_install.html"
 ---
 
 # Build MoveIt! From Source
@@ -45,11 +44,12 @@ This will load the ``${ROS_DISTRO}`` variable, needed for the next step.
 
 ## Download and Build MoveIt!
 
+By default we will assume you are building on the *latest* branch, we currently use *melodic-devel* as our master branch. This branch builds for ROS Kinetic and newer, e.g. Ubuntu 16.04 and newer. If you would like to build an older release of MoveIt! from source, see the section below.
 
 Pull down required repositories and build from within the root directory of your catkin workspace:
 
     wstool init src
-    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/${ROS_DISTRO}-devel/moveit.rosinstall
+    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/moveit.rosinstall
     wstool update -t src
     rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}
     catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
@@ -67,19 +67,27 @@ Start planning in Rviz with with the [MoveIt! Getting Started Tutorial](https://
 
 ---
 
-## Advanced
+## Advanced: Speedup Compile Time
 
-### Build Melodic on Ubuntu 16.04
+Note that to make development easier, the MoveIt! is consolidated in a large code repository. If you would like to reduce the compile time, you can disable certain unneeded packages from being built using ``catkin-tools``. Here is an example list, but be careful not to disable needed packages:
 
-Its best to contribute to our latest branch, even if you're still on an earlier version of Ubuntu. Here are steps for building the MoveIt! Melodic branch on Ubuntu 16.04:
+    catkin config --blacklist moveit_commander moveit_setup_assistant moveit_fake_controller_manager  moveit_ros_benchmarks moveit_controller_manager_example chomp_motion_planner moveit_planners_chomp
+
+If you have already built these packages in your workspace you will also need to use ``catkin clean`` such as the following example:
+
+    catkin clean moveit_commander moveit_setup_assistant moveit_fake_controller_manager  moveit_ros_benchmarks moveit_controller_manager_example chomp_motion_planner moveit_planners_chomp
+
+## Advanced: Building Older Releases Of MoveIt!
+
+Its best to contribute to our latest branch, even if you're still on an earlier version of Ubuntu. However our latest branch does not support older versions of ROS such as ROS Indigo. Use the following command to build from source older releases:
 
     wstool init src
-    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/moveit.rosinstall
+    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/${ROS_DISTRO}-devel/moveit.rosinstall
     wstool update -t src
-    rosdep install -y --from-paths src --ignore-src --rosdistro kinetic
-    catkin config --extend /opt/ros/kinetic --cmake-args -DCMAKE_BUILD_TYPE=Release
+    rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}
+    catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
     catkin build
 
-### Build Dependencies From Source
+## Advanced: Build Dependencies From Source
 
 For MongoDB, OMPL, or FCL source installs, see [Building Common MoveIt! Dependencies from Source in Catkin](/install/source/dependencies/).
