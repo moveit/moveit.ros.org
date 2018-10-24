@@ -23,6 +23,9 @@ an overview of how to use them within the framework.
 
 A set of beginner and advanced tutorials will run you through the key concepts in developing and running MoveIt!
 
+### [Related Projects](related_projects)
+MoveIt! is designed to be easily extensible as separate plugins or projects. This section lists related projects that have been aligned with the MoveIt! framework.
+
 ### [FAQs](faqs)
 
 FAQs answer frequently asked questions about MoveIt!, about the system architecture, getting MoveIt! to work on different robots and about the capabilities and applications provided by MoveIt!

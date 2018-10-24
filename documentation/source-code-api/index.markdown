@@ -34,6 +34,7 @@ MoveIt! code is hosted on github in the [ros-planning organization](http://githu
 - [moveit_msgs](https://github.com/ros-planning/moveit_msgs) - ROS messages
 - [moveit_robots](https://github.com/ros-planning/moveit_robots) - Robot specific MoveIt! configuration packages
 - [moveit_resources](https://github.com/ros-planning/moveit_resources) - large file assets such as testing robots
+- [moveit_task_constructor](https://github.com/ros-planning/moveit_task_constructor) - An approach to hierarchical, multi-stage manipulation planning
 - [moveit_visual_tools](https://github.com/ros-planning/moveit_visual_tools) - display and debugging data in Rviz
 - [moveit_advanced](https://github.com/ros-planning/moveit_advanced) - Experimental advanced capabilities
 - [moveit_pr2](https://github.com/ros-planning/moveit_pr2) - PR2 specific MoveIt! configuration and plugins
