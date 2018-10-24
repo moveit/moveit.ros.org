@@ -23,6 +23,8 @@ Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://githu
 Jorge Nicho | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho)
 Bence Magyar | Heriot-Watt University | [bmagyar](https://github.com/bmagyar)
 Mike Lautman | PickNik Consulting | [mlautman](https://github.com/mlautman)
+Jon Binney | Iron Ox | [jonbinney](https://github.com/jonbinney)
+Zak Kingston | Rice University | [zkingston](https://github.com/zkingston)
 
 ## Maintainer Alumni
 
