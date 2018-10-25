@@ -33,23 +33,23 @@ And you will likely need to log out and back into your user account for the chan
 
 To run a Debian-installed container of MoveIt! with graphics support:
 
-    wget https://raw.githubusercontent.com/ros-planning/moveit/kinetic-devel/.docker/gui-docker gui-docker && chmod +x gui-docker
-    ./gui-docker -it --rm moveit/moveit:kinetic-release /bin/bash
+    wget https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/.docker/gui-docker gui-docker && chmod +x gui-docker
+    ./gui-docker -it --rm moveit/moveit:melodic-release /bin/bash
 
 This will attempt to use nvidia-docker if hardware and drivers are available.
 
 **Command-Line Only**
 
-    docker run -it moveit/moveit:kinetic-release
+    docker run -it moveit/moveit:melodic-release
 
 ## MoveIt! Container Types
 
-There are many variants of the MoveIt! Docker available as documented [here](http://moveit.ros.org/documentation/contributing/continuous_integration/). For example, any of the three current distros work: [indigo, kinetic, lunar]. Over variations include:
+There are many variants of the MoveIt! Docker available as documented [here](http://moveit.ros.org/documentation/contributing/continuous_integration/). For example, any of the three current distros work: [indigo, melodic, lunar]. Over variations include:
 
-- **moveit/moveit:kinetic-source** contains a full MoveIt! workspace downloaded and built to ~/ws_moveit/src. This container is useful for developers wanting to test or develop in a sandbox.
-- **moveit/moveit:kinetic-release** builds ontop of the CI image, the full debian-based install of MoveIt! using apt-get.
-- **moveit/moveit:kinetic-ci** an image optimized for running continuous integration with Travis
-- **moveit/moveit:kinetic-ci-shadow** an image optimized for running continuous integration with Travis using the latest unreleased build of ROS
+- **moveit/moveit:melodic-source** contains a full MoveIt! workspace downloaded and built to ~/ws_moveit/src. This container is useful for developers wanting to test or develop in a sandbox.
+- **moveit/moveit:melodic-release** builds ontop of the CI image, the full debian-based install of MoveIt! using apt-get.
+- **moveit/moveit:melodic-ci** an image optimized for running continuous integration with Travis
+- **moveit/moveit:melodic-ci-shadow** an image optimized for running continuous integration with Travis using the latest unreleased build of ROS
 
 ## Advanced
 
@@ -59,5 +59,5 @@ To make the source container more useful for developing and testing code, we rec
 
 MoveIt!'s docker containers are built automatically on dockerhub.com, but you can modify and build locally if desired with the following command:
 
-    cd moveit/.docker/kinetic/source
-    docker build -t moveit/moveit:kinetic-source .
+    cd moveit/.docker/melodic/source
+    docker build -t moveit/moveit:melodic-source .

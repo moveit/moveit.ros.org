@@ -19,7 +19,7 @@ The following are a list of potential projects that would greatly benefit the Mo
 - Description of programming skills: C++
 - Difficulty level: Medium
 - List of potential mentors: Dave Coleman, Michael Görner
-- Detailed description: Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt! plans. Create new window on MoveIt! Setup Assistant for automatically generating interfaces to low level controllers from MoveIt!. Improve the [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_plugins/moveit_ros_control_interface). Documentation on how to combine the components.
+- Detailed description: Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt! plans. Create new window on MoveIt! Setup Assistant for automatically generating interfaces to low level controllers from MoveIt!. Improve the [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/melodic-devel/moveit_plugins/moveit_ros_control_interface). Documentation on how to combine the components.
 
 ## Perception Pipeline Improvements
 

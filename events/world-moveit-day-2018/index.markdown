@@ -61,7 +61,7 @@ If you aren't near an organized event we encourage you to have your own event in
 
 ### What version of MoveIt! should you use?
 
-We recommend the Kinetic LTS branch/release. The Melodic release is also a good choice but is new and has been tested less. The Indigo branch is considered stable and frozen - and only critical bug fixes will be backported.
+We recommend the Melodic LTS branch/release. The Kinetic release is also a good choice for beginners as its more stable. The Indigo branch is considered stable and frozen - and only critical bug fixes will be backported.
 
 For your convenience, a VirtualBox image for ROS Kinetic on Ubuntu 16.04 is available [here](http://backend.picknik.ai/).
 
