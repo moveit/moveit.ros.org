@@ -250,7 +250,7 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>MoveIt! 2.0</h3>
-                        <span class="label label--green">Seeking Funding</span>
+                        <span class="label label--blue">Seeking Funding</span>
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
@@ -265,7 +265,7 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>Melodic LTS</h3>
-                        <span class="label label--blue">In Development</span>
+                        <span class="label label--green">Recomended</span>
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 17.10, 18.04</p>
@@ -274,13 +274,13 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This LTS builds on the latest version of ROS1 and can also build on Ubuntu 16.04. Breaking API changes are still accepted.</p>
+                        <p>This LTS builds on the latest version of ROS1 but has had less adoption because it does not run on Ubuntu 16.04. This LTS is recommended but it is still in development and breaking API changes are accepted.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>Kinetic LTS</h3>
-                        <span class="label label--green">Recommended</span>
+                        <span class="label label--orange">Maintained</span>
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 15.10, 16.04</p>
@@ -289,12 +289,12 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This LTS is still being somewhat improved but we encourage all development on the Melodic release. The API should be stable, but not ABI.</p>
+                        <p>This LTS is still actively being improved as its the most popular version amoung the maintainers. The API should be stable, but not ABI.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>Indigo</h3>
+                        <h3>Indigo LTS</h3>
                         <span class="label label--orange">Maintained</span>
                     </div>
                     <div class="version-date">
@@ -305,36 +305,6 @@ redirect_from: '/moveit/'
                     <div class="version-content">
                         <h4>Release notes</h4>
                         <p>This LTS is still still used by some users but only critical bug fixes are accepted. The API is stable.</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Lunar</h3>
-                        <span class="label label--red">Discontinued</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Platforms:</span> Ubuntu 16.04, 16.10, 17.04</p>
-                        <p><span>Date released:</span> 23 May 2017</p>
-                        <p><span>End of life:</span> 23 May 2018</p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>This non-LTS was released as debians until ROS Melodic was released. We no longer release updates for the Lunar distro.</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Jade</h3>
-                        <span class="label label--red">Discontinued</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Platforms:</span> Ubuntu 14.04, 14.10, 15.04</p>
-                        <p><span>Date released:</span> 23 May 2015</p>
-                        <p><span>End of life:</span> 23 May 2016</p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>This non-LTS was released as debians until ROS Kinetic was released. We no longer release updates for the Jade distro.</p>
                     </div>
                 </div>
             </div>
