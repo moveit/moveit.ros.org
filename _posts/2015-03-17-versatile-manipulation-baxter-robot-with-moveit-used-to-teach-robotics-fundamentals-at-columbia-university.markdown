@@ -10,7 +10,6 @@ media_type: image
 media_link: /wordpress/wp-content/uploads/2015/03/IMG_7324.jpg
 redirect_from:
   - "/versatile-manipulation-baxter-robot-with-moveit-used-to-teach-robotics-fundamentals-at-columbia-university/"
-wordpress_id: 1129
 categories:
 - MoveIt!
 - ROS

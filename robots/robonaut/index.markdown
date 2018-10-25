@@ -5,7 +5,6 @@ date: 2013-12-31 23:36:39+00:00
 layout: page
 slug: robonaut
 title: Robonaut
-wordpress_id: 499
 ---
 
 

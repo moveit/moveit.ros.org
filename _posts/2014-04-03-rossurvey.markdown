@@ -10,7 +10,6 @@ media_type: image
 media_link: /wordpress/wp-content/uploads/2014/02/which-ros-pkgs-thumb-480x629-536.png
 redirect_from:
   - "/rossurvey/"
-wordpress_id: 973
 categories:
 - MoveIt!
 - ROS

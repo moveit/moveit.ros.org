@@ -5,7 +5,6 @@ date: 2013-11-20 04:34:52+00:00
 layout: page
 slug: documentation
 title: Documentation
-wordpress_id: 85
 ---
 
 ### [Concepts](concepts)

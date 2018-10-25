@@ -5,7 +5,6 @@ date: 2014-01-01 00:04:06+00:00
 layout: page
 slug: dlr-hit-hand
 title: DLR-HIT Hand
-wordpress_id: 579
 ---
 
 

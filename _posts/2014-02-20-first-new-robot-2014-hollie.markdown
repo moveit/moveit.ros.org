@@ -10,7 +10,6 @@ media_type: image
 media_link: /wordpress/wp-content/uploads/2014/02/hollie.png
 redirect_from:
   - "/first-new-robot-2014-hollie/"
-wordpress_id: 918
 categories:
 - General
 ---

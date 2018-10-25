@@ -5,7 +5,6 @@ date: 2013-12-08 17:59:46+00:00
 layout: page
 slug: concepts
 title: Concepts
-wordpress_id: 194
 ---
 
 # Concepts

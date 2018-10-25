@@ -5,7 +5,6 @@ date: 2013-12-08 02:59:02+00:00
 layout: blog
 slug: robots
 title: Robots
-wordpress_id: 127
 ---
 
 <div class="robots">

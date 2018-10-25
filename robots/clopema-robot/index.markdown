@@ -5,7 +5,6 @@ date: 2014-01-01 00:03:46+00:00
 layout: page
 slug: clopema-robot
 title: Clopema Robot
-wordpress_id: 577
 ---
 
 
