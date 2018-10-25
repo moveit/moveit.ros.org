@@ -274,7 +274,7 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This LTS builds on the latest version of ROS1 but has had less adoption because it does not run on Ubuntu 16.04. Breaking API changes are accepted.</p>
+                        <p>This LTS builds on the latest version of ROS1 and can also build on Ubuntu 16.04. Breaking API changes are still accepted.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
@@ -289,7 +289,7 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This LTS is still actively being improved as its the most popular version amoung the maintainers. The API should be stable, but not ABI.</p>
+                        <p>This LTS is still being somewhat improved but we encourage all development on the Melodic release. The API should be stable, but not ABI.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>

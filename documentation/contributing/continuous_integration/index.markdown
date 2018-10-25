@@ -14,7 +14,7 @@ Here we outline the current setup of MoveIt!'s continuous integration setup, inc
 
 ## Docker
 
-For each ROS distribution there are up to 4 containers, built on top of a standard [ros:kinetic-ros-base](https://hub.docker.com/_/ros/) (or other distro version) image. We use Dockerhub to automatically build new versions of the containers each time a code change is commited to the ``moveit`` repo (but only for the corresponding branch).
+For each ROS distribution there are up to 4 containers, built on top of a standard [ros:melodic-ros-base](https://hub.docker.com/_/ros/) (or other distro version) image. We use Dockerhub to automatically build new versions of the containers each time a code change is commited to the ``moveit`` repo (but only for the corresponding branch).
 
 ### CI Container
 
