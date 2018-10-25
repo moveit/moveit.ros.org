@@ -59,5 +59,5 @@ To make the source container more useful for developing and testing code, we rec
 
 MoveIt!'s docker containers are built automatically on dockerhub.com, but you can modify and build locally if desired with the following command:
 
-    cd moveit/.docker/melodic/source
+    cd moveit/.docker/source
     docker build -t moveit/moveit:melodic-source .
