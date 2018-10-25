@@ -33,7 +33,7 @@ And you will likely need to log out and back into your user account for the chan
 
 To run a Debian-installed container of MoveIt! with graphics support:
 
-    wget https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/.docker/gui-docker gui-docker && chmod +x gui-docker
+    wget https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/.docker/gui-docker -O gui-docker && chmod +x gui-docker
     ./gui-docker -it --rm moveit/moveit:melodic-release /bin/bash
 
 This will attempt to use nvidia-docker if hardware and drivers are available.
