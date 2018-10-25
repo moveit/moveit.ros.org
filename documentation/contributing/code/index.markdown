@@ -18,12 +18,12 @@ In addition MoveIt! has some extra style preferences:
 
 ## C++
 
- - As of ROS Kinetic we use C++11
+ - We use C++11
  - Use the C++ standard library (``std::``) whenever possible
  - Avoid C-style functions such as ``FLT_EPSILON`` - instead use ``std::numeric_limits<double>::epsilon()``
  - Boost is an encouraged library when functionality is not available in the standard library
  - Prefer full variable names over short acryonms - e.g. ``robot_state_`` over ``rs_``
- - Deprecate functions using MOVEIT_DEPRECATED in [deprecation.h](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/macros/include/moveit/macros/deprecation.h)
+ - Deprecate functions using MOVEIT_DEPRECATED in [deprecation.h](https://github.com/ros-planning/moveit/blob/melodic-devel/moveit_core/macros/include/moveit/macros/deprecation.h)
  - Catch known exceptions and log them in detail. Avoid using ``catch (...)`` as it hides every information of a possible fault. We want to know if something goes wrong.
  - We don't catch exceptions that don't derive from ``std::exception`` in MoveIt. It is the responsibility of the plugin provider to handle non-``std::exception``-derived exceptions locally.
 
@@ -37,7 +37,7 @@ In addition MoveIt! has some extra style preferences:
 
 ## Shared Ptrs
 
- - For creating ``shared_ptr`` of any object, use MoveIt!'s standard [macro](https://github.com/ros-planning/moveit/blob/kinetic-devel/moveit_core/macros/include/moveit/macros/class_forward.h) ``MOVEIT_CLASS_FORWARD(ClassName)`` before the class declaration, and add the include ``#include <moveit/macros/class_forward.h>``. This will create two typedefs of shared pointers - ``<ClassName>Ptr`` and ``<ClassName>ConstPtr`` using either ``boost`` or ``std``.
+ - For creating ``shared_ptr`` of any object, use MoveIt!'s standard [macro](https://github.com/ros-planning/moveit/blob/melodic-devel/moveit_core/macros/include/moveit/macros/class_forward.h) ``MOVEIT_CLASS_FORWARD(ClassName)`` before the class declaration, and add the include ``#include <moveit/macros/class_forward.h>``. This will create two typedefs of shared pointers - ``<ClassName>Ptr`` and ``<ClassName>ConstPtr`` using either ``boost`` or ``std``.
 
 ## CMakeLists.txt
 
@@ -56,7 +56,7 @@ You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
 Please note that we rely on clang-format version **3.8**. Sadly, newer versions are not fully backward compatible.
 
-clang-format requires a configuration file in the root of your catkin workspace. The MoveIt! repo contains this file [here](https://github.com/ros-planning/moveit/blob/kinetic-devel/.clang-format).
+clang-format requires a configuration file in the root of your catkin workspace. The MoveIt! repo contains this file [here](https://github.com/ros-planning/moveit/blob/melodic-devel/.clang-format).
 
 ### Command Line
 

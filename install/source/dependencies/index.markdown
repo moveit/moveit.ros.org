@@ -44,7 +44,7 @@ sudo scons install
 
 ### Adding warehouse_ros and warehouse_ros_mongo packages
 
-You'll next need to add two packages to your catkin workspace. The jade-devel branches for the warehouse packages work for both kinetic and jade distros.
+You'll next need to add two packages to your catkin workspace. The jade-devel branches for the warehouse packages work for kinetic, jade, and melodic distros.
 
 ```
 cd ~/ws_moveit/src

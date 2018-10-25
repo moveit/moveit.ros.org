@@ -108,16 +108,16 @@ If each step ends with issues, they need to be fixed before moving on.
      ```
      _DIR_PRLTEST=/tmp/prerelease_job_kin-xen; mkdir -p $_DIR_PRLTEST && cd $_DIR_PRLTEST
 
-     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu xenial amd64  moveit   --level 0  --output-dir ./
+     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml melodic default ubuntu xenial amd64  moveit   --level 0  --output-dir ./
 
-     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml kinetic default ubuntu wily amd64  moveit   --level 0  --output-dir ./
+     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml melodic default ubuntu wily amd64  moveit   --level 0  --output-dir ./
      ```
 
 1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to sort out per the type of changes (e.g. bugfix, new capability, maintenance, documentation). Example of the whole command set:
 
    ```
    cd moveit                              (Top directory of your clooned moveit repo.)
-   git checkout kinetic-devel
+   git checkout melodic-devel
    git log                                (Make sure the HEAD is what you want to release with. If it's not then update accordingly.)
    catkin_generate_changelog
    emacs `find . -iname CHANGELOG.rst`    (Edit each file. Emacs forever, but replace it if necessary :/)
@@ -133,7 +133,7 @@ If each step ends with issues, they need to be fixed before moving on.
 1. Run `bloom`. Open a pull request against [rosdistro](https://github.com/ros/rosdistro) as bloom suggests at the end of its run. [Example of such a request](https://github.com/ros/rosdistro/pull/13512). Example command:
 
    ```
-   bloom-release --rosdistro kinetic --track kinetic moveit
+   bloom-release --rosdistro melodic --track melodic moveit
    ```
 1. Notify maintainers to resume new merge.
 1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt! category](https://discourse.ros.org/c/moveit).
