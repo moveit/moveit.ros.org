@@ -7,7 +7,7 @@ slug: icra-2015-update
 title: ICRA 2015 Update
 description: The 2015 IEEE ICRA conference featured a large number of participants and huge crowds at the exhibits and competitions. The Amazon Picking Challenge in particular was a fantastic success, with 28 teams taking part...
 media_type: image
-media_link: /wordpress/wp-content/uploads/2015/06/IMG_14271-624x467.jpg
+media_link: /assets/images/robots_old/IMG_14271-624x467.jpg
 redirect_from:
   - "/icra-2015-update/"
 categories:
@@ -22,16 +22,16 @@ MoveIt! was used by several teams in the competition, and also cited in several 
 ***
   <div class='row'>
     <div class='col-sm-4'>
-      <img src='/wordpress/wp-content/uploads/2015/06/IMG_1421-e1433356777714-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
+      <img src='/assets/images/robots_old/IMG_1421-e1433356777714-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
     </div>
     <div class='col-sm-4'>
-      <img src='/wordpress/wp-content/uploads/2015/06/IMG_14271-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
+      <img src='/assets/images/robots_old/IMG_14271-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
     </div>
     <div class='col-sm-4'>
-      <img src='/wordpress/wp-content/uploads/2015/06/IMG_14351-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
+      <img src='/assets/images/robots_old/IMG_14351-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
     </div>
     <div class='col-sm-4'>
-      <img src='/wordpress/wp-content/uploads/2015/06/IMG_1438-e1433356756361-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
+      <img src='/assets/images/robots_old/IMG_1438-e1433356756361-150x150.jpg' class='img-thumbnail img-responsive Responsive image'/>
     </div>
 
   </div>

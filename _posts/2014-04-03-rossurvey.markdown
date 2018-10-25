@@ -7,7 +7,7 @@ slug: rossurvey
 title: MoveIt! scores high in the ROS survey
 description: New ROS survey results are out and MoveIt! scored high on the list of ROS packages important to users.
 media_type: image
-media_link: /wordpress/wp-content/uploads/2014/02/which-ros-pkgs-thumb-480x629-536.png
+media_link: /assets/images/robots_old/which-ros-pkgs-thumb-480x629-536.png
 redirect_from:
   - "/rossurvey/"
 categories:

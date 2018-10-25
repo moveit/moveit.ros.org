@@ -22,7 +22,7 @@ title: Robots
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/UR5_Robot01-e1388518464480.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/UR5_Robot01-e1388518464480.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>UR5</h2>
@@ -33,7 +33,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/UR5_Robot01-e1388518464480.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/UR5_Robot01-e1388518464480.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>UR10</h2>
@@ -88,7 +88,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/ComauNM45-e1388521674757.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/ComauNM45-e1388521674757.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>NM45</h2>
@@ -99,7 +99,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/BioRobArm-e1388521821293.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/BioRobArm-e1388521821293.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>BioRob Arm</h2>
@@ -110,7 +110,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/KUKA-LWR-e1388522358443.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/KUKA-LWR-e1388522358443.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>LBR</h2>
@@ -121,7 +121,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/KUKA-LWR-e1388522358443.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/KUKA-LWR-e1388522358443.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>LWR</h2>
@@ -132,7 +132,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/KUKA-OmniRob-e1388523301576.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/KUKA-OmniRob-e1388523301576.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>OmniRob</h2>
@@ -154,7 +154,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/CytonVeta-e1388525159306.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/CytonVeta-e1388525159306.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Cyton Veta</h2>
@@ -176,7 +176,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/KawadaHiro-e1388526118666.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/KawadaHiro-e1388526118666.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Hiro</h2>
@@ -187,7 +187,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/xl-terabot-1-e1388526174245.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/xl-terabot-1-e1388526174245.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>XL-Terabot</h2>
@@ -198,7 +198,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/HRP-4-big-e1388526318605.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/HRP-4-big-e1388526318605.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>HRP-4</h2>
@@ -209,7 +209,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/PoineerP3AT-e1388526475126.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/PoineerP3AT-e1388526475126.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>P3AT</h2>
@@ -220,7 +220,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/schunk7dof-e1388526632533.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/schunk7dof-e1388526632533.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>7-DOF</h2>
@@ -231,7 +231,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/aldebaran-e1388526744947.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/aldebaran-e1388526744947.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>NAO</h2>
@@ -242,7 +242,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/Care-O-Bot-e1388526874126.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/Care-O-Bot-e1388526874126.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Care-O-Bot</h2>
@@ -253,7 +253,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/hrp-2-e1388526968197.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/hrp-2-e1388526968197.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>HRP-2</h2>
@@ -275,7 +275,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/aldebaran_romeo-e1388530833562.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/aldebaran_romeo-e1388530833562.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Romeo</h2>
@@ -286,7 +286,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/CKBot-e1388530914723.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/CKBot-e1388530914723.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>CKBot</h2>
@@ -297,7 +297,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/denso_vs060-e1388531067495.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/denso_vs060-e1388531067495.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Robot (vs060)</h2>
@@ -308,7 +308,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/RobatWork-e1388531587239.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/RobatWork-e1388531587239.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Rob@Work</h2>
@@ -330,7 +330,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/korus_homemate-e1388531695134.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/korus_homemate-e1388531695134.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Korus Homemate Robot</h2>
@@ -341,7 +341,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/katana-e1388531770669.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/katana-e1388531770669.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Katana</h2>
@@ -352,7 +352,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/ArbotixPincher-e1388531950445.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/ArbotixPincher-e1388531950445.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>PhantomX Pincher</h2>
@@ -363,7 +363,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/hdtarm-e1388532070528.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/hdtarm-e1388532070528.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>HDT Arm</h2>
@@ -374,7 +374,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/LynxMotionArm-e1388532111892.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/LynxMotionArm-e1388532111892.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Servo Erector Arm</h2>
@@ -385,7 +385,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/SchunkLWA-e1388532377367.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/SchunkLWA-e1388532377367.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Powerball</h2>
@@ -418,7 +418,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/x-wam0-scaled-e1388532424601.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/x-wam0-scaled-e1388532424601.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>X-WAM</h2>
@@ -429,7 +429,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/BarrettWAM-e1388532460154.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/BarrettWAM-e1388532460154.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>WAM</h2>
@@ -440,7 +440,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/ClopemaRobot-e1388532605291.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/ClopemaRobot-e1388532605291.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Clopema Robot</h2>
@@ -451,7 +451,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/DLR_Hit_Hand-e1388532641151.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/DLR_Hit_Hand-e1388532641151.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Hit Hand</h2>
@@ -462,7 +462,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/iCub-e1388532686296.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/iCub-e1388532686296.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>iCub</h2>
@@ -484,7 +484,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/ShadowArmandHand-e1388532882420.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/ShadowArmandHand-e1388532882420.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Arm and Hand</h2>
@@ -495,7 +495,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/KUKA-youbot-e1388602391704.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/KUKA-youbot-e1388602391704.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Youbot</h2>
@@ -517,7 +517,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/hollie_2014.png');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/hollie_2014.png');">
 				</div>
 				<div class="robots-content">
 					<h2>HOLLIE</h2>
@@ -616,7 +616,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/ABBIRB2400-e1388518661309.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/ABBIRB2400-e1388518661309.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>IRB 2400</h2>
@@ -726,7 +726,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/Fanucm10ia-e1388521738343.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/Fanucm10ia-e1388521738343.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>m10ia</h2>
@@ -891,7 +891,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/wordpress/wp-content/uploads/2013/12/Kinova-e1388518514672.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/Kinova-e1388518514672.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Jaco</h2>

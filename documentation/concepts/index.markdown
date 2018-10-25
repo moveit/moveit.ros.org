@@ -13,7 +13,7 @@ The following is an overview of how MoveIt! works. For more concrete documentati
 
 ## System Architecture
 
-<img src='/wordpress/wp-content/uploads/2013/12/Overview.0012.jpg' style="width: 90%;"/>
+<img src='/assets/images/robots_old/Overview.0012.jpg' style="width: 90%;"/>
 
 ### The move_group node
 
@@ -93,7 +93,7 @@ The move*group node will generate a desired trajectory in response to your moti
 
 ### **The Motion Planning Pipeline: Motion planners and Plan Request Adapters**
 
-<img src="/wordpress/wp-content/uploads/2013/12/Overview.002.jpg" style="width:90%;"/>
+<img src="/assets/images/robots_old/Overview.002.jpg" style="width:90%;"/>
 
 The complete motion planning pipeline chains together a motion planner with other components called _planning request adapters_. Planning request adapters allow for pre-processing motion plan requests and post-processing motion plan responses. Pre-processing is useful in several situations, e.g. when a start state for the robot is slightly outside the specified joint limits for the robot. Post-processing is needed for several other operations, e.g. to convert paths generated for a robot into time-parameterized trajectories.
 MoveIt! provides a set of default motion planning adapters that each perform a very specific function.
@@ -126,7 +126,7 @@ OMPL (Open Motion Planning Library) is an open-source motion planning library th
 
 ## Planning Scene
 
-<img src="/wordpress/wp-content/uploads/2013/12/Overview.0031.jpg" style="width:90%;"/>
+<img src="/assets/images/robots_old/Overview.0031.jpg" style="width:90%;"/>
 
 The _planning scene_ is used to represent the world around the robot and also stores the state of the robot itself. It is maintained by the _planning scene monitor_ inside the _move group_ node. The planning scene monitor listens to:
 
@@ -142,7 +142,7 @@ The world geometry monitor builds world geometry using information from the sens
 
 ### 3D Perception
 
-<img src="/wordpress/wp-content/uploads/2013/12/Overview.004.jpg" style="width:90%;"/>
+<img src="/assets/images/robots_old/Overview.004.jpg" style="width:90%;"/>
 
 3D perception in MoveIt! is handled by the _occupancy map monitor_. The occupancy map monitor uses a plugin architecture to handle different kinds of sensor input as shown in the Figure above. In particular, MoveIt! has inbuilt support for handling two kinds of inputs:
 
