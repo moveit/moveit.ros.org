@@ -18,11 +18,9 @@ MoveIt! is supported on the following systems:
 
 ### Prereq: Install ROS
 
-Follow all the instructions to [install ROS](http://wiki.ros.org/ROS/Installation), including calls to ``rosdep``.
+Follow all the instructions to [install ROS](http://wiki.ros.org/ROS/Installation), including calls to ``rosdep``. Choose your version of ROS below:
 
 ## Install on Ubuntu
-
-Choose your version of ROS:
 
 ### ROS Melodic - *latest*
 
