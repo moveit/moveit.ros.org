@@ -265,7 +265,7 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>Melodic LTS</h3>
-                        <span class="label label--green">Recomended</span>
+                        <span class="label label--green">Recommended</span>
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 17.10, 18.04</p>
