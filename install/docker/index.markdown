@@ -44,7 +44,7 @@ This will attempt to use nvidia-docker if hardware and drivers are available.
 
 ## MoveIt! Container Types
 
-There are many variants of the MoveIt! Docker available as documented [here](http://moveit.ros.org/documentation/contributing/continuous_integration/). For example, any of the three current distros work: [indigo, melodic, lunar]. Over variations include:
+There are many variants of the MoveIt! Docker available as documented [here](http://moveit.ros.org/documentation/contributing/continuous_integration/). For example, any of the three current distros work: [indigo, kinetic, melodic]. Other variations include:
 
 - **moveit/moveit:melodic-source** contains a full MoveIt! workspace downloaded and built to ~/ws_moveit/src. This container is useful for developers wanting to test or develop in a sandbox.
 - **moveit/moveit:melodic-release** builds ontop of the CI image, the full debian-based install of MoveIt! using apt-get.
