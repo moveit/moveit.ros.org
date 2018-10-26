@@ -49,7 +49,7 @@ By default we will assume you are building on the *latest* branch, we currently 
 Pull down required repositories and build from within the root directory of your catkin workspace:
 
     wstool init src
-    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/moveit.rosinstall
+    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/${ROS_DISTRO}-devel/moveit.rosinstall
     wstool update -t src
     rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}
     catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
