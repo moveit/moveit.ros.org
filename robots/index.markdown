@@ -1209,6 +1209,18 @@ wordpress_id: 127
 				</div>
 			</div>
 		</div>
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/OpenManipulator_Introduction.png');">
+				</div>
+				<div class="robots-content">
+					<h2>Open Manipulator</h2>
+					<h3>Robotis</h3>
+					<a href="https://github.com/ROBOTIS-GIT/open_manipulator" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-12">
