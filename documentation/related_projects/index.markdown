@@ -7,7 +7,7 @@ slug: related_projects
 title: Related Projects
 ---
 
-# Moveit! Related Projects
+# MoveIt! Related Projects
 
 MoveIt! is designed to be easily extensible as separate plugins or projects. Below is a list of related projects that have been aligned with the MoveIt! framework, in alphabetical order of project names. This is by no means exhaustive. Please create pull-requests in the repository [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) to *add* other projects related to MoveIt!. Or if not sure about the relevance, please post on the [ROS Discourse category](https://discourse.ros.org/c/moveit).
 
