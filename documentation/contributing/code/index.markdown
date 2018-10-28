@@ -35,9 +35,9 @@ In addition MoveIt! has some extra style preferences:
    - The use of the file name as the NAMED namespace is best practice, i.e. planning_scene.cpp would use ``"planning_scene"``
    - Avoid using the package name as the namespace as this is already output by the logger
 
-## Shared Ptrs
+## Shared and Weak Ptrs
 
- - For creating ``shared_ptr`` of any object, use MoveIt!'s standard [macro](https://github.com/ros-planning/moveit/blob/melodic-devel/moveit_core/macros/include/moveit/macros/class_forward.h) ``MOVEIT_CLASS_FORWARD(ClassName)`` before the class declaration, and add the include ``#include <moveit/macros/class_forward.h>``. This will create two typedefs of shared pointers - ``<ClassName>Ptr`` and ``<ClassName>ConstPtr`` using either ``boost`` or ``std``.
+ - For creating ``shared_ptr`` or ``weak_ptr`` of any object, use MoveIt!'s standard [macro](https://github.com/ros-planning/moveit/blob/melodic-devel/moveit_core/macros/include/moveit/macros/class_forward.h) ``MOVEIT_CLASS_FORWARD(ClassName)`` before the class declaration, and add the include ``#include <moveit/macros/class_forward.h>``. This will create two typedefs of shared pointers - ``<ClassName>Ptr`` and ``<ClassName>ConstPtr`` - and two typedefs of weak pointers - ``<ClassName>WeakPtr`` and ``<ClassName>ConstWeakPtr`` - using either ``boost`` or ``std``.
 
 ## CMakeLists.txt
 
