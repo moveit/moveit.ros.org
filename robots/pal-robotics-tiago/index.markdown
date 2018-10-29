@@ -5,7 +5,6 @@ date: 2016-07-25 00:06:50+00:00
 layout: page
 slug: pal-robotics-tiago
 title: PAL Robotics TIAGo
-wordpress_id: 569
 ---
 
 

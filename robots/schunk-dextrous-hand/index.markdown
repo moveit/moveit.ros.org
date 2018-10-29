@@ -5,7 +5,6 @@ date: 2013-12-31 23:55:21+00:00
 layout: page
 slug: schunk-dextrous-hand
 title: Schunk Dextrous Hand
-wordpress_id: 544
 ---
 
 

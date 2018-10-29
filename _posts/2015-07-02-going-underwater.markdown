@@ -10,7 +10,6 @@ media_type: video
 media_link: https://www.youtube.com/embed/VuSOrMWsfbg
 redirect_from:
   - "/going-underwater/"
-wordpress_id: 1181
 categories:
 - MoveIt!
 - ROS

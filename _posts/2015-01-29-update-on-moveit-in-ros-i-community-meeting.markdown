@@ -11,7 +11,6 @@ redirect_from:
 media_type: video
 media_link: https://www.youtube.com/embed/J-OT5lTiEQI
 
-wordpress_id: 1104
 categories:
 - MoveIt!
 - ROS

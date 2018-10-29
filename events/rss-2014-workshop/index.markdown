@@ -5,10 +5,9 @@ date: 2014-01-11 03:48:12+00:00
 layout: page
 slug: rss-2014-workshop
 title: RSS 2014 Workshop
-wordpress_id: 884
 ---
 
-[![](/wordpress/wp-content/uploads/2014/01/photo-1024x382.jpg)](/wordpress/wp-content/uploads/2014/01/photo.jpg)[no_toc]
+[![](/assets/images/robots_old/photo-1024x382.jpg)](/assets/images/robots_old/photo.jpg)[no_toc]
 
 
 ## Next-Generation Robotics: Academia, Start-ups and Industry

@@ -10,7 +10,6 @@ media_type:
 media_link:
 redirect_from:
   - "/see-you-at-icra-2015/"
-wordpress_id: 1139
 categories:
 - MoveIt!
 - ROS

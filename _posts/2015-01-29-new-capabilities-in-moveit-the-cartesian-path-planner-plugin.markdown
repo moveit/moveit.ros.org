@@ -10,7 +10,6 @@ media_type: video
 media_link: https://www.youtube.com/embed/jQc3z7FQwHw
 redirect_from:
   - "/new-capabilities-in-moveit-the-cartesian-path-planner-plugin/"
-wordpress_id: 1081
 categories:
 - MoveIt!
 - ROS

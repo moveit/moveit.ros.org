@@ -5,7 +5,6 @@ date: 2013-12-31 23:58:42+00:00
 layout: page
 slug: katana
 title: Katana
-wordpress_id: 558
 ---
 
 
