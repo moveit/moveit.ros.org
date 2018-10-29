@@ -28,7 +28,7 @@ Say you are using the panda robot with Moveit! and you want to see your plan bei
 ### Outcomes
 The outcomes, successes, and key metrics of improvement:
 
-Instead of writing many configuration files manually, you can now simulate your motion planning in rviz along side gazebo by using a few clicks in the Moveit! Setup assistant!
+Instead of writing many configuration files manually, you can now simulate your motion planning in Rviz along side Gazebo by using a few clicks in the MoveIt! Setup Assistant!
 
 ### Useful resources / links
 For further reading look at the [GitHub issue of the project](https://github.com/ros-planning/moveit/issues/894) and [MoveIt! Tutorial](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html).
