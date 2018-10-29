@@ -10,7 +10,6 @@ media_type: video
 media_link: https://www.youtube.com/embed/EK6f5495fXs
 redirect_from:
   - "/ckbot-whole-arm-grasping-and-moveit/"
-wordpress_id: 984
 categories:
 - MoveIt!
 - ROS

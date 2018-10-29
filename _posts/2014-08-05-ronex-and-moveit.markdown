@@ -10,7 +10,6 @@ media_type: video
 media_link: https://www.youtube.com/embed/Dk5-1W1d6zw
 redirect_from:
   - "/ronex-and-moveit/"
-wordpress_id: 1057
 categories:
 - MoveIt!
 - ROS

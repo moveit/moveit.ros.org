@@ -5,7 +5,6 @@ date: 2013-12-31 18:10:50+00:00
 layout: page
 slug: bdi-atlas
 title: BDI Atlas
-wordpress_id: 416
 ---
 
 

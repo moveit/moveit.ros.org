@@ -5,7 +5,6 @@ date: 2015-11-15
 layout: page
 slug: Scorbot ER4U
 title: Scorbot ER4U using MTIS
-wordpress_id:
 ---
 
 
