@@ -15,7 +15,7 @@ categories:
 
 Submitted by: Mohamad Ayman, Cairo University
 
-For this year's Google Summer of Code Project (GSoC) 2018, with coordination with PickNik Consulting, Open Source Robotics Foundation (OSRF), and Dave Coleman, and Andy McEvoy, Setup Assistant v2 has been developed.
+For this year's Google Summer of Code Project (GSoC) 2018, in collaboration with PickNik Consulting, Open Source Robotics Foundation (OSRF), Dave Coleman, and Andy McEvoy, the Setup Assistant 2.0 has been developed.
 
 The focus of this research was to improve the Setup Assistant.  The idea was to add more features to the Moveit! Setup Assistant as well as to simplify setting up robots for simulations and other tasks. This blog post will further explain how to simulate your Moveit! Controlled robot in Gazebo using the upgraded setup assistant and act as a tutorial
 
