@@ -5,7 +5,6 @@ date: 2015-11-13 22:07:00+00:00
 layout: page
 slug: robotis-bioloid
 title: Robotis Bioloid
-wordpress_id:
 ---
 
   * Company:

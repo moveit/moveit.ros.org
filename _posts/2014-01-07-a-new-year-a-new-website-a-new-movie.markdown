@@ -10,7 +10,6 @@ media_type: video
 media_link: https://www.youtube.com/embed/dblCGZzeUqs
 redirect_from:
   - "/a-new-year-a-new-website-a-new-movie/"
-wordpress_id: 744
 categories:
 - MoveIt!
 - ROS
