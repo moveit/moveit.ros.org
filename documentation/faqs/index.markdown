@@ -7,15 +7,9 @@ slug: faqs
 title: FAQs
 ---
 
+# Frequently Asked Questions
+
 ## General
-
-_How do I install MoveIt!?_
-
-  * Follow the [Installation instructions](/install/).
-
-_What operating systems does MoveIt! work with?_
-
-  * The primary operating system that MoveIt! is developed against is Ubuntu Linux.
 
 _What is the difference between MoveIt! and ROS?_
 
@@ -34,10 +28,6 @@ _What is the difference between MoveIt! and ROS-Industrial?_
 _What is the difference between MoveIt! and OMPL?_
 
   * [OMPL](http://ompl.kavrakilab.org) is an open-source motion planning library that is used by MoveIt! for motion planning. MoveIt! uses an extensible plugin architecture and other motion planning libraries can also easily be integrated with MoveIt!. OMPL provides a variety of high-quality well-tested randomized planners.
-
-_Where can I find the current status of MoveIt!?_
-
-  * You can find a list of components in MoveIt! and their status on the [Status](/about/moveit-status/) page.
 
 ## Bugs/Issues
 
@@ -64,7 +54,7 @@ _I would like to be listed as an official maintainer for a robot. What are my re
 
 _What robots does MoveIt! support?_
 
-  * MoveIt! has been used on over 65 robots. To find a list of robots that MoveIt! has been used with, check the [Robots](/robots/) page.
+  * MoveIt! has been used on over 100 robots. To find a list of robots that MoveIt! has been used with, check the [Robots](/robots/) page.
 
 ## Community
 
