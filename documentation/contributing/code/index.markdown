@@ -52,9 +52,9 @@ e.g. `include/moveit_core/...`, `include/moveit_ros_planning/...`, etc.
 
 You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
-    sudo apt-get install clang-format-3.8
+    sudo apt-get install clang-format-3.9
 
-Please note that we rely on clang-format version **3.8**. Sadly, newer versions are not fully backward compatible.
+Please note that we rely on clang-format version **3.9**. Sadly, newer versions are not fully backward compatible.
 
 clang-format requires a configuration file in the root of your catkin workspace. The MoveIt! repo contains this file [here](https://github.com/ros-planning/moveit/blob/melodic-devel/.clang-format).
 
@@ -62,11 +62,11 @@ clang-format requires a configuration file in the root of your catkin workspace.
 
 Format a single file:
 
-    clang-format-3.8 -i -style=file MY_ROS_NODE.cpp
+    clang-format-3.9 -i -style=file MY_ROS_NODE.cpp
 
 Format an entire directory recursively including subfolders:
 
-    find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-3.8 -i -style=file $1
+    find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-3.9 -i -style=file $1
 
 ### Exceptions to clang-format
 
@@ -91,7 +91,7 @@ Format your source code if its in some directory such as the ``catkin_ws`` (feel
 (and
 (string-match "/catkin_ws/.*\\.\\(h\\|cpp\\)$" buffer-file-name)
 (save-some-buffers 'no-confirm)
-(shell-command (concat "clang-format-3.8 -style=file -i " buffer-file-name))
+(shell-command (concat "clang-format-3.9 -style=file -i " buffer-file-name))
 (message (concat "Saved and ran clang-format on " buffer-file-name))
 (revert-buffer t t t)
 ))
@@ -105,7 +105,7 @@ Set a keyboard shortcut to run, such as F12
 
 Install the [clang-format](https://atom.io/packages/clang-format) package via the Atom package manager or ``apm install clang-format``.
 
-In the package settings set ``clang-format-3.8`` as your executable and point 'Style' to your ``.clang-format`` file.
+In the package settings set ``clang-format-3.9`` as your executable and point 'Style' to your ``.clang-format`` file.
 
 ## clang-tidy Linting
 
@@ -114,7 +114,7 @@ In the package settings set ``clang-format-3.8`` as your executable and point 'S
 more modern, more readable, and less prone to common bugs.
 
 You can install clang-tidy and other clang related tools with
-`sudo apt-get install clang libclang-dev clang-tidy-3.8 clang-format-3.8`
+`sudo apt-get install clang libclang-dev clang-tidy-3.9 clang-format-3.9`
 
 To add it to a new package, add `set(CMAKE_EXPORT_COMPILE_COMMANDS ON)` to `CMakeLists.txt` and rebuild.
 You can also make a specific clang-tidy build with
@@ -125,7 +125,7 @@ catkin build
 
 Run it on a specific folder, such as `collision_detection`, with
 ```
-run-clang-tidy-3.8.py -fix -p=/home/brycew/Desktop/moveit_ws/build/moveit_core/  collision_detection
+run-clang-tidy-3.9.py -fix -p=/home/brycew/Desktop/moveit_ws/build/moveit_core/  collision_detection
 ```
 
 Note that if you have multiple layers of nested for loops that need to be converted, clang-tidy
