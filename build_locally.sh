@@ -21,13 +21,8 @@ bundle install
 bundle exec jekyll build --strict_front_matter
 
 # Launch website
-echo
-echo "-------------------------------------"
-echo "-------------------------------------"
-read -p "Press any key to start serving website, then open http://localhost:4000 in browser"
-echo "-------------------------------------"
-echo "-------------------------------------"
-echo
+echo "Opening http://localhost:4000 in default browser"
+xdg-open http://localhost:4000
 
 # Start serving website locally
 bundle exec jekyll serve

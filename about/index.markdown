@@ -86,13 +86,6 @@ We also acknowledge the contributions of the Willow Garage interns who have work
 
 We also acknowledge the contributions of the ROS-Industrial consortium led by the Southwest Research Institute for supporting and building up infrastructure for applying MoveIt! and Arm Navigation to industrial robots and environments. Similarly, we acknowledge the contributions of Fraunhofer IPA to MoveIt! and support for the ROS-Industrial effort in Europe.
 
-## Logo Guidelines
+## Press Kit
 
-We ask that you not:
-
-* place a logo in such close proximity to other content that it is indistinguishable
-* make the logo the most distinctive or prominent feature on your website, printed material or other content
-* use the logos in a way that is harmful, deceptive, obscene or otherwise objectionable to the average person
-* use the logos to, or in connection with, content that disparages us or sullies MoveIt!'s reputation
-
-The logo files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
+See [Logo Guidelines](/about/press_kit)
