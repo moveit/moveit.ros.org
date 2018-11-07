@@ -1210,7 +1210,7 @@ title: Robots
 		</div>
                 <div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/OpenManipulator_Introduction.png');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/open-manipulator.png');">
 				</div>
 				<div class="robots-content">
 					<h2>Open Manipulator</h2>
