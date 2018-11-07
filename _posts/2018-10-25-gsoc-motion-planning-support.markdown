@@ -79,7 +79,7 @@ Sample environments (with obstacles) are available in MoveIt for testing motion 
 [<img src="{{ site.url }}/assets/images/gsoc18/single_obstacle.png" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/gsoc18/single_obstacle.png)
 Figure 5. Simple Environment (Collision Scene example) with a single obstacle.
 
-[<img src="{{ site.url }}/assets/images/gsoc18/multiple_obstacle.png" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/gsoc18/multiple_obstaclke.png)
+[<img src="{{ site.url }}/assets/images/gsoc18/multiple_obstacle.png" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/gsoc18/multiple_obstacle.png)
 Figure 6. Complex Environment (Collision Scene example) with multiple obstacles.
 
 The Pull  Requests for the same can be seen below:
