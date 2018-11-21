@@ -6,7 +6,7 @@ layout: post
 slug: icra-roscon-trip-report
 title: ICRA and ROSCON 2013 Trip Report
 media_type: video
-media_link: https://www.youtube.com/embed/vAeEEoxVhAo
+media_link: https://www.youtube-nocookie.com/embed/vAeEEoxVhAo
 description: Our trip to ICRA and ROSCON 2013 was a grand success. The highlight - MoveIt! is released.
 categories:
 - MoveIt!

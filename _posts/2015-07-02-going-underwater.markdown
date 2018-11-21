@@ -7,7 +7,7 @@ slug: going-underwater
 title: MoveIt! goes underwater!
 description: MoveIt! on an underwater Girona500 AUV robot and 4-DOF arm for autonomous underwater manipulation...
 media_type: video
-media_link: https://www.youtube.com/embed/VuSOrMWsfbg
+media_link: https://www.youtube-nocookie.com/embed/VuSOrMWsfbg
 redirect_from:
   - "/going-underwater/"
 categories:
@@ -19,13 +19,13 @@ Dina Youakim at the Universitat de Girona used MoveIt! on an underwater Girona50
 
 **[Free-Floating Autonomous Underwater Manipulation: Connector Plug/Unplug](https://youtu.be/VuSOrMWsfbg)**
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/VuSOrMWsfbg" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/VuSOrMWsfbg" frameborder="0" allowfullscreen></iframe>
 
 ***
 
 **[Free-Floating Autonomous Valve Turning in Presence of Virtual Obstacles](https://youtu.be/xkYdiM2svrY)**
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/mDZBA1jyRi8?list=PLhSXjcUsDAnGDSlMOojGkDyRpChZCudHT" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/mDZBA1jyRi8?list=PLhSXjcUsDAnGDSlMOojGkDyRpChZCudHT" frameborder="0" allowfullscreen></iframe>
 
 ***
 More information about the Girona500 AUV robot can be found in this publication:
