@@ -22,21 +22,22 @@ We would like to thank everyone who participated, sponsored, and supported in th
 MoveIt! continues to grow and improve and we appreciate everyone’s contributions.  
 
 **Now for the numbers:**
-- Number of official locations: 11
-- Number of participants: 94
+- Number of official locations: 12
+- Number of participants: 100
 
 **Locations and participants:**
-- 27 @ TORK
-- 16 @ Fraunhofer IPA (Pilz, Bosch, Isys, and IPA)
-- 12 @ IronOx
+- 27 @ TORK, Tokyo, Japan
+- 16 @ Fraunhofer IPA (Pilz, Bosch, Isys, and IPA), Stuttgart, Germany
+- 12 @ IronOx, San Francisco, USA
 - 10 @ Southwest Research Institute, San Antonio, USA
 - 11 @ ROS-Industrial Asian Pacific Consortium, Singapore
-- 8 @ PickNik
-- 5 @ Shadow Robot Company
-- 2 @ Modular Motions
-- 1 @ Green Robots Machinery Pvt. Ltd. (individual)
-- 1 @ KRC (individual)
-- 1 @ Prisma lab (individual)
+- 8 @ PickNik, Boulder, USA
+- 6 @ Cluster Innovation Centre, New Delhi, India
+- 5 @ Shadow Robot Company, London, UK
+- 2 @ Modular Motions, Berkeley, USA
+- 1 @ Green Robots Machinery Pvt. Ltd. (individual), Bangalore, India
+- 1 @ KRC (individual), Tokyo, Japan
+- 1 @ Prisma lab (individual), Naples, Italy
 
 
 **A few other stats from the event and 30 days after**
