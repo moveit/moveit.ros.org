@@ -6,12 +6,12 @@ layout: post
 slug: wordlmoveitdayreport3
 title: Report On Third Annual World MoveIt! Day
 media_type: image
-media_link: http://moveit.ros.org/assets/images/wmd18/world_moveit_day_2018.png
+media_link: /assets/images/wmd18/world_moveit_day_2018.png
 description: Results from our third annual international hackathon to improve the MoveIt! code base, documentation, and community.
 categories:
 - MoveIt!
 - ROS
-
+---
 
 Hi everyone!
 
@@ -27,7 +27,7 @@ MoveIt! continues to grow and improve and we appreciate everyone’s contributio
 
 **Locations and participants:**
 - 27 @ TORK
-- 16 @ Fraunhofer IPA (Pilz, Bosch, isys and IPA)
+- 16 @ Fraunhofer IPA (Pilz, Bosch, Isys, and IPA)
 - 12 @ IronOx
 - 10 @ Southwest Research Institute, San Antonio, USA
 - 11 @ ROS-Industrial Asian Pacific Consortium, Singapore
@@ -45,5 +45,22 @@ These are from the three key moveit repos: moveit, moveit_tutorials, and moveit.
 - 41 pull requests opened
 - 97 issues closed 
 - 107 issues opened
+
+**Some pictures from some of the locations:**
+
+Pilz, Bosch, ISys and IPA
+[<img src="{{ site.url }}/assets/images/wmd18/germany_wmd.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd18/germany_wmd.jpg)
+
+Iron Ox
+[<img src="{{ site.url }}/assets/images/wmd18/iron_ox_wmd.png" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd18/iron_ox_wmd.png)
+
+PickNik
+[<img src="{{ site.url }}/assets/images/wmd18/picknik_wmd.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd18/picknik_wmd.jpg)
+
+SWRI
+[<img src="{{ site.url }}/assets/images/wmd18/swri_wmd.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd18/swri_wmd.jpg)
+
+TORK
+[<img src="{{ site.url }}/assets/images/wmd18/tokyo_os_wmd.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd18/tokyo_os_wmd.jpg)
 
 If your organization is interested in sponsoring code-sprints please see the list of ideas and contact [PickNik Consulting](http://picknik.ai/connect) for more information.
