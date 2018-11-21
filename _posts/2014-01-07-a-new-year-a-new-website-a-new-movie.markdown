@@ -7,7 +7,7 @@ slug: a-new-year-a-new-website-a-new-movie
 title: A New Year, A New Website, A New Movie
 description: The MoveIt! development team would like to wish you a very happy new year and bring new tidings.
 media_type: video
-media_link: https://www.youtube.com/embed/dblCGZzeUqs
+media_link: https://www.youtube-nocookie.com/embed/dblCGZzeUqs
 redirect_from:
   - "/a-new-year-a-new-website-a-new-movie/"
 categories:
@@ -21,7 +21,7 @@ The MoveIt! development team would like to wish you a very happy new year and br
 ### A MoveIt! 2013 Montage Movie
 
 
-<iframe width="710" height="315" src="https://www.youtube.com/embed/dblCGZzeUqs" frameborder="0" allowfullscreen></iframe>
+<iframe width="710" height="315" src="https://www.youtube-nocookie.com/embed/dblCGZzeUqs" frameborder="0" allowfullscreen></iframe>
 
 
 ### A new website

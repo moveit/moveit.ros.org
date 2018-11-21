@@ -6,7 +6,7 @@ layout: post
 slug: icra-motion-planning-tutorial
 title: ICRA Motion Planning Tutorial 2013
 media_type: video
-media_link: https://www.youtube.com/embed/vAeEEoxVhAo
+media_link: https://www.youtube-nocookie.com/embed/vAeEEoxVhAo
 description: The ICRA 2015 Tutorial on Motion Planning is intended to expose both novice and expert users to the most recent developments, both theoretical and practical, on the topic of motion planning for mobile manipulation.
 redirect_from:
   - "/wiki/Tutorials/ICRA2013/"

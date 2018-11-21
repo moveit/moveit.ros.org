@@ -9,7 +9,7 @@ description: Sachin Chitta gave an update on MoveIt! in the ROS-I community meet
 redirect_from:
   - "/update-on-moveit-in-ros-i-community-meeting/"
 media_type: video
-media_link: https://www.youtube.com/embed/J-OT5lTiEQI
+media_link: https://www.youtube-nocookie.com/embed/J-OT5lTiEQI
 
 categories:
 - MoveIt!
