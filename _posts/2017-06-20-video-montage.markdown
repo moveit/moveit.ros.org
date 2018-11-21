@@ -7,7 +7,7 @@ slug: videoMontage2017
 title: MoveIt! Montage 2017 is now available
 description: MoveIt! is 5 years old!
 media_type: video
-media_link: https://www.youtube.com/embed/0og1SaZYtRc
+media_link: https://www.youtube-nocookie.com/embed/0og1SaZYtRc
 categories:
 - MoveIt!
 - ROS

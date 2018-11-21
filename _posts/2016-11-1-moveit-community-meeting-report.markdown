@@ -7,7 +7,7 @@ slug: moveit-community
 title: Video from the MoveIt! Community Meeting Oct 2016
 description: Watch video of the second MoveIt! Community Meeting in case you missed it.
 media_type: video
-media_link: https://www.youtube.com/embed/LTYHSb4gqSc
+media_link: https://www.youtube-nocookie.com/embed/LTYHSb4gqSc
 categories:
 - MoveIt!
 - ROS
@@ -28,4 +28,4 @@ In case you missed it, the video is available below
 
 **[MoveIt! Community Meeting Oct 2016](https://youtu.be/LTYHSb4gqSc)**
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/LTYHSb4gqSc" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/LTYHSb4gqSc" frameborder="0" allowfullscreen></iframe>
