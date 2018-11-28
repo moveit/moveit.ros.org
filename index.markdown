@@ -30,12 +30,12 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between homepage-main-wrapper">
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
-                            <div class="main-tag">
+                            <!--div class="main-tag">
                                 <a href="/events/world-moveit-day-2018/">
                                     <span class="blue">Announcement</span>
                                     <span>World MoveIt! Day 2018 will be on October 25th</span>
                                 </a>
-                            </div>
+                            </div-->
                             <h1>Moving robots into the&nbsp;future</h1>
                             <p class="main-text">Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation</p>
                             <div class="button-group">
