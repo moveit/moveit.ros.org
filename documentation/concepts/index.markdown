@@ -23,7 +23,7 @@ The figure above shows the high-level system architecture for the primary node p
 
 The users can access the actions and services provided by _move_group_ in one of three ways:
 
-- **In C++** - using the [move_group_interface](http://docs.ros.org/melodic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveGroup.html) package that provides an easy to setup C++ interface to move_group
+- **In C++** - using the [move_group_interface](http://docs.ros.org/melodic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveGroupInterface.html) package that provides an easy to setup C++ interface to move_group
 
 - **In Python** - using the [moveit_commander](http://docs.ros.org/melodic/api/moveit_commander/html/classmoveit__commander_1_1move__group_1_1MoveGroupCommander.html) package
 
