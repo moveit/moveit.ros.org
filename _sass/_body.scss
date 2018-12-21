@@ -92,6 +92,15 @@ img {
   }
 }
 
+.rss-feed{
+  display: block;
+  margin: 0 auto;
+  img{
+    max-width: 100%;
+    width: 48px;
+  }
+}
+
 .github {
   position: absolute;
   right: 0;
