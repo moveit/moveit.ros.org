@@ -71,7 +71,7 @@ Start planning in Rviz with with the [MoveIt! Getting Started Tutorial](https://
 
 Note that to make development easier, the MoveIt! is consolidated in a large code repository. If you would like to reduce the compile time, you can disable certain unneeded packages from being built using ``catkin-tools``. Here is an example list, but be careful not to disable needed packages:
 
-    catkin config --blacklist moveit_commander moveit_setup_assistant moveit_fake_controller_manager  moveit_ros_benchmarks moveit_controller_manager_example chomp_motion_planner moveit_planners_chomp
+    catkin config --blacklist moveit_commander moveit_setup_assistant moveit_fake_controller_manager  moveit_ros_benchmarks moveit_controller_manager_example
 
 If you have already built these packages in your workspace you will also need to use ``catkin clean`` such as the following example:
 
