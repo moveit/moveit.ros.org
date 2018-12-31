@@ -37,7 +37,7 @@ Please state your intent to join [on this form](https://goo.gl/forms/vCIKiWcAgaB
 
 ## Description
 
-World MoveIt! Day is an international hackathon to improve the MoveIt! code base, documentation, and community. Following the heels of the repo merge, we hope to fix all broken links in the documentation, close as many longstanding pull requests and issues as possible, and have some fun with a newly released integrated simulation of MoveIt! manipulation + Gazebo + Fetch for us to test. An hour long Question and Answer session is scheduled at [9am Pacific](https://www.timeanddate.com/worldclock/meetingtime.html?iso=20160823&p1=37&p2=224) to allow the community to meet the people merging their pull requests.
+World MoveIt! Day is an international hackathon to improve the MoveIt! code base, documentation, and community. Following the heels of the repo merge, we hope to fix all broken links in the documentation, close as many longstanding pull requests and issues as possible, and have some fun with a newly released integrated simulation of MoveIt! manipulation + Gazebo + Fetch for us to test. An hour long Question and Answer session is scheduled at 9am Pacific to allow the community to meet the people merging their pull requests.
 
 ## Event Location Details
 
