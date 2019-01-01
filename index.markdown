@@ -33,7 +33,7 @@ redirect_from: '/moveit/'
                             <div class="main-tag">
                                 <a href="https://www.meetup.com/chinamoveitdeveloper/events/257278506/">
                                     <span class="blue">Announcement</span>
-                                    <span>2019 MoveIt! China Developer Workshop is January 16th</span>
+                                    <span>2019 China Developer Workshop is January 16th</span>
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
