@@ -25,7 +25,7 @@ Follow all the instructions to [install ROS](http://wiki.ros.org/ROS/Installatio
 
 Source installation requires [wstool](http://wiki.ros.org/wstool), [catkin_tools](https://catkin-tools.readthedocs.io/en/latest/), and optionally clang-format:
 
-    sudo apt-get install python-wstool python-catkin-tools clang-format-3.8
+    sudo apt-get install python-wstool python-catkin-tools clang-format-3.9
 
 Optionally create a new workspace, you can name it whatever:
 
