@@ -7,9 +7,15 @@ slug: about
 title: About
 ---
 
+# People
+
+MoveIt! is an open source project that is the result of the combined efforts of a large international community and multiple organizations. Many people have played a key role in making MoveIt! what it is today and they are awknowledged below - thank you!
+
+The primary governance of MoveIt! takes place during monthly meetings of the maintainers and core contributors through general consensus. Organizational leadership and administration is lead by [PickNik Consulting](https://picknik.ai/).
+
 ## Maintainers
 
-The MoveIt! project is currently maintained by the following contributors with commit-access:
+MoveIt! maintainers, commonly referred to as "committers" in other open source projects, are the seasoned experts of the MoveIt! project and the only ones who can merge pull requests.
 
 Name | Organization | GitHub ID
 ------------ |:------------- |-------------|
@@ -18,13 +24,25 @@ Robert Haschke | CITEC, Bielefeld University | [rhaschke](https://github.com/rha
 Michael Görner | University of Hamburg | [v4hn](https://github.com/v4hn)
 Isaac IY Saito | Plus One Robotics | [130s](https://github.com/130s)
 Michael Ferguson | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson)
-Ian McMahon | Rethink Robotics | [IanTheEngineer](https://github.com/IanTheEngineer)
+Ian McMahon | Toyota Research Institute | [IanTheEngineer](https://github.com/IanTheEngineer)
 Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://github.com/gavanderhoorn)
 Jorge Nicho | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho)
 Bence Magyar | Heriot-Watt University | [bmagyar](https://github.com/bmagyar)
 Mike Lautman | PickNik Consulting | [mlautman](https://github.com/mlautman)
 Jon Binney | Iron Ox | [jonbinney](https://github.com/jonbinney)
 Zak Kingston | Rice University | [zkingston](https://github.com/zkingston)
+
+## Core Contributors
+
+We have a stringent process for giving commit access to the code base to ensure quality, but we want to have as many people involved in reviewing pull requests and responding to issues. We have a non-commit access category of MoveIt! experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt! early on. See the [full maintainer policy](maintainer_policy).
+
+Name | Organization | GitHub ID
+------------ |:------------- |-------------|
+Bryce Willey | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
+Felix von Drigalski | OMRON SINIC X Corporation | [felixvd](https://github.com/felixvd)
+Simon Schmeißer | Isys Vision | [simonschmeisser](https://github.com/simonschmeisser)
+Henning Kayser | PickNik Consulting | [henningkayser](https://github.com/henningkayser)
+William Baker | Houston Mechatronics | [willcbaker](https://github.com/willcbaker)
 
 ## Maintainer Alumni
 
@@ -36,11 +54,6 @@ Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta)
 Ioan Sucan | Google X | [isucan](https://github.com/isucan)
 Dave Hershburger | Kinema Systems | [hersh](https://github.com/hersh) |
 Acorn Pooley | SRI International | N/A |
-Maarten de Vries | Delft Robotics | [de-vri-es](https://github.com/de-vri-es)
-
-## License
-
-MoveIt! is open source and released under the [BSD License v3](https://opensource.org/licenses/BSD-3-Clause). Each individual file in the MoveIt! source code should contain a copy of the license.
 
 ## Citing MoveIt!
 
@@ -60,9 +73,9 @@ Franka Emika sponsored a codesprint in 2018 to improve MoveIt!'s tutorials, docu
 
 ## History and Acknowledgements
 
-MoveIt!'s first [commit](https://github.com/ros-planning/moveit/commit/206e93c555a6ddcdbe826809c30b90b89bbb52d8) was October 2011. MoveIt! was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli and Dave Hershberger and we thank Willow Garage for its support of the MoveIt! project. We would also like to thank SRI International for its support of the MoveIt! project between October 2013 and June 2015.
+MoveIt!'s first [commit](https://github.com/ros-planning/moveit/commit/206e93c555a6ddcdbe826809c30b90b89bbb52d8) was October 2011. MoveIt! was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli, and Dave Hershberger and we thank Willow Garage for its support of the MoveIt! project. We would also like to thank SRI International for its support of the MoveIt! project between October 2013 and June 2015. Since then, PickNik has been leading the support of the MoveIt! project.
 
-We gratefully acknowledges the contributions of the following people to MoveIt! and associated packages that MoveIt! uses (or has used at some point):
+We gratefully acknowledge the early contributions of the following people to MoveIt! and associated packages that MoveIt! uses:
 
   * Lydia Kavraki, Mark Moll, and associated members of the Kavraki Lab (Rice University) for developing OMPL - a suite of randomized planners that MoveIt! uses extensively.
 
@@ -72,20 +85,18 @@ We gratefully acknowledges the contributions of the following people to MoveIt! 
 
   * Armin Hornung, Kai Wurm, Maren Bennewitz, Cyril Stachniss, and Wolfram Burgard for developing Octomap - software for 3D occupancy mapping used by MoveIt!
 
-  * Mrinal Kalakrishnan, Peter Pastor and Stefan Schaal at USC for developing STOMP, the distance field components in MoveIt! and the implementation of the CHOMP algorithm in Arm Navigation
+  * Mrinal Kalakrishnan, Peter Pastor and Stefan Schaal at USC for developing STOMP and CHOMP
 
-  * Dave Coleman from the University of Colorado, Boulder for developing the MoveIt! Setup Assistant and adding documentation to the MoveIt! website.
+  * Dave Coleman for developing the MoveIt! Setup Assistant, OMPL algorithms, and taking leadership of the MoveIt! project since 2016.
 
-  * Michael Ferguson for writing the simple controller manager plugin
+  * Michael Ferguson for the simple controller manager plugin, inspiring World MoveIt! Day, and helping revamp the MoveIt! project in 2016.
 
-  * Sachin Chitta and Praveen Singh for creating the current website
+  * Edward Gil Jones, Matei Ciocarlie, Kaijen Hsiao, Adam Leeper, and Ken Anderson for their seminal contributions of Arm Navigation and Grasping Pipeline components that MoveIt! evolved from.
 
-MoveIt! evolved from the Arm Navigation and Grasping Pipeline components of ROS and we gratefully acknowledge the seminal contributions of all developers and researchers to those packages, especially Edward Gil Jones, Matei Ciocarlie, Kaijen Hsiao, Adam Leeper, and Ken Anderson.
+  * Contributions of Willow Garage interns who have worked on MoveIt!, Arm Navigation, and associated components
 
-We also acknowledge the contributions of the Willow Garage interns who have worked on MoveIt!, Arm Navigation and associated components, members of the ROS and PR2 communities who have used, provided feedback and provided contributions to MoveIt! and Arm Navigation and members of the ROS community for developing the infrastructure that MoveIt! builds on.
+  * Members of the ROS and PR2 communities who have used, provided feedback and provided contributions to MoveIt!
 
-We also acknowledge the contributions of the ROS-Industrial consortium led by the Southwest Research Institute for supporting and building up infrastructure for applying MoveIt! and Arm Navigation to industrial robots and environments. Similarly, we acknowledge the contributions of Fraunhofer IPA to MoveIt! and support for the ROS-Industrial effort in Europe.
+  * ROS-Industrial consortium led by the Southwest Research Institute and Fraunhofer IPA for applying MoveIt! to industrial robots.
 
-## Press Kit
-
-See [Logo Guidelines](/about/press_kit)
+  * Open Robotics for playing an advisory role, maintaining ROS, and providing the infrastructure for releasing packages

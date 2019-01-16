@@ -13,6 +13,10 @@ First off, thank you for considering contributing to MoveIt! - it's people like 
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, we should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
+## Press Kit
+
+See [Logo Guidelines](/about/press_kit)
+
 ## Enhancing Documentation
 
 Documentation for the MoveIt! project can be found in two places: in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) and on this website. Github's popular ``README.md`` files should be mainly used to redirect users to the corresponding tutorial and website pages.

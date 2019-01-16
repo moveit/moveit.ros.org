@@ -16,10 +16,6 @@ _What is the difference between MoveIt! and ROS?_
   * MoveIt! runs on top of ROS (Robot Operating System).
   * ROS is an open-source meta-operating system for robots that provides low-level functionality like a build system, message passing, device drivers and some integrated capabilities like navigation. MoveIt! provides functionality for kinematics, motion/path planning, collision checking, 3D perception, robot interaction and much, much more. MoveIt! is a primary source of a lot of the functionality for manipulation (and mobile manipulation) in ROS. MoveIt! builds on the ROS messaging and build systems and utilizes some of the common tools in ROS like the ROS Visualizer (Rviz) and the ROS robot format (URDF). MoveIt! is fast becoming the entry point into ROS, especially through the use of the MoveIt! Setup Assistant for configuring new robots.
 
-_What is the difference between MoveIt! and Arm Navigation?_
-
-  * Arm Navigation was the predecessor to MoveIt!. MoveIt! is significantly different to Arm Navigation in system architecture and implementation, especially in terms of performance and extensibility. MoveIt! moved away from the process based architecture that Arm Navigation used, mainly to lower the cost of maintaining a representation of the world in multiple nodes. MoveIt! also takes advantage of the parallelization provided by collision checkers like FCL.
-
 _What is the difference between MoveIt! and ROS-Industrial?_
 
   * The ROS-Industrial consortium aims to use the advanced tools in MoveIt! and ROS to build and demonstrate advanced applications in industry. They were inspired by the success of Arm Navigation (MoveIt!'s predecessor) on the PR2 robot.
@@ -28,6 +24,10 @@ _What is the difference between MoveIt! and ROS-Industrial?_
 _What is the difference between MoveIt! and OMPL?_
 
   * [OMPL](http://ompl.kavrakilab.org) is an open-source motion planning library that is used by MoveIt! for motion planning. MoveIt! uses an extensible plugin architecture and other motion planning libraries can also easily be integrated with MoveIt!. OMPL provides a variety of high-quality well-tested randomized planners.
+
+_What kind of open source license does MoveIt! use?_
+
+ * MoveIt! is released under the buisness-friendly [BSD License v3](https://opensource.org/licenses/BSD-3-Clause). Each individual file in the MoveIt! source code should contain a copy of the license.
 
 ## Bugs/Issues
 
