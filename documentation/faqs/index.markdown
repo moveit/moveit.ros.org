@@ -27,7 +27,7 @@ _What is the difference between MoveIt! and OMPL?_
 
 _What kind of open source license does MoveIt! use?_
 
- * MoveIt! is released under the buisness-friendly [BSD License v3](https://opensource.org/licenses/BSD-3-Clause). Each individual file in the MoveIt! source code should contain a copy of the license.
+ * MoveIt! is released under the business-friendly [BSD License v3](https://opensource.org/licenses/BSD-3-Clause). Each individual file in the MoveIt! source code should contain a copy of the license.
 
 ## Bugs/Issues
 
