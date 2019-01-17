@@ -40,7 +40,7 @@ Name | Organization | GitHub ID
 ------------ |:------------- |-------------|
 Bryce Willey | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
 Felix von Drigalski | OMRON SINIC X Corporation | [felixvd](https://github.com/felixvd)
-Simon Schmeißer | Isys Vision | [simonschmeisser](https://github.com/simonschmeisser)
+Simon Schmeißer | isys vision | [simonschmeisser](https://github.com/simonschmeisser)
 Henning Kayser | PickNik Consulting | [henningkayser](https://github.com/henningkayser)
 William Baker | Houston Mechatronics | [willcbaker](https://github.com/willcbaker)
 
