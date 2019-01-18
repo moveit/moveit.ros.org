@@ -7,6 +7,10 @@ slug: packages
 title: Source Code & API
 ---
 
+## License
+
+MoveIt! is open source and released under the [BSD License v3](https://opensource.org/licenses/BSD-3-Clause). Each individual file in the MoveIt! source code should contain a copy of the license.
+
 # Source Code
 
 MoveIt! code is hosted on github in the [ros-planning organization](http://github.com/ros-planning) in the following repos:
