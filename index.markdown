@@ -222,26 +222,26 @@ redirect_from: '/moveit/'
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--blue"></span>
                             <p>
-                                Development
+                                Initial Development
                                 <small>23 May 2018</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
-                                Feature freeze
-                                <small>April 2019</small>
+                                API Freeze
+                                <small>March 2019</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--red"></span>
                             <p>
-                                Code freeze
-                                <small>May 2019</small>
+                                Official 1.0 Release
+                                <small>April 2019</small>
                             </p>
                         </div>
                         <div class="time-line--info">
-                            <p>23 May 2019</p>
+                            <p>1 April 2019</p>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
-                        <p><span>Date released:</span> TBD</p>
+                        <p><span>Initial release:</span> TBD</p>
                         <p><span>End of life:</span> TBD</p>
                     </div>
                     <div class="version-content">
@@ -269,12 +269,12 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 17.10, 18.04</p>
-                        <p><span>Date released:</span> 23 May 2018</p>
+                        <p><span>Initial release:</span> 23 May 2018</p>
                         <p><span>End of life:</span> May 2023</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This LTS builds on the latest version of ROS1 and can also build on Ubuntu 16.04. This LTS is recommended but it is still in development and breaking API changes are accepted.</p>
+                        <p>This LTS builds on the latest version of ROS1 and can also build on Ubuntu 16.04. This LTS is recommended and will be API stable starting March 2019.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
@@ -284,12 +284,12 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 15.10, 16.04</p>
-                        <p><span>Date released:</span> 23 May 2016</p>
+                        <p><span>Initial release:</span> 23 May 2016</p>
                         <p><span>End of life:</span> TBD</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This LTS is still being somewhat improved but we encourage all development on the Melodic release. The API should be stable, but not ABI.</p>
+                        <p>This LTS is stable and only bug fixes should be backported. Development should occur on the Melodic branch.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
@@ -299,12 +299,12 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 14.04</p>
-                        <p><span>Date released:</span> 22 July 2014</p>
+                        <p><span>Initial release:</span> 22 July 2014</p>
                         <p><span>End of life:</span> April 2019</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This LTS is still still used by some users but only critical bug fixes are accepted. The API is stable.</p>
+                        <p>This LTS is nearing end of life and is discouraged for adoption.</p>
                     </div>
                 </div>
             </div>
