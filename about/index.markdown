@@ -11,7 +11,7 @@ title: About
 
 MoveIt! is an open source project that is the result of the combined efforts of a large international community and multiple organizations. Many people have played a key role in making MoveIt! what it is today and they are awknowledged below - thank you!
 
-The primary governance of MoveIt! takes place during monthly meetings of the maintainers and core contributors through general consensus. Organizational leadership and administration is lead by [PickNik Consulting](https://picknik.ai/).
+The primary governance of MoveIt! takes place during monthly meetings of the maintainers and core contributors through majority vote. Organizational leadership and administration is lead by [PickNik Consulting](https://picknik.ai/).
 
 ## Maintainers
 
