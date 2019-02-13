@@ -12,7 +12,7 @@ title: Robots
 		<div class="col-xs-12 col-sm-12">
 			<div class="robots-main">
 				<h1>{{page.title}}</h1>
-				<p>MoveIt! has now been used on over 100 robots by the community. On this page, click on the robots to see more information about using MoveIt! with different robots.</p>
+				<p>MoveIt! has been used on over 100 robots by the community. From deep sea to outerspace, from hobbiests to industrial applications, check out a few of the many examples below using MoveIt! with different robots.</p>
 				<hr/>
 				<p>See something missing? If you would like to add a robot to this list, please email <a href="mailto:support@picknik.ai">support@picknik.ai</a></p>
 				<p>We are also looking for robot maintainers and new robots. If you are willing to maintain the MoveIt! packages for any robot in this list please post on the <a href="https://discourse.ros.org/c/moveit" target="_blank">ROS Discourse category</a>.</p>
