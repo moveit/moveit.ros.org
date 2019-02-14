@@ -5,7 +5,7 @@ date: 2019-02-11
 layout: post
 title: Report On MoveIt! China Developer Workshop 2019
 media_type: image
-media_link: /assets/images/wmd19/cdw_wmd.jpg
+media_link: /assets/images/wmd19/cdw_1.jpg
 description: Following last October's World MoveIt! Day, the first-ever MoveIt! China Developer Workshop 2019 was successfully held on Jan 16th in Suzhou, China.
 categories:
 - MoveIt!
@@ -40,3 +40,19 @@ Intel OTC robotics team hosted the afternoon’s hands-on lab activities. MoveIt
 * Draw “X” in simulator
 * Pick and place in simulator
 * Demo OpenVINO enabled random pick and place with UR5 robot arm
+
+[<img src="{{ site.url }}/assets/images/wmd19/cdw_2.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd19/cdw_2.jpg)
+
+[<img src="{{ site.url }}/assets/images/wmd19/cdw_3.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd19/cdw_3.jpg)
+
+[<img src="{{ site.url }}/assets/images/wmd19/cdw_4.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd19/cdw_4.jpg)
+
+[<img src="{{ site.url }}/assets/images/wmd19/cdw_5.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd19/cdw_5.jpg)
+
+[<img src="{{ site.url }}/assets/images/wmd19/cdw_6.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd19/cdw_6.jpg)
+
+[<img src="{{ site.url }}/assets/images/wmd19/cdw_7.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd19/cdw_7.jpg)
+
+[<img src="{{ site.url }}/assets/images/wmd19/cdw_8.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd19/cdw_8.jpg)
+
+[<img src="{{ site.url }}/assets/images/wmd19/cdw_1.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/wmd19/cdw_1.jpg)
