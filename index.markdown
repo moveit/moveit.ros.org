@@ -250,7 +250,7 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>MoveIt! 2.0</h3>
-                        <span class="label label--blue">Seeking Funding</span>
+                        <span class="label label--blue">Partially Funded</span>
                     </div>
                     <div class="version-date">
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
