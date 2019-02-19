@@ -101,6 +101,12 @@ Set a keyboard shortcut to run, such as F12
 
     (global-set-key [f12] 'run-ros-clang-format)
 
+### QtCreator Editor Configuration
+
+Navigate to ``Tools`` > ``Options`` > ``Beautifier``
+On the ``General`` tab, enable auto format on file save, using ``ClangFormat``.
+On the ``Clang Format`` tab, configure ``clang-format-3.9`` as your executable and choose ``Use predefined style`` from ``File``.
+
 ### Atom Editor Configuration
 
 Install the [clang-format](https://atom.io/packages/clang-format) package via the Atom package manager or ``apm install clang-format``.
@@ -114,19 +120,33 @@ In the package settings set ``clang-format-3.9`` as your executable and point 'S
 more modern, more readable, and less prone to common bugs.
 
 You can install clang-tidy and other clang related tools with
-`sudo apt-get install clang libclang-dev clang-tidy-3.9 clang-format-3.9`
+`sudo apt-get install clang-tidy clang-tools`
 
-To add it to a new package, add `set(CMAKE_EXPORT_COMPILE_COMMANDS ON)` to `CMakeLists.txt` and rebuild.
-You can also make a specific clang-tidy build with
+Similarly to clang-format, clang-tidy uses the configuration file [``.clang-tidy``](https://github.com/ros-planning/moveit/blob/melodic-devel/.clang-tidy) that is found first when traversing the source folder hierarchy upwards. The MoveIt! repo provides this file [here](https://github.com/ros-planning/moveit/blob/melodic-devel/.clang-tidy).
+
+
+Other than clang-format, clang-tidy needs to know the exact compiler options used to build your project.
+To provide them, configure cmake with ``-DCMAKE_EXPORT_COMPILE_COMMANDS=ON`` and cmake will create in the package's build
+folder a file called ``compile_commands.json``. _After_ building, you can run clang-tidy to analyze your code and even
+**fix** issues automatically as follows:
+
+```sh
+for file in $(find $CATKIN_WS/build -name compile_commands.json) ; do
+	run-clang-tidy -fix -p $(dirname $file)
+done
 ```
-catkin config --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+
+You can run it also on selected folders or files of a package by specifying regular expressions to match the file names:
+```sh
+run-clang-tidy -fix -p $CATKIN_WS/build/moveit_core collision
+```
+
+Note that if you have multiple layers of nested ``for`` loops that need to be converted, clang-tidy
+will only fix one at a time. So be sure to run the above command a few times to convert all code.
+
+If you are only interested in the warnings, clang-tidy can also run directly during your build.
+You can make a specific clang-tidy build with:
+```
+catkin config --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_CXX_CLANG_TIDY=clang-tidy
 catkin build
 ```
-
-Run it on a specific folder, such as `collision_detection`, with
-```
-run-clang-tidy-3.9.py -fix -p=/home/brycew/Desktop/moveit_ws/build/moveit_core/  collision_detection
-```
-
-Note that if you have multiple layers of nested for loops that need to be converted, clang-tidy
-will only fix one at a time. So be sure to run the above command a few times to convert all code.
