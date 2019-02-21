@@ -40,4 +40,4 @@ Post issues and share improvements for the web documentation to the appropriate 
 
 ## Professional Support
 
-[PickNik Consulting](http://picknik.ai/) was founded with the mission of growing the MoveIt! project through community building and contract development. Contact us for a free consultation.
+[PickNik Consulting](http://picknik.ai/) was founded with the mission of growing the MoveIt! project through community building and sponsored development. If you are with a company or organization that may be interested or needs support, contact us for a free consultation.
