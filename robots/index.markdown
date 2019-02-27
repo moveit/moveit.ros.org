@@ -22,6 +22,28 @@ title: Robots
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Franka Emika Panda.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>Panda</h2>
+					<h3>Franka Emika</h3>
+					<a href="https://github.com/frankaemika/franka_ros" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Universal Robots UR3.png');">
+				</div>
+				<div class="robots-content">
+					<h2>UR3</h2>
+					<h3>Universal Robots</h3>
+					<a href="https://github.com/ros-industrial/universal_robot" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/UR5_Robot01-e1388518464480.jpg');">
 				</div>
 				<div class="robots-content">
@@ -39,28 +61,6 @@ title: Robots
 					<h2>UR10</h2>
 					<h3>Universal Robots</h3>
 					<a href="https://github.com/ros-industrial/universal_robot" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Willow Garage PR2.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>PR2</h2>
-					<h3>Willow Garage</h3>
-					<a href="https://github.com/ros-planning/moveit_pr2/" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Boston Dynamics Atlas.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>Atlas</h2>
-					<h3>Boston Dynamics</h3>
-					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/atlas_v3_moveit_config" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -88,23 +88,100 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/ComauNM45-e1388521674757.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/NASA Johnson Space Center Valkyrie.jpg');">
 				</div>
 				<div class="robots-content">
-					<h2>NM45</h2>
-					<h3>Comau</h3>
-					<a href="/robots/comau-nm45/">View package</a>
+					<h2>Valkyrie</h2>
+					<h3>NASA Johnson Space Center</h3>
+					<!-- <a href="/" target="_blank">View package</a> -->
 				</div>
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/BioRobArm-e1388521821293.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Fetch Robotics Fetch.jpg');">
 				</div>
 				<div class="robots-content">
-					<h2>BioRob Arm</h2>
-					<h3>Bionic Robotics</h3>
-					<a href="/robots/biorob-arm/">View package</a>
+					<h2>Fetch</h2>
+					<h3>Fetch Robotics</h3>
+					<a href="https://github.com/frankaemika/franka_ros" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Willow Garage PR2.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>PR2</h2>
+					<h3>Willow Garage</h3>
+					<a href="https://github.com/ros-planning/moveit_pr2/" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Boston Dynamics Atlas.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>Atlas</h2>
+					<h3>Boston Dynamics</h3>
+					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/atlas_v3_moveit_config" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Rethink Robotics Baxter Research Robot.jpeg');">
+				</div>
+				<div class="robots-content">
+					<h2>Baxter Research Robot</h2>
+					<h3>Rethink Robotics</h3>
+					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/baxter" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Rethink Robotics Sawyer.jpeg');">
+				</div>
+				<div class="robots-content">
+					<h2>Sawyer</h2>
+					<h3>Rethink Robotics</h3>
+					<a href="https://github.com/RethinkRobotics/sawyer_moveit" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/Kinova-e1388518514672.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>Jaco</h2>
+					<h3>Kinova</h3>
+					<a href="https://github.com/Kinovarobotics/kinova-ros/tree/master/kinova_moveit" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Kinova Jaco2.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>Jaco2</h2>
+					<h3>Kinova</h3>
+					<a href="https://github.com/Kinovarobotics/kinova-ros/tree/master/kinova_moveit" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Kinova Movo.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>Movo</h2>
+					<h3>Kinova</h3>
+					<a href="https://github.com/Kinovarobotics/kinova-ros/tree/master/kinova_moveit" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -138,6 +215,171 @@ title: Robots
 					<h2>OmniRob</h2>
 					<h3>KUKA</h3>
 					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/KUKA-youbot-e1388602391704.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>Youbot</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 10.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>KR 10</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA kr210.png');">
+				</div>
+				<div class="robots-content">
+					<h2>KR 210</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 150.png');">
+				</div>
+				<div class="robots-content">
+					<h2>KR 150</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 16.png');">
+				</div>
+				<div class="robots-content">
+					<h2>KR 16</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 5.png');">
+				</div>
+				<div class="robots-content">
+					<h2>KR 3</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 5.png');">
+				</div>
+				<div class="robots-content">
+					<h2>KR 5</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 6.png');">
+				</div>
+				<div class="robots-content">
+					<h2>KR 6</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 120.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>KR 120</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA IIWA.png');">
+				</div>
+				<div class="robots-content">
+					<h2>KR IIWA</h2>
+					<h3>KUKA</h3>
+					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL Robotics REEM.png');">
+				</div>
+				<div class="robots-content">
+					<h2>REEM</h2>
+					<h3>PAL Robotics</h3>
+					<a href="https://github.com/pal-robotics/reem_moveit_config" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/robots/pal-robotics-tiago/pal-robotics-tiago.png');">
+				</div>
+				<div class="robots-content">
+					<h2>TIAGo</h2>
+					<h3>PAL Robotics</h3>
+					<a href="https://github.com/pal-robotics/tiago_moveit_config" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL Robotics REEM-C.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>REEM-C</h2>
+					<h3>PAL Robotics</h3>
+					<a href="https://github.com/pal-robotics/reemc_moveit_config" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/ComauNM45-e1388521674757.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>NM45</h2>
+					<h3>Comau</h3>
+					<a href="/robots/comau-nm45/">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/BioRobArm-e1388521821293.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>BioRob Arm</h2>
+					<h3>Bionic Robotics</h3>
+					<a href="/robots/biorob-arm/">View package</a>
 				</div>
 			</div>
 		</div>
@@ -396,28 +638,6 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL Robotics REEM.png');">
-				</div>
-				<div class="robots-content">
-					<h2>REEM</h2>
-					<h3>PAL Robotics</h3>
-					<a href="https://github.com/pal-robotics/reem_moveit_config" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/robots/pal-robotics-tiago/pal-robotics-tiago.png');">
-				</div>
-				<div class="robots-content">
-					<h2>TIAGo</h2>
-					<h3>PAL Robotics</h3>
-					<a href="https://github.com/pal-robotics/tiago_moveit_config" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/x-wam0-scaled-e1388532424601.jpg');">
 				</div>
 				<div class="robots-content">
@@ -473,34 +693,12 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL Robotics REEM-C.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>REEM-C</h2>
-					<h3>PAL Robotics</h3>
-					<a href="https://github.com/pal-robotics/reemc_moveit_config" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/ShadowArmandHand-e1388532882420.jpg');">
 				</div>
 				<div class="robots-content">
 					<h2>Arm and Hand</h2>
 					<h3>Shadow Robotics</h3>
 					<a href="/robots/shadow-robotics-arm-and-hand/">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/KUKA-youbot-e1388602391704.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>Youbot</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -715,17 +913,6 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Franka Emika Panda.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>Panda</h2>
-					<h3>Franka Emika</h3>
-					<a href="https://github.com/frankaemika/franka_ros" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/Fanucm10ia-e1388521738343.jpg');">
 				</div>
 				<div class="robots-content">
@@ -880,149 +1067,6 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Fetch Robotics Fetch.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>Fetch</h2>
-					<h3>Fetch Robotics</h3>
-					<a href="https://github.com/frankaemika/franka_ros" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots_old/Kinova-e1388518514672.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>Jaco</h2>
-					<h3>Kinova</h3>
-					<a href="https://github.com/Kinovarobotics/kinova-ros/tree/master/kinova_moveit" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Kinova Jaco2.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>Jaco2</h2>
-					<h3>Kinova</h3>
-					<a href="https://github.com/Kinovarobotics/kinova-ros/tree/master/kinova_moveit" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Kinova Movo.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>Movo</h2>
-					<h3>Kinova</h3>
-					<a href="https://github.com/Kinovarobotics/kinova-ros/tree/master/kinova_moveit" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 10.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>KR 10</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA kr210.png');">
-				</div>
-				<div class="robots-content">
-					<h2>KR 210</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 150.png');">
-				</div>
-				<div class="robots-content">
-					<h2>KR 150</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 16.png');">
-				</div>
-				<div class="robots-content">
-					<h2>KR 16</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 5.png');">
-				</div>
-				<div class="robots-content">
-					<h2>KR 3</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 5.png');">
-				</div>
-				<div class="robots-content">
-					<h2>KR 5</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 6.png');">
-				</div>
-				<div class="robots-content">
-					<h2>KR 6</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA KR 120.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>KR 120</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/KUKA IIWA.png');">
-				</div>
-				<div class="robots-content">
-					<h2>KR IIWA</h2>
-					<h3>KUKA</h3>
-					<a href="https://github.com/ros-industrial/kuka_experimental" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Motoman MH12.jpg');">
 				</div>
 				<div class="robots-content">
@@ -1133,45 +1177,12 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/NASA Johnson Space Center Valkyrie.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>Valkyrie</h2>
-					<h3>NASA Johnson Space Center</h3>
-					<!-- <a href="/" target="_blank">View package</a> -->
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Unbounded Robotics UBR-1.jpeg');">
 				</div>
 				<div class="robots-content">
 					<h2>UBR-1</h2>
 					<h3>Unbounded Robotics</h3>
 					<!-- <a href="/" target="_blank">View package</a> -->
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Rethink Robotics Baxter Research Robot.jpeg');">
-				</div>
-				<div class="robots-content">
-					<h2>Baxter Research Robot</h2>
-					<h3>Rethink Robotics</h3>
-					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/baxter" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Rethink Robotics Sawyer.jpeg');">
-				</div>
-				<div class="robots-content">
-					<h2>Sawyer</h2>
-					<h3>Rethink Robotics</h3>
-					<a href="https://github.com/RethinkRobotics/sawyer_moveit" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -1197,18 +1208,7 @@ title: Robots
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Universal Robots UR3.png');">
-				</div>
-				<div class="robots-content">
-					<h2>UR3</h2>
-					<h3>Universal Robots</h3>
-					<a href="https://github.com/ros-industrial/universal_robot" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-                <div class="col-xs-12 col-sm-6 col-lg-3">
+        <div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/open-manipulator.png');">
 				</div>
@@ -1219,7 +1219,6 @@ title: Robots
 				</div>
 			</div>
 		</div>
-
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-12">
