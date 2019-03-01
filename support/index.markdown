@@ -36,7 +36,7 @@ Post issues and share improvements for the web documentation to the appropriate 
 ## Change Logs and Migration Notes
 
   * Change logs are available directly from the corresponding [ROS wiki page for MoveIt!](http://wiki.ros.org/moveit).
-  * New release migration notes are available in the root of the MoveIt! code repository under [MIGRATION.md](https://github.com/ros-planning/moveit/blob/melodic-devel/MIGRATION.md)
+  * New release migration notes are available in the root of the MoveIt! code repository under [MIGRATION.md](https://github.com/ros-planning/moveit/blob/master/MIGRATION.md)
 
 ## Professional Support
 
