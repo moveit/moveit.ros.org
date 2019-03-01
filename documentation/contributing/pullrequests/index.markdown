@@ -127,7 +127,7 @@ If each step ends with issues, they need to be fixed before moving on.
 
    ```
    cd moveit                              (Top directory of your clooned moveit repo.)
-   git checkout melodic-devel
+   git checkout master
    git log                                (Make sure the HEAD is what you want to release with. If it's not then update accordingly.)
    catkin_generate_changelog
    emacs `find . -iname CHANGELOG.rst`    (Edit each file. Emacs forever, but replace it if necessary :/)

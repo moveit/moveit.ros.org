@@ -44,12 +44,12 @@ This will load the ``${ROS_DISTRO}`` variable, needed for the next step.
 
 ## Download and Build MoveIt!
 
-By default we will assume you are building on the *latest* branch, we currently use *melodic-devel* as our master branch. This branch builds for ROS Kinetic and newer, e.g. Ubuntu 16.04 and newer. If you would like to build an older release of MoveIt! from source, see the section below.
+By default we will assume you are building on the *latest* branch, we currently use *master* as our ROS 1.0 branch. This branch builds for ROS Kinetic and newer, e.g. Ubuntu 16.04 and newer. If you would like to build an older release of MoveIt! from source, see the section below.
 
 Pull down required repositories and build from within the root directory of your catkin workspace:
 
     wstool init src
-    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/melodic-devel/moveit.rosinstall
+    wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/master/moveit.rosinstall
     wstool update -t src
     rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}
     catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
