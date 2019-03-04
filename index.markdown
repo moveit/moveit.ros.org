@@ -175,7 +175,7 @@ redirect_from: '/moveit/'
                 </div>
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Gazebo Simulation" src="/assets/images/screens/Gazebo1.png">
+                        <img style="max-width:100%" alt="Gazebo Simulation" src="/assets/images/screens/r2.png">
                     </div>
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
