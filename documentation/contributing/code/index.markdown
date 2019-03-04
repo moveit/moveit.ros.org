@@ -162,7 +162,7 @@ const IKCallbackFn solution_callback = 0; // NOLINT(modernize-use-nullptr)
 // NOLINTNEXTLINE(performance-unnecessary-copy-initialization)
 robot_state::RobotState robot_state(default_state);
 ```
-Note that `modernize-loop-convert` check may convert `for (...; ...; ...)` loops to `for (auto & ... : ...)`. However, `auto` is not an expression highly readable, please consider specify the variable type like:
+Note that `modernize-loop-convert` check may convert `for (...; ...; ...)` loops to `for (auto & ... : ...)`. However, `auto` is not an expression highly readable, please consider explicitly specifying the variable type like:
 ```c++
 std::vector<int> v = /* fill it */;
 std::map<std::string, std::int> m = /* fill it */;
