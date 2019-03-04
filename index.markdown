@@ -211,9 +211,11 @@ redirect_from: '/moveit/'
                     <h2 class="h1 text-center">Current and Future Versions</h2>
                 </div>
                 <div class='col-sm-12 time-line-wrappper'>
-                    <h3>Melodic LTS</h3>
+                    <h3>MoveIt 1 Melodic LTS</h3>
                     <div class="time-line">
+                        <div class="time-line--orange" id="time-line--orange-1"></div>
                         <div class="time-line--blue"></div>
+                        <div class="time-line--red" id="time-line--red-1"></div>
                     </div>
                     <div class="time-line-content">
                         <div class="time-line--info">
@@ -242,6 +244,43 @@ redirect_from: '/moveit/'
                         </div>
                         <div class="time-line--info">
                             <p>1 April 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
+                    <h3>MoveIt 2</h3>
+                    <div class="time-line">
+                        <div class="time-line--orange" id="time-line--orange-2"></div>
+                        <div class="time-line--blue" id="time-line--blue-2"></div>
+                        <div class="time-line--red" id="time-line--red-2"></div>
+                    </div>
+                    <div class="time-line-content">
+                        <div class="time-line--info">
+                            <p>1 February 2019</p>
+                        </div>
+                        <div class="time-line--info">
+                            <span class="time-line-box time-line-box--blue"></span>
+                            <p>
+                                Initial Development
+                                <small>1 February 2019</small>
+                            </p>
+                        </div>
+                        <div class="time-line--info">
+                            <span class="time-line-box time-line-box--orange"></span>
+                            <p>
+                                API Freeze
+                                <small>1 November 2019</small>
+                            </p>
+                        </div>
+                        <div class="time-line--info">
+                            <span class="time-line-box time-line-box--red"></span>
+                            <p>
+                                Official 2.0 Release
+                                <small>1 December 2019</small>
+                            </p>
+                        </div>
+                        <div class="time-line--info">
+                            <p>1 December 2019</p>
                         </div>
                     </div>
                 </div>
