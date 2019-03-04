@@ -4,6 +4,7 @@
       overflow-x: hidden;
     }
   }
+
   .main {
     margin-bottom: 200px;
     @media screen and (max-width: 992px) {
@@ -11,11 +12,13 @@
       margin: 0 auto 100px;
       text-align: center;
     }
+
     &-tag {
       width: 87%;
       @media screen and (max-width: 1199px) {
         width: 100%;
       }
+
       a {
         position: relative;
         display: block;
@@ -36,6 +39,7 @@
         @media screen and (max-width: 520px) {
           text-align: center;
         }
+
         &:before {
           content: '';
           position: absolute;
@@ -45,7 +49,7 @@
           left: 0;
           background-color: #0a58f7;
           transform: translateX(-100%);
-          transition: 0.5s ease-in-out;
+          transition: .5s ease-in-out;
           z-index: 1;
         }
 
@@ -56,6 +60,7 @@
             transform: translateX(0);
           }
         }
+
         span {
           z-index: 2;
           position: relative;
@@ -66,27 +71,29 @@
             margin: 5px;
           }
           @media screen and (max-width: 992px) {
-            margin: 0;
-            margin-left: 5px;
+            margin: 0 0 0 5px;
           }
           @media screen and (max-width: 520px) {
             margin: 5px;
           }
+
           &.blue {
             background-color: #0a58f7;
             margin-right: 5px;
-            padding: 0px 10px;
+            padding: 0 10px;
             margin-left: 0;
           }
         }
       }
     }
+
     &-text {
       margin-bottom: 70px;
       font-size: 17px;
       line-height: 32px;
     }
   }
+
   .info-box {
     position: relative;
     margin-bottom: 250px;
@@ -98,6 +105,7 @@
     @media screen and (max-width: 768px) {
       margin-bottom: 100px;
     }
+
     .robot-hand {
       width: 700px;
       max-width: none;
@@ -110,6 +118,7 @@
         left: 5px;
       }
     }
+
     &-content {
       position: absolute;
       background: #fff;
@@ -127,26 +136,32 @@
         padding: 15px 60px;
       }
     }
+
     &-header {
       font-size: 18px;
       color: #1a1b21;
       margin: 20px auto;
     }
+
     &-version {
       font-size: 14px;
       color: rgba(27, 28, 34, 0.6);
       margin-bottom: 15px;
     }
+
     &-logo {
       max-width: 90px;
     }
+
     .link-group {
       font-size: 14px;
       color: #191a1f;
       margin-bottom: 20px;
+
       a {
         color: #191a1f;
         padding: 0 5px;
+
         &:hover {
           color: #007bff;
         }
@@ -188,39 +203,75 @@
 
   .time-line {
     display: flex;
+    position: relative;
     width: 100%;
     border-radius: 4px;
     height: 24px;
     margin: 20px auto;
     background-color: rgba(255, 255, 255, 0.1);
   }
+
+  .time-line-wrapper-future {
+    .time-line--blue {
+      width: 0;
+    }
+  }
+
+  .time-line--red {
+    display: none;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #f70a0a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 24px;
+  }
+
   .time-line--blue {
     background-color: #0a58f7;
-    border-radius: 4px;
-    width: 75%;
+    border-radius: 4px 0 0 4px;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 24px;
   }
+
   .time-line--orange {
-    border-radius: 0 4px 4px 0;
-    width: 15%;
+    border-radius: 4px 0 0 4px;
+    width: 0;
     background-color: #f7a20a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 24px;
   }
+
   .time-line-content {
     display: flex;
     width: 100%;
     margin-bottom: 60px;
   }
+
   .time-line--info {
     margin-right: 50px;
     display: flex;
+
     &:last-child {
       margin-right: 0;
       flex: 1;
       justify-content: flex-end;
     }
+
     small {
       display: block;
     }
   }
+
   .time-line-box {
     height: 16px;
     width: 16px;
@@ -229,12 +280,15 @@
     position: relative;
     top: 5px;
   }
+
   .time-line-box--blue {
     background-color: #0a58f7;
   }
+
   .time-line-box--red {
     background-color: #f70a0a;
   }
+
   .time-line-box--orange {
     background-color: #f7a20a;
   }
@@ -245,12 +299,14 @@
 
   .version-header {
     display: flex;
+
     h3 {
       font-size: 40px;
       color: $white;
       display: inline-block;
       margin-right: 16px;
     }
+
     .label {
       border-radius: 16px;
       color: rgba(255, 255, 255, 0.8);
@@ -259,15 +315,19 @@
       align-self: center;
       text-transform: uppercase;
     }
+
     .label--blue {
       background-color: #0a58f7;
     }
+
     .label--red {
       background-color: #f70a0a;
     }
+
     .label--orange {
       background-color: #f7a20a;
     }
+
     .label--green {
       background-color: #0af74d;
       color: rgba(0, 0, 0, 0.8);
@@ -276,8 +336,10 @@
 
   .version-date {
     margin-bottom: 20px;
+
     p {
       margin-bottom: 0;
+
       span {
         color: $white;
       }
@@ -286,12 +348,14 @@
 
   .version-content {
     max-width: 340px;
+
     h4 {
       color: $white;
       font-size: 17px;
       font-weight: bold;
       line-height: 21px;
     }
+
     p {
       font-size: 17px;
       line-height: 32px;
