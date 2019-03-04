@@ -211,7 +211,7 @@ redirect_from: '/moveit/'
                     <h2 class="h1 text-center">Current and Future Versions</h2>
                 </div>
                 <div class='col-sm-12 time-line-wrappper'>
-                    <h3>MoveIt 1 Melodic LTS</h3>
+                    <h3>Melodic LTS</h3>
                     <div class="time-line">
                         <div class="time-line--orange" id="time-line--orange-1"></div>
                         <div class="time-line--blue"></div>
