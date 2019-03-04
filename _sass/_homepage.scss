@@ -211,12 +211,6 @@
     background-color: rgba(255, 255, 255, 0.1);
   }
 
-  .time-line-wrapper-future {
-    .time-line--blue {
-      width: 0;
-    }
-  }
-
   .time-line--red {
     display: none;
     border-radius: 4px;
@@ -232,7 +226,7 @@
   .time-line--blue {
     background-color: #0a58f7;
     border-radius: 4px 0 0 4px;
-    width: 90%;
+    width: 0;
     position: absolute;
     top: 0;
     left: 0;

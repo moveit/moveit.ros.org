@@ -22,13 +22,16 @@ function currentVersion() {
   var currentDate = Date.now();
   var startDate = new Date('03/01/2019');
   var finalDate = new Date('03/01/2020');
+  var freezeDate = new Date('02/01/2020');
   var totalTime = finalDate.getTime() - startDate.getTime();
   var progressTime = currentDate - startDate;
   var percent = (progressTime / totalTime) * 100;
   if (currentDate >= finalDate.getTime()) {
     $('#time-line--red-1').css('display', 'block');
-  } else {
+  } else if (currentDate > freezeDate.getTime()) {
     $('#time-line--orange-1').css('width', `${percent}%`);
+  } else {
+    $('#time-line--blue-1').css('width', `${percent}%`);
   }
 }
 

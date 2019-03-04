@@ -214,7 +214,7 @@ redirect_from: '/moveit/'
                     <h3>MoveIt 1.1 Noetic</h3>
                     <div class="time-line">
                         <div class="time-line--orange" id="time-line--orange-1"></div>
-                        <div class="time-line--blue"></div>
+                        <div class="time-line--blue" id="time-line--blue-1"></div>
                         <div class="time-line--red" id="time-line--red-1"></div>
                     </div>
                     <div class="time-line-content">
