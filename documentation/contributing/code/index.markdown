@@ -150,3 +150,20 @@ You can make a specific clang-tidy build with:
 catkin config --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_CXX_CLANG_TIDY=clang-tidy
 catkin build
 ```
+
+### Exceptions to clang-tidy
+
+It is possible to suppress undesired clang-tidy checks by using **NOLINT** or **NOLINTNEXTLINE** comments. Please specify the check names explicitly in parentheses following the comments:
+```c++
+const IKCallbackFn solution_callback = 0; // NOLINT(modernize-use-nullptr)
+
+// NOLINTNEXTLINE(performance-unnecessary-copy-initialization)
+robot_state::RobotState robot_state(default_state);
+```
+Note that `modernize-loop-convert` check may convert `for (...; ...; ...)` loops to `for (auto & ... : ...)`.
+However, `auto` is not an expression highly readable.
+Please explicitly specify the variable type, if it doesn't become clear immediately from the context:
+```c++
+for (const int & item : container)
+  std::cout << item;
+```
