@@ -14,8 +14,6 @@ categories:
 
 Exciting news – the MoveIt! port to ROS 2.0 has begun! We are happy to announce that [Acutronic Robotics](https://acutronicrobotics.com/) is partnering with [PickNik](https://picknik.ai/) to sponsor a MoveIt! codesprint to begin the port to ROS 2.
 
-[<img src="{{ site.url }}/assets/images/sponsors/acutronic.jpg" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/sponsors/acutronic.jpg)
-
 Acutronic Robotics has agreed to allocate their internal resources. Two engineers for 4 months of engineering time will begin the port of MoveIt! along with funding technical support from PickNik.
 
 This collaborative effort is a natural co-development due to Acutronic’s extensive experience working with ROS 2 and PickNik’s lead maintenance support of MoveIt!. Acutronic Robotics will be focused on porting the code to enable their [MARA](https://acutronicrobotics.com/products/mara/) modular robotic arm in the MoveIt! ecosystem. The entire MoveIt2 port will be a large undertaking and we expect other organizations will co-sponsor in the near future. We welcome others to contribute to this effort as much as possible.
