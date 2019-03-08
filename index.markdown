@@ -31,7 +31,7 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="https://github.com/ros-planning/moveit2">
+                                <a href="https://moveit.ros.org/moveit!/ros/2019/03/01/announcing-the-moveit-2-port.html">
                                     <span class="blue">Announcement</span>
                                     <span>MoveIt 2.0 development has begun!</span>
                                 </a>
