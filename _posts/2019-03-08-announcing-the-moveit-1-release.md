@@ -5,7 +5,7 @@ date: 2019-03-08
 layout: post
 title: Announcing MoveIt 1.0 and a Master Branch
 media_type: image
-media_link: /assets/images/moveit_1_release.jpg
+media_link: /assets/images/moveit_1_release.png
 description: MoveIt has been in beta since 2013 (6 years), but today we're excited to announce MoveIt is all grown up. We are releasing MoveIt 1.0 for ROS Melodic.
 categories:
 - MoveIt!
