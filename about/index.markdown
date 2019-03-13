@@ -31,6 +31,7 @@ Bence Magyar | Heriot-Watt University | [bmagyar](https://github.com/bmagyar)
 Mike Lautman | PickNik Consulting | [mlautman](https://github.com/mlautman)
 Jon Binney | Iron Ox | [jonbinney](https://github.com/jonbinney)
 Zak Kingston | Rice University | [zkingston](https://github.com/zkingston)
+Henning Kayser | PickNik Consulting | [henningkayser](https://github.com/henningkayser)
 
 ## Core Contributors
 
@@ -41,7 +42,6 @@ Name | Organization | GitHub ID
 Bryce Willey | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
 Felix von Drigalski | OMRON SINIC X Corporation | [felixvd](https://github.com/felixvd)
 Simon Schmeißer | isys vision | [simonschmeisser](https://github.com/simonschmeisser)
-Henning Kayser | PickNik Consulting | [henningkayser](https://github.com/henningkayser)
 William Baker | Houston Mechatronics | [willcbaker](https://github.com/willcbaker)
 
 ## Maintainer Alumni
