@@ -115,7 +115,7 @@ title: Robots
 				<div class="robots-content">
 					<h2>Fetch</h2>
 					<h3>Fetch Robotics</h3>
-					<a href="https://github.com/frankaemika/franka_ros" target="_blank">View package</a>
+					<a href="https://github.com/fetchrobotics/fetch_ros" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
