@@ -11,7 +11,7 @@ title: Code Sprints
 
 <img src="/assets/images/logo/moveit_logo-black.png" width="300"/>
 
-This page lists potential projects that would greatly benefit the MoveIt! project. This is by no means an exhaustive list, but is meant to serve as a discussion starting point for code sprints and other efforts. Please contact PickNik Consulting (hello@picknik.ai) for further information or sponsorship opportunities.
+This page lists potential projects that would greatly benefit the MoveIt! project. This is by no means an exhaustive list, but is meant to serve as a discussion starting point for code sprints and other efforts. Please contact [PickNik Consulting](https://picknik.ai/connect/) for further information or sponsorship opportunities.
 
 ## TrajOpt Integration
 
