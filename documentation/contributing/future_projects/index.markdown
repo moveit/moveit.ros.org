@@ -15,7 +15,7 @@ This page lists potential projects that would greatly benefit the MoveIt! projec
 
 ## TrajOpt Integration
 
-TrajOpt was recently created at UC Berkeley as motion planning framework for generating robot trajectories by local optimization. Integration of TrajOpt into the MoveIt! framework would require API changes to how MoveIt! stores and accesses information about the kinematic chain and changes to the MoveIt! collision checking API to support integration with the Bullet collision checker for convex to convext contact checking.
+TrajOpt is a motion planning framework from UC Berkeley for generating robot trajectories by local optimization. Integration of TrajOpt into the MoveIt! framework would require API changes to how MoveIt! stores and accesses information about the kinematic chain and changes to the MoveIt! collision checking API to support integration with the Bullet collision checker for convex to convex contact checking.
 
 ## Improved Integration with ROS-Controls and Controller Switching
 
