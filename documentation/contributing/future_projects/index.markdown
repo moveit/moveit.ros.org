@@ -40,7 +40,7 @@ MoveIt! has long lacked a good grasping library for generating candidate object 
 
 ## Cartesian Planning improvements
 
-The default cartesian planner in MoveIt! is extremely naive and has enormous room for improvement. Improvements to the cartesian planner could include:
+The default cartesian planner in MoveIt! is naive and has enormous room for improvement. Improvements to the Cartesian planner could include:
 
 - Moving the Cartesian planner out of [RobotState](https://github.com/ros-planning/moveit/blob/0ba091ce1faf6e11896fd0d06bea8234cf642ca3/moveit_core/robot_state/include/moveit/robot_state/robot_state.h#L1129) and into a more apropriate location eg: [moveit_planners](https://github.com/ros-planning/moveit/tree/master/moveit_planners).
 - Integration with [Descartes](https://github.com/ros-industrial-consortium/descartes).
