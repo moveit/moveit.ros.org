@@ -44,7 +44,7 @@ Felix von Drigalski | OMRON SINIC X Corporation | [felixvd](https://github.com/f
 Simon Schmeißer     | isys vision | [simonschmeisser](https://github.com/simonschmeisser)
 William Baker       | Houston Mechatronics | [willcbaker](https://github.com/willcbaker)
 Andy Zelenak        | PickNik Consulting | [AndyZe](https://github.com/AndyZe)
-Mohmmad El khzragy  | AUC Egypt | [MohmadAyman](https://github.com/MohmadAyman)
+Mohmmad El khzragy  | TUM | [MohmadAyman](https://github.com/MohmadAyman)
 Kei Okada           | JSK Lab, Univ of Tokyo | [k-okada]((https://github.com/)
 Martin Günther      | DFKI | [mintar](https://github.com/mintar)
 Shingo Kitagawa     | JSK Lab, Univ of Tokyo | [knorth55](https://github.com/knorth55)
