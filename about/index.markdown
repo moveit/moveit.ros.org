@@ -17,32 +17,38 @@ The primary governance of MoveIt! takes place during monthly meetings of the mai
 
 MoveIt! maintainers, commonly referred to as "committers" in other open source projects, are the seasoned experts of the MoveIt! project and the only ones who can merge pull requests.
 
-Name | Organization | GitHub ID
------------- |:------------- |-------------|
-Dave Coleman | PickNik Consulting | [davetcoleman](https://github.com/davetcoleman)
-Robert Haschke | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke)
-Michael Görner | University of Hamburg | [v4hn](https://github.com/v4hn)
-Isaac IY Saito | Plus One Robotics | [130s](https://github.com/130s)
-Michael Ferguson | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson)
-Ian McMahon | Toyota Research Institute | [IanTheEngineer](https://github.com/IanTheEngineer)
+Name               | Organization | GitHub ID
+------------------ |:------------- |-------------|
+Dave Coleman       | PickNik Consulting | [davetcoleman](https://github.com/davetcoleman)
+Robert Haschke     | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke)
+Michael Görner     | University of Hamburg | [v4hn](https://github.com/v4hn)
+Isaac IY Saito     | Plus One Robotics | [130s](https://github.com/130s)
+Michael Ferguson   | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson)
+Ian McMahon        | Toyota Research Institute | [IanTheEngineer](https://github.com/IanTheEngineer)
 Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://github.com/gavanderhoorn)
-Jorge Nicho | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho)
-Bence Magyar | Heriot-Watt University | [bmagyar](https://github.com/bmagyar)
-Mike Lautman | PickNik Consulting | [mlautman](https://github.com/mlautman)
-Jon Binney | Iron Ox | [jonbinney](https://github.com/jonbinney)
-Zak Kingston | Rice University | [zkingston](https://github.com/zkingston)
-Henning Kayser | PickNik Consulting | [henningkayser](https://github.com/henningkayser)
+Jorge Nicho        | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho)
+Bence Magyar       | Heriot-Watt University | [bmagyar](https://github.com/bmagyar)
+Mike Lautman       | PickNik Consulting | [mlautman](https://github.com/mlautman)
+Jon Binney         | Iron Ox | [jonbinney](https://github.com/jonbinney)
+Zak Kingston       | Rice University | [zkingston](https://github.com/zkingston)
+Henning Kayser     | PickNik Consulting | [henningkayser](https://github.com/henningkayser)
 
 ## Core Contributors
 
-We have a stringent process for giving commit access to the code base to ensure quality, but we want to have as many people involved in reviewing pull requests and responding to issues. We have a non-commit access category of MoveIt! experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt! early on. See the [full maintainer policy](maintainer_policy).
+We have a stringent process for giving commit access to the code base to ensure quality, but we want to have as many people involved in reviewing pull requests and responding to issues. We have a non-commit access category of MoveIt! experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt! early on and are listed in the [CODEOWNERS](https://github.com/ros-planning/moveit/blob/master/.github/CODEOWNERS) file. See the [full maintainer policy](maintainer_policy).
 
-Name | Organization | GitHub ID
------------- |:------------- |-------------|
-Bryce Willey | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
+Name                | Organization  | GitHub ID
+------------------- |:------------- |-------------|
+Bryce Willey        | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
 Felix von Drigalski | OMRON SINIC X Corporation | [felixvd](https://github.com/felixvd)
-Simon Schmeißer | isys vision | [simonschmeisser](https://github.com/simonschmeisser)
-William Baker | Houston Mechatronics | [willcbaker](https://github.com/willcbaker)
+Simon Schmeißer     | isys vision | [simonschmeisser](https://github.com/simonschmeisser)
+William Baker       | Houston Mechatronics | [willcbaker](https://github.com/willcbaker)
+Andy Zelenak        | PickNik Consulting | [AndyZe](https://github.com/AndyZe)
+Mohmmad El khzragy  | TUM | [MohmadAyman](https://github.com/MohmadAyman)
+Kei Okada           | JSK Lab, Univ of Tokyo | [k-okada](https://github.com/k-okada)
+Martin Günther      | DFKI | [mintar](https://github.com/mintar)
+Shingo Kitagawa     | JSK Lab, Univ of Tokyo | [knorth55](https://github.com/knorth55)
+Yan Yu              | Intel | [RoboticsYY](https://github.com/RoboticsYY)
 
 ## Maintainer Alumni
 
