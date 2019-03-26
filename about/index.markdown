@@ -45,7 +45,7 @@ Simon Schmeißer     | isys vision | [simonschmeisser](https://github.com/simons
 William Baker       | Houston Mechatronics | [willcbaker](https://github.com/willcbaker)
 Andy Zelenak        | PickNik Consulting | [AndyZe](https://github.com/AndyZe)
 Mohmmad El khzragy  | TUM | [MohmadAyman](https://github.com/MohmadAyman)
-Kei Okada           | JSK Lab, Univ of Tokyo | [k-okada]((https://github.com/)
+Kei Okada           | JSK Lab, Univ of Tokyo | [k-okada](https://github.com/k-okada)
 Martin Günther      | DFKI | [mintar](https://github.com/mintar)
 Shingo Kitagawa     | JSK Lab, Univ of Tokyo | [knorth55](https://github.com/knorth55)
 Yan Yu              | Intel | [RoboticsYY](https://github.com/RoboticsYY)
