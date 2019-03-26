@@ -294,7 +294,7 @@ redirect_from: '/moveit/'
                     <div class="version-date">
                         <p><span>Version:</span> 2.0</p>
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
-                        <p><span>Initial release:</span> June 1, 2019</p>
+                        <p><span>Initial release:</span> 1 June 2019</p>
                         <p><span>End of life:</span> TBD</p>
                     </div>
                     <div class="version-content">
@@ -311,7 +311,7 @@ redirect_from: '/moveit/'
                     <div class="version-date">
                         <p><span>Version:</span> 1.1</p>
                         <p><span>Platforms:</span> Ubuntu 16.04, 18.04</p>
-                        <p><span>Initial release:</span> March 2019</p>
+                        <p><span>Initial release:</span> 1 March 2020</p>
                         <p><span>End of life:</span> TBD</p>
                     </div>
                     <div class="version-content">
