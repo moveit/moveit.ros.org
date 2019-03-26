@@ -23,14 +23,12 @@ Dave Coleman       | PickNik Consulting | [davetcoleman](https://github.com/dave
 Robert Haschke     | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke)
 Michael Görner     | University of Hamburg | [v4hn](https://github.com/v4hn)
 Isaac IY Saito     | Plus One Robotics | [130s](https://github.com/130s)
-Michael Ferguson   | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson)
 Ian McMahon        | Toyota Research Institute | [IanTheEngineer](https://github.com/IanTheEngineer)
 Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://github.com/gavanderhoorn)
 Jorge Nicho        | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho)
 Bence Magyar       | Heriot-Watt University | [bmagyar](https://github.com/bmagyar)
 Mike Lautman       | PickNik Consulting | [mlautman](https://github.com/mlautman)
 Jon Binney         | Iron Ox | [jonbinney](https://github.com/jonbinney)
-Zak Kingston       | Rice University | [zkingston](https://github.com/zkingston)
 Henning Kayser     | PickNik Consulting | [henningkayser](https://github.com/henningkayser)
 
 ## Core Contributors
@@ -39,6 +37,8 @@ We have a stringent process for giving commit access to the code base to ensure 
 
 Name                | Organization  | GitHub ID
 ------------------- |:------------- |-------------|
+Michael Ferguson    | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson)
+Zak Kingston        | Rice University | [zkingston](https://github.com/zkingston)
 Bryce Willey        | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
 Felix von Drigalski | OMRON SINIC X Corporation | [felixvd](https://github.com/felixvd)
 Simon Schmeißer     | isys vision | [simonschmeisser](https://github.com/simonschmeisser)
@@ -49,6 +49,7 @@ Kei Okada           | JSK Lab, Univ of Tokyo | [k-okada](https://github.com/k-ok
 Martin Günther      | DFKI | [mintar](https://github.com/mintar)
 Shingo Kitagawa     | JSK Lab, Univ of Tokyo | [knorth55](https://github.com/knorth55)
 Yan Yu              | Intel | [RoboticsYY](https://github.com/RoboticsYY)
+Víctor Mayoral      | Acutronic Robotics | [vmayoral](https://github.com/vmayoral)
 
 ## Maintainer Alumni
 
