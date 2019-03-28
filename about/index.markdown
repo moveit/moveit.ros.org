@@ -37,7 +37,7 @@ We have a stringent process for giving commit access to the code base to ensure 
 
 Name                | Organization  | GitHub ID
 ------------------- |:------------- |-------------|
-Michael Ferguson    | Fetch Robotics | [mikeferguson](https://github.com/mikeferguson)
+Michael Ferguson    | Independent Consultant | [mikeferguson](https://github.com/mikeferguson)
 Zak Kingston        | Rice University | [zkingston](https://github.com/zkingston)
 Bryce Willey        | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
 Felix von Drigalski | OMRON SINIC X Corporation | [felixvd](https://github.com/felixvd)
