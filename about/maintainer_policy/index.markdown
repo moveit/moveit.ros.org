@@ -7,6 +7,8 @@ slug: maintainer_policy
 title: Maintainer Policy and Core Contributors Governing Guidelines
 ---
 
+# Maintainer Policy and Core Contributors Governing Guidelines
+
 MoveIt! core contributors and maintainers are the driving force of keeping MoveIt! alive by responding to pull requests, issues, and user questions. These two groups of highly involved participants also help fix critical regressions and support developing future versions of MoveIt!. We greatly appreciate all of the core contributors and maintainers of the MoveIt! project and thank you for your support. In addition to gratitude, some advantages of being a MoveIt! maintainer / core contributor:
 
  - Build up expertise of one of the most popular ROS libraries
@@ -39,3 +41,22 @@ We've formalized the process here to disambiguate when someone should be added. 
  - Have completed at least the minimum requirements for core contributors, above
  - Be willing to help review on average 1 pull request a week or more
  - Read the MoveIt! pull request guidelines to understand our policies
+
+## ROS-Planning Github Org Policy
+
+In the [ros-planning](https://github.com/ros-planning/) Github organization, there are essentially two projects co-located there:
+
+ - MoveIt
+ - Navigation
+
+These projects are run entirely by different teams, maintainer policies, etc.
+Write access between these two projects is isolated via usage of different Github Org Teams.
+In addition, MoveIt has a secondary Github team for non-write access. The ros-planning org currently has three total teams:
+
+ - Navigation Maintainers
+   - Has write access to all navigation-related packages
+ - MoveIt Maintainers
+   - Has write access to all MoveIt-related packages
+ - MoveIt Contributors
+   - Has only read access
+   - Still able to be auto-tagged in code review requests by CODEOWNERS
