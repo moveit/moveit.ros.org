@@ -50,6 +50,7 @@ Martin Günther      | DFKI | [mintar](https://github.com/mintar)
 Shingo Kitagawa     | JSK Lab, Univ of Tokyo | [knorth55](https://github.com/knorth55)
 Yan Yu              | Intel | [RoboticsYY](https://github.com/RoboticsYY)
 Víctor Mayoral      | Acutronic Robotics | [vmayoral](https://github.com/vmayoral)
+Levi Armstrong      | SwRI / ROS-I | [Levi-Armstrong](https://github.com/Levi-Armstrong)
 
 ## Maintainer Alumni
 
