@@ -51,6 +51,7 @@ Shingo Kitagawa     | JSK Lab, Univ of Tokyo | [knorth55](https://github.com/kno
 Yan Yu              | Intel | [RoboticsYY](https://github.com/RoboticsYY)
 Víctor Mayoral      | Acutronic Robotics | [vmayoral](https://github.com/vmayoral)
 Anas Mchichou       | Acutronic Robotics | [anasarrak](https://github.com/anasarrak)
+Levi Armstrong      | SwRI / ROS-I | [Levi-Armstrong](https://github.com/Levi-Armstrong)
 
 ## Maintainer Alumni
 
