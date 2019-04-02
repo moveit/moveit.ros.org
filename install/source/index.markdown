@@ -91,7 +91,7 @@ Here we show some examples using ``catkin-tools``. Note: If you have already bui
 
 ### Disable CHOMP Motion Planer (optional)
 
-Note every command to ``catkin config --blacklist`` will empty the previous list.
+Note, every command to ``catkin config --blacklist`` will override the previous list by default. Using the option ``--append-args`` you can augment the existing blacklist.
 
     catkin config --blacklist \
          moveit_chomp_optimizer_adapter \
