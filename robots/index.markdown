@@ -82,7 +82,6 @@ title: Robots
 				<div class="robots-content">
 					<h2>Robonaut</h2>
 					<h3>NASA Johnson Space Center</h3>
-					<a href="/robots/robonaut/">View package</a>
 				</div>
 			</div>
 		</div>
@@ -104,7 +103,6 @@ title: Robots
 				<div class="robots-content">
 					<h2>Valkyrie</h2>
 					<h3>NASA Johnson Space Center</h3>
-					<!-- <a href="/" target="_blank">View package</a> -->
 				</div>
 			</div>
 		</div>
@@ -401,7 +399,6 @@ title: Robots
 				<div class="robots-content">
 					<h2>Scorbot ER4U</h2>
 					<h3></h3>
-					<a href="/robots/scorbot-er4u">View package</a>
 				</div>
 			</div>
 		</div>
@@ -412,7 +409,6 @@ title: Robots
 				<div class="robots-content">
 					<h2>AR10 Robotic Hand</h2>
 					<h3>Active8 Robots</h3>
-					<a href="/robots/Active8-Robots-AR10">View package</a>
 				</div>
 			</div>
 		</div>
