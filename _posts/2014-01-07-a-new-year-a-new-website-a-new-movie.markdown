@@ -49,7 +49,7 @@ We have listened to your feedback and added:
   * [FAQs page](/documentation/faqs/) - where we will collect the most frequently asked questions (and answers)
 
 
-  * [Status](/about/moveit-status/) page highlighting the status of different components in MoveIt!
+  * **Status** page highlighting the status of different components in MoveIt! (deprecated April 2019)
 
 
 We are also inviting members of the community to sign up as official maintainers of the MoveIt! packages and associated interfaces for different robots so that we can get stable MoveIt! interfaces to a wide variety of robots.
