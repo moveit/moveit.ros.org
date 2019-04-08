@@ -15,4 +15,4 @@ categories:
 Now that MoveIt 1.0 is officially released, we are polling the community of MoveIt users to get feedback about MoveIt. How easy it is to setup/use? What features are popular? What new features users would like to see in MoveIt? 
 This 20 question survey should take less than 5 minutes to fill out. This form will stay open until May 15th. 
 
-### [MoveIt Survey 2019 Link](https://docs.google.com/forms/d/e/1FAIpQLSdN4ntoe9KHpnx-q_GkDDZs5ID9wtTRKhCzzNvRMMPsC4Uj8g/viewform)
+[MoveIt Survey 2019 Link](https://docs.google.com/forms/d/e/1FAIpQLSdN4ntoe9KHpnx-q_GkDDZs5ID9wtTRKhCzzNvRMMPsC4Uj8g/viewform)
