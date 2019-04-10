@@ -75,7 +75,7 @@ Please use the following citation for MoveIt!
 
 [PickNik](http://picknik.ai/) was founded with the mission of growing the MoveIt! project through community building and contract consulting.
 
-<a href="https://acutronicrobotics.com"><img src="/assets/images/sponsors/acutronicrobotics.jpg" height="60" style="margin-top:20px"/></a>
+<a href="https://acutronicrobotics.com"><img src="{{ site.url }}/assets/images/sponsors/acutronicrobotics.jpg" height="60" style="margin-top:20px"/></a>
 
 [Acutronic](https://acutronicrobotics.com/) sponsored a collaborative effort in 2019 to begin the port of MoveIt to ROS 2.0.
 
