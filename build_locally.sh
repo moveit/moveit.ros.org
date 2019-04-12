@@ -14,7 +14,8 @@ fi
 sudo apt-get install ruby ruby-dev build-essential
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
-gem install jekyll bundler
+gem install jekyll
+gem install bundler -v 1.17.3
 bundle install
 
 # Build website using similar script as Travis, but skip htmlproofer because it fails locally:
