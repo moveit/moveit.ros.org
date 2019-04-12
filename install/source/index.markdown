@@ -50,8 +50,8 @@ This will load the ``${ROS_DISTRO}`` variable, needed for the next step.
 
 ## Download Source Code
 
-By default, we will assume you are building on the latest branch -  *master*.
-This branch builds for ROS Kinetic and newer, e.g. Ubuntu 16.04 and newer.
+By default, we will assume you are building the latest branch -  `master`.
+This branch builds for ROS Kinetic and newer, e.g. on Ubuntu 16.04 and newer.
 If you would like to build an older release of MoveIt! from source, see the section below.
 
 Pull down required repositories and build from within the root directory of your catkin workspace:
@@ -62,18 +62,18 @@ Pull down required repositories and build from within the root directory of your
     rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}
     catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
 
-## Optional: Disable Packages from Building
+## Optional: Excluding Packages from a Build
 
-MoveIt is a large project and the defailt compile time can take ~30 minutes.
-If you would like to reduce your compile time, you can disable certain unneeded packages from being built.
-Be careful not to disable packages that are needed dependency for others.
-There are several approaches to disabling packages:
+MoveIt is a large project and the default compile time can easily take around 30 minutes.
+If you would like to reduce your compile time or only need to build a subset of all the packages, `catkin` allows you to configure only a subset of packages to include in a build.
+Be careful not to disable packages that are needed by others (ie: are a dependency of other packages).
+You can exclude packages from a build in several ways:
 
  - ``catkin-tools --blacklist`` (recommended)
- - ``touch CATKIN_IGNORE``
- - ``rm -rf *package_name*``
+ - ``touch /path/to/package/directory/CATKIN_IGNORE``
+ - ``rm -rf /path/to/package/directory``
 
-Here we show some examples using ``catkin-tools``. Note: If you have already built these packages in your workspace you will also need to use ``catkin clean``.
+Here we show some examples using ``catkin_tools``. Note: If you have already built these packages in your workspace you will need to use ``catkin clean`` first.
 
 ### Disable All High-Level User Interfaces (optional)
 
@@ -118,7 +118,7 @@ Start planning in Rviz with with the [MoveIt! Getting Started Tutorial](https://
 
 ### Building Older Releases Of MoveIt!
 
-Its best to contribute to our latest branch, even if you're still on an earlier version of Ubuntu. However our latest branch does not support older versions of ROS such as ROS Indigo. Use the following command to build from source older releases:
+It's best to contribute to our latest branch, even if you're still on an earlier version of Ubuntu. However our latest branch does not support older versions of ROS such as ROS Indigo. Use the following command to build older releases from source:
 
     wstool init src
     wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/${ROS_DISTRO}-devel/moveit.rosinstall
