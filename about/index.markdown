@@ -77,7 +77,7 @@ Please use the following citation for MoveIt!
 
 <a href="https://acutronicrobotics.com"><img src="{{ site.url }}/assets/images/sponsors/acutronicrobotics.jpg" height="60" style="margin-top:20px"/></a>
 
-Acutronic sponsored a collaborative effort in 2019 to begin the port of MoveIt to ROS 2.0.  [Learn More](https://moveit.ros.org/moveit!/ros/2019/03/01/announcing-the-moveit-2-port.html)
+Acutronic sponsored a collaborative effort in 2019 to begin the port of MoveIt to ROS 2.0. [Learn More](https://moveit.ros.org/moveit!/ros/2019/03/01/announcing-the-moveit-2-port.html)
 
 <a href="https://franka.de"><img src="{{ site.url }}/assets/images/sponsors/franka_logo.png" height="60" style="margin-top:20px"/></a>
 
