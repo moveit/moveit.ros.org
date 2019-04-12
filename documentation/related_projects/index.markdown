@@ -59,6 +59,15 @@ Provide an alternative Inverse Kinematics solver to the popular inverse Jacobian
 
 Most industrial robot manipulators supported in ROS come with a MoveIt! configuration. The MotionPlanning plugin for RViz allows simple and visualized planning and execution of free-space motion. Planning and obstacle avoidance work mostly out-of-the-box. In pilz_industrial_motion Cartesian motion is addressed: existing libraries for Cartesian trajectory generation lacked a user-friendly interface.
 
-The project implements a trajectory generator with a MoveIt!-interface for easy planning and execution of Cartesian standard-paths (LIN, PTP, CIRC). In addition, the blending of multiple sequential motion commands is realized. [More Info](https://github.com/PilzDE/pilz_industrial_motion)
+The project implements a trajectory generator with a MoveIt!-interface for easy planning and execution of Cartesian standard-paths (LIN, PTP, CIRC). In addition, the blending of multiple sequential motion commands is realized.
+[More Info](https://github.com/PilzDE/pilz_industrial_motion)
 
 <img src="/assets/images/related_projects/pilz_industrial_motion.jpeg" height="300"/>
+
+## ROS2 Grasp Library
+
+ROS2 Grasp Library enables state-of-the-art CNN based deep learning grasp detection algorithms on ROS2 for visual based industrial robot manipulation.
+This package provide ROS2 interfaces compliant with the MoveIt motion planning framework which is supported by most of the robot models in ROS industrial.
+[More Info](https://github.com/intel/ros2_grasp_library)
+
+<img src="/assets/images/related_projects/ros2_grasp_library.png" height="300"/>
