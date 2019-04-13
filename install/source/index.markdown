@@ -144,6 +144,8 @@ Then activate the new setting for the current `bash` session (if not using `bash
 
     source $HOME/.bashrc
 
+New sessions will automatically update the `PATH`, so this is only necessary for your current session.
+
 To use caching just *for specific projects*, set the `CC` and `CXX` environment variables before invoking `make`, `cmake`, `catkin_make` or `catkin build`.
 
 **Note**: `ccache` can only cache compiler output if the compiler actually outputs something.
