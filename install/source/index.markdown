@@ -104,7 +104,7 @@ Even if you decide to not build *all* of MoveIt, building it from source can sti
 Because of this, it can be beneficial to use a tool called a *compiler cache* to avoid recompiling files that have not been changed between builds but which with a regular build (without such a cache) would still be processed by the compiler.
 This situation is especially common when switching between different branches while developing and when `clean`ing a Catkin workspace and then rebuilding it.
 
-[ccache](https://ccache.dev) provides such a compiler cache and installing it can reduce the time needed to rebuild MoveIt (and other packages) from many minutes to mere seconds.
+[ccache](https://ccache.dev) provides such a compiler cache and using it can reduce the time needed to rebuild MoveIt (and other packages) from many minutes to mere seconds.
 Note: `ccache` is only compatible with GCC and only caches (Obj)C/(Obj)C++ output, but as MoveIt is largely a C++ application it can benefit greatly.
 
 **Note**: as `ccache` uses the filesystem to cache objects, be sure to have sufficient free space available.
