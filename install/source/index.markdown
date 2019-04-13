@@ -89,7 +89,7 @@ Here we show some examples using ``catkin_tools``. Note: If you have already bui
          moveit_visual_tools \
          rviz_visual_tools
 
-### Disable CHOMP Motion Planer (optional)
+### Disable CHOMP Motion Planner (optional)
 
 Note, every command to ``catkin config --blacklist`` will override the previous list by default. Using the option ``--append-args`` you can augment the existing blacklist.
 
