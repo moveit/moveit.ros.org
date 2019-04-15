@@ -7,11 +7,11 @@ slug: docker_install
 title: Docker Install
 ---
 
-# Using Docker Containers with MoveIt!
+# Using Docker Containers with MoveIt
 
 Docker is an open-source project that automates the deployment of Linux applications inside software containers. See [https://www.docker.com/](https://www.docker.com/).
 
-Docker can help you easily evaluate someone else's code changes without breaking your local setup, as well as test on versions of Linux other than your local installed version. MoveIt! has an [official MoveIt! Docker build](https://hub.docker.com/r/moveit/moveit/) that lets you quickly get a MoveIt! setup in a local container.
+Docker can help you easily evaluate someone else's code changes without breaking your local setup, as well as test on versions of Linux other than your local installed version. MoveIt has an [official MoveIt Docker build](https://hub.docker.com/r/moveit/moveit/) that lets you quickly get a MoveIt setup in a local container.
 
 ## Installing Docker
 
@@ -29,9 +29,9 @@ If you are running a recent version of Ubuntu (e.g. 14.04, 16.04) it can be as s
 
 And you will likely need to log out and back into your user account for the changes to take affect.
 
-## Running MoveIt! Containers
+## Running MoveIt Containers
 
-To run a Debian-installed container of MoveIt! with graphics support:
+To run a Debian-installed container of MoveIt with graphics support:
 
     wget https://raw.githubusercontent.com/ros-planning/moveit/master/.docker/gui-docker -O gui-docker && chmod +x gui-docker
     ./gui-docker -it --rm moveit/moveit:melodic-release /bin/bash
@@ -42,12 +42,12 @@ This will attempt to use nvidia-docker if hardware and drivers are available.
 
     docker run -it moveit/moveit:melodic-release
 
-## MoveIt! Container Types
+## MoveIt Container Types
 
-There are many variants of the MoveIt! Docker available as documented [here](http://moveit.ros.org/documentation/contributing/continuous_integration/). For example, any of the three current distros work: [indigo, kinetic, melodic]. Other variations include:
+There are many variants of the MoveIt Docker available as documented [here](http://moveit.ros.org/documentation/contributing/continuous_integration/). For example, any of the three current distros work: [indigo, kinetic, melodic]. Other variations include:
 
-- **moveit/moveit:melodic-source** contains a full MoveIt! workspace downloaded and built to ~/ws_moveit/src. This container is useful for developers wanting to test or develop in a sandbox.
-- **moveit/moveit:melodic-release** builds ontop of the CI image, the full debian-based install of MoveIt! using apt-get.
+- **moveit/moveit:melodic-source** contains a full MoveIt workspace downloaded and built to ~/ws_moveit/src. This container is useful for developers wanting to test or develop in a sandbox.
+- **moveit/moveit:melodic-release** builds ontop of the CI image, the full debian-based install of MoveIt using apt-get.
 - **moveit/moveit:melodic-ci** an image optimized for running continuous integration with Travis
 - **moveit/moveit:melodic-ci-shadow** an image optimized for running continuous integration with Travis using the latest unreleased build of ROS
 
@@ -57,7 +57,7 @@ To make the source container more useful for developing and testing code, we rec
 
     apt-get install less ssh bash-completion tree nano
 
-MoveIt!'s docker containers are built automatically on dockerhub.com, but you can modify and build locally if desired with the following command:
+MoveIt's docker containers are built automatically on dockerhub.com, but you can modify and build locally if desired with the following command:
 
     cd moveit/.docker/source
     docker build -t moveit/moveit:melodic-source .

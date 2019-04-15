@@ -8,13 +8,13 @@ title: Style Guidelines
 redirect_from: "/documentation/contributing/code.html"
 ---
 
-# MoveIt! Code Style Guidelines
+# MoveIt Code Style Guidelines
 
 We use the [ROS C++ Style guide](http://wiki.ros.org/CppStyleGuide) for all C++ development and the [ROS Python Style guide](http://wiki.ros.org/PyStyleGuide) for Python.
 
 To ease your development, we recommend the automated code formatter ``clang-format`` with a ROS configuration - to use see below.
 
-In addition MoveIt! has some extra style preferences:
+In addition MoveIt has some extra style preferences:
 
 ## C++
 
@@ -37,11 +37,11 @@ In addition MoveIt! has some extra style preferences:
 
 ## Shared Ptrs
 
- - For creating ``shared_ptr`` of any object, use MoveIt!'s standard [macro](https://github.com/ros-planning/moveit/blob/master/moveit_core/macros/include/moveit/macros/class_forward.h) ``MOVEIT_CLASS_FORWARD(ClassName)`` before the class declaration, and add the include ``#include <moveit/macros/class_forward.h>``. This will create two typedefs of shared pointers - ``<ClassName>Ptr`` and ``<ClassName>ConstPtr`` using either ``boost`` or ``std``.
+ - For creating ``shared_ptr`` of any object, use MoveIt's standard [macro](https://github.com/ros-planning/moveit/blob/master/moveit_core/macros/include/moveit/macros/class_forward.h) ``MOVEIT_CLASS_FORWARD(ClassName)`` before the class declaration, and add the include ``#include <moveit/macros/class_forward.h>``. This will create two typedefs of shared pointers - ``<ClassName>Ptr`` and ``<ClassName>ConstPtr`` using either ``boost`` or ``std``.
 
 ## CMakeLists.txt
 
-MoveIt! uses *one* folder for all headers from all of its modules: ``include/moveit``. To achieve this, install all headers to `${CATKIN_GLOBAL_INCLUDE_DESTINATION}` rather than using the normal `CATKIN_PACKAGE_INCLUDE_DESTINATION`:
+MoveIt uses *one* folder for all headers from all of its modules: ``include/moveit``. To achieve this, install all headers to `${CATKIN_GLOBAL_INCLUDE_DESTINATION}` rather than using the normal `CATKIN_PACKAGE_INCLUDE_DESTINATION`:
 
     install(DIRECTORY include/ DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION})
 
@@ -56,7 +56,7 @@ You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
 Please note that we rely on clang-format version **3.9**. Sadly, newer versions are not fully backward compatible.
 
-clang-format requires a configuration file in the root of your catkin workspace. The MoveIt! repo contains this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-format).
+clang-format requires a configuration file in the root of your catkin workspace. The MoveIt repo contains this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-format).
 
 ### Command Line
 
@@ -122,7 +122,7 @@ more modern, more readable, and less prone to common bugs.
 You can install clang-tidy and other clang related tools with
 `sudo apt-get install clang-tidy clang-tools`
 
-Similarly to clang-format, clang-tidy uses the configuration file [``.clang-tidy``](https://github.com/ros-planning/moveit/blob/master/.clang-tidy) that is found first when traversing the source folder hierarchy upwards. The MoveIt! repo provides this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-tidy).
+Similarly to clang-format, clang-tidy uses the configuration file [``.clang-tidy``](https://github.com/ros-planning/moveit/blob/master/.clang-tidy) that is found first when traversing the source folder hierarchy upwards. The MoveIt repo provides this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-tidy).
 
 
 Other than clang-format, clang-tidy needs to know the exact compiler options used to build your project.
