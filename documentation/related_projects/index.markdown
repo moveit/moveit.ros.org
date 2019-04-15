@@ -67,7 +67,7 @@ The project implements a trajectory generator with a MoveIt-interface for easy p
 ## ROS2 Grasp Library
 
 ROS2 Grasp Library enables state-of-the-art CNN based deep learning grasp detection algorithms on ROS2 for visual based industrial robot manipulation.
-This package provide ROS2 interfaces compliant with the MoveIt motion planning framework which is supported by most of the robot models in ROS industrial.
+This package provides ROS2 interfaces compliant with the MoveIt motion planning framework which is supported by most of the robot models in ROS industrial.
 [More Info](https://github.com/intel/ros2_grasp_library)
 
 <img src="/assets/images/related_projects/ros2_grasp_library.png" height="300"/>
