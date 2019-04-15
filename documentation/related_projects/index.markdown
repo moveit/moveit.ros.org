@@ -59,7 +59,7 @@ Provide an alternative Inverse Kinematics solver to the popular inverse Jacobian
 
 Most industrial robot manipulators supported in ROS come with a MoveIt! configuration. The MotionPlanning plugin for RViz allows simple and visualized planning and execution of free-space motion. Planning and obstacle avoidance work mostly out-of-the-box. In pilz_industrial_motion Cartesian motion is addressed: existing libraries for Cartesian trajectory generation lacked a user-friendly interface.
 
-The project implements a trajectory generator with a MoveIt!-interface for easy planning and execution of Cartesian standard-paths (LIN, PTP, CIRC). In addition, the blending of multiple sequential motion commands is realized.
+The project implements a trajectory generator with a MoveIt-interface for easy planning and execution of Cartesian standard-paths (LIN, PTP, CIRC). In addition, the blending of multiple sequential motion commands is realized.
 [More Info](https://github.com/PilzDE/pilz_industrial_motion)
 
 <img src="/assets/images/related_projects/pilz_industrial_motion.jpeg" height="300"/>
