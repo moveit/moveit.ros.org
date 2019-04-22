@@ -160,6 +160,13 @@ Refer to the [ccache website](https://ccache.dev) for more information on contro
 
     catkin build
 
+**NOTE**: If `catkin build` fails with a mesage similar to ``ccache: error: Failed to create directory $HOME/.ccache/tmp: Permission denied`` then you can fix it with the following commands: ::
+
+    USERNAME=`whoami` && \
+    USERGROUP=`id -gn` && \
+    sudo chown $USERNAME ~/.ccache/ && \
+    sudo chgrp $USERGROUP ~/.ccache/
+
 ### Source the Catkin Workspace
 
 Setup your environment - you can do this every time you work with this particular source install of the code, or you can add this to your ``.bashrc`` (recommended):
