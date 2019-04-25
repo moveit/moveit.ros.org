@@ -7,13 +7,13 @@ slug: related_projects
 title: Related Projects
 ---
 
-# MoveIt! Related Projects
+# MoveIt Related Projects
 
-MoveIt! is designed to be easily extensible as separate plugins or projects. Below is a list of related projects that have been aligned with the MoveIt! framework, in alphabetical order of project names. This is by no means exhaustive. Please create pull-requests in the repository [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) to **add** other projects to this list. Or if not sure about the relevance, please post on the [ROS Discourse category](https://discourse.ros.org/c/moveit).
+MoveIt is designed to be easily extensible as separate plugins or projects. Below is a list of related projects that have been aligned with the MoveIt framework, in alphabetical order of project names. This is by no means exhaustive. Please create pull-requests in the repository [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) to **add** other projects to this list. Or if not sure about the relevance, please post on the [ROS Discourse category](https://discourse.ros.org/c/moveit).
 
 ## bio_ik
 
-A MoveIt! kinematics_base plugin based on Particle Optimization & Genetic Algorithms. For ease of use and compatibility with existing code, the bio-ik algorithm is encapsulated as a Moveit kinematics plugin. Therefore, bio-ik can be used as a direct replacement of the default Orocos/KDL-based IK solver. Given the name of an end-effector and a 6-DOF target pose, bio-ik will search a valid robot joint configuration that reaches the given target. [More Info](https://github.com/TAMS-Group/bio_ik)
+A MoveIt kinematics_base plugin based on Particle Optimization & Genetic Algorithms. For ease of use and compatibility with existing code, the bio-ik algorithm is encapsulated as a Moveit kinematics plugin. Therefore, bio-ik can be used as a direct replacement of the default Orocos/KDL-based IK solver. Given the name of an end-effector and a 6-DOF target pose, bio-ik will search a valid robot joint configuration that reaches the given target. [More Info](https://github.com/TAMS-Group/bio_ik)
 
 <img src="/assets/images/related_projects/bio_ik.png" height="500"/>
 
@@ -31,7 +31,7 @@ A sample implementation as MoveIt "GraspPlanning" plugin, to perform grasps dete
 
 ## moveit_grasps
 
-Geometric grasping generator library for cuboids. A basic grasp generator for objects such as blocks or cylinders for use with the MoveIt! pick and place pipeline. Does not consider friction cones or other dynamics.
+Geometric grasping generator library for cuboids. A basic grasp generator for objects such as blocks or cylinders for use with the MoveIt pick and place pipeline. Does not consider friction cones or other dynamics.
 
 Its current implementation takes as input a pose vector (postition and orientation) and generates a large number of potential grasp approaches and directions. Also includes a grasp filter for removing kinematically infeasible grasps via threaded IK solvers. [More Info](https://github.com/PickNikRobotics/moveit_grasps)
 
@@ -57,8 +57,8 @@ Provide an alternative Inverse Kinematics solver to the popular inverse Jacobian
 
 ## pilz_industrial_motion
 
-Most industrial robot manipulators supported in ROS come with a MoveIt! configuration. The MotionPlanning plugin for RViz allows simple and visualized planning and execution of free-space motion. Planning and obstacle avoidance work mostly out-of-the-box. In pilz_industrial_motion Cartesian motion is addressed: existing libraries for Cartesian trajectory generation lacked a user-friendly interface.
+Most industrial robot manipulators supported in ROS come with a MoveIt configuration. The MotionPlanning plugin for RViz allows simple and visualized planning and execution of free-space motion. Planning and obstacle avoidance work mostly out-of-the-box. In pilz_industrial_motion Cartesian motion is addressed: existing libraries for Cartesian trajectory generation lacked a user-friendly interface.
 
-The project implements a trajectory generator with a MoveIt!-interface for easy planning and execution of Cartesian standard-paths (LIN, PTP, CIRC). In addition, the blending of multiple sequential motion commands is realized. [More Info](https://github.com/PilzDE/pilz_industrial_motion)
+The project implements a trajectory generator with a MoveIt-interface for easy planning and execution of Cartesian standard-paths (LIN, PTP, CIRC). In addition, the blending of multiple sequential motion commands is realized. [More Info](https://github.com/PilzDE/pilz_industrial_motion)
 
 <img src="/assets/images/related_projects/pilz_industrial_motion.jpeg" height="300"/>

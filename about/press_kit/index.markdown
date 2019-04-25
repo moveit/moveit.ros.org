@@ -14,7 +14,7 @@ We ask that you not:
 - place a logo in such close proximity to other content that it is indistinguishable
 - make the logo the most distinctive or prominent feature on your website, printed material or other content
 - use the logos in a way that is harmful, deceptive, obscene or otherwise objectionable to the average person
-- use the logos to, or in connection with, content that disparages us or sullies MoveIt!'s reputation
+- use the logos to, or in connection with, content that disparages us or sullies MoveIt's reputation
 
 The logo files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
 
