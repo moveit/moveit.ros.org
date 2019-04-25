@@ -157,8 +157,8 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
-                            <h1>MoveIt! Setup Assistant</h1>
-                            <p>Quickly setup any robot to work with MoveIt! with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control!</p>
+                            <h1>MoveIt Setup Assistant</h1>
+                            <p>Quickly setup any robot to work with MoveIt with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control!</p>
                         </div>
                     </div>
                 </div>
@@ -180,7 +180,7 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
                             <h1>Gazebo Simulation</h1>
-                            <p>Speed up development and testing cycles by leveraging a full physics-based simulator with MoveIt!. Combine Gazebo, ROS Control, and MoveIt! for a powerful robotics development platform.</p>
+                            <p>Speed up development and testing cycles by leveraging a full physics-based simulator with MoveIt. Combine Gazebo, ROS Control, and MoveIt for a powerful robotics development platform.</p>
                         </div>
                     </div>
                 </div>
@@ -189,12 +189,12 @@ redirect_from: '/moveit/'
                         <img style="width:638px" src="/assets/images/main/why-moveit-images@2x.png">
                     </div>
                     <div class="col-xs-12 col-lg-4 col-sm-12">
-                        <h1>Why MoveIt!?</h1>
+                        <h1>Why MoveIt?</h1>
                         <p>
-                            MoveIt! is state of the art software for mobile manipulation, incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation. It provides an easy-to-use platform for developing advanced robotics applications, evaluating new robot designs and building integrated robotics products for industrial, commercial, R&D and other domains.
+                            MoveIt is state of the art software for mobile manipulation, incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation. It provides an easy-to-use platform for developing advanced robotics applications, evaluating new robot designs and building integrated robotics products for industrial, commercial, R&D and other domains.
                         </p>
                         <p>
-                            MoveIt! is the most widely used open-source software for manipulation and has been used on over 100 robots. See the Robots page for a list of some of the robots that MoveIt! is being used with.
+                            MoveIt is the most widely used open-source software for manipulation and has been used on over 100 robots. See the Robots page for a list of some of the robots that MoveIt is being used with.
                         </p>
                     </div>
                 </div>

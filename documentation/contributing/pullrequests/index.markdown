@@ -40,7 +40,7 @@ All feedback on existing pull-requests is welcome and appreciated. If you are fa
  - Does it address all edge-cases you are aware of?
  - If a new interface is introduced: Is this interface general enough for likely future modifications? Otherwise we might have to break API later on if we wish to add more useful features to the same module.
  - If the request targets a stable release: Is the change [ABI compatible](https://en.wikipedia.org/wiki/Application_binary_interface) or is there a good reason (e.g. safety) to break it?
- - Does the patch respect the [MoveIt! Code Style](/documentation/contributing/code/)?
+ - Does the patch respect the [MoveIt Code Style](/documentation/contributing/code/)?
 
 If (and only if) you answer all these questions with "yes", use Github's [pull request review](https://help.github.com/articles/about-pull-request-reviews/) feature to approve the PR. This entails pressing the green "Review Changes" button, giving a review summary, and choosing "Approve" if it is ready to be merged in. If you are unsure about some part of the request, feel free to add a note and ask the author for details and explanations of individual changes.
 
@@ -77,13 +77,13 @@ Contributors should indicate their desired merge-policy in the main PR comment.
 
 ### Feature Branches in Upstream Repositories
 
-Pull requests should originate from a user's fork of the main MoveIt! upstream repository as much as possible. Github has a feature that allows a MoveIt! maintainer to contribute to a contributor's pull request branch [even if the branch is on another user's fork](https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork/). Use of this is encouraged.
+Pull requests should originate from a user's fork of the main MoveIt upstream repository as much as possible. Github has a feature that allows a MoveIt maintainer to contribute to a contributor's pull request branch [even if the branch is on another user's fork](https://help.github.com/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork/). Use of this is encouraged.
 
 In rare cases, if a maintainer expects support in the development of a patch from non-maintainer users, they are free to create a new branch in the upstream repository instead. This enables other maintainers to directly push changes there and enables users to add pull-requests targeting the feature branch. To keep the list of branches clear and unambiguous, **names for such branches should always follow the pattern ``pr-<ros distribution>-<keyword description>``**. This makes it clear these branches are not relevant to users not involved in the respective request.
 
 ### The Latest Branch Preserves All Original Commits
 
-All contributions that get merged into MoveIt! and should be included in later ROS distributions have to end up in the latest branch with their full description and individual commits.
+All contributions that get merged into MoveIt and should be included in later ROS distributions have to end up in the latest branch with their full description and individual commits.
 This is necessary in order to preserve the history of the changes.
 Future versions of MoveIt might not share the whole history of older branches and finding your `git blame` returns a commit called ``cherry-picked #123``, without an additional description, is not desirable.
 
@@ -146,7 +146,7 @@ If each step ends with issues, they need to be fixed before moving on.
    bloom-release --rosdistro melodic --track melodic moveit
    ```
 1. Notify maintainers to resume new merge.
-1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt! category](https://discourse.ros.org/c/moveit).
+1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt category](https://discourse.ros.org/c/moveit).
 
 ### Release versioning policy
 

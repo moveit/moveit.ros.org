@@ -12,10 +12,10 @@ title: Robots
 		<div class="col-xs-12 col-sm-12">
 			<div class="robots-main">
 				<h1>{{page.title}}</h1>
-				<p>MoveIt! has been used on over 100 robots by the community. From deep sea to outerspace, from hobbiests to industrial applications, check out a few of the many examples below using MoveIt! with different robots.</p>
+				<p>MoveIt has been used on over 100 robots by the community. From deep sea to outerspace, from hobbiests to industrial applications, check out a few of the many examples below using MoveIt with different robots.</p>
 				<hr/>
 				<p>See something missing? If you would like to add a robot to this list, please email <a href="mailto:support@picknik.ai">support@picknik.ai</a></p>
-				<p>We are also looking for robot maintainers and new robots. If you are willing to maintain the MoveIt! packages for any robot in this list please post on the <a href="https://discourse.ros.org/c/moveit" target="_blank">ROS Discourse category</a>.</p>
+				<p>We are also looking for robot maintainers and new robots. If you are willing to maintain the MoveIt packages for any robot in this list please post on the <a href="https://discourse.ros.org/c/moveit" target="_blank">ROS Discourse category</a>.</p>
 			</div>
 		</div>
 	</div>
@@ -1197,7 +1197,7 @@ title: Robots
 		<div class="col-xs-12 col-sm-12">
 			<div class="robots-main--bottom">
 				<hr/>
-				<p><strong>Need Custom Development?</strong> If you need help with integration of MoveIt! on your robot or applications, please contact <a href="http://picknik.ai/connect" target="_blank">PickNik Consulting</a>
+				<p><strong>Need Custom Development?</strong> If you need help with integration of MoveIt on your robot or applications, please contact <a href="http://picknik.ai/connect" target="_blank">PickNik Consulting</a>
 				</p>
 			</div>
 		</div>
