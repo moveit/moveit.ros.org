@@ -30,6 +30,7 @@ Bence Magyar       | Heriot-Watt University | [bmagyar](https://github.com/bmagy
 Mike Lautman       | PickNik Consulting | [mlautman](https://github.com/mlautman)
 Jon Binney         | Iron Ox | [jonbinney](https://github.com/jonbinney)
 Henning Kayser     | PickNik Consulting | [henningkayser](https://github.com/henningkayser)
+Bryce Willey       | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
 
 ## Core Contributors
 
@@ -39,7 +40,6 @@ Name                | Organization  | GitHub ID
 ------------------- |:------------- |-------------|
 Michael Ferguson    | Independent Consultant | [mikeferguson](https://github.com/mikeferguson)
 Zak Kingston        | Rice University | [zkingston](https://github.com/zkingston)
-Bryce Willey        | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
 Felix von Drigalski | OMRON SINIC X Corporation | [felixvd](https://github.com/felixvd)
 Simon Schmeißer     | isys vision | [simonschmeisser](https://github.com/simonschmeisser)
 William Baker       | Houston Mechatronics | [willcbaker](https://github.com/willcbaker)
