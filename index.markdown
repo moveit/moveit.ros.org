@@ -75,7 +75,7 @@ redirect_from: '/moveit/'
                                         <img src="/assets/images/icons/ic-motion.svg">
                                     </span>
                                     <h3>
-                                        Motion planning
+                                        Motion Planning
                                     </h3>
                                     <p>
                                         Generate high-degree of freedom trajectories through cluttered environments and avoid local minimums
