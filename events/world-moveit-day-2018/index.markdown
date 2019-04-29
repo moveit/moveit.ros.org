@@ -4,10 +4,10 @@ comments: false
 date: 2018-08-27 03:48:12+00:00
 layout: page
 slug: world_moveit_day_2018
-title: World MoveIt! Day 2018
+title: World MoveIt Day 2018
 ---
 
-<img src="/assets/images/wmd18/world_moveit_day_2018.png" alt="World MoveIt! Day" style="width: 700px;"/>
+<img src="/assets/images/wmd18/world_moveit_day_2018.png" alt="World MoveIt Day" style="width: 700px;"/>
 
 ## Date
 
@@ -17,7 +17,7 @@ title: World MoveIt! Day 2018
 
 ## Description
 
-World MoveIt! Day is an international hackathon to improve the MoveIt! code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements for the now seven year old framework. Everyone is welcome to participate from their local workplace, simply by working on open issues. In addition, a number of companies and groups host meetings on their sites all over the world. A video feed will unite the various locations and enable more collaboration. Maintainers will take part in some of these locations.
+World MoveIt Day is an international hackathon to improve the MoveIt code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements for the now seven year old framework. Everyone is welcome to participate from their local workplace, simply by working on open issues. In addition, a number of companies and groups host meetings on their sites all over the world. A video feed will unite the various locations and enable more collaboration. Maintainers will take part in some of these locations.
 
 ## Locations
 
@@ -39,7 +39,7 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
   - Organizer: Ryosuke Tajima
 - [Southwest Research Institute](https://www.swri.org/)/[ ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, USA
   - Organizer: Matt Robinson
-  - [Event Details](https://www.evite.com/event/030AUF672VIUQMVHQEPI2KHJ4AIZNA/rsvp?utm_source=NA&utm_medium=sharable_invite&utm_campaign=send_sharable_link)
+  - [Event Details](https://www.evite.com/event/030AUF672VIUQMVHQEPI2KHJ4AIZNA/activity)
 - [Cluster Innovation Centre](https://ducic.ac.in/), New Delhi, India
   - Organizer: Ridhwan Luthra
   - [Event Details](https://www.meetup.com/rosindia/events/254064159/)
@@ -55,11 +55,11 @@ World MoveIt! Day is an international hackathon to improve the MoveIt! code base
 
 Please state your intent to join the event [on this form](https://docs.google.com/forms/d/e/1FAIpQLSdk_xMOVdqusdvT6vr5s6AnXV-GdtchCjrX-BXpyw642ahcBg/viewform). Note that specific locations will have their own signups in addition to this form.
 
-If you aren't near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events. We would also like to mail your team or event some MoveIt! stickers to schwag out your robots!
+If you aren't near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events. We would also like to mail your team or event some MoveIt stickers to schwag out your robots!
 
 ## Logistics
 
-### What version of MoveIt! should you use?
+### What version of MoveIt should you use?
 
 We recommend the Melodic LTS branch/release. The Kinetic release is also a good choice for beginners as its more stable. The Indigo branch is considered stable and frozen - and only critical bug fixes will be backported.
 
@@ -73,9 +73,9 @@ Suggested areas for improvement are tracked on MoveIt's GitHub repo via several 
 - [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates the issue can probably be tackled in a few hours, depending on your background.
 - [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials, changes to the website, etc.
 - [assigned](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+is%3Aissue+label%3Aassigned) aids developers to find issues that are not already being worked on.
-- **no label** - of course issues that are not marked can still be worked on during World MoveIt! day, though they will likely take longer than one day to complete.
+- **no label** - of course issues that are not marked can still be worked on during World MoveIt day, though they will likely take longer than one day to complete.
 
-If you would like to help the MoveIt! project by tackling an issue, claim the issue by commenting "I'll work on this" and a maintainer will add the label "assigned". Feel free to ask further questions in each issue's comments. The developers will aim to reply to WMD-related questions before the event begins.
+If you would like to help the MoveIt project by tackling an issue, claim the issue by commenting "I'll work on this" and a maintainer will add the label "assigned". Feel free to ask further questions in each issue's comments. The developers will aim to reply to WMD-related questions before the event begins.
 
 If you have ideas and improvements for the project, please add your own issues to the tracker, using the appropriate labels where applicable. It's fine if you want to then claim them for yourself.
 
@@ -85,7 +85,7 @@ Other larger code sprint ideas can be found [on this page](http://moveit.ros.org
 
 ### Documentation
 
-Improving our documentation is at least as important as fixing bugs in the system. Please add to our Sphinx and Markdown-based documentation within our packages and on the MoveIt! website. If you have studied extensively an aspect of MoveIt! that is not currently documented well, please convert your notes into a pull request in the appropriate location. If you've started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request to help others in the future with the same question.
+Improving our documentation is at least as important as fixing bugs in the system. Please add to our Sphinx and Markdown-based documentation within our packages and on the MoveIt website. If you have studied extensively an aspect of MoveIt that is not currently documented well, please convert your notes into a pull request in the appropriate location. If you've started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request to help others in the future with the same question.
 
 For more details on modifying documentation, see [Contributing](http://moveit.ros.org/documentation/contributing/).
 
