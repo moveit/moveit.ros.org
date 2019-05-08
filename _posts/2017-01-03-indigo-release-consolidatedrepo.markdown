@@ -16,7 +16,7 @@ We are happy to announce that a lot of improvements are now released into MoveIt
 During this time, MoveIt! maintenance has been refurbished and we now [consolidated development repositories](https://github.com/ros-planning/moveit) of many packages whose repos were previously separated. For ROS [Jade](http://moveit.ros.org/moveit!/ros/2016/09/02/firstjaderelease.html) and [Kinetic](http://moveit.ros.org/moveit!/ros/2016/12/15/firstkineticrelease.html) MoveIt! has been already released from this single repo, and Indigo finally made a new release out from the same single repo.
 
 Change to installation
-======================
+----------------------
 
 You can install the binaries of all the basic libraries by a single line of command without specifying many packages:
 
@@ -37,7 +37,7 @@ $ git clone git@github.com:ros-planning/moveit.git       (ssh)
 For more info about installation, check the tutorial [moveit.ros.org/install](http://moveit.ros.org/install/).
 
 Things you should know
-======================
+----------------------
 
 * **Rebuild your full (moveit-related) workspace** or you might experience problems.
   There have been some (mostly internal) binary-incompatible changes for speedup and safety.
@@ -59,7 +59,7 @@ Things you should know
   This version suffix is called an SONAME and (in MoveIt indigo) indicates the last version that broke binary compatibility.
 
 Changelog
-=========
+---------
 
 Among many changes added since the last Indigo release, some notable ones are listed as follows. Because the new feature development is mainly now happening for ROS Kinetic (as mentioned upon the latest [Kinetic release](http://moveit.ros.org/moveit!/ros/2016/12/15/firstkineticrelease.html)), some changes are only available in newer ROS distros and thus unavailable in Indigo mainly due to the following reasons:
 

@@ -35,7 +35,7 @@ Among numerous bug-fixes, there are quite a number of new features included:
 ![1st Jade release](http://www.ros.org/news/assets_c/2015/05/jadeturtle_LoRes-thumb-480x519-1131.jpg)
 
 ROS Indigo
-==========
+----------
 
 For now, the newest features and bugfixes have only been released in Jade.
 
@@ -55,7 +55,7 @@ should be able to use the released ROS packages even if they want to rely on cur
 
 
 ROS Kinetic
-===========
+-----------
 
 We are in the process of finalizing the API for the initial release of MoveIt! in kinetic and discuss points
 that should be addressed before the release. At least one of the points will be relevant to most of you in the future:
