@@ -77,6 +77,17 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Pilz GmbH PRBT6.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>PRBT 6</h2>
+					<h3>Pilz GmbH & Co. KG</h3>
+					<a href="https://github.com/PilzDE/pilz_robots" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/NASA Johnson Space Center Robonaut.jpg');">
 				</div>
 				<div class="robots-content">
