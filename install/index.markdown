@@ -13,7 +13,6 @@ MoveIt is supported on the following systems:
 
 * Ubuntu 17.10, 18.04 / [ROS Melodic](http://www.ros.org/wiki/melodic/Installation/Ubuntu)
 * Ubuntu 15.10, 16.04 / [ROS Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu)
-* Ubuntu 14.04 / [ROS Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu)
 * Windows 10 - experimental
 
 ### Prereq: Install ROS
@@ -29,10 +28,6 @@ Follow all the instructions to [install ROS](http://wiki.ros.org/ROS/Installatio
 ### ROS Kinetic
 
     sudo apt-get install ros-kinetic-moveit
-
-### ROS Indigo
-
-    sudo apt-get install ros-indigo-moveit
 
 ## Install on Windows
 
