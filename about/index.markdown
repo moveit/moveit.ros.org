@@ -53,23 +53,6 @@ Víctor Mayoral      | Acutronic Robotics | [vmayoral](https://github.com/vmayor
 Anas Mchichou       | Acutronic Robotics | [anasarrak](https://github.com/anasarrak)
 Levi Armstrong      | SwRI / ROS-I | [Levi-Armstrong](https://github.com/Levi-Armstrong)
 
-## Maintainer Alumni
-
-We would like to acknowledge past maintainers of MoveIt who have since moved on. Their great work made this project what it is today:
-
-Name | Past Organization | GitHub ID
------------- |:------------- |-------------|
-Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta)
-Ioan Sucan | Google X | [isucan](https://github.com/isucan)
-Dave Hershburger | Kinema Systems | [hersh](https://github.com/hersh) |
-Acorn Pooley | SRI International | N/A |
-
-## Citing MoveIt
-
-Please use the following citation for MoveIt
-
-  * Ioan A. Sucan and Sachin Chitta, "MoveIt", [Online] Available: [http://moveit.ros.org](http://moveit.ros.org)
-
 ## Sponsors
 
 <a href="http://picknik.ai"><img src="{{ site.url }}/assets/images/sponsors/picknik.png" height="60" style="margin-top:20px"/></a>
@@ -113,3 +96,19 @@ We gratefully acknowledge the early contributions of the following people to Mov
   * ROS-Industrial consortium led by the Southwest Research Institute and Fraunhofer IPA for applying MoveIt to industrial robots.
 
   * Open Robotics for playing an advisory role, maintaining ROS, and providing the infrastructure for releasing packages
+
+## Maintainer Alumni
+
+We would like to acknowledge past maintainers of MoveIt who have since moved on. Their great work made this project what it is today:
+
+Name | Past Organization | GitHub ID
+------------ |:------------- |-------------|
+Sachin Chitta | Kinema Systems | [sachinchitta](https://github.com/sachinchitta)
+Ioan Sucan | Google X | [isucan](https://github.com/isucan)
+Dave Hershburger | Kinema Systems | [hersh](https://github.com/hersh) |
+Acorn Pooley | SRI International | N/A |
+
+## Citing MoveIt
+
+  * Ioan A. Sucan and Sachin Chitta, "MoveIt", [Online] Available: [http://moveit.ros.org](http://moveit.ros.org)
+  * David Coleman, Ioan Sucan, Sachin Chitta, Nikolaus Correll, ["Reducing the Barrier to Entry of Complex Robotic Software: a MoveIt! Case Study"](https://arxiv.org/abs/1404.3785)
