@@ -288,13 +288,13 @@ redirect_from: '/moveit/'
             <div class='row'>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>MoveIt 2.0 Dashing</h3>
-                        <span class="label label--blue">Partially Funded</span>
+                        <h3>E-Turtle 2.0 Beta </h3>
+                        <span class="label label--blue">Seeking Funding</span>
                     </div>
                     <div class="version-date">
-                        <p><span>Version:</span> 2.0</p>
+                        <p><span>Version:</span> 2.1 Beta</p>
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
-                        <p><span>Initial release:</span> 1 June 2019</p>
+                        <p><span>Initial release:</span> 1 December 2019</p>
                         <p><span>End of life:</span> TBD</p>
                     </div>
                     <div class="version-content">
@@ -305,7 +305,23 @@ redirect_from: '/moveit/'
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>MoveIt 1.1 Noetic</h3>
+                        <h3>Dashing 2.0 Alpha</h3>
+                        <span class="label label--blue">In Development</span>
+                    </div>
+                    <div class="version-date">
+                        <p><span>Version:</span> 2.0 Alpha</p>
+                        <p><span>Platforms:</span> Ubuntu 18.04</p>
+                        <p><span>Initial release:</span> 1 June 2019</p>
+                        <p><span>End of life:</span> N/A</p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>This early preview of MoveIt 2.0 will only be available as a source build and has not been fully tested or verified.</p>
+                    </div>
+                </div>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
+                    <div class="version-header">
+                        <h3>Noetic LTS</h3>
                         <span class="label label--blue">In Development</span>
                     </div>
                     <div class="version-date">
@@ -316,7 +332,7 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This is the actively developed 'master' branch of MoveIt for ROS 1.0</p>
+                        <p>This is the actively developed 'master' branch of MoveIt for ROS 1.0, and will likely be the last version of MoveIt for ROS 1.0</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
