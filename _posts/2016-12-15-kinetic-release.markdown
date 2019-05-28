@@ -34,7 +34,7 @@ If you're running your robot packages with ROS Kinetic, and/or if you want to tr
 ![1st Kinetic release](http://www.ros.org/news/assets_c/2016/04/kinetic-thumb-640x530-1441.png)
 
 Update on ROS Indigo
-====================
+--------------------
 
 While future releases will primarily target Kinetic, the maintainers are working towards a new binary release into Indigo as well. ABI-compatible changes are still being released into previous ROS distros.
 

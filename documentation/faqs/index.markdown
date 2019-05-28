@@ -29,6 +29,10 @@ _What kind of open source license does MoveIt use?_
 
  * MoveIt is released under the business-friendly [BSD License v3](https://opensource.org/licenses/BSD-3-Clause). Each individual file in the MoveIt source code should contain a copy of the license.
 
+## Press Kit
+
+See [Logo Guidelines](/about/press_kit)
+
 ## Bugs/Issues
 
 _I have a fix for a bug in the MoveIt tutorials. What should I do?_
