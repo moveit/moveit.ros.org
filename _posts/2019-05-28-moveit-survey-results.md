@@ -6,7 +6,7 @@ layout: post
 title: 2019 MoveIt Survey Results
 media_type: image
 media_link: /assets/images/survey_demographics.png
-description: 2019 Survey Results
+description: In celebration of the MoveIt 1.0 release we requested feedback from the community via a MoveIt survey.
 categories:
 - MoveIt!
 - ROS
