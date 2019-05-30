@@ -18,7 +18,7 @@ the framework and implement new concepts without having to touch the core of
 the framework. This section lists the different types of plugins and provides
 an overview of how to use them within the framework.
 
-### [Tutorials](http://docs.ros.org/indigo/api/moveit_tutorials/html/)
+### [Tutorials](http://docs.ros.org/melodic/api/moveit_tutorials/html/)
 
 A set of beginner and advanced tutorials will run you through the key concepts in developing and running MoveIt
 

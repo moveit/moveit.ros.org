@@ -64,7 +64,7 @@ merge the request after your own review. Otherwise submit an "Approval" review a
 
 GitHub provides [several merge policies ](https://help.github.com/articles/about-merge-methods-on-github). To avoid clutter in our commit history, usually pull requests should be `squash-merged` (github supports this via a drop-down list on the "merge" button), particularly if there are only single commits or several "fixup commits".
 
-However, for larger changes to the code, it's absolutely desired to organize the pull request into multiple, clearly separated, but interrelated commits. In such cases, it is usually also meaningful to keep this commit history, thus being able to track these individual commits also later in the future. In this case, a maintainer should ask the contributor to cleanup "fixup" commits via squashing or interactive rebasing before eventually performing a proper `merge commit`. 
+However, for larger changes to the code, it's absolutely desired to organize the pull request into multiple, clearly separated, but interrelated commits. In such cases, it is usually also meaningful to keep this commit history, thus being able to track these individual commits also later in the future. In this case, a maintainer should ask the contributor to cleanup "fixup" commits via squashing or interactive rebasing before eventually performing a proper `merge commit`.
 
 Multiple, independent commits should not show up in a single PR, but should be splitted into multiple independent PRs. GitHub's `rebase-merge` policy, which could be used in such cases, unfortunately drops any notion of the related pull request id. To summarize:
 
@@ -151,5 +151,5 @@ If each step ends with issues, they need to be fixed before moving on.
 ### Release versioning policy
 
 * We use the minor version to differentiate the releases from different development branches.
-  * As of December 2016, Indigo 0.7.x (indigo-devel branch), Jade 0.8.x (jade-devel), Kinetic 0.9.x (kinetic-devel).
+  * As of May 2019, Kinetic 0.9.x (kinetic-devel), Melodic 1.0.x (melodic-devel)
 * See also a [discussion for the best practice for versioning](https://discourse.ros.org/t/maintainer-best-practices-handling-changes-through-ros-releases/771) on discourse.
