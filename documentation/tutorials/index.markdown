@@ -6,4 +6,4 @@ layout: page
 title: Redirect Tutorials
 ---
 
-This page has moved to <a href="http://docs.ros.org/indigo/api/moveit_tutorials/html/">http://docs.ros.org/indigo/api/moveit_tutorials/html/</a>
+This page has moved to <a href="http://docs.ros.org/melodic/api/moveit_tutorials/html/">http://docs.ros.org/melodic/api/moveit_tutorials/html/</a>

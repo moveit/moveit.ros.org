@@ -64,7 +64,7 @@ MoveIt supports storing Constraints, PlanningScenes and RobotStates in a databas
 
 ## MoveIt-OMPL Planning Interface
 
-Currently, MoveIt supports the OMPL planning library via a C++ based binding system in the package `ompl_interface`. This should be deprecated in favor of a plugin-based system, that eases configuration of different planners within OMPL. In effect, the plugin allows new planning algorithms derived from the abstract Planner API in OMPL to be loaded via a yaml file. It also allows users to easily create new planning configurations for existing planning algorithms in OMPL via such a yaml. Most of the work for this is already done and has been used extensively in ROS Indigo. This is a great project for someone who wants to better understand the connection between MoveIt And OMPL.
+Currently, MoveIt supports the OMPL planning library via a C++ based binding system in the package `ompl_interface`. This should be deprecated in favor of a plugin-based system, that eases configuration of different planners within OMPL. In effect, the plugin allows new planning algorithms derived from the abstract Planner API in OMPL to be loaded via a yaml file. It also allows users to easily create new planning configurations for existing planning algorithms in OMPL via such a yaml. Most of the work for this is already done and has been used extensively in the latest versions. This is a great project for someone who wants to better understand the connection between MoveIt And OMPL.
 
 - More information can be found [here](https://github.com/ros-planning/moveit/issues/117)
 - The new system needs to be documented in tutorials

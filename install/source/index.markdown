@@ -13,7 +13,6 @@ MoveIt is mainly supported on Linux, in particular:
 
 * Ubuntu 17.10, 18.04 / [ROS Melodic](http://www.ros.org/wiki/melodic/Installation/Ubuntu)
 * Ubuntu 15.10, 16.04 / [ROS Kinetic](http://www.ros.org/wiki/kinetic/Installation/Ubuntu)
-* Ubuntu 14.04 / [ROS Indigo](http://www.ros.org/wiki/indigo/Installation/Ubuntu)
 
 As of February 2019, [MoveIt for ROS 2.0](https://github.com/ros-planning/moveit2) development has begun but is not ready yet.
 
@@ -44,7 +43,6 @@ Choose one of the three:
 
     source /opt/ros/melodic/setup.bash
     source /opt/ros/kinetic/setup.bash
-    source /opt/ros/indigo/setup.bash
 
 This will load the ``${ROS_DISTRO}`` variable, needed for the next step.
 

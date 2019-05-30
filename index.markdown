@@ -41,7 +41,7 @@ redirect_from: '/moveit/'
                             <div class="button-group">
                                 <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
                                 <a class="button button-yellow modal-link" href="https://www.youtube.com/watch?v=0og1SaZYtRc" target="_blank">Watch our montage</a>
-                                <a class="button button-transparent" href="http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/getting_started/getting_started.html" target="_blank">Get Started</a>
+                                <a class="button button-transparent" href="http://docs.ros.org/melodic/api/moveit_tutorials/html/index.html" target="_blank">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -365,22 +365,6 @@ redirect_from: '/moveit/'
                     <div class="version-content">
                         <h4>Release notes</h4>
                         <p>This LTS is stable and only bug fixes should be backported.</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Indigo LTS</h3>
-                        <span class="label label--orange">Maintained</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Version:</span> 0.7</p>
-                        <p><span>Platforms:</span> Ubuntu 14.04</p>
-                        <p><span>Initial release:</span> 22 July 2014</p>
-                        <p><span>End of life:</span> April 2019</p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>This LTS is nearing end of life and is discouraged for adoption.</p>
                     </div>
                 </div>
             </div>
