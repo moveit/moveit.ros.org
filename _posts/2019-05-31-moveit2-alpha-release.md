@@ -5,7 +5,7 @@ date: 2019-05-31
 layout: post
 title: Announcing MoveIt 2 Alpha Release
 media_type: image
-media_link: /assets/images/moveit2_alpha.jpg
+media_link: /assets/images/blog_posts/2019_05_31_moveit2_alpha.jpg
 description: The ROS 2 port MoveIt2's Alpha is here with the help of Acutronic Robotics in collaberation with PickNik
 categories:
 - MoveIt!
@@ -63,6 +63,6 @@ Acutronic Robotics has put significant resources into porting the following pack
 At the time of writing, the following known issues have been identified and apply to the ROS 2 target distro (Dashing Diademata) creating conflicts with this release:
 
 * ROS 2 actions not compiling in OpenSplice [[1](https://github.com/ros2/rosidl_typesupport_opensplice/issues/30)] [[2](https://github.com/ADLINK-IST/opensplice/issues/92)]
-* [Docker port mapping issue]() affects the launch of the demonstrator from the Docker image.
-* [Issues with rviz2 in OS X]()
+* [Docker port mapping issue](https://github.com/docker/for-mac/issues/3350) affects the launch of the demonstrator from the Docker image.
+* [Issues with rviz2 in OS X](https://github.com/ros2/rviz/issues/385)
 * Issues with Qt5 in OS X
