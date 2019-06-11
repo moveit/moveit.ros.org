@@ -100,61 +100,46 @@ Note, every command to ``catkin config --blacklist`` will override the previous 
 
 ## Optional: Install a Compiler Cache
 
-Even if you decide to not build *all* of MoveIt, building it from source can still take quite some time.
-Because of this, it can be beneficial to use a tool called a *compiler cache* to avoid recompiling files that have not been changed between builds but which with a regular build (without such a cache) would still be processed by the compiler.
-This situation is especially common when switching between different branches while developing and when `clean`ing a Catkin workspace and then rebuilding it.
+Building *all* or even just *some* of MoveIt from source can take a long time. A compiler cache can reduce the time by preventing unchanged files from being recompiled.
+Moveit can greatly benefit from a compiler cache as it is mostly C++, and is often recompiled.
+[ccache](https://ccache.dev), is one such compiler cache for GCC and other sufficiently similar compilers.
+Using `ccache` can reduce the time needed to rebuild MoveIt and other primeraly C++ packages.
 
-[ccache](https://ccache.dev) provides such a compiler cache and using it can reduce the time needed to rebuild MoveIt (and other packages) from many minutes to mere seconds.
-Note: `ccache` is only compatible with GCC and only caches (Obj)C/(Obj)C++ output, but as MoveIt is largely a C++ application it can benefit greatly.
-
-**Note**: as `ccache` uses the filesystem to cache objects, be sure to have sufficient free space available.
-The default maximum cache size on Debian and Ubuntu is up to 5 GB for a full cache (if there are no files in the cache, it will not take up any space).
-Configure a different maximum with the `--max-size` option.
-
-Refer to the [ccache website](https://ccache.dev) for more information on when the cache is used and how to change its configuration.
-
-### Installation (Debian/Ubuntu)
+### Installation
 
 On a Debian or Ubuntu system, installing `ccache` is simple:
 
     sudo apt-get install ccache
 
-### Installation (other systems)
-
-On other OS, consult the package manager or software store and search for `ccache`.
+For other OS, consult the package manager or software store and search for `ccache`.
 Refer to the [ccache website](https://ccache.dev) for more information on downloading and installation.
 
 ### Setup
 
-`ccache` provides a wrapper script that inserts itself between calls to GCC and the cache.
-The script is compatible with GCC command line invocations, but it must be explicitly configured for use (just installing the `ccache` package is not enough).
-
-To use caching with *all* invocations of GCC, it is sufficient to place the `/usr/lib/ccache` directory on the `PATH` (note: `usr/lib/ccache` is used on Debian and Ubuntu systems, adapt paths accordingly on other OS).
-By making sure `ccache` is found *before* the regular GCC, all invocations of GCC will automatically go through the `ccache` wrapper script.
-
-A convenient way to update the `PATH` for your user would be to append the following to the `.bashrc` file (or the equivalent user profile if not using `bash` as your shell):
-
-    export PATH=/usr/lib/ccache:$PATH
-
-The following command can be used to do this for `bash`:
+To use `ccache` it must be explicitly configured for use as just installing the `ccache` package is not enough.
+To automatically use `ccache` with all GCC compilations add the `/usr/lib/ccache` directory to your `PATH` before the regular GCC compiler (For systems other than Debian or Ubuntu this may vary).
+It is easy to enable `ccach` on startup in `bash`. For other shells or systems substitute the appropriate commands.
 
     echo 'export PATH=/usr/lib/ccache:$PATH' >> $HOME/.bashrc
-
-Then activate the new setting for the current `bash` session (if not using `bash`, substitute the appropriate command):
-
     source $HOME/.bashrc
 
-New sessions will automatically update the `PATH`, so this is only necessary for your current session.
+To use caching just for specific projects, set the CC and CXX environment variables before invoking `make`, `cmake`, `catkin_make` or `catkin build`.
 
-To use caching just *for specific projects*, set the `CC` and `CXX` environment variables before invoking `make`, `cmake`, `catkin_make` or `catkin build`.
+### Using ccache
 
-**Note**: `ccache` can only cache compiler output if the compiler actually outputs something.
-If a Catkin workspace has already been built, enabling `ccache` and rebuilding the workspace will not result in any caching, as most of the targets will not need rebuilding.
-To seed the cache, clean out the *build* and *devel* spaces of the workspace (either remove them manually (ie: `rm -rf build devel`) or by using `catkin_tools` (`catkin clean -y`)) and start a new build.
+If setup, `ccache` is used automatically.
 
-Cache statistics can be output using `ccache -s`.
+To view the statistics on hit ratios and other information use the command bellow.
 
-Refer to the [ccache website](https://ccache.dev) for more information on controlling when the cache is used and how to retrieve statistics.
+    ccache --show-stats
+
+*Note:* `ccache` uses the filesystem to cache objects. The default maximum cache size on Debian and Ubuntu is 5 GB for a full cache.
+`ccache` **only uses the space it needs**. If there are no files in the cache, it will not take up any space. A different max size can be configured with the `--max-size` option.
+
+*Note:* `ccache` can only cache compiler output if the compiler actually outputs something. If a Catkin workspace has already been built, enabling ccache and rebuilding the workspace will not result in any caching.
+To seed `ccach`, clean out the *build* and *devel* spaces of the workspace and start a new build. This can be done by either removeing them manually (`rm -rf build devel`) or with `catkin_tools` (`catkin clean -y`).
+
+Refer to the [ccache website](https://ccache.dev) for more information on how `ccache` works, controlling when the cache is used, changing `ccache`'s configuration, and retrieving statistics.
 
 ## Build MoveIt
 
