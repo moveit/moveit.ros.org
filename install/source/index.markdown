@@ -112,13 +112,12 @@ On a Debian or Ubuntu system, installing `ccache` is simple:
     sudo apt-get install ccache
 
 For other OS, consult the package manager or software store and search for `ccache`.
-Refer to the [ccache website](https://ccache.dev) for more information on downloading and installation.
 
 ### Setup
 
-To use `ccache` it must be explicitly configured for use as just installing the `ccache` package is not enough.
-To automatically use `ccache` with all GCC compilations add the `/usr/lib/ccache` directory to your `PATH` before the regular GCC compiler (For systems other than Debian or Ubuntu this may vary).
-It is easy to enable `ccach` on startup in `bash`. For other shells or systems substitute the appropriate commands.
+To use `ccache` it must be explicitly configured as just installing the `ccache` package is not enough. To automatically use `ccache` with all GCC compilations add the `/usr/lib/ccache`
+directory to your `PATH` before the regular GCC compiler. When setup this way, `ccache` is used
+automatically. For shells other than bash and systems other than Debian or Ubuntu you may need to substitute different commands.
 
     echo 'export PATH=/usr/lib/ccache:$PATH' >> $HOME/.bashrc
     source $HOME/.bashrc
@@ -127,17 +126,17 @@ To use caching just for specific projects, set the CC and CXX environment variab
 
 ### Using ccache
 
-If setup, `ccache` is used automatically.
+`ccache` uses the filesystem to cache objects. The default maximum cache size on Debian and Ubuntu is 5 GB, but the full space is not necessarily used.
+`ccache` **only uses the space it needs**, so if there are no files in the cache, it will not take up any space. Changing the max cache size is easy.
 
-To view the statistics on hit ratios and other information use the command bellow.
+    ccache --max-size=SIZE
+
+The following can be used to see statistics like hit ratio and the current cashe size.
 
     ccache --show-stats
 
-*Note:* `ccache` uses the filesystem to cache objects. The default maximum cache size on Debian and Ubuntu is 5 GB for a full cache.
-`ccache` **only uses the space it needs**. If there are no files in the cache, it will not take up any space. A different max size can be configured with the `--max-size` option.
-
-*Note:* `ccache` can only cache compiler output if the compiler actually outputs something. If a Catkin workspace has already been built, enabling ccache and rebuilding the workspace will not result in any caching.
-To seed `ccach`, clean out the *build* and *devel* spaces of the workspace and start a new build. This can be done by either removeing them manually (`rm -rf build devel`) or with `catkin_tools` (`catkin clean -y`).
+**Note:** `ccache` can only cache compiler output if the compiler actually outputs something. If a Catkin workspace has already been built, enabling ccache and rebuilding the workspace will not result in any caching.
+To seed `ccache`, clean out the *build* and *devel* spaces of the workspace and start a new build. This can be done by either removeing them manually (`rm -rf build devel`) or with `catkin_tools` (`catkin clean -y`).
 
 Refer to the [ccache website](https://ccache.dev) for more information on how `ccache` works, controlling when the cache is used, changing `ccache`'s configuration, and retrieving statistics.
 
