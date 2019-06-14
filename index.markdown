@@ -31,9 +31,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="https://moveit.ros.org/moveit!/ros/2019/03/01/announcing-the-moveit-2-port.html">
+                                <a href="/moveit!/ros/2019/05/31/moveit2-alpha-release.html">
                                     <span class="blue">Announcement</span>
-                                    <span>MoveIt 2.0 development has begun!</span>
+                                    <span>MoveIt 2 Alpha for ROS 2 released!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
