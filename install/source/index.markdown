@@ -100,10 +100,9 @@ Note, every command to ``catkin config --blacklist`` will override the previous 
 
 ## Optional: Install a Compiler Cache
 
-Building *all* or even just *some* of MoveIt from source can take a long time. A compiler cache can reduce the time by preventing unchanged files from being recompiled.
-Moveit can greatly benefit from a compiler cache as it is mostly C++, and is often recompiled.
-[ccache](https://ccache.dev), is one such compiler cache for GCC and other sufficiently similar compilers.
-Using `ccache` can reduce the time needed to rebuild MoveIt and other primeraly C++ packages.
+Building *all* or even just *some* of MoveIt from source can take up to an hour.
+A compiler cache can reduce this time to a few minutes by preventing unchanged files from being recompiled.
+The most prominent compiler cache is [ccache](https://ccache.dev) suitable for `gcc` and other similar compilers.
 
 ### Installation
 
@@ -112,31 +111,29 @@ On a Debian or Ubuntu system, installing `ccache` is simple:
     sudo apt-get install ccache
 
 For other OS, consult the package manager or software store and search for `ccache`.
+Refer to the [ccache website](https://ccache.dev) for more information on downloading and installation.
 
 ### Setup
 
-To use `ccache` it must be explicitly configured as just installing the `ccache` package is not enough. To automatically use `ccache` with all GCC compilations add the `/usr/lib/ccache`
-directory to your `PATH` before the regular GCC compiler. When setup this way, `ccache` is used
-automatically. For shells other than bash and systems other than Debian or Ubuntu you may need to substitute different commands.
+To use `ccache` it must be explicitly configured - just installing the package is not enough.
+To automatically use `ccache` with all supported compilers prepend the `/usr/lib/ccache` directory to your `PATH` (for systems other than Debian or Ubuntu this directory may vary).
+It is easy to enable `ccache` on startup in `bash`. For other shells or systems adapt the commands appropriately.
 
     echo 'export PATH=/usr/lib/ccache:$PATH' >> $HOME/.bashrc
     source $HOME/.bashrc
 
-To use caching just for specific projects, set the CC and CXX environment variables before invoking `make`, `cmake`, `catkin_make` or `catkin build`.
+To use caching for specific projects only, set the `CC` and `CXX` environment variables to a compiler proxy listed in `/usr/lib/ccache` before invoking `make`, `cmake`, `catkin_make` or `catkin build`.
 
 ### Using ccache
 
-`ccache` uses the filesystem to cache objects. The default maximum cache size on Debian and Ubuntu is 5 GB, but the full space is not necessarily used.
-`ccache` **only uses the space it needs**, so if there are no files in the cache, it will not take up any space. Changing the max cache size is easy.
+If setup, `ccache` is used automatically.
 
-    ccache --max-size=SIZE
-
-The following can be used to see statistics like hit ratio and the current cashe size.
+To view the statistics on hit ratios and cache usage use the command below.
 
     ccache --show-stats
 
-**Note:** `ccache` can only cache compiler output if the compiler actually outputs something. If a Catkin workspace has already been built, enabling ccache and rebuilding the workspace will not result in any caching.
-To seed `ccache`, clean out the *build* and *devel* spaces of the workspace and start a new build. This can be done by either removeing them manually (`rm -rf build devel`) or with `catkin_tools` (`catkin clean -y`).
+**Note:** `ccache` can only cache compiler output if the compiler is actually triggered. If a `catkin` workspace has already been built, enabling `ccache` and rebuilding the workspace will not result in any caching.
+To seed `ccache`, clean out the *build* and *devel* spaces of the workspace and start from scratch. This can be done by either removing them manually (`rm -rf build devel`) or with `catkin_tools` (`catkin clean -y`).
 
 Refer to the [ccache website](https://ccache.dev) for more information on how `ccache` works, controlling when the cache is used, changing `ccache`'s configuration, and retrieving statistics.
 
