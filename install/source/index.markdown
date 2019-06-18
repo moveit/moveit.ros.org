@@ -135,8 +135,6 @@ To view the statistics on hit ratios and cache usage use the command below.
 **Note:** `ccache` can only cache compiler output if the compiler is actually triggered. If a `catkin` workspace has already been built, enabling `ccache` and rebuilding the workspace will not result in any caching.
 To seed `ccache`, clean out the *build* and *devel* spaces of the workspace and start from scratch. This can be done by either removing them manually (`rm -rf build devel`) or with `catkin_tools` (`catkin clean -y`).
 
-Refer to the [ccache website](https://ccache.dev) for more information on how `ccache` works, controlling when the cache is used, changing `ccache`'s configuration, and retrieving statistics.
-
 ## Build MoveIt
 
     catkin build
