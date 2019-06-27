@@ -13,6 +13,7 @@ The following is an overview of how MoveIt works. For more concrete documentatio
 
 ## System Architecture
 
+### Quick High Level Diagram
 <img src='/assets/images/diagrams/moveit_pipeline.png' style="width: 80%;"/>
 
 ### The move_group node
