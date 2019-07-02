@@ -376,7 +376,7 @@ title: Robots
 				</div>
 				<div class="robots-content">
 					<h2>HOLLIE</h2>
-					<h3>Youbot</h3>
+					<h3>FZI Research Center for Information Technology</h3>
 					<a href="http://www.fzi.de/forschung/projekt-details/hollie" target="_blank">View package</a>
 				</div>
 			</div>
