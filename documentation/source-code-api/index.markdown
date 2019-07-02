@@ -57,6 +57,8 @@ In addition, the following repos exist for testing:
 - [moveit_ci](https://github.com/ros-planning/moveit_ci) - script to run with Travis for continuous integration
 - [moveit_kinematics_tests](https://github.com/ros-planning/moveit_kinematics_tests) - experimental repo with tests
 
+<img src='/assets/images/diagrams/moveit_api.png' style="width: 80%;"/>
+
 # Code Health
 
 We use [Travis](https://travis-ci.org/ros-planning/) continous integration combined with the [moveit_ci](https://github.com/ros-planning/moveit_ci) for testing pull requests and overall code health. Travis status badges should be visible on the README.md of every MoveIt repository.

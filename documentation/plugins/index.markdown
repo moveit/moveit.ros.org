@@ -27,6 +27,7 @@ Deprecated:
 
 * [planning_interface::Planner](#planner)
 
+<img src='/assets/images/diagrams/moveit_plugins.png' style="width: 70%;"/>
 
 ***
 
