@@ -42,4 +42,4 @@ Post issues and share improvements for the web documentation to the appropriate 
 
 [PickNik Consulting](http://picknik.ai/) was founded with the mission of growing the MoveIt project through community building and sponsored development.
 We offer [ongoing MoveIt support](https://picknik.ai/support/) plans as well as custom code development.
-If you are with a company or organization that may be interested, contact us for a free consultation.
+If you are with a company or organization that may be interested, contact us for a free consultation call.
