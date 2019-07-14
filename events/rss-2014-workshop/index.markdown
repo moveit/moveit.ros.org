@@ -7,7 +7,7 @@ slug: rss-2014-workshop
 title: RSS 2014 Workshop
 ---
 
-[![](/assets/images/robots_old/photo-1024x382.jpg)](/assets/images/robots_old/photo.jpg)[no_toc]
+[![](/assets/images/blog_posts/rss2014_photo-small.jpg)](/assets/images/blog_posts/rss2014_photo.jpg)[no_toc]
 
 
 ## Next-Generation Robotics: Academia, Start-ups and Industry
