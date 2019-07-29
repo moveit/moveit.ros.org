@@ -37,7 +37,7 @@ redirect_from: '/moveit/'
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
-                            <p class="main-text">Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation</p>
+                            <p class="main-text">Easy-to-use robotics manipulation platform for developing applications, evaluating designs, and building integrated products</p>
                             <div class="button-group">
                                 <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
                                 <a class="button button-yellow modal-link" href="https://www.youtube.com/watch?v=0og1SaZYtRc" target="_blank">Watch our montage</a>
@@ -153,34 +153,34 @@ redirect_from: '/moveit/'
                 </div>
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Setup Assistant" src="/assets/images/screens/Setup Assistant.png">
-                    </div>
-                    <div class="col-xs-12 col-lg-4 col-md-6">
-                        <div class="text-block text-block--right">
-                            <h1>MoveIt Setup Assistant</h1>
-                            <p>Quickly setup any robot to work with MoveIt with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-lg-4 col-md-6">
-                        <div class="text-block text-block--left">
-                            <h1>Python Scripting and Interpreter</h1>
-                            <p>Use high level Python scripts to orchestrate complex motion planning, leveraging high-performance C++ libraries in the background. Or use the C++ interfaces directly.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Python Scripting" src="/assets/images/screens/python2.png">
-                    </div>
-                </div>
-                <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-md-6 col-lg-7">
                         <img style="max-width:100%" alt="Gazebo Simulation" src="/assets/images/screens/r2.png">
                     </div>
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
                             <h1>Gazebo Simulation</h1>
                             <p>Speed up development and testing cycles by leveraging a full physics-based simulator with MoveIt. Combine Gazebo, ROS Control, and MoveIt for a powerful robotics development platform.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between block-with-image">
+                    <div class="col-xs-12 col-lg-4 col-md-6">
+                        <div class="text-block text-block--right">
+                            <h1>MoveIt Setup Assistant</h1>
+                            <p>Quickly setup any robot to work with MoveIt with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control!</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-7">
+                        <img style="max-width:100%" alt="Setup Assistant" src="/assets/images/screens/Setup Assistant.png">
+                    </div>
+                </div>
+                <div class="row justify-content-between block-with-image">
+                    <div class="col-xs-12 col-md-6 col-lg-7">
+                        <img style="max-width:100%" alt="Python Scripting" src="/assets/images/screens/python2.png">
+                    </div>
+                    <div class="col-xs-12 col-lg-4 col-md-6">
+                        <div class="text-block text-block--left">
+                            <h1>Python Scripting and Interpreter</h1>
+                            <p>Use high level Python scripts to orchestrate complex motion planning, leveraging high-performance C++ libraries in the background. Or use the C++ interfaces directly.</p>
                         </div>
                     </div>
                 </div>
@@ -191,10 +191,10 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-4 col-sm-12">
                         <h1>Why MoveIt?</h1>
                         <p>
-                            MoveIt is state of the art software for mobile manipulation, incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation. It provides an easy-to-use platform for developing advanced robotics applications, evaluating new robot designs and building integrated robotics products for industrial, commercial, R&D and other domains.
+                            MoveIt is the most widely used software for manipulation and has been used on over <a href="https://moveit.ros.org/robots/">100 robots</a>. It provides an easy-to-use robotics platform for developing advanced applications, evaluating new designs and building integrated products for industrial, commercial, R&D, and other domains.
                         </p>
                         <p>
-                            MoveIt is the most widely used open-source software for manipulation and has been used on over 100 robots. See the Robots page for a list of some of the robots that MoveIt is being used with.
+                            By incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation, MoveIt is state of the art software for mobile manipulation.
                         </p>
                     </div>
                 </div>
