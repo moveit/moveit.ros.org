@@ -29,9 +29,12 @@ We ask that you not:
 
 The logo files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
 
-Note for any **print media** it is necessary to use the provided .AI file and print in the provided CYMK values
-
 ## Download
+
+Note for any print media it is necessary to use the provided .AI file and print in the provided CYMK values.
+
+- Digital Color 0A58F7
+- Print Color (CMYK) C96 M64 Y0 K3
 
 ### MoveIt
 
