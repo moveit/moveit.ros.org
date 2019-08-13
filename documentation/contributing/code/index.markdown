@@ -26,6 +26,7 @@ In addition MoveIt has some extra style preferences:
  - Deprecate functions using MOVEIT_DEPRECATED in [deprecation.h](https://github.com/ros-planning/moveit/blob/master/moveit_core/macros/include/moveit/macros/deprecation.h)
  - Catch known exceptions and log them in detail. Avoid using ``catch (...)`` as it hides every information of a possible fault. We want to know if something goes wrong.
  - We don't catch exceptions that don't derive from ``std::exception`` in MoveIt. It is the responsibility of the plugin provider to handle non-``std::exception``-derived exceptions locally.
+ - Use "pragma once" in headers instead of include guards.
 
 ## ROS
 
