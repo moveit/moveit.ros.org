@@ -33,7 +33,7 @@ redirect_from: '/moveit/'
                             <div class="main-tag">
                                 <a href="/moveit/ros/2019/07/31/world-moveit-day-2019.html">
                                     <span class="blue">Announcement</span>
-                                    <span>World MoveIt Day 2019 is november 20th!</span>
+                                    <span>World MoveIt Day 2019 is November 20th!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
