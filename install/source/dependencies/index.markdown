@@ -86,13 +86,18 @@ FCL is MoveIt's default collision checker, their official install instructions c
 
     sudo apt-get -qq install libccd-dev
 
-Clone the repo into your catkin workspace and choose the version used by your current ROS version:
+Clone the repo into your catkin workspace:
 
     git clone https://github.com/flexible-collision-library/fcl
     cd fcl
+
+Pick the correct version depending on the version of MoveIt you use:
+
     git checkout fcl-0.5   # for kinetic
+    git checkout master    # for melodic+
 
 Next manually add a package.xml as used in the ROS release wrapper:
+
 
     wget https://raw.githubusercontent.com/ros-gbp/fcl-release/debian/jade/fcl/package.xml
 
