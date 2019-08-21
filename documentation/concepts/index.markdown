@@ -9,7 +9,7 @@ title: Concepts
 
 # Concepts
 
-The following is an overview of how MoveIt works. For more concrete documentation and details see the [tutorials](https://ros-planning.github.io/moveit_tutorials/)
+The following is an overview of how MoveIt works. For more concrete documentation and details see the [tutorials](https://ros-planning.github.io/moveit_tutorials/) or the [developers' concepts](/documentation/concepts/developer_concepts/).
 
 ## System Architecture
 
