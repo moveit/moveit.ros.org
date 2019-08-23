@@ -248,7 +248,7 @@ redirect_from: '/moveit/'
                     </div>
                 </div>
                 <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
-                    <h3>MoveIt 2.0 Dashing</h3>
+                    <h3>MoveIt 2.1 Eloquent</h3>
                     <div class="time-line">
                         <div class="time-line--orange" id="time-line--orange-2"></div>
                         <div class="time-line--blue" id="time-line--blue-2"></div>
@@ -256,31 +256,31 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="time-line-content">
                         <div class="time-line--info">
-                            <p>February 2019</p>
+                            <p>June 2019</p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--blue"></span>
                             <p>
                                 Initial Development
-                                <small>1 February 2019</small>
+                                <small>1 June 2019</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
                                 API Freeze
-                                <small>1 May 2019</small>
+                                <small>1 December 2019</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--red"></span>
                             <p>
-                                Official 2.0 Release
-                                <small>1 June 2019</small>
+                                Official Release
+                                <small>1 January 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
-                            <p>June 2019</p>
+                            <p>January 2020</p>
                         </div>
                     </div>
                 </div>
@@ -288,7 +288,7 @@ redirect_from: '/moveit/'
             <div class='row'>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>E-Turtle 2.0 Beta </h3>
+                        <h3>Eloquent 2.1 Beta </h3>
                         <span class="label label--blue">Seeking Funding</span>
                     </div>
                     <div class="version-date">
@@ -296,6 +296,7 @@ redirect_from: '/moveit/'
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
                         <p><span>Initial release:</span> 1 December 2019</p>
                         <p><span>End of life:</span> TBD</p>
+                        <p><span>Branch:</span> N/A</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
@@ -306,17 +307,18 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>Dashing 2.0 Alpha</h3>
-                        <span class="label label--blue">In Development</span>
+                        <span class="label label--orange">Released</span>
                     </div>
                     <div class="version-date">
                         <p><span>Version:</span> 2.0 Alpha</p>
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
                         <p><span>Initial release:</span> 1 June 2019</p>
                         <p><span>End of life:</span> N/A</p>
+                        <p><span>Branch:</span> moveit2:master</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This early preview of MoveIt 2.0 will only be available as a source build and has not been fully tested or verified.</p>
+                        <p>This early preview of MoveIt 2.0 <a href="https://moveit.ros.org/moveit!/ros/2019/05/31/moveit2-alpha-release.html">was released</a> as a source build by Acutronic and has not been fully tested or verified.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
@@ -329,6 +331,7 @@ redirect_from: '/moveit/'
                         <p><span>Platforms:</span> Ubuntu 16.04, 18.04</p>
                         <p><span>Initial release:</span> 1 March 2020</p>
                         <p><span>End of life:</span> TBD</p>
+                        <p><span>Branch:</span> master</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
@@ -345,6 +348,7 @@ redirect_from: '/moveit/'
                         <p><span>Platforms:</span> Ubuntu 16.04, 17.10, 18.04</p>
                         <p><span>Initial release:</span> 23 May 2018</p>
                         <p><span>End of life:</span> May 2023</p>
+                        <p><span>Branch:</span> melodic-devel</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
@@ -361,6 +365,7 @@ redirect_from: '/moveit/'
                         <p><span>Platforms:</span> Ubuntu 15.10, 16.04</p>
                         <p><span>Initial release:</span> 23 May 2016</p>
                         <p><span>End of life:</span> April 2021</p>
+                        <p><span>Branch:</span> kinetic-devel</p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
