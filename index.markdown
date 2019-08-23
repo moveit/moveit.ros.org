@@ -318,7 +318,7 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This early preview of MoveIt 2.0 <a href="https://moveit.ros.org/moveit!/ros/2019/05/31/moveit2-alpha-release.html">was released</a> as a source build by Autronic and has not been fully tested or verified.</p>
+                        <p>This early preview of MoveIt 2.0 <a href="https://moveit.ros.org/moveit!/ros/2019/05/31/moveit2-alpha-release.html">was released</a> as a source build by Acutronic and has not been fully tested or verified.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
