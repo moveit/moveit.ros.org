@@ -49,4 +49,4 @@ robotics experts. Besides coding this summer, he can be found  practicing Aikido
 
 **Useful Links**
 * [Main Github issue](https://github.com/ros-planning/moveit/issues/1427)
-* [MoveIt fork](https://github.com/j-petit/moveit/tree/integrating_bullet)
+* [MoveIt fork](https://github.com/j-petit/moveit)
