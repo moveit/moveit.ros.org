@@ -69,15 +69,6 @@ Next manually add a package.xml as used in the ROS release wrapper for OMPL (mod
 
     wget https://raw.githubusercontent.com/ros-gbp/ompl-release/debian/kinetic/xenial/ompl/package.xml
 
-Lastly, because of overlay issues you have to change the order of include variables in **MoveIt's** build system.
-Sadly, this cannot be changed in the upstream project, because it would break the default use case.
-To understand this limitation see this [Github issue](https://github.com/ros-planning/moveit/issues/169#issuecomment-242849008):
-
-    Edit moveit/moveit_planners/ompl/CMakeLists.txt
-    Locate the include_directories directive and exchange the two variables ${OMPL_INCLUDE_DIRS} and ${catkin_INCLUDE_DIRS},
-    so that ${OMPL_INCLUDE_DIRS} is added before ${catkin_INCLUDE_DIRS}.
-
-
 Now you should be able to build using regular ``catkin build``
 
 ## Flexible Collision Library (FCL)
