@@ -42,7 +42,7 @@ Please state your intent to join or host the international event on [this form](
 - [Embedded Group of UIET, Panjab University](http://uiet.puchd.ac.in/), Chandigarh, India
 - [Cluster Innovation Centre, Delhi University](https://ducic.ac.in/), New Delhi, India
 - [Southwest Research Institute](https://www.swri.org/) / [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, USA
-- [OMRON SINIC X](https://www.omron.com/sinicx/) / Tokyo, Japan
+- [OMRON SINIC X](https://www.omron.com/sinicx/), Tokyo, Japan
 - [Vicarious](https://www.vicarious.com/) / Berkeley, CA, USA
 - [PickNik Consulting](https://picknik.ai/), Boulder, USA
 - [ROS-Industrial Asian Pacific Consortium](https://rosindustrial.org/ric-apac/), Singapore
