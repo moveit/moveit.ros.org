@@ -34,18 +34,18 @@ collaboration. Maintainers will take part in some of these locations.
 
 Please state your intent to join or host the international event on [this form](https://docs.google.com/forms/d/e/1FAIpQLSdVJo5Kic_VxnI67YiTdktO3VRWQc5wMnsFDO1tCwWa_t61cw/viewform).
 
-### Event Locations Last Year
+### Event Locations
 
-Locations for 2019 are still to be announced, but last year's events included:
+2019 locations that have been confirmed so far:
 
-- [Iron Ox](http://ironox.com/), San Francisco, USA
-- [PickNik Consulting](https://picknik.ai/), Boulder, USA
-- [Fraunhofer IPA](https://www.ipa.fraunhofer.de/en.html) / [RIC-EU](https://rosindustrial.org/ric-eu/), Stuttgart, Germany
-- [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
-- [Tokyo Opensource Robotics Kyokai Association (TORK)](http://opensource-robotics.tokyo.jp/) and [OMRON SINIC X Corporation](https://www.omron.com/sinicx/), Kashiwa, Japan
-- [Southwest Research Institute](https://www.swri.org/) /  [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, USA
+- [Universität Hamburg](https://www.uni-hamburg.de/en.html) / Group TAMS, Hamburg, Germany
+- [Embedded Group of UIET, Panjab University](http://uiet.puchd.ac.in/), Chandigarh, India
 - [Cluster Innovation Centre, Delhi University](https://ducic.ac.in/), New Delhi, India
-- [Shadow Robot Company](https://www.shadowrobot.com/), London, UK
+- [Southwest Research Institute](https://www.swri.org/) / [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, USA
+- [OMRON SINIC X](https://www.omron.com/sinicx/), Tokyo, Japan
+- [Vicarious](https://www.vicarious.com/), Berkeley, CA, USA
+- [PickNik Consulting](https://picknik.ai/), Boulder, USA
+- [ROS-Industrial Asian Pacific Consortium](https://rosindustrial.org/ric-apac/), Singapore
 
 If you aren’t near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events.
 We would also like to mail your team or event some MoveIt stickers to schwag out your robots with. State your intent to join or host on
