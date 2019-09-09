@@ -169,7 +169,7 @@ The depth image occupancy map updater includes its own _self-filter_, i.e. it wi
 
 ### **The Kinematics Plugin**
 
-MoveIt uses a plugin infrastructure, especially targeted towards allowing users to write their own inverse kinematics algorithms. Forward kinematics and finding jacobians is integrated within the RobotState class itself. The default inverse kinematics plugin for MoveIt is configured using the [KDL](http://www.orocos.org/kdl) numerical jacobian-based solver. This plugin is automatically configured by the MoveIt Setup Assistant.
+MoveIt uses a plugin infrastructure, especially targeted towards allowing users to write their own inverse kinematics algorithms. Forward kinematics and finding jacobians is integrated within the RobotState class itself. The default inverse kinematics plugin for MoveIt is configured using the [KDL](https://github.com/orocos/orocos_kinematics_dynamics) numerical jacobian-based solver. This plugin is automatically configured by the MoveIt Setup Assistant.
 
 ### **IKFast Plugin**
 
