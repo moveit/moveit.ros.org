@@ -39,7 +39,6 @@ World MoveIt Day is an international hackathon to improve the MoveIt code base, 
   - Organizer: Ryosuke Tajima
 - [Southwest Research Institute](https://www.swri.org/)/[ ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, USA
   - Organizer: Matt Robinson
-  - [Event Details](https://www.evite.com/event/030AUF672VIUQMVHQEPI2KHJ4AIZNA/activity)
 - [Cluster Innovation Centre](https://ducic.ac.in/), New Delhi, India
   - Organizer: Ridhwan Luthra
   - [Event Details](https://www.meetup.com/rosindia/events/254064159/)
