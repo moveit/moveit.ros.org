@@ -39,3 +39,7 @@ The following flowchart shows the collision checking process.
 
 For a more detailed view of how the manager handles the collision checking process internally, see the flowchart below.
 <img src='/assets/images/diagrams/bullet_collision_detail.png' style="width: 100%;"/>
+
+## TrajOpt Planner
+TrajOpt is an optimization-based motion planner. The following diagram shows how it works in MoveIt.
+<img src='/assets/images/diagrams/trajopt.png' style="width: 100%;"/>
