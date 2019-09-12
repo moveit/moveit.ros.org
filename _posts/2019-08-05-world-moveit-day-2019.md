@@ -39,13 +39,16 @@ Please state your intent to join or host the international event on [this form](
 2019 locations that have been confirmed so far:
 
 - [Universität Hamburg](https://www.uni-hamburg.de/en.html) / Group TAMS, Hamburg, Germany
+- [OMRON SINIC X](https://www.omron.com/sinicx/), Tokyo, Japan
 - [Embedded Group of UIET, Panjab University](http://uiet.puchd.ac.in/), Chandigarh, India
 - [Cluster Innovation Centre, Delhi University](https://ducic.ac.in/), New Delhi, India
-- [Southwest Research Institute](https://www.swri.org/) / [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, USA
-- [OMRON SINIC X](https://www.omron.com/sinicx/), Tokyo, Japan
-- [Vicarious](https://www.vicarious.com/), Berkeley, CA, USA
+- [Advanced Remanufacturing and Technology Centre (ARTC)](https://www.a-star.edu.sg/artc) / [ROS-Industrial Asian Pacific](https://rosindustrial.org/ric-apac/), Singapore
+- [Southwest Research Institute](https://www.swri.org/) / [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, US
 - [PickNik Consulting](https://picknik.ai/), Boulder, USA
-- [ROS-Industrial Asian Pacific Consortium](https://rosindustrial.org/ric-apac/), Singapore
+- [Vicarious](https://www.vicarious.com/), Berkeley, CA, USA
+- [Fetch / ROS by the Bay](https://fetchrobotics.com/), San Jose, CA, USA
+
+
 
 If you aren’t near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events.
 We would also like to mail your team or event some MoveIt stickers to schwag out your robots with. State your intent to join or host on
