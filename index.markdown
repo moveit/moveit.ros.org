@@ -175,6 +175,28 @@ redirect_from: '/moveit/'
                 </div>
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-md-6 col-lg-7">
+                        <img style="max-width:100%" alt="MoveIt Task Constructor" src="/assets/images/screens/moveit_task_constructor.png">
+                    </div>
+                    <div class="col-xs-12 col-lg-4 col-md-6">
+                        <div class="text-block text-block--right">
+                            <h1>MoveIt Task Constructor</h1>
+                            <p>A flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between block-with-image">
+                    <div class="col-xs-12 col-lg-4 col-md-6">
+                        <div class="text-block text-block--right">
+                            <h1>MoveIt Grasps</h1>
+                            <p>A basic grasp generator for objects such as blocks or cylinders for use with the MoveIt pick and place pipeline!</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-7">
+                        <img style="max-width:100%" alt="MoveIt Grasps" src="/assets/images/screens/moveit_graps.png">
+                    </div>
+                </div>
+                <div class="row justify-content-between block-with-image">
+                    <div class="col-xs-12 col-md-6 col-lg-7">
                         <img style="max-width:100%" alt="Python Scripting" src="/assets/images/screens/python2.png">
                     </div>
                     <div class="col-xs-12 col-lg-4 col-md-6">
