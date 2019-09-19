@@ -115,3 +115,19 @@
     }
   }
 }
+
+.companies-using-moveit-logos {
+  opacity: 1.0;
+  vertical-align: middle;
+  transition: filter 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+  width: 180px;
+  margin: 32px 40px 0;
+}
