@@ -26,7 +26,7 @@ The first annual MoveIt Workshop 2019 Macau will be on Saturday, November 2, 201
 * Industrial trajectory generation with pilz_industrial_motion	
 * ROS-Industrial Manipulation Efforts
 
-People attending ROSCon and/or IROS Macau will want to attend this one-day event which is being held at the Sheraton Grand Macao Hotel on Saturday, November 2, 2019, from 8:30am - 5:00pm. The MoveIt Workshop 2019 is geared towards experienced and advanced users of MoveIt, but novices are welcome to attend.
+People attending ROSCon and/or IROS Macau will want to attend this one-day event which is being held at the Sheraton Grand Macao Hotel on Saturday, November 2, 2019, from 8:30am - 5:00pm. The MoveIt Workshop 2019 is geared towards experienced and advanced users of MoveIt, but novices are welcome to attend as well.
 
 [SIGN UP HERE](https://docs.google.com/forms/d/e/1FAIpQLSfcTizP3zP8n2Yetnfq0Arwp_waTX1rq-dFpfvxcX1uP4M80w/viewform)
 
