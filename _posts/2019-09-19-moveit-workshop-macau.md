@@ -16,7 +16,7 @@ The first annual MoveIt Workshop 2019 Macau will be on Saturday, November 2, 201
 
 * MoveIt 2 Progress and Direction	
 * Intel's Work on MoveIt and ROS2 Grasping
-* New Inverse Kinematics Plugin API for Constraint-Based Solvers and Velocity IK	
+* Discussing a new Inverse Kinematics plugin API to support constraint-based solvers and velocity IK
 * Latest features and research in OMPL and how it relates to MoveIt	
 * Discussions on what is hard for newcomers?	
 * MoveIt 2 Capabilities Roadmapping	
