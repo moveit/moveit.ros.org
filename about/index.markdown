@@ -53,6 +53,10 @@ Víctor Mayoral      | Acutronic Robotics | [vmayoral](https://github.com/vmayor
 Anas Mchichou       | Acutronic Robotics | [anasarrak](https://github.com/anasarrak)
 Levi Armstrong      | SwRI / ROS-I | [Levi-Armstrong](https://github.com/Levi-Armstrong)
 
+### Other Contributors
+
+For a full list of users who have submitted pull requests to MoveIt, see the [Github Insights](https://github.com/ros-planning/moveit/graphs/contributors)
+
 ## Sponsors
 
 <a href="http://picknik.ai"><img src="{{ site.url }}/assets/images/sponsors/picknik.png" height="60" style="margin-top:20px"/></a>
