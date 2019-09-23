@@ -192,7 +192,7 @@ redirect_from: '/moveit/'
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="MoveIt Grasps" src="/assets/images/screens/moveit_graps.png">
+                        <img style="max-width:100%" alt="MoveIt Grasps" src="/assets/images/screens/moveit_grasps.png">
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
