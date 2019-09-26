@@ -11,7 +11,7 @@ title: About
 
 MoveIt is an open source project that is the result of the combined efforts of a large international community and multiple organizations. Many people have played a key role in making MoveIt what it is today and they are awknowledged below - thank you!
 
-The primary governance of MoveIt takes place during monthly meetings of the maintainers and core contributors through majority vote. Organizational leadership and administration is lead by [PickNik Consulting](https://picknik.ai/).
+The primary governance of MoveIt takes place during monthly meetings of the maintainers and core contributors through majority vote. Organizational leadership and administration is lead by [PickNik Robotics](https://picknik.ai/).
 
 ## Maintainers
 
@@ -19,7 +19,7 @@ MoveIt maintainers, commonly referred to as "committers" in other open source pr
 
 Name               | Organization | GitHub ID
 ------------------ |:------------- |-------------|
-Dave Coleman       | PickNik Consulting | [davetcoleman](https://github.com/davetcoleman)
+Dave Coleman       | PickNik Robotics | [davetcoleman](https://github.com/davetcoleman)
 Robert Haschke     | CITEC, Bielefeld University | [rhaschke](https://github.com/rhaschke)
 Michael Görner     | University of Hamburg | [v4hn](https://github.com/v4hn)
 Isaac IY Saito     | Plus One Robotics | [130s](https://github.com/130s)
@@ -27,10 +27,11 @@ Ian McMahon        | Toyota Research Institute | [IanTheEngineer](https://github
 Gijs van der Hoorn | Delft Univ. of Tech / ROS-I | [gavanderhoorn](https://github.com/gavanderhoorn)
 Jorge Nicho        | SwRI / ROS-I | [jrgnicho](https://github.com/jrgnicho)
 Bence Magyar       | Heriot-Watt University | [bmagyar](https://github.com/bmagyar)
-Mike Lautman       | PickNik Consulting | [mlautman](https://github.com/mlautman)
+Mike Lautman       | PickNik Robotics | [mlautman](https://github.com/mlautman)
 Jon Binney         | Iron Ox | [jonbinney](https://github.com/jonbinney)
-Henning Kayser     | PickNik Consulting | [henningkayser](https://github.com/henningkayser)
+Henning Kayser     | PickNik Robotics | [henningkayser](https://github.com/henningkayser)
 Bryce Willey       | Realtime Robotics | [BryceStevenWilley](https://github.com/BryceStevenWilley)
+Mark Moll          | PickNik Robotics | [mamoll](https://github.com/mamoll)
 
 ## Core Contributors
 
@@ -43,7 +44,7 @@ Zak Kingston        | Rice University | [zkingston](https://github.com/zkingston
 Felix von Drigalski | OMRON SINIC X Corporation | [felixvd](https://github.com/felixvd)
 Simon Schmeißer     | isys vision | [simonschmeisser](https://github.com/simonschmeisser)
 William Baker       | Houston Mechatronics | [willcbaker](https://github.com/willcbaker)
-Andy Zelenak        | PickNik Consulting | [AndyZe](https://github.com/AndyZe)
+Andy Zelenak        | PickNik Robotics | [AndyZe](https://github.com/AndyZe)
 Mohmmad El khzragy  | TUM | [MohmadAyman](https://github.com/MohmadAyman)
 Kei Okada           | JSK Lab, Univ of Tokyo | [k-okada](https://github.com/k-okada)
 Martin Günther      | DFKI | [mintar](https://github.com/mintar)
