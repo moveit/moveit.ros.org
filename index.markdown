@@ -146,18 +146,15 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="col-sm-12">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/amazon-logo.png" alt="Amazon logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/nasa-logo.png" alt="Nasa logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/fetch-logo.png" alt="Fetch logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/google-logo.png" alt="Google logo">
-                        <br class="onlyLg">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/pilz-logo.png" alt="Pilz logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/carbon-logo.png" alt="Carbon Robotics logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/franka-logo.png" alt="Franka Emika logo">
                         <br class="onlyLg">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/kinova-logo.png" alt="Kinova logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/pal-logo.png" alt="Pal Robotics logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/plusone-logo.png" alt="Plus One logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/vicarious-logo.png" alt="Vicarious logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/tethers_unlimited.png" alt="Tethers Unlimited logo">
+                        <br class="onlyLg">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/numurus-logo.png" alt="Numurus logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/dusty_robotics.png" alt="Dusty Robotics logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/rtr_Logo.png" alt="RTR logo">
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
