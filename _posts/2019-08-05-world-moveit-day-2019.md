@@ -13,12 +13,12 @@ categories:
 ---
 
 The fourth annual World MoveIt Day will be Wednesday, November 20th, 2019! The event is a day long international hackathon to improve the MoveIt code base,
-increase documentation, and discuss  exciting developments in our community. We hope to close as many pull requests and issues as possible and explore new
+increase documentation, and discuss exciting developments in our community. We hope to close as many pull requests and issues as possible and explore new
 areas of features and improvements building off of our seven years of ongoing work.
 
 ### Date
 
-- Wednsday, November 20th, 2019
+- Wednesday, November 20th, 2019
   - See specific locations for details on times
 
 ### Description
@@ -40,12 +40,14 @@ Please state your intent to join or host the international event on [this form](
 
 - [Universität Hamburg](https://www.uni-hamburg.de/en.html) / Group TAMS, Hamburg, Germany
 - [OMRON SINIC X](https://www.omron.com/sinicx/), Tokyo, Japan
+  - Organizer: Ryodo Tanaka
+  - [Event details](https://rosjp.connpass.com/event/149106/)
 - [Embedded Group of UIET, Panjab University](http://uiet.puchd.ac.in/), Chandigarh, India
 - [Cluster Innovation Centre, Delhi University](https://ducic.ac.in/), New Delhi, India
 - [Advanced Remanufacturing and Technology Centre (ARTC)](https://www.a-star.edu.sg/artc) / [ROS-Industrial Asian Pacific](https://rosindustrial.org/ric-apac/), Singapore
 - [Southwest Research Institute](https://www.swri.org/) / [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, US
 - [PickNik Consulting](https://picknik.ai/), Boulder, USA
-- [Vicarious](https://www.vicarious.com/), Berkeley, CA, USA
+- [Vicarious](https://www.vicarious.com/), Union City, CA, USA
 - [Fetch / ROS by the Bay](https://fetchrobotics.com/), San Jose, CA, USA
 
 
