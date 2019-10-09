@@ -38,17 +38,18 @@ Please state your intent to join or host the international event on [this form](
 
 2019 locations that have been confirmed so far:
 
-- [Universität Hamburg](https://www.uni-hamburg.de/en.html) / Group TAMS, Hamburg, Germany
-- [OMRON SINIC X](https://www.omron.com/sinicx/), Tokyo, Japan ([Sign up here](https://rosjp.connpass.com/event/149106/))
-- [Embedded Group of UIET, Panjab University](http://uiet.puchd.ac.in/), Chandigarh, India
-- [Cluster Innovation Centre, Delhi University](https://ducic.ac.in/), New Delhi, India
-- [Advanced Remanufacturing and Technology Centre (ARTC)](https://www.a-star.edu.sg/artc) / [ROS-Industrial Asian Pacific](https://rosindustrial.org/ric-apac/), Singapore
-- [Southwest Research Institute](https://www.swri.org/) / [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/), San Antonio, US
-- [PickNik Consulting](https://picknik.ai/), Boulder, USA
-- [Vicarious](https://www.vicarious.com/), Berkeley, CA, USA
-- [Fetch / ROS by the Bay](https://fetchrobotics.com/), San Jose, CA, USA
-
-
+- Germany, Hamburg, [Universität Hamburg](https://www.uni-hamburg.de/en.html), Hamburg, Germany
+  - Organizer: Group TAMS
+- Japan, Tokyo, [OMRON SINIC X](https://www.omron.com/sinicx/)
+  - [Event details & sign-up](https://rosjp.connpass.com/event/149106/)
+  - Organizer: Felix von Drigalski
+- India, Chandigarh, [Embedded Group of UIET, Panjab University](http://uiet.puchd.ac.in/)
+- India, New Delhi, [Cluster Innovation Centre, Delhi University](https://ducic.ac.in/), New Delhi, India
+- Singapore, [Advanced Remanufacturing and Technology Centre (ARTC)](https://www.a-star.edu.sg/artc) / [ROS-Industrial Asian Pacific](https://rosindustrial.org/ric-apac/)
+- USA, San Antonio, [Southwest Research Institute](https://www.swri.org/) / [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/)
+- USA, Boulder, [PickNik Consulting](https://picknik.ai/)
+- USA, CA, Union City, [Vicarious](https://www.vicarious.com/)
+- USA, CA, San Jose, [Fetch / ROS by the Bay](https://fetchrobotics.com/)
 
 If you aren’t near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events.
 We would also like to mail your team or event some MoveIt stickers to schwag out your robots with. State your intent to join or host on
@@ -64,19 +65,21 @@ PickNik Robotics // world-moveit-day@picknik.ai
 
 We recommend building the master branch or the Melodic LTS release. The Kinetic branch development has ended but is still under Long Term Support.
 
+You can also use a [Docker container](https://moveit.ros.org/install/docker/) for easy setup.
+
 ### Finding Where You Can Help
 
-Suggested areas for improvement are tracked on the moveit repo via several labels:
+Suggested areas for improvement are tracked on the [MoveIt repository](https://github.com/ros-planning/moveit/issues). Find appropriate issues by looking for these labels:
 
 - [moveit day candidate](https://github.com/ros-planning/moveit/labels/moveit%20day%20candidate) labels issues as possible entry points for participants in the event.
-  This list will grow longer before the event.
-- [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates the issue can
+  Make sure to check this before the event This list will grow longer before the event.
+- [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates issues can
   probably be tackled in a few hours.
 - [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials,
   changes to the website, etc.
 - no label - of course issues that are not marked can still be worked on during World MoveIt day, though they will likely take longer than one day to complete.
 
-If you would like to help the MoveIt project by tackling an issue, claim the issue by commenting:
+If you would like to help the MoveIt project by tackling an issue, make sure to claim the issue by commenting before you start working:
 
     > “I’ll work on this for WMD 2019”.
 
@@ -91,7 +94,7 @@ ideas might provide a good reference for other things to contribute on WMD.
 
 Improving our documentation for new and current users is always a goal of WMD!
 
-If you have studied extensively an aspect of MoveIt that is not currently documented, please convert your notes into a pull request in the appropriate location. If you’ve
+If you have studied an aspect of MoveIt extensively that is not currently documented, please convert your notes into a pull request in the appropriate location. If you’ve
 started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request
 to help others in the future with the same question.
 
