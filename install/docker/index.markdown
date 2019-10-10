@@ -36,7 +36,7 @@ To use Rviz (and other GUIs), you probably want to set up hardware acceleration 
 Then, the wrapper script `gui-docker` can be used to correctly setup the docker environment for graphics support.
 For example, you can run the MoveIt docker container using the following command:
 
-    ./gui-docker -it --rm moveit/moveit:melodic-release /bin/bash
+    ./gui-docker -it --rm moveit/moveit:melodic-source /bin/bash
 
 You can test that the GUI works by running rviz:
 
@@ -44,15 +44,15 @@ You can test that the GUI works by running rviz:
 
 If you specify a container name (via `-c <name>`), you can also continue or re-enter a previously started container:
 
-    ./gui-docker -c my_container -it moveit/moveit:melodic-release /bin/bash
+    ./gui-docker -c my_moveit_container -it moveit/moveit:melodic-source /bin/bash
 
 As the previous command dropped the `--rm` option, the container will be persistent, so changes you make inside the container will remain.
 Running `gui-docker` in multiple terminals will connect them all to the same container.
-For convienency, the script defines sensible defaults. So, just running
+For convienence, the script defines sensible defaults. So, just running
 
     ./gui-docker
 
-will run an interactive bash inside the `melodic-release` container and make it persistent with the name `default_moveit_container`.
+will run an interactive bash inside the `melodic-source` container and make it persistent with the name `default_moveit_container`.
 To stop and remove the container, just issue the following commands:
 
     docker stop default_moveit_container && docker rm default_moveit_container
@@ -83,15 +83,15 @@ You can link a folder on your hard disk to the Docker container, so you can edit
 
     -v ~/moveit_ws:/root/linked_ws_moveit
 
-Use this option when you first create the container (or after deleting it with `docker rm my-moveit-container`), like this:
+Use this option when you first create the container (or after deleting it with `docker rm my_moveit_container`), like this:
 
-    ./gui-docker -c my_container -v ~/moveit_ws:/root/linked_moveit_ws
+    ./gui-docker -c my_moveit_container -v ~/moveit_ws:/root/linked_moveit_ws
 
 After the container is created, the folder will stay linked. So you can simply enter it on subsequent calls like this:
 
-    ./gui-docker -c my_container
+    ./gui-docker -c my_moveit_container
 
-Files created inside the Docker container are usually owned by root. Check and fix permissions, if you run into issues.
+Files created inside the Docker container are usually owned by root. Check and fix permissions, if you run into issues. You can execute `chown . -R 1000:1000` in the container to assign files to the host user, by replacing `1000` with your host user ID (which you can obtain with `id -u` on an Ubuntu host).
 
 ### Convenience
 The Docker container does not contain development and testing tools. You might want to install some in the container:
