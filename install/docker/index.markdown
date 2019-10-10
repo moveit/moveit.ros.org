@@ -11,7 +11,7 @@ title: Docker Install
 
 Docker is an open-source project that automates the deployment of Linux applications inside software containers. See [https://www.docker.com/](https://www.docker.com/).
 
-Docker can help you easily evaluate someone else's code changes without changing your local setup, as well as test on versions of Linux other than your locally installed version. MoveIt has an [official MoveIt Docker build](https://hub.docker.com/r/moveit/moveit/) that lets you quickly run MoveIt in a local container.
+Docker can help you easily evaluate someone else's code changes without changing your local setup, as well as test on versions of Linux other than your locally installed one. MoveIt has an [official MoveIt Docker build](https://hub.docker.com/r/moveit/moveit/) that lets you quickly run MoveIt in a local container.
 
 ## Installing Docker
 
@@ -31,23 +31,35 @@ And you will likely need to log out and back into your user account for the chan
 
 ## Running MoveIt Containers
 
-To use Rviz (and other GUIs), you need to first set up hardware acceleration for Docker as described [here](http://wiki.ros.org/docker/Tutorials/Hardware%20Acceleration#nvidia-docker2) and install nvidia-docker2 according to [these instructions](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0)).
+To use Rviz (and other GUIs), you probably want to set up hardware acceleration for Docker as described [here](http://wiki.ros.org/docker/Tutorials/Hardware%20Acceleration).
 
-Then, use the command below to execute the script in to create and run a persistent container:
+Then, the wrapper script `gui-docker` can be used to correctly setup the docker environment for graphics support.
+For example, you can run the MoveIt docker container using the following command:
 
-    ./gui-docker
+    ./gui-docker -it --rm moveit/moveit:melodic-release /bin/bash
 
 You can test that the GUI works by running rviz:
 
     roscore > /dev/null & rosrun rviz rviz
 
-The container is persistent, so changes you make inside your container will remain. Running `gui-docker` in multiple terminals will connect them to the same container. To reset the container, simply delete it using the commands below. It will be recreated next time you run `gui-docker`:
+If you specify a container name (via `-c <name>`), you can also continue or re-enter a previously started container:
+
+    ./gui-docker -c my_container -it moveit/moveit:melodic-release /bin/bash
+
+As the previous command dropped the `--rm` option, the container will be persistent, so changes you make inside the container will remain.
+Running `gui-docker` in multiple terminals will connect them all to the same container.
+For convienency, the script defines sensible defaults. So, just running
+
+    ./gui-docker
+
+will run an interactive bash inside the `melodic-release` container and make it persistent with the name `default_moveit_container`.
+To stop and remove the container, just issue the following commands:
 
     docker stop default_moveit_container && docker rm default_moveit_container
 
 If you want to use the command line only (without GUI interfaces like Rviz) in a non-persistent container, simply run this command:
 
-    docker run -it moveit/moveit:master-source bash
+    docker run -it --rm moveit/moveit:master-source bash
 
 ## MoveIt Container Types
 
@@ -73,22 +85,22 @@ You can link a folder on your hard disk to the Docker container, so you can edit
 
 Use this option when you first create the container (or after deleting it with `docker rm my-moveit-container`), like this:
 
-    ./gui-docker -c my-moveit-container -v ~/moveit_ws:/root/linked_moveit_ws
+    ./gui-docker -c my_container -v ~/moveit_ws:/root/linked_moveit_ws
 
-After the container is created it will stay linked, so you can simply enter it on subsequent calls:
+After the container is created, the folder will stay linked. So you can simply enter it on subsequent calls like this:
 
-    ./gui-docker -c my-moveit-container
+    ./gui-docker -c my_container
 
-Files created inside the Docker container are owned by root. Use `chown . -R 1000:1000` inside the container to assign files to the host user if you run into access issues.
+Files created inside the Docker container are usually owned by root. Check and fix permissions, if you run into issues.
 
-### Convenience 
-The Docker container does not contain development and testing tools. You can install some in the container:
+### Convenience
+The Docker container does not contain development and testing tools. You might want to install some in the container:
 
     apt-get install less ssh bash-completion tree nano
 
 ### Modify and build images locally
 
-MoveIt's docker containers are built automatically on dockerhub.com, but you can modify and build locally if desired with the following command:
+MoveIt's docker containers are built automatically on dockerhub.com, but you can modify the `Dockerfile` and build locally if desired with the following command:
 
     cd moveit/.docker/source
     docker build -t moveit/moveit:master-source .
