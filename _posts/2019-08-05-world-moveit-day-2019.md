@@ -44,12 +44,23 @@ Please state your intent to join or host the international event on [this form](
   - [Event details & sign-up](https://rosjp.connpass.com/event/149106/)
   - Organizer: Felix von Drigalski
 - India, Chandigarh, [Embedded Group of UIET, Panjab University](http://uiet.puchd.ac.in/)
-- India, New Delhi, [Cluster Innovation Centre, Delhi University](https://ducic.ac.in/), New Delhi, India
+  - Organizer: Pallav Bhalla / Ankur Bhatia
+- India, New Delhi, [Cluster Innovation Centre, Delhi University](https://ducic.ac.in/)
+  - Organizer: Ridhwan Luthra
 - Singapore, [Advanced Remanufacturing and Technology Centre (ARTC)](https://www.a-star.edu.sg/artc) / [ROS-Industrial Asian Pacific](https://rosindustrial.org/ric-apac/)
+  - Organizer: Sheila Suppiah
+  - [Event details](https://www.eventbrite.sg/e/world-moveit-day-2019-asia-pacific-tickets-70720999413)
 - USA, San Antonio, [Southwest Research Institute](https://www.swri.org/) / [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/)
+  - Organizer: Jorge Nicho
 - USA, Boulder, [PickNik Consulting](https://picknik.ai/)
+  - Organizer: Rob Coleman
+  - [Event details](https://www.eventbrite.com/e/world-moveit-day-2019-boulder-registration-74104704165?aff=ebdssbdestsearch)
 - USA, CA, Union City, [Vicarious](https://www.vicarious.com/)
+  - Organizer: Peter So
 - USA, CA, San Jose, [Fetch / ROS by the Bay](https://fetchrobotics.com/)
+  - Organizer: Alexander Moriarty
+- USA, ID, Pocatello, Idaho State University
+  - Organizer: Omid Heidari
 
 If you aren’t near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events.
 We would also like to mail your team or event some MoveIt stickers to schwag out your robots with. State your intent to join or host on
