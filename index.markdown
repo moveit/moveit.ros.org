@@ -31,9 +31,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="/moveit/ros/2019/09/19/moveit-workshop-macau.html">
+                                <a href="/moveit/ros/2019/07/31/world-moveit-day-2019.html">
                                     <span class="blue">Announcement</span>
-                                    <span>First annual MoveIt Workshop is November 2!</span>
+                                    <span>World MoveIt Day 2019 is November 20th!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
