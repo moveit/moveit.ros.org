@@ -119,4 +119,5 @@ Join the video conference on [Appear.In](https://appear.in/world-moveit-day)
 
 ## Sponsors
 
-- To be announced
+- <img src="/assets/images/sponsors/picknik.png" width="200"/>
+
