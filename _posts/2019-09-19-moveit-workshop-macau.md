@@ -12,7 +12,7 @@ categories:
 - ROS
 ---
 
-The first annual MoveIt Workshop 2019 Macau will be on Saturday, November 2, 2019, the day after ROSCon. Sponsored by PickNik Consulting, it is an informal day of presentations, panel discussions, and hands-on training of latest MoveIt features from some of the top thinkers in the ROS community. Some topics to be covered include:
+The first annual MoveIt Workshop 2019 Macau will be on Saturday, November 2, 2019, the day after ROSCon. Sponsored by Amazon Web Services (AWS) and PickNik Robotics, it is an informal day of presentations, panel discussions, and hands-on training of latest MoveIt features from some of the top thinkers in the ROS community. Some topics to be covered include:
 
 * MoveIt 2 Progress and Direction	
 * Intel's Work on MoveIt and ROS2 Grasping
@@ -30,3 +30,14 @@ People attending ROSCon and/or IROS Macau will want to attend this one-day event
 
 [SIGN UP HERE](https://docs.google.com/forms/d/e/1FAIpQLSfcTizP3zP8n2Yetnfq0Arwp_waTX1rq-dFpfvxcX1uP4M80w/viewform)
 
+### Sponsored by
+
+<table style="width: 100%;" >
+<tbody>
+<tr>
+<td><img src="/assets/images/sponsors/amazon.png" height="75"/></td>
+<td><img src="/assets/images/sponsors/picknik.png" height="75"/></td>
+</tr>
+</tbody>
+</table>
+<br>
