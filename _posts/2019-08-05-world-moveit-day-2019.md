@@ -59,7 +59,7 @@ Please state your intent to join or host the international event on [this form](
   - Organizer: Peter So
 - USA, CA, San Jose, [Fetch / ROS by the Bay](https://fetchrobotics.com/)
   - Organizer: Alexander Moriarty
-- USA, ID, Pocatello, Idaho State University
+- USA, ID, Pocatello, [Idaho State University](https://www.isu.edu)
   - Organizer: Omid Heidari
 
 If you aren’t near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events.
@@ -120,4 +120,5 @@ Join the video conference on [Appear.In](https://appear.in/world-moveit-day)
 ## Sponsors
 
 - <img src="/assets/images/sponsors/picknik.png" width="200"/>
+- <img src="/assets/images/sponsors/isu.png" width="200"/>
 
