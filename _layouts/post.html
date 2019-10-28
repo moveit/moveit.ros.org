@@ -6,6 +6,11 @@
     <div class="row justify-content-between">
       <div class="col-sm-12 col-md-6">
         <div class="single-post">
+          {% if page.date  %}
+          <span class="blog-date">
+            {{ page.date | date: '%B %d, %Y'}}
+          </span>
+          {% endif %}
           {% if page.media_type == 'video' %}
           <div class="image-wrapper">
             <iframe style="width:100%;" height="315" src="{{ page.media_link }}" frameborder="0" allowfullscreen></iframe>
