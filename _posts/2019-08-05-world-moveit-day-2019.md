@@ -40,7 +40,7 @@ Please state your intent to join or host the international event on [this form](
 
 - Germany, Hamburg, [Universität Hamburg](https://www.uni-hamburg.de/en.html), Hamburg, Germany
   - Organizer: Group TAMS
-- Japan, Tokyo, [OMRON SINIC X](https://www.omron.com/sinicx/)
+- Japan, Tokyo, [OMRON SINIC X](https://www.omron.com/sinicx/), [Tokyo Opensource Robotics Kyokai](https://opensource-robotics.tokyo.jp/)
   - [Event details & sign-up](https://rosjp.connpass.com/event/149106/)
   - Organizer: Felix von Drigalski
 - India, Chandigarh, [Embedded Group of UIET, Panjab University](http://uiet.puchd.ac.in/)
