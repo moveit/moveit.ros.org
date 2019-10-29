@@ -123,4 +123,6 @@ Join the video conference on [Appear.In](https://appear.in/world-moveit-day)
 - <img src="/assets/images/sponsors/picknik.png" width="200"/>
 - <img src="/assets/images/sponsors/isu.png" width="200"/>
 - <img src="/assets/images/sponsors/swri.jpg" width="200"/>
+- <img src="/assets/images/sponsors/tokyo_os_logo.png" width="200"/>
+- <img src="/assets/images/sponsors/omronsinicx_logo.jpeg" width="200"/>
 
