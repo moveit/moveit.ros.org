@@ -58,7 +58,7 @@ Please state your intent to join or host the international event on [this form](
 - USA, CA, Union City, [Vicarious](https://www.vicarious.com/)
   - Organizer: Peter So
 - USA, CA, San Jose, [Fetch / ROS by the Bay](https://fetchrobotics.com/)
-  - Organizer: Alexander Moriarty
+  - Organizer: Amel Ali
 - USA, ID, Pocatello, [Idaho State University](https://www.isu.edu)
   - Organizer: Omid Heidari
 
