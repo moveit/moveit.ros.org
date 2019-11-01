@@ -52,6 +52,7 @@ Please state your intent to join or host the international event on [this form](
   - [Event details](https://www.eventbrite.sg/e/world-moveit-day-2019-asia-pacific-tickets-70720999413)
 - USA, San Antonio, [Southwest Research Institute](https://www.swri.org/) / [ROS-Industrial Consortium Americas](https://rosindustrial.org/ric-americas/)
   - Organizer: Jorge Nicho
+  - [Event details](https://www.eventbrite.com/e/world-moveit-day-2019-san-antonio-tickets-72393064605)
 - USA, Boulder, [PickNik Consulting](https://picknik.ai/)
   - Organizer: Rob Coleman
   - [Event details](https://www.eventbrite.com/e/world-moveit-day-2019-boulder-registration-74104704165?aff=ebdssbdestsearch)
@@ -121,4 +122,5 @@ Join the video conference on [Appear.In](https://appear.in/world-moveit-day)
 
 - <img src="/assets/images/sponsors/picknik.png" width="200"/>
 - <img src="/assets/images/sponsors/isu.png" width="200"/>
+- <img src="/assets/images/sponsors/swri.jpg" width="200"/>
 
