@@ -57,8 +57,8 @@ Please state your intent to join or host the international event on [this form](
   - [Event details](https://www.eventbrite.com/e/world-moveit-day-2019-boulder-registration-74104704165?aff=ebdssbdestsearch)
 - USA, CA, Union City, [Vicarious](https://www.vicarious.com/)
   - Organizer: Peter So
-- USA, CA, San Jose, [Fetch / ROS by the Bay](https://fetchrobotics.com/)
-  - Organizer: Alexander Moriarty
+- USA, CA, San Jose, [Fetch Robotics](https://fetchrobotics.com/)
+  - Organizer: Amel Ali
 - USA, ID, Pocatello, [Idaho State University](https://www.isu.edu)
   - Organizer: Omid Heidari
 
