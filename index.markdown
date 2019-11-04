@@ -254,14 +254,14 @@ redirect_from: '/moveit/'
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
                                 API Freeze
-                                <small>1 February 2020</small>
+                                <small>1 April 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--red"></span>
                             <p>
                                 Official Release
-                                <small>1 March 2020</small>
+                                <small>1 May 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
@@ -291,18 +291,18 @@ redirect_from: '/moveit/'
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
                                 API Freeze
-                                <small>1 December 2019</small>
+                                <small>1 January 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--red"></span>
                             <p>
                                 Official Release
-                                <small>1 January 2020</small>
+                                <small>1 February 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
-                            <p>January 2020</p>
+                            <p>February 2020</p>
                         </div>
                     </div>
                 </div>
@@ -316,8 +316,8 @@ redirect_from: '/moveit/'
                     <div class="version-date">
                         <p><span>Version:</span> 2.1 Beta</p>
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
-                        <p><span>Initial release:</span> 1 December 2019</p>
-                        <p><span>End of life:</span> TBD</p>
+                        <p><span>Initial release:</span> 1 February 2020</p>
+                        <p><span>End of life:</span> November 2020</p>
                         <p><span>Branch:</span> N/A</p>
                     </div>
                     <div class="version-content">
@@ -351,7 +351,7 @@ redirect_from: '/moveit/'
                     <div class="version-date">
                         <p><span>Version:</span> 1.1</p>
                         <p><span>Platforms:</span> Ubuntu 16.04, 18.04</p>
-                        <p><span>Initial release:</span> 1 March 2020</p>
+                        <p><span>Initial release:</span> 1 May 2020</p>
                         <p><span>End of life:</span> TBD</p>
                         <p><span>Branch:</span> master</p>
                     </div>
