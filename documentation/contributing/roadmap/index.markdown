@@ -22,7 +22,7 @@ We've broken the initial development of MoveIt 2 into three milestones, shown in
 As of November 2019, funding for MoveIt 2 is still needed, as we've only secured resources for Milestone 1.
 As an open source project, we rely on everyone to get involved with code contributions, bug fixes, and financial support.
 There are no guarantees that any feature on our roadmap will be developed.
-Please contact us if you're interestd in supporting these efforts.
+Please contact us if you're interested in supporting these efforts.
 
 ## MoveIt 2 Future Milestones
 
