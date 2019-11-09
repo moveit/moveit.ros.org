@@ -229,6 +229,7 @@ redirect_from: '/moveit/'
     <div class="homepage--divider--content">
         <div class="container">
             <div class='row current-version'>
+                <a id="release-dates"></a>
                 <div class='col-sm-12'>
                     <h2 class="h1 text-center">Current and Future Versions</h2>
                 </div>
@@ -335,7 +336,7 @@ redirect_from: '/moveit/'
                         <p><span>Version:</span> 2.0 Alpha</p>
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
                         <p><span>Initial release:</span> 1 June 2019</p>
-                        <p><span>End of life:</span> N/A</p>
+                        <p><span>End of life:</span> May 2021</p>
                         <p><span>Branch:</span> moveit2:master</p>
                     </div>
                     <div class="version-content">
