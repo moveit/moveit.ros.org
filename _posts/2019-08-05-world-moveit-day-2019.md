@@ -39,6 +39,7 @@ Please state your intent to join or host the international event on [this form](
 2019 locations that have been confirmed so far:
 
 - Germany, Hamburg, [Universität Hamburg](https://www.uni-hamburg.de/en.html), Hamburg, Germany
+  - [Event details & sign-up](https://www.eventbrite.com/e/world-moveit-day-2019-in-hamburg-tickets-81285564311)
   - Organizer: Group TAMS
 - Japan, Tokyo, [OMRON SINIC X](https://www.omron.com/sinicx/), [Tokyo Opensource Robotics Kyokai](https://opensource-robotics.tokyo.jp/)
   - [Event details & sign-up](https://rosjp.connpass.com/event/149106/)
