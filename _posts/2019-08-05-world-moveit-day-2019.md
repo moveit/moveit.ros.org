@@ -1,7 +1,7 @@
 ---
 author: Simon Goldstein
 comments: false
-date: 2019-07-31
+date: 2019-11-13
 layout: post
 title: World MoveIt Day 2019
 media_type: image
