@@ -7,6 +7,8 @@ title: World MoveIt Day 2019
 media_type: image
 media_link: /assets/images/blog_posts/2019_08_05_world_moveit_day.png
 description: The fourth annual World MoveIt Day will be Wednesday, November 20th, 2019!
+redirect_from:
+  - "/moveit/ros/2019/07/31/world-moveit-day-2019.html"
 categories:
 - MoveIt
 - ROS
