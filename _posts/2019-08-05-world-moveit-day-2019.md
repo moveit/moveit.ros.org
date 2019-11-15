@@ -65,6 +65,7 @@ Please state your intent to join or host the international event on [this form](
   - Organizer: Amel Ali
 - USA, ID, Pocatello, [Idaho State University](https://www.isu.edu)
   - Organizer: Omid Heidari
+  - [Event details](https://www.isu.edu/cse/moveitday/)
 
 If you aren’t near an organized event we encourage you to have your own event in your lab/organization/company and video conference in to all the other events.
 We would also like to mail your team or event some MoveIt stickers to schwag out your robots with. State your intent to join or host on
