@@ -1600,6 +1600,39 @@ title: Robots
 				</div>
 			</div>
 		</div>
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <div class="robots-single">
+                                <div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/xArm 5.png');">
+                                </div>
+                                <div class="robots-content">
+                                        <h2>xArm 5</h2>
+                                        <h3>UFACTORY</h3>
+                                        <a href="https://github.com/xArm-Developer/xarm_ros" target="_blank">View package</a>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <div class="robots-single">
+                                <div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/xArm 6.png');">
+                                </div>
+                                <div class="robots-content">
+                                        <h2>xArm 6</h2>
+                                        <h3>UFACTORY</h3>
+                                        <a href="https://github.com/xArm-Developer/xarm_ros" target="_blank">View package</a>
+                                </div>
+                        </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <div class="robots-single">
+                                <div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/xArm 7.png');">
+                                </div>
+                                <div class="robots-content">
+                                        <h2>xArm 7</h2>
+                                        <h3>UFACTORY</h3>
+                                        <a href="https://github.com/xArm-Developer/xarm_ros" target="_blank">View package</a>
+                                </div>
+                        </div>
+                </div>
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-12">
