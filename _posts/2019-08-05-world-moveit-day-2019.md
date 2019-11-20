@@ -120,7 +120,7 @@ For more details on modifying documentation, see [Contributing](http://moveit.ro
 
 Join the conversation on IRC with #moveit at irc.freenode.net. For those new to IRC try [this web client](https://webchat.freenode.net/).
 
-Join the video conference on [Appear.In](https://appear.in/world-moveit-day)
+Join the video conference on [Appear.In](https://whereby.com/worldmoveitday19)
 
 ## Sponsors
 
