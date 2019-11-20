@@ -39,7 +39,7 @@ Optionally create a new workspace, you can name it whatever:
 
 Next, source your ROS workspace to load the necessary environment variables, depending on what version of ROS you installed.
 
-Choose one of the three:
+Choose one of the two:
 
     source /opt/ros/melodic/setup.bash
     source /opt/ros/kinetic/setup.bash
