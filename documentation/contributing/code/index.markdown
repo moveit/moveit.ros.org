@@ -22,13 +22,35 @@ In addition MoveIt has some extra style preferences:
  - Use the C++ standard library (``std::``) whenever possible
  - Avoid C-style functions such as ``FLT_EPSILON`` - instead use ``std::numeric_limits<double>::epsilon()``
  - Boost is an encouraged library when functionality is not available in the standard library
- - Prefer full variable names over short acryonms - e.g. ``robot_state_`` over ``rs_``
- - Deprecate functions using MOVEIT_DEPRECATED in [deprecation.h](https://github.com/ros-planning/moveit/blob/master/moveit_core/macros/include/moveit/macros/deprecation.h)
- - Catch known exceptions and log them in detail. Avoid using ``catch (...)`` as it hides every information of a possible fault. We want to know if something goes wrong.
- - We don't catch exceptions that don't derive from ``std::exception`` in MoveIt. It is the responsibility of the plugin provider to handle non-``std::exception``-derived exceptions locally.
  - Use "pragma once" in headers instead of include guards.
 
-## ROS
+## Inline Documentation
+
+ - We use Doxygen-style comments
+ - To document future work, use the format ``\\ TODO(username): description``
+ - Add extensive comments to explain complex sections of code
+ - Prefer full, descriptive variable names over short acryonms - e.g. ``robot_state_`` over ``rs_``
+ - Avoid ``auto`` as it not highly readable. Please explicitly specify the variable type, if it doesn’t become clear immediately from the context.
+
+## Deprecation
+
+ - Deprecate functions using C++14 [deprecated](https://en.cppreference.com/w/cpp/language/attributes/deprecated) attribute
+ - Add a useful message describing how to handle the situation:
+
+        [[deprecated("use bar instead")]] void foo() {}
+
+   Which would result in:
+
+         warning: 'foo' is deprecated: use bar instead [-Wdeprecated-declarations] foo(); ^ note: 'foo' has been explicitly marked deprecated here void foo() {} ^
+
+ - When deprecating features or functions, include an associated TODO describing when to remove feature (date and/or ROS version)
+
+## Exceptions
+
+ - Catch known exceptions and log them in detail. Avoid using ``catch (...)`` as it hides every information of a possible fault. We want to know if something goes wrong.
+ - We don't catch exceptions that don't derive from ``std::exception`` in MoveIt. It is the responsibility of the plugin provider to handle non-``std::exception``-derived exceptions locally.
+
+## Logging
 
  - The ROS logging functionality is utilized and namespaced. i.e. ``ROS_INFO_NAMED(LOGNAME, "Starting listener...``.
    - This makes it easier to understand where output is coming from on the command line and allows for more fine-grained filtering of terminal output noise.
