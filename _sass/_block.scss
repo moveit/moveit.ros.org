@@ -56,8 +56,24 @@
 }
 
 .blog-date {
-  font-size: 14px;
-  color: rgba(25, 26, 32, 0.5);
+ opacity: 0.5;
+ color: #3c4a69;
+ font-size: 14px;
+ line-height: 50px;
+ padding-left: 30px;
+ position: relative;
+ text-transform: uppercase;
+ &:before {
+   content: "";
+   width: 22px;
+   height: 1px;
+   position: absolute;
+   left: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   background-color: #3c4a69;
+   font-size: 14px;
+   }
 }
 
 .blog-text-wrapper {
