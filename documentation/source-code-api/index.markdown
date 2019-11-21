@@ -1,5 +1,5 @@
 ---
-author: admin
+author: davetcoleman
 comments: false
 date: 2016-10-19 04:37:44+00:00
 layout: page
@@ -13,7 +13,7 @@ MoveIt is open source and released under the [BSD License v3](https://opensource
 
 # Source Code
 
-MoveIt code is hosted on github in the [ros-planning organization](http://github.com/ros-planning) in the following repos:
+MoveIt code is hosted on GitHub in the [ros-planning organization](http://github.com/ros-planning) in the following repos:
 
 - [moveit](https://github.com/ros-planning/moveit) - Main repo of MoveIt, contains the following packages:
   - moveit - Metapackage
@@ -35,27 +35,24 @@ MoveIt code is hosted on github in the [ros-planning organization](http://github
   - moveit_plugins - plugins for controller managers
   - chomp_motion_planner - Gradient Optimization Techniques for Efficient Motion Planning
   - chomp_interface - adapter for using CHOMP with MoveIt
+- [moveit2](https://github.com/ros-planning/moveit2) - The beta version of MoveIt for ROS 2
 - [moveit_msgs](https://github.com/ros-planning/moveit_msgs) - ROS messages
-- [moveit_robots](https://github.com/ros-planning/moveit_robots) - Robot specific MoveIt configuration packages
-- [moveit_resources](https://github.com/ros-planning/moveit_resources) - large file assets such as testing robots
 - [moveit_task_constructor](https://github.com/ros-planning/moveit_task_constructor) - An approach to hierarchical, multi-stage manipulation planning
+- [moveit_grasps](https://github.com/ros-planning/moveit_grasps) - A geometric-based grasp generation library for manipulation
 - [moveit_visual_tools](https://github.com/ros-planning/moveit_visual_tools) - display and debugging data in Rviz
+- [moveit_resources](https://github.com/ros-planning/moveit_resources) - large file assets such as testing robots
 - [moveit_advanced](https://github.com/ros-planning/moveit_advanced) - Experimental advanced capabilities
-- [moveit_pr2](https://github.com/ros-planning/moveit_pr2) - PR2 specific MoveIt configuration and plugins
+- [moveit_ci](https://github.com/ros-planning/moveit_ci) - script to run with Travis for continuous integration
 - [rqt_moveit](https://github.com/ros-visualization/rqt_moveit/) - Plugin for the GUI framework of ROS, RQT
 - [srdfdom](https://github.com/ros-planning/srdfdom) - Semantic Robot Description Format
 - [warehouse_ros](https://github.com/ros-planning/warehouse_ros) - Abstract interface for persisting ROS message data
 - [random_numbers](https://github.com/ros-planning/random_numbers) - package for generating random numbers
 
-For completeness, the following two repos are where documentation can be found:
+For completeness, the following repos are where documentation can be found:
 
 - [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) - this main website
 - [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) - step by step examples for learning MoveIt
-
-In addition, the following repos exist for testing:
-
-- [moveit_ci](https://github.com/ros-planning/moveit_ci) - script to run with Travis for continuous integration
-- [moveit_kinematics_tests](https://github.com/ros-planning/moveit_kinematics_tests) - experimental repo with tests
+- [moveit_example_apps](https://github.com/ros-planning/moveit_example_apps) - sandbox of example high level application code
 
 <img src='/assets/images/diagrams/moveit_api.png' style="width: 80%;"/>
 
