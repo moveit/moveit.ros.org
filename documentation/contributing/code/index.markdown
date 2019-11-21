@@ -168,6 +168,4 @@ Please explicitly specify the variable type, if it doesn't become clear immediat
 for (const int & item : container)
   std::cout << item;
 ```
-## Press Kit
 
-See [Logo Guidelines](/about/press_kit)
