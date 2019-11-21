@@ -27,23 +27,23 @@ In addition MoveIt has some extra style preferences:
 ## Inline Documentation
 
  - We use Doxygen-style comments
- - To document future work, use the format ``\\ TODO(username): description``
+ - To document future work, use the format ``TODO(username): description``
  - Add extensive comments to explain complex sections of code
  - Prefer full, descriptive variable names over short acryonms - e.g. ``robot_state_`` over ``rs_``
- - Avoid ``auto`` as it not highly readable. Please explicitly specify the variable type, if it doesn’t become clear immediately from the context.
+ - Avoid ``auto``, if the variable type doesn’t become clear immediately from the context (e.g. from ``make_shared<...>``)
 
 ## Deprecation
 
- - Deprecate functions using C++14 [deprecated](https://en.cppreference.com/w/cpp/language/attributes/deprecated) attribute
+ - Deprecate functions using C++14 [``[[deprecated]]``](https://en.cppreference.com/w/cpp/language/attributes/deprecated) attribute
  - Add a useful message describing how to handle the situation:
 
         [[deprecated("use bar instead")]] void foo() {}
 
-   Which would result in:
+   Which will result in:
 
          warning: 'foo' is deprecated: use bar instead [-Wdeprecated-declarations] foo(); ^ note: 'foo' has been explicitly marked deprecated here void foo() {} ^
 
- - When deprecating features or functions, include an associated TODO describing when to remove feature (date and/or ROS version)
+ - Add an associated TODO describing when to remove the feature (date and/or ROS version)
 
 ## Exceptions
 
