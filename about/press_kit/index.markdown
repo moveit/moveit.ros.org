@@ -6,8 +6,9 @@ layout: page
 slug: press_kit
 title: Press kit
 ---
+# Press Kit
 
-## Logo Guidelines
+## Naming Guidelines
 
 The overall framework is called “MoveIt” which is used as an umbrella term. Note that the "!" in the previous branding of "MoveIt!" is no longer used.
 
@@ -19,6 +20,8 @@ Specific version references of MoveIt framework:
 
 - all specific mentions of the MoveIt are written as "MoveIt 2", "MoveIt 3", etc.
 - all mentions of the MoveIt 2 port will be written as “MoveIt 2” or as “the MoveIt port to ROS 2.0"
+
+## Logo Guidelines
 
 We ask that you not:
 
