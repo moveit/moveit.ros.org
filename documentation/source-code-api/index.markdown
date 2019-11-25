@@ -44,11 +44,14 @@ MoveIt code is hosted on GitHub in the [ros-planning organization](http://github
 - [moveit_advanced](https://github.com/ros-planning/moveit_advanced) - Experimental advanced capabilities
 - [moveit_ci](https://github.com/ros-planning/moveit_ci) - script to run with Travis for continuous integration
 - [rqt_moveit](https://github.com/ros-visualization/rqt_moveit/) - Plugin for the GUI framework of ROS, RQT
-- [srdfdom](https://github.com/ros-planning/srdfdom) - Semantic Robot Description Format
+- [srdfdom](https://github.com/ros-planning/srdfdom) - Semantic Robot Description Format used exclusively by MoveIt
+
+Dependencies maintained by the ros-planning MoveIt team:
+
 - [warehouse_ros](https://github.com/ros-planning/warehouse_ros) - Abstract interface for persisting ROS message data
 - [random_numbers](https://github.com/ros-planning/random_numbers) - package for generating random numbers
 
-For completeness, the following repos are where documentation can be found:
+The following repos are where documentation can be found:
 
 - [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) - this main website
 - [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) - step by step examples for learning MoveIt
