@@ -70,7 +70,7 @@ The table below aims to better visualize the available changes recently introduc
 
 |          Changes made         | Available in Indigo? | Jade? | Kinetic? |
 | ----------------------------- | -------------------- | -------------------- | -------------------- |
-| You can stop a trajectory while it's being executed via RViz [moveit_ros/#713](https://github.com/ros-planning/moveit_ros/pull/713). See also [video](https://www.youtube.com/watch?v=XEU-wVHUvgI&feature=youtu.be) | o | o | o |
+| You can stop a trajectory while it's being executed via RViz [moveit_ros/#713](https://github.com/ros-planning/moveit_ros/pull/713). See also [video](https://www.youtube-nocookie.com/embed/XEU-wVHUvgI&feature=youtu.be) | o | o | o |
 | Capability to execute trajectory with a ROS action [#60](https://github.com/ros-planning/moveit/pull/60), [#94](https://github.com/ros-planning/moveit/pull/94) | o | o | o |
 | Trajectory safety validation before execution [#63](https://github.com/ros-planning/moveit/pull/63), [#225](https://github.com/ros-planning/moveit/pull/225) | o | o | o |
 | New planners in [OMPL](http://ompl.kavrakilab.org/) are now available from MoveIt! (geometric::{FMT, BFMT, PDST, STRIDE, BiTRRT, LBTRRT, BiEST, ProjEST, LazyPRM, LazyPRMstar, SPARS, SPARStwo}) (see PR for detail [#33](https://github.com/ros-planning/moveit/pull/338)) | x | x | o |
