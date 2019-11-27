@@ -18,7 +18,7 @@ We're happy to see there has been a lot progress made in creating MoveIt 2 since
 
 The goal of this effort was to move fast in creating a <i>minimum viable product</i> port. This MVP is not to be mistaken for a complete port and much of the work has yet to get merged upstream to the ros-planning organization. At the time of writing, the MoveIt 2 Alpha release is capable of planning simple joint-space problems.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XKz6BIlM-E8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XKz6BIlM-E8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Motivated by this progress and to align with the release of ROS 2 Dashing Diademata, Acutronic Robotics is proud to announce the alpha release of MoveIt 2.
 

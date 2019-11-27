@@ -18,7 +18,7 @@ If you're running your robot packages with ROS Jade, and/or if you want to try t
 Among numerous bug-fixes, there are quite a number of new features included:
 
 - [You can stop a trajectory while it's being executed via RViz](https://github.com/ros-planning/moveit_ros/pull/713)
-  [Video](https://www.youtube.com/watch?v=XEU-wVHUvgI&feature=youtu.be)
+  [Video](https://www.youtube-nocookie.com/embed/XEU-wVHUvgI&feature=youtu.be)
 
 - [Capability to execute trajectory with a ROS action](https://github.com/ros-planning/moveit/pull/60)
 

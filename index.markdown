@@ -40,7 +40,7 @@ redirect_from: '/moveit/'
                             <p class="main-text">Easy-to-use robotics manipulation platform for developing applications, evaluating designs, and building integrated products</p>
                             <div class="button-group">
                                 <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
-                                <a class="button button-yellow modal-link" href="https://www.youtube.com/watch?v=0og1SaZYtRc" target="_blank">Watch our montage</a>
+                                <a class="button button-yellow modal-link" href="https://www.youtube-nocookie.com/embed/0og1SaZYtRc" target="_blank">Watch our montage</a>
                                 <a class="button button-transparent" href="http://docs.ros.org/melodic/api/moveit_tutorials/html/index.html" target="_blank">Get Started</a>
                             </div>
                         </div>
