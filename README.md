@@ -8,6 +8,10 @@ The MoveIt website (http://moveit.ros.org/) is hosted on **Github Pages** using 
 
 Please compress images before loading to repo, we recommend [https://tinypng.com/](https://tinypng.com/). High resolution images from professional photographers will kill load times.
 
+## YouTube Videos
+
+Please use https://www.youtube-nocookie.com/ instead of  https://www.youtube.com/. Explanation [here](https://github.com/ros-planning/moveit.ros.org/issues/232).
+
 ## Test Locally on Ubuntu 16.04
 
 Will install Ruby, Jekyll, build the website, and server the website on localhost:

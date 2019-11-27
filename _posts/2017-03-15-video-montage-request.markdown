@@ -19,4 +19,4 @@ Submit your clips here: [http://rosindustrial.org/video-submission](http://rosin
 
 If you're curious, MoveIt!'s 2013 montage:
 
-**[MoveIt!'s 2013 montage](https://www.youtube.com/watch?v=dblCGZzeUqs)**
+**[MoveIt!'s 2013 montage](https://www.youtube-nocookie.com/embed/dblCGZzeUqs)**

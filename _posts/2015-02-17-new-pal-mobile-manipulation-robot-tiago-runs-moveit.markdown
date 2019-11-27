@@ -42,8 +42,8 @@ The PAL Robotics team
 
 P.S.: A peek of some of the other things we do:
 
-[PAL Robotics at Humanoids 2014](https://www.youtube.com/watch?v=KzALr5Ie4fI)
+[PAL Robotics at Humanoids 2014](https://www.youtube-nocookie.com/embed/KzALr5Ie4fI)
 
-[PMB2 Mobile base](https://www.youtube.com/watch?v=qmhuy7ZXSQI)
+[PMB2 Mobile base](https://www.youtube-nocookie.com/embed/qmhuy7ZXSQI)
 
-[REEM-C](https://www.youtube.com/watch?v=4HZIDpNSKyc)
+[REEM-C](https://www.youtube-nocookie.com/embed/4HZIDpNSKyc)
