@@ -231,7 +231,7 @@ redirect_from: '/moveit/'
             <div class='row current-version'>
                 <a id="release-dates"></a>
                 <div class='col-sm-12'>
-                    <h2 class="h1 text-center">Current and Future Versions</h2>
+                    <h2 class="h1 text-center"><a id="release-versions" href="#release-versions">Current and Future Versions</a></h2>
                 </div>
                 <div class='col-sm-12 time-line-wrappper'>
                     <h3>MoveIt 1.1 Noetic</h3>
