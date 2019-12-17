@@ -36,7 +36,7 @@ If you feel everyone forgot about your request, add a short note saying "ping" o
 All feedback on existing pull-requests is welcome and appreciated. If you are familiar with the code someone requests to change, please step up and review their requests. The maintainer's time is often quite limited. This usually boils down to answering the following questions and provide feedback in the request:
 
  - Does the patch do what the author claims it does?
- - Is it general enough to work with everyones use-case and not only the requestor's setup?
+ - Is it general enough to work with everyone's use-case and not only the requestor's setup?
  - Does it address all edge-cases you are aware of?
  - If a new interface is introduced: Is this interface general enough for likely future modifications? Otherwise we might have to break API later on if we wish to add more useful features to the same module.
  - If the request targets a stable release: Is the change [ABI compatible](https://en.wikipedia.org/wiki/Application_binary_interface) or is there a good reason (e.g. safety) to break it?
@@ -55,10 +55,12 @@ The ``*-devel`` branches must not be force-pushed.
 No one is allowed to directly commit to the ``*-devel`` branches of the repositories. Instead they should create feature branches and add pull-requests.
 The only commits that might be pushed directly are cherry-picks from older branches (see below) and administrative changes (e.g. CHANGELOGS, tags).
 
-### Two "Approves" == Merge
+### Typically, two "Approves" == Merge
 
 If you see a trustworthy approval review in a request or the requestor is a fellow maintainer and all feedback has been addressed by the requestor,
 merge the request after your own review. Otherwise submit an "Approval" review after you are satisfied after the review.
+
+For small or trivial fixes, a single review is sufficient.
 
 ### GitHub Merge Policies
 
@@ -66,7 +68,7 @@ GitHub provides [several merge policies ](https://help.github.com/articles/about
 
 However, for larger changes to the code, it's absolutely desired to organize the pull request into multiple, clearly separated, but interrelated commits. In such cases, it is usually also meaningful to keep this commit history, thus being able to track these individual commits also later in the future. In this case, a maintainer should ask the contributor to cleanup "fixup" commits via squashing or interactive rebasing before eventually performing a proper `merge commit`.
 
-Multiple, independent commits should not show up in a single PR, but should be splitted into multiple independent PRs. GitHub's `rebase-merge` policy, which could be used in such cases, unfortunately drops any notion of the related pull request id. To summarize:
+Multiple, independent commits should not show up in a single PR, but should be split into multiple independent PRs. GitHub's `rebase-merge` policy, which could be used in such cases, unfortunately drops any notion of the related pull request id. To summarize:
 
 - single commits -> squash
 - multiple fixup-style commits -> squash
