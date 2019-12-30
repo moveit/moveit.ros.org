@@ -291,15 +291,15 @@ redirect_from: '/moveit/'
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
-                                API Freeze
-                                <small>1 January 2020</small>
+                                Feature Freeze
+                                <small>1 February 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--red"></span>
                             <p>
                                 Official Release
-                                <small>1 February 2020</small>
+                                <small>14 February 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
@@ -317,7 +317,7 @@ redirect_from: '/moveit/'
                     <div class="version-date">
                         <p><span>Version:</span> 2.1</p>
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
-                        <p><span>Initial release:</span> 1 February 2020</p>
+                        <p><span>Initial release:</span> 14 February 2020</p>
                         <p><span>End of life:</span> November 2020</p>
                         <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2" target="_blank">moveit2:master</a></p>
                     </div>
