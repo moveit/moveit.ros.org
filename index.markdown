@@ -315,16 +315,16 @@ redirect_from: '/moveit/'
                         <span class="label label--blue">Seeking Funding</span>
                     </div>
                     <div class="version-date">
-                        <p><span>Version:</span> 2.1 Beta</p>
+                        <p><span>Version:</span> 2.1</p>
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
                         <p><span>Initial release:</span> 1 February 2020</p>
                         <p><span>End of life:</span> November 2020</p>
-                        <p><span>Branch:</span> N/A</p>
+                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2" target="_blank">moveit2:master</a></p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
                         <p>PickNik is actively seeking funding for development of MoveIt for ROS 2.0.
-                        See <a href="https://github.com/ros-planning/moveit2/blob/master/README.md">roadmap</a>.</p>
+                        See <a href="https://moveit.ros.org/documentation/contributing/roadmap/">roadmap</a>.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
@@ -333,11 +333,11 @@ redirect_from: '/moveit/'
                         <span class="label label--orange">Released</span>
                     </div>
                     <div class="version-date">
-                        <p><span>Version:</span> 2.0 Alpha</p>
+                        <p><span>Version:</span> 2.0</p>
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
                         <p><span>Initial release:</span> 1 June 2019</p>
                         <p><span>End of life:</span> May 2021</p>
-                        <p><span>Branch:</span> moveit2:master</p>
+                        <p><span>Branch: <a href="https://github.com/AcutronicRobotics/moveit2" target="_blank">AcutronicRobotics/moveit2</a></span> </p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>

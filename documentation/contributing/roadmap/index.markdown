@@ -16,13 +16,15 @@ Our future release dates for the latest ROS 1 and ROS 2 releases of MoveIt are d
 
 <img src="/assets/images/roadmap_2020.png" width="100%"/>
 
-Our roadmap is based on our 2018 user survey, feedback from PickNik Robotic's numerous clients, and the feedback collected at the [MoveIt Workshop 2019 Macau](https://moveit.ros.org/moveit/ros/2019/09/19/moveit-workshop-macau.html).
+Our MoveIt 2 roadmap is based on our 2018 user survey, feedback from PickNik Robotic's numerous clients, and the feedback collected at the [MoveIt Workshop 2019 Macau](https://moveit.ros.org/moveit/ros/2019/09/19/moveit-workshop-macau.html).
 We've broken the initial development of MoveIt 2 into three milestones, shown in the image above.
 
 As of November 2019, funding for MoveIt 2 is still needed, as we've only secured resources for Milestone 1.
 As an open source project, we rely on everyone to get involved with code contributions, bug fixes, and financial support.
 There are no guarantees that any feature on our roadmap will be developed.
 Please contact us if you're interested in supporting these efforts.
+
+Development of MoveIt 2 beta is happening in [ros-planning/moveit2](https://github.com/ros-planning/moveit2)
 
 ## MoveIt 2 Future Milestones
 
