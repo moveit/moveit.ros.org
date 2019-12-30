@@ -13,11 +13,11 @@ before_script:
 script: ./.travis.sh
 
 # branch whitelist - this seems like a no-op (since the RegEx includes
-# everything), but it isn't: by default, Travis excludes the `gh-pages` branch,
+# everything), but it isn't: by default, Travis excludes the `master` branch,
 # and you need to explicitly enable it.
 branches:
   only:
-    - gh-pages # test the gh-pages branch
+    - master # test the master branch
     - /(.*)/ # test every other branch
 
 env:
