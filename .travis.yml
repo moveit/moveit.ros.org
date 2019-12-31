@@ -12,14 +12,6 @@ before_script:
 # the `install` step will run `bundle install` by default.
 script: ./.travis.sh
 
-# branch whitelist - this seems like a no-op (since the RegEx includes
-# everything), but it isn't: by default, Travis excludes the `master` branch,
-# and you need to explicitly enable it.
-branches:
-  only:
-    - master # test the master branch
-    - /(.*)/ # test every other branch
-
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
