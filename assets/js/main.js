@@ -37,9 +37,9 @@ function currentVersion() {
 
 function futureVersion() {
   var currentDate = Date.now();
-  var startDate  = new Date('06/01/2019');
-  var freezeDate = new Date('01/01/2020');
-  var finalDate  = new Date('02/01/2020');
+  var startDate  = new Date('06/01/2019'); // Start Date
+  var freezeDate = new Date('02/01/2020'); // Feature Freeze
+  var finalDate  = new Date('02/14/2020'); // Release Date
   var totalTime = finalDate.getTime() - startDate.getTime();
   var progressTime = currentDate - startDate;
   var percent = (progressTime / totalTime) * 100;
