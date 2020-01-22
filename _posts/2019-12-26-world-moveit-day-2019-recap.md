@@ -40,4 +40,15 @@ A few other stats from the event and 30 days after, in the consolidated moveit r
 - 32 issues closed
 - 37 issues opened
 
+**Some pictures from some of the locations:**
+
+PickNik
+<img src="/assets/images/blog_posts/wmd_2019/picknik.jpg" width="500" style="margin-right:20px"/>
+
+Fetch
+<img src="/assets/images/blog_posts/wmd_2019/fetch.jpg" width="500" style="margin-right:20px"/>
+
+OMRON SINIC X
+<img src="/assets/images/blog_posts/wmd_2019/omron.jpg" width="500" style="margin-right:20px"/>
+
 [Refer to yearly Word MoveIt Day stats.](https://docs.google.com/spreadsheets/d/1n19IOVJuqlQiFgLg5sRpWBPo5YQous25QmhUuJ2FO8g/edit?folder=0B2gNuURgfmGMa1dHYVkxWm9SQ2s#gid=0)
