@@ -13,28 +13,37 @@ title: Code Sprints
 
 This page lists potential projects that would greatly benefit the MoveIt project. This is by no means an exhaustive list, but is meant to serve as a discussion starting point for code sprints and other efforts. Please contact [PickNik Consulting](https://picknik.ai/connect/) for further information or sponsorship opportunities.
 
-## TrajOpt Integration
+## TrajOpt Integration and Related Work on Trajectory Optimization Methods
 
 TrajOpt is a motion planning framework from UC Berkeley for generating robot trajectories by local optimization. Integration of TrajOpt into the MoveIt framework would require API changes to how MoveIt stores and accesses information about the kinematic chain and changes to the MoveIt collision checking API to support integration with the Bullet collision checker for convex to convex contact checking.
+
+Some initial work was performed by Omid Heidari during an internship at PickNik in 2019, but more work is needed to cleanly integrate the framework with MoveIt. The collision checking interface for MoveIt has changed significantly. Implementing a collision cost using this unified interface for collision checking backends is one of the major remaining issues.
+
+MoveIt also contains implementations of other trajectory optimization methods: STOMP and CHOMP. These implementations all contain their own way of computing trajectory, but share a lot of common ideas, such as using a signed distance field to compute collision cost. Refactoring this code to use common code for the same ideas would help in making the code more maintainable. It is also a first step to making it possible to provide callback hooks for a user-configurable trajectory cost function that can be used with any of the trajectory optimization methods, which is currently not possible.
+
+## Creation of a Standard Benchmark Suite for Evaluating MoveIt Performance
+
+The idea is to identify a number of standard tasks at varying levels of difficulty that can be achieved with several robots for which a MoveIt configuration is available. Tasks can range from simply reaching for a particular goal position in a relatively uncluttered space to picking and placing items from cluttered shelves.
+
+Once a standard benchmark has been established, subsequent work can focus on running the benchmark suite as part of a continuous integration suite. Additional work can be done on tuning hyperparameter settings that will lead to better overall performance.
+
+## MoveIt 2 Tutorials
+
+One of the reasons MoveIt is so popular is that the tutorials make it very easy to get started. MoveIt 2 beta will be released in February and the tutorials needs to be updated for this new version.
+
+## Add Support for MoveIt Task Constructor to MoveIt 2
+
+The [MoveIt Task Constructor](https://ros-planning.github.io/moveit_tutorials/doc/moveit_task_constructor/moveit_task_constructor_tutorial.html) framework provides a flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks. It draws on the planning capabilities of MoveIt to solve individual subproblems in black-box planning stages. Porting this MoveIt 2 may also include porting MoveIt 1's MoveGroup interface to MoveIt 2.
 
 ## Improved Integration with ROS-Controls and Controller Switching
 
 Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt plans. Improve the [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/melodic-devel/moveit_plugins/moveit_ros_control_interface). Documentation on how to combine the components.
 
-## Perception Pipeline Improvements
-
-MoveIt is not a perception library, but does come with support for using octomaps with point clouds. This functionality has not been well maintained and needs extensive improvements:
-
-- Improve speed of plugins, fix locking issues
-- Create tutorials and documentation for using this functionality
-- Add support for object segmentation, table detection, etc
-- Possible integration of Neural Networks for image recognition
-
 ## Improve MoveIt Grasps Library
 
 MoveIt has long lacked a good grasping library for generating candidate object grasps for manipulation. With the release of [MoveIt Grasps](https://github.com/PickNikRobotics/moveit_grasps/), we are working to fill this gap. Although MoveIt Grasps is a big step up from the pick-and-place pipeline, it is far from perfect. Improvements to MoveIt grasps could include:
 
-- Integration with a machine-learning-based grasp generator and/or grasp scoring package such as [Agile Grasps](http://wiki.ros.org/agile_grasp)
+- Integration with a machine-learning-based grasp generator and/or grasp scoring package such as the [Grasp Pose Detection](https://github.com/atenpas/gpd) package or Intel's [ROS 2 Grasp Library](https://github.com/intel/ros2_grasp_library).
 - Improve tutorials and documentation for grasping in MoveIt
 - Improve test coverage, especially for grasp generation
 
@@ -42,18 +51,10 @@ MoveIt has long lacked a good grasping library for generating candidate object g
 
 The default cartesian planner in MoveIt is naive and has enormous room for improvement. Improvements to the Cartesian planner could include:
 
-- Moving the Cartesian planner out of [RobotState](https://github.com/ros-planning/moveit/blob/0ba091ce1faf6e11896fd0d06bea8234cf642ca3/moveit_core/robot_state/include/moveit/robot_state/robot_state.h#L1129) and into a more apropriate location eg: [moveit_planners](https://github.com/ros-planning/moveit/tree/master/moveit_planners).
+- Integration with [OMPL's constrained planning capabilities](http://ompl.kavrakilab.org/constrainedPlanning.html). (Constrained planning can be thought of as a generalized notion of Cartesian planning.) This requires translating end effector constraints into a callback constraint function that can be passed to OMPL. Using the Jacobian, it should be possible to create an analytic derivative of this constraint function, which can be used to speed up constrained planning.
+- Moving the Cartesian planner out of [RobotState](https://github.com/ros-planning/moveit/blob/0ba091ce1faf6e11896fd0d06bea8234cf642ca3/moveit_core/robot_state/include/moveit/robot_state/robot_state.h#L1129) and into a more appropriate location eg: [moveit_planners](https://github.com/ros-planning/moveit/tree/master/moveit_planners).
 - Integration with [Descartes](https://github.com/ros-industrial-consortium/descartes).
 - Fix the long standing [orientation constraint joint flip bug](https://github.com/ros-planning/moveit/issues/562) in free-space planning.
-
-## Add More Motion Planning Libraries
-
-MoveIt was designed to be highly plugin-based and originally supported 3 planning libraries. Today that number has shrunk to basically 1. There are many good alternative motion planning libraries that could be (re)added to MoveIt, including:
-
-- SBPL
-- STOMP
-- ITOMP
-- [DRAKE](https://github.com/RobotLocomotion/drake/issues/459)
 
 ## Improve Warehouse Support
 
@@ -70,10 +71,6 @@ Currently, MoveIt supports the OMPL planning library via a C++ based binding sys
 - The new system needs to be documented in tutorials
 - It would be nice if, as a proof of concept, some additional basic planning algorithms could be implemented as a plugin. Ideally, this would include at least one algorithm that is not sampling-based, just to demonstrate that this can be done
 
-## MoveIt Continuous Collision Checking
-
-MoveIt currently only checks for collisions at discrete steps in a planned trajectory. This has the downside that if the discretization is too large, then potential collisions may be missed when planning in tight or constrained environments. This project involves using the flexible-collision-library (FCL) to add continuous collision checking to mitigate collisions in constrained spaces.
-
-## Mobile base integration
+## Mobile Base Integration
 
 The goal is to provide a standard way for integrating mobile base into move group that typically handles arms. While there's a non-standard way to incorporate holonomic drive that requires modifying your robot model ([example](https://groups.google.com/forum/#%21searchin/moveit-users/virtual$20base/moveit-users/G7vG7r23YzI/vpMUoa1hza4J)), customization your robot package for such a common functionality is not ideal at all. We also extend to cover non-holonomic drive robots. This is [an FAQ](https://github.com/ros-planning/moveit/issues/375) among MoveIt users.
