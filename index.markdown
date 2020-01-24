@@ -33,7 +33,7 @@ redirect_from: '/moveit/'
                             <div class="main-tag">
                                 <a href="https://discourse.ros.org/t/moveit-2-beta-coming-soon">
                                     <span class="blue">Announcement</span>
-                                    <span>MoveIt2 Beta Release February 14!</span>
+                                    <span>MoveIt 2 Beta Release February 14!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
