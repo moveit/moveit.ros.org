@@ -23,7 +23,7 @@ This page lists potential projects that would greatly benefit the MoveIt project
 
   Some initial work was performed by Omid Heidari during an internship at PickNik in 2019, but more work is needed to cleanly integrate the framework with MoveIt. The collision checking interface for MoveIt has changed significantly. Implementing a collision cost using this unified interface for collision checking backends is one of the major remaining issues.
 
-  MoveIt also contains implementations of other trajectory optimization methods: STOMP and CHOMP. These implementations all contain their own way of computing trajectory, but share a lot of common ideas, such as using a signed distance field to compute collision cost. Refactoring this code to use common code for the same ideas would help in making the code more maintainable. It is also a first step to making it possible to provide callback hooks for a user-configurable trajectory cost function that can be used with any of the trajectory optimization methods, which is currently not possible.
+  MoveIt also contains implementations of other trajectory optimization methods: STOMP and CHOMP. These implementations all contain their own way of computing trajectories, but share a lot of common ideas, such as using a signed distance field to compute collision cost. Refactoring this code to use common code for the same ideas would help in making the code more maintainable. It is also a first step to making it possible to provide callback hooks for a user-configurable trajectory cost function that can be used with any of the trajectory optimization methods, which is currently not possible.
 
 ## Creation of a Standard Benchmark Suite for Evaluating MoveIt Performance
 
