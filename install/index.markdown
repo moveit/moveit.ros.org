@@ -35,7 +35,7 @@ See [Getting Started with MoveIt and UR3 on Windows](https://ms-iot.github.io/RO
 
 ## Quick Start
 
-Start planning in Rviz with with the [MoveIt Getting Started Tutorial](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html)
+Start planning in Rviz with the [MoveIt Getting Started Tutorial](https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html)
 
 ---
 
