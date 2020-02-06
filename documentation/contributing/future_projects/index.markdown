@@ -30,7 +30,7 @@ This page lists potential projects that would greatly benefit the MoveIt project
 - List of prerequisites: ROS, some motion planning background
 - Description of programming skills: C++
 - Difficulty level: Medium
-- List of potential mentors: Mark Moll, Henning Kayser
+- List of potential mentors: Felix von Drigalski, Mark Moll, Henning Kayser
 - Detailed description: The idea is to identify a number of standard tasks at varying levels of difficulty that can be achieved with several robots for which a MoveIt configuration is available. Tasks can range from simply reaching for a particular goal position in a relatively uncluttered space to picking and placing items from cluttered shelves.
 
   Once a standard benchmark has been established, subsequent work can focus on running the benchmark suite as part of a continuous integration suite. Additional work can be done on tuning hyperparameter settings that will lead to better overall performance.
