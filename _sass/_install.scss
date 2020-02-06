@@ -1,0 +1,203 @@
+.rectangle-boarder-tall {
+  padding-top: 70px;
+  border: solid 1px #eaeaea;
+}
+
+.ros-command {
+  height: 24px;
+  padding: 5px;
+  color: rgba(232, 62, 140, 1.0);
+  border-radius: 4px;
+  background-color: rgba(232, 62, 140, 0.1);
+}
+
+.current-page-image-left {
+  width: 100% !important;
+  height: 32px;
+  position: relative;
+}
+.current-page-image-right {
+  height: 32px;
+  left: 100%;
+  position: absolute;
+}
+
+.bash-command {
+  code {
+    font-size: 12px;
+    font-weight: normal;
+    color: #191a20;
+  }
+  border-radius: 4px;
+  border: solid 1px #d6d8de;
+  background-color: #f3f5fa;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+}
+
+.link-with-background {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.86px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 4px;
+  border: solid 1px #0a58f7;
+  background-color: #0a58f7;
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.rectangle-boarder-big {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 117px !important;
+  padding-right: 84px !important;
+  border: solid 1px #eaeaea;
+  h1 {
+    margin-bottom: 24px;
+    width: 576px;
+    height: 40px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #191a20;
+  }
+  h2 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #191a20;
+    img {
+      padding-bottom: 5px;
+      vertical-align: middle;
+      height: 27px;
+    }
+  }
+  h3 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #191a20;
+    img {
+       vertical-align: baseline;
+       height: 11px;
+       padding-left: 2px;
+    }
+  }
+  p {
+    margin-bottom: 0px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: rgba(25, 26, 32, 0.8);
+  }
+}
+
+.font-current-page {
+  position: absolute;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: 16px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: rgba(10, 88, 247, 1);
+}
+
+.font-other-page {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: 16px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: rgba(71, 72, 77, 1);
+}
+
+.horizontal-line {
+  border-bottom: solid 1px #eaeaea;
+  margin-left: -117px;
+  margin-right: -84px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.systems-rectangle {
+  margin-left: 0px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  border: solid 1px #eaeaea;
+  img {
+    height: 20px;
+    width: 20px;
+  }
+  .operating-system {
+    border-style: none;
+    outline: none;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-right: 14px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    .system-type {
+      padding-left: 10px;
+      font-family: Lato;
+      font-size: 13px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.15;
+      letter-spacing: normal;
+      color: #5e616d;
+      .system-name {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+  }
+  .operating-system:focus {
+    background-color: #d9e5fd;
+    .system-type {
+      color: #0e5af7;
+    }
+  }
+}
