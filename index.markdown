@@ -140,6 +140,23 @@ redirect_from: '/moveit/'
                         </div>
                     </div>
                 </div>
+                <div class="row align-items-center justify-content-center text-center">
+                    <div class="col-sm-12">
+                        <h1 class="h1 text-center">Companies Using MoveIt</h1>
+                    </div>
+                    <div class="col-sm-12">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/nasa-logo.png" alt="Nasa logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/google-logo.png" alt="Google logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/ms-logo.png" alt="Microsoft logo">
+                        <br class="onlyLg">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/fetch-logo.png" alt="Fetch robotics logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/franka-logo.png" alt="Franka Emika logo">
+                        <br class="onlyLg">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/pal-logo.png" alt="Pal Robotics logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/rtr_Logo.png" alt="RTR logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/kinova-logo.png" alt="Kinova logo">
+                    </div>
+                </div>
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--left">
