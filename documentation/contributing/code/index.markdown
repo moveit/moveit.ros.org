@@ -154,14 +154,14 @@ folder a file called ``compile_commands.json``. _After_ building, you can run cl
 **fix** issues automatically as follows:
 
 ```sh
-for file in $(find $CATKIN_WS/build -name compile_commands.json) ; do
+for file in $(find $ROS_WS/build -name compile_commands.json) ; do
 	run-clang-tidy -fix -p $(dirname $file)
 done
 ```
 
 You can run it also on selected folders or files of a package by specifying regular expressions to match the file names:
 ```sh
-run-clang-tidy -fix -p $CATKIN_WS/build/moveit_core collision
+run-clang-tidy -fix -p $ROS_WS/build/moveit_core collision
 ```
 
 Note that if you have multiple layers of nested ``for`` loops that need to be converted, clang-tidy
