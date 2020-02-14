@@ -11,6 +11,12 @@ title: Related Projects
 
 MoveIt is designed to be easily extensible as separate plugins or projects. Below is a list of related projects that have been aligned with the MoveIt framework, in alphabetical order of project names. This is by no means exhaustive. Please create pull-requests in the repository [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) to **add** other projects to this list. Or if not sure about the relevance, please post on the [ROS Discourse category](https://discourse.ros.org/c/moveit).
 
+## motoman_apps
+
+The [Nishida Takeshi Lab](http://lab.cntl.kyutech.ac.jp/) in Fukuoka, Japan supports a suite of ROS packages for working with the Motoman line of Robots from [Yaskawa](https://www.motoman.com/) through a number of interfaces including Matlab. You can explore some of these interfaces in the [motoman_apps](https://github.com/ntl-ros-pkg/motoman_apps) repository.
+
+<img src="/assets/images/related_projects/motoman_apps.png" height="500"/>
+
 ## bio_ik
 
 A MoveIt kinematics_base plugin based on Particle Optimization & Genetic Algorithms. For ease of use and compatibility with existing code, the bio-ik algorithm is encapsulated as a Moveit kinematics plugin. Therefore, bio-ik can be used as a direct replacement of the default Orocos/KDL-based IK solver. Given the name of an end-effector and a 6-DOF target pose, bio-ik will search a valid robot joint configuration that reaches the given target. [More Info](https://github.com/TAMS-Group/bio_ik)
