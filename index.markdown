@@ -31,9 +31,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="https://discourse.ros.org/t/moveit-2-beta-coming-soon">
+                                <a href="/moveit/ros2/2020/02/18/moveit-2-beta-feature-list.html">
                                     <span class="blue">Announcement</span>
-                                    <span>MoveIt 2 Beta Release February 14!</span>
+                                    <span>MoveIt 2 Beta has been released!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
