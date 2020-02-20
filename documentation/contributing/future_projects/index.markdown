@@ -83,6 +83,16 @@ This page lists potential projects that would greatly benefit the MoveIt project
   - Integration with [Descartes](https://github.com/ros-industrial-consortium/descartes).
   - Fix the long standing [orientation constraint joint flip bug](https://github.com/ros-planning/moveit/issues/562) in free-space planning.
 
+## On-the-fly robot reconfiguration and scene graph support
+
+- List of prerequisites: ROS
+- Description of programming skills: C++
+- Difficulty level: Medium to High
+- List of potential mentors: Felix von Drigalski
+- Detailed description: The planning scene in MoveIt is currently represented as a flat list of transforms from the origin. In this project, the planning scene should be extended with a scene graph or kinematic tree, so that it allows e.g. the dynamic attachment or removal of a hand to a robot arm, or picking up a board with other items attached to it.
+
+  This feature was implemented in [Tesseract](https://github.com/ros-industrial-consortium/tesseract), which can serve as a blueprint for parts of this project. Additionally, [TMKit](https://github.com/kavrakilab/tmkit.git) also implements this feature, but doesn't include ROS support.
+
 ## Improve Warehouse Support
 
 - List of prerequisites: ROS
