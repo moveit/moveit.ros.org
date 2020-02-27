@@ -63,7 +63,7 @@ The following repos are where documentation can be found:
 
 We use [Travis](https://travis-ci.org/ros-planning/) continous integration combined with the [moveit_ci](https://github.com/ros-planning/moveit_ci) for testing pull requests and overall code health. Travis status badges should be visible on the README.md of every MoveIt repository.
 
-To see an overview of the activity for MoveIt check our [Open HUB Project Summary](https://www.openhub.net/p/moveit).
+To see an overview of the activity for MoveIt check our [Open HUB Project Summary](https://www.openhub.net/p/moveit/analyses/latest/languages_summary).
 
 ## ROS Melodic Code API
 
