@@ -60,7 +60,7 @@ The only commits that might be pushed directly are cherry-picks from older branc
 If you see a trustworthy approval review in a request or the requestor is a fellow maintainer and all feedback has been addressed by the requestor,
 merge the request after your own review. Otherwise submit an "Approval" review after you are satisfied after the review.
 
-For small or trivial fixes, a single review is sufficient.
+For small or trivial fixes, a single review is sufficient. Additionally, for the ``moveit_experimental`` package, a single review is sufficient.
 
 ### GitHub Merge Policies
 
