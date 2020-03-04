@@ -33,7 +33,7 @@ title: Install
     <h1>Install MoveIt</h1>
     MoveIt is supported on the following systems:
     <div class="row systems-rectangle">
-      <button class="operating-system active" data-toggle="collapse" data-target="#Ubuntu1" aria-expanded="true" aria-controls="Ubuntu1">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu1" aria-expanded="true" aria-controls="Ubuntu1" autofocus="autofocus">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/ubuntu.png"/>
@@ -46,7 +46,7 @@ title: Install
             </div>
           </div>
       </button>
-      <button class="operating-system" data-toggle="collapse" data-target="#Ubuntu2" aria-expanded="true" aria-controls="Ubuntu2">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu2" aria-expanded="true" aria-controls="Ubuntu2">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/ubuntu.png"/>
@@ -59,7 +59,7 @@ title: Install
             </div>
           </div>
       </button>
-      <button class="operating-system" data-toggle="collapse" data-target="#Windows" aria-expanded="true" aria-controls="Windows">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#Windows" aria-expanded="true" aria-controls="Windows">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/windows.png"/>
@@ -72,7 +72,7 @@ title: Install
             </div>
           </div>
       </button>
-      <button class="operating-system" data-toggle="collapse" data-target="#MocOs" aria-expanded="true" aria-controls="MocOs">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#MocOs" aria-expanded="true" aria-controls="MocOs">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/mac-os.png"/>

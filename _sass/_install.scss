@@ -168,17 +168,7 @@
     height: 20px;
     width: 20px;
   }
-  .operating-system {
-    border-style: none;
-    outline: none;
-    padding-top: 20px;
-    padding-bottom: 14px;
-    padding-left: 18px;
-    padding-right: 18px;
-    margin-right: 14px;
-    border-radius: 8px;
-    background-color: #ffffff;
-    .system-type {
+  .system-type {
       padding-left: 10px;
       font-family: Lato;
       font-size: 13px;
@@ -193,11 +183,22 @@
         font-weight: bold;
       }
     }
-  }
-  .operating-system:focus {
-    background-color: #d9e5fd;
-    .system-type {
-      color: #0e5af7;
+    .btn-primary {
+      border-style: none;
+      outline: none;
+      padding-top: 20px;
+      padding-bottom: 14px;
+      padding-left: 18px;
+      padding-right: 18px;
+      margin-right: 14px;
+      border-radius: 8px;
+      background-color: #ffffff;
     }
-  }
+    .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:hover {
+      background-color: #d9e5fd !important;
+      box-shadow: none;
+      .system-type {
+        color: #0e5af7;
+      }
+    }
 }
