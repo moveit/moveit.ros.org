@@ -42,7 +42,7 @@ title: Install
               <div class="system-name">
                 Ubuntu
               </div>
-              17.10, 18.04
+              16.04
             </div>
           </div>
       </button>
