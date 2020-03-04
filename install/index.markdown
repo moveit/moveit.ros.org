@@ -125,60 +125,6 @@ title: Install
             MoveIt Getting Started Tutorial
           </span>
         </a>
-        <div class="horizontal-line"></div>
-        <h2>
-          Other Setups
-        </h2>
-        <div class="row no-gutters">
-          <div class="col-6">
-            <img src="/assets/install_page/github.png" height="26"/>
-            <h3>
-              Source Build
-            </h3>
-            <p>
-              <a href="/install/source/">See building from source</a>
-            </p>
-          </div>
-          <div class="col-5 offset-1">
-            <img src="/assets/install_page/docker.png" height="26"/>
-            <h3>
-              Docker
-            </h3>
-            <p>
-              <a href="/install/docker/">See building from source</a>
-            </p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-6">
-            <h3>
-              Virtual Machines
-            </h3>
-            <p>
-              We recommend developing with MoveIt on a native Ubuntu install. If you are unable to run Linux natively on your machine, the next best thing would be to set up a virtual machine using VMware. There are known issues with the ROS visualization tool RViz when used with VirtualBox - be sure to enable virtualization in your BIOS.
-            </p>
-          </div>
-          <div class="col-5 offset-1">
-            <h3>
-              Older Versions
-            </h3>
-            <p>
-              For previous versions, see
-            </p>
-            <p>
-              <a href="/install/source/">Source Installation Instructions</a> for unsupported versions of MoveIt
-            </p>
-          </div>
-        </div>
-        <div class="horizontal-line"></div>
-        <h2>
-          About Our Release Process
-        </h2>
-        <p>
-          MoveIt is released every few months into Ubuntu debian packages via
-          the ROS infrastructure. For more information see the <a href="TOOD(JafarAbdi): Add Link" target="_blank">ROS target platforms</a>
-          and <a href="TOOD(JafarAbdi): Add Link" target="_blank">MoveIt’s release process</a>.
-        </p>
       </div>
       <div class="collapse" id="Ubuntu2" data-parent="#accordion">
         TO BE IMPLEMENTED
@@ -207,6 +153,60 @@ title: Install
         <div class="horizontal-line"></div>
         TO BE IMPLEMENTED
       </div>
+      <div class="horizontal-line"></div>
+      <h2>
+        Other Setups
+      </h2>
+      <div class="row no-gutters">
+        <div class="col-6">
+          <img src="/assets/install_page/github.png" height="26"/>
+          <h3>
+            Source Build
+          </h3>
+          <p>
+            <a href="/install/source/">See building from source</a>
+          </p>
+        </div>
+        <div class="col-5 offset-1">
+          <img src="/assets/install_page/docker.png" height="26"/>
+          <h3>
+            Docker
+          </h3>
+          <p>
+            <a href="/install/docker/">See building from source</a>
+          </p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-6">
+          <h3>
+            Virtual Machines
+          </h3>
+          <p>
+            We recommend developing with MoveIt on a native Ubuntu install. If you are unable to run Linux natively on your machine, the next best thing would be to set up a virtual machine using VMware. There are known issues with the ROS visualization tool RViz when used with VirtualBox - be sure to enable virtualization in your BIOS.
+          </p>
+        </div>
+        <div class="col-5 offset-1">
+          <h3>
+            Older Versions
+          </h3>
+          <p>
+            For previous versions, see
+          </p>
+          <p>
+            <a href="/install/source/">Source Installation Instructions</a> for unsupported versions of MoveIt
+          </p>
+        </div>
+      </div>
+      <div class="horizontal-line"></div>
+      <h2>
+        About Our Release Process
+      </h2>
+      <p>
+        MoveIt is released every few months into Ubuntu debian packages via
+        the ROS infrastructure. For more information see the <a href="TOOD(JafarAbdi): Add Link" target="_blank">ROS target platforms</a>
+        and <a href="TOOD(JafarAbdi): Add Link" target="_blank">MoveIt’s release process</a>.
+      </p>
     </div>
   </div>
 </div>
