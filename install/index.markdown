@@ -8,19 +8,25 @@ title: Install
 ---
 <div class='row no-gutters'>
   <div class="rectangle-boarder-tall col-3 col-sm-3">
-    <div class="row no-gutters">
-      <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
-      <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
-      <div class="font-current-page">
-        Binary Install
+    <a href="TODO(JafarAbdi)">
+      <div class="row no-gutters">
+        <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
+        <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
+        <div class="font-current-page">
+          Binary Install
+        </div>
       </div>
-    </div>
-    <div class="row font-other-page">
-      Source Build
-    </div>
-    <div class="row font-other-page">
-      Docker Install
-    </div>
+    </a>
+    <a href="TODO(JafarAbdi)">
+      <div class="row font-other-page">
+        Source Build
+      </div>
+    </a>
+    <a href="TODO(JafarAbdi)">
+      <div class="row font-other-page">
+        Docker Install
+      </div>
+    </a>
   </div>
 
   <div class="rectangle-boarder-big col-9 col-sm-9">
