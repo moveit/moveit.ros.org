@@ -25,7 +25,7 @@ title: Install
 
   <div class="rectangle-boarder-big col-9 col-sm-9">
     <h1>Install MoveIt</h1>
-    MoveIt is supported on the following systems:
+    Choose which platform to install MoveIt on:
     <div class="row systems-rectangle">
       <button class="operating-system active" data-toggle="collapse" data-target="#Ubuntu1" aria-expanded="true" aria-controls="Ubuntu1">
           <div class="row no-gutters">
