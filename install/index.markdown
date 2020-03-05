@@ -17,7 +17,7 @@ title: Install
         </div>
       </div>
     </a>
-    <a href="TODO(JafarAbdi)">
+    <a href="/install/source/">
       <div class="row font-other-page">
         Source Build
       </div>
