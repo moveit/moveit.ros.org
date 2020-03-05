@@ -61,15 +61,44 @@
 }
 
 .rectangle-boarder-big {
+  @media screen and (max-width: 992px) {
+    padding: 40px !important;
+    .horizontal-line {
+      margin-left: -40px;
+      margin-right: -40px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+  }
+  @media screen and (max-width: 720px) {
+    padding: 20px !important;
+    .horizontal-line {
+      margin-left: -20px;
+      margin-right: -20px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    padding: 10px !important;
+    .horizontal-line {
+      margin-left: -10px;
+      margin-right: -10px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+  }
   padding-top: 70px;
   padding-bottom: 70px;
   padding-left: 117px !important;
   padding-right: 84px !important;
   border: solid 1px #eaeaea;
+  .docker-img {
+    margin: auto;
+    display: block;
+  }
   h1 {
     margin-bottom: 24px;
-    width: 576px;
-    height: 40px;
     font-family: Lato;
     font-size: 40px;
     font-weight: bold;
@@ -78,6 +107,10 @@
     line-height: 1;
     letter-spacing: normal;
     color: #191a20;
+    img {
+      padding-bottom: 10px;
+      vertical-align: middle;
+    }
   }
   h2 {
     font-family: Lato;
@@ -201,4 +234,21 @@
         color: #0e5af7;
       }
     }
+}
+
+.install-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.install-card-single {
+  margin-left: -30px;
+  flex: 0 0 49%;
+  max-width: 49%;
+  @media screen and (max-width: 992px) {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
 }

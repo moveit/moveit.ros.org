@@ -8,7 +8,7 @@ title: Install
 ---
 <div class='row no-gutters'>
   <div class="rectangle-boarder-tall col-3 col-sm-3">
-    <a href="TODO(JafarAbdi)">
+    <a href="/install/">
       <div class="row no-gutters">
         <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
         <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
@@ -22,7 +22,7 @@ title: Install
         Source Build
       </div>
     </a>
-    <a href="TODO(JafarAbdi)">
+    <a href="/install/docker/">
       <div class="row font-other-page">
         Docker Install
       </div>
