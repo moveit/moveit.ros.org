@@ -204,8 +204,8 @@ title: Install
       </h2>
       <p>
         MoveIt is released every few months into Ubuntu debian packages via
-        the ROS infrastructure. For more information see the <a href="TOOD(JafarAbdi): Add Link" target="_blank">ROS target platforms</a>
-        and <a href="TOOD(JafarAbdi): Add Link" target="_blank">MoveIt’s release process</a>.
+        the ROS infrastructure. For more information see the <a href="https://www.ros.org/reps/rep-0003.html" target="_blank">ROS target platforms</a>
+        and <a href="https://moveit.ros.org/documentation/contributing/pullrequests/" target="_blank">MoveIt’s release process</a>.
       </p>
     </div>
   </div>
