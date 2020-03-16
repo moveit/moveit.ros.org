@@ -55,7 +55,7 @@ title: Install
               <div class="system-name">
                 Ubuntu
               </div>
-              17.10, 18.04
+              18.04
             </div>
           </div>
       </button>
@@ -87,30 +87,59 @@ title: Install
       </button>
     </div>
     <div id="accordion">
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
       <div class="collapse show" id="Ubuntu1" data-parent="#accordion">
         <h3>
           Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
         </h3>
         <p>
-          Follow all the instructions to <a href="http://wiki.ros.org/ROS/Installation" target="_blank">install ROS</a>, including calls to <span class="ros-command">rosdep</span>
-        </p>
-        <p>
-          Choose your version of ROS below.
+          Follow all the instructions to <a href="http://wiki.ros.org/kinetic/Installation" target="_blank">install ROS Kinetic</a>, including calls to <span class="ros-command">rosdep</span>
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 16.04
         </h2>
-        <h3>
-          ROS Melodic - latest
-          <div class="bash-command">
-            <code>sudo apt-get install ros-melodic-moveit</code>
-          </div>
-        </h3>
         <h3>
           ROS Kinetic
           <div class="bash-command">
             <code>sudo apt-get install ros-kinetic-moveit</code>
+          </div>
+        </h3>
+        <div class="horizontal-line"></div>
+        <h2>
+          Quick Start
+        </h2>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="http://docs.ros.org/kinetic/api/moveit_tutorials/html/index.html" target="_blank">
+          <span class="link-with-background">
+            MoveIt Getting Started Tutorial
+          </span>
+        </a>
+      </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <div class="collapse" id="Ubuntu2" data-parent="#accordion">
+        <h3>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+        </h3>
+        <p>
+          Follow all the instructions to <a href="http://wiki.ros.org/melodic/Installation" target="_blank">install ROS Melodic</a>, including calls to <span class="ros-command">rosdep</span>
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 18.04
+        </h2>
+        <h3>
+          ROS Melodic
+          <div class="bash-command">
+            <code>sudo apt-get install ros-melodic-moveit</code>
           </div>
         </h3>
         <div class="horizontal-line"></div>
@@ -126,33 +155,35 @@ title: Install
           </span>
         </a>
       </div>
-      <div class="collapse" id="Ubuntu2" data-parent="#accordion">
-        TO BE IMPLEMENTED
-        <div class="horizontal-line"></div>
-        TO BE IMPLEMENTED
-        <div class="horizontal-line"></div>
-        TO BE IMPLEMENTED
-        <div class="horizontal-line"></div>
-        TO BE IMPLEMENTED
-      </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="Windows" data-parent="#accordion">
-        TO BE IMPLEMENTED
-        <div class="horizontal-line"></div>
-        TO BE IMPLEMENTED
-        <div class="horizontal-line"></div>
-        TO BE IMPLEMENTED
-        <div class="horizontal-line"></div>
-        TO BE IMPLEMENTED
+        <h2>
+          <img src="/assets/install_page/windows.png"> Install on Windows 10
+        </h2>
+        <h3>
+          ROS Melodic - Experimental
+        </h3>
+        See Microsoft-created tutorial <a href="https://ms-iot.github.io/ROSOnWindows/Moveit/UR3.html" target="_blank">Getting Started with MoveIt and UR3 on Windows</a>
       </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="MocOs" data-parent="#accordion">
-        TO BE IMPLEMENTED
-        <div class="horizontal-line"></div>
-        TO BE IMPLEMENTED
-        <div class="horizontal-line"></div>
-        TO BE IMPLEMENTED
-        <div class="horizontal-line"></div>
-        TO BE IMPLEMENTED
+        <h2>
+          <img src="/assets/install_page/mac-os.png"> Install on Mac
+        </h2>
+        <h3>
+          TO BE IMPLEMENTED
+        </h3>
       </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
       <div class="horizontal-line"></div>
       <h2>
         Other Setups
