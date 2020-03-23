@@ -46,7 +46,7 @@ title: Install
             </div>
           </div>
       </button>
-      <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu2" aria-expanded="true" aria-controls="Ubuntu2" autofocus="autofocus">
+      <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Ubuntu2" aria-expanded="true" aria-controls="Ubuntu2">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/ubuntu.png"/>
@@ -125,7 +125,7 @@ title: Install
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
-      <div class="collapse show" id="Ubuntu2" data-parent="#accordion">
+      <div class="collapse" id="Ubuntu2" data-parent="#accordion">
         <h3>
           Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
         </h3>
@@ -241,3 +241,15 @@ title: Install
     </div>
   </div>
 </div>
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) {
+    document.getElementById("defaultButton").click();
+ });
+jQuery(function($) {
+  $('.btn-primary').click(function() {
+    $('.btn-primary').not(this).removeClass('active').html(function() {
+    });
+    $(this).addClass('active')
+  });
+});
+</script>
