@@ -33,7 +33,7 @@ title: Install
     <h1>Install MoveIt</h1>
     Choose which platform to install MoveIt on:
     <div class="row systems-rectangle">
-      <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu1" aria-expanded="true" aria-controls="Ubuntu1" autofocus="autofocus">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu1" aria-expanded="true" aria-controls="Ubuntu1">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/ubuntu.png"/>
@@ -46,7 +46,7 @@ title: Install
             </div>
           </div>
       </button>
-      <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu2" aria-expanded="true" aria-controls="Ubuntu2">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu2" aria-expanded="true" aria-controls="Ubuntu2" autofocus="autofocus">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/ubuntu.png"/>
@@ -91,7 +91,7 @@ title: Install
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
-      <div class="collapse show" id="Ubuntu1" data-parent="#accordion">
+      <div class="collapse" id="Ubuntu1" data-parent="#accordion">
         <h3>
           Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
         </h3>
@@ -125,7 +125,7 @@ title: Install
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
-      <div class="collapse" id="Ubuntu2" data-parent="#accordion">
+      <div class="collapse show" id="Ubuntu2" data-parent="#accordion">
         <h3>
           Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
         </h3>
