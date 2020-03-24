@@ -19,7 +19,7 @@ title: Install
     </a>
     <a href="/install/source/">
       <div class="row font-other-page">
-        Source Build
+        Source Build: Linux
       </div>
     </a>
     <a href="/install/docker/">
@@ -30,8 +30,9 @@ title: Install
   </div>
 
   <div class="rectangle-boarder-big col-9 col-sm-9">
-    <h1>Install MoveIt</h1>
-    Choose which platform to install MoveIt on:
+    <h1>Binary Install</h1>
+    We're thrilled your ready to start using MoveIt!
+    <p>Choose which platform to install pre-built MoveIt on:</p>
     <div class="row systems-rectangle">
       <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu1" aria-expanded="true" aria-controls="Ubuntu1">
           <div class="row no-gutters">
@@ -177,7 +178,10 @@ title: Install
           <img src="/assets/install_page/mac-os.png"> Install on Mac
         </h2>
         <h3>
-          TO BE IMPLEMENTED
+           <p>Our appologies, there are currently no documented instructions for MoveIt 1 on OSX.
+              Various users have reported mixed results building MoveIt on OSX.</p>
+           <p>MoveIt 2 has much better reported support for OSX.</p>
+           <p>Please contribute any documentation you have to this Github repo, thanks!</p>
         </h3>
       </div>
       <!-- ----------------------------------------------------------------- -->
@@ -190,19 +194,19 @@ title: Install
       </h2>
       <div class="row no-gutters">
         <div class="col-6">
-          <img src="/assets/install_page/github.png" height="26"/>
-          <h3>
-            Source Build
-          </h3>
+          <h4>
+            <img src="/assets/install_page/github.png"/>
+            Source Build: Linux
+          </h4>
           <p>
             <a href="/install/source/">See building from source</a>
           </p>
         </div>
         <div class="col-5 offset-1">
-          <img src="/assets/install_page/docker.png" height="26"/>
-          <h3>
+          <h4>
+            <img src="/assets/install_page/docker.png"/>
             Docker
-          </h3>
+          </h4>
           <p>
             <a href="/install/docker/">See building from source</a>
           </p>
@@ -222,9 +226,7 @@ title: Install
             Older Versions
           </h3>
           <p>
-            For previous versions, see
-          </p>
-          <p>
+            For previous versions, see the bottom of
             <a href="/install/source/">Source Installation Instructions</a> for unsupported versions of MoveIt
           </p>
         </div>

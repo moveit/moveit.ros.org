@@ -52,12 +52,12 @@ redirect_from: '/moveit/'
                                 <div class="info-box-header">
                                     Latest: Melodic / Ubuntu 18.04
                                 </div>
-                                <a href="http://moveit.ros.org/install/" class="info-box-button button">Install from debian</a>
+                                <a href="/install/" class="info-box-button button">Install from debian</a>
                                 <div class="info-box-version">
-                                    Version: 1.0.0
+                                    Version: 1.0.2
                                 </div>
                                 <div class="link-group">
-                                    <a href="http://moveit.ros.org/install/source/" class="info-box-link">Install from Source</a>
+                                    <a href="/install/source/" class="info-box-link">Install from Source</a>
                                     <span>|</span>
                                     <a href="https://github.com/ros-planning/moveit" target="_blank" class="info-box-link">View on Github</a>
                                 </div>

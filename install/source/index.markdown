@@ -4,13 +4,13 @@ comments: false
 date: 2016-8-4 20:43:44+00:00
 layout: page
 slug: source_install
-title: Source Install
+title: Source Build - Linux
 ---
 <div class='row no-gutters'>
   <div class="rectangle-boarder-tall col-3 col-sm-3">
     <a href="/install/">
       <div class="row font-other-page">
-        Binary Build
+        Binary Install
       </div>
     </a>
     <a href="/install/source/">
@@ -18,7 +18,7 @@ title: Source Install
         <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
         <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
         <div class="font-current-page">
-          Source Install
+          Source Build: Linux
         </div>
       </div>
     </a>
@@ -29,15 +29,20 @@ title: Source Install
     </a>
   </div>
   <div class="rectangle-boarder-big col-9 col-sm-9">
-    <h1>Build MoveIt From Source</h1>
-        <p>MoveIt is mainly supported on Linux, in particular:</p>
+    <h1>Source Build: Linux</h1>
+        <p>Installing MoveIt from source is the first step in contributing new features, optimizations, and bug fixes back to the open source project. Thanks for getting involved!</p>
+        <img class="docker-img" src="/assets/install_page/docker-illustration.png"/>
+        <br />
+        <p>MoveIt is mainly supported on Linux, and the following build instructions support in particular:</p>
         <ul>
             <li>Ubuntu 17.10, 18.04 / <a href="http://www.ros.org/wiki/melodic/Installation/Ubuntu" target="_blank">ROS Melodic</a></li>
             <li>Ubuntu 15.10, 16.04 / <a href="http://www.ros.org/wiki/kinetic/Installation/Ubuntu" target="_blank">ROS Kinetic</a></li>
         </ul>
-    <p>As of February 2019, <a href="https://github.com/ros-planning/moveit2" target="_blank">MoveIt for ROS 2.0</a> development has begun but is not ready yet.</p>
+        <p>In the future, we would like to expand our source build instructions to more OS's, please contribute!</p>
     <h2>Prerequisites</h2>
-    <h3>Install ROS</h3>
+    <h3>
+    Install <img src="/assets/install_page/ros_logo.jpeg"/>
+    </h3>
     <p>Follow all the instructions to <a href="http://wiki.ros.org/ROS/Installation" target="_blank">install ROS</a>. Please make sure you have followed all steps and have the latest versions of packages installed:</p>
     <div class="bash-command">
         <code>
@@ -70,7 +75,7 @@ title: Source Install
     </div>
     <p>This will load the <span class="ros-command">${ROS_DISTRO}</span> variable, needed for the next step.</p>
     <h2>Download Source Code</h2>
-    <p>By default, we will assume you are building the latest branch -  <span class="ros-command">master</span>.
+    <p>By default, we will assume you are building the latest branch: <span class="ros-command">master</span>.
     This branch builds for ROS Kinetic and newer, e.g. on Ubuntu 16.04 and newer.
     If you would like to build an older release of MoveIt from source, see the section below.</p>
     <p>Pull down required repositories and build from within the root directory of your catkin workspace:</p>
@@ -144,7 +149,14 @@ title: Source Install
     <p>Setup your environment - you can do this every time you work with this particular source install of the code, or you can add this to your <span class="ros-command">.bashrc</span> (recommended):</p>
     <pre class="bash-command">source ~/ws_moveit/devel/setup.bash # or .zsh, depending on your shell</pre>
     <h2>Quick Start</h2>
-    <p>Start planning in Rviz with with the <a href="https://ros-planning.github.io/moveit_tutorials/doc/getting_started/getting_started.html" target="_blank">MoveIt Getting Started Tutorial</a></p>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="https://ros-planning.github.io/moveit_tutorials/" target="_blank">
+          <span class="link-with-background">
+            MoveIt Getting Started Tutorial
+          </span>
+        </a>
     <div class="horizontal-line"></div>
     <h2>Advanced</h2>
     <h3>Building Older Releases Of MoveIt</h3>

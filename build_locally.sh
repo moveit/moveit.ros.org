@@ -10,13 +10,30 @@ if [[ "$0" != "${BASH_SOURCE}" ]]; then
   return 1
 fi
 
-# Install dependencies
-sudo apt-get install ruby ruby-dev build-essential
+have_noinstall() {
+  for arg in "$@"; do
+    if [[ "${arg}" == "noinstall" ]]; then
+      return 0
+    fi
+  done
+  return 1
+}
+
+################################################################################
+# Begin Main Script
+################################################################################
+
+# Environment
 export GEM_HOME=$HOME/gems
 export PATH=$HOME/gems/bin:$PATH
-gem install jekyll
-gem install bundler -v 1.17.3
-bundle install
+
+# Install dependencies, unless argument says to skip
+if ! have_noinstall "$@"; then
+  sudo apt-get install ruby ruby-dev build-essential
+  gem install jekyll
+  gem install bundler -v 1.17.3
+  bundle install
+fi
 
 # Build website using similar script as Travis, but skip htmlproofer because it fails locally:
 bundle exec jekyll build --strict_front_matter

@@ -142,12 +142,27 @@
     color: #191a20;
     img {
        vertical-align: baseline;
-       height: 11px;
+       height: 12px;
        padding-left: 2px;
     }
   }
+  h4 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #191a20;
+    img {
+       vertical-align: center;
+       height: 20px;
+       padding-left: 2px;
+       padding-bottom: 5px;
+    }
+  }
   p {
-    margin-bottom: 0px;
     font-family: Lato;
     font-size: 16px;
     font-weight: normal;

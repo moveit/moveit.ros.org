@@ -15,7 +15,7 @@ title: Docker Install
     </a>
     <a href="/install/source/">
       <div class="row font-other-page">
-        Source Build
+        Source Build: Linux
       </div>
     </a>
     <a href="/install/docker/">
@@ -88,6 +88,16 @@ title: Docker Install
         ./gui-docker
       </code>
     </div>
+    <div class="horizontal-line"></div>
+    <h2>Quick Start</h2>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="https://ros-planning.github.io/moveit_tutorials/" target="_blank">
+          <span class="link-with-background">
+            MoveIt Getting Started Tutorial
+          </span>
+        </a>
     <div class="horizontal-line"></div>
     <h2>MoveIt Container Types</h2>
     <p>There are many variants of the MoveIt Docker available as <a href="/documentation/contributing/continuous_integration/">documented here</a>. For example, any of the two current distros work: [kinetic, melodic]. Other variations include:</p>
