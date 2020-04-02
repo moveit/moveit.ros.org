@@ -31,7 +31,7 @@ title: Install
 
   <div class="rectangle-boarder-big col-9 col-sm-9">
     <h1>Binary Install</h1>
-    We're thrilled your ready to start using MoveIt!
+    We're thrilled you're ready to start using MoveIt!
     <p>Choose which platform to install pre-built MoveIt on:</p>
     <div class="row systems-rectangle">
       <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu1" aria-expanded="true" aria-controls="Ubuntu1">
