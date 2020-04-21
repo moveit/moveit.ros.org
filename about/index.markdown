@@ -18,10 +18,16 @@ title: About
       <div class="main-card-wrapper">
         <div class="main-card-single">
         <p>
-        MoveIt is an open source project that is the result of the combined efforts of a large international community and multiple organizations. Many people have played a key role in making MoveIt what it is today and they are awknowledged below - thank you!
+        MoveIt is an open source project that is the result of the combined efforts of a large international community and multiple organizations.
+        Many people have played a key role in making MoveIt what it is today and they are awknowledged below - thank you!
         </p>
         <p>
-        The primary governance of MoveIt takes place during monthly meetings of the maintainers and core contributors through majority vote. Organizational leadership and administration is lead by <a href="https://picknik.ai/" target="_blank">PickNik Robotics</a>.
+        The primary governance of MoveIt takes place during the public monthly maintainer meetings through majority vote.
+        The meetings are also now known as the ROS 2 Manipulation Working Group.
+        For more information see the <a href="maintainer_policy" target="_blank">full maintainer policy</a> as well as the <a href="https://github.com/ros-planning/moveit/blob/master/.github/CODEOWNERS" target="_blank">CODEOWNERS</a> file.
+        </p>
+        <p>
+        Organizational leadership, outreach, publicity, and additional maintance is lead by <a href="https://picknik.ai/" target="_blank">PickNik Robotics</a>.
         </p>
         </div>
         <div class="main-card-single main-card-single-center">
@@ -40,7 +46,7 @@ title: About
       <div class="main-card-wrapper">
         <div class="main-card-single boarder main-card-single-padding">
             <h2>Maintainers</h2>
-            MoveIt maintainers, commonly referred to as “committers” in other open source projects, are the seasoned experts of the MoveIt project and the only ones who can merge pull requests.
+            We have a stringent process for giving commit access to the code base to ensure quality. MoveIt maintainers, commonly referred to as “committers” in other open source projects, are the seasoned experts of the MoveIt project and the only ones who can merge pull requests.
             <div class="horizontal-line"></div>
             <div class="container-fluid">
               <div class="container">
@@ -129,7 +135,7 @@ title: About
         </div>
         <div class="main-card-single boarder main-card-single-padding">
           <h2>Core Contributors</h2>
-          We have a stringent process for giving commit access to the code base to ensure quality, but we want to have as many people involved in reviewing pull requests and responding to issues. We have a non-commit access category of MoveIt experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt early on and are listed in the <a href="https://github.com/ros-planning/moveit/blob/master/.github/CODEOWNERS" target="_blank">CODEOWNERS</a> file. See the <a href="maintainer_policy" target="_blank">full maintainer policy</a>.
+          We want to have as many people as possible in our community involved in reviewing pull requests and responding to issues. We have a non-commit access category of MoveIt experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt early on.
           <div class="horizontal-line"></div>
           <div class="container-fluid">
             <div class="container">
@@ -358,7 +364,9 @@ title: About
         <div class="main-card-single boarder main-card-single-padding  main-card-single-center">
           <img class="mx-auto d-block quote-img" src="/assets/images/people_page/quote.png">
           <a href="https://arxiv.org/abs/1404.3785">Reducing the Barrier to Entry of Complex Robotic Software: a MoveIt! Case Study</a>
-          <p>David Coleman, Ioan Sucan, Sachin Chitta, Nikolaus Correll</p>
+          <p>David Coleman, Ioan Sucan, Sachin Chitta, Nikolaus Correll <br />
+             Journal of Software Engineering for Robotics (2014)
+          </p>
         </div>
         <div class="main-card-single boarder main-card-single-padding  main-card-single-center">
           <img class="mx-auto d-block quote-img" src="/assets/images/people_page/quote.png">
