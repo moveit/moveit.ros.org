@@ -105,6 +105,15 @@ In this context it might be worth spending some time on making use of features a
 
 Release person must have a write access to both devel repos (e.g. [github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)) as well as release repos (e.g. [github.com/ros-gbp/moveit-release](https://github.com/ros-gbp/moveit-release)).
 
+### Consider backporting
+
+Before preparing a new release for the latest released branch, backports from the ``master`` branch should be considered and reviewed some time before the release.
+To this end, the ``reviewed-for-backport`` branch exists as a marker in the commit history for ``master``, marking the last commit that was considered for backporting.
+Run ``git cherry -v <release-branch> master reviewed-for-backport | grep '^+'`` to generate a list of all commits between ``reviewed-for-backport`` and the current ``master`` branch that have not been merged in ``release-branch`` (without modifications).
+Create a new issue with a checkable listing with all commits and ask developers to look through these commits and decide whether they can be ignored or should be backported.
+Backports should be pull-requests and reviewed separately, though possibly bundled.
+Once all listed commits have been checked, forward the ``reviewed-for-backport`` branch to ``<release-branch>``: ``git checkout reviewed-for-backport; git merge --ff-only <release-branch>``.
+
 ### Typical protocol for a single release
 If each step ends with issues, they need to be fixed before moving on.
 
