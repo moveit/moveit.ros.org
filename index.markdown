@@ -31,9 +31,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="/moveit/ros2/2020/02/18/moveit-2-beta-feature-list.html">
+                                <a href="/events/world-moveit-day/2020/04/28/world-moveit-day-2020.html">
                                     <span class="blue">Announcement</span>
-                                    <span>MoveIt 2 Beta has been released!</span>
+                                    <span>World MoveIt Day Hackathon June 2nd!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
