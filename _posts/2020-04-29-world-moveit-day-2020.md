@@ -14,12 +14,14 @@ categories:
 
 We’re excited to announce the <i>fifth annual</i> World MoveIt Day is going virtual, and will be held on <strong>Tuesday, June 2, 2020</strong> from wherever you are.
 World MoveIt Day is an international hackathon to improve the MoveIt code base, documentation, and community.
-Every year we close an impressive number of issues and merge nearly 100 pull requests, while explore new areas of improvements for the now eight years strong framework.
+Every year we close an impressive number of issues and merge nearly 100 pull requests, while exploring new areas of improvements for the now eight years strong framework.
 
 This year's hackathon is especially exciting with the arrival of [MoveIt 2 Beta](/moveit/ros2/2020/02/18/moveit-2-beta-feature-list.html)!
 
 Everyone is welcome to participate from their local workplace, simply by working on open issues.
 Beginners are also welcome and can learn from the tutorials while having more possible users online to provide help.
+
+We've also aligned the event with the start of our [Google Summer of Code](https://discourse.ros.org/t/moveit-accepted-to-google-summer-of-code-2020/13006) students and other interns. If you're interested in gaining experience with open source robotics this summer, attending this event is a great place to get started. Contact world-moveit-day@picknik.ai for more info on volunteering this summer as a MoveIt intern.
 
 ## Signup
 
