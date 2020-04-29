@@ -89,7 +89,7 @@ _I have a found a bug in MoveIt itself. What should I do?_
 
 _I would like to add a new robot to the list of robots using MoveIt. What should I do?_
 
-  * Create a pull request to [moveit.ros.org's Github repo](https://github.com/ros-planning/moveit.ros.org) or email [PickNik Consulting](http://picknik.ai/connect) for additional assitance.
+  * Create a pull request to [moveit.ros.org's Github repo](https://github.com/ros-planning/moveit.ros.org) or email [PickNik Robotics](http://picknik.ai/connect) for additional assitance.
 
 _What robots does MoveIt support?_
 
