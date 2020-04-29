@@ -24,7 +24,7 @@ World MoveIt Day is an international hackathon to improve the MoveIt code base, 
 - [Iron Ox](http://ironox.com), San Francisco, USA
   - Organizer: Jon Binnery
   - [Event details](https://www.eventbrite.com/e/world-moveit-day-2018-bay-area-tickets-49609912584)
-- [PickNik Consulting](http://picknik.ai), Boulder, USA
+- [PickNik Robotics](http://picknik.ai), Boulder, USA
   - Organizer: Dave Coleman
   - [Event details](https://www.meetup.com/BoulderIsForRobots/events/254921086/)
 - [Fraunhofer IPA](https://www.ipa.fraunhofer.de/en.html) / [RIC-EU](https://rosindustrial.org/ric-eu/), Stuttgart, Germany
@@ -48,7 +48,7 @@ World MoveIt Day is an international hackathon to improve the MoveIt code base, 
 
 ## General Information Contacts
 
-  * Dave Coleman, Nathan Brooks, Rob Coleman // PickNik Consulting
+  * Dave Coleman, Nathan Brooks, Rob Coleman // PickNik Robotics
 
 ## Signup
 
@@ -98,7 +98,7 @@ Joint the video conference on [Appear.In](https://appear.in/moveit2)
 
 We'd like to thank the following sponsors:
 
-[<img src="/assets/images/wmd18/picknik_logo.png" alt="PickNik Consulting" width="200" css="margin-right:20px"/>](http://picknik.ai)
+[<img src="/assets/images/wmd18/picknik_logo.png" alt="PickNik Robotics" width="200" css="margin-right:20px"/>](http://picknik.ai)
 
 [<img src="/assets/images/wmd18/iron_ox_logo.png" alt="Iron Ox" width="150" css="margin-right:20px"/>](http://ironox.com)
 

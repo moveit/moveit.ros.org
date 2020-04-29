@@ -11,7 +11,7 @@ title: Support
 
 ## Professional Support
 
-[PickNik Consulting](http://picknik.ai/) was founded with the mission of growing the MoveIt project through community building and sponsored development.
+[PickNik Robotics](http://picknik.ai/) was founded with the mission of growing the MoveIt project through community building and sponsored development.
 We offer [ongoing MoveIt support](https://picknik.ai/services/moveit/) plans as well as custom code development.
 If you are with a company or organization that may be interested, contact us for a free consultation call.
 
