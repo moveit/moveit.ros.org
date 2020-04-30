@@ -20,19 +20,19 @@ _I'm totally new, how do I get started?_
 _What version of MoveIt should I use?_
 
   * For most developers, we recommend building the [master](https://github.com/ros-planning/moveit) branch from source.
-  * If you are a beginner, installing the Melodic LTS release from Debian is easiest and fastest.
+  * If you are a beginner, installing the Melodic LTS release from Debian is the easiest and fastest.
   * You can also use a [Docker container](https://moveit.ros.org/install/docker/) for a virtual setup.
 
 _Should I build from source or install the Debians?_
 
-  * If you are an intermediate to advanced user ready to contribute code, install from source of course!
-  * If you are a beginner, the pre-built Debians for ROS Kinetic and ROS Melodic are easiest.
+  * If you are an intermediate to advanced user ready to contribute code, then install from source of course!
+  * If you are a beginner, the pre-built Debians for ROS Kinetic and ROS Melodic are the easiest.
   * Note however that the last ROS Distro was released almost 2 years ago, so the latest features are only on the *master* branch built from source.
 
 _What kind of computer do I need?_
 
   * ROS 1.0 works best on a Linux computer, particularly Ubuntu 16.04 or 18.04. [Some Windows support](https://moveit.ros.org/install/) is also available.
-  * If you are running another operating system, we recommend trying dual booting, [installing on Docker](https://moveit.ros.org/install/docker/), or using a virtual machine (see [notes](https://moveit.ros.org/install/)).
+  * If you are running another operating system, we recommend to try dual booting, [installing on Docker](https://moveit.ros.org/install/docker/), or using a virtual machine (see [notes](https://moveit.ros.org/install/)).
 
 _Where is the source code?_
 
@@ -40,7 +40,7 @@ _Where is the source code?_
 
 _Where can I find the changelogs for MoveIt?_
 
-  * The change logs for MoveIt can be found directly on the [MoveIt ROS Wiki page](http://wiki.ros.org/moveit). Announcements on the mailing list also inform users of the latest changes.
+  * The changelogs for MoveIt can be found directly on the [MoveIt ROS Wiki page](http://wiki.ros.org/moveit). Announcements on the mailing list also inform users of the latest changes.
 
 ## Terminology
 
@@ -66,7 +66,7 @@ _What is the difference between MoveIt and OMPL?_
 
 _What is the difference between MoveIt and PickNik?_
 
-  * MoveIt is an open source project started at Willow Garage (see [history](https://moveit.ros.org/about/)) that is now lead by [PickNik Robotics](https://picknik.ai/).
+  * MoveIt is an open source project that started at Willow Garage (see [history](https://moveit.ros.org/about/)) and is now led by [PickNik Robotics](https://picknik.ai/).
   * PickNik was founded by lead MoveIt maintainer Dave Coleman with the mission of growing the MoveIt project through community building and contract consulting.
 
 _What is the difference between MoveIt and ROS-Industrial?_
@@ -100,9 +100,9 @@ _What robots does MoveIt support?_
 
 _How do I hear the latest announcements on MoveIt?_
 
-  * Watch the [MoveIt Category on ROS Discourse](https://discourse.ros.org/c/moveit]
+  * Watch the [MoveIt Category on ROS Discourse](https://discourse.ros.org/c/moveit)
   * Follow the [MoveIt blog](/blog).
-  * Follow [@PickNikRobotics](https://twitter.com/PickNikRobotics] on Twitter.
+  * Follow [@PickNikRobotics](https://twitter.com/PickNikRobotics) on Twitter.
 
 ## Legal
 
