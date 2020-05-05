@@ -19,7 +19,7 @@ title: About
         <div class="main-card-single">
         <p>
         MoveIt is an open source project that is the result of the combined efforts of a large international community and multiple organizations.
-        Many people have played a key role in making MoveIt what it is today and they are awknowledged below - thank you!
+        Many people have played a key role in making MoveIt what it is today and they are acknowledged below - thank you!
         </p>
         <p>
         The primary governance of MoveIt takes place during the public monthly maintainer meetings through majority vote.
@@ -27,7 +27,7 @@ title: About
         For more information see the <a href="maintainer_policy" target="_blank">full maintainer policy</a> as well as the <a href="https://github.com/ros-planning/moveit/blob/master/.github/CODEOWNERS" target="_blank">CODEOWNERS</a> file.
         </p>
         <p>
-        Organizational leadership, outreach, publicity, and additional maintance is lead by <a href="https://picknik.ai/" target="_blank">PickNik Robotics</a>.
+        Organizational leadership, outreach, publicity, and additional maintenance is led by <a href="https://picknik.ai/" target="_blank">PickNik Robotics</a>.
         </p>
         </div>
         <div class="main-card-single main-card-single-center">
