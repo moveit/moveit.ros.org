@@ -37,7 +37,7 @@ redirect_from: '/moveit/'
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
-                            <p class="main-text">Easy-to-use robotics manipulation platform for developing applications, evaluating designs, and building integrated products</p>
+                            <p class="main-text">Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.</p>
                             <div class="button-group">
                                 <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
                                 <a class="button button-yellow modal-link" href="https://www.youtube-nocookie.com/embed/0og1SaZYtRc" target="_blank">Watch our montage</a>
