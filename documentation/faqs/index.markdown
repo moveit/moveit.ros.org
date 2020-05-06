@@ -38,6 +38,17 @@ _Where is the source code?_
 
   * See the cute Octocat at the top right corner of this webpage. Or just go to [MoveIt's Github](https://github.com/ros-planning/moveit).
 
+_How do I create a pull request?_
+
+  * [Contributing](https://moveit.ros.org/documentation/contributing/) fixes and features back to MoveIt is not as hard as it may seem, everyone is encouraged to do it!
+  * The high level is:
+    * Create a [Github fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks) of MoveIt
+    * [Clone the repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) locally
+    * Make the changes to the code
+    * [Commit the change](https://help.github.com/en/github/using-git)
+    * [Push the updated branch](https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository) to your fork
+    * Finally open a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests).
+
 _Where can I find the changelogs for MoveIt?_
 
   * The changelogs for MoveIt can be found directly on the [MoveIt ROS Wiki page](http://wiki.ros.org/moveit). Announcements on the mailing list also inform users of the latest changes.
