@@ -155,13 +155,13 @@ folder a file called ``compile_commands.json``. _After_ building, you can run cl
 
 ```sh
 for file in $(find $CATKIN_WS/build -name compile_commands.json) ; do
-	run-clang-tidy -fix -p $(dirname $file)
+	run-clang-tidy -fix -header-filter="$CATKIN_WS/.*" -p $(dirname $file)
 done
 ```
 
 You can run it also on selected folders or files of a package by specifying regular expressions to match the file names:
 ```sh
-run-clang-tidy -fix -p $CATKIN_WS/build/moveit_core collision
+run-clang-tidy -fix -header-filter="$CATKIN_WS/.*" -p $CATKIN_WS/build/moveit_core collision
 ```
 
 Note that if you have multiple layers of nested ``for`` loops that need to be converted, clang-tidy
@@ -190,4 +190,3 @@ Please explicitly specify the variable type, if it doesn't become clear immediat
 for (const int & item : container)
   std::cout << item;
 ```
-
