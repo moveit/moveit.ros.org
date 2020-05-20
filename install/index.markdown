@@ -1,36 +1,10 @@
 ---
-author: admin
-comments: false
-date: 2016-8-5 20:43:44+00:00
-layout: page
+layout: install
 slug: install
-title: Install
+title: MoveIt 1 Binary Install
 ---
-<div class='row no-gutters'>
-  <div class="rectangle-boarder-tall col-3 col-sm-3">
-    <a href="/install/">
-      <div class="row no-gutters">
-        <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
-        <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
-        <div class="font-current-page">
-          Binary Install
-        </div>
-      </div>
-    </a>
-    <a href="/install/source/">
-      <div class="row font-other-page">
-        Source Build: Linux
-      </div>
-    </a>
-    <a href="/install/docker/">
-      <div class="row font-other-page">
-        Docker Install
-      </div>
-    </a>
-  </div>
-
-  <div class="rectangle-boarder-big col-9 col-sm-9">
-    <h1>Binary Install</h1>
+  <div>
+    <h1>MoveIt 1 Binary Install</h1>
     We're thrilled you're ready to start using MoveIt!
     <p>Choose which platform to install pre-built MoveIt on:</p>
     <div class="row systems-rectangle">
@@ -242,7 +216,7 @@ title: Install
       </p>
     </div>
   </div>
-</div>
+
 <script type="text/javascript">
 document.addEventListener("DOMContentLoaded", function(event) {
     document.getElementById("defaultButton").click();

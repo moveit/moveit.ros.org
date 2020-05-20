@@ -1,6 +1,20 @@
 .rectangle-boarder-tall {
-  padding-top: 70px;
+  padding-top: 50px;
   border: solid 1px #eaeaea;
+}
+
+.rectangle-boarder-tall .version-header {
+  padding-top: 25px;
+  padding-bottom: 4px;
+  margin-left: 12px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: rgba(71, 72, 77, 1);
 }
 
 .ros-command {
@@ -178,7 +192,7 @@
   position: absolute;
   padding-top: 4px;
   padding-bottom: 4px;
-  margin-left: 16px;
+  margin-left: 20px;
   font-family: Lato;
   font-size: 14px;
   font-weight: bold;
@@ -192,7 +206,7 @@
 .font-other-page {
   padding-top: 4px;
   padding-bottom: 4px;
-  margin-left: 16px;
+  margin-left: 20px;
   font-family: Lato;
   font-size: 14px;
   font-weight: normal;
