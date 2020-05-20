@@ -1,8 +1,5 @@
 ---
-author: davetcoleman
-comments: false
-date: 2016-8-4 20:43:44+00:00
-layout: page
+layout: install
 slug: source_dep_install
 title: Dependencies Source Install
 ---

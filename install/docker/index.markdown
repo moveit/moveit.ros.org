@@ -1,36 +1,11 @@
 ---
-author: davetcoleman, felixvd
-comments: false
-date: 2016-8-5 20:43:44+00:00
-layout: page
+layout: install
 slug: docker_install
-title: Docker Install
+title: MoveIt 1 Docker Install
 ---
-<div class='row no-gutters'>
-  <div class="rectangle-boarder-tall col-3 col-sm-3">
-    <a href="/install/">
-      <div class="row font-other-page">
-        Binary Install
-      </div>
-    </a>
-    <a href="/install/source/">
-      <div class="row font-other-page">
-        Source Build: Linux
-      </div>
-    </a>
-    <a href="/install/docker/">
-      <div class="row no-gutters">
-        <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
-        <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
-        <div class="font-current-page">
-            Docker Install
-        </div>
-      </div>
-    </a>
-  </div>
 
-  <div class="rectangle-boarder-big col-9 col-sm-9">
-    <h1><img src="/assets/install_page/docker.png">  Docker Install</h1>
+<div>
+    <h1><img src="/assets/install_page/docker.png">  MoveIt 1 Docker Install</h1>
     <p>
       Docker is an open-source project that automates the deployment of Linux
       applications inside software containers. See <a href="https://www.docker.com/" target="_blank">www.docker.com</a>
@@ -131,5 +106,4 @@ title: Docker Install
     <br/>
     <p><b>2. And running:</b></p>
     <p><span class="ros-command">gui-docker</span> again.</p>
-  </div>
 </div>
