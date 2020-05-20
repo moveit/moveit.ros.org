@@ -1,35 +1,11 @@
 ---
-author: davetcoleman
-comments: false
-date: 2016-8-4 20:43:44+00:00
-layout: page
+layout: install
 slug: source_install
-title: Source Build - Linux
+title: MoveIt 1 Source Build - Linux
 ---
-<div class='row no-gutters'>
-  <div class="rectangle-boarder-tall col-3 col-sm-3">
-    <a href="/install/">
-      <div class="row font-other-page">
-        Binary Install
-      </div>
-    </a>
-    <a href="/install/source/">
-    <div class="row no-gutters">
-        <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
-        <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
-        <div class="font-current-page">
-          Source Build: Linux
-        </div>
-      </div>
-    </a>
-    <a href="/install/docker/">
-      <div class="row font-other-page">
-        Docker Install
-      </div>
-    </a>
-  </div>
-  <div class="rectangle-boarder-big col-9 col-sm-9">
-    <h1>Source Build: Linux</h1>
+
+  <div>
+    <h1>MoveIt 1 Source Build: Linux</h1>
         <p>Installing MoveIt from source is the first step in contributing new features, optimizations, and bug fixes back to the open source project. Thanks for getting involved!</p>
         <img class="docker-img" src="/assets/install_page/docker-illustration.png"/>
         <br />
@@ -173,6 +149,4 @@ title: Source Build - Linux
     </div>
     <h3>Build Dependencies From Source</h3>
     <p>For MongoDB, OMPL, or FCL source installs, see <a href="/install/source/dependencies/">Building Common MoveIt Dependencies from Source in Catkin</a>.</p>
-
-    </div>
-</div>
+  </div>
