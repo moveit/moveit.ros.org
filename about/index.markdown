@@ -224,6 +224,12 @@ title: About
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/Levi-Armstrong" target="_blank">Levi-Armstrong</a>
                 </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Tyler Weaver</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/tylerjw" target="_blank">tylerjw</a>
+                </div>
               </div>
             </div>
           </div>
