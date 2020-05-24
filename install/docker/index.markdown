@@ -98,16 +98,14 @@ title: MoveIt 1 Docker Install
     </div>
     <div class="horizontal-line"></div>
     <h2>Troubleshooting</h2>
-    <p><b>"source devel/setup.bash" does not work / MoveIt packages are not found</b></p>
-    <br/>
-    <p>In the moveit/moveit:master-source container, "install/setup.bash" needs to be sourced instead of "devel/setup.bash".</p>
-    <br/>
-    <p><span class="ros-command">Error response from daemon: OCI runtime create failed...</span></p>
-    <br/>
-    <p>Your container may have an issue. Try</p>
-    <p><b>1. Deleting it by:</b></p>
-    <p><span class="ros-command">docker stop default_container && docker rm default_container</span></p>
-    <br/>
-    <p><b>2. And running:</b></p>
-    <p><span class="ros-command">gui-docker</span> again.</p>
+        <h3>"source devel/setup.bash" does not work / MoveIt packages are not found</h3>
+            <p>In the moveit/moveit:master-source container, "install/setup.bash" needs to be sourced instead of "devel/setup.bash".</p>
+            <br/>
+        <h3>Error response from daemon: OCI runtime create failed...</h3>
+            <p>Your container may have an issue. Try</p>
+            <p><b>1. Deleting it by:</b></p>
+            <p><span class="ros-command">docker stop default_container && docker rm default_container</span></p>
+            <br/>
+            <p><b>2. And running:</b></p>
+            <p><span class="ros-command">gui-docker</span> again.</p>
 </div>
