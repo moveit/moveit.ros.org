@@ -98,6 +98,10 @@ title: MoveIt 1 Docker Install
     </div>
     <div class="horizontal-line"></div>
     <h2>Troubleshooting</h2>
+    <p><b>"source devel/setup.bash" does not work / MoveIt packages are not found</b></p>
+    <br/>
+    <p>In the moveit/moveit:master-source container, "install/setup.bash" needs to be sourced instead of "devel/setup.bash".</p>
+    <br/>
     <p><span class="ros-command">Error response from daemon: OCI runtime create failed...</span></p>
     <br/>
     <p>Your container may have an issue. Try</p>
