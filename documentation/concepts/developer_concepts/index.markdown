@@ -11,9 +11,9 @@ title: Developer concepts
 This page explains MoveIt concepts which are mainly useful for developers. It reflects the current state of the `master` branch.
 
 ## Collision Detection
-The planning scene can access multiple different collision detectors. Each detector derives its own collision environment from the abstract parent class `CollisionEnv`. Note that before August 2019, MoveIt had not a single collisioon environment but two: `CollisionWorld` and `CollisionRobot`. `CollisionRobot` was responsible for self-collision checks whereas `CollisionWorld` performed collision checks of the robot against the environment. This split is still internally visible for some collision detectors in their respective `CollisionEnv`.
+The planning scene can access multiple different collision detectors. Each detector derives its own collision environment from the abstract parent class `CollisionEnv`. Note that before August 2019, MoveIt did not have a single collision environment but two: `CollisionWorld` and `CollisionRobot`. `CollisionRobot` was responsible for self-collision checks whereas `CollisionWorld` performed collision checks of the robot against the environment. This split is still internally visible for some collision detectors in their respective `CollisionEnv`s.
 
-For a general introduction to the theory behind collision detection, [this blogpost](https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects) is helpful. Additionally, the book "Realtime Collision Detection" by Christer Ericson is a good resource.
+For a general introduction to the theory behind collision detection, [this blogpost](https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects) is helpful. Additionally, the book _Realtime Collision Detection_ by Christer Ericson is a good resource.
 
 #### Flexible Collision Library (FCL)
 FCL is one of the available collision detectors. It derives its own collision environment which mainly combines the former `CollisionRobotFCL` and `CollisionWorldFCL`.
