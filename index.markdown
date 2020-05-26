@@ -272,18 +272,18 @@ redirect_from: '/moveit/'
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
                                 API Freeze
-                                <small>23 May 2020</small>
+                                <small>1 July 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--red"></span>
                             <p>
                                 Official Release
-                                <small>19 June 2020</small>
+                                <small>15 July 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
-                            <p>June 2020</p>
+                            <p>July 2020</p>
                         </div>
                     </div>
                 </div>
@@ -352,7 +352,7 @@ redirect_from: '/moveit/'
                     <div class="version-date">
                         <p><span>Version:</span> 1.1</p>
                         <p><span>Platforms:</span> Ubuntu 20.04</p>
-                        <p><span>Initial release:</span> 19 June 2020</p>
+                        <p><span>Initial release:</span> 15 July 2020</p>
                         <p><span>End of life:</span> May 2025</p>
                         <p><span>Branch:</span> master</p>
                     </div>
