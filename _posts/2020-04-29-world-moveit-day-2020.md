@@ -35,7 +35,7 @@ Please register on [this form](https://docs.google.com/forms/d/e/1FAIpQLSfuNEA71
 
 Join the live stream on [this Google Meet](https://meet.google.com/_meet/cjk-qoym-qzz), which supports up to 250 simultaneous users.
 
-Join the conversation on IRC with #moveit at irc.freenode.net. For those new to IRC try [this web client](https://webchat.freenode.net/).
+Join the conversation on [Slack](). Please register your email address on [this form](https://docs.google.com/forms/d/e/1FAIpQLSfuNEA71b88MktiMmYMInnM6uQy_Vm5uMp7iL79tAOXnN_PnA/viewform) so we can send you an invite.
 
 <img src="/assets/images/wmd18/tokyo_os_wmd.jpg" width="500" style="margin-right:20px"/>
 <i>World MoveIt Day 2018 at TORK in Tokyo</i>
