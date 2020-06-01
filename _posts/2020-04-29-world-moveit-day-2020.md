@@ -35,7 +35,7 @@ Please register on [this form](https://docs.google.com/forms/d/e/1FAIpQLSfuNEA71
 
 Join the live stream on [this Google Meet](https://meet.google.com/_meet/cjk-qoym-qzz), which supports up to 250 simultaneous users.
 
-Join the conversation on IRC with #moveit at irc.freenode.net. For those new to IRC try [this web client](https://webchat.freenode.net/).
+Join the conversation on **Discord** (different for *Discourse*, similar to Slack) in the new [MoveIt Server](https://discord.gg/RrySut8). Register instantly [here](https://discord.gg/RrySut8).
 
 <img src="/assets/images/wmd18/tokyo_os_wmd.jpg" width="500" style="margin-right:20px"/>
 <i>World MoveIt Day 2018 at TORK in Tokyo</i>
