@@ -1,7 +1,4 @@
 ---
-author: admin
-comments: false
-date: 2013-11-20 04:37:44+00:00
 layout: page
 slug: about
 title: About
@@ -36,7 +33,7 @@ title: About
       </div>
     </div>
   </div>
-  <!---------- Maintainers and Core contributors section ---------------->
+  <!---------- Maintainers section -------------------------------------->
   <!--------------------------------------------------------------------->
   <!--------------------------------------------------------------------->
   <!--------------------------------------------------------------------->
@@ -129,10 +126,21 @@ title: About
                     <img src="/assets/install_page/github.png"/>
                     <a href="https://github.com/mamoll" target="_blank">mamoll</a>
                   </div>
+                  <div class="main-card-single-small">
+                    <div class="person-name">Tyler Weaver</div>
+                    <div class="organization-name">PickNik Robotics</div>
+                    <img src="/assets/install_page/github.png"/>
+                    <a href="https://github.com/tylerjw" target="_blank">tylerjw</a>
+                  </div>
                 </div>
               </div>
             </div>
         </div>
+  <!---------- Core contributors section -------------------------------->
+  <!--------------------------------------------------------------------->
+  <!--------------------------------------------------------------------->
+  <!--------------------------------------------------------------------->
+  <!--------------------------------------------------------------------->
         <div class="main-card-single boarder main-card-single-padding">
           <h2>Core Contributors</h2>
           We want to have as many people as possible in our community involved in reviewing pull requests and responding to issues. We have a non-commit access category of MoveIt experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt early on.
@@ -223,12 +231,6 @@ title: About
                   <div class="organization-name">SwRI / ROS-I</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/Levi-Armstrong" target="_blank">Levi-Armstrong</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Tyler Weaver</div>
-                  <div class="organization-name">PickNik Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/tylerjw" target="_blank">tylerjw</a>
                 </div>
               </div>
             </div>
