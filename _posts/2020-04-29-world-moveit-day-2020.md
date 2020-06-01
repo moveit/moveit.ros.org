@@ -35,7 +35,7 @@ Please register on [this form](https://docs.google.com/forms/d/e/1FAIpQLSfuNEA71
 
 Join the live stream on [this Google Meet](https://meet.google.com/_meet/cjk-qoym-qzz), which supports up to 250 simultaneous users.
 
-Join the conversation on **Discord** (different for *Discourse*, similar to Slack) in the new [MoveIt Server](https://discord.gg/RrySut8). Register instantly [here](https://discord.gg/RrySut8).
+Join the conversation on **Discord** (a chat client, different from *Discourse*) in the new [MoveIt Server](https://discord.gg/RrySut8). Register instantly [here](https://discord.gg/RrySut8).
 
 *For old school hackers, check out our IRC channel with #moveit at irc.freenode.net.*
 
