@@ -41,6 +41,7 @@ MoveIt code is hosted on GitHub in the [ros-planning organization](http://github
 - [moveit_grasps](https://github.com/ros-planning/moveit_grasps) - A geometric-based grasp generation library for manipulation
 - [moveit_visual_tools](https://github.com/ros-planning/moveit_visual_tools) - display and debugging data in Rviz
 - [moveit_resources](https://github.com/ros-planning/moveit_resources) - large file assets such as testing robots
+- [moveit_calibration](https://github.com/ros-planning/moveit_calibration) - hand-eye calibration routines with GUI
 - [moveit_advanced](https://github.com/ros-planning/moveit_advanced) - Experimental advanced capabilities
 - [moveit_ci](https://github.com/ros-planning/moveit_ci) - script to run with Travis for continuous integration
 - [rqt_moveit](https://github.com/ros-visualization/rqt_moveit/) - Plugin for the GUI framework of ROS, RQT
