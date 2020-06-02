@@ -42,7 +42,7 @@ title: About
     <div class="container">
       <div class="main-card-wrapper">
         <div class="main-card-single boarder main-card-single-padding">
-            <h2>Maintainers</h2>
+            <h2>Current Maintainers</h2>
             We have a stringent process for giving commit access to the code base to ensure quality. MoveIt maintainers, commonly referred to as “committers” in other open source projects, are the seasoned experts of the MoveIt project and the only ones who can merge pull requests.
             <div class="horizontal-line"></div>
             <div class="container-fluid">
@@ -135,6 +135,41 @@ title: About
                 </div>
               </div>
             </div>
+
+
+          <div class="horizontal-line"></div>
+          <h3>Inactive Maintainers</h3>
+          <p>Past maintainers whose great work made this project what it is today:</p>
+
+          <div class="container-fluid">
+            <div class="container">
+              <div class="main-card-wrapper">
+
+                <div class="main-card-single-small">
+                  <div class="person-name">Sachin Chitta</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/sachinchitta" target="_blank">sachinchitta</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Ioan Sucan</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/isucan" target="_blank">isucan</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Dave Hershburger</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/hersh" target="_blank">hersh</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Acorn Pooley</div>
+                  <img src="/assets/install_page/github.png"/>
+                  N/A
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
   <!---------- Core contributors section -------------------------------->
   <!--------------------------------------------------------------------->
@@ -142,7 +177,7 @@ title: About
   <!--------------------------------------------------------------------->
   <!--------------------------------------------------------------------->
         <div class="main-card-single boarder main-card-single-padding">
-          <h2>Core Contributors</h2>
+          <h2>Current Core Contributors</h2>
           We want to have as many people as possible in our community involved in reviewing pull requests and responding to issues.
           We have a non-commit access category (<a href="https://github.blog/changelog/2019-05-23-triage-and-maintain-roles-beta/" target="_blank">Github Triage</a>)
           of MoveIt experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt early on.
@@ -237,6 +272,25 @@ title: About
               </div>
             </div>
           </div>
+
+          <div class="horizontal-line"></div>
+          <h3>Inactive Core Contributors</h3>
+          <p>Past core contributors who've helped the project in various ways:</p>
+
+          <div class="container-fluid">
+            <div class="container">
+              <div class="main-card-wrapper">
+
+                <div class="main-card-single-small">
+                  <div class="person-name">TODO</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/" target="_blank">todo</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -268,12 +322,12 @@ title: About
       </div>
     </div>
   </div>
-  <!----------------- History and Acknowledgements ---------------------->
+  <!----------------- Early History and Acknowledgements ---------------->
   <!--------------------------------------------------------------------->
   <!--------------------------------------------------------------------->
   <!--------------------------------------------------------------------->
   <!--------------------------------------------------------------------->
-  <h1>History and Acknowledgements</h1>
+  <h1>Early History and Acknowledgements</h1>
   <div class="container-fluid container-fluid-margin">
     <div class="container">
       <div class="history-card-wrapper">
@@ -325,43 +379,7 @@ title: About
       </div>
     </div>
   </div>
-  <!------------------------ Maintainer Alumni -------------------------->
-  <!--------------------------------------------------------------------->
-  <!--------------------------------------------------------------------->
-  <!--------------------------------------------------------------------->
-  <!--------------------------------------------------------------------->
-  <h1>Maintainer Alumni</h1>
-  <p>We would like to acknowledge past maintainers of MoveIt who have since moved on. Their great work made this project what it is today:</p>
-  <div class="container-fluid container-fluid-margin">
-    <div class="container">
-      <div class="main-card-wrapper">
-        <div class="alumni-card-single">
-          <div class="person-name">Sachin Chitta</div>
-          <div class="organization-name">Kinema Systems</div>
-          <img src="/assets/install_page/github.png"/>
-          <a href="https://github.com/sachinchitta" target="_blank">sachinchitta</a>
-        </div>
-        <div class="alumni-card-single">
-          <div class="person-name">Ioan Sucan</div>
-          <div class="organization-name">Google X</div>
-          <img src="/assets/install_page/github.png"/>
-          <a href="https://github.com/isucan" target="_blank">isucan</a>
-        </div>
-        <div class="alumni-card-single">
-          <div class="person-name">Dave Hershburger</div>
-          <div class="organization-name">Kinema Systems</div>
-          <img src="/assets/install_page/github.png"/>
-          <a href="https://github.com/hersh" target="_blank">hersh</a>
-        </div>
-        <div class="alumni-card-single">
-          <div class="person-name">Acorn Pooley</div>
-          <div class="organization-name">SRI International</div>
-          <img src="/assets/install_page/github.png"/>
-          N/A
-        </div>
-      </div>
-    </div>
-  </div>
+
   <!--------------------------- Citing MoveIt --------------------------->
   <!--------------------------------------------------------------------->
   <!--------------------------------------------------------------------->
