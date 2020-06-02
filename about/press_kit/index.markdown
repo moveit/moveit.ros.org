@@ -41,23 +41,32 @@ Note for any print media it is necessary to use the provided .AI file and print 
 
 ### MoveIt
 
-- [PNG White](/assets/logo/moveit_logo-white.png)
-- [PNG Black](/assets/logo/moveit_logo-black.png)
+Dark Backgrounds
+- [PNG](/assets/logo/moveit_logo-white.png)
 - [SVG](/assets/logo/moveit_logo-white.svg)
+
+Light Backgrounds
+- [PNG](/assets/logo/moveit_logo-black.png)
 - [SVG](/assets/logo/moveit_logo-black.svg)
 
 ### MoveIt 1
 
+Dark Backgrounds
 - [PNG White](/assets/logo/moveit1/moveit_logo-white.png)
-- [PNG Black](/assets/logo/moveit1/moveit_logo-black.png)
 - [SVG](/assets/logo/moveit1/moveit_logo-white.svg)
+
+Light Backgrounds
+- [PNG Black](/assets/logo/moveit1/moveit_logo-black.png)
 - [SVG](/assets/logo/moveit1/moveit_logo-black.svg)
 
 ### MoveIt 2
 
+Dark Backgrounds
 - [PNG White](/assets/logo/moveit2/moveit_logo-white.png)
-- [PNG Black](/assets/logo/moveit2/moveit_logo-black.png)
 - [SVG](/assets/logo/moveit2/moveit_logo-white.svg)
+
+Light Backgrounds
+- [PNG Black](/assets/logo/moveit2/moveit_logo-black.png)
 - [SVG](/assets/logo/moveit2/moveit_logo-black.svg)
 
 ### .AI File for all MoveIt types and using the MoveIt logos in print media (CYMK)
