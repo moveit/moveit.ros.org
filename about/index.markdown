@@ -21,7 +21,7 @@ title: About
         <p>
         The primary governance of MoveIt takes place during the public monthly maintainer meetings through majority vote.
         The meetings are also now known as the ROS 2 Manipulation Working Group.
-        For more information see the <a href="maintainer_policy" target="_blank">full maintainer policy</a> as well as the <a href="https://github.com/ros-planning/moveit/blob/master/.github/CODEOWNERS" target="_blank">CODEOWNERS</a> file.
+        For more information see the <a href="maintainer_policy">full maintainer policy</a> as well as the <a href="https://github.com/ros-planning/moveit/blob/master/.github/CODEOWNERS" target="_blank">CODEOWNERS</a> file.
         </p>
         <p>
         Organizational leadership, outreach, publicity, and additional maintenance is led by <a href="https://picknik.ai/" target="_blank">PickNik Robotics</a>.
@@ -144,7 +144,7 @@ title: About
         <div class="main-card-single boarder main-card-single-padding">
           <h2>Core Contributors</h2>
           We want to have as many people as possible in our community involved in reviewing pull requests and responding to issues.
-          We have a non-commit access category (*[Github Triage](https://github.blog/changelog/2019-05-23-triage-and-maintain-roles-beta/))*
+          We have a non-commit access category (<a href="https://github.blog/changelog/2019-05-23-triage-and-maintain-roles-beta/" target="_blank">Github Triage</a>)
           of MoveIt experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt early on.
           <div class="horizontal-line"></div>
           <div class="container-fluid">
