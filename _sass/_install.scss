@@ -41,6 +41,7 @@
     font-size: 12px;
     font-weight: normal;
     color: #191a20;
+    display: inline-block;
   }
   pre {
     font-size: 12px;
@@ -55,6 +56,9 @@
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 16px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 
 .link-with-background {
