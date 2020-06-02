@@ -143,7 +143,9 @@ title: About
   <!--------------------------------------------------------------------->
         <div class="main-card-single boarder main-card-single-padding">
           <h2>Core Contributors</h2>
-          We want to have as many people as possible in our community involved in reviewing pull requests and responding to issues. We have a non-commit access category of MoveIt experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt early on.
+          We want to have as many people as possible in our community involved in reviewing pull requests and responding to issues.
+          We have a non-commit access category (*[Github Triage](https://github.blog/changelog/2019-05-23-triage-and-maintain-roles-beta/))*
+          of MoveIt experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt early on.
           <div class="horizontal-line"></div>
           <div class="container-fluid">
             <div class="container">
