@@ -6,6 +6,8 @@ title: MoveIt Governance
 
 # MoveIt Governance
 
+<img src="/assets/images/people_page/lego_constrution.jpg" style="float: right;"/>
+
 MoveIt Core Contributors and Maintainers are the driving force of keeping MoveIt alive by responding to pull requests, issues, and user questions.
 These two groups of highly involved participants also help fix critical regressions and support developing future versions of MoveIt.
 We greatly appreciate all of the Core Contributors and Maintainers of the MoveIt project and thank you for your support.
@@ -48,6 +50,22 @@ We hope it's not too intimidating as we want to add as many qualified Maintainer
  - Have completed at least the minimum requirements for Core Contributors, above
  - Be willing to help review on average 1 pull request a week or more
  - Read the MoveIt pull request guidelines to understand our policies
+
+## Inactive Core Contributors and Maintainers
+
+In order to keep the prestige and responsibility of being listed as a Maintainer or Core Contributor relevant, we have developed the following guidelines for considering them inactive and changing their status.
+
+When the following occurs for a Maintainer or Core Contributor:
+
+ - They no longer wishes to be involved with the project (usually due to changing life priorities), or
+ - They have no MoveIt Github activity, or have not attended any Maintainer meetings, for an entire year
+
+Then we will first reach out to them to check in and encourage participation.
+If there is no further desire or ability to continue to be an active member of the MoveIt team, we will move them to the "Inactive" section of the [People](https://moveit.ros.org/about/) page.
+Their past contributions should be acknowledged and appreciated, and they will continue to be listed on the MoveIt page.
+
+For maintainers specifically, we will also remove their repo commit access and change them to just Github Triage access.
+For Core Contributors, their Github access can remain the same.
 
 ## ROS-Planning Github Org Policy
 
