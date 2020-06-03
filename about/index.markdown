@@ -42,100 +42,87 @@ title: About
     <div class="container">
       <div class="main-card-wrapper">
         <div class="main-card-single boarder main-card-single-padding">
-            <h2>Current Maintainers</h2>
-            We have a stringent process for giving commit access to the code base to ensure quality. MoveIt maintainers, commonly referred to as “committers” in other open source projects, are the seasoned experts of the MoveIt project and the only ones who can merge pull requests.
-            <div class="horizontal-line"></div>
-            <div class="container-fluid">
-              <div class="container">
-                <div class="main-card-wrapper">
-                  <div class="main-card-single-small">
-                    <div class="person-name">Dave Coleman</div>
-                    <div class="organization-name">PickNik Robotics</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/davetcoleman" target="_blank">davetcoleman</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Robert Haschke</div>
-                    <div class="organization-name">CITEC, Bielefeld University</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/rhaschke" target="_blank">rhaschke</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Michael Görner</div>
-                    <div class="organization-name">University of Hamburg</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/v4hn" target="_blank">v4hn</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Isaac IY Saito</div>
-                    <div class="organization-name">Plus One Robotics</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/130s" target="_blank">130s</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Ian McMahon</div>
-                    <div class="organization-name">Toyota Research Institute</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/IanTheEngineer" target="_blank">IanTheEngineer</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Gijs van der Hoorn</div>
-                    <div class="organization-name">Delft Univ. of Tech / ROS-I</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/gavanderhoorn" target="_blank">gavanderhoorn</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Jorge Nicho</div>
-                    <div class="organization-name">SwRI / ROS-I</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/jrgnicho" target="_blank">jrgnicho</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Bence Magyar</div>
-                    <div class="organization-name">Heriot-Watt University</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/bmagyar" target="_blank">bmagyar</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Mike Lautman</div>
-                    <div class="organization-name">PickNik Robotics</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/mlautman" target="_blank">mlautman</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Jon Binney</div>
-                    <div class="organization-name">Iron Ox</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/jonbinney" target="_blank">jonbinney</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Henning Kayser</div>
-                    <div class="organization-name">PickNik Robotics</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/henningkayser" target="_blank">henningkayser</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Bryce Willey</div>
-                    <div class="organization-name">Realtime Robotics</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/BryceStevenWilley" target="_blank">BryceStevenWilley</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Mark Moll</div>
-                    <div class="organization-name">PickNik Robotics</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/mamoll" target="_blank">mamoll</a>
-                  </div>
-                  <div class="main-card-single-small">
-                    <div class="person-name">Tyler Weaver</div>
-                    <div class="organization-name">PickNik Robotics</div>
-                    <img src="/assets/install_page/github.png"/>
-                    <a href="https://github.com/tylerjw" target="_blank">tylerjw</a>
-                  </div>
+          <h2>Current Maintainers</h2>
+          We have a stringent process for giving commit access to the code base to ensure quality. MoveIt maintainers, commonly referred to as “committers” in other open source projects, are the seasoned experts of the MoveIt project and the only ones who can merge pull requests.
+          <div class="horizontal-line"></div>
+          <div class="container-fluid">
+            <div class="container">
+              <div class="main-card-wrapper">
+                <div class="main-card-single-small">
+                  <div class="person-name">Dave Coleman</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/davetcoleman" target="_blank">davetcoleman</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Robert Haschke</div>
+                  <div class="organization-name">CITEC, Bielefeld University</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/rhaschke" target="_blank">rhaschke</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Michael Görner</div>
+                  <div class="organization-name">University of Hamburg</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/v4hn" target="_blank">v4hn</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Isaac IY Saito</div>
+                  <div class="organization-name">Plus One Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/130s" target="_blank">130s</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Ian McMahon</div>
+                  <div class="organization-name">Toyota Research Institute</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/IanTheEngineer" target="_blank">IanTheEngineer</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Gijs van der Hoorn</div>
+                  <div class="organization-name">Delft Univ. of Tech / ROS-I</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/gavanderhoorn" target="_blank">gavanderhoorn</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Jorge Nicho</div>
+                  <div class="organization-name">SwRI / ROS-I</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/jrgnicho" target="_blank">jrgnicho</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Bence Magyar</div>
+                  <div class="organization-name">Heriot-Watt University</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/bmagyar" target="_blank">bmagyar</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Mike Lautman</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/mlautman" target="_blank">mlautman</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Henning Kayser</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/henningkayser" target="_blank">henningkayser</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Mark Moll</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/mamoll" target="_blank">mamoll</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Tyler Weaver</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/tylerjw" target="_blank">tylerjw</a>
                 </div>
               </div>
             </div>
-
+          </div>
 
           <div class="horizontal-line"></div>
           <h3>Inactive Maintainers</h3>
@@ -165,6 +152,16 @@ title: About
                   <img src="/assets/install_page/github.png"/>
                   N/A
                 </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Bryce Willey</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/BryceStevenWilley" target="_blank">BryceStevenWilley</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Jon Binney</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/jonbinney" target="_blank">jonbinney</a>
+                </div>
 
               </div>
             </div>
@@ -186,6 +183,12 @@ title: About
             <div class="container">
               <div class="main-card-wrapper">
                 <div class="main-card-single-small">
+                  <div class="person-name">Felix von Drigalski</div>
+                  <div class="organization-name">OMRON SINIC X Corporation</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/felixvd" target="_blank">felixvd</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Michael Ferguson</div>
                   <div class="organization-name">Independent Consultant</div>
                   <img src="/assets/install_page/github.png"/>
@@ -196,12 +199,6 @@ title: About
                   <div class="organization-name">Rice University</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/zkingston" target="_blank">zkingston</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Felix von Drigalski</div>
-                  <div class="organization-name">OMRON SINIC X Corporation</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/felixvd" target="_blank">felixvd</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Simon Schmeißer</div>
@@ -240,28 +237,10 @@ title: About
                   <a href="https://github.com/mintar" target="_blank">mintar</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Shingo Kitagawa</div>
-                  <div class="organization-name">JSK Lab, Univ of Tokyo</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/knorth55" target="_blank">knorth55</a>
-                </div>
-                <div class="main-card-single-small">
                   <div class="person-name">Yan Yu</div>
                   <div class="organization-name">Intel</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/RoboticsYY" target="_blank">RoboticsYY</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Víctor Mayoral</div>
-                  <div class="organization-name">Acutronic Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/vmayoral" target="_blank">vmayoral</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Anas Mchichou</div>
-                  <div class="organization-name">Acutronic Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/anasarrak" target="_blank">anasarrak</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Levi Armstrong</div>
@@ -282,9 +261,19 @@ title: About
               <div class="main-card-wrapper">
 
                 <div class="main-card-single-small">
-                  <div class="person-name">TODO</div>
+                  <div class="person-name">Shingo Kitagawa</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/" target="_blank">todo</a>
+                  <a href="https://github.com/knorth55" target="_blank">knorth55</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Víctor Mayoral</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/vmayoral" target="_blank">vmayoral</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Anas Mchichou</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/anasarrak" target="_blank">anasarrak</a>
                 </div>
 
               </div>
