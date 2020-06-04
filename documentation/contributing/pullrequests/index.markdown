@@ -1,7 +1,5 @@
 ---
 author: v4hn
-comments: true
-date: 2016-8-3 13:24:00+00:00
 layout: page
 slug: pullrequests
 title: Pull Requests
@@ -170,10 +168,17 @@ If any step ends with issues, they need to be fixed before moving on.
 1. Notify maintainers to resume new merge.
 1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt category](https://discourse.ros.org/c/moveit).
 
-### Release versioning policy
+### Release Versioning Policy
 
-* We use the minor version to differentiate the releases from different development branches,
-  i.e. Kinetic 0.9.x (kinetic-devel), Melodic 1.0.x (melodic-devel), Noetic 1.1.x
+* **Major version number**:
+  * Until 2019, MoveIt was never officially "out of beta" so was 0.x.x version
+  * As ROS 2 became more of a thing, MoveIt for ROS 1 was announced to be "out of beta" and increased to 1.x.x
+  * MoveIt for ROS 2 (MoveIt 2) uses the major version number 2.x.x
+* **Minor version number:** differentiates different ROS distributions
+  * Indigo 0.8.x (indigo-devel)
+  * Kinetic 0.9.x (kinetic-devel)
+  * Melodic 1.0.x (melodic-devel)
+  * Noetic 1.1.x (noetic-devel)
 * As of May 2020 we decided to bump the release version right after preparing a release, such that
-  the `HEAD` of a development branch will already indicate the _next_ upcoming release version.
-* See also a [discussion for the best practice for versioning](https://discourse.ros.org/t/maintainer-best-practices-handling-changes-through-ros-releases/771) on discourse.
+  the `HEAD` of a development branch will already indicate the _next_ upcoming release version. See [rational](https://github.com/ros-planning/moveit/issues/2036).
+* See also: [discussion for the best practice for versioning](https://discourse.ros.org/t/maintainer-best-practices-handling-changes-through-ros-releases/771) on Discourse.
