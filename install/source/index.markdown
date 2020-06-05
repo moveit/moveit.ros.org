@@ -22,6 +22,11 @@ title: Source Build - Linux
         </div>
       </div>
     </a>
+    <a href="/install/source-windows/">
+      <div class="row font-other-page">
+        Source Build: Windows
+      </div>
+    </a>
     <a href="/install/docker/">
       <div class="row font-other-page">
         Docker Install
