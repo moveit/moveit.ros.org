@@ -79,4 +79,3 @@ title: MoveIt 1 Source Build - Windows
       </code>
     </div>
   </div>
-</div>
