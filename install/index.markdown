@@ -208,7 +208,6 @@ title: Install
           <code>
             mkdir c:\moveit_ws\src<br/>
             cd c:\moveit_ws\src<br/>
-            catkin_init_workspace<br/>
             git clone https://github.com/ros-planning/moveit_tutorials.git -b melodic-devel<br/>
             git clone https://github.com/ros-planning/panda_moveit_config.git -b melodic-devel<br/>
             git clone https://github.com/frankaemika/franka_ros-release -b release/kinetic/franka_description<br/>

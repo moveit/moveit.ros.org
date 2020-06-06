@@ -18,7 +18,7 @@ title: Source Build - Windows
         Source Build: Linux
       </div>
     </a>
-    <a href="/install/source/">
+    <a href="/install/source-windows/">
       <div class="row no-gutters">
         <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
         <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
