@@ -18,6 +18,11 @@ title: Docker Install
         Source Build: Linux
       </div>
     </a>
+    <a href="/install/source-windows/">
+      <div class="row font-other-page">
+        Source Build: Windows
+      </div>
+    </a>
     <a href="/install/docker/">
       <div class="row no-gutters">
         <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
