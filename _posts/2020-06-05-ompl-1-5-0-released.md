@@ -9,7 +9,7 @@ media_link: /assets/images/blog_posts/ompl-1-5-0.jpg
 description: A new release of the Open Motion Planning Library, now with even more planning algorithms!
 categories:
 - moveit
-- code
+- ompl
 ---
 
 [line]: /assets/images/blog_posts/line.png
