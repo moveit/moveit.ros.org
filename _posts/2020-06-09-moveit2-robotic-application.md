@@ -1,5 +1,5 @@
 ---
-author: Dr. John Doe, Controls Engineer - Jorge Nicho, ROS-Industrial
+author: Jorge Nicho, ROS-Industrial
 comments: false
 date: 2020-06-09
 layout: post
