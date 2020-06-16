@@ -381,9 +381,5 @@ title: About
   <!--------------------------------------------------------------------->
   <!--------------------------------------------------------------------->
   <h1>Citing MoveIt</h1>
-  <div class="container-fluid">
-    <div class="container">
-    See the <a href="/about/citations">citations page</a> for details.
-    </div>
-  </div>
+  <p>See the <a href="/about/citations">citations page</a> for details.</p>
 </div>
