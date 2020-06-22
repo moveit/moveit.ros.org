@@ -309,7 +309,7 @@ redirect_from: '/moveit/'
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
                                 Feature Freeze
-                                <small>1 June 2020</small>
+                                <small>15 June 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
