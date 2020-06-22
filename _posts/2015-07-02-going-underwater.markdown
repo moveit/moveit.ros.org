@@ -30,4 +30,4 @@ Dina Youakim at the Universitat de Girona used MoveIt! on an underwater Girona50
 ***
 More information about the Girona500 AUV robot can be found in this publication:
 
-D. Ribas, N. Palomeras, P. Ridao, M. Carreras and A. Mallios. [Girona 500 AUV, from survey to intervention](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6093749&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6093749). IEEE/ASME Transactions on Mechatronics, 17(1):46–53, February 2012.
+D. Ribas, N. Palomeras, P. Ridao, M. Carreras and A. Mallios. Girona 500 AUV, from survey to intervention. IEEE/ASME Transactions on Mechatronics, 17(1):46–53, February 2012.
