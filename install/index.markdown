@@ -3,6 +3,7 @@ layout: install
 slug: install
 title: MoveIt 1 Binary Install
 ---
+
   <div>
     <h1>MoveIt 1 Binary Install</h1>
     We're thrilled you're ready to start using MoveIt!
@@ -135,13 +136,71 @@ title: MoveIt 1 Binary Install
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="Windows" data-parent="#accordion">
+        <h3>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+        </h3>
+        <p>
+          Follow all the instructions to <a href="http://wiki.ros.org/Installation/Windows" target="_blank">install ROS Melodic on Windows</a>.
+        </p>
+        <div class="horizontal-line"></div>
         <h2>
           <img src="/assets/install_page/windows.png"> Install on Windows 10
         </h2>
         <h3>
           ROS Melodic - Experimental
         </h3>
-        See Microsoft-created tutorial <a href="https://ms-iot.github.io/ROSOnWindows/Moveit/UR3.html" target="_blank">Getting Started with MoveIt and UR3 on Windows</a>
+        <p>
+         Open an elevated ROS Command Window as described in the installation instructions. Use Chocolatey to Download the ROS on Windows with MoveIt packages. Chocolatey should be installed after following the ROS on Windows instructions.
+        </p>
+        <div class="bash-command">
+          <code>
+            mkdir c:\opt\chocolatey<br/>
+            set ChocolateyInstall=c:\opt\chocolatey<br/>
+            choco source add -n=ros-win -s="https://roswin.azurewebsites.net/api/v2" --priority=1<br/>
+            choco upgrade ros-melodic-moveit -y --execution-timeout=0
+          </code>
+        </div>
+        <div class="horizontal-line"></div>
+        <h2>
+          Quick Start
+        </h2>
+        <p>Open a new ROS Command Window. Make sure you have the most up to date packages:</p>
+        <div class="bash-command">
+          <code>
+            rosdep update
+          </code>
+        </div>
+        <h3>Create Workspace for MoveIt Tutorials</h3>
+        <p>
+          Create a workspace and download the example code.
+        </p>
+        <div class="bash-command">
+          <code>
+            mkdir c:\moveit_ws\src<br/>
+            cd c:\moveit_ws\src<br/>
+            git clone https://github.com/ros-planning/moveit_tutorials.git -b melodic-devel<br/>
+            git clone https://github.com/ros-planning/panda_moveit_config.git -b melodic-devel<br/>
+            git clone https://github.com/frankaemika/franka_ros-release -b release/kinetic/franka_description<br/>
+            cd c:\moveit_ws<br/>
+            catkin_make
+          </code>
+        </div>
+        <p>After it is built, source the catkin workspace.</p>
+        <div class="bash-command">
+          <code>
+            c:\moveit_ws\devel\setup.bat
+          </code>
+        </div>
+        <h3>MoveIt Quickstart in RViz</h3>
+        <p>Now you are ready to continue to the MoveIt Quickstart in RViz section of the <a href="https://ros-planning.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html">MoveIt Tutorials</a>.</p>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="https://ros-planning.github.io/moveit_tutorials/" target="_blank">
+          <span class="link-with-background">
+            MoveIt Getting Started Tutorial
+          </span>
+        </a>
       </div>
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
