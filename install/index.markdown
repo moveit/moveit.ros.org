@@ -150,29 +150,37 @@ title: MoveIt 1 Binary Install
           ROS Melodic - Experimental
         </h3>
         <p>
-         Open an elevated ROS Command Window as described in the installation instructions. Use Chocolatey to Download the ROS on Windows with MoveIt packages. Chocolatey should be installed after following the ROS on Windows instructions.
+         Open an elevated ROS Command Window as described in the installation instructions. Use Chocolatey to Download the ROS on Windows with MoveIt packages:
         </p>
         <div class="bash-command">
           <code>
             mkdir c:\opt\chocolatey<br/>
             set ChocolateyInstall=c:\opt\chocolatey<br/>
             choco source add -n=ros-win -s="https://roswin.azurewebsites.net/api/v2" --priority=1<br/>
+          </code>
+        </div>
+        <p>
+         Chocolatey should be installed after following the ROS on Windows instructions:
+        </p>
+        <div class="bash-command">
+          <code>
             choco upgrade ros-melodic-moveit -y --execution-timeout=0
+          </code>
+        </div>
+        <p>Make sure you have the most up to date packages:</p>
+        <div class="bash-command">
+          <code>
+            rosdep update
           </code>
         </div>
         <div class="horizontal-line"></div>
         <h2>
           Quick Start
         </h2>
-        <p>Open a new ROS Command Window. Make sure you have the most up to date packages:</p>
-        <div class="bash-command">
-          <code>
-            rosdep update
-          </code>
-        </div>
         <h3>Create Workspace for MoveIt Tutorials</h3>
         <p>
-          Create a workspace and download the example code.
+          Open a new ROS Command Window.
+          Create a workspace and download the example code:
         </p>
         <div class="bash-command">
           <code>
@@ -185,18 +193,16 @@ title: MoveIt 1 Binary Install
             catkin_make
           </code>
         </div>
-        <p>After it is built, source the catkin workspace.</p>
+        <p>After it is built, source the catkin workspace:</p>
         <div class="bash-command">
           <code>
             c:\moveit_ws\devel\setup.bat
           </code>
         </div>
         <h3>MoveIt Quickstart in RViz</h3>
-        <p>Now you are ready to continue to the MoveIt Quickstart in RViz section of the <a href="https://ros-planning.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html">MoveIt Tutorials</a>.</p>
-        <p>
-          Start planning in Rviz with:
+        <p>Now you are ready to start planning in Rviz with:
         </p>
-        <a href="https://ros-planning.github.io/moveit_tutorials/" target="_blank">
+        <a href="https://ros-planning.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
           <span class="link-with-background">
             MoveIt Getting Started Tutorial
           </span>
@@ -232,28 +238,30 @@ title: MoveIt 1 Binary Install
             Source Build: Linux
           </h4>
           <p>
-            <a href="/install/source/">See building from source</a>
+            See <a href="/install/source/">build instructions</a>
           </p>
         </div>
         <div class="col-5 offset-1">
           <h4>
-            <img src="/assets/install_page/docker.png"/>
-            Docker
+            <img src="/assets/install_page/github.png"/>
+            Source Build: Windows
           </h4>
           <p>
-            <a href="/install/docker/">See building from source</a>
+            See <a href="/install/source-windows/">build instructions</a>
           </p>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-6">
           <h3>
-            Virtual Machines
+            <img src="/assets/install_page/docker.png"/>
+            Docker
           </h3>
           <p>
-            We recommend developing with MoveIt on a native Ubuntu install. If you are unable to run Linux natively on your machine, the next best thing would be to set up a virtual machine using VMware. There are known issues with the ROS visualization tool RViz when used with VirtualBox - be sure to enable virtualization in your BIOS.
+            See <a href="/install/docker/">installation and guide.</a>
           </p>
         </div>
+
         <div class="col-5 offset-1">
           <h3>
             Older Versions
@@ -263,7 +271,15 @@ title: MoveIt 1 Binary Install
             <a href="/install/source/">Source Installation Instructions</a> for unsupported versions of MoveIt
           </p>
         </div>
+
       </div>
+      <div class="horizontal-line"></div>
+      <h2>
+        Virtual Machines
+      </h2>
+      <p>
+        We recommend developing with MoveIt on a native Ubuntu install. If you are unable to run Linux natively on your machine, the next best thing would be to set up a virtual machine using VMware. There are known issues with the ROS visualization tool RViz when used with VirtualBox - be sure to enable virtualization in your BIOS.
+      </p>
       <div class="horizontal-line"></div>
       <h2>
         About Our Release Process
