@@ -381,22 +381,5 @@ title: About
   <!--------------------------------------------------------------------->
   <!--------------------------------------------------------------------->
   <h1>Citing MoveIt</h1>
-  <div class="container-fluid">
-    <div class="container">
-      <div class="main-card-wrapper">
-        <div class="main-card-single boarder main-card-single-padding  main-card-single-center">
-          <img class="mx-auto d-block quote-img" src="/assets/images/people_page/quote.png">
-          <a href="https://arxiv.org/abs/1404.3785">Reducing the Barrier to Entry of Complex Robotic Software: a MoveIt! Case Study</a>
-          <p>David Coleman, Ioan Sucan, Sachin Chitta, Nikolaus Correll <br />
-             Journal of Software Engineering for Robotics (2014)
-          </p>
-        </div>
-        <div class="main-card-single boarder main-card-single-padding  main-card-single-center">
-          <img class="mx-auto d-block quote-img" src="/assets/images/people_page/quote.png">
-          <a href="http://moveit.ros.org">moveit.ros.org</a>
-          <p>Ioan A. Sucan and Sachin Chitta, "MoveIt", [Online] Available</p>
-        </div>
-      </div>
-    </div>
-  </div>
+  <p>See the <a href="/about/citations">citations page</a> for details.</p>
 </div>
