@@ -160,7 +160,7 @@ title: MoveIt 1 Binary Install
           </code>
         </div>
         <p>
-         Chocolatey should be installed after following the ROS on Windows instructions:
+          Chocolatey should have been installed while following the <a href="http://wiki.ros.org/Installation/Windows#noetic.2FInstallation.2FWindows.Install_Windows_Package_Manager" target="_blank">ROS on Windows instructions</a>. Next, make sure your ROS install is latest: 
         </p>
         <div class="bash-command">
           <code>
