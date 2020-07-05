@@ -141,7 +141,7 @@ If any step ends with issues, they need to be fixed before moving on.
    emacs `find . -iname CHANGELOG.rst`    (Edit each file. Emacs forever, but replace it if necessary :/)
    git add `find . -iname CHANGELOG.rst`  (Stage all changelogs)
    ```
-1. Figure out the correct next version number ([see the version policy section](#Release-versioning-policy)) and utilize the command `catkin_prepare_release` that adapts the version numbers in all package.xml and changelog files, creates a new tag, and eventually pushes to the remote repo (you can check at [github.com/ros-planning/moveit/releases](https://github.com/ros-planning/moveit/releases)). Example command:
+1. Figure out the correct next version number (see the version policy section below) and utilize the command `catkin_prepare_release` that adapts the version numbers in all package.xml and changelog files, creates a new tag, and eventually pushes to the remote repo (you can check at [github.com/ros-planning/moveit/releases](https://github.com/ros-planning/moveit/releases)). Example command:
 
    ```
    (Assuming you're at the same directory as before.)
