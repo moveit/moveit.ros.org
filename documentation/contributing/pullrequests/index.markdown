@@ -1,7 +1,5 @@
 ---
 author: v4hn
-comments: true
-date: 2016-8-3 13:24:00+00:00
 layout: page
 slug: pullrequests
 title: Pull Requests
@@ -115,15 +113,14 @@ Backports should be pull-requests and reviewed separately, though possibly bundl
 Once all listed commits have been checked, forward the ``reviewed-for-backport`` branch to ``<release-branch>``: ``git checkout reviewed-for-backport; git merge --ff-only <release-branch>``.
 
 ### Typical protocol for a single release
-If each step ends with issues, they need to be fixed before moving on.
+If any step ends with issues, they need to be fixed before moving on.
 
 0. Create an issue to track the status of the upcoming release a few days before you start your release work, to notify maintainers to freeze new merge until you finish.
 1. Plan the possible date where you finish releasing tasks. Then communicate with the ROS buildfarm maintainers at [Release section on discourse.ros.org](https://discourse.ros.org/c/release) to tell that we want soak time of one or two weeks so that maintainers/early adopters can test the binaries from [shadow repo](http://wiki.ros.org/ShadowRepository) and add necessary fix if any.
 1. Run ROS buildfarm prerelease test for **all** supported Ubuntu distributions in [REP-0003](http://www.ros.org/reps/rep-0003.html).
-  * You can see [here](http://wiki.ros.org/bloom/Tutorials/PrereleaseTest) for the general instruction of prerelease test. If you're done for the setup already and just want to refer to command examples, see [here](http://wiki.ros.org/regression_tests#Running_prerelease_test).
-  * As long as REP-0003 supports, we must test even EOLed Ubuntu distros (e.g. Saucy for ROS Indigo was retired in 2014 but REP-0003 still supports it and there's no way as of December 2016 to skip it. See [moveit/#100](https://github.com/ros-planning/moveit/issues/100#issuecomment-268826497) as a previous example).
-    * For Ubuntu Saucy, there's no Docker image available online for ROS prerelease test AFA known as of Dec 2016. You can still run following [this post](https://github.com/ros-planning/moveit/pull/391#issuecomment-269725623).
-  * Example commands:
+   * You can see [here](http://wiki.ros.org/bloom/Tutorials/PrereleaseTest) for the general instruction of prerelease test. If you're done for the setup already and just want to refer to command examples, see [here](http://wiki.ros.org/regression_tests#Running_prerelease_test).
+   * As long as REP-0003 supports, we must test even EOLed Ubuntu distros (e.g. Saucy for ROS Indigo was retired in 2014 but REP-0003 still supports it and there's no way as of December 2016 to skip it. See [moveit/#100](https://github.com/ros-planning/moveit/issues/100#issuecomment-268826497) as a previous example).
+   * Example commands:
     Default for Kinetic-Xenial where the `HEAD` at the moveit repo is what we want to release, and Kinetic-Wily (basically the same except for the Ubuntu distro type):
 
      ```
@@ -134,7 +131,7 @@ If each step ends with issues, they need to be fixed before moving on.
      generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml melodic default ubuntu wily amd64  moveit   --level 0  --output-dir ./
      ```
 
-1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to sort out per the type of changes (e.g. bugfix, new capability, maintenance, documentation). Example of the whole command set:
+1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to cleanup/combine changelog messages and mark/sort them by type of change (e.g. bugfix, feature, maintenance, documentation). Have a look at previous changelogs to get an idea of the verbosity level and formatting. Example of the whole command set:
 
    ```
    cd moveit                              (Top directory of your clooned moveit repo.)
@@ -142,25 +139,46 @@ If each step ends with issues, they need to be fixed before moving on.
    git log                                (Make sure the HEAD is what you want to release with. If it's not then update accordingly.)
    catkin_generate_changelog
    emacs `find . -iname CHANGELOG.rst`    (Edit each file. Emacs forever, but replace it if necessary :/)
+   git add `find . -iname CHANGELOG.rst`  (Stage all changelogs)
    ```
-1. Create a new tag with an appropriate version number (see the version policy section). Utilize `catkin_prepare_release` command that bumps the versions in package xml and in changelog files, creates a new tag, and pushes it to the remote repo (you can check at [github.com/ros-planning/moveit/releases](https://github.com/ros-planning/moveit/releases)). Example command:
+1. Figure out the correct next version number (see the version policy section below) and utilize the command `catkin_prepare_release` that adapts the version numbers in all package.xml and changelog files, creates a new tag, and eventually pushes to the remote repo (you can check at [github.com/ros-planning/moveit/releases](https://github.com/ros-planning/moveit/releases)). Example command:
 
    ```
-   (Assuming you're at the same directory as previously)
+   (Assuming you're at the same directory as before.)
 
-   catkin_prepare_release --bump patch    (Or without any option it suggests bumping minor version.)
-   git tag                                (Confirm among all tags that the tag with the intended version is locally created. Also go online to see the tag is uploaded.)
+   catkin_prepare_release --version x.x.x    (Replace x.x.x with the correct version number!)
    ```
 1. Run `bloom`. Open a pull request against [rosdistro](https://github.com/ros/rosdistro) as bloom suggests at the end of its run. [Example of such a request](https://github.com/ros/rosdistro/pull/13512). Example command:
 
    ```
-   bloom-release --rosdistro melodic --track melodic moveit
+   bloom-release --rosdistro melodic moveit
    ```
+1. Bump the version number to the next upcoming one and _finally_ push to the github:
+   ```
+   # Bump the release number, but don't yet push to github
+   catkin_prepare_release --no-push
+   # Reword the commit message generated by `catkin_prepare_release` from `x.x.x` to:
+   git commit --amend -m "Bump version to x.x.x"
+   # Remove created version tag (which must not pushed to github)
+   git tag -d x.x.x
+   # Push to github repo (or file a pull request)
+   git push origin
+   ```
+
 1. Notify maintainers to resume new merge.
 1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/ros-planning/moveit.ros.org/pull/115), [2](https://github.com/ros-planning/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt category](https://discourse.ros.org/c/moveit).
 
-### Release versioning policy
+### Release Versioning Policy
 
-* We use the minor version to differentiate the releases from different development branches.
-  * As of May 2019, Kinetic 0.9.x (kinetic-devel), Melodic 1.0.x (melodic-devel)
-* See also a [discussion for the best practice for versioning](https://discourse.ros.org/t/maintainer-best-practices-handling-changes-through-ros-releases/771) on discourse.
+* **Major version number**:
+  * Until 2019, MoveIt was never officially "out of beta" so was 0.x.x version
+  * As ROS 2 became more of a thing, MoveIt for ROS 1 was announced to be "out of beta" and increased to 1.x.x
+  * MoveIt for ROS 2 (MoveIt 2) uses the major version number 2.x.x
+* **Minor version number:** differentiates different ROS distributions
+  * Indigo 0.8.x (indigo-devel)
+  * Kinetic 0.9.x (kinetic-devel)
+  * Melodic 1.0.x (melodic-devel)
+  * Noetic 1.1.x (noetic-devel)
+* As of May 2020 we decided to bump the release version right after preparing a release, such that
+  the `HEAD` of a development branch will already indicate the _next_ upcoming release version. See [rational](https://github.com/ros-planning/moveit/issues/2036).
+* See also: [discussion for the best practice for versioning](https://discourse.ros.org/t/maintainer-best-practices-handling-changes-through-ros-releases/771) on Discourse.
