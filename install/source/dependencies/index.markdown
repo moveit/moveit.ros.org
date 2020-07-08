@@ -60,13 +60,8 @@ OMPL is MoveIt's main planning library, their official install instructions can 
 Clone the OMPL repos from either Bitbucket or Github into your catkin workspace:
 
     git clone https://github.com/ompl/ompl
-    cd ompl
 
-Next manually add a package.xml as used in the ROS release wrapper for OMPL (modify ROS distro version as necessary)
-
-    wget https://raw.githubusercontent.com/ros-gbp/ompl-release/debian/kinetic/xenial/ompl/package.xml
-
-Now you should be able to build using regular ``catkin build``
+You should be able to build using regular ``catkin build``
 
 ## Flexible Collision Library (FCL)
 
