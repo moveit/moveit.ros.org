@@ -101,7 +101,7 @@ In this context it might be worth spending some time on making use of features a
 
 ## Making a new release
 
-Release person must have a write access to both devel repos (e.g. [github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)) as well as release repos (e.g. [github.com/ros-gbp/moveit-release](https://github.com/ros-gbp/moveit-release)).
+Release person must have a write access to both devel repos (e.g. [github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)) as well as release repos (e.g. [github.com/ros-gbp/moveit-release](https://github.com/ros-gbp/moveit-release)). The release repo access is managed via the Github Team [moveit-maintainers](https://github.com/orgs/ros-gbp/teams/moveit-maintainers/members).
 
 ### Consider backporting
 
