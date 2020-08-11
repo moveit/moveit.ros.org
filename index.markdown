@@ -371,7 +371,7 @@ redirect_from: '/moveit/'
                         <p><span>Platforms:</span> Ubuntu 18.04</p>
                         <p><span>Initial release:</span> 14 February 2020</p>
                         <p><span>End of life:</span> November 2020</p>
-                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2" target="_blank">moveit2:master</a></p>
+                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2/tree/eloquent" target="_blank">moveit2:eloquent</a></p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
