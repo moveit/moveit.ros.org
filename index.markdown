@@ -1,7 +1,4 @@
 ---
-author: admin
-comments: false
-date: 2016-08-07 02:13:26+00:00
 layout: homepage
 slug: index
 title: index
@@ -30,12 +27,12 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between homepage-main-wrapper">
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
-                            <div class="main-tag">
+                            <!--div class="main-tag">
                                 <a href="/events/world-moveit-day/2020/04/28/world-moveit-day-2020.html">
                                     <span class="blue">Announcement</span>
                                     <span>World MoveIt Day Hackathon June 2nd!</span>
                                 </a>
-                            </div>
+                            </div-->
                             <h1>Moving robots into the&nbsp;future</h1>
                             <p class="main-text">Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.</p>
                             <div class="button-group">
@@ -160,8 +157,8 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--left">
-                            <h1>Rviz Motion Planning Plugin</h1>
-                            <p>Out-of-the box visual demonstrations allow new users interactive experimentation with various planning algorithms around obstacles. Execution on physical hardware is then just a click away.</p>
+                            <h1>3D Interactive Visualizer</h1>
+                            <p>Out-of-the box visual demonstrations in Rviz allow new users experimentation with various planning algorithms around obstacles. Execution on physical hardware is then just a click away.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-7">
@@ -182,7 +179,7 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
-                            <h1>MoveIt Setup Assistant</h1>
+                            <h1>Setup Assistant</h1>
                             <p>Quickly setup any robot to work with MoveIt with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control!</p>
                         </div>
                     </div>
@@ -196,7 +193,7 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
-                            <h1>MoveIt Task Constructor</h1>
+                            <h1>Task Constructor</h1>
                             <p>A flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks!</p>
                         </div>
                     </div>
@@ -204,7 +201,7 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--right">
-                            <h1>MoveIt Grasps</h1>
+                            <h1>Grasp Generation</h1>
                             <p>A basic grasp generator for objects such as blocks or cylinders for use with the MoveIt pick and place pipeline!</p>
                         </div>
                     </div>
@@ -230,7 +227,7 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-4 col-sm-12">
                         <h1>Why MoveIt?</h1>
                         <p>
-                            MoveIt is the most widely used software for manipulation and has been used on over <a href="https://moveit.ros.org/robots/">100 robots</a>. It provides an easy-to-use robotics platform for developing advanced applications, evaluating new designs and building integrated products for industrial, commercial, R&D, and other domains.
+                            MoveIt is the most widely used software for manipulation and has been used on over <a href="https://moveit.ros.org/robots/">150 robots</a>. It is released under the terms of the BSD license, and thus free for industrial, commercial, and research use.
                         </p>
                         <p>
                             By incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation, MoveIt is state of the art software for mobile manipulation.
