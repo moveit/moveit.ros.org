@@ -20,13 +20,13 @@ _I'm totally new, how do I get started?_
 _What version of MoveIt should I use?_
 
   * For most developers, we recommend building the [master](https://github.com/ros-planning/moveit) branch from source.
-  * If you are a beginner, installing the Melodic LTS release from Debian is the easiest and fastest.
+  * If you are a beginner, installing the Noetic LTS release from Debian is the easiest and fastest.
   * You can also use a [Docker container](https://moveit.ros.org/install/docker/) for a virtual setup.
 
 _Should I build from source or install the Debians?_
 
   * If you are an intermediate to advanced user ready to contribute code, then install from source of course!
-  * If you are a beginner, the pre-built Debians for ROS Kinetic and ROS Melodic are the easiest.
+  * If you are a beginner, the pre-built Debians for ROS Melodic and ROS Noetic are the easiest.
   * Note however that the last ROS Distro was released almost 2 years ago, so the latest features are only on the *master* branch built from source.
 
 _What kind of computer do I need?_
