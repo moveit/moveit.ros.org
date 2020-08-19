@@ -1,0 +1,12 @@
+.feedback-modal {
+    top: 30%;
+    transform: translateY(-30%);
+    -webkit-transform: translateY(-30%);
+    -moz-transform: translateY(-30%);
+    -ms-transform: translateY(-30%);
+    -o-transform: translateY(-30%);
+    height: 100%;
+
+    .modal-content { width: 720px; }
+    .modal-dialog { max-width: 720px; }
+}

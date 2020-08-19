@@ -3,6 +3,7 @@ layout: install
 slug: source_install_moveit2
 title: MoveIt 2 Source Build - Linux
 ---
+{% include install-feedback.html %}
 
 # MoveIt 2 Source Build - Linux
 
