@@ -11,8 +11,9 @@ title: MoveIt 1 Source Build - Linux
         <br />
         <p>MoveIt is mainly supported on Linux, and the following build instructions support in particular:</p>
         <ul>
-            <li>Ubuntu 17.10, 18.04 / <a href="http://www.ros.org/wiki/melodic/Installation/Ubuntu" target="_blank">ROS Melodic</a></li>
-            <li>Ubuntu 15.10, 16.04 / <a href="http://www.ros.org/wiki/kinetic/Installation/Ubuntu" target="_blank">ROS Kinetic</a></li>
+            <li>Ubuntu 20.04 / <a href="http://www.ros.org/wiki/noetic/Installation/Ubuntu" target="_blank">ROS Noetic</a></li>
+            <li>Ubuntu 18.04 / <a href="http://www.ros.org/wiki/melodic/Installation/Ubuntu" target="_blank">ROS Melodic</a></li>
+            <li>Ubuntu 16.04 / <a href="http://www.ros.org/wiki/kinetic/Installation/Ubuntu" target="_blank">ROS Kinetic</a> <b>(no longer officially supported)</b></li>
         </ul>
         <p>In the future, we would like to expand our source build instructions to more OS's, please contribute!</p>
     <h2>Prerequisites</h2>
@@ -30,9 +31,11 @@ title: MoveIt 1 Source Build - Linux
     <p>Source installation requires <a href="http://wiki.ros.org/wstool" target="_blank">wstool</a>, <a href="https://catkin-tools.readthedocs.io/en/latest/" target="_blank">catkin_tools</a>, and optionally <a href="https://clang.llvm.org/docs/ClangFormat.html" target="_blank">clang-format</a>:</p>
     <div class="bash-command">
         <code>
-            sudo apt install python-wstool python-catkin-tools clang-format-10
+            sudo apt install python3-wstool python3-catkin-tools clang-format-10
         </code>
     </div>
+    <p>Note for ROS Kinetic / Ubuntu 16.04 replace 'python3' with just 'python'</p>
+
     <h3>Create Workspace and Source</h3>
     <p>Optionally create a new workspace, you can name it whatever:</p>
     <div class="bash-command">
@@ -42,9 +45,10 @@ title: MoveIt 1 Source Build - Linux
         </code>
     </div>
     <p>Next, source your ROS workspace to load the necessary environment variables, depending on what version of ROS you installed.</p>
-    <p>Choose one of the two:</p>
+    <p>Choose one of the three:</p>
     <div class="bash-command">
         <code>
+            source /opt/ros/noetic/setup.bash<br/>
             source /opt/ros/melodic/setup.bash<br/>
             source /opt/ros/kinetic/setup.bash
         </code>
