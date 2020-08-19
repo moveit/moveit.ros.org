@@ -23,14 +23,14 @@ title: MoveIt 1 Source Build - Linux
     <div class="bash-command">
         <code>
             rosdep update<br/>
-            sudo apt-get update<br/>
-            sudo apt-get dist-upgrade
+            sudo apt update<br/>
+            sudo apt dist-upgrade
         </code>
     </div>
     <p>Source installation requires <a href="http://wiki.ros.org/wstool" target="_blank">wstool</a>, <a href="https://catkin-tools.readthedocs.io/en/latest/" target="_blank">catkin_tools</a>, and optionally <a href="https://clang.llvm.org/docs/ClangFormat.html" target="_blank">clang-format</a>:</p>
     <div class="bash-command">
         <code>
-            sudo apt-get install python-wstool python-catkin-tools clang-format-3.9
+            sudo apt install python-wstool python-catkin-tools clang-format-10
         </code>
     </div>
     <h3>Create Workspace and Source</h3>
@@ -99,7 +99,7 @@ title: MoveIt 1 Source Build - Linux
     The most prominent compiler cache is <a href="https://ccache.dev" target="_blank">ccache</a> suitable for <span class="ros-command">gcc</span> and other similar compilers.</p>
     <h3>Installation</h3>
     <p>On a Debian or Ubuntu system, installing <span class="ros-command">ccache</span> is simple:</p>
-    <pre class="bash-command">sudo apt-get install ccache</pre>
+    <pre class="bash-command">sudo apt install ccache</pre>
     <p>For other OS, consult the package manager or software store and search for <span class="ros-command">ccache</span>.
     Refer to the <a href="https://ccache.dev" target="_blank">ccache website</a> for more information on downloading and installation.</p>
     <h3>Setup</h3>

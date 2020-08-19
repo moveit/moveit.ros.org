@@ -75,7 +75,7 @@ e.g. `include/moveit_core/...`, `include/moveit_ros_planning/...`, etc.
 
 You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
-    sudo apt-get install clang-format-3.9
+    sudo apt install clang-format-10
 
 Please note that we rely on clang-format version **3.9**. Sadly, newer versions are not fully backward compatible.
 
@@ -85,11 +85,11 @@ clang-format requires a configuration file in the root of your catkin workspace.
 
 Format a single file:
 
-    clang-format-3.9 -i -style=file MY_ROS_NODE.cpp
+    clang-format-10 -i -style=file MY_ROS_NODE.cpp
 
 Format an entire directory recursively including subfolders:
 
-    find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-3.9 -i -style=file $1
+    find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-10 -i -style=file $1
 
 ### Exceptions to clang-format
 
@@ -114,7 +114,7 @@ Format your source code if its in some directory such as the ``catkin_ws`` (feel
 (and
 (string-match "/catkin_ws/.*\\.\\(h\\|cpp\\)$" buffer-file-name)
 (save-some-buffers 'no-confirm)
-(shell-command (concat "clang-format-3.9 -style=file -i " buffer-file-name))
+(shell-command (concat "clang-format-10 -style=file -i " buffer-file-name))
 (message (concat "Saved and ran clang-format on " buffer-file-name))
 (revert-buffer t t t)
 ))
@@ -128,13 +128,13 @@ Set a keyboard shortcut to run, such as F12
 
 Navigate to ``Tools`` > ``Options`` > ``Beautifier``
 On the ``General`` tab, enable auto format on file save, using ``ClangFormat``.
-On the ``Clang Format`` tab, configure ``clang-format-3.9`` as your executable and choose ``Use predefined style`` from ``File``.
+On the ``Clang Format`` tab, configure ``clang-format-10`` as your executable and choose ``Use predefined style`` from ``File``.
 
 ### Atom Editor Configuration
 
 Install the [clang-format](https://atom.io/packages/clang-format) package via the Atom package manager or ``apm install clang-format``.
 
-In the package settings set ``clang-format-3.9`` as your executable and point 'Style' to your ``.clang-format`` file.
+In the package settings set ``clang-format-10`` as your executable and point 'Style' to your ``.clang-format`` file.
 
 ## clang-tidy Linting
 
@@ -143,7 +143,7 @@ In the package settings set ``clang-format-3.9`` as your executable and point 'S
 more modern, more readable, and less prone to common bugs.
 
 You can install clang-tidy and other clang related tools with
-`sudo apt-get install clang-tidy clang-tools`
+`sudo apt install clang-tidy clang-tools`
 
 Similarly to clang-format, clang-tidy uses the configuration file [``.clang-tidy``](https://github.com/ros-planning/moveit/blob/master/.clang-tidy) that is found first when traversing the source folder hierarchy upwards. The MoveIt repo provides this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-tidy).
 

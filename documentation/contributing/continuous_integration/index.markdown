@@ -18,7 +18,7 @@ For each ROS distribution there are up to 4 containers, built on top of a standa
 
 ### CI Container
 
-An image optimized for running continuous integration with Travis. This container downloads all of the MoveIt source code, using MoveIt's rosinstall file, and then installs all the required dependencies for that source code. It then removes the source code before saving the image. It uses ``ros-shadow-fixed`` and runs ``apt-get dist-upgrade`` to ensure it has the latest code.
+An image optimized for running continuous integration with Travis. This container downloads all of the MoveIt source code, using MoveIt's rosinstall file, and then installs all the required dependencies for that source code. It then removes the source code before saving the image. It uses ``ros-shadow-fixed`` and runs ``apt dist-upgrade`` to ensure it has the latest code.
 
 ## Source Container
 
@@ -26,7 +26,7 @@ Builds ontop of the CI image, contains a full MoveIt workspace downloaded and bu
 
 ## Release Container
 
-Builds ontop of the CI image, the full debian-based install of MoveIt using ``apt-get``.
+Builds ontop of the CI image, the full debian-based install of MoveIt using ``apt``.
 
 ## Experimental Container
 
