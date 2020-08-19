@@ -35,7 +35,7 @@ git clone -b 26compat https://github.com/mongodb/mongo-cxx-driver.git
 Then compile using scons:
 
 ```
-sudo apt-get install scons
+sudo apt install scons
 cd mongo-cxx-driver
 sudo scons --prefix=/usr/local/ --full --use-system-boost --disable-warnings-as-errors
 sudo scons install
@@ -67,7 +67,7 @@ You should be able to build using regular ``catkin build``
 
 FCL is MoveIt's default collision checker, their official install instructions can be found [here](https://github.com/flexible-collision-library/fcl).
 
-    sudo apt-get -qq install libccd-dev
+    sudo apt -qq install libccd-dev
 
 Clone the repo into your catkin workspace:
 

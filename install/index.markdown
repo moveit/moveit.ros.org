@@ -81,7 +81,7 @@ title: MoveIt 1 Binary Install
         <h3>
           ROS Kinetic
           <div class="bash-command">
-            <code>sudo apt-get install ros-kinetic-moveit</code>
+            <code>sudo apt install ros-kinetic-moveit</code>
           </div>
         </h3>
         <div class="horizontal-line"></div>
@@ -115,7 +115,7 @@ title: MoveIt 1 Binary Install
         <h3>
           ROS Melodic
           <div class="bash-command">
-            <code>sudo apt-get install ros-melodic-moveit</code>
+            <code>sudo apt install ros-melodic-moveit</code>
           </div>
         </h3>
         <div class="horizontal-line"></div>

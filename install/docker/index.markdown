@@ -30,7 +30,7 @@ title: MoveIt 1 Docker Install
     <p>If you are running a recent version of Ubuntu (e.g. 16.04, 18.04) it can be as simple as:</p>
     <div class="bash-command">
       <code>
-        sudo apt-get install curl<br/>
+        sudo apt install curl<br/>
         curl -sSL https://get.docker.com/ | sh<br/>
         sudo usermod -aG docker $(whoami)
       </code>
@@ -84,7 +84,7 @@ title: MoveIt 1 Docker Install
             </div>
             <div class="col-4 install-card-single">
                 <h3>moveit/moveit:melodic-release</h3>
-                <p>builds ontop of the CI image, the full debian-based install of MoveIt using apt-get.</p>
+                <p>builds ontop of the CI image, the full debian-based install of MoveIt using apt.</p>
             </div>
             <div class="col-4 install-card-single">
                 <h3>moveit/moveit:master-ci</h3>

@@ -19,7 +19,7 @@ Follow all the instructions to install the base version of ROS: [Install ROS-Bas
 #### **STEP 1: Get the wstool package**
 
 
-`sudo apt-get install python-wstool`
+`sudo apt install python-wstool`
 
 Now follow the steps for your particular ROS version.
 
