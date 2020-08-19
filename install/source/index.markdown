@@ -13,9 +13,9 @@ title: MoveIt 1 Source Build - Linux
         <ul>
             <li>Ubuntu 20.04 / <a href="http://www.ros.org/wiki/noetic/Installation/Ubuntu" target="_blank">ROS Noetic</a></li>
             <li>Ubuntu 18.04 / <a href="http://www.ros.org/wiki/melodic/Installation/Ubuntu" target="_blank">ROS Melodic</a></li>
-            <li>Ubuntu 16.04 / <a href="http://www.ros.org/wiki/kinetic/Installation/Ubuntu" target="_blank">ROS Kinetic</a> <b>(no longer officially supported)</b></li>
+            <li>Ubuntu 16.04 / <a href="http://www.ros.org/wiki/kinetic/Installation/Ubuntu" target="_blank">ROS Kinetic</a> <i>(no longer officially supported)</i></li>
         </ul>
-        <p>In the future, we would like to expand our source build instructions to more OS's, please contribute!</p>
+        <p>We would like to expand our source build instructions to more operating systems, please <a target="_blank" href="https://github.com/ros-planning/moveit.ros.org/tree/master/install/source">contribute</a>!</p>
     <h2>Prerequisites</h2>
     <h3>
     Install <img src="/assets/install_page/ros_logo.jpeg"/>
@@ -34,7 +34,7 @@ title: MoveIt 1 Source Build - Linux
             sudo apt install python3-wstool python3-catkin-tools clang-format-10
         </code>
     </div>
-    <p>Note for ROS Kinetic / Ubuntu 16.04 replace 'python3' with just 'python'</p>
+    <p><i>Kinetic Note: for Ubuntu 16.04 replace 'python3' with just 'python'</i></p>
 
     <h3>Create Workspace and Source</h3>
     <p>Optionally create a new workspace, you can name it whatever:</p>
@@ -68,6 +68,14 @@ title: MoveIt 1 Source Build - Linux
             catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
         </code>
     </div>
+    <p><b>Note August 2020</b> For Noetic there is currently an issue with <a href="https://github.com/catkin/catkin_tools/issues/594">catkin_tools</a> and the workaround is:
+    <div class="bash-command">
+        <code>
+            pip3 install git+https://github.com/catkin/catkin_tools.git
+        </code>
+    </div>
+    Then re-run <span class="ros-command">catkin config</span>.
+
     <h2>Optional: Excluding Packages from a Build</h2>
     <p>MoveIt is a large project and the default compile time can easily take around 30 minutes.
     If you would like to reduce your compile time or only need to build a subset of all the packages, <span class="ros-command">catkin</span> allows you to configure only a subset of packages to include in a build.

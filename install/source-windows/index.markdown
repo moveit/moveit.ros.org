@@ -11,6 +11,7 @@ title: MoveIt 1 Source Build - Windows
       <br />
     <h2>Prerequisites</h2>
     <p>ROS for Windows requires 64-bit Windows 10 Desktop or Windows 10 IoT Enterprise.</p>
+    <p><b>Currently only ROS Melodic is supported on Windows</b>.</p>
     <h3>
     Install <img src="/assets/install_page/ros_logo.jpeg"/>
     </h3>

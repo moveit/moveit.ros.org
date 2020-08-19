@@ -66,32 +66,33 @@ We use [Travis](https://travis-ci.org/ros-planning/) continous integration combi
 
 To see an overview of the activity for MoveIt check our [Open HUB Project Summary](https://www.openhub.net/p/moveit/analyses/latest/languages_summary).
 
-## ROS Melodic Code API
+## ROS Noetic Code API
 
 ### Move Group Interface
 
-- [MoveGroupInterface class](http://docs.ros.org/melodic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveGroupInterface.html) - the main C++ interface to the _move_group_node_.
+- [MoveItCpp class](http://docs.ros.org/noetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveItCpp.html) - the main new, faster C++ interface to MoveIt.
+- [MoveGroupInterface class](http://docs.ros.org/noetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveGroupInterface.html) - the main C++ interface to the _move_group_node_.
   `MoveGroupInterface` is the successor to the `MoveGroup` class from previous releases, which is [now deprecated](https://github.com/ros-planning/moveit/issues/37).
-- [PlanningSceneInterface class](http://docs.ros.org/melodic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1PlanningSceneInterface.html) - a C++ interface to the planning scene
-- [MoveIt commander](http://docs.ros.org/melodic/api/moveit_commander/html/index.html) - documentation for the MoveIt commander.
+- [PlanningSceneInterface class](http://docs.ros.org/noetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1PlanningSceneInterface.html) - a C++ interface to the planning scene
+- [MoveIt commander](http://docs.ros.org/noetic/api/moveit_commander/html/index.html) - documentation for the MoveIt commander.
 
 ### MoveIt ROS
 
 _This API is meant for advanced developers. Most users should use the Move Group interface (above)._
 
-- [Planning](http://docs.ros.org/melodic/api/moveit_ros_planning/html) - The planning components in MoveIt ROS, especially the planning scene, kinematics and monitors
-- [Move Group](http://docs.ros.org/melodic/api/moveit_ros_move_group/html) - The _move_group_node_
-- [Perception](http://docs.ros.org/melodic/api/moveit_ros_perception/html) - The perception components in MoveIt ROS
-- [Robot Interaction](http://docs.ros.org/melodic/api/moveit_ros_robot_interaction/html) - The Interactivity components in MoveIt ROS
+- [Planning](http://docs.ros.org/noetic/api/moveit_ros_planning/html) - The planning components in MoveIt ROS, especially the planning scene, kinematics and monitors
+- [Move Group](http://docs.ros.org/noetic/api/moveit_ros_move_group/html) - The _move_group_node_
+- [Perception](http://docs.ros.org/noetic/api/moveit_ros_perception/html) - The perception components in MoveIt ROS
+- [Robot Interaction](http://docs.ros.org/noetic/api/moveit_ros_robot_interaction/html) - The Interactivity components in MoveIt ROS
 
 ### MoveIt Core
 
 _This API is meant for advanced developers. Most users should use the Move Group interface (above)._
 
-- [Core](http://docs.ros.org/melodic/api/moveit_core/html) - The core components in MoveIt for kinematics, planning scene, constraints, motion planning, collision checking and plugin interfaces
+- [Core](http://docs.ros.org/noetic/api/moveit_core/html) - The core components in MoveIt for kinematics, planning scene, constraints, motion planning, collision checking and plugin interfaces
 
 ### MoveIt OMPL Interface
 
 _This API is meant for advanced developers. Most users should use the Move Group interface (above)._
 
-- [OMPL Interface](http://docs.ros.org/melodic/api/moveit_planners_ompl/html) - The set of classes that allow MoveIt to talk with OMPL.
+- [OMPL Interface](http://docs.ros.org/noetic/api/moveit_planners_ompl/html) - The set of classes that allow MoveIt to talk with OMPL.
