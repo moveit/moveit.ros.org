@@ -13,10 +13,22 @@ Please compress images before loading to repo, we recommend [https://tinypng.com
 
 Please use https://www.youtube-nocookie.com/ instead of  https://www.youtube.com/. Explanation [here](https://github.com/ros-planning/moveit.ros.org/issues/232).
 
-## Test Locally on Ubuntu 16.04
+## Build Locally on Ubuntu
 
 Will install Ruby, Jekyll, build the website, and server the website on localhost:
 
     ./build_locally.sh
 
-TODO: the currently used version of Ruby is old and needs to be updated, but Ubuntu 16.04 is holding us back.
+If the dependencies are already installed (you've already run the previous command before locally):
+
+    ./build_locally.sh noinstall
+
+If Jekyll is for some reason still running in the background, kill to prevent port conflicts:
+
+   pkill -9 -f jekyll
+
+### Run Travis Tests Locally
+
+Will check all links are valid, etc:
+
+    ./build_locally.sh travis
