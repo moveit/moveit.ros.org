@@ -39,7 +39,7 @@ title: MoveIt 1 Docker Install
     <div class="horizontal-line"></div>
     <h2>Running MoveIt Containers</h2>
     <p>
-      To use Rviz (and other GUIs), you probably want to set up hardware acceleration for Docker as described here.
+      To use Rviz (and other GUIs), you probably want to set up hardware acceleration for Docker as described <a href="http://wiki.ros.org/docker/Tutorials/Hardware%20Acceleration" target="_blank">here</a>.
     </p>
     <br/>
     <p>
