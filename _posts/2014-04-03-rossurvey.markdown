@@ -6,8 +6,6 @@ layout: post
 slug: rossurvey
 title: MoveIt! scores high in the ROS survey
 description: New ROS survey results are out and MoveIt! scored high on the list of ROS packages important to users.
-redirect_from:
-  - "/rossurvey/"
 categories:
   - MoveIt!
   - ROS
