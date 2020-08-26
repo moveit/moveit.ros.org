@@ -23,6 +23,10 @@ To subscribe via email (recommended):
 
 Note that this Discourse forum is not for MoveIt users questions or specific robot application questions. *Technical questions should be directed to [answers.ros.org](http://answers.ros.org/) with the moveit tag*.
 
+## Discord
+
+Join the conversation on Discord (a chat client, different from Discourse, similar to Slack) in the new [MoveIt Server](https://discord.gg/RrySut8).
+
 ## IRC
 
 For old school hackers, check out our IRC channel with #moveit at irc.freenode.net.
