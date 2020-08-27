@@ -17,17 +17,17 @@ A set of packages that include controller interfaces, controller managers, trans
 
 <img src="/assets/images/related_projects/ros_control.png" height="500"/>
 
+## Bio_IK
+
+A MoveIt kinematics_base plugin based on Particle Optimization & Genetic Algorithms. For ease of use and compatibility with existing code, the bio-ik algorithm is encapsulated as a Moveit kinematics plugin. Therefore, bio-ik can be used as a direct replacement of the default Orocos/KDL-based IK solver. Given the name of an end-effector and a 6-DOF target pose, bio-ik will search a valid robot joint configuration that reaches the given target. [More Info](https://github.com/TAMS-Group/bio_ik)
+
+<img src="/assets/images/related_projects/bio_ik.png" height="500"/>
+
 ## TracIK
 
 Provide an alternative Inverse Kinematics solver to the popular inverse Jacobian methods in KDL. Specifically, KDL's convergence algorithms are based on Newton's method, which does not work well in the presence of joint limits --- common for many robotic platforms. [More Info](https://bitbucket.org/traclabs/trac_ik)
 
 <img src="/assets/images/related_projects/place_holder.png" height="300"/>
-
-## BioIK
-
-A MoveIt kinematics_base plugin based on Particle Optimization & Genetic Algorithms. For ease of use and compatibility with existing code, the bio-ik algorithm is encapsulated as a Moveit kinematics plugin. Therefore, bio-ik can be used as a direct replacement of the default Orocos/KDL-based IK solver. Given the name of an end-effector and a 6-DOF target pose, bio-ik will search a valid robot joint configuration that reaches the given target. [More Info](https://github.com/TAMS-Group/bio_ik)
-
-<img src="/assets/images/related_projects/bio_ik.png" height="500"/>
 
 ## Pilz Industrial Motion
 
