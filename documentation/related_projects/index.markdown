@@ -17,7 +17,7 @@ A set of packages that include controller interfaces, controller managers, trans
 
 <img src="/assets/images/related_projects/ros_control.png" height="500"/>
 
-## Bio_IK
+## IK Plugin `bio_ik`
 
 A MoveIt kinematics_base plugin based on Particle Optimization & Genetic Algorithms. For ease of use and compatibility with existing code, the bio-ik algorithm is encapsulated as a Moveit kinematics plugin. Therefore, bio-ik can be used as a direct replacement of the default Orocos/KDL-based IK solver. Given the name of an end-effector and a 6-DOF target pose, bio-ik will search a valid robot joint configuration that reaches the given target. [More Info](https://github.com/TAMS-Group/bio_ik)
 
