@@ -333,7 +333,7 @@ redirect_from: '/moveit/'
                         <p><span>Platforms:</span> Ubuntu 20.04</p>
                         <p><span>Initial release:</span> 1 July 2020</p>
                         <p><span>End of life:</span> July 2021</p>
-                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2" target="_blank">moveit2:master</a></p>
+                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2" target="_blank">moveit2:main</a></p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>

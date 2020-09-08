@@ -39,7 +39,7 @@ Create a colcon workspace:
 
 Download the repository and install any dependencies:
 
-    git clone https://github.com/ros-planning/moveit2.git -b master
+    git clone https://github.com/ros-planning/moveit2.git -b main
     vcs import < moveit2/moveit2.repos
     rosdep install -r --from-paths . --ignore-src --rosdistro foxy -y
 
@@ -60,7 +60,7 @@ Setup your environment - you can do this every time you work with this particula
 
 We've prepared a simple demo setup that you can use for quickly spinning up a simulated robot environment with MoveItCpp.
 
-<a href="https://github.com/ros-planning/moveit2/tree/master/moveit_demo_nodes/run_moveit_cpp" target="_blank">
+<a href="https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_moveit_cpp" target="_blank">
   <span class="link-with-background">
     MoveItCpp Demo Package
   </span>

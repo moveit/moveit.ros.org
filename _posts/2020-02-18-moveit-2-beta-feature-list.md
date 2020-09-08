@@ -43,4 +43,4 @@ Unfortunately, there are still some packages that have not been ported yet due t
 
 **Demo and Beta Testing**
 
-We will provide a <a href="https://github.com/ros-planning/moveit2/tree/master/moveit_demo_nodes/run_moveit_cpp" target="_blank">MoveItCpp demo setup</a> with example code that runs a simulated Panda robot. We welcome you to play around with it and try to break it as much as possible. As a Beta tester, you are invited to reproduce the demo with other robot setups as well, while documenting and filing any issues you find. Ideally, you would provide PRs with corresponding fixes as well ;-).
+We will provide a <a href="https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_moveit_cpp" target="_blank">MoveItCpp demo setup</a> with example code that runs a simulated Panda robot. We welcome you to play around with it and try to break it as much as possible. As a Beta tester, you are invited to reproduce the demo with other robot setups as well, while documenting and filing any issues you find. Ideally, you would provide PRs with corresponding fixes as well ;-).
