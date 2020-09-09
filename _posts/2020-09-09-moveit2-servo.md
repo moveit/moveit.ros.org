@@ -14,8 +14,6 @@ categories:
 - jog
 ---
 
-## Intro Paragraph, high-level
-
 MoveIt Servo (formerly Jog Arm) is now available in ROS 2 Foxy Fitzroy. It includes all of the great features from ROS 1, including singularity and collision safety, joint limit enforcement, and agnostic input. New for ROS 2 is support for running Servo as a composable node, increased test coverage, and ready-made demonstrations and examples.
 
 MoveIt Servo allows you to send end effector velocity commands directly to the robot, and is part of MoveIt 2’s focus on realtime performance. As with the ROS 1 version, using Servo does not preclude you from using MoveIt’s planning and execution framework, and using both alongside each other remains a powerful tool for controlling your manipulator. The remainder of this article summarizes the new features of Servo and gives ideas for its use.
