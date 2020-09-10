@@ -29,17 +29,17 @@ A [new tutorial](https://github.com/ros-planning/moveit_tutorials/pull/518) expl
 <img src="/assets/images/blog_posts/ompl_constrained_planning/tutorial_case_2.gif" alt="drawing" width="45%"/>
 <img src="/assets/images/blog_posts/ompl_constrained_planning/tutorial_case_3.gif" alt="drawing" width="45%"/>
 
-These example problems are only the tip of the iceberg. An [external planning plugin](https://github.com/JeroenDM/elion) showes the potential of this new planning technique and allows you to test experimental constraints. In addition, alternative approaches to projection-based sampling are available im OMPL that could be used for a subset of the constraints.
+These example problems are only the tip of the iceberg. An [external planning plugin](https://github.com/JeroenDM/elion) shows the potential of this new planning technique and allows you to test experimental constraints. In addition, alternative approaches to projection-based sampling are available in OMPL that could be used for a subset of the constraints.
 
 <img src="/assets/images/blog_posts/ompl_constrained_planning/welding_example.gif" alt="drawing" width="45%"/>
 <img src="/assets/images/blog_posts/ompl_constrained_planning/kuka_pos_con.gif" alt="drawing" width="45%"/>
 
-The project also improved the exiting code in many ways. More than 100 lines of unused code are removed, the logging statements are cleaned up and a surprising [bug](https://github.com/ros-planning/moveit/pull/2239) is fixed. See [here](https://gist.github.com/JeroenDM/426e3a7e083049295bbcb660c9a98e63) for a complete list of the pull requests.
+The project also improved the existing code in many ways. More than 100 lines of unused code have been removed, the logging statements cleaned up and a surprising [bug](https://github.com/ros-planning/moveit/pull/2239) fixed. See [here](https://gist.github.com/JeroenDM/426e3a7e083049295bbcb660c9a98e63) for a complete list of the pull requests.
 
 
 ## Limitations
 
-The main (temporary) drawback is that the code is still being review and merged. So it can only be used by building MoveIt from source right now. Hopefully, we can quickly work through the review process. Feel free to provide feedback and help out!
+The main (temporary) drawback is that the code is still being reviewed and merged. So it can only be used by building MoveIt from source right now. Hopefully, we can quickly work through the review process. Feel free to provide feedback and help out!
 
 A second limitation at the moment is the performance. It can be quite slow compared to the other planning approaches and the solution paths requiring optimization sometimes. With some contributions from seasoned C++ programmers, we should be able to improve performance. This will enable us to make planners that optimize the solution, such as `RRTstar` and `PRMstar`, reasonably fast, and make the new planner even more useful.
 
