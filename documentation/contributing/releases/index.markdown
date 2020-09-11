@@ -45,7 +45,7 @@ MoveIt has a 6 week cadence for patch releases.  This pace is a balance between 
 
 ## Permissions
 
-Release person must have a write access to both devel repos (e.g. [github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)) as well as release repos (e.g. [github.com/ros-gbp/moveit-release](https://github.com/ros-gbp/moveit-release)). The release repo access is managed via the Github Team [moveit-maintainers](https://github.com/orgs/ros-gbp/teams/moveit-maintainers/members).
+The maintainer handling the release must have write access to both devel repos (e.g. [github.com/ros-planning/moveit](https://github.com/ros-planning/moveit)) as well as release repos (e.g. [github.com/ros-gbp/moveit-release](https://github.com/ros-gbp/moveit-release)). The release repo access is managed via the Github Team [moveit-maintainers](https://github.com/orgs/ros-gbp/teams/moveit-maintainers/members).
 
 ## Steps
 
