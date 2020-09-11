@@ -15,12 +15,8 @@ The release schedule is avalible via [this Google Calendar](https://calendar.goo
 
 ### Typical Release Schedule
 
-* Friday: Code Freeze
-  * Backport changes
-  * Fix bugs
-  * Update CHANGELOG
-* Three Fridays Later: Release
-  * Bloom
+* Friday: Begin preparing release
+* Following Friday: Bloom
 * Tuesday After Bloom: Public Announcement
 
 ## Permissions
