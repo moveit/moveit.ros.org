@@ -98,3 +98,7 @@ If the commits apply cleanly to future branches and there is no evidence that th
 Otherwise either the requestor or the maintainer should create new pull-requests targeting the later branches.
 If possible, merge these *together* with the original request.
 In this context it might be worth spending some time on making use of features available in later ROS distributions to simplify the code, e.g. by using a new coding standard or a more current version of a library.
+
+## Making a new release
+
+The process for releasing is [documented here](/documentation/contributing/releases/).

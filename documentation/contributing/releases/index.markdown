@@ -3,35 +3,15 @@ author: tylerjw
 layout: page
 slug: releases
 title: Releases
-redirect_from: "/documentation/contributing/releases.html"
 ---
 
-# Patch Releases
+# Release Process
 
-MoveIt has a 6 week cadence for patch releases.  This pace is a balance between releasing new improvements quickly and preserving the stability of releases.  We are choosing this schedule to reduce the amount of work per release, reduce the time it takes to get an improvement released and make it easier to schedule for the Picknik team.  These releases will include the main MoveIt repo along with any dependencies we control if they have changed (e.g. moveit_msgs).
+MoveIt has a 6 week cadence for releases.  This pace is a balance between releasing new improvements quickly and preserving the stability of releases.  We are choosing this schedule to reduce the amount of work per release, reduce the time it takes to get an improvement released and make it easier to schedule for the Picknik team.  These releases will include the main MoveIt repo along with any dependencies we control if they have changed (e.g. moveit_msgs).
 
 ## Upcoming releases
 
-* **Noetic (1.1.1) and Foxy (2.0.1)**
-  * Oct 02, 2020 - Code freeze
-  * Oct 23, 2020 - Bloom
-  * Oct 27, 2020 - Announce
-* **Noetic (1.1.2) and Foxy (2.0.2)**
-  * Nov 13, 2020 - Code Freeze
-  * Dec 04, 2020 - Bloom
-  * Dec 08, 2020 - Announce
-* **Noetic (1.1.3) and Foxy (2.0.3)**
-  * Jan 01, 2021 - Code Freeze
-  * Jan 22, 2021 - Bloom
-  * Jan 26, 2021 - Announce
-* **Noetic (1.1.4) and Foxy (2.0.4)**
-  * Feb 12, 2021 - Code Freeze
-  * Mar 05, 2021 - Bloom
-  * Mar 09, 2021 - Announce
-* **Noetic (1.1.5) and Foxy (2.0.5)**
-  * Mar 26, 2021 - Code Freeze
-  * Apr 16, 2021 - Bloom
-  * Apr 20, 2021 - Announce
+The release schedule is avalible via [this Google Calendar](https://calendar.google.com/calendar/embed?src=c_bpueq5jcajuaejr2di0hdr4qgg%40group.calendar.google.com&ctz=America%2FDenver).
 
 ### Typical Release Schedule
 
