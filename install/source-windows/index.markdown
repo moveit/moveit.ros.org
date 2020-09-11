@@ -49,7 +49,7 @@ title: MoveIt 1 Source Build - Windows
         <br/>
         :: attempt to acquire the external dependencies<br/>
         set ChocolateyInstall=c:\opt\chocolatey<br/>
-        choco source add -n=ros-win -s="https://roswin.azurewebsites.net/api/v2" --priority=1<br/>
+        choco source add -n=ros-win -s="https://aka.ms/ros/public" --priority=1<br/>
         rosdep update<br/>
         rosdep install --from-paths src --ignore-src -r -y<br/>
         pip install --upgrade --force-reinstall cmake==3.16.3
