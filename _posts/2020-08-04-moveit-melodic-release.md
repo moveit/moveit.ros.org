@@ -19,7 +19,7 @@ Real-time robot arm control. [So cool, we even got a smile from a famous person 
 
 ![thank_you_servo](/assets/images/blog_posts/2020_08_01_servo.gif)
 
-[Here is an tutorial for getting started with it. ](https://ros-planning.github.io/moveit_tutorials/doc/arm_jogging/arm_jogging_tutorial.html)
+[Here is an tutorial for getting started with it. ](https://ros-planning.github.io/moveit_tutorials/doc/realtime_servo/realtime_servo_tutorial.html)
 
 ### moveit_cpp
 There is a new high level API for users who want convenient access to MoveIt's functionality via C++ classes. [Here is the tutorial for using it.](https://ros-planning.github.io/moveit_tutorials/doc/moveit_cpp/moveitcpp_tutorial.html)
