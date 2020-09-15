@@ -44,7 +44,7 @@ The maintainer handling the release must have write access to both devel repos (
 1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to cleanup/combine changelog messages and mark/sort them by type of change (e.g. bugfix, feature, maintenance, documentation). Have a look at previous changelogs to get an idea of the verbosity level and formatting. Example of the whole command set:
 
    ```
-   cd moveit                              (Top directory of your clooned moveit repo.)
+   cd moveit                              (Top directory of your cloned moveit repo.)
    git checkout master
    git log                                (Make sure the HEAD is what you want to release with. If it's not then update accordingly.)
    catkin_generate_changelog
