@@ -37,10 +37,10 @@ We have listened to your feedback and added:
   * [MoveIt! Blog](/blog/) - we will highlight features, apps, robots and demos here (so please send them in regularly)
 
 
-  * [New documentation](/documentation/)
+  * [New documentation](/)
 
 
-  * [New tutorials](/documentation/tutorials/) - Sphinx-based tutorials living next to the code so they are easier to maintain
+  * [New tutorials](https://ros-planning.github.io/moveit_tutorials/) - Sphinx-based tutorials living next to the code so they are easier to maintain
 
 
   * [Robots using MoveIt!](/robots/) page

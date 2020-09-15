@@ -8,7 +8,9 @@ title: MoveIt 1 Docker Install
     <h1><img src="/assets/install_page/docker.png">  MoveIt 1 Docker Install</h1>
     <p>
       Docker is an open-source project that automates the deployment of Linux
-      applications inside software containers. See <a href="https://www.docker.com/" target="_blank">www.docker.com</a>
+      applications inside software containers.
+      <a href="https://www.docker.com/" target="_blank">Docker</a> is an open-source project that automates the deployment of Linux
+      applications inside software containers.
     </p>
     <br/>
     <p>
@@ -22,7 +24,7 @@ title: MoveIt 1 Docker Install
     </p>
     <br/>
     <p>
-      Note that for recent Linux distros, the installation is basically just a single wget command. You may also want <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" target="_blank">add your user to the docker group</a> to avoid having to use sudo permissions when you use the docker command.
+      Note that for recent Linux distros, the installation is basically just a single <span class="ros-command">wget</span> command. You may also want <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" target="_blank">add your user to the docker group</a> to avoid having to use sudo permissions when you use the docker command.
     </p>
     <h2>
       <img src="/assets/install_page/ubuntu_black.png"> Ubuntu
@@ -47,7 +49,7 @@ title: MoveIt 1 Docker Install
     </p>
     <div class="bash-command">
       <code>
-        ./gui-docker -it --rm moveit/moveit:melodic-source /bin/bash
+        ./gui-docker -it --rm moveit/moveit:noetic-source /bin/bash
       </code>
     </div>
     <p>You can test that the GUI works by running rviz:</p>
@@ -75,7 +77,7 @@ title: MoveIt 1 Docker Install
         </a>
     <div class="horizontal-line"></div>
     <h2>MoveIt Container Types</h2>
-    <p>There are many variants of the MoveIt Docker available as <a href="/documentation/contributing/continuous_integration/">documented here</a>. For example, any of the two current distros work: [kinetic, melodic]. Other variations include:</p>
+    <p>There are many variants of the MoveIt Docker available as <a href="/documentation/contributing/continuous_integration/">documented here</a>. For example, any of the two current distros work: [melodic, noetic]. Other variations include:</p>
     <div class="container">
         <div class="install-card-wrapper">
             <div class="col-4 install-card-single">

@@ -25,7 +25,7 @@ If the dependencies are already installed (you've already run the previous comma
 
 If Jekyll is for some reason still running in the background, kill to prevent port conflicts:
 
-   pkill -9 -f jekyll
+    pkill -9 -f jekyll
 
 ### Run Travis Tests Locally
 

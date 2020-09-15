@@ -7,9 +7,9 @@ title: MoveIt 1 Binary Install
   <div>
     <h1>MoveIt 1 Binary Install</h1>
     We're thrilled you're ready to start using MoveIt!
-    <p>Choose which platform to install pre-built MoveIt on:</p>
+    Choose which platform to install pre-built MoveIt on:
     <div class="row systems-rectangle">
-      <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu1" aria-expanded="true" aria-controls="Ubuntu1">
+      <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Ubuntu1" aria-expanded="true" aria-controls="Ubuntu1">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/ubuntu.png"/>
@@ -18,11 +18,11 @@ title: MoveIt 1 Binary Install
               <div class="system-name">
                 Ubuntu
               </div>
-              16.04
+              20.04
             </div>
           </div>
       </button>
-      <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Ubuntu2" aria-expanded="true" aria-controls="Ubuntu2">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#Ubuntu2" aria-expanded="true" aria-controls="Ubuntu2">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/ubuntu.png"/>
@@ -35,6 +35,19 @@ title: MoveIt 1 Binary Install
             </div>
           </div>
       </button>
+      <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Ubuntu3" aria-expanded="true" aria-controls="Ubuntu2">
+          <div class="row no-gutters">
+            <div class="col-auto">
+              <img src="/assets/install_page/ubuntu.png"/>
+            </div>
+            <div class="col-auto system-type">
+              <div class="system-name">
+                Ubuntu
+              </div>
+              16.04
+            </div>
+          </div>
+      </button>
       <button class="btn btn-primary" data-toggle="collapse" data-target="#Windows" aria-expanded="true" aria-controls="Windows">
           <div class="row no-gutters">
             <div class="col-auto">
@@ -42,13 +55,13 @@ title: MoveIt 1 Binary Install
             </div>
             <div class="col-auto system-type">
               <div class="system-name">
-                Windows 10
+                Windows
               </div>
-              Experimental
+              10
             </div>
           </div>
       </button>
-      <button class="btn btn-primary" data-toggle="collapse" data-target="#MocOs" aria-expanded="true" aria-controls="MocOs">
+      <!--button class="btn btn-primary" data-toggle="collapse" data-target="#MocOs" aria-expanded="true" aria-controls="MocOs">
           <div class="row no-gutters">
             <div class="col-auto">
               <img src="/assets/install_page/mac-os.png"/>
@@ -60,7 +73,7 @@ title: MoveIt 1 Binary Install
               Experimental
             </div>
           </div>
-      </button>
+      </button-->
     </div>
     <div id="accordion">
       <!-- ----------------------------------------------------------------- -->
@@ -72,16 +85,16 @@ title: MoveIt 1 Binary Install
           Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
         </h3>
         <p>
-          Follow all the instructions to <a href="http://wiki.ros.org/kinetic/Installation" target="_blank">install ROS Kinetic</a>, including calls to <span class="ros-command">rosdep</span>
+          Follow all the instructions to <a href="http://wiki.ros.org/noetic/Installation" target="_blank">install ROS Noetic</a>, including calls to <span class="ros-command">rosdep</span>
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 16.04
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 20.04
         </h2>
         <h3>
-          ROS Kinetic
+          ROS Noetic
           <div class="bash-command">
-            <code>sudo apt install ros-kinetic-moveit</code>
+            <code>sudo apt install ros-noetic-moveit</code>
           </div>
         </h3>
         <div class="horizontal-line"></div>
@@ -91,7 +104,7 @@ title: MoveIt 1 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="http://docs.ros.org/kinetic/api/moveit_tutorials/html/index.html" target="_blank">
+        <a href="https://ros-planning.github.io/moveit_tutorials/" target="_blank">
           <span class="link-with-background">
             MoveIt Getting Started Tutorial
           </span>
@@ -125,7 +138,41 @@ title: MoveIt 1 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="https://ros-planning.github.io/moveit_tutorials/" target="_blank">
+        <a href="http://docs.ros.org/melodic/api/moveit_tutorials/html/index.html" target="_blank">
+          <span class="link-with-background">
+            MoveIt Getting Started Tutorial
+          </span>
+        </a>
+      </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <div class="collapse" id="Ubuntu3" data-parent="#accordion">
+        <h3>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+        </h3>
+        <p>
+          Follow all the instructions to <a href="http://wiki.ros.org/kinetic/Installation" target="_blank">install ROS Kinetic</a>, including calls to <span class="ros-command">rosdep</span>
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 16.04
+        </h2>
+        <h3>
+          ROS Kinetic
+          <div class="bash-command">
+            <code>sudo apt-get install ros-kinetic-moveit</code>
+          </div>
+        </h3>
+        <div class="horizontal-line"></div>
+        <h2>
+          Quick Start
+        </h2>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="http://docs.ros.org/kinetic/api/moveit_tutorials/html/index.html" target="_blank">
           <span class="link-with-background">
             MoveIt Getting Started Tutorial
           </span>
@@ -140,6 +187,7 @@ title: MoveIt 1 Binary Install
           Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
         </h3>
         <p>
+          <b>Currently only ROS Melodic is supported on Windows</b>.
           Follow all the instructions to <a href="http://wiki.ros.org/Installation/Windows" target="_blank">install ROS Melodic on Windows</a>.
         </p>
         <div class="horizontal-line"></div>
@@ -156,11 +204,11 @@ title: MoveIt 1 Binary Install
           <code>
             mkdir c:\opt\chocolatey<br/>
             set ChocolateyInstall=c:\opt\chocolatey<br/>
-            choco source add -n=ros-win -s="https://roswin.azurewebsites.net/api/v2" --priority=1<br/>
+            choco source add -n=ros-win -s="https://aka.ms/ros/public" --priority=1<br/>
           </code>
         </div>
         <p>
-          Chocolatey should have been installed while following the <a href="http://wiki.ros.org/Installation/Windows#noetic.2FInstallation.2FWindows.Install_Windows_Package_Manager" target="_blank">ROS on Windows instructions</a>. Next, make sure your ROS install is latest: 
+          Chocolatey should have been installed while following the <a href="http://wiki.ros.org/Installation/Windows#noetic.2FInstallation.2FWindows.Install_Windows_Package_Manager" target="_blank">ROS on Windows instructions</a>. Next, make sure your ROS install is latest:
         </p>
         <div class="bash-command">
           <code>

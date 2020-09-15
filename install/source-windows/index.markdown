@@ -11,6 +11,7 @@ title: MoveIt 1 Source Build - Windows
       <br />
     <h2>Prerequisites</h2>
     <p>ROS for Windows requires 64-bit Windows 10 Desktop or Windows 10 IoT Enterprise.</p>
+    <p><b>Currently only ROS Melodic is supported on Windows</b>.</p>
     <h3>
     Install <img src="/assets/install_page/ros_logo.jpeg"/>
     </h3>
@@ -49,7 +50,7 @@ title: MoveIt 1 Source Build - Windows
         <br/>
         :: attempt to acquire the external dependencies<br/>
         set ChocolateyInstall=c:\opt\chocolatey<br/>
-        choco source add -n=ros-win -s="https://roswin.azurewebsites.net/api/v2" --priority=1<br/>
+        choco source add -n=ros-win -s="https://aka.ms/ros/public" --priority=1<br/>
         rosdep update<br/>
         rosdep install --from-paths src --ignore-src -r -y<br/>
         pip install --upgrade --force-reinstall cmake==3.16.3
