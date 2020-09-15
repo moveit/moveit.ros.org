@@ -204,7 +204,7 @@ title: MoveIt 1 Binary Install
           <code>
             mkdir c:\opt\chocolatey<br/>
             set ChocolateyInstall=c:\opt\chocolatey<br/>
-            choco source add -n=ros-win -s="https://roswin.azurewebsites.net/api/v2" --priority=1<br/>
+            choco source add -n=ros-win -s="https://aka.ms/ros/public" --priority=1<br/>
           </code>
         </div>
         <p>
