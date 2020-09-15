@@ -126,9 +126,9 @@ If any step ends with issues, they need to be fixed before moving on.
      ```
      _DIR_PRLTEST=/tmp/prerelease_job_kin-xen; mkdir -p $_DIR_PRLTEST && cd $_DIR_PRLTEST
 
-     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml melodic default ubuntu xenial amd64  moveit   --level 0  --output-dir ./
+     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml noetic default ubuntu xenial amd64  moveit   --level 0  --output-dir ./
 
-     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml melodic default ubuntu wily amd64  moveit   --level 0  --output-dir ./
+     generate_prerelease_script.py   https://raw.githubusercontent.com/ros-infrastructure/ros_buildfarm_config/production/index.yaml noetic default ubuntu wily amd64  moveit   --level 0  --output-dir ./
      ```
 
 1. Update changelogs. Take advantage of `catkin_generate_changelog` command to populate new logs, then preferably edit them manually to cleanup/combine changelog messages and mark/sort them by type of change (e.g. bugfix, feature, maintenance, documentation). Have a look at previous changelogs to get an idea of the verbosity level and formatting. Example of the whole command set:
@@ -151,7 +151,7 @@ If any step ends with issues, they need to be fixed before moving on.
 1. Run `bloom`. Open a pull request against [rosdistro](https://github.com/ros/rosdistro) as bloom suggests at the end of its run. [Example of such a request](https://github.com/ros/rosdistro/pull/13512). Example command:
 
    ```
-   bloom-release --rosdistro melodic moveit
+   bloom-release --rosdistro noetic moveit
    ```
 1. Bump the version number to the next upcoming one and _finally_ push to the github:
    ```
@@ -178,7 +178,7 @@ If any step ends with issues, they need to be fixed before moving on.
   * Indigo 0.8.x (indigo-devel)
   * Kinetic 0.9.x (kinetic-devel)
   * Melodic 1.0.x (melodic-devel)
-  * Noetic 1.1.x (noetic-devel)
+  * Noetic 1.1.x (master)
 * As of May 2020 we decided to bump the release version right after preparing a release, such that
   the `HEAD` of a development branch will already indicate the _next_ upcoming release version. See [rational](https://github.com/ros-planning/moveit/issues/2036).
 * See also: [discussion for the best practice for versioning](https://discourse.ros.org/t/maintainer-best-practices-handling-changes-through-ros-releases/771) on Discourse.

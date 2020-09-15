@@ -27,12 +27,12 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between homepage-main-wrapper">
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
-                            <!--div class="main-tag">
-                                <a href="/events/world-moveit-day/2020/04/28/world-moveit-day-2020.html">
+                            <div class="main-tag">
+                                <a href="/moveit2/ros2/foxy/release/2020/09/04/moveit2-foxy-release.html">
                                     <span class="blue">Announcement</span>
-                                    <span>World MoveIt Day Hackathon June 2nd!</span>
+                                    <span>MoveIt 2.0 is out of beta!</span>
                                 </a>
-                            </div-->
+                            </div>
                             <h1>Moving robots into the&nbsp;future</h1>
                             <p class="main-text">Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.</p>
                             <div class="button-group">
@@ -47,16 +47,16 @@ redirect_from: '/moveit/'
                             <img class="robot-hand" src="/assets/images/main/hero@2x.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
-                                    Latest: Melodic / Ubuntu 18.04
+                                    Latest: MoveIt 2 Foxy / Ubuntu 20.04
                                 </div>
-                                <a href="/install/" class="info-box-button button">Install Binaries</a>
+                                <a href="/install-moveit2/source/" class="info-box-button button">Build MoveIt 2 from Source</a>
                                 <div class="info-box-version">
-                                    Version: 1.0.2
+                                    Version: 2.1.0
                                 </div>
                                 <div class="link-group">
-                                    <a href="/install/source/" class="info-box-link">Build from Source</a>
+                                    <a href="/install/" class="info-box-link">Install MoveIt 1.0</a>
                                     <span>|</span>
-                                    <a href="https://github.com/ros-planning/moveit" target="_blank" class="info-box-link">View on Github</a>
+                                    <a href="https://github.com/ros-planning/moveit2" target="_blank" class="info-box-link">View on Github</a>
                                 </div>
                                 <img src="/assets/images/logo/ROS_logo.png" alt="ROS logo" class="info-box-logo" />
                             </div>
@@ -247,45 +247,45 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12'>
                     <h2 class="h1 text-center"><a id="release-versions" href="#release-versions">Current and Future Versions</a></h2>
                 </div>
-                <div class='col-sm-12 time-line-wrappper'>
-                    <h3>MoveIt 1.1 Noetic</h3>
-                    <div class="time-line">
-                        <div class="time-line--orange" id="time-line--orange-1"></div>
-                        <div class="time-line--blue" id="time-line--blue-1"></div>
-                        <div class="time-line--red" id="time-line--red-1"></div>
-                    </div>
-                    <div class="time-line-content">
-                        <div class="time-line--info">
-                            <p>March 2019</p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--blue"></span>
-                            <p>
-                                Initial Development
-                                <small>1 March 2019</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--orange"></span>
-                            <p>
-                                API Freeze
-                                <small>1 July 2020</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--red"></span>
-                            <p>
-                                Official Release
-                                <small>15 July 2020</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <p>July 2020</p>
-                        </div>
-                    </div>
-                </div>
+                <!-- <div class='col-sm-12 time-line-wrappper'> -->
+                <!--     <h3>MoveIt 1.1 Noetic</h3> -->
+                <!--     <div class="time-line"> -->
+                <!--         <div class="time-line--orange" id="time-line--orange-1"></div> -->
+                <!--         <div class="time-line--blue" id="time-line--blue-1"></div> -->
+                <!--         <div class="time-line--red" id="time-line--red-1"></div> -->
+                <!--     </div> -->
+                <!--     <div class="time-line-content"> -->
+                <!--         <div class="time-line--info"> -->
+                <!--             <p>March 2019</p> -->
+                <!--         </div> -->
+                <!--         <div class="time-line--info"> -->
+                <!--             <span class="time-line-box time-line-box--blue"></span> -->
+                <!--             <p> -->
+                <!--                 Initial Development -->
+                <!--                 <small>1 March 2019</small> -->
+                <!--             </p> -->
+                <!--         </div> -->
+                <!--         <div class="time-line--info"> -->
+                <!--             <span class="time-line-box time-line-box--orange"></span> -->
+                <!--             <p> -->
+                <!--                 API Freeze -->
+                <!--                 <small>1 July 2020</small> -->
+                <!--             </p> -->
+                <!--         </div> -->
+                <!--         <div class="time-line--info"> -->
+                <!--             <span class="time-line-box time-line-box--red"></span> -->
+                <!--             <p> -->
+                <!--                 Official Release -->
+                <!--                 <small>15 July 2020</small> -->
+                <!--             </p> -->
+                <!--         </div> -->
+                <!--         <div class="time-line--info"> -->
+                <!--             <p>July 2020</p> -->
+                <!--         </div> -->
+                <!--     </div> -->
+                <!-- </div> -->
                 <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
-                    <h3>MoveIt 2.1 Foxy</h3>
+                    <h3>MoveIt 2.2 Galactic Geochelone</h3>
                     <div class="time-line">
                         <div class="time-line--orange" id="time-line--orange-2"></div>
                         <div class="time-line--blue" id="time-line--blue-2"></div>
@@ -293,31 +293,31 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="time-line-content">
                         <div class="time-line--info">
-                            <p>February 2020</p>
+                            <p>September 2020</p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--blue"></span>
                             <p>
                                 Initial Development
-                                <small>14 February 2020</small>
+                                <small>14 September 2020</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--orange"></span>
                             <p>
                                 Feature Freeze
-                                <small>15 June 2020</small>
+                                <small>30 May 2021</small>
                             </p>
                         </div>
                         <div class="time-line--info">
                             <span class="time-line-box time-line-box--red"></span>
                             <p>
                                 Official Release
-                                <small>1 July 2020</small>
+                                <small>30 June 2021</small>
                             </p>
                         </div>
                         <div class="time-line--info">
-                            <p>July 2020</p>
+                            <p>June 2021</p>
                         </div>
                     </div>
                 </div>
@@ -325,14 +325,14 @@ redirect_from: '/moveit/'
             <div class='row'>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>Foxy 2.1 Beta </h3>
-                        <span class="label label--blue">Seeking Funding</span>
+                        <h3>Galactic 2.2 </h3>
+                        <span class="label label--blue">In Development</span>
                     </div>
                     <div class="version-date">
-                        <p><span>Version:</span> 2.1</p>
-                        <p><span>Platforms:</span> Ubuntu 20.04</p>
-                        <p><span>Initial release:</span> 1 July 2020</p>
-                        <p><span>End of life:</span> July 2021</p>
+                        <p><span>Version:</span> 2.2</p>
+                        <p><span>Platforms:</span> TBD</p>
+                        <p><span>Initial release:</span> June 2021</p>
+                        <p><span>End of life:</span> TBD</p>
                         <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2" target="_blank">moveit2:main</a></p>
                     </div>
                     <div class="version-content">
@@ -343,25 +343,42 @@ redirect_from: '/moveit/'
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>Noetic LTS</h3>
-                        <span class="label label--blue">In Development</span>
+                        <h3>Foxy 2.1 LTS </h3>
+                        <span class="label label--green">Recommended</span>
+                    </div>
+                    <div class="version-date">
+                        <p><span>Version:</span> 2.1</p>
+                        <p><span>Platforms:</span> Ubuntu 20.04</p>
+                        <p><span>Initial release:</span> 4 September 2020</p>
+                        <p><span>End of life:</span> May 2023</p>
+                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2" target="_blank">moveit2:main</a></p>
+                    </div>
+                    <div class="version-content">
+                        <h4>Release notes</h4>
+                        <p>First non-Beta release of MoveIt 2!</p>
+                    </div>
+                </div>
+                <div class='col-sm-12 col-lg-6 version-wrapper'>
+                    <div class="version-header">
+                        <h3>Noetic 1.1 LTS</h3>
+                        <span class="label label--orange">Maintained</span>
                     </div>
                     <div class="version-date">
                         <p><span>Version:</span> 1.1</p>
                         <p><span>Platforms:</span> Ubuntu 20.04</p>
-                        <p><span>Initial release:</span> 15 July 2020</p>
+                        <p><span>Initial release:</span> 15 September 2020</p>
                         <p><span>End of life:</span> May 2025</p>
-                        <p><span>Branch:</span> master</p>
+                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit" target="_blank">moveit:master</a></p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This is the actively developed 'master' branch of MoveIt for ROS 1.0, and will likely be the last version of MoveIt for ROS 1.0</p>
+                        <p>This is the actively developed 'master' branch of MoveIt for ROS 1.0, and will be the last version of MoveIt for ROS 1.0</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
                         <h3>Eloquent 2.0 Beta </h3>
-                        <span class="label label--orange">Released</span>
+                        <span class="label label--orange">Maintained</span>
                     </div>
                     <div class="version-date">
                         <p><span>Version:</span> 2.0</p>
@@ -372,46 +389,29 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>The first real <a href="https://moveit.ros.org/moveit/ros2/2020/02/18/moveit-2-beta-feature-list.html">release of MoveIt 2!</a></p>
+                        <p>The first official <a href="https://moveit.ros.org/moveit/ros2/2020/02/18/moveit-2-beta-feature-list.html">release of MoveIt 2!</a></p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>Dashing 2.0 Alpha</h3>
-                        <span class="label label--orange">Released</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Version:</span> 2.0</p>
-                        <p><span>Platforms:</span> Ubuntu 18.04</p>
-                        <p><span>Initial release:</span> 1 June 2019</p>
-                        <p><span>End of life:</span> May 2021</p>
-                        <p><span>Branch: <a href="https://github.com/AcutronicRobotics/moveit2" target="_blank">AcutronicRobotics/moveit2</a></span> </p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>This early preview of MoveIt 2.0 <a href="https://moveit.ros.org/moveit!/ros/2019/05/31/moveit2-alpha-release.html">was released</a> as a source build by Acutronic and has not been fully tested or verified.</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Melodic LTS</h3>
-                        <span class="label label--green">Recommended</span>
+                        <h3>Melodic 1.0 LTS</h3>
+                        <span class="label label--orange">Maintained</span>
                     </div>
                     <div class="version-date">
                         <p><span>Version:</span> 1.0</p>
                         <p><span>Platforms:</span> Ubuntu 16.04, 17.10, 18.04</p>
                         <p><span>Initial release:</span> 23 May 2018</p>
                         <p><span>End of life:</span> May 2023</p>
-                        <p><span>Branch:</span> melodic-devel</p>
+                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit/tree/melodic-devel" target="_blank">moveit:melodic-devel</a></p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This LTS builds on the latest version of ROS1 and can also build on Ubuntu 16.04. This LTS is stable and no API changes are accepted.</p>
+                        <p>This LTS release is stable and only bug fixes should be backported.</p>
                     </div>
                 </div>
                 <div class='col-sm-12 col-lg-6 version-wrapper'>
                     <div class="version-header">
-                        <h3>Kinetic LTS</h3>
+                        <h3>Kinetic 0.9 LTS</h3>
                         <span class="label label--orange">Maintained</span>
                     </div>
                     <div class="version-date">
@@ -419,11 +419,11 @@ redirect_from: '/moveit/'
                         <p><span>Platforms:</span> Ubuntu 15.10, 16.04</p>
                         <p><span>Initial release:</span> 23 May 2016</p>
                         <p><span>End of life:</span> April 2021</p>
-                        <p><span>Branch:</span> kinetic-devel</p>
+                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit/tree/kinetic-devel" target="_blank">moveit:kinetic-devel</a></p>
                     </div>
                     <div class="version-content">
                         <h4>Release notes</h4>
-                        <p>This LTS is stable and only bug fixes should be backported.</p>
+                        <p>This LTS relesae is stable and development has ended.</p>
                     </div>
                 </div>
             </div>

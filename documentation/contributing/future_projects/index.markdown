@@ -56,8 +56,8 @@ This page lists potential projects that would greatly benefit the MoveIt project
 - List of prerequisites: ROS, some background in control theory
 - Description of programming skills: C++
 - Difficulty level: Medium
-- List of potential mentors: Andy Zelenak, Robert Haschke 
-- Detailed description: Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt plans. Improve the [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/melodic-devel/moveit_plugins/moveit_ros_control_interface). Documentation on how to combine the components.
+- List of potential mentors: Andy Zelenak, Robert Haschke
+- Detailed description: Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt plans. Improve the [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/master/moveit_plugins/moveit_ros_control_interface). Documentation on how to combine the components.
 
 ## Improve MoveIt Grasps Library
 
