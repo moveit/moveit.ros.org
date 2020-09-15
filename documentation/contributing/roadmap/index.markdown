@@ -10,7 +10,7 @@ title: MoveIt Roadmap
 
 ## Future Release Dates
 
-Our future release dates for the latest ROS 1 and ROS 2 releases of MoveIt are described on the bottom of our [MoveIt homepage](/#release-dates).
+Our future release dates for the latest ROS 1 and ROS 2 releases of MoveIt are described on the bottom of our [MoveIt homepage](/#release-dates).  The schedule for patch releases is in our [Releases documentaion](/documentation/contributing/releases/).
 
 ## MoveIt 2 Immediate Milestones
 
