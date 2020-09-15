@@ -21,9 +21,9 @@ $('#modalVideo').on('hidden.bs.modal', function(e) {
 function currentVersion() {
   var currentDate = Date.now();
   //                        DAY / MONTH / YEAR
-  var startDate  = new Date('03/01/2019'); // Start Date
-  var freezeDate = new Date('07/01/2020'); // Feature Freeze
-  var finalDate  = new Date('07/15/2020'); // Release Date
+  var startDate  = new Date('09/14/2020'); // Start Date
+  var freezeDate = new Date('05/28/2021'); // Feature Freeze
+  var finalDate  = new Date('06/28/2021'); // Release Date
   var totalTime = finalDate.getTime() - startDate.getTime();
   var progressTime = currentDate - startDate;
   var percent = (progressTime / totalTime) * 100;
@@ -39,9 +39,9 @@ function currentVersion() {
 function futureVersion() {
   var currentDate = Date.now();
   //                        DAY / MONTH / YEAR
-  var startDate  = new Date('02/14/2020'); // Start Date
-  var freezeDate = new Date('06/01/2020'); // Feature Freeze
-  var finalDate  = new Date('09/15/2020'); // Release Date
+  var startDate  = new Date('09/14/2020'); // Start Date
+  var freezeDate = new Date('05/28/2021'); // Feature Freeze
+  var finalDate  = new Date('06/28/2021'); // Release Date
   var totalTime = finalDate.getTime() - startDate.getTime();
   var progressTime = currentDate - startDate;
   var percent = (progressTime / totalTime) * 100;
