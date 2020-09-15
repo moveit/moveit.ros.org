@@ -47,6 +47,6 @@ A second limitation at the moment is the performance. It can be quite slow compa
 
 I really enjoyed contributing to MoveIt and learned more about C++ debugging in these three months than during all my previous C++ projects. I would encourage anyone looking for an interesting problem to solve and a supportive community to consider contributing to MoveIt
 
-Thank you, Mark Moll (Picknik), Omid Heidari ( Idaho State University), and Felix von Drigalski (OMRON SINIC X) for mentoring me during the project. Also thank you to the MoveIt maintainers for generously spending time reviewing. For my project in particular thank you Michael Görner,  Robert Haschke, and Tyler Weaver.
+Thank you, Mark Moll (PickNik), Omid Heidari (Idaho State University), and Felix von Drigalski (OMRON SINIC X) for mentoring me during the project. Also thank you to the MoveIt maintainers for generously spending time reviewing. For my project in particular thank you Michael Görner,  Robert Haschke, and Tyler Weaver.
 
 You can find the full log of the project [here](https://github.com/ros-planning/moveit/issues/2092).
