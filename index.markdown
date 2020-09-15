@@ -27,12 +27,12 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between homepage-main-wrapper">
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
-                            <!--div class="main-tag">
-                                <a href="/events/world-moveit-day/2020/04/28/world-moveit-day-2020.html">
+                            <div class="main-tag">
+                                <a href="/moveit2/ros2/foxy/release/2020/09/04/moveit2-foxy-release.html">
                                     <span class="blue">Announcement</span>
-                                    <span>World MoveIt Day Hackathon June 2nd!</span>
+                                    <span>MoveIt 2.0 is out of beta!</span>
                                 </a>
-                            </div-->
+                            </div>
                             <h1>Moving robots into the&nbsp;future</h1>
                             <p class="main-text">Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.</p>
                             <div class="button-group">
@@ -47,16 +47,16 @@ redirect_from: '/moveit/'
                             <img class="robot-hand" src="/assets/images/main/hero@2x.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
-                                    Latest: Noetic / Ubuntu 20.04
+                                    Latest: MoveIt 2 Foxy / Ubuntu 20.04
                                 </div>
-                                <a href="/install/" class="info-box-button button">Install Binaries</a>
+                                <a href="/install-moveit2/source/" class="info-box-button button">Build MoveIt 2 from Source</a>
                                 <div class="info-box-version">
-                                    Version: 1.1.0
+                                    Version: 2.1.0
                                 </div>
                                 <div class="link-group">
-                                    <a href="/install/source/" class="info-box-link">Build from Source</a>
+                                    <a href="/install/" class="info-box-link">Install MoveIt 1.0</a>
                                     <span>|</span>
-                                    <a href="https://github.com/ros-planning/moveit" target="_blank" class="info-box-link">View on Github</a>
+                                    <a href="https://github.com/ros-planning/moveit2" target="_blank" class="info-box-link">View on Github</a>
                                 </div>
                                 <img src="/assets/images/logo/ROS_logo.png" alt="ROS logo" class="info-box-logo" />
                             </div>
