@@ -38,7 +38,7 @@ function currentVersion() {
 
 function futureVersion() {
   var currentDate = Date.now();
-  //                        DAY / MONTH / YEAR
+  //                        MONTH / DAY / YEAR
   var startDate  = new Date('09/14/2020'); // Start Date
   var freezeDate = new Date('05/28/2021'); // Feature Freeze
   var finalDate  = new Date('06/28/2021'); // Release Date
