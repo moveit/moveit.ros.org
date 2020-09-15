@@ -11,7 +11,9 @@ MoveIt has a 6 week cadence for releases.  This pace is a balance between releas
 
 ## Upcoming releases
 
-The release schedule is avalible via [this Google Calendar](https://calendar.google.com/calendar/embed?src=c_bpueq5jcajuaejr2di0hdr4qgg%40group.calendar.google.com&ctz=America%2FDenver).
+The release schedule is shown here:
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_bpueq5jcajuaejr2di0hdr4qgg%40group.calendar.google.com&ctz=America%2FDenver" width="100%" height="350px" title="MoveIt release calendar"></iframe>
 
 ### Typical Release Schedule
 
