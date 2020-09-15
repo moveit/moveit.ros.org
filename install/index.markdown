@@ -93,6 +93,8 @@ title: MoveIt 1 Binary Install
         </h2>
         <h3>
           ROS Noetic
+          <br/>
+          Note September 15, 2020: Noetic has not synced from the <a href="https://discourse.ros.org/t/preparing-for-noetic-sync-2020-08-29/16125/7">build farm yet</a>!
           <div class="bash-command">
             <code>sudo apt install ros-noetic-moveit</code>
           </div>
