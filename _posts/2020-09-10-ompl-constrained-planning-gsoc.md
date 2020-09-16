@@ -5,7 +5,7 @@ date: 2020-09-10
 layout: post
 title: A new approach for planning with path constraints in MoveIt
 media_type: video
-media_link: TODO(presentation PickNik)
+media_link: https://www.youtube.com/embed/qEketOee7_g
 description: Integrating OMPL's constrained planning capabilities into MoveIt
 categories:
 - moveit
