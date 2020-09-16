@@ -59,3 +59,6 @@ Also available through the ROS interface for both the C++ API and component:
 - Changing the “drift” dimensions to avoid singularities
 
 Additional services for starting and stopping Servo are available with the component method. See the [tutorial page](https://github.com/ros-planning/moveit2/blob/main/moveit_ros/moveit_servo/doc/servo_tutorial.md) for a detailed overview of MoveIt Servo.
+
+Below is a presentation that Adam gave on his Google Summer of Code project:
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/CZikVEoB52w" frameborder="0" allowfullscreen></iframe>
