@@ -49,34 +49,22 @@ title: About
             <div class="container">
               <div class="main-card-wrapper">
                 <div class="main-card-single-small">
+                  <div class="person-name">Andy Zelenak</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/AndyZe" target="_blank">AndyZe</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Dave Coleman</div>
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/davetcoleman" target="_blank">davetcoleman</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Robert Haschke</div>
-                  <div class="organization-name">CITEC, Bielefeld University</div>
+                  <div class="person-name">Felix von Drigalski</div>
+                  <div class="organization-name">OMRON SINIC X Corporation</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/rhaschke" target="_blank">rhaschke</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Michael Görner</div>
-                  <div class="organization-name">University of Hamburg</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/v4hn" target="_blank">v4hn</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Isaac IY Saito</div>
-                  <div class="organization-name">Plus One Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/130s" target="_blank">130s</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Ian McMahon</div>
-                  <div class="organization-name">Toyota Research Institute</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/IanTheEngineer" target="_blank">IanTheEngineer</a>
+                  <a href="https://github.com/felixvd" target="_blank">felixvd</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Gijs van der Hoorn</div>
@@ -85,16 +73,40 @@ title: About
                   <a href="https://github.com/gavanderhoorn" target="_blank">gavanderhoorn</a>
                 </div>
                 <div class="main-card-single-small">
+                  <div class="person-name">Henning Kayser</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/henningkayser" target="_blank">henningkayser</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Jafar Abdi</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/JafarAbdi" target="_blank">JafarAbdi</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Jorge Nicho</div>
                   <div class="organization-name">SwRI / ROS-I</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/jrgnicho" target="_blank">jrgnicho</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Bence Magyar</div>
-                  <div class="organization-name">Heriot-Watt University</div>
+                  <div class="person-name">Mark Moll</div>
+                  <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/bmagyar" target="_blank">bmagyar</a>
+                  <a href="https://github.com/mamoll" target="_blank">mamoll</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Michael Ferguson</div>
+                  <div class="organization-name">Independent Consultant</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/mikeferguson" target="_blank">mikeferguson</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Michael Görner</div>
+                  <div class="organization-name">University of Hamburg</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/v4hn" target="_blank">v4hn</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Mike Lautman</div>
@@ -103,16 +115,10 @@ title: About
                   <a href="https://github.com/mlautman" target="_blank">mlautman</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Henning Kayser</div>
-                  <div class="organization-name">PickNik Robotics</div>
+                  <div class="person-name">Robert Haschke</div>
+                  <div class="organization-name">CITEC, Bielefeld University</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/henningkayser" target="_blank">henningkayser</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Mark Moll</div>
-                  <div class="organization-name">PickNik Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/mamoll" target="_blank">mamoll</a>
+                  <a href="https://github.com/rhaschke" target="_blank">rhaschke</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Tyler Weaver</div>
@@ -162,7 +168,24 @@ title: About
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/jonbinney" target="_blank">jonbinney</a>
                 </div>
-
+                <div class="main-card-single-small">
+                  <div class="person-name">Bence Magyar</div>
+                  <div class="organization-name">Heriot-Watt University</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/bmagyar" target="_blank">bmagyar</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Ian McMahon</div>
+                  <div class="organization-name">Toyota Research Institute</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/IanTheEngineer" target="_blank">IanTheEngineer</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Isaac IY Saito</div>
+                  <div class="organization-name">Plus One Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/130s" target="_blank">130s</a>
+                </div>
               </div>
             </div>
           </div>
@@ -183,28 +206,16 @@ title: About
             <div class="container">
               <div class="main-card-wrapper">
                 <div class="main-card-single-small">
-                  <div class="person-name">Felix von Drigalski</div>
-                  <div class="organization-name">OMRON SINIC X Corporation</div>
+                  <div class="person-name">Yan Yu</div>
+                  <div class="organization-name">Intel</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/felixvd" target="_blank">felixvd</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Michael Ferguson</div>
-                  <div class="organization-name">Independent Consultant</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/mikeferguson" target="_blank">mikeferguson</a>
+                  <a href="https://github.com/RoboticsYY" target="_blank">RoboticsYY</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Simon Schmeißer</div>
                   <div class="organization-name">isys vision</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/simonschmeisser" target="_blank">simonschmeisser</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Andy Zelenak</div>
-                  <div class="organization-name">PickNik Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/AndyZe" target="_blank">AndyZe</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Mohmmad El khzragy</div>
@@ -225,22 +236,10 @@ title: About
                   <a href="https://github.com/mintar" target="_blank">mintar</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Yan Yu</div>
-                  <div class="organization-name">Intel</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/RoboticsYY" target="_blank">RoboticsYY</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Jafar Abdi</div>
+                  <div class="person-name">Nathan Brooks</div>
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/JafarAbdi" target="_blank">JafarAbdi</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Levi Armstrong</div>
-                  <div class="organization-name">SwRI / ROS-I</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/Levi-Armstrong" target="_blank">Levi-Armstrong</a>
+                  <a href="https://github.com/nbbrooks" target="_blank">nbbrooks</a>
                 </div>
               </div>
             </div>
@@ -281,7 +280,12 @@ title: About
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/willcbaker" target="_blank">willcbaker</a>
                 </div>
-
+                <div class="main-card-single-small">
+                  <div class="person-name">Levi Armstrong</div>
+                  <div class="organization-name">SwRI / ROS-I</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/Levi-Armstrong" target="_blank">Levi-Armstrong</a>
+                </div>
               </div>
             </div>
           </div>
