@@ -206,24 +206,6 @@ title: About
             <div class="container">
               <div class="main-card-wrapper">
                 <div class="main-card-single-small">
-                  <div class="person-name">Yan Yu</div>
-                  <div class="organization-name">Intel</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/RoboticsYY" target="_blank">RoboticsYY</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Simon Schmeißer</div>
-                  <div class="organization-name">isys vision</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/simonschmeisser" target="_blank">simonschmeisser</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Mohmmad El khzragy</div>
-                  <div class="organization-name">TUM</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/MohmadAyman" target="_blank">MohmadAyman</a>
-                </div>
-                <div class="main-card-single-small">
                   <div class="person-name">Kei Okada</div>
                   <div class="organization-name">JSK Lab, Univ of Tokyo</div>
                   <img src="/assets/install_page/github.png"/>
@@ -236,10 +218,28 @@ title: About
                   <a href="https://github.com/mintar" target="_blank">mintar</a>
                 </div>
                 <div class="main-card-single-small">
+                  <div class="person-name">Mohmmad El khzragy</div>
+                  <div class="organization-name">TUM</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/MohmadAyman" target="_blank">MohmadAyman</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Nathan Brooks</div>
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/nbbrooks" target="_blank">nbbrooks</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Simon Schmeißer</div>
+                  <div class="organization-name">isys vision</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/simonschmeisser" target="_blank">simonschmeisser</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Yan Yu</div>
+                  <div class="organization-name">Intel</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/RoboticsYY" target="_blank">RoboticsYY</a>
                 </div>
               </div>
             </div>
@@ -254,10 +254,15 @@ title: About
               <div class="main-card-wrapper">
 
                 <div class="main-card-single-small">
-                  <div class="person-name">Zak Kingston</div>
-                  <div class="organization-name">Rice University</div>
+                  <div class="person-name">Anas Mchichou</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/zkingston" target="_blank">zkingston</a>
+                  <a href="https://github.com/anasarrak" target="_blank">anasarrak</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Levi Armstrong</div>
+                  <div class="organization-name">SwRI / ROS-I</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/Levi-Armstrong" target="_blank">Levi-Armstrong</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Shingo Kitagawa</div>
@@ -270,21 +275,16 @@ title: About
                   <a href="https://github.com/vmayoral" target="_blank">vmayoral</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Anas Mchichou</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/anasarrak" target="_blank">anasarrak</a>
-                </div>
-                <div class="main-card-single-small">
                   <div class="person-name">William Baker</div>
                   <div class="organization-name">Houston Mechatronics</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/willcbaker" target="_blank">willcbaker</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Levi Armstrong</div>
-                  <div class="organization-name">SwRI / ROS-I</div>
+                  <div class="person-name">Zak Kingston</div>
+                  <div class="organization-name">Rice University</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/Levi-Armstrong" target="_blank">Levi-Armstrong</a>
+                  <a href="https://github.com/zkingston" target="_blank">zkingston</a>
                 </div>
               </div>
             </div>
