@@ -75,7 +75,7 @@ title: MoveIt 1 Source Build - Linux
         </code>
     </div>
     Then re-run <span class="ros-command">catkin config</span>.</p>
-    <p><b>Note October 2020</b> For Noetic there is currently an issue with the dependency <a href="https://github.com/ros-planning/moveit/pull/2359">fcl</a> and the solution is to use the package in ros-testing:
+    <p><b>Note October 2020</b> Until the next ROS release sync, you will need to install ros-noetic-fcl manually from the ros-testing repositories:
     <div class="bash-command">
         <code>
             sudo sh -c 'echo "deb http://packages.ros.org/ros-testing/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'<br/>
