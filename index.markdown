@@ -13,13 +13,13 @@ redirect_from: '/moveit/'
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Montage video</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Overview video</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0og1SaZYtRc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7KvF7Dj7bz0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -36,8 +36,8 @@ redirect_from: '/moveit/'
                             <h1>Moving robots into the&nbsp;future</h1>
                             <p class="main-text">Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.</p>
                             <div class="button-group">
-                                <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
-                                <a class="button button-yellow modal-link" href="https://www.youtube-nocookie.com/embed/0og1SaZYtRc" target="_blank">Watch our montage</a>
+                                <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">Watch overview</button>
+                                <a class="button button-yellow modal-link" href="https://www.youtube-nocookie.com/embed/7KvF7Dj7bz0" target="_blank">Watch overview</a>
                                 <a class="button button-transparent" href="http://docs.ros.org/melodic/api/moveit_tutorials/html/index.html" target="_blank">Get Started</a>
                             </div>
                         </div>
