@@ -39,8 +39,8 @@ Create a colcon workspace:
 
 Download the repository and install any dependencies:
 
-    git clone https://github.com/ros-planning/moveit2.git -b main
-    vcs import < moveit2/moveit2.repos
+    wget https://raw.githubusercontent.com/ros-planning/moveit2/main/moveit2.repos
+    vcs import < moveit2.repos
     rosdep install -r --from-paths . --ignore-src --rosdistro foxy -y
 
 ## Build MoveIt
