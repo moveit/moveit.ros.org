@@ -34,7 +34,7 @@ title: MoveIt 1 Source Build - Linux
             sudo apt install python3-wstool python3-catkin-tools clang-format-10
         </code>
     </div>
-    <p><i>Kinetic Note: for Ubuntu 16.04 replace 'python3' with just 'python'</i></p>
+    <p><i>Kinetic/Melodic Note: for Ubuntu 16.04 and 18.04, replace 'python3' with just 'python'</i></p>
 
     <h3>Create Workspace and Source</h3>
     <p>Optionally create a new workspace, you can name it whatever:</p>
@@ -55,7 +55,7 @@ title: MoveIt 1 Source Build - Linux
     </div>
     <p>This will load the <span class="ros-command">${ROS_DISTRO}</span> variable, needed for the next step.</p>
     <h2>Download Source Code</h2>
-    <p>By default, we will assume you are building the latest branch: <span class="ros-command">master</span>.
+    <p>By default, we will assume you are building the latest branch on Ubuntu 20.04: <span class="ros-command">master</span>.
     This branch builds for ROS Kinetic and newer, e.g. on Ubuntu 16.04 and newer.
     If you would like to build an older release of MoveIt from source, see the section below.</p>
     <p>Pull down required repositories and build from within the root directory of your catkin workspace:</p>
