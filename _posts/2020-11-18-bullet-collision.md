@@ -5,7 +5,7 @@ date: 2020-11-18
 layout: post
 title: Integrating Bullet for Collision Detection
 media_type: image
-media_link: https://i.imgur.com/RquhgGa.png
+media_link: /assets/images/blog_posts/2019_gsoc_bullet.png
 description: the collision checking library Bullet is now available in MoveIt
 categories:
 - Bullet
@@ -23,7 +23,7 @@ Before, MoveIt only implemented discrete collision checking for the controlled r
 The planning framework [Tesseract](https://github.com/ros-industrial-consortium/tesseract) of ROS-Industrial, which is based on MoveIt, had already implemented CCD utilizing the Bullet library. Therefore, the goal of the project was to port the feature from Tesseract back to MoveIt.
 
 ## Integrating Bullet
-I started with a full fork of tesseract in the MoveIt workspace. Then, step-by-step, I reduced the code to the bare minimum and directly integrated the remaining parts into MoveIt's collision code. As I gained a deeper understanding of the collision checking process, we started the discussion about a unified collision environment. Before the GSoC, MoveIt's collision environment was split into two parts: `CollisionRobot` and `CollisionWorld`. This separation stems from the fact, that in many cases the environment does not change but the robot is checked in many different configurations. However, a unified collision environment containing both has advantages: we can leverage the full potential of Bullet as a collision detector and reduce the complexity of the collision checking code in general.  
+I started with a full fork of Tesseract in the MoveIt workspace. Then, step-by-step, I reduced the code to the bare minimum and directly integrated the remaining parts into MoveIt's collision code. As I gained a deeper understanding of the collision checking process, we started the discussion about a unified collision environment. Before the GSoC, MoveIt's collision environment was split into two parts: `CollisionRobot` and `CollisionWorld`. This separation stems from the fact, that in many cases the environment does not change but the robot is checked in many different configurations. However, a unified collision environment containing both has advantages: we can leverage the full potential of Bullet as a collision detector and reduce the complexity of the collision checking code in general.  
 
 This finally led to the decision to restructure major parts of MoveIt's collision checking. To make this change happen, I had to unify all existing collision detectors which included FCL. Furthermore, many changes in the planning scene were necessary which in turn then required changes throughout the codebase because the planning scene is such a central class.
 
