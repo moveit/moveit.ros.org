@@ -339,7 +339,7 @@ Title: _Human Robot Interaction – Chances and Challenges for Automotive Manufa
 
 
 
-##### Chris Anderson ([3D Robotics](http://3drobotics.com))
+##### Chris Anderson ([3D Robotics](https://www.3dr.com/))
 
 
 Title: _Building an Open Source Robotics Business_
