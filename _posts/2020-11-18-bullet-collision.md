@@ -6,7 +6,7 @@ layout: post
 title: Integrating Bullet for Collision Detection
 media_type: image
 media_link: /assets/images/blog_posts/2019_gsoc_bullet.png
-description: the collision checking library Bullet is now available in MoveIt
+description: The collision checking library Bullet is now available in MoveIt.
 categories:
 - Bullet
 - Collision Detection
@@ -37,3 +37,5 @@ Besides the added CCD capabilities, another major contribution of Bullet is incr
 
 ## Conclusion
 I had a great time contributing to MoveIt as part of the GSoC 2019. Thanks to my mentors Felix von Drigalski (OMRON SINIC X) and Bryce Willey (Realtime Robotics). I learned a lot about professional software development in a distributed team and look back with pride on the work achieved!
+
+This post was written by [Jens Petit](https://jenspetit.de).
