@@ -28,8 +28,8 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 7. [Improve MoveIt Grasps](#moveit-grasps)
 8. [Improve Cartesian Planner](#cartesian-planner)
 9. [Warehouse Support](#warehouse-support)
-10.[MoveIt-OMPL Planning Interface](#ompl-interface)
-11.[Mobile Base Integration](#mobile-base-integration)
+10. [MoveIt-OMPL Planning Interface](#ompl-interface)
+11. [Mobile Base Integration](#mobile-base-integration)
 
 
 <a name="trajopt-integration"></a>
