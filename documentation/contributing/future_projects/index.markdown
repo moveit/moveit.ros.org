@@ -4,14 +4,35 @@ comments: true
 date: 2017-4-9 02:13:26+00:00
 layout: page
 slug: code
-title: Code Sprints
+title: Future Projects
 ---
 
 # Potential Code Sprints and Future Projects
 
 <img src="/assets/logo/moveit_logo-black.png" width="300"/>
 
-This page lists potential projects that would greatly benefit the MoveIt project. This is by no means an exhaustive list, but is meant to serve as a discussion starting point for code sprints and other efforts. Please contact [PickNik Robotics](https://picknik.ai/connect/) for further information or sponsorship opportunities.
+This page lists potential projects that would greatly benefit the MoveIt project. This is by no means an exhaustive list, but is meant to serve as a discussion starting point for code sprints and other efforts.
+
+If you would like to contribute to these efforts, have a look at the related Github issues and ask for clarifications on [Github](https://github.com/ros-planning/moveit/issues) or [Discord](https://discord.gg/vqwEXwYU3N).
+
+Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further information or sponsorship opportunities.
+
+
+# Table of Contents
+1. [TrajOpt Integration](#trajopt-integration)
+2. [Scene Graph Support](#scene-graph)
+3. [Benchmark Suite](#benchmark-suite)
+4. [MoveIt 2 Tutorials](#moveit-2-tutorials)
+5. [Port MoveIt Task Constructor to MoveIt 2](#mtc-in-moveit-2)
+6. [ros_control integration](#ros-control-integration)
+7. [Improve MoveIt Grasps](#moveit-grasps)
+8. [Improve Cartesian Planner](#cartesian-planner)
+9. [Warehouse Support](#warehouse-support)
+10. [MoveIt-OMPL Planning Interface](#ompl-interface)
+11. [Mobile Base Integration](#mobile-base-integration)
+
+
+<a name="trajopt-integration"></a>
 
 ## TrajOpt Integration and Related Work on Trajectory Optimization Methods
 
@@ -25,15 +46,35 @@ This page lists potential projects that would greatly benefit the MoveIt project
 
   MoveIt also contains implementations of other trajectory optimization methods: STOMP and CHOMP. These implementations all contain their own way of computing trajectories, but share a lot of common ideas, such as using a signed distance field to compute collision cost. Refactoring this code to use common code for the same ideas would help in making the code more maintainable. It is also a first step to making it possible to provide callback hooks for a user-configurable trajectory cost function that can be used with any of the trajectory optimization methods, which is currently not possible.
 
-## Creation of a Standard Benchmark Suite for Evaluating MoveIt Performance
+<a name="scene-graph"></a>
+
+## Scene graph support
+
+- List of prerequisites: ROS
+- Description of programming skills: C++
+- Difficulty level: Medium-High
+- List of potential mentors: Felix von Drigalski
+- Detailed description: The planning scene in MoveIt is currently represented as a flat list of transforms from the origin. In this project, the planning scene should be extended with a scene graph or kinematic tree, so that it allows e.g. picking up a tray or rack with other items in/on it, or the dynamic attachment or removal of a hand to a robot arm.
+
+  As a blueprint for the implementation, it is worth looking at [Tesseract](https://github.com/ros-industrial-consortium/tesseract) (forked from MoveIt) and [TMKit](https://github.com/kavrakilab/tmkit.git) (no ROS support).
+- Related Github issues: [202](https://github.com/ros-planning/moveit/issues/202), [202](https://github.com/ros-planning/moveit/issues/202)
+
+<a name="benchmark-suite"></a>
+
+## Creation of a Benchmark Suite for Evaluating MoveIt Performance
 
 - List of prerequisites: ROS, some motion planning background
 - Description of programming skills: C++
 - Difficulty level: Medium
 - List of potential mentors: Felix von Drigalski, Mark Moll, Henning Kayser
-- Detailed description: The idea is to identify a number of standard tasks at varying levels of difficulty that can be achieved with several robots for which a MoveIt configuration is available. Tasks can range from simply reaching for a particular goal position in a relatively uncluttered space to picking and placing items from cluttered shelves.
+- Detailed description: It would be a set of benchmark tasks to serve as examples, and to run as part of continuous tests.
+For this, we need to identify and implement standard tasks at varying levels of difficulty that can be achieved with several robots for which a MoveIt configuration is available. E.g.:
+    - Moving to a goal position in uncluttered space
+    - Picking and placing items from/in cluttered shelves
+    - Following paths with orientation constraints
+- Related Github issues: [2124](https://github.com/ros-planning/moveit/issues/2124)
 
-  Once a standard benchmark has been established, subsequent work can focus on running the benchmark suite as part of a continuous integration suite. Additional work can be done on tuning hyperparameter settings that will lead to better overall performance.
+<a name="moveit-2-tutorials"></a>
 
 ## MoveIt 2 Tutorials
 
@@ -41,7 +82,9 @@ This page lists potential projects that would greatly benefit the MoveIt project
 - Description of programming skills: C++
 - Difficulty level: Medium
 - List of potential mentors: Mike Lautman, Mark Moll
-- Detailed description: One of the reasons MoveIt is so popular is that the tutorials make it very easy to get started. MoveIt 2 beta will be released in February and the tutorials needs to be updated for this new version.
+- Detailed description: One of the reasons MoveIt is so popular is that the tutorials make it very easy to get started. The MoveIt 2 beta has been released and the tutorials needs to be updated for this new version.
+
+<a name="mtc-in-moveit-2"></a>
 
 ## Add Support for MoveIt Task Constructor to MoveIt 2
 
@@ -49,7 +92,9 @@ This page lists potential projects that would greatly benefit the MoveIt project
 - Description of programming skills: C++
 - Difficulty level: Medium
 - List of potential mentors: Robert Haschke, Henning Kayser
-- Detailed description: The [MoveIt Task Constructor](https://ros-planning.github.io/moveit_tutorials/doc/moveit_task_constructor/moveit_task_constructor_tutorial.html) framework provides a flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks. It draws on the planning capabilities of MoveIt to solve individual subproblems in black-box planning stages. Porting this MoveIt 2 may also include porting MoveIt 1's MoveGroup interface to MoveIt 2.
+- Detailed description: The [MoveIt Task Constructor](https://ros-planning.github.io/moveit_tutorials/doc/moveit_task_constructor/moveit_task_constructor_tutorial.html) framework provides a flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks. It draws on the planning capabilities of MoveIt to solve individual subproblems in black-box planning stages. Porting this to MoveIt 2 may also include porting MoveIt 1's MoveGroup interface to MoveIt 2.
+
+<a name="ros-control-integration"></a>
 
 ## Improved Integration with ROS-Controls and Controller Switching
 
@@ -58,6 +103,8 @@ This page lists potential projects that would greatly benefit the MoveIt project
 - Difficulty level: Medium
 - List of potential mentors: Andy Zelenak, Robert Haschke
 - Detailed description: Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt plans. Improve the [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/master/moveit_plugins/moveit_ros_control_interface). Documentation on how to combine the components.
+
+<a name="moveit-grasps"></a>
 
 ## Improve MoveIt Grasps Library
 
@@ -69,6 +116,8 @@ This page lists potential projects that would greatly benefit the MoveIt project
   - Integration with a machine-learning-based grasp generator and/or grasp scoring package such as the [Grasp Pose Detection](https://github.com/atenpas/gpd) package or Intel's [ROS 2 Grasp Library](https://github.com/intel/ros2_grasp_library).
   - Improve tutorials and documentation for grasping in MoveIt
   - Improve test coverage, especially for grasp generation
+
+<a name="cartesian-planner"></a>
 
 ## Cartesian Planning improvements
 
@@ -82,16 +131,9 @@ This page lists potential projects that would greatly benefit the MoveIt project
   - Moving the Cartesian planner out of [RobotState](https://github.com/ros-planning/moveit/blob/0ba091ce1faf6e11896fd0d06bea8234cf642ca3/moveit_core/robot_state/include/moveit/robot_state/robot_state.h#L1129) and into a more appropriate location eg: [moveit_planners](https://github.com/ros-planning/moveit/tree/master/moveit_planners).
   - Integration with [Descartes](https://github.com/ros-industrial-consortium/descartes).
   - Fix the long standing [orientation constraint joint flip bug](https://github.com/ros-planning/moveit/issues/562) in free-space planning.
+- Related Github issues: [2092](https://github.com/ros-planning/moveit/issues/2092)
 
-## On-the-fly robot reconfiguration and scene graph support
-
-- List of prerequisites: ROS
-- Description of programming skills: C++
-- Difficulty level: Medium to High
-- List of potential mentors: Felix von Drigalski
-- Detailed description: The planning scene in MoveIt is currently represented as a flat list of transforms from the origin. In this project, the planning scene should be extended with a scene graph or kinematic tree, so that it allows e.g. the dynamic attachment or removal of a hand to a robot arm, or picking up a board with other items attached to it.
-
-  This feature was implemented in [Tesseract](https://github.com/ros-industrial-consortium/tesseract), which can serve as a blueprint for parts of this project. Additionally, [TMKit](https://github.com/kavrakilab/tmkit.git) also implements this feature, but doesn't include ROS support.
+<a name="warehouse-support"></a>
 
 ## Improve Warehouse Support
 
@@ -103,6 +145,10 @@ This page lists potential projects that would greatly benefit the MoveIt project
 
   - Implementation of a warehouse-plugin that works with a standard database system that is supported in major Linux distributions
   - Create tutorials and example code that demonstrates how to use the warehouse interface
+- Related Github issues: [123](https://github.com/ros-planning/moveit/issues/123)
+
+<a name="ompl-interface"></a>
+
 
 ## MoveIt-OMPL Planning Interface
 
@@ -115,6 +161,8 @@ This page lists potential projects that would greatly benefit the MoveIt project
   - More information can be found [here](https://github.com/ros-planning/moveit/issues/117)
   - The new system needs to be documented in tutorials
   - It would be nice if, as a proof of concept, some additional basic planning algorithms could be implemented as a plugin. Ideally, this would include at least one algorithm that is not sampling-based, just to demonstrate that this can be done
+
+<a name="mobile-base-integration"></a>
 
 ## Mobile Base Integration
 
