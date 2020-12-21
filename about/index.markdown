@@ -85,6 +85,12 @@ title: About
                   <a href="https://github.com/JafarAbdi" target="_blank">JafarAbdi</a>
                 </div>
                 <div class="main-card-single-small">
+                  <div class="person-name">Joachim Schleicher</div>
+                  <div class="organization-name">Pilz</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/jschleicher" target="_blank">jschleicher</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Jorge Nicho</div>
                   <div class="organization-name">SwRI / ROS-I</div>
                   <img src="/assets/install_page/github.png"/>
@@ -205,6 +211,12 @@ title: About
           <div class="container-fluid">
             <div class="container">
               <div class="main-card-wrapper">
+                <div class="main-card-single-small">
+                  <div class="person-name">Christian Henkel</div>
+                  <div class="organization-name">Pilz</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/ct2034" target="_blank">ct2034</a>
+                </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Kei Okada</div>
                   <div class="organization-name">JSK Lab, Univ of Tokyo</div>
