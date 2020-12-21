@@ -14,7 +14,7 @@ categories:
 - TSC
 
 ---
-With the end of the year right around the corner we’ve taken a look back on the progress and challenges of the ROS 2 migration of MoveIt. Checkout our [latest presentation on MoveIt 2](https://docs.google.com/presentation/d/1pcW9v-ynGKuSqNtY-QJ4Ts5SkRZS6DmRARFYPisIqSU/edit?usp=sharing).
+With the end of the year right around the corner we’ve taken a look back on the progress and challenges of the ROS 2 migration of MoveIt. Check out our [latest presentation on MoveIt 2](https://docs.google.com/presentation/d/1pcW9v-ynGKuSqNtY-QJ4Ts5SkRZS6DmRARFYPisIqSU/edit?usp=sharing).
 
 **Milestone 1 - Straight Migration** - was completed and resulted in feature-parity with the ROS 1 versions and three new example demos to showcase MoveItCpp, MoveGroup and MoveIt Servo. There is still plenty of work to be done, especially regarding the launch and parameter setup and related redesign of the MoveIt Setup Assistant but more importantly, we are shifting our focus from basic conversion to real world adoption and new features.
 
