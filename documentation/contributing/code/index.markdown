@@ -77,7 +77,7 @@ You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
     sudo apt install clang-format-10
 
-Please note that we rely on clang-format version **3.9**. Sadly, newer versions are not fully backward compatible.
+Please note that we rely on clang-format version **10**. Sadly, newer versions are not fully backward compatible.
 
 clang-format requires a configuration file in the root of your catkin workspace. The MoveIt repo contains this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-format).
 
