@@ -31,9 +31,9 @@ title: About
       <div class="main-card-wrapper">
         <div class="main-card-single boarder main-card-single-padding">
           <h3>MoveIt Task Constructor</h3>
-          <p>M. Görner, R. Haschke, H. Ritter, and J. Zhang, “Moveit! task constructor for task-level motion planning,” in <em>IEEE Intl. Conf. on Robotics and Automation</em>, pp. 190–196, May 2019. doi: <a href="https:/dx.doi.org/10.1109/ICRA.2019.8793898">10.1109/ICRA.2019.8793898</a>.</p>
+          <p>M. Görner, R. Haschke, H. Ritter, and J. Zhang, “Moveit! task constructor for task-level motion planning,” in <em>IEEE Intl. Conf. on Robotics and Automation</em>, pp. 190–196, May 2019. doi: <a href="https://ieeexplore.ieee.org/document/8793898">10.1109/ICRA.2019.8793898</a>.</p>
           <p class="text-center"><a class="button" href="https://pub.uni-bielefeld.de/download/2918864/2933599/paper.pdf">PDF</a>
-          <a class="button" href="http://dx.doi.org/10.1109/ICRA.2019.8793898">Publisher</a></p>
+          <a class="button" href="https://ieeexplore.ieee.org/document/8793898">Publisher</a></p>
       </div>
     </div>
   </div>
