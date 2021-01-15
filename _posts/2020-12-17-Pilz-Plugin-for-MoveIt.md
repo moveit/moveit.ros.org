@@ -3,7 +3,7 @@ author: Alex Goldman
 comments: false
 date: 2020-12-17
 layout: post
-title: Introducing the New Pilz_PlugIn for MoveIt
+title: Introducing the New Pilz Industrial Motion Planner for MoveIt
 media_type: image
 media_link: /assets/images/blog_posts/pilz.jpeg
 description: The MoveIt Maintainers are excited to announce a new plug-in for Pilz Industrial Motion Planner for MoveIt.
