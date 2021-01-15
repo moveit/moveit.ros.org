@@ -3,19 +3,17 @@ date: 2021-01-14 00:00:00 -0700
 layout: post
 author: Alex Goldman
 comments: false
-title: Videos from MoveItCon 2019 Available on YouTube
+title: Videos from MoveIt Workshop 2019 Available on YouTube
 media_type: video
 media_link: https://www.youtube-nocookie.com/embed/0Xxho50nZsw
-description: Watch a replay of MoveItCon 2019
+description: In case you missed it, watch a replay of the MoveIt Workshop 2019 Macau.
 categories:
 - MoveIt
 
 ---
-#### In case you missed it, watch a replay of the MoveIt Workshop 2019 Macau.
+In case you missed it, watch a replay of the MoveIt Workshop 2019 Macau.
 
-1. Welcome and Updates, Dave Coleman
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0Xxho50nZsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+1. Welcome and Updates, Dave Coleman (See Above)
 2. MoveIt 2.0 Progress and Roadmap, Mike Lautman
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KHM3X1BB214" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
