@@ -179,7 +179,7 @@ Often, users may choose to implement their own kinematics solvers, e.g. the PR2 
 
 ## **Collision Checking**
 
-Collision checking in MoveIt is configured inside a Planning Scene using the _CollisionWorld_ object. Fortunately, MoveIt is setup so that users never really have to worry about how collision checking is happening. Collision checking in MoveIt is mainly carried out using the [FCL](http://gamma.cs.unc.edu/FCL/fcl_docs/webpage/generated/index.html) package - MoveIt's primary CC library.
+Collision checking in MoveIt is configured inside a Planning Scene using the _CollisionWorld_ object. Fortunately, MoveIt is setup so that users never really have to worry about how collision checking is happening. Collision checking in MoveIt is mainly carried out using the [FCL](https://flexible-collision-library.github.io/) package - MoveIt's primary CC library.
 
 ### **Collision Objects**
 
