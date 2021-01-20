@@ -12,18 +12,27 @@ categories:
 - World-MoveIt-Day
 ---
 
-We’re excited to announce the <i>sixth annual</i> World MoveIt Day is going virtual, and will be held on <strong>Wednesday, March 10, 2021</strong> from wherever you are.
-World MoveIt Day is an international hackathon to improve the MoveIt code base, documentation, and community.
-Every year we close an impressive number of issues and merge nearly 100 pull requests, while exploring new areas of improvements for the now eight years strong framework.
-
-This year's hackathon is especially exciting with the official launch of [MoveIt 2](https://moveit.ros.org/moveit2/ros2/foxy/release/2020/09/04/moveit2-foxy-release.html)!
-
-Everyone is welcome to participate from their local workplace, simply by working on open issues.
-Beginners are also welcome and can learn from the tutorials while having more possible users online to provide help.
+World MoveItDay 2021, taking place on Wednesday March 10th, is going to look a little different this year. COVID restrictions will once again keep the event virtual but we want to do our best to help bring the community together in these continued uncertain times. As an open source platform, MoveIt relies on our community and our goal this year is to increase our community involvement. 
+ 
+World MoveIt Day is an international hackathon to improve the MoveIt code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements for the now seven year old framework. Beginners are welcome to join us to review the tutorials and get immediate help when needed. This year, the focus will be on improvements to MoveIt 2.
+ 
+In addition to our hackathon, we will have scheduled lightning talks, fireside chats, prizes and more. 
+ 
+Wait - did you say prizes?
+ 
+Yes! Participate in World MoveItDay 2021 solo or as part of a team.  Winners will go into the MoveIt Hall of Fame and prizes will be awarded to those who:
+- Have the most lines merged at the end of the day - team prize
+- Merge the most PR’s - individual prize
+- Review the most PR’s - individual prize
+- Best lightning talk
+ 
+Please register for World MoveIt Day here.
 
 ## Signup
 
-Please register on [this form](https://forms.gle/JC7j88oip16jqfu18) so we have a rough idea of interest level and intent.
+To participate, please register with [this form](https://forms.gle/JC7j88oip16jqfu18) so we have a rough idea of interest level and intent.
+
+If you want to give a lightning talk, let us know when you register or send us a note at [world-moveit-day@picknik.ai](mailto:world-moveit-day@picknik.ai). Lightning talks should be 2-3 minutes long and pre-recorded. 
 
 ## Organizers / More Info
 
@@ -42,15 +51,7 @@ Join the conversation on **Discord** (a chat client, different from *Discourse*)
 
 ### Squash Bugs / Issues
 
-Suggested areas for improvement are tracked on the [MoveIt repository](https://github.com/ros-planning/moveit/issues). Find appropriate issues by looking for these labels:
-
-- [moveit day candidate](https://github.com/ros-planning/moveit/labels/moveit%20day%20candidate) labels issues as possible entry points for participants in the event.
-  Make sure to check this before the event This list will grow longer before the event.
-- [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates issues can
-  probably be tackled in a few hours.
-- [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials,
-  changes to the website, etc.
-- no label - of course issues that are not marked can still be worked on during World MoveIt day, though they will likely take longer than one day to complete.
+Suggested areas for improvement are tracked on the [MoveIt 2 repository](https://github.com/ros-planning/moveit2). Our team of maintainers is working on finding and labeling suggested issues for the event. 
 
 If you would like to help the MoveIt project by tackling an issue, make sure to claim the issue by commenting before you start working:
 
@@ -62,7 +63,8 @@ Feel free to ask further questions in each issue’s comments.
 
 Improving our documentation for new and current users is always a goal of WMD!
 
-Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/ros-planning/moveit_tutorials/issues).
+<!-- need to update for Moveit 2 tutorials when ready -->
+<!-- Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/ros-planning/moveit_tutorials/issues). -->
 
 If you have studied an aspect of MoveIt extensively that is not currently documented, please convert your notes into a pull request in the appropriate location. If you’ve
 started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request
