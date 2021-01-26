@@ -68,21 +68,6 @@ title: MoveIt 1 Source Build - Linux
             catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
         </code>
     </div>
-    <p><b>Note August 2020</b> For Noetic there is currently an issue with <a href="https://github.com/catkin/catkin_tools/issues/594">catkin_tools</a> and the workaround is:
-    <div class="bash-command">
-        <code>
-            pip3 install git+https://github.com/catkin/catkin_tools.git
-        </code>
-    </div>
-    Then re-run <span class="ros-command">catkin config</span>.</p>
-    <p><b>Note October 2020</b> Until the next ROS release sync, you will need to install ros-noetic-fcl manually from the ros-testing repositories:
-    <div class="bash-command">
-        <code>
-            sudo sh -c 'echo "deb http://packages.ros.org/ros-testing/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'<br/>
-            sudo apt update<br/>
-            sudo apt install ros-noetic-fcl<br/>
-        </code>
-    </div></p>
 
     <h2>Optional: Excluding Packages from a Build</h2>
     <p>MoveIt is a large project and the default compile time can easily take around 30 minutes.
