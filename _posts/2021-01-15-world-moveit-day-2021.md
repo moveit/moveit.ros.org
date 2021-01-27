@@ -12,7 +12,7 @@ categories:
 - World-MoveIt-Day
 ---
 
-World MoveItDay 2021, taking place on Wednesday March 10th, is going to look a little different this year. COVID restrictions will once again keep the event virtual but we want to do our best to help bring the community together in these continued uncertain times. As an open source platform, MoveIt relies on our community and our goal this year is to increase our community involvement. 
+The sixth annual World MoveIt Day, taking place on Wednesday March 10th 2021, is going to look a little different this year. COVID restrictions will once again keep the event virtual but we want to do our best to help bring the community together in these continued uncertain times. As an open source platform, MoveIt relies on our community and our goal this year is to increase our community involvement. 
  
 World MoveIt Day is an international hackathon to improve the MoveIt code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements for the now seven year old framework. Beginners are welcome to join us to review the tutorials and get immediate help when needed. This year, the focus will be on improvements to MoveIt 2.
  
