@@ -19,4 +19,5 @@ Some advanced MoveIt applications with full robotic setups can be found in [move
 
 If you have a large open source project using MoveIt, you can consider share the project links here:
 
-- [Team NAIST-Panasonic at the Amazon Robotics Challenge 2017](https://github.com/warehouse-picking-automation-challenges/team_naist_panasonic) used MoveIt for motion primitives and kinematic checks and the robot's internal IK for linear motions IIRC.
+- [Team O2AS at the World Robot Summit Assembly Challenge 2018](https://github.com/o2as/ur-o2as/). 3-arm robot workcell performing assembly tasks with a custom gripper. Used MoveIt for parametrized motions, includes a custom assembly generator.
+- [Team NAIST-Panasonic at the Amazon Robotics Challenge 2017](https://github.com/warehouse-picking-automation-challenges/team_naist_panasonic). Single robot arm performing pick-and-place with recognition. Used MoveIt for motion primitives and kinematic checks and the robot's internal IK for linear motions.
