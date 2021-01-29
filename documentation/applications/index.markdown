@@ -13,11 +13,11 @@ There are many diverse application examples of what you can use MoveIt for. The 
 
 ## MoveIt Example Apps
 
-Some advanced MoveIt applications with full robotic setups can be found in [moveit_example_apps](https://github.com/ros-planning/moveit_example_apps). If you have an awesome application using MoveIt, and you would like to share it with others, you can consider contribute it to this project appending a detailed tutorial explaining how to build and launch the application. 
+Some advanced MoveIt applications with full robotic setups can be found in [moveit_example_apps](https://github.com/ros-planning/moveit_example_apps). If you have an awesome application using MoveIt, and you would like to share it with others, consider contributing it to this project with a tutorial detailing how to build and launch your application. 
 
 ## Other Application Resources
 
-If you have a large open source project using MoveIt, you can consider share the project links here:
+If you have a large open source project using MoveIt, you can share the project links here:
 
 - [Team O2AS at the World Robot Summit Assembly Challenge 2018](https://github.com/o2as/ur-o2as/). 3-arm robot workcell performing assembly tasks with a custom gripper. Used MoveIt for parametrized motions, includes a custom assembly generator.
 - [Team NAIST-Panasonic at the Amazon Robotics Challenge 2017](https://github.com/warehouse-picking-automation-challenges/team_naist_panasonic). Single robot arm performing pick-and-place with recognition. Used MoveIt for motion primitives and kinematic checks and the robot's internal IK for linear motions.
