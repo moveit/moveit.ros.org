@@ -209,10 +209,12 @@ redirect_from: '/moveit/'
                         <img style="max-width:100%" alt="MoveIt Grasps" src="/assets/images/screens/moveit_grasps.png">
                     </div>
                 </div>
-                <div class="row justify-content-between block-with-image">
+                <div class="row justify-content: start;">
+                <!-- Do not display this image at the moment
+                <div class="row justify-content-between block-with-image;">
                     <div class="col-xs-12 col-md-6 col-lg-7">
                         <img style="max-width:100%" alt="Python Scripting" src="/assets/images/screens/python2.png">
-                    </div>
+                    </div>   -->
                     <div class="col-xs-12 col-lg-4 col-md-6">
                         <div class="text-block text-block--left">
                             <h1>Python Scripting and Interpreter</h1>
