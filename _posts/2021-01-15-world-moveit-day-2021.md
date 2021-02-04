@@ -32,7 +32,7 @@ Please register for World MoveIt Day here.
 
 To participate, please register with [this form](https://forms.gle/JC7j88oip16jqfu18) so we have a rough idea of interest level and intent.
 
-If you want to give a lightning talk, let us know when you register or send us a note at [world-moveit-day@picknik.ai](mailto:world-moveit-day@picknik.ai). Lightning talks should be 2-3 minutes long and pre-recorded. 
+If you want to give a lightning talk, let us know when you register or send us a note at [world-moveit-day@picknik.ai](mailto:world-moveit-day@picknik.ai) no later than **March 1st**. Lightning talks should be 2-3 minutes long and pre-recorded. 
 
 ## Organizers / More Info
 
