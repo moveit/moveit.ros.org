@@ -209,6 +209,7 @@ redirect_from: '/moveit/'
                         <img style="max-width:100%" alt="MoveIt Grasps" src="/assets/images/screens/moveit_grasps.png">
                     </div>
                 </div>
+                <!-- comment out until a decesion is made about what aspects of python to show is made. 
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-md-6 col-lg-7">
                         <img style="max-width:100%" alt="Python Scripting" src="/assets/images/screens/python2.png">
@@ -220,6 +221,7 @@ redirect_from: '/moveit/'
                         </div>
                     </div>
                 </div>
+                -->
                 <div class="row last-section" style="background-image">
                     <div class="col-xs-12 col-md-5">
                         <img style="width:638px" src="/assets/images/main/why-moveit-images@2x.png">
