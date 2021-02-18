@@ -15,6 +15,9 @@ MoveIt is designed to work with many different types of planners, which is ideal
 
 OMPL is an open-source motion planning library that primarily implements randomized motion planners. MoveIt integrates directly with OMPL and uses the motion planners from that library as its primary/default set of planners. The planners in OMPL are abstract; i.e. OMPL has no concept of a robot. Instead, MoveIt configures OMPL and provides the back-end for OMPL to work with problems in Robotics. Fully supported. [More Info](http://ompl.kavrakilab.org/)
 
+## Pilz Industrial Motion Planner
+Pilz industrial motion planner is a deterministic generator for circular and linear motions. Additionally, it supports blending multiple motion segments together using a MoveIt capability.
+
 ## Stochastic Trajectory Optimization for Motion Planning (STOMP)
 
 STOMP (Stochastic Trajectory Optimization for Motion Planning) is an optimization-based motion planner based on the PI^2 (Policy Improvement with Path Integrals, Theodorou et al, 2010) algorithm. It can plan smooth trajectories for a robot arm, avoiding obstacles, and optimizing constraints. The algorithm does not require gradients, and can thus optimize arbitrary terms in the cost function like motor efforts. Partially supported. [More Info](http://wiki.ros.org/stomp_motion_planner)
