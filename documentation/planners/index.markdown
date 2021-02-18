@@ -11,12 +11,12 @@ title: Planners
 
 MoveIt is designed to work with many different types of planners, which is ideal for benchmarking improved planners against previous methods. Below is a list of planners that have been used with MoveIt, in descending order of popularity/support within MoveIt:
 
-## Pilz Industrial Motion Planner
-Pilz industrial motion planner supports solving for circular or linear motions in a rapid and **predictable** way. Additionally, it supports blending multiple motion segments together with a MoveIt capability.
-
 ## Open Motion Planning Library (OMPL)
 
 OMPL is an open-source motion planning library that primarily implements randomized motion planners. MoveIt integrates directly with OMPL and uses the motion planners from that library as its primary/default set of planners. The planners in OMPL are abstract; i.e. OMPL has no concept of a robot. Instead, MoveIt configures OMPL and provides the back-end for OMPL to work with problems in Robotics. Fully supported. [More Info](http://ompl.kavrakilab.org/)
+
+## Pilz Industrial Motion Planner
+Pilz industrial motion planner is a generator for circular or linear motions in a rapid and *predictable* way. Additionally, it supports blending multiple motion segments together with a MoveIt capability.
 
 ## Stochastic Trajectory Optimization for Motion Planning (STOMP)
 
