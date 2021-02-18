@@ -28,9 +28,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="/moveit2/ros2/foxy/release/2020/09/04/moveit2-foxy-release.html">
+                                <a href="events/world-moveit-day/2021/01/15/world-moveit-day-2021.html">
                                     <span class="blue">Announcement</span>
-                                    <span>MoveIt 2.0 is out of beta!</span>
+                                    <span>Join World MoveIt Day on March 10th! </span>
                                 </a>
                             </div>
                             <h1>Moving robots into the&nbsp;future</h1>
@@ -209,7 +209,7 @@ redirect_from: '/moveit/'
                         <img style="max-width:100%" alt="MoveIt Grasps" src="/assets/images/screens/moveit_grasps.png">
                     </div>
                 </div>
-                <!-- comment out until a decesion is made about what aspects of python to show is made. 
+                <!-- comment out until a decesion is made about what aspects of python to show is made.
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-md-6 col-lg-7">
                         <img style="max-width:100%" alt="Python Scripting" src="/assets/images/screens/python2.png">

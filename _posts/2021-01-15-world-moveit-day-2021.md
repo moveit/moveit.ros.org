@@ -12,27 +12,27 @@ categories:
 - World-MoveIt-Day
 ---
 
-The sixth annual World MoveIt Day, taking place on Wednesday March 10th 2021, is going to look a little different this year. COVID restrictions will once again keep the event virtual but we want to do our best to help bring the community together in these continued uncertain times. As an open source platform, MoveIt relies on our community and our goal this year is to increase our community involvement. 
- 
-World MoveIt Day is an international hackathon to improve the MoveIt code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements for the now seven year old framework. Beginners are welcome to join us to review the tutorials and get immediate help when needed. This year, the focus will be on improvements to MoveIt 2.
- 
-In addition to our hackathon, we will have scheduled lightning talks, fireside chats, prizes and more. 
- 
+The sixth annual World MoveIt Day, taking place on Wednesday March 10th 2021, is going to look a little different this year. COVID restrictions will once again keep the event virtual but we want to do our best to help bring the community together in these continued uncertain times. As an open source platform, MoveIt relies on our community and our goal this year is to increase our community involvement.
+
+World MoveIt Day is an international hackathon to improve the MoveIt code base, documentation, and community. We hope to close as many pull requests and issues as possible and explore new areas of features and improvements for the now a ten(!) year old framework. Beginners are welcome to join us to review the tutorials and get immediate help when needed. This year, the focus will be on improvements to MoveIt 2.
+
+In addition to our hackathon, we will have scheduled lightning talks, fireside chats, prizes and more.
+
 Wait - did you say prizes?
- 
+
 Yes! Participate in World MoveItDay 2021 solo or as part of a team.  Winners will go into the MoveIt Hall of Fame and prizes will be awarded to those who:
 - Have the most lines merged at the end of the day - team prize
 - Merge the most PR’s - individual prize
 - Review the most PR’s - individual prize
 - Best lightning talk
- 
+
 Please register for World MoveIt Day here.
 
 ## Signup
 
 To participate, please register with [this form](https://forms.gle/JC7j88oip16jqfu18) so we have a rough idea of interest level and intent.
 
-If you want to give a lightning talk, let us know when you register or send us a note at [world-moveit-day@picknik.ai](mailto:world-moveit-day@picknik.ai) no later than **March 1st**. Lightning talks should be 2-3 minutes long and pre-recorded. 
+If you want to give a lightning talk, let us know when you register or send us a note at [world-moveit-day@picknik.ai](mailto:world-moveit-day@picknik.ai) no later than **March 1st**. Lightning talks should be 2-3 minutes long and pre-recorded.
 
 ## Organizers / More Info
 
@@ -51,7 +51,7 @@ Join the conversation on **Discord** (a chat client, different from *Discourse*)
 
 ### Squash Bugs / Issues
 
-Suggested areas for improvement are tracked on the [MoveIt 2 repository](https://github.com/ros-planning/moveit2). Our team of maintainers is working on finding and labeling suggested issues for the event. 
+Suggested areas for improvement are tracked on the [MoveIt 2 repository](https://github.com/ros-planning/moveit2). Our team of maintainers is working on finding and labeling suggested issues for the event.
 
 If you would like to help the MoveIt project by tackling an issue, make sure to claim the issue by commenting before you start working:
 
