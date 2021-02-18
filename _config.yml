@@ -1,4 +1,4 @@
-url: https://moveit.ros.org
+url: http://moveit_beta.picknik.ai/
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
@@ -10,7 +10,7 @@ sass:
 
 name: MoveIt Motion Planning Framework
 description: Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation.
-url: http://moveit.ros.org/
+url: http://moveit_beta.picknik.ai/
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
