@@ -7,7 +7,7 @@ slug: code
 title: Future Projects
 ---
 
-# Potential Code Sprints and Future Projects
+# Potential Code Sprints and Future Projects <!-- omit in toc -->
 
 <img src="/assets/logo/moveit_logo-black.png" width="300"/>
 
@@ -19,24 +19,15 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 
 **Note:** If you are looking at this list for a Google Summer of Code application, you should become familiar with the issue and codebase before starting the project in order to succeed within the new 10-week time frame.
 
-# Table of Contents
-
+# Table of Contents <!-- omit in toc -->
 - [TrajOpt Integration and Related Work on Trajectory Optimization Methods](#trajopt-integration-and-related-work-on-trajectory-optimization-methods)
 - [Simultaneous Trajectory Execution](#simultaneous-trajectory-execution)
 - [Tutorial for multiple robot arms](#tutorial-for-multiple-robot-arms)
 - [Scene graph support](#scene-graph-support)
 - [Creation of a Benchmark Suite for Evaluating MoveIt Performance](#creation-of-a-benchmark-suite-for-evaluating-moveit-performance)
 - [MoveIt 2 Tutorials](#moveit-2-tutorials)
-- [Add Support for MoveIt Task Constructor to MoveIt 2](#add-support-for-moveit-task-constructor-to-moveit-2)
 - [Improved Integration with ROS-Controls and Controller Switching](#improved-integration-with-ros-controls-and-controller-switching)
-- [Improve MoveIt Grasps Library](#improve-moveit-grasps-library)
-- [Cartesian Planning improvements](#cartesian-planning-improvements)
-- [Improve Warehouse Support](#improve-warehouse-support)
-- [MoveIt-OMPL Planning Interface](#moveit-ompl-planning-interface)
 - [Mobile Base Integration](#mobile-base-integration)
-
-
-<a name="trajopt-integration"></a>
 
 ## TrajOpt Integration and Related Work on Trajectory Optimization Methods
 
@@ -49,8 +40,6 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
   Some initial work was performed by Omid Heidari during an internship at PickNik in 2019, but more work is needed to cleanly integrate the framework with MoveIt. The collision checking interface for MoveIt has changed significantly. Implementing a collision cost using this unified interface for collision checking backends is one of the major remaining issues.
 
   MoveIt also contains implementations of other trajectory optimization methods: STOMP and CHOMP. These implementations all contain their own way of computing trajectories, but share a lot of common ideas, such as using a signed distance field to compute collision cost. Refactoring this code to use common code for the same ideas would help in making the code more maintainable. It is also a first step to making it possible to provide callback hooks for a user-configurable trajectory cost function that can be used with any of the trajectory optimization methods, which is currently not possible.
-
-<a name="simultaneous-trajectory-execution"></a>
 
 ## Simultaneous Trajectory Execution
 
@@ -67,9 +56,6 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 
 - **Related Github issues**: [2287](https://github.com/ros-planning/moveit/issues/2287)
 
-
-<a name="multiple-arms-tutorial"></a>
-
 ## Tutorial for multiple robot arms
 
 - **Prerequisites**: ROS
@@ -79,9 +65,6 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 - **Description**: While there are some ROS Answers posts and examples floating around, there is no definitive resource on how to set up multiple robot (arms) with MoveIt. The goal of this project is to write a tutorial that should become the reference. This project is a good preparation for the one above.
 
 - **Related Github issues**: [465](https://github.com/ros-planning/moveit_tutorials/issues/465)
-
-
-<a name="scene-graph"></a>
 
 ## Scene graph support
 
@@ -94,8 +77,6 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
   As a blueprint for the implementation, it is worth looking at [Tesseract](https://github.com/ros-industrial-consortium/tesseract) (forked from MoveIt) and [TMKit](https://github.com/kavrakilab/tmkit.git) (no ROS support).
 - **Related Github issues**: [202](https://github.com/ros-planning/moveit/issues/202), [202](https://github.com/ros-planning/moveit/issues/202)
 
-<a name="benchmark-suite"></a>
-
 ## Creation of a Benchmark Suite for Evaluating MoveIt Performance
 
 - **Prerequisites**: ROS, some motion planning background
@@ -104,12 +85,10 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 - **Potential mentors**: Felix von Drigalski, Mark Moll, Henning Kayser
 - **Description**: It would be a set of benchmark tasks to serve as examples, and to run as part of continuous tests.
 For this, we need to identify and implement standard tasks at varying levels of difficulty that can be achieved with several robots for which a MoveIt configuration is available. E.g.:
-    - Moving to a goal position in uncluttered space
-    - Picking and placing items from/in cluttered shelves
-    - Following paths with orientation constraints
+  - Moving to a goal position in uncluttered space
+  - Picking and placing items from/in cluttered shelves
+  - Following paths with orientation constraints
 - **Related Github issues**: [2124](https://github.com/ros-planning/moveit/issues/2124)
-
-<a name="moveit-2-tutorials"></a>
 
 ## MoveIt 2 Tutorials
 
@@ -119,8 +98,6 @@ For this, we need to identify and implement standard tasks at varying levels of 
 - **Potential mentors**: Henning Kayser, Mark Moll
 - **Description**: One of the reasons MoveIt is so popular is that the tutorials make it very easy to get started. MoveIt 2 has been released and the tutorials needs to be updated for this new version. This can be a project for multiple people, each taking on one or more tutorials.
 
-<a name="ros-control-integration"></a>
-
 ## Improved Integration with ROS-Controls and Controller Switching
 
 - **Prerequisites**: ROS, some background in control theory
@@ -129,7 +106,13 @@ For this, we need to identify and implement standard tasks at varying levels of 
 - **Potential mentors**: Andy Zelenak, Robert Haschke
 - **Description**: Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt plans. Improve the [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/master/moveit_plugins/moveit_ros_control_interface). Documentation on how to combine the components.
 
-<a name="moveit-grasps"></a>
+## Port Inverse Kinematic Solver Libraries to MoveIt 2
+
+- **Prerequisites**: ROS, basic understanding of inverse kinematics
+- **Programming skills**: C++
+- **Difficulty**: Medium
+- **Potential mentors**: Andy Zelenak, Henning Kayser
+- **Description**: There are several Inverse Kinematics libraries that need to be ported to MoveIt 2. Prime candidates are [BioIK](https://github.com/TAMS-Group/bio_ik) and [TRAC-IK](https://bitbucket.org/traclabs/trac_ik/src/master/).
 
 <!-->
 ## Improve MoveIt Grasps Library
@@ -142,8 +125,6 @@ For this, we need to identify and implement standard tasks at varying levels of 
   - Integration with a machine-learning-based grasp generator and/or grasp scoring package such as the [Grasp Pose Detection](https://github.com/atenpas/gpd) package or Intel's [ROS 2 Grasp Library](https://github.com/intel/ros2_grasp_library).
   - Improve tutorials and documentation for grasping in MoveIt
   - Improve test coverage, especially for grasp generation
-
-<a name="cartesian-planner"></a>
 
 ## Cartesian Planning improvements
 
@@ -159,8 +140,6 @@ For this, we need to identify and implement standard tasks at varying levels of 
   - Fix the long standing [orientation constraint joint flip bug](https://github.com/ros-planning/moveit/issues/562) in free-space planning.
 - **Related Github issues**: [2092](https://github.com/ros-planning/moveit/issues/2092)
 
-<a name="warehouse-support"></a>
-
 ## Improve Warehouse Support
 
 - **Prerequisites**: ROS
@@ -172,9 +151,6 @@ For this, we need to identify and implement standard tasks at varying levels of 
   - Implementation of a warehouse-plugin that works with a standard database system that is supported in major Linux distributions
   - Create tutorials and example code that demonstrates how to use the warehouse interface
 - **Related Github issues**: [123](https://github.com/ros-planning/moveit/issues/123)
-
-<a name="ompl-interface"></a>
-
 
 ## MoveIt-OMPL Planning Interface
 
@@ -188,8 +164,6 @@ For this, we need to identify and implement standard tasks at varying levels of 
   - The new system needs to be documented in tutorials
   - It would be nice if, as a proof of concept, some additional basic planning algorithms could be implemented as a plugin. Ideally, this would include at least one algorithm that is not sampling-based, just to demonstrate that this can be done
 -->
-
-<a name="mobile-base-integration"></a>
 
 ## Mobile Base Integration
 
