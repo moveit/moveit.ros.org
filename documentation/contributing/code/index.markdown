@@ -47,7 +47,7 @@ In addition MoveIt has some extra style preferences:
 
 ## Exceptions
 
- - Catch known exceptions and log them in detail. Avoid using ``catch (...)`` as it hides every information of a possible fault. We want to know if something goes wrong.
+ - Catch known exceptions and log them in detail. Avoid using ``catch (...)`` as it hides information about a possible fault. We want to know if something goes wrong.
  - We don't catch exceptions that don't derive from ``std::exception`` in MoveIt. It is the responsibility of the plugin provider to handle non-``std::exception``-derived exceptions locally.
 
 ## Logging
@@ -93,7 +93,7 @@ Format an entire directory recursively including subfolders:
 
 ### Exceptions to clang-format
 
-Occationally the auto formatting used by clang-format might not make sense e.g. for lists of items that are easier to read on separate lines. It can be overwritten with the commands:
+Occasionally the auto formatting used by clang-format might not make sense e.g. for lists of items that are easier to read on separate lines. It can be overwritten with the commands:
 
     // clang-format off
     ... some untouched code
@@ -148,7 +148,7 @@ You can install clang-tidy and other clang related tools with
 Similarly to clang-format, clang-tidy uses the configuration file [``.clang-tidy``](https://github.com/ros-planning/moveit/blob/master/.clang-tidy) that is found first when traversing the source folder hierarchy upwards. The MoveIt repo provides this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-tidy).
 
 
-Other than clang-format, clang-tidy needs to know the exact compiler options used to build your project.
+Unlike clang-format, clang-tidy needs to know the exact compiler options used to build your project.
 To provide them, configure cmake with ``-DCMAKE_EXPORT_COMPILE_COMMANDS=ON`` and cmake will create in the package's build
 folder a file called ``compile_commands.json``. _After_ building, you can run clang-tidy to analyze your code and even
 **fix** issues automatically as follows:
