@@ -17,23 +17,23 @@ If you would like to contribute to these efforts, have a look at the related Git
 
 Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further information or sponsorship opportunities.
 
-**Note:** If you are looking at this list for a Google Summer of Code application, you should become familiar with the issue and codebase before starting the project in order to succeed within the new 10-week time frame. Do not
+**Note:** If you are looking at this list for a Google Summer of Code application, you should become familiar with the issue and codebase before starting the project in order to succeed within the new 10-week time frame.
 
 # Table of Contents
-- [Table of Contents](#table-of-contents)
-  - [TrajOpt Integration and Related Work on Trajectory Optimization Methods](#trajopt-integration-and-related-work-on-trajectory-optimization-methods)
-  - [Simultaneous Trajectory Execution](#simultaneous-trajectory-execution)
-  - [Tutorial for multiple robot arms](#tutorial-for-multiple-robot-arms)
-  - [Scene graph support](#scene-graph-support)
-  - [Creation of a Benchmark Suite for Evaluating MoveIt Performance](#creation-of-a-benchmark-suite-for-evaluating-moveit-performance)
-  - [MoveIt 2 Tutorials](#moveit-2-tutorials)
-  - [Add Support for MoveIt Task Constructor to MoveIt 2](#add-support-for-moveit-task-constructor-to-moveit-2)
-  - [Improved Integration with ROS-Controls and Controller Switching](#improved-integration-with-ros-controls-and-controller-switching)
-  - [Improve MoveIt Grasps Library](#improve-moveit-grasps-library)
-  - [Cartesian Planning improvements](#cartesian-planning-improvements)
-  - [Improve Warehouse Support](#improve-warehouse-support)
-  - [MoveIt-OMPL Planning Interface](#moveit-ompl-planning-interface)
-  - [Mobile Base Integration](#mobile-base-integration)
+
+- [TrajOpt Integration and Related Work on Trajectory Optimization Methods](#trajopt-integration-and-related-work-on-trajectory-optimization-methods)
+- [Simultaneous Trajectory Execution](#simultaneous-trajectory-execution)
+- [Tutorial for multiple robot arms](#tutorial-for-multiple-robot-arms)
+- [Scene graph support](#scene-graph-support)
+- [Creation of a Benchmark Suite for Evaluating MoveIt Performance](#creation-of-a-benchmark-suite-for-evaluating-moveit-performance)
+- [MoveIt 2 Tutorials](#moveit-2-tutorials)
+- [Add Support for MoveIt Task Constructor to MoveIt 2](#add-support-for-moveit-task-constructor-to-moveit-2)
+- [Improved Integration with ROS-Controls and Controller Switching](#improved-integration-with-ros-controls-and-controller-switching)
+- [Improve MoveIt Grasps Library](#improve-moveit-grasps-library)
+- [Cartesian Planning improvements](#cartesian-planning-improvements)
+- [Improve Warehouse Support](#improve-warehouse-support)
+- [MoveIt-OMPL Planning Interface](#moveit-ompl-planning-interface)
+- [Mobile Base Integration](#mobile-base-integration)
 
 
 <a name="trajopt-integration"></a>
@@ -61,9 +61,9 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 - **Description**: MoveIt currently only supports the execution of one robot trajectory (although the trajectory can involve multiple planning groups, e.g. two arms). However, to run e.g. a robot workcell efficiently, each robot arm has to move independently.
 
   The goal of this project is to allow multiple trajectories to be started, executed and stopped independently from one another. The main difficulty is that the arms may collide with one another, so additional checks will be necessary, such as:
-      - Do two trajectories intersect at all?
-      - Does the next position in a trajectory collide with another robot arm?
-      - What are the next positions of the other currently active robot arms?
+  - Do two trajectories intersect at all?
+  - Does the next position in a trajectory collide with another robot arm?
+  - What are the next positions of the other currently active robot arms?
 
 - **Related Github issues**: [2287](https://github.com/ros-planning/moveit/issues/2287)
 
@@ -116,18 +116,8 @@ For this, we need to identify and implement standard tasks at varying levels of 
 - **Prerequisites**: ROS, some motion planning background
 - **Programming skills**: C++
 - **Difficulty**: Medium
-- **Potential mentors**: Mike Lautman, Mark Moll
-- **Description**: One of the reasons MoveIt is so popular is that the tutorials make it very easy to get started. The MoveIt 2 beta has been released and the tutorials needs to be updated for this new version.
-
-<a name="mtc-in-moveit-2"></a>
-
-## Add Support for MoveIt Task Constructor to MoveIt 2
-
-- **Prerequisites**: ROS, some motion planning background
-- **Programming skills**: C++
-- **Difficulty**: Medium
-- **Potential mentors**: Robert Haschke, Henning Kayser
-- **Description**: The [MoveIt Task Constructor](https://ros-planning.github.io/moveit_tutorials/doc/moveit_task_constructor/moveit_task_constructor_tutorial.html) framework provides a flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks. It draws on the planning capabilities of MoveIt to solve individual subproblems in black-box planning stages. Porting this to MoveIt 2 may also include porting MoveIt 1's MoveGroup interface to MoveIt 2.
+- **Potential mentors**: Henning Kayser, Mark Moll
+- **Description**: One of the reasons MoveIt is so popular is that the tutorials make it very easy to get started. MoveIt 2 has been released and the tutorials needs to be updated for this new version. This can be a project for multiple people, each taking on one or more tutorials.
 
 <a name="ros-control-integration"></a>
 
@@ -141,6 +131,7 @@ For this, we need to identify and implement standard tasks at varying levels of 
 
 <a name="moveit-grasps"></a>
 
+<!-->
 ## Improve MoveIt Grasps Library
 
 - **Prerequisites**: ROS, some motion planning background
@@ -196,6 +187,7 @@ For this, we need to identify and implement standard tasks at varying levels of 
   - More information can be found [here](https://github.com/ros-planning/moveit/issues/117)
   - The new system needs to be documented in tutorials
   - It would be nice if, as a proof of concept, some additional basic planning algorithms could be implemented as a plugin. Ideally, this would include at least one algorithm that is not sampling-based, just to demonstrate that this can be done
+-->
 
 <a name="mobile-base-integration"></a>
 
@@ -204,5 +196,5 @@ For this, we need to identify and implement standard tasks at varying levels of 
 - **Prerequisites**: ROS, some motion planning background
 - **Programming skills**: C++
 - **Difficulty**: Medium
-- **Potential mentors**: Nathan Brooks
-- **Description**: The goal is to provide a standard way for integrating mobile base into move group that typically handles arms. While there's a non-standard way to incorporate holonomic drive that requires modifying your robot model ([example](https://groups.google.com/forum/#%21searchin/moveit-users/virtual$20base/moveit-users/G7vG7r23YzI/vpMUoa1hza4J)), customizing your robot package for such a common functionality is not ideal at all. We also extend to cover non-holonomic drive robots. [This is an FAQ](https://github.com/ros-planning/moveit/issues/375) among MoveIt users.
+- **Potential mentors**: Mark Moll, David Lu!!
+- **Description**: The goal is to provide a standard way for integrating mobile base into move group that typically handles arms. While there's a non-standard way to incorporate holonomic drive that requires modifying your robot model ([example](https://groups.google.com/forum/#%21searchin/moveit-users/virtual$20base/moveit-users/G7vG7r23YzI/vpMUoa1hza4J)), customizing your robot package for such a common functionality is not ideal at all. We also extend to cover non-holonomic drive robots. [This is an FAQ](https://github.com/ros-planning/moveit/issues/375) among MoveIt users. Some initial work for this is currently underway for the [Hello Robot Stretch platform](https://hello-robot.com/product), but more work is needed to generalize to other types of mobile bases.
