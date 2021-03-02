@@ -43,6 +43,16 @@
       background-color: #fff;
       color: $dark-text;
     }
+
+    &__blue {
+      border-color: #0a58f7;
+      color: #0a58f7;
+
+      &:hover {
+        background-color: #0a58f7;
+        color: #fff;
+      }
+    }
   }
 
   &.info-box-button {
