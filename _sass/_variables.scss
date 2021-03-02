@@ -1,23 +1,32 @@
 // colors
-$white:                         #ffffff;
-$gray:                          #f8f7fc;
-$facebook:                      #3B5998;
-$twitter:                       #4099FF;
-$googlePlus:                    #d34836;
-$orange:                        #f39c12;
-$dark-blue:                     #15161B;
-$text:                          #a3a3a6;
-$dark-text:                     rgba(25,26,32,0.8);
-$blue:                          #0A58F7;
-$robots-black:                  #191A20;
-$robots-gray:                   rgba(25,26,32,0.5);
+$white: #ffffff;
+$gray: #f8f7fc;
+$facebook: #3b5998;
+$twitter: #4099ff;
+$googlePlus: #d34836;
+$orange: #f7a20a;
+$dark-blue: #15161b;
+$text: #a3a3a6;
+$dark-text: rgba(25, 26, 32, 0.8);
+$blue: #0a58f7;
+$robots-black: #191a20;
+$robots-gray: rgba(25, 26, 32, 0.5);
+$red: #f70a0a;
 
 // typo
-$font-family-sans-serif:        "Lato", sans-serif;
-$font-family-base:              $font-family-sans-serif;
-$font-size-default:             15px;
-$font-size-base:                1rem;
+$font-family-sans-serif: 'Inter', sans-serif;
+$font-family-base: $font-family-sans-serif;
+$font-size-default: 15px;
+$font-size-base: 1rem;
 
-$font-family-base:              $font-family-sans-serif;
+$font-family-base: $font-family-sans-serif;
 
-$grid-breakpoints:              (xs: 0, ms: 480px, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1920px)
+$grid-breakpoints: (
+  xs: 0,
+  ms: 480px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1920px,
+);
