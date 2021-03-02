@@ -5,32 +5,61 @@ slug: get-involved
 title: Get Involved
 ---
 
-# Get Involved
-
-## MoveIt on Discourse
-
-Follow MoveIt on [ROS Discourse](http://discourse.ros.org/c/moveit) for project announcements, discussion of future development, maintenance, testing, and releases.
-
-To subscribe via email (recommended):
-
-  * Login or create an account at the top right of the [MoveIt Discourse](http://discourse.ros.org/c/moveit) channel
-  * On the MoveIt Discourse channel page, click the small circle at the top right (see screenshot below).
-  * Set the notification status to "Watching" or similar setting.
-
-<img src="{{ site.url }}/assets/images/discourse_subscribe.png" width="700"/>
-
-<br /><br />
-
-Note that this Discourse forum is not for MoveIt users questions or specific robot application questions. *Technical questions should be directed to [answers.ros.org](http://answers.ros.org/) with the moveit tag*.
-
-## Discord
-
-Join the conversation on Discord (a chat client, different from Discourse, similar to Slack) in the new [MoveIt Server](https://discord.gg/RrySut8).
-
-## IRC
-
-For old school hackers, check out our IRC channel with #moveit at irc.freenode.net.
-
-## Contributing
-
-See the [Contributing](http://moveit.ros.org/documentation/contributing/) page.
+<div class='row'>
+  <div class='col-sm-12 col-lg-6'>
+    <h1>Get Involved</h1>
+    <p class="paragraph-big">
+      We are excited you're interested in getting involved, the MoveIt team is always looking to grow and improve our community. How to get involved:
+    </p>
+  </div>
+  <div class='col-sm-12 col-lg-6'>
+    <img style="max-width:100%" alt="MoveIt Grasps" src="/assets/images/docker-illustration.png">
+  </div>
+</div>
+<div class="get-involved-box">
+  <div class='get-involved-box__left'>
+    <h3>Stay in touch</h3>
+    <div class="get-involved-content">
+      <img alt="Discourse" src="/assets/images/discourse.png">
+      <p>Follow MoveIt on <a href="http://discourse.ros.org/c/moveit" target="_blank">ROS Discourse</a> for project announcements, discussion of future development, maintenance, testing, and releases.</p>
+      <a class="button" href="http://discourse.ros.org/c/moveit" target="_blank">SUBSCRIBE</a>
+    </div>
+    <img alt="Discord" src="/assets/images/discord.jpg">
+    <p>
+      Join the conversation in realtime on Discord (a chat client similar to Slack) in the <a href="https://discord.gg/RrySut8" target="_blank">MoveIt Server</a>.
+    </p>
+    <a class="button" href="https://discord.gg/RrySut8" target="_blank">JOIN</a>
+  </div>
+  <div class='get-involved-box__right'>
+    <h3> Contribute to Open Source</h3>
+    <ul class="get-involved-list">
+      <li>
+        <span>1</span>
+        <strong>Enhance Documentation</strong>
+        <p>Expand and improve upon our tutorials and example code.</p>
+      </li>
+      <li>
+        <span>2</span>
+        <strong>Answer User Questions</strong>
+        <p>You probably know more than you realize, share that knowledge with other MoveIt users!</p>
+      </li>
+      <li>
+        <span>3</span>
+        <strong>Fix Bugs</strong>
+        <p>Any active and growing project inevitably has regressions that need cleanup.</p>
+      </li>
+      <li>
+        <span>4</span>
+        <strong>Add New Features</strong>
+        <p>MoveIt is actively developed: help improve the #1 ROS manipulation platform.</p>
+      </li>
+    </ul>
+    <a class="button button-transparent" href="http://moveit.ros.org/documentation/contributing" target="_blank">START CONTRIBUTING TODAY</a>
+  </div>
+</div>
+<div class="row">
+  <div class="get-involved-footer">
+    <p>You can also get the PickNik quarterly newsletter on MoveIt</p>
+    <a class="button  button-transparent button-transparent__blue" href="/" target="_blank">SUBSCRIBE TO OUR NEWSLETTER</a>
+  </div>
+</div>

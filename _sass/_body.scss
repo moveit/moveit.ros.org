@@ -130,6 +130,11 @@ img {
   height: 80px;
   background: linear-gradient(45deg, transparent 50%, $white 50%);
   z-index: 1;
+
+  &-blog {
+    width: 71px;
+    height: 71px;
+  }
 }
 
 .github-corner {
