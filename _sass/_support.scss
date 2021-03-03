@@ -1,0 +1,51 @@
+.support-box {
+  margin: 20px auto 40px;
+  border: 1px solid rgba(151, 151, 151, 0.4);
+  border-radius: 4px;
+  padding: 80px 65px 55px;
+  @media screen and (max-width: 992px) {
+    padding: 40px 30px 15px;
+    margin-top: 40px;
+  }
+
+  @media screen and (max-width: 520px) {
+    padding: 25px 5px;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 0;
+  }
+
+  img {
+    max-width: 80%;
+    @media screen and (max-width: 992px) {
+      max-width: 300px;
+      margin: 0 auto 40px;
+    }
+
+    @media screen and (max-width: 520px) {
+      max-width: 240px;
+    }
+  }
+
+  h3 {
+    font-size: 19px;
+    margin-top: 35px;
+  }
+
+  ul {
+    padding-left: 25px;
+    margin-bottom: 48px;
+
+    li {
+      margin-bottom: 15px;
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}
