@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>30FD91E9-A2DF-4D8A-B702-B7A2649CC54E</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80"></rect>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8-0-0-Contributing" transform="translate(-1002.000000, -1702.000000)">
+            <g id="Group-2" transform="translate(736.000000, 1642.000000)">
+                <g id="edit-/-comment_check" transform="translate(266.000000, 60.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="edit-/-comment_check-(Background/Mask)"></g>
+                    <path d="M36.6667652,45.2016195 L24.3100993,32.8449504 L29.0234311,28.1316121 L36.6667652,35.774943 L50.976766,21.4649455 L55.6901042,26.1782837 L36.6667652,45.2016195 Z M16.6666667,10 L63.3333333,10 C67.0100021,10 70,12.9899999 70,16.6666667 L70,50 C70,53.6766656 67.0100021,56.6666667 63.3333333,56.6666667 L29.9990002,56.6666667 C28.5564645,56.6666667 27.1528435,57.1345647 25.9988403,58.0001195 L10,70 L10,16.6666667 C10,12.9899999 12.9899999,10 16.6666667,10 L16.6666667,10 Z M27.7786668,50 L63.3333333,50 L63.3333333,16.6666667 L16.6666667,16.6666667 L16.6666667,56.6666667 L23.7789853,51.3330936 C24.9329027,50.4677645 26.3363345,50 27.7786668,50 L27.7786668,50 Z" fill="#0A58F7" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
