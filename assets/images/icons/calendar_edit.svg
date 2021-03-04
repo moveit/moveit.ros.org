@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>B9BDC4D8-95C9-45E0-9537-D24D47BF757B</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="48"></rect>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="9-0-0-Roadmap" transform="translate(-171.000000, -814.000000)">
+            <g id="calendar-/-calendar_edit" transform="translate(171.000000, 814.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="calendar-/-calendar_edit-(Background/Mask)"></g>
+                <path d="M25.6584282,24.7673149 L28.3998222,22.0243893 L32,25.6225586 L29.258606,28.3654842 L25.6584282,24.7673149 Z M16.0100098,34.4020386 L24.4020004,26.0220451 L28,29.6200447 L19.6080093,38.0000381 L16.0100098,38.0000381 L16.0100098,34.4020386 Z M38,8 L34,8 L34,4 L30,4 L30,8 L18,8 L18,4 L14,4 L14,8 L10,8 C7.79399967,8 6,9.79399967 6,12 L6,40 C6,42.2060013 7.79399967,44 10,44 L38,44 C40.2060013,44 42,42.2060013 42,40 L42,12 C42,9.79399967 40.2060013,8 38,8 L38,8 Z M10,40 L10,20 L38,20 L38.0040016,40 L10,40 L10,40 Z M38.0005722,16 L38,12 L10,12 L10,16 L38.0005722,16 L38.0005722,16 Z" fill="#0A58F7" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
