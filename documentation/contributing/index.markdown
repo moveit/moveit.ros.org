@@ -83,7 +83,7 @@ title: Contributing
     <p class="second-paragraph">
       If you're unsure if your new feature is a good idea, you are encouraged to open an issue or post on Discourse first explaining your proposed change, and request feedback from the community.
     </p>
-    <a class="button button-transparent button-transparent__blue" href="/" target="_blank">LEARN MORE ABOUT CONTRIBUTING CODE</a>
+    <a class="button button-transparent button-transparent__blue" href="/documentation/contributing/pullrequests">LEARN MORE ABOUT CONTRIBUTING CODE</a>
   </div>
   <div class='contributing-single-box'>
     <span class="icon">
