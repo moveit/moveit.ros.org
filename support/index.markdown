@@ -25,9 +25,9 @@ title: Support
   <div class='col-sm-12 col-lg-8'>
     <h2>Professional Support</h2>
     <p class="paragraph-big">
-      <a href="https://picknik.ai/?utm_source=moveit" target="_blank">PickNik Robotics</a> was founded with the mission of growing the MoveIt project through community building and sponsored development. PickNik offers custom code development and <a href="https://picknik.ai/services/?utm_source=moveit" target="_blank">ongoing robotics support</a>.
+      <a href="https://picknik.ai/?utm_source=moveit" target="_blank">PickNik Robotics</a> was founded with the mission of growing the MoveIt project through community building and sponsored development. PickNik offers custom code development and ongoing robotics support.
     </p>
-    <a class="button button-transparent button-transparent__blue" href="/" target="_blank">CONTACT FOR FREE CONSULTATION</a>
+    <a class="button button-transparent button-transparent__blue" href="https://picknik.ai/services/" target="_blank">CONTACT FOR FREE CONSULTATION</a>
   </div>
 </div>
 <div class="row support-box">

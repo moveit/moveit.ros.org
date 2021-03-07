@@ -54,7 +54,7 @@ title: Get Involved
         <p>MoveIt is actively developed: help improve the #1 ROS manipulation platform.</p>
       </li>
     </ul>
-    <a class="button button-transparent" href="http://moveit.ros.org/documentation/contributing" target="_blank">START CONTRIBUTING TODAY</a>
+    <a class="button button-transparent" href="/documentation/contributing">START CONTRIBUTING TODAY</a>
   </div>
 </div>
 <div class="row">
