@@ -61,7 +61,10 @@ title: Support
         <a href="https://github.com/ros-planning/moveit.ros.org/issues" target="_blank">moveit.ros.org</a> - Issues related to the Jekyll-based website
       </li>
       <li>
-        <a href="https://github.com/ros-planning/moveit_tutorials" target="_blank">moveit_tutorials</a> - Issues related to the Sphinx-based tutorials
+        <a href="https://github.com/ros-planning/moveit_tutorials" target="_blank">moveit1_tutorials</a> - Issues related to the Sphinx-based Moveit1 tutorials
+      </li>
+      <li>
+        <a href="https://github.com/ros-planning/moveit2_tutorials" target="_blank">moveit2_tutorials</a> - Issues related to the Sphinx-based Moveit2 tutorials
       </li>
     </ul>
     <h3>Change Logs and Migration Notes</h3>
