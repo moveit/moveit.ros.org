@@ -20,7 +20,7 @@ title: MoveIt Roadmap
 <div class="row current-version roadmap-current-version">
   <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
     <h3>MoveIt 2.2 Galactic Geochelone</h3>
-    <a class="button button-transparent button-transparent__blue" href="https://moveit.ros.org/documentation/contributing/roadmap/" target="_blank">See Every 6 Week Release Schedule</a>
+    <a class="button button-transparent button-transparent__blue" href="/documentation/contributing/releases/">See Every 6 Week Release Schedule</a>
     <div class="time-line">
         <div class="time-line--orange" id="time-line--orange-2"></div>
         <div class="time-line--blue" id="time-line--blue-2"></div>

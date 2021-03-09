@@ -239,7 +239,7 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-5 col-sm-12">
                         <h1>Why MoveIt?</h1>
                         <p class="paragraph-big">
-                            MoveIt is the most widely used software for manipulation and has been used on over <a href="https://moveit.ros.org/robots/">150 robots</a>. It is released under the terms of the BSD license, and thus free for industrial, commercial, and research use.
+                            MoveIt is the most widely used software for manipulation and has been used on over <a href="/robots/">150 robots</a>. It is released under the terms of the BSD license, and thus free for industrial, commercial, and research use.
                         </p>
                         <p class="paragraph-big">
                             By incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation, MoveIt is state of the art software for mobile manipulation.
@@ -298,7 +298,7 @@ redirect_from: '/moveit/'
                 <!-- </div> -->
                 <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
                     <h3>MoveIt 2.2 Galactic Geochelone</h3>
-                    <a class="button button-transparent" href="https://moveit.ros.org/documentation/contributing/roadmap/" target="_blank">SEE ROADMAP</a>
+                    <a class="button button-transparent" href="/documentation/contributing/roadmap/" target="_blank">SEE ROADMAP</a>
                     <div class="time-line">
                         <div class="time-line--orange" id="time-line--orange-2"></div>
                         <div class="time-line--blue" id="time-line--blue-2"></div>

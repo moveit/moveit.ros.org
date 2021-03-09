@@ -21,7 +21,7 @@ _What version of MoveIt should I use?_
 
   * For most developers, we recommend building the [master](https://github.com/ros-planning/moveit) branch from source.
   * If you are a beginner, installing the Noetic LTS release from Debian is the easiest and fastest.
-  * You can also use a [Docker container](https://moveit.ros.org/install/docker/) for a virtual setup.
+  * You can also use a [Docker container](/install/docker/) for a virtual setup.
 
 _Should I build from source or install the Debians?_
 
@@ -31,8 +31,8 @@ _Should I build from source or install the Debians?_
 
 _What kind of computer do I need?_
 
-  * ROS 1.0 works best on a Linux computer, particularly Ubuntu 16.04 or 18.04. [Some Windows support](https://moveit.ros.org/install/) is also available.
-  * If you are running another operating system, we recommend to try dual booting, [installing on Docker](https://moveit.ros.org/install/docker/), or using a virtual machine (see [notes](https://moveit.ros.org/install/)).
+  * ROS 1.0 works best on a Linux computer, particularly Ubuntu 16.04 or 18.04. [Some Windows support](/install/) is also available.
+  * If you are running another operating system, we recommend to try dual booting, [installing on Docker](/install/docker/), or using a virtual machine (see [notes](/install/)).
 
 _Where is the source code?_
 
@@ -40,7 +40,7 @@ _Where is the source code?_
 
 _How do I create a pull request?_
 
-  * [Contributing](https://moveit.ros.org/documentation/contributing/) fixes and features back to MoveIt is not as hard as it may seem, everyone is encouraged to do it!
+  * [Contributing](/documentation/contributing/) fixes and features back to MoveIt is not as hard as it may seem, everyone is encouraged to do it!
   * The high level is:
     * Create a [Github fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/working-with-forks) of MoveIt
     * [Clone the repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) locally
@@ -59,7 +59,7 @@ _What is the difference between MoveIt 1 and MoveIt 2?_
 
   * MoveIt 2 is currently (April 2020) a straight port of MoveIt 1 but for ROS 2.
   * ROS 2 is a total rewrite of the popular robotics middleware that addresses many unfulfilled needs of industry / commercial users in ROS 1.
-  * MoveIt 2 will hopefully fork from MoveIt 1 soon to take advantage of the new features in ROS 2. See the [roadmap](https://moveit.ros.org/documentation/contributing/roadmap/).
+  * MoveIt 2 will hopefully fork from MoveIt 1 soon to take advantage of the new features in ROS 2. See the [roadmap](/documentation/contributing/roadmap/).
 
 _What is the difference between MoveIt and ROS?_
 
@@ -77,7 +77,7 @@ _What is the difference between MoveIt and OMPL?_
 
 _What is the difference between MoveIt and PickNik?_
 
-  * MoveIt is an open source project that started at Willow Garage (see [history](https://moveit.ros.org/about/)) and is now led by [PickNik Robotics](https://picknik.ai/).
+  * MoveIt is an open source project that started at Willow Garage (see [history](/about/)) and is now led by [PickNik Robotics](https://picknik.ai/).
   * PickNik was founded by lead MoveIt maintainer Dave Coleman with the mission of growing the MoveIt project through community building and contract consulting.
 
 _What is the difference between MoveIt and ROS-Industrial?_
@@ -94,7 +94,7 @@ _I have a fix for a bug in the MoveIt tutorials. What should I do?_
 
 _I have a found a bug in MoveIt itself. What should I do?_
 
-  * See [Contributing](http://moveit.ros.org/documentation/contributing/)
+  * See [Contributing](/documentation/contributing/)
 
 ## Robots
 
