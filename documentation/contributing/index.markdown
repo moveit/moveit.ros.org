@@ -24,7 +24,7 @@ title: Contributing
       <img alt="School" src="/assets/images/icons/school.svg">
     </span>
     <span class="badge">FOR BEGINNERS</span>
-    <h2>'First Timer Only' Github Issues</h2>
+    <h2>'Good First Issue' Github Issues</h2>
     <p>
       If you are new to MoveIt and open source projects, welcome! This is the section for you. 👋
     </p>
@@ -32,9 +32,9 @@ title: Contributing
       We're interested in helping you take the first step and can answer questions and help you out as you do. Note that we're especially interested in contributions from people from groups underrepresented in free and open-source software! 💝
     </p>
     <p>
-      We know that the process of creating a pull request is the biggest barrier for new contributors. For this reason we've tagged Github issues as <a href="https://github.com/ros-planning/moveit/labels/first-timer-only" target="_blank">“first-timer-only”</a> to help you get started.
+      We know that the process of creating a pull request is the biggest barrier for new contributors. For this reason we've tagged Github issues as <a href="https://github.com/ros-planning/moveit2/labels/good%20first%20issue" target="_blank">“first-timer-only”</a> to help you get started.
     </p>
-    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit/labels/first-timer-only" target="_blank">Tackle Your First Issue</a>
+    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit2/labels/good%20first%20issue" target="_blank">Tackle Your First Issue</a>
   </div>
 </div>
 <div class="row contributing-boxes">

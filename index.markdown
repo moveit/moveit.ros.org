@@ -298,7 +298,7 @@ redirect_from: '/moveit/'
                 <!-- </div> -->
                 <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
                     <h3>MoveIt 2.2 Galactic Geochelone</h3>
-                    <a class="button button-transparent" href="/documentation/contributing/roadmap/" target="_blank">SEE ROADMAP</a>
+                    <a class="button button-transparent" href="/documentation/contributing/roadmap/">SEE ROADMAP</a>
                     <div class="time-line">
                         <div class="time-line--orange" id="time-line--orange-2"></div>
                         <div class="time-line--blue" id="time-line--blue-2"></div>

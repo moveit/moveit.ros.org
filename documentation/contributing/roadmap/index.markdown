@@ -10,7 +10,7 @@ title: MoveIt Roadmap
   <div class='col-sm-12 col-lg-6'>
     <h1>MoveIt Roadmap 2021</h1>
     <p class="paragraph-big">
-      As an open source project, we rely on everyone to get involved with contributions of new features and bug improvements. Financial support in the form of grants and code sprints are of course welcomed too! Please <a href="/" target="_blank">contact us</a> if you’re interested in supporting these efforts.
+      As an open source project, we rely on everyone to get involved with contributions of new features and bug improvements. Financial support in the form of grants and code sprints are of course welcomed too! Please <a href="https://picknik.ai/connect/" target="_blank">contact us</a> if you’re interested in supporting these efforts.
     </p>
   </div>
   <div class='col-sm-12 col-lg-6'>
@@ -102,10 +102,10 @@ title: MoveIt Roadmap
       <div class="release-versions__content">
         <div class="release-versions__1">
           <h3>Integration with ros2_control</h3>
-          <p>
+          <!-- <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
             <a href="/" target="_blank">View branch</a>
-          </p>
+          </p> -->
         </div>
         <div class="release-versions__2">
           March 2021
@@ -117,34 +117,66 @@ title: MoveIt Roadmap
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Mobile Manipulation with Ackerman Steering</h3>
-          <p>
+          <h3>Cartesian Planning</h3>
+          <!-- <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
             <a href="/" target="_blank">View branch</a>
-          </p>
+          </p> -->
         </div>
         <div class="release-versions__2">
-          May 2021
+          March 2021
         </div>
         <div class="release-versions__3">
-          <strong>Andy Zelenak</strong><br/>
+          <strong>Boston Cleek</strong><br/>
           PickNik
         </div>
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>MoveIT 2 Tutorials</h3>
-          <p>
+          <h3>Use Bullet as default for continuous collision detection</h3>
+          <!-- <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
             <a href="/" target="_blank">View branch</a>
-          </p>
+          </p> -->
         </div>
         <div class="release-versions__2">
-          June 2021
+          April 2021
         </div>
         <div class="release-versions__3">
-          <strong>Andy Zelenak</strong><br/>
+          <strong>Jorge Nicho</strong><br/>
+          Southwest Research Institute
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>Whole body planning for mobile manipulator</h3>
+          <!-- <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="/" target="_blank">View branch</a>
+          </p> -->
+        </div>
+        <div class="release-versions__2">
+          May 2021
+        </div>
+        <div class="release-versions__3">
+          <strong>Mark Moll</strong><br/>
           PickNik
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>Scene Graph Support</h3>
+          <!-- <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="/" target="_blank">View branch</a>
+          </p> -->
+        </div>
+        <div class="release-versions__2">
+          December 2021
+        </div>
+        <div class="release-versions__3">
+          <strong>Felix von Drigalski</strong><br/>
+          OMRON SINIC X
         </div>
       </div>
     </div>
