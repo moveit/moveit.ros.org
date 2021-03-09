@@ -15,7 +15,7 @@ title: FAQs
 
 _I'm totally new, how do I get started?_
 
-  * See the [tutorials](https://moveit2_tutorials.picknik.ai/) &#128540;
+  * See the [tutorials](http://moveit2_tutorials.picknik.ai/) &#128540;
 
 _What version of MoveIt should I use?_
 
