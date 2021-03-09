@@ -7,78 +7,95 @@ slug: tutorials
 title: Contributing
 ---
 
-# Contributing to MoveIt
-
-First off, thank you for considering contributing to MoveIt - it's people like you that make this motion planning framework such a quality project. We want to encourage all MoveIt users to contribute back to the open source project, whether enhancing documentation, answer user questions, writing blog posts, reporting & fixing bugs, reviewing open pull requests, or adding new features.
-
-Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, we should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
-
-## Enhancing Documentation
-
-Documentation for the MoveIt project can be found in two places: in [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) and on this website. Github's popular ``README.md`` files should be mainly used to redirect users to the corresponding tutorial and website pages.
-
-### Tutorials
-
-Tutorials are documented as [reStructredText](http://docutils.sourceforge.net/rst.html) files (similar to Markdown) using Sphinx in the [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) source repository. These tutorials mostly use the PR2 as their example robot and include example source code you can run. To edit or add more tutorials, create Github pull requests to that repository and the maintainers will graciously approve your help after review.
-
-### moveit.ros.org
-
-Once you have created new Sphinx documentation, you'll need to create links to it from the main moveit.ros.org website so that other users can find it. Additionally, some higher level documentation can be found directly on this website, so you'll need to edit it there as well.
-
-To edit or add pages on the MoveIt website, go to [https://github.com/ros-planning/moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) and either edit inline using Github's web-based editing capability, or ``git clone`` the repo and push pull requests back to the repo.
-
-## Answering User Questions
-
-You can contribute greatly to the MoveIt community by answering other people's questions on the [answers.ros.org](http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:moveit/page:1/), ROS community's official question-answer forum. Please feel free help answer questions there, and gain Karma in the process!
-
-Those who are willing to answer MoveIt-related questions only can get notified via emails by the following simple step:
-
- 1. Open your profile page, by clicking your account name on the top. Then open `email alerts` tab.
- 2. At `Choose email tag filter`, click `only interesting tags` radio button. Select frequency you'd like to get notified other than `never`. See example screenshot below.
- 3. Go to the [top page](http://answers.ros.org/questions/). In `Interesting tags` text field on the right, add `moveit` (and any tags you'd like to get notifications about).
-
- ![img](../../assets/images/answers.ros_config_receive-notification.png)
-
-As an aside, a lot of documentation exists as Q&amp;As on there, and if you feel so compelled, help us move some of that documentation onto the website.
-
-[MoveIt mailing list](https://groups.google.com/forum/#!forum/moveit-users) should be used for announcement and discussion only.
-
-## Reporting & Fixing Bugs
-
-Bugs should be reported to the Github issues page of the appropriate repo. Please leave as much detail as possible including your ROS version, operating system, operating system version, and whether you built from source. Note however that we have limited resources to fix individual bugs, and are more inclined to give advice on helping you fix your own bugs.
-
-### Pull Requests
-
-Our policy for contributing changes to the code base is that no one, not even the maintainers, should commit directly to the repo. Rather, you should create a feature branch on your own fork of the project and create a pull-request when it's ready to be reviewed by someone else. To ease the process of merging your requests, please follow your part of the [Guideline for Handling Pull Requests](pullrequests). See [MoveIt Code Style](code) for details on how to format your pull requests - a requirement for our automated build farm. Note all contributions to MoveIt must be BSD or similar open source license.
-
-### Checking For ABI Compliance
-
-In LTS releases efforts should be made to avoid breaking ABI and API (binary and source-level compatibility) for MoveIt's C/C++ libraries. To aid in checking this, we optionally recommend the [Linux ABI Compliance-Checker](http://ispras.linuxbase.org/index.php/ABI_compliance_checker).
-
-### Running Tests Locally
-
-You can run MoveIt tests locally with catkin-tools. To run a test for just 1 package:
-
-    catkin run_tests --no-deps --this -iv
-
-Run test for all packages:
-
-    catkin run_tests -iv
-
-### Using Docker to Review Pull Requests
-
-Docker is very useful for testing pull requests and code changes without breaking your regular development environment. For more information see the [Docker Usage Instructions](/install/docker).
-
-## Adding New Features
-
-We would like to see MoveIt continue to evolve and so new features are encouraged. However, it can be difficult to ensure that new features do not break existing functionality or user's code. For this reason, we ask you keep your pull requests in the smallest digestible chunks possible - not thousands of lines of changed code.
-
-We recommend you open an issue first asking if the change is a good idea, before implementing it, so that you don't waste your time.
-
-### Unit/Integration Tests
-
-Unit tests and integration tests are **always** welcomed, please add them to your PRs.
-
-## Continuous Integration
-
-For an understanding of how MoveIt's continuous integration and Travis is setup, see [Continuous Integration](continuous_integration/).
+<div class='row'>
+  <div class='col-sm-12 col-lg-6'>
+    <h1>Contributing to MoveIt</h1>
+    <p class="paragraph-big">
+      First off, thank you for considering contributing to MoveIt - it’s people like you that make this motion planning framework such a quality project. We want to encourage all MoveIt users to contribute back to the open source project, whether enhancing documentation, answering user questions, reporting & fixing bugs, reviewing open pull requests, or adding new features.
+    </p>
+  </div>
+  <div class='col-sm-12 col-lg-6'>
+    <img class="contributing-image" alt="Contributing" src="/assets/images/contributing.png">
+  </div>
+</div>
+<div class='row contributing-box'>
+  <div class='col-sm-12 col-lg-12'>
+    <span class="icon">
+      <img alt="School" src="/assets/images/icons/school.svg">
+    </span>
+    <span class="badge">FOR BEGINNERS</span>
+    <h2>'Good First Issue' Github Issues</h2>
+    <p>
+      If you are new to MoveIt and open source projects, welcome! This is the section for you. 👋
+    </p>
+    <p>
+      We're interested in helping you take the first step and can answer questions and help you out as you do. Note that we're especially interested in contributions from people from groups underrepresented in free and open-source software! 💝
+    </p>
+    <p>
+      We know that the process of creating a pull request is the biggest barrier for new contributors. For this reason we've tagged Github issues as <a href="https://github.com/ros-planning/moveit2/labels/good%20first%20issue" target="_blank">“first-timer-only”</a> to help you get started.
+    </p>
+    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit2/labels/good%20first%20issue" target="_blank">Tackle Your First Issue</a>
+  </div>
+</div>
+<div class="row contributing-boxes">
+  <div class='contributing-single-box'>
+    <span class="icon">
+      <img alt="User voice" src="/assets/images/icons/user_voice.svg">
+    </span>
+    <h3>Answer User Questions</h3>
+    <p>
+      You can contribute greatly to the MoveIt community by answering other people’s questions on the <a href="https://answers.ros.org/questions/scope:all/sort:activity-desc/tags:moveit/page:1/" target="_blank">answers.ros.org</a>, ROS community’s official question-answer forum. Please feel free help answer questions there, and gain Karma in the process!
+    </p>
+    <p class="second-paragraph">
+      You don't need to know everything in MoveIt to be helpful to others. Any amount of experience can be helpful. To really get involved, here's how to setup an email alert for ROS Answers to track the &lt;moveit&gt; tag.
+    </p>
+    <a class="button button-transparent button-transparent__blue" href="https://answers.ros.org/questions/scope:all/sort:activity-desc/tags:moveit/page:1/" target="_blank">ANSWER MOVEIT QUESTIONS</a>
+  </div>
+  <div class='contributing-single-box'>
+    <span class="icon">
+      <img alt="File blank" src="/assets/images/icons/file_blank.svg">
+    </span>
+    <h3>Enhancing Documentation</h3>
+    <p>
+      Our documentation is of course open source and we strongly encourage you to improve it as you learn MoveIt yourself and find mistakes. ✨ It lives in three different repos on Github:
+    </p>
+    <ul>
+    <li>
+        <a href="https://github.com/ros-planning/moveit2_tutorials" target="_blank">https://github.com/ros-planning/moveit2_tutorials</a>
+      </li>
+      <li>
+        <a href="https://github.com/ros-planning/moveit_tutorials" target="_blank">https://github.com/ros-planning/moveit_tutorials</a>
+      </li>
+      <li>
+        <a href="https://github.com/ros-planning/moveit.ros.org" target="_blank">https://github.com/ros-planning/moveit.ros.org</a>
+      </li>
+    </ul>
+    <p class="second-paragraph">
+      You can edit the contents directly through the Github website or by using ``git clone`` to edit it locally on your computer. Enhancing documentation makes you a hero among heroes.😻
+    </p>
+    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit_tutorials" target="_blank">IMPROVE THE MOVEIT TUTORIALS</a>
+  </div>
+  <div class='contributing-single-box'>
+    <span class="icon">
+      <img alt="Window code block" src="/assets/images/icons/window_code_block.svg">
+    </span>
+    <h3>Add New Features</h3>
+    <p>
+      We are continually evolving MoveIt and new features are always encouraged. However, to keep up the stability and code quality of the project, we ask you keep your pull requests in the smallest digestible chunks possible (not thousands of lines of changed code).
+    </p>
+    <p class="second-paragraph">
+      If you're unsure if your new feature is a good idea, you are encouraged to open an issue or post on Discourse first explaining your proposed change, and request feedback from the community.
+    </p>
+    <a class="button button-transparent button-transparent__blue" href="/documentation/contributing/pullrequests">LEARN MORE ABOUT CONTRIBUTING CODE</a>
+  </div>
+  <div class='contributing-single-box'>
+    <span class="icon">
+      <img alt="Comment check" src="/assets/images/icons/comment_check.svg">
+    </span>
+    <h3>Report and Fix Bugs</h3>
+    <p>
+      As an ever improving software project, there's bound to be growing pains and issues arising. Check out <a href="https://github.com/ros-planning/moveit/issues" target="_blank">currently open issues that need solving</a> and take a stab at improving MoveIt. If you are a first time contributor, checkout the <a href="https://github.com/ros-planning/moveit/labels/first-timer-only" target="_blank">“first-timer-only”</a> issues. For reporting bugs, checkout the <a href="/support/">MoveIt Support</a> page.
+    </p>
+    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit/issues" target="_blank">TACKLE OPEN ISSUES</a>
+  </div>
+</div>

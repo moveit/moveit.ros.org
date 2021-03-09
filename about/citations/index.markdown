@@ -14,9 +14,9 @@ title: About
           <p>David Coleman, Ioan A. Șucan, Sachin Chitta, Nikolaus Correll,
           Reducing the Barrier to Entry of Complex Robotic Software: a MoveIt! Case Study,
           <em>Journal of Software Engineering for Robotics</em>,
-          5(1):3–16, May 2014. doi: <a href="http://dx.doi.org/10.6092/JOSER_2014_05_01_p3">10.6092/JOSER_2014_05_01_p3</a>.</p>
-          <p class="text-center"><a class="button" href="https://arxiv.org/pdf/1404.3785">PDF</a>
-          <a class="button" href="http://dx.doi.org/10.6092/JOSER_2014_05_01_p3">Publisher</a></p>
+          5(1):3–16, May 2014. doi: <a href="http://dx.doi.org/10.6092/JOSER_2014_05_01_p3" target="_blank">10.6092/JOSER_2014_05_01_p3</a>.</p>
+          <p class="text-center"><a class="button" href="https://arxiv.org/pdf/1404.3785" target="_blank">PDF</a>
+          <a class="button" href="http://dx.doi.org/10.6092/JOSER_2014_05_01_p3" target="_blank">Publisher</a></p>
         </div>
         <div class="main-card-single boarder main-card-single-padding">
           <img class="mx-auto d-block quote-img" src="/assets/images/people_page/quote.png">
@@ -31,9 +31,9 @@ title: About
       <div class="main-card-wrapper">
         <div class="main-card-single boarder main-card-single-padding">
           <h3>MoveIt Task Constructor</h3>
-          <p>M. Görner, R. Haschke, H. Ritter, and J. Zhang, “Moveit! task constructor for task-level motion planning,” in <em>IEEE Intl. Conf. on Robotics and Automation</em>, pp. 190–196, May 2019. doi: <a href="https://ieeexplore.ieee.org/document/8793898">10.1109/ICRA.2019.8793898</a>.</p>
-          <p class="text-center"><a class="button" href="https://pub.uni-bielefeld.de/download/2918864/2933599/paper.pdf">PDF</a>
-          <a class="button" href="https://ieeexplore.ieee.org/document/8793898">Publisher</a></p>
+          <p>M. Görner, R. Haschke, H. Ritter, and J. Zhang, “Moveit! task constructor for task-level motion planning,” in <em>IEEE Intl. Conf. on Robotics and Automation</em>, pp. 190–196, May 2019. doi: <a href="https://www.researchgate.net/publication/335138707_MoveIt_Task_Constructor_for_Task-Level_Motion_Planning" target="_blank">10.1109/ICRA.2019.8793898</a>.</p>
+          <p class="text-center"><a class="button" href="https://pub.uni-bielefeld.de/download/2918864/2933599/paper.pdf" target="_blank">PDF</a>
+          <a class="button" href="https://www.researchgate.net/publication/335138707_MoveIt_Task_Constructor_for_Task-Level_Motion_Planning" target="_blank">Publisher</a></p>
       </div>
     </div>
   </div>

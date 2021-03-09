@@ -61,7 +61,7 @@ When the following occurs for a Maintainer or Core Contributor:
  - They have no MoveIt Github activity, or have not attended any Maintainer meetings, for an entire year
 
 Then we will first reach out to them to check in and encourage participation.
-If there is no further desire or ability to continue to be an active member of the MoveIt team, we will move them to the "Inactive" section of the [People](https://moveit.ros.org/about/) page.
+If there is no further desire or ability to continue to be an active member of the MoveIt team, we will move them to the "Inactive" section of the [People](/about/) page.
 Their past contributions should be acknowledged and appreciated, and they will continue to be listed on the MoveIt page.
 
 For maintainers specifically, we will also remove their repo commit access and change them to just Github Triage access.

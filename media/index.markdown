@@ -7,4 +7,4 @@ slug: media
 title: Media
 ---
 
-The contents of this page has moved to the [homepage](http://moveit.ros.org/).
+The contents of this page has moved to the [homepage](/).

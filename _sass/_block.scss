@@ -64,7 +64,7 @@
   position: relative;
   text-transform: uppercase;
   &:before {
-    content: "";
+    content: '';
     width: 22px;
     height: 1px;
     position: absolute;
@@ -95,7 +95,7 @@
     padding-top: 0;
   }
   .text-block {
-    max-width: 340px;
+    max-width: 500px;
     @media screen and (max-width: 768px) {
       max-width: none;
     }
@@ -114,20 +114,207 @@
       padding-top: 30px;
     }
   }
+
+  h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  p {
+    line-height: 1.8;
+    font-size: 18px;
+    color: #cdcdcd;
+  }
+}
+
+.application-categories {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #007bff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .companies-using-moveit-logos {
-  opacity: 1.0;
+  opacity: 1;
   vertical-align: middle;
   transition: filter 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.25s ease-in-out;
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -o-filter: grayscale(0%);
-  filter: grayscale(0%);
+  filter: grayscale(100%);
   width: 180px;
   margin: 32px 40px 0;
+}
+
+.blue-circle {
+  &::after {
+    content: '';
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: rgb(22, 32, 53);
+    right: -30px;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0px 0px 20px 20px rgb(22, 32, 53);
+    @media screen and (max-width: 992px) {
+      content: none;
+    }
+  }
+
+  &.blue-circle--left {
+    &::after {
+      left: -30px;
+      right: auto;
+    }
+  }
+
+  &.blue-circle--center {
+    &::after {
+      left: 50%;
+      right: auto;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.section {
+  .get-involved-box {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgba(151, 151, 151, 0.4);
+    border-radius: 4px;
+    margin: 55px auto;
+
+    @media screen and (max-width: 992px) {
+      flex-direction: column;
+    }
+
+    h3 {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 40px;
+      margin-top: 36px;
+    }
+
+    p {
+      margin: 24px auto;
+      padding: 0 40px;
+
+      @media screen and (max-width: 479px) {
+        padding: 0 15px;
+      }
+    }
+
+    &__left {
+      flex: 0 0 50%;
+      max-width: 50%;
+      text-align: center;
+      padding: 0 40px 60px;
+      background-color: #fff;
+
+      @media screen and (max-width: 992px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      @media screen and (max-width: 479px) {
+        padding: 0 15px 60px;
+      }
+
+      img {
+        max-width: 272px;
+
+        @media screen and (max-width: 479px) {
+          max-width: 220px;
+        }
+      }
+    }
+
+    &__right {
+      flex: 0 0 50%;
+      max-width: 50%;
+      text-align: center;
+      background: radial-gradient(circle, #1f212e 0%, #15161b 100%);
+      color: #fff;
+      padding: 0 40px;
+
+      @media screen and (max-width: 992px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      @media screen and (max-width: 479px) {
+        padding: 0 15px 15px;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+        text-align: left;
+
+        li {
+          padding-left: 50px;
+          position: relative;
+          margin-bottom: 45px;
+
+          &::after {
+            content: '';
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            background-color: #162035;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 11px;
+            top: 5px;
+            box-shadow: 0px 0px 15px 15px #162035;
+          }
+
+          strong {
+            font-size: 19px;
+          }
+
+          span {
+            position: absolute;
+            font-size: 18px;
+            left: 14px;
+            color: #007bff;
+            z-index: 2;
+          }
+
+          p {
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .get-involved-content {
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+  }
+
+  .get-involved-footer {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    p {
+      font-size: 19px;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+  }
 }

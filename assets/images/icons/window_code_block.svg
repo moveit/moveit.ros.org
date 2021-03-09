@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0DC39299-01CF-4A02-9C13-D999962DFD64</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80"></rect>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8-0-0-Contributing" transform="translate(-360.000000, -1702.000000)">
+            <g id="Card---vertical-Copy-4" transform="translate(96.000000, 1642.000000)">
+                <g id="system-/-window_code_block" transform="translate(264.000000, 60.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="system-/-window_code_block-(Background/Mask)"></g>
+                    <path d="M13.3333333,10 C9.65666652,10 6.66666667,12.9899999 6.66666667,16.6666667 L6.66666667,63.3333333 C6.66666667,67.0100001 9.65666652,70 13.3333333,70 L66.6666667,70 C70.3433335,70 73.3333333,67.0100001 73.3333333,63.3333333 L73.3333333,16.6666667 C73.3333333,12.9899999 70.3433335,10 66.6666667,10 L13.3333333,10 Z M13.3333333,23.3333333 L66.6666667,23.3333333 L66.673336,63.3333333 L13.3333333,63.3333333 L13.3333333,23.3333333 Z M18.6199999,43.3333333 L30.9766674,55.6900024 L35.6899993,50.9766674 L28.0466652,43.3333333 L35.6899993,35.6899993 L30.9766674,30.9766674 L18.6199999,43.3333333 Z M44.3100007,35.6899993 L51.9533348,43.3333333 L44.3100007,50.9766674 L49.0233358,55.6900024 L61.3799985,43.3333333 L49.0233358,30.9766674 L44.3100007,35.6899993 Z" fill="#0A58F7" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

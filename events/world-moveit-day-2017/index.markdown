@@ -27,7 +27,7 @@ World MoveIt Day is an international hackathon to improve the MoveIt code base, 
   - Contact: Nikolas Engelhard
 - [Southwest Research Institute](http://www.swri.org/ros-industrial), San Antonio, USA
   - Contact: Jorge Nicho
-- [Xamla Robotics (PROVISIO GmbH)](http://xamla.com/en/), Münster, Germany
+- Xamla Robotics (PROVISIO GmbH), Münster, Germany
   - Contact: Andreas Köpf
 - [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore
   - Contact: Chan Min Ling
