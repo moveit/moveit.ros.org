@@ -20,7 +20,7 @@ title: About
         </div>
         <div class="main-card-single boarder main-card-single-padding">
           <img class="mx-auto d-block quote-img" src="/assets/images/people_page/quote.png">
-          <p>Ioan A. Sucan and Sachin Chitta, "MoveIt", [Online] Available at <a href="/">moveit.ros.org</a>.</p>
+          <p>Ioan A. Sucan and Sachin Chitta, "MoveIt", [Online] Available at <a href="https://moveit.ros.org">moveit.ros.org</a>.</p>
         </div>
       </div>
     </div>
