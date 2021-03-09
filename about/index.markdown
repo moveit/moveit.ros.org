@@ -323,12 +323,12 @@ title: About
         <div class="sponsors-card-single">
           <img class="mx-auto d-block" src="/assets/images/sponsors/acutronicrobotics.jpg" alt="Acutronic">
           Acutronic sponsored a collaborative effort in 2019 to begin the port of MoveIt to ROS 2.0.
-          <a href="https://moveit.ros.org/moveit!/ros/2019/03/01/announcing-the-moveit-2-port.html">Learn More</a>
+          <a href="/moveit!/ros/2019/03/01/announcing-the-moveit-2-port.html">Learn More</a>
         </div>
         <div class="sponsors-card-single">
           <img class="mx-auto d-block" src="/assets/images/sponsors/franka_logo.png" alt="Franka Emika">
           Franka Emika sponsored a codesprint in 2018 to improve MoveIt’s tutorials, documentation, and website.
-          <a href="http://moveit.ros.org/moveit!/ros/2018/02/26/tutorials-documentation-codesprint.html">Learn More</a>
+          <a href="/moveit!/ros/2018/02/26/tutorials-documentation-codesprint.html">Learn More</a>
         </div>
       </div>
     </div>

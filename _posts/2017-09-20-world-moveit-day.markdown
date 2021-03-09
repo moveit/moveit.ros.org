@@ -20,7 +20,7 @@ We will be having several event locations including:
 - [Verb Surgical](http://www.verbsurgical.com/), San Francisco Bay Area
 - [Magazino](https://www.magazino.eu/), Munich, Germany
 - [Southwest Research Institute](http://www.swri.org/ros-industrial), San Antonio, USA
-- [Xamla Robotics (PROVISIO GmbH)](http://xamla.com/en/), Münster, Germany
+- Xamla Robotics (PROVISIO GmbH), Münster, Germany
 - [ROS-Industrial Asian Pacific Consortium](http://rosindustrial.org/ric-apac/), Singapore (THURSDAY OCTOBER 19th)
 - [PickNik Robotics (Univ. Colorado)](http://picknik.ai), Boulder, USA
 - [Shadow Robot Company](https://www.shadowrobot.com), London, UK

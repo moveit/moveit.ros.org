@@ -127,7 +127,7 @@ For this, we need to identify and implement standard tasks at varying levels of 
 - **Programming skills**: C++
 - **Difficulty**: Medium
 - **Potential mentors**: Robert Haschke, Henning Kayser
-- **Description**: The [MoveIt Task Constructor](https://ros-planning.github.io/moveit_tutorials/doc/moveit_task_constructor/moveit_task_constructor_tutorial.html) framework provides a flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks. It draws on the planning capabilities of MoveIt to solve individual subproblems in black-box planning stages. Porting this to MoveIt 2 may also include porting MoveIt 1's MoveGroup interface to MoveIt 2.
+- **Description**: The [MoveIt Task Constructor](https://moveit2_tutorials.picknik.ai/doc/moveit_task_constructor/moveit_task_constructor_tutorial.html) framework provides a flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks. It draws on the planning capabilities of MoveIt to solve individual subproblems in black-box planning stages. Porting this to MoveIt 2 may also include porting MoveIt 1's MoveGroup interface to MoveIt 2.
 
 <a name="ros-control-integration"></a>
 

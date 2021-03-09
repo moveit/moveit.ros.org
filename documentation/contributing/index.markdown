@@ -57,9 +57,12 @@ title: Contributing
     </span>
     <h3>Enhancing Documentation</h3>
     <p>
-      Our documentation is of course open source and we strongly encourage you to improve it as you learn MoveIt yourself and find mistakes. ✨ It lives in two different repos on Github:
+      Our documentation is of course open source and we strongly encourage you to improve it as you learn MoveIt yourself and find mistakes. ✨ It lives in three different repos on Github:
     </p>
     <ul>
+    <li>
+        <a href="https://github.com/ros-planning/moveit2_tutorials" target="_blank">https://github.com/ros-planning/moveit2_tutorials</a>
+      </li>
       <li>
         <a href="https://github.com/ros-planning/moveit_tutorials" target="_blank">https://github.com/ros-planning/moveit_tutorials</a>
       </li>
