@@ -82,7 +82,7 @@ title: MoveIt Roadmap
           <h3>Hybrid Planning</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit2/issues/300" target="_blank">View branch</a>
+            <a href="https://github.com/ros-planning/moveit2/issues/300" target="_blank">View issue</a>
           </p>
         </div>
         <div class="release-versions__2">
@@ -104,7 +104,7 @@ title: MoveIt Roadmap
           <h3>Integration with ros2_control</h3>
           <!-- <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="/" target="_blank">View branch</a>
+            <a href="/" target="_blank">View issue</a>
           </p> -->
         </div>
         <div class="release-versions__2">
@@ -118,10 +118,10 @@ title: MoveIt Roadmap
       <div class="release-versions__content">
         <div class="release-versions__1">
           <h3>Cartesian Planning</h3>
-          <!-- <p>
+          <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="/" target="_blank">View branch</a>
-          </p> -->
+            <a href="https://github.com/ros-planning/moveit2/issues/373" target="_blank">View issue</a>
+          </p>
         </div>
         <div class="release-versions__2">
           March 2021
@@ -136,7 +136,7 @@ title: MoveIt Roadmap
           <h3>Use Bullet as default for continuous collision detection</h3>
           <!-- <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="/" target="_blank">View branch</a>
+            <a href="/" target="_blank">View issue</a>
           </p> -->
         </div>
         <div class="release-versions__2">
@@ -152,7 +152,7 @@ title: MoveIt Roadmap
           <h3>Whole body planning for mobile manipulator</h3>
           <!-- <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="/" target="_blank">View branch</a>
+            <a href="/" target="_blank">View issue</a>
           </p> -->
         </div>
         <div class="release-versions__2">
@@ -166,10 +166,10 @@ title: MoveIt Roadmap
       <div class="release-versions__content">
         <div class="release-versions__1">
           <h3>Scene Graph Support</h3>
-          <!-- <p>
+          <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="/" target="_blank">View branch</a>
-          </p> -->
+            <a href="https://github.com/ros-planning/moveit/issues/202" target="_blank">View issue</a>
+          </p>
         </div>
         <div class="release-versions__2">
           December 2021
