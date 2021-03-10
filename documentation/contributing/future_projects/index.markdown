@@ -10,7 +10,7 @@ title: Future Projects
 # Potential Code Sprints and Future Projects <!-- omit in toc -->
 <br />
 <p align="center">
-<img src="/assets/logo/moveit_logo-black.png" width="300"/>
+<img src="/assets/images/people_page/people-illustration.png">
 </p>
 <br />
 <br />
