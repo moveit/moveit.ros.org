@@ -11,6 +11,27 @@ categories:
 - Events
 - World-MoveIt-Day
 ---
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RWEKkehPg-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+# Day of Reminders:
+
+*   For those experienced with MoveIt, it's helpful to stress that you should choose your issue ***before*** the event. **Post on the Github issue "I'm claiming this issue for World MoveIt Day". Also if you wish to join a 'Track', [find out more on GitHub](https://github.com/ros-planning/moveit2/issues/363){:target="_blank"}**
+*   Pre-setup ROS, MoveIt, Virtualbox, Docker, LXD, etc
+*   The download and setup time can significantly eat into the day's productivity
+*   The recommended ROS versions are ROS 2 Galactic. 
+*   Please try to install MoveIt 2 the day before and try a basic tutorial. Keep notes on anything that did not work or was not clear. Addressing those issues is perfect for World MoveIt Day. If you cannot fix it yourself, then you can create a new issue (and use the WMD tag).
+*   Join the **[Discord Server](https://discord.com/channels/717058325480734830/717058325480734834){:target="_blank"}** to meet other contributors and maintainers! We'll be coordinating issues and tracks; along with hosting 'Fireside Chats' on discord voice and assisting with any installation issues in general channels. 
+*   Attend Fireside chats during your closes timezone to meet MoveIt Maintainers for a live Q&A session in MoveIt's [Discord](https://discord.com/channels/717058325480734830/717058325480734834){:target="_blank"} server (General Voice Channel)
+    *   **12PM Tokyo March 10th**
+    *   **12PM Berlin March 10th**
+    *   **12PM Boulder March 10th**
+    *   **12PM San Francisco March 10th**
+
+## Last things!
+
+Don’t forget to take selfies and email to <span style="text-decoration:underline;">world-moveit-day@picknik.ai</span>
+
+# World MoveIt Day Announcement:
 
 The sixth annual World MoveIt Day, taking place on Wednesday March 10th 2021, is going to look a little different this year. COVID restrictions will once again keep the event virtual but we want to do our best to help bring the community together in these continued uncertain times. As an open source platform, MoveIt relies on our community and our goal this year is to increase our community involvement.
 
