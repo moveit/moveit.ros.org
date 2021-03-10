@@ -31,9 +31,6 @@ title: Contributing
     <p>
       We're interested in helping you take the first step and can answer questions and help you out as you do. Note that we're especially interested in contributions from people from groups underrepresented in free and open-source software! 💝
     </p>
-    <p>
-      We know that the process of creating a pull request is the biggest barrier for new contributors. For this reason we've tagged Github issues as <a href="https://github.com/ros-planning/moveit2/labels/good%20first%20issue" target="_blank">“first-timer-only”</a> to help you get started.
-    </p>
     <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit2/labels/good%20first%20issue" target="_blank">Tackle Your First Issue</a>
   </div>
 </div>
@@ -73,7 +70,7 @@ title: Contributing
     <p class="second-paragraph">
       You can edit the contents directly through the Github website or by using ``git clone`` to edit it locally on your computer. Enhancing documentation makes you a hero among heroes.😻
     </p>
-    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit_tutorials" target="_blank">IMPROVE THE MOVEIT TUTORIALS</a>
+    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit2_tutorials" target="_blank">IMPROVE THE MOVEIT TUTORIALS</a>
   </div>
   <div class='contributing-single-box'>
     <span class="icon">
@@ -94,8 +91,8 @@ title: Contributing
     </span>
     <h3>Report and Fix Bugs</h3>
     <p>
-      As an ever improving software project, there's bound to be growing pains and issues arising. Check out <a href="https://github.com/ros-planning/moveit/issues" target="_blank">currently open issues that need solving</a> and take a stab at improving MoveIt. If you are a first time contributor, checkout the <a href="https://github.com/ros-planning/moveit/labels/first-timer-only" target="_blank">“first-timer-only”</a> issues. For reporting bugs, checkout the <a href="/support/">MoveIt Support</a> page.
+      As an ever improving software project, there's bound to be growing pains and issues arising. Check out <a href="https://github.com/ros-planning/moveit2/issues" target="_blank">currently open issues that need solving</a> and take a stab at improving MoveIt. For reporting bugs, checkout the <a href="/support/">MoveIt Support</a> page.
     </p>
-    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit/issues" target="_blank">TACKLE OPEN ISSUES</a>
+    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit2/issues" target="_blank">TACKLE OPEN ISSUES</a>
   </div>
 </div>
