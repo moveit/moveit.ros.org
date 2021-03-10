@@ -23,15 +23,51 @@ These instructions assume you are running on Ubuntu 20.04.
 
 ### Install <img src="/assets/install_page/ros_logo.jpeg"/>
 
-[Install ROS2 Foxy](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/) following the installation instructions. Use the desktop installation and don't forget to source the setup script.
+[Install ROS2 Foxy](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/) following the installation instructions.
+Use the desktop installation and don't forget to source the setup script.
 
-[Install ROS2 Build Tools](https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Development-Setup/#install-development-tools-and-ros-tools) up until setting up rosdep (we're using slightly different steps for setting up our workspace)
+Make sure you have the latest versions of packages installed:
+
+    sudo apt update
+    sudo apt dist-upgrade
+    rosdep update
+
+Source installation requires various <a href="https://docs.ros.org/en/foxy/Installation/Linux-Development-Setup.html" target="_blank">ROS2 build tools</a> and optionally <a href="https://clang.llvm.org/docs/ClangFormat.html" target="_blank">clang-format</a>:
+
+    sudo apt install -y \
+      build-essential \
+      cmake \
+      git \
+      libbullet-dev \
+      python3-colcon-common-extensions \
+      python3-flake8 \
+      python3-pip \
+      python3-pytest-cov \
+      python3-rosdep \
+      python3-setuptools \
+      python3-vcstool \
+      wget \
+      clang-format-10 && \
+    # install some pip packages needed for testing
+    python3 -m pip install -U \
+      argcomplete \
+      flake8-blind-except \
+      flake8-builtins \
+      flake8-class-newline \
+      flake8-comprehensions \
+      flake8-deprecated \
+      flake8-docstrings \
+      flake8-import-order \
+      flake8-quotes \
+      pytest-repeat \
+      pytest-rerunfailures \
+      pytest
 
 ### Create Workspace and Source
 
 Create a colcon workspace:
 
-    export COLCON_WS=~/ws_ros2/
+    export COLCON_WS=~/ws_moveit2/
     mkdir -p $COLCON_WS/src
     cd $COLCON_WS/src
 
