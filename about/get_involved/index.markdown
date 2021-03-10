@@ -26,9 +26,12 @@ title: Get Involved
     </div>
     <img alt="Discord" src="/assets/images/discord.jpg">
     <p>
-      Join the conversation in realtime on Discord (a chat client similar to Slack) in the <a href="https://discord.gg/RrySut8" target="_blank">MoveIt Server</a>.
+      Join the conversation in realtime on Discord (a chat client similar to Slack).
     </p>
     <a class="button" href="https://discord.gg/RrySut8" target="_blank">JOIN</a>
+    <p>
+      <i>Note: if JOIN button does not work, try starting your <a href="https://discord.com/download" target="_blank">Discord client</a> first before clicking JOIN.</i>
+    </p>
   </div>
   <div class='get-involved-box__right'>
     <h3> Contribute to Open Source</h3>
