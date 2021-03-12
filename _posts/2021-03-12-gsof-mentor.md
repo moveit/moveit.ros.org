@@ -26,7 +26,7 @@ For a complete list of the accepted organizations visit the [program website](ht
 
 Are you a student interested in participating in GSoC this year?
 
-Student applications will open on Monday, March 29, 2021 at 19:00 UTC and the deadline to submit your application is Tuesday, April 13, 2021 at 19:00 UTC.
+Student applications will open on Monday, March 29, 2021 at 19:00 UTC and the deadline to submit your application is Tuesday, April 13, 2021 at 19:00 UTC. Start contributing towards your topic of choice right away to show off your skills and discuss your project on Github!
 
 <div>
 </div>
