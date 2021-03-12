@@ -18,7 +18,7 @@ MoveIt has been selected as a mentor organization for the Google Summer of Code 
 
 GSoC is an international program in which Google awards stipends to students who complete a free and open-source software coding project during a three month period. Details about the program can be found [here](https://summerofcode.withgoogle.com/how-it-works/#timeline).
 
-As of March 9th google has announced [202 organizations](https://opensource.googleblog.com/2021/03/google-summer-of-code-2021-mentoring-orgs-announced.html ) will participate in 2021’s Summer of Code!
+As of March 10th Google has announced that [202 organizations](https://opensource.googleblog.com/2021/03/google-summer-of-code-2021-mentoring-orgs-announced.html ) will participate in 2021’s Summer of Code!
 
 MoveIt has been selected to be part of this honor.
 
