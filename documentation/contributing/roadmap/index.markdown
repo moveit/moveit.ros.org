@@ -189,9 +189,9 @@ title: MoveIt Roadmap
   <div class='col-sm-12 col-lg-10'>
     <h3>Long Term Roadmap</h3>
     <p class="paragraph-big">
-      We maintain a list of future projects and code sprints, ideal for students like the Google Summer of Code, internships, or graduate programs.
+      In order to align collaborative development and understand what MoveIt is and is not, we maintain a document of long term goals, target users, and future direction.
     </p>
-    <a class="button button-transparent button-transparent__blue" href="/" target="_blank">VIEW LONG TERM ROADMAP</a>
+    <a class="button button-transparent button-transparent__blue" href="https://docs.google.com/document/d/1bRi5mNFrdXndY73jkoWxqi-vwcyJpkjCbYwrAc7qN3M/edit" target="_blank">VIEW LONG TERM ROADMAP</a>
   </div>
 </div>
 <div class='row roadmap-box'>
@@ -203,6 +203,6 @@ title: MoveIt Roadmap
     <p class="paragraph-big">
       We maintain a list of future projects and code sprints, ideal for students like the Google Summer of Code, internships, or graduate programs.
     </p>
-    <a class="button button-transparent button-transparent__blue" href="/documentation/contributing/future_projects/" target="_blank">VIEW CODE SPRINTS</a>
+    <a class="button button-transparent button-transparent__blue" href="/documentation/contributing/future_projects/">VIEW CODE SPRINTS</a>
   </div>
 </div>
