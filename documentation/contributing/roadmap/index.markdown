@@ -117,7 +117,7 @@ title: MoveIt Roadmap
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Cartesian Planning</h3>
+          <h3>Constrained Cartesian Planning</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
             <a href="https://github.com/ros-planning/moveit2/issues/373" target="_blank">View issue</a>
