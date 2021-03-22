@@ -74,11 +74,11 @@ _move_group_ is structured to be easily extensible - individual capabilities lik
 
 ### **The Motion Planning Plugin**
 
-MoveIt works with motion planners through a _plugin_ interface. This allows MoveIt to communicate with and use different motion planners from multiple libraries, making MoveIt easily extensible. The interface to the motion planners is through a ROS Action or service (offered by the _move_group_ node). The default motion planners for move_group are configured using OMPL and the MoveIt interface to OMPL by the MoveIt Setup Assistant.
+MoveIt works with motion planners through a _plugin_ interface. This allows MoveIt to communicate with and use different motion planners from multiple libraries, making MoveIt easily extensible. The interface to the motion planners is through a ROS Action or service (offered by the _move_group_ node). The default motion planners for move_group are configured using OMPL and the MoveIt interface to OMPL by the MoveIt Setup Assistant. Other planners that are available by default are the Pilz industrial motion planner and CHOMP.
 
 ### **The Motion Plan Request**
 
-The motion plan request clearly specifies what you would like the motion planner to do. Typically, you will be asking the motion planner to move an arm to a different location (in joint space) or the end-effector to a new pose. Collisions are checked for by default (including self-collisions). You can _attach_ an object to the end-effector (or any part of the robot), e.g. if the robot picks up an object. This allows the motion planner to account for the motion of the object while planning paths. You can also specify constraints for the motion planner to check - the inbuilt constraints provided by MoveIt are _kinematic constraints_:
+The motion plan request specifies what you would like the motion planner to do. Typically, you will be asking the motion planner to move an arm to a different location (in joint space) or the end-effector to a new pose. Collisions are checked for by default (including self-collisions and attached objects). You can also specify the planner via the _planning_pipeline_ and _planner_id_ parameters, and the constraints for the motion planner to check - the inbuilt constraints provided by MoveIt are _kinematic constraints_:
 
 - Position constraints - restrict the position of a link to lie within a region of space
 
