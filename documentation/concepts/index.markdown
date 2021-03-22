@@ -121,6 +121,10 @@ This adapter is applied when the start state for a motion plan does not obey the
 
 The motion planners will typically generate "kinematic paths", i.e., paths that do not obey any velocity or acceleration constraints and are not time parameterized. This adapter will "time parameterize" the motion plans by applying velocity and acceleration constraints.
 
+##### **ResolveConstraintFrames**
+
+Goal constraints can be set using subframes (e.g. a pose goal in the frame ``cup/handle``, where ``handle`` is a subframe on the object ``cup``). This adapter changes the frame of constraints to an object or robot frame (e.g. ``cup``).
+
 ---
 
 ### OMPL
