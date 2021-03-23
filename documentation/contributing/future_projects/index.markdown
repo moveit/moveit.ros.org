@@ -8,9 +8,12 @@ title: Future Projects
 ---
 
 # Potential Code Sprints and Future Projects <!-- omit in toc -->
-
-<img src="/assets/logo/moveit_logo-black.png" width="300"/>
-
+<br />
+<p align="center">
+<img src="/assets/images/people_page/people-illustration.png">
+</p>
+<br />
+<br />
 This page lists potential projects that would greatly benefit the MoveIt project. This is by no means an exhaustive list, but is meant to serve as a discussion starting point for code sprints and other efforts.
 
 If you would like to contribute to these efforts, have a look at the related Github issues and ask for clarifications on [Github](https://github.com/ros-planning/moveit/issues) or [Discord](https://discord.gg/vqwEXwYU3N).
@@ -19,7 +22,7 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 
 **Note:** If you are looking at this list for a Google Summer of Code application, you should become familiar with the issue and codebase before starting the project in order to succeed within the new 10-week time frame.
 
-# Table of Contents <!-- omit in toc -->
+## Table of Contents <!-- omit in toc -->
 - [TrajOpt Integration and Related Work on Trajectory Optimization Methods](#trajopt-integration-and-related-work-on-trajectory-optimization-methods)
 - [Simultaneous Trajectory Execution](#simultaneous-trajectory-execution)
 - [Tutorial for multiple robot arms](#tutorial-for-multiple-robot-arms)
