@@ -27,15 +27,15 @@ Part of the event was a “lightning talk” submission. Where contributors subm
 **Tyler Weaver’s** talk on ROS2 Depend on Boost Component Libraries
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Q-RIQi5ru3o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-**Felix von Drigalski's** Lightning Talk on Visual planning.
+[**Felix von Drigalski's**](https://twitter.com/FDrigalski) Lightning Talk on Visual planning.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DA81xMi_EZg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**John Stechschulte’s** Talk on MoveIt Calibration
+[**John Stechschulte’s**](https://twitter.com/john_stech) Talk on MoveIt Calibration
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QzXJWQumtNY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**David Lu’s** talk on How to use MoveIt with Navigation
+[**David Lu’s**](https://twitter.com/probablydavid) talk on How to use MoveIt with Navigation
 
 ## Up Next: ##
 We’re still compiling data from the event and will keep you up to date on the outcomes in the coming week!
