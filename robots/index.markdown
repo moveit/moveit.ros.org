@@ -33,6 +33,17 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/mara-acutronic.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>MARA</h2>
+					<h3>Acutronic</h3>
+					<a href="https://acutronicrobotics.com/products/mara/" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/universal_robot/ur3.png');">
 				</div>
 				<div class="robots-content">
@@ -136,6 +147,17 @@ title: Robots
 					<h2>Atlas</h2>
 					<h3>Boston Dynamics</h3>
 					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/atlas_v3_moveit_config" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/Rethink Robotics Baxter Research Robot.jpeg');">
+				</div>
+				<div class="robots-content">
+					<h2>Baxter Research Robot</h2>
+					<h3>Rethink Robotics</h3>
+					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/baxter" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
