@@ -33,17 +33,6 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/mara-acutronic.jpg');">
-				</div>
-				<div class="robots-content">
-					<h2>MARA</h2>
-					<h3>Acutronic</h3>
-					<a href="https://acutronicrobotics.com/products/mara/" target="_blank">View package</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-lg-3">
-			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/universal_robot/ur3.png');">
 				</div>
 				<div class="robots-content">
