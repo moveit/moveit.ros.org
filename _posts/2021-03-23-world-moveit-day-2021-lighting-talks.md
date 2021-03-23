@@ -14,7 +14,7 @@ categories:
 - MoveIt
 ---
 
-March 10th, 2021 World MoveIt Day saw 90 MoveIt contributors from around the world come together to work on the open-source MoveIt project. With over 5000 lines of code written, 115 pull requests reviewed,, and 4 virtual meetups taking place on 3 continents.
+The 6th annual 2021 World MoveIt Day saw 90 MoveIt contributors from around the world come together to work on the open-source MoveIt project. With over 5000 lines of code written, 115 pull requests reviewed,, and 4 virtual meetups taking place on 3 continents.
 
 Part of the event was a “lightning talk” submission. Where contributors submit a 120 second or less talk on a topic of their choice. Ideas range from what to work on to what the contributor has solved. Here are the 2021 submissions as hosted on Youtube.
 
