@@ -77,6 +77,7 @@ Download the repository and install any dependencies:
 
     wget https://raw.githubusercontent.com/ros-planning/moveit2/main/moveit2.repos
     vcs import < moveit2.repos
+    git clone https://github.com/ros-planning/moveit2.git
     rosdep install -r --from-paths . --ignore-src --rosdistro foxy -y
 
 ## Build MoveIt
