@@ -3,10 +3,10 @@ author: PickNik Team
 comments: false
 date: 2021-04-01
 layout: post
-title: MoveIt!! 3 Release
+title: MoveIt‼ 3 Release
 media_type: image
 media_link: /assets/images/blog_posts/moveit3.png
-description: Announcing the release of MoveIt!! 3 for ROS 3!
+description: Announcing the release of MoveIt‼ 3 for ROS 3!
 categories:
 - ROS
 - MoveIt
