@@ -12,7 +12,7 @@ categories:
 - MoveIt
 ---
 
-PickNik Robotics is proud to announce that MoveIt‼ 3 is being released for ROS 3! With ROS 2 facing EOL in just 163 months, the MoveIt‼ community has been hard at work porting the core functionality of MoveIt‼ to ROS 3, as well as introducing some exciting new features, including
+PickNik Robotics is proud to announce the release of MoveIt‼ 3 for ROS 3! With ROS 2 facing EOL in just 163 months, the MoveIt‼ community has been hard at work porting the core functionality of MoveIt‼ to ROS 3, as well as introducing some exciting new features, including
 - Novel act-plan-sense control paradigm
 - Improved localization: repo names aliased to ¡¡Vamos‼ in Spanish-speaking regions
 - Telepathic teleoperation: leveraging the state of the art in brain computer interfaces, MoveIt‼ 3 allows you to control your robot by just thinking about where it needs to go
