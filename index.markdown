@@ -30,7 +30,7 @@ redirect_from: '/moveit/'
                             <div class="main-tag">
                                 <a href="ros/moveit/2021/04/01/moveit3_release.html">
                                     <span class="blue">Announcement</span>
-                                    <span>MoveIt!! 3 is here!</span>
+                                    <span>MoveIt‼ 3 is here!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
