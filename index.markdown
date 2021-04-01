@@ -28,9 +28,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="events/world-moveit-day/2021/01/15/world-moveit-day-2021.html">
+                                <a href="ros/moveit/2021/04/01/moveit3_release.html">
                                     <span class="blue">Announcement</span>
-                                    <span>Join World MoveIt Day on March 10th! </span>
+                                    <span>MoveIt!! 3 is here!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
