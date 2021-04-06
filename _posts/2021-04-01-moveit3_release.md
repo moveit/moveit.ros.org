@@ -36,4 +36,3 @@ Finally, while ROS 2 was designed with industrial uses in mind, MoveIt‼ 3 will
 - Hyperspace motion planning to enable inter-galactic manipulation
 
 ### We welcome our new robot alien overlords!
-

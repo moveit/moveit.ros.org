@@ -17,7 +17,7 @@ For many ROS users one of the biggest hurdles to testing ROS 2 is that it requir
 
 
 ## 1. Install and setup LXD
-  
+
 Following the [LXD Getting Started](https://linuxcontainers.org/lxd/getting-started-cli) tutorial, install and initialize LXD on your host system (here Ubuntu 18.04, see tutorial for alternative platforms). Please make sure to use the latest snap version and not the Ubuntu debian.
 
     snap install lxd
@@ -92,10 +92,10 @@ Once you are logged in, you will find the precompiled and source ROS2 workspace 
 
     ros2 launch run_moveit_cpp run_moveit_cpp.launch.py
 
-    
+
 ## GUI Troubleshooting
 
-Below are the most likely reasons why GUI support doesn’t work. For all fixes it might be necessary to  restart the container instance or even to reapply the `gui` profile. 
+Below are the most likely reasons why GUI support doesn’t work. For all fixes it might be necessary to  restart the container instance or even to reapply the `gui` profile.
 
 ### Wrong Display Device
 

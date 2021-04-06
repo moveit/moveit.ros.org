@@ -41,7 +41,7 @@ There has been a lot of research into how feasible motions can be generated from
 
 ### References
 
-<a name="ref1"></a>[1] J. D. Hernández, S. Sobti, A. Sciola, M. Moll, and L. E. Kavraki, “Increasing Robot Autonomy via Motion Planning and an Augmented Reality Interface,” IEEE Robotics and Automation Letters, vol. 5, no. 2, pp. 1017–1023, Apr. 2020. 
+<a name="ref1"></a>[1] J. D. Hernández, S. Sobti, A. Sciola, M. Moll, and L. E. Kavraki, “Increasing Robot Autonomy via Motion Planning and an Augmented Reality Interface,” IEEE Robotics and Automation Letters, vol. 5, no. 2, pp. 1017–1023, Apr. 2020.
 
 <a name="ref2"></a>[2] S. Y. Gadre, E. Rosen, G. Chien, E. Phillips, S. Tellex, and G. Konidaris, “End-user robot programming using mixed reality,” in IEEE Intl. Conf. on Robotics and Automation, pp. 2707–2713, 2019.
 

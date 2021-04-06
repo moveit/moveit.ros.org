@@ -17,9 +17,9 @@ Hi everyone!
 
 We are happy to report that World MoveIt! Day was once again a great success with users from around the world joining the event.
 
-We would like to thank everyone who participated, sponsored, and supported in this year's event. We’re excited to see new locations and interest in MoveIt! 
+We would like to thank everyone who participated, sponsored, and supported in this year's event. We’re excited to see new locations and interest in MoveIt!
 
-MoveIt! continues to grow and improve and we appreciate everyone’s contributions.  
+MoveIt! continues to grow and improve and we appreciate everyone’s contributions.
 
 **Now for the numbers:**
 - Number of official locations: 12
@@ -44,7 +44,7 @@ MoveIt! continues to grow and improve and we appreciate everyone’s contributio
 These are from the three key moveit repos: moveit, moveit_tutorials, and moveit.ros.org. There are many other MoveIt! related repos that we did not measure for this report out of laziness:
 - 85 pull requests merged
 - 41 pull requests opened
-- 97 issues closed 
+- 97 issues closed
 - 107 issues opened
 
 **Some pictures from some of the locations:**
