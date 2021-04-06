@@ -71,7 +71,25 @@ MoveIt uses *one* folder for all headers from all of its modules: ``include/move
 This is rather non-standard for catkin - catkin would prefer to have headers of each ROS package in a separate folder,
 e.g. `include/moveit_core/...`, `include/moveit_ros_planning/...`, etc.
 
+## pre-commit Formatting Checks
+
+In many of our repos we have a [pre-commit](https://pre-commit.com/) check that runs in CI.
+You can use this locally and set it up to run automatically before you commit something.
+To install, use pip:
+
+    pip3 install pre-commit
+
+To run over all the files in the repo manually:
+
+    pre-commit run -a
+
+To run pre-commit automatically before committing in a local repo, install git hooks:
+
+    pre-commit install
+
 ## clang-format Auto Code Formatting
+
+Note that if you use pre-commit as described above, clang-format is applied automatically before each commit (if `clang-format-10` is installed). This section describes how to use it manually.
 
 You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
