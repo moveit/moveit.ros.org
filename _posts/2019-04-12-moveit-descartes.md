@@ -18,5 +18,3 @@ categories:
 
 
 Check it out on [GitHub](https://github.com/PickNikRobotics/descartes_capability)!
-
-

@@ -17,7 +17,7 @@ In case you missed it, watch a replay of the MoveIt Workshop 2019 Macau.
 2. MoveIt 2.0 Progress and Roadmap, Mike Lautman
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KHM3X1BB214" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-3. Constrained and optimal planning using the Open Motion Planning Library (OMPL), Mark Moll 
+3. Constrained and optimal planning using the Open Motion Planning Library (OMPL), Mark Moll
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QD8jHfjMM2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 4. Amazon Robomaker, Thomas Moulard
@@ -26,7 +26,7 @@ In case you missed it, watch a replay of the MoveIt Workshop 2019 Macau.
 5. Machine assembly with MoveIt @ OMRON SINIC X; UX in MoveIt - What is hard for newcomers and non-expert users?, Felix von Drigalski
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nFWO9jVhobY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-6. New IK Plugin API for Constraint-Based Solvers and Velocity IK, Robert Haschke 
+6. New IK Plugin API for Constraint-Based Solvers and Velocity IK, Robert Haschke
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aM5Ai_O12KY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 7. Panel Discussion About MoveIt Ideal User

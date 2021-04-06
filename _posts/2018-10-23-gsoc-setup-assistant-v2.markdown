@@ -42,4 +42,3 @@ The GitHub issue for the project is [here](https://github.com/ros-planning/movei
 [<img src="{{ site.url }}/assets/images/gsoc18/simulation_screen.png" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/gsoc18/simulation_screen.png)
 
 [<img src="{{ site.url }}/assets/images/gsoc18/start_screen.png" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/gsoc18/start_screen.png)
-
