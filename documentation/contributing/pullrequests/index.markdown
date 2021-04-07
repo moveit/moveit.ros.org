@@ -1,6 +1,6 @@
 ---
 author: v4hn
-layout: page
+layout: pullrequests
 slug: pullrequests
 title: Pull Requests
 redirect_from: "/documentation/contributing/pullrequests.html"

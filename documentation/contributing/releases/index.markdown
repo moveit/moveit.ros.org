@@ -1,6 +1,6 @@
 ---
 author: tylerjw
-layout: page
+layout: pullrequests
 slug: releases
 title: Releases
 ---
