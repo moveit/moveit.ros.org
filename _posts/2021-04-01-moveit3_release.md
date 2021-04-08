@@ -11,6 +11,7 @@ categories:
 - ROS
 - MoveIt
 ---
+## [April Fools‼](https://en.wikipedia.org/wiki/April_Fools%27_Day){:target="_blank"} ##
 
 PickNik Robotics and the MoveIt Community are proud to announce the release of MoveIt‼ 3 for ROS 3! With ROS 2 facing EOL in just 163 months, the MoveIt‼ community has been hard at work porting the core functionality of MoveIt‼ to ROS 3, as well as introducing some exciting new features, including
 - Faster than real-time planning with the novel act-plan-sense control paradigm
