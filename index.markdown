@@ -28,9 +28,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="ros/moveit/2021/04/01/moveit3_release.html">
+                                <a href="ros/moveit/2021/04/04/WMD-2021-results.html">
                                     <span class="blue">Announcement</span>
-                                    <span>MoveIt‼ 3 is here!</span>
+                                    <span>World MoveIt Day Results Are In</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
