@@ -24,7 +24,7 @@ The figure above shows the high-level system architecture for the primary node p
 
 ### User Interface
 
-The users can access the actions and services provided by _move_group_ in one of three ways:
+The users can access the actions and services provided by _move_group_ in three ways:
 
 - **In C++** - using the [move_group_interface](http://docs.ros.org/noetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveGroupInterface.html) package that provides an easy to setup C++ interface to move_group
 
@@ -62,7 +62,7 @@ _move_group_ talks to the controllers on the robot using the FollowJointTrajecto
 
 #### Planning Scene
 
-_move_group_ uses the Planning Scene Monitor to maintain a _planning scene_, which is a representation of the world and the current state of the robot. The robot state can include any objects carried by the robot which are considered to be rigidly attached to the robot. More details on the architecture for maintaining and updating the _planning scene_ are outlined in the Planning Scene section below.
+_move_group_ uses the Planning Scene Monitor to maintain a _planning scene_, which is a representation of the world and the current state of the robot. The robot state can include any objects attached to (carried by) the robot which are considered to be rigidly attached to the robot. More details on the architecture for maintaining and updating the _planning scene_ are outlined in the Planning Scene section below.
 
 #### Extensible Capabilities
 
@@ -74,11 +74,11 @@ _move_group_ is structured to be easily extensible - individual capabilities lik
 
 ### **The Motion Planning Plugin**
 
-MoveIt works with motion planners through a _plugin_ interface. This allows MoveIt to communicate with and use different motion planners from multiple libraries, making MoveIt easily extensible. The interface to the motion planners is through a ROS Action or service (offered by the _move_group_ node). The default motion planners for move_group are configured using OMPL and the MoveIt interface to OMPL by the MoveIt Setup Assistant.
+MoveIt works with motion planners through a _plugin_ interface. This allows MoveIt to communicate with and use different motion planners from multiple libraries, making MoveIt easily extensible. The interface to the motion planners is through a ROS Action or service (offered by the _move_group_ node). The default motion planners for move_group are configured using OMPL and the MoveIt interface to OMPL by the MoveIt Setup Assistant. Other planners that are available by default are the Pilz industrial motion planner and CHOMP.
 
 ### **The Motion Plan Request**
 
-The motion plan request clearly specifies what you would like the motion planner to do. Typically, you will be asking the motion planner to move an arm to a different location (in joint space) or the end-effector to a new pose. Collisions are checked for by default (including self-collisions). You can _attach_ an object to the end-effector (or any part of the robot), e.g. if the robot picks up an object. This allows the motion planner to account for the motion of the object while planning paths. You can also specify constraints for the motion planner to check - the inbuilt constraints provided by MoveIt are _kinematic constraints_:
+The motion plan request specifies what you would like the motion planner to do. Typically, you will be asking the motion planner to move an arm to a different location (in joint space) or the end-effector to a new pose. Collisions are checked for by default (including self-collisions and attached objects). You can also specify the planner via the _planning_pipeline_ and _planner_id_ parameters, and the constraints for the motion planner to check - the inbuilt constraints provided by MoveIt are _kinematic constraints_:
 
 - Position constraints - restrict the position of a link to lie within a region of space
 
@@ -92,7 +92,7 @@ The motion plan request clearly specifies what you would like the motion planner
 
 ### **The Motion Plan Result**
 
-The move*group node will generate a desired trajectory in response to your motion plan request. This trajectory will move the arm (or any group of joints) to the desired location. Note that the result coming out of move_group is a trajectory and not just a path - \_move_group* will use the desired maximum velocities and accelerations (if specified) to generate a trajectory that obeys velocity and acceleration constraints at the joint level.
+The move_group node will generate a desired trajectory in response to your motion plan request. This trajectory will move the arm (or any group of joints) to the desired location. Note that the result coming out of move_group is a trajectory and not just a path - \_move_group* will use the desired maximum velocities and accelerations (if specified) to generate a trajectory that obeys velocity and acceleration constraints at the joint level.
 
 ### **The Motion Planning Pipeline: Motion planners and Plan Request Adapters**
 
@@ -120,6 +120,10 @@ This adapter is applied when the start state for a motion plan does not obey the
 ##### **AddTimeParameterization**
 
 The motion planners will typically generate "kinematic paths", i.e., paths that do not obey any velocity or acceleration constraints and are not time parameterized. This adapter will "time parameterize" the motion plans by applying velocity and acceleration constraints.
+
+##### **ResolveConstraintFrames**
+
+Goal constraints can be set using subframes (e.g. a pose goal in the frame ``cup/handle``, where ``handle`` is a subframe on the object ``cup``). This adapter changes the frame of constraints to an object or robot frame (e.g. ``cup``).
 
 ---
 
