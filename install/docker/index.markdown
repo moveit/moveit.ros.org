@@ -53,7 +53,7 @@ title: MoveIt 1 Docker Install
         https://raw.githubusercontent.com/ros-planning/moveit/master/.docker/gui-docker && \<br/>
         chmod +x gui-docker
       </code>
-    </div>    
+    </div>
     <p>
       Then, the wrapper script <span class="ros-command">gui-docker</span> can be used to correctly setup the docker environment for graphics support. For example, you can run the MoveIt docker container using the following command to pull the current noetic source build. If you want to pull the docker image for other distributions, see <a href="https://hub.docker.com/r/moveit/moveit/" target="_blank">official MoveIt Docker Hub Repository</a> for available docker images.
     </p>
