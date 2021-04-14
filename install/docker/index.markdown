@@ -45,7 +45,7 @@ title: MoveIt 1 Docker Install
     </p>
     <br/>
     <p>
-      The next step is to download the gui-docker script that handles everything to get your docker up and running with graphical user interfaces such as RViz and Gazebo. To download the script:
+      The next step is to download the gui-docker script that handles everything to get your docker up and running with graphical user interfaces such as RViz and Gazebo. To download the script run the following command:
     </p>
     <div class="bash-command">
       <code>
