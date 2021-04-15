@@ -70,7 +70,7 @@ To see an overview of the activity for MoveIt check our [Open HUB Project Summar
 
 ### Move Group Interface
 
-- [MoveItCpp class](http://docs.ros.org/noetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveItCpp.html) - the main new, faster C++ interface to MoveIt.
+- [MoveItCpp class](http://docs.ros.org/en/noetic/api/moveit_ros_planning/html/classmoveit__cpp_1_1MoveItCpp.html) - the main new, faster C++ interface to MoveIt.
 - [MoveGroupInterface class](http://docs.ros.org/noetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveGroupInterface.html) - the main C++ interface to the _move_group_node_.
   `MoveGroupInterface` is the successor to the `MoveGroup` class from previous releases, which is [now deprecated](https://github.com/ros-planning/moveit/issues/37).
 - [PlanningSceneInterface class](http://docs.ros.org/noetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1PlanningSceneInterface.html) - a C++ interface to the planning scene
