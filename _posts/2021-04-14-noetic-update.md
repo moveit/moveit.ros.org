@@ -19,6 +19,7 @@ We are proud to announce a [new release of Noetic](https://github.com/ros-planni
 ## Features
 
 
+
 *   Add utility functions to Python PSI: add/detach objects, apply_planning_scene()[ #2532](https://github.com/ros-planning/moveit/issues/2532)
 *   Make setToIKSolverFrame accessible again[ #2580](https://github.com/ros-planning/moveit/issues/2580)
 *   Python bindings for moveit_core[ #2547](https://github.com/ros-planning/moveit/issues/2547)
@@ -40,7 +41,7 @@ We are proud to announce a [new release of Noetic](https://github.com/ros-planni
 
 
 
-*   Add test to ompl interface for StateValidityChecker[ #2247](https://github.com/ros-planning/moveit/issues/2247)
+*   Add test to OMPL interface for StateValidityChecker[ #2247](https://github.com/ros-planning/moveit/issues/2247)
 *   Add test for PlanningContextManager in ompl interface[ #2248](https://github.com/ros-planning/moveit/issues/2248)
 *   Enable mesh filter[ #2448](https://github.com/ros-planning/moveit/issues/2448)
 *   Improve robustness of subframes test[ #2488](https://github.com/ros-planning/moveit/issues/2488)
@@ -93,7 +94,7 @@ We are proud to announce a [new release of Noetic](https://github.com/ros-planni
 *   Fixed flood of errors on startup for mesh_filter[ #2550](https://github.com/ros-planning/moveit/issues/2550)
 *   PlanExecution: Correctly handle preempt-requested flag[ #2554](https://github.com/ros-planning/moveit/issues/2554)
 *   thread safety in clear octomap & only update geometry[ #2500](https://github.com/ros-planning/moveit/issues/2500)
-*   Python interface improvements. Fix #1966[ https://github.com/ros-planning/moveit/issues/1966](https://github.com/ros-planning/moveit/issues/1966), add enforceBounds[ #2356](https://github.com/ros-planning/moveit/issues/2356)
+*   Python interface improvements. Fix [#1966](https://github.com/ros-planning/moveit/issues/1966), add enforceBounds[ #2356](https://github.com/ros-planning/moveit/issues/2356)
 *   Fix various issues in PlanningScene / MotionPlanning displays[ #2588](https://github.com/ros-planning/moveit/issues/2588)
 *   Catch exceptions during RobotModel loading in rviz[ #2468](https://github.com/ros-planning/moveit/issues/2468)
 *   Fix QObject::connect: Cannot queue arguments of type ‘QVector’[ #2392](https://github.com/ros-planning/moveit/issues/2392)
