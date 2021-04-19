@@ -1,9 +1,8 @@
 ---
 author: v4hn
 layout: pullrequests
-slug: pullrequests
-title: Pull Requests
-redirect_from: "/documentation/contributing/pullrequests/maintainer.html"
+slug: maintainer_pr
+title: Pull Requests - Maintainer
 ---
 
 # Handling Pull Requests

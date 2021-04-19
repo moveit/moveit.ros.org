@@ -3,7 +3,6 @@ author: v4hn
 layout: pullrequests
 slug: pullrequests
 title: Pull Requests
-redirect_from: "/documentation/contributing/pullrequests.html"
 ---
 
 # Handling Pull Requests
