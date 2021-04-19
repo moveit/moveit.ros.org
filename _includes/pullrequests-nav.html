@@ -2,7 +2,7 @@
   <div class="version-header">
     Pull Requests
   </div>
-  <a href="/documentation/contributing/pullrequests/">
+  <a href="/documentation/contributing/pullrequests">
     {% if page.url == "/documentation/contributing/pullrequests/" %}
     <div class="row no-gutters">
       <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
@@ -12,12 +12,12 @@
         <div>
           <div class="row font-other-page">
             {% endif %}
-            Pull Requests
+            Contributing Pull Requests
           </div>
         </div>
   </a>
-  <a href="https://github.com/ros-planning/moveit.ros.org/pulls">
-    {% if page.url == "https://github.com/ros-planning/moveit.ros.org/pulls" %}
+  <a href="/documentation/contributing/pullrequests/maintainer">
+    {% if page.url == "/documentation/contributing/pullrequests/maintainer/" %}
     <div class="row no-gutters">
       <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
       <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
@@ -26,7 +26,7 @@
         <div>
           <div class="row font-other-page">
             {% endif %}
-            Reviewing Pull Requests
+            Maintainer Policy
           </div>
         </div>
   </a>
@@ -55,6 +55,20 @@
           <div class="row font-other-page">
             {% endif %}
             Code Style
+          </div>
+        </div>
+  </a>
+  <a href="https://github.com/ros-planning/moveit.ros.org/pulls">
+    {% if page.url == "https://github.com/ros-planning/moveit.ros.org/pulls" %}
+    <div class="row no-gutters">
+      <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
+      <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
+      <div class="font-current-page">
+        {% else %}
+        <div>
+          <div class="row font-other-page">
+            {% endif %}
+            See Pull Requests on GitHub
           </div>
         </div>
   </a>
