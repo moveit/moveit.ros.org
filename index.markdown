@@ -187,7 +187,7 @@ redirect_from: '/moveit/'
                         <div class="text-block text-block--left">
                             <span class="application-categories">Easy to use</span>
                             <h3>Setup Assistant</h3>
-                            <p>Quickly setup any robot to work with MoveIt with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control!</p>
+                            <p>Quickly setup any robot to work with MoveIt with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-6 blue-circle blue-circle--left">
@@ -202,7 +202,7 @@ redirect_from: '/moveit/'
                         <div class="text-block text-block--right">
                             <span class="application-categories">Advanced</span>
                             <h3>Task Constructor</h3>
-                            <p>A flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks!</p>
+                            <p>A flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks.</p>
                         </div>
                     </div>
                 </div>
