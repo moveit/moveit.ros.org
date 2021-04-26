@@ -360,21 +360,6 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Noetic 1.1 LTS</h3>
-                      <p>
-                        <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit" target="_blank">View branch</a>
-                      </p>
-                    </div>
-                    <div class="release-versions__2">
-                      ROS 1
-                    </div>
-                    <div class="release-versions__3">
-                      <span class="label label--orange">Maintained</span>
-                    </div>
-                  </div>
-                  <div class="release-versions__content">
-                    <div class="release-versions__1">
                       <h3>Foxy 2.1 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
@@ -386,6 +371,21 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="release-versions__3">
                       <span class="label label--green">Recommended</span>
+                    </div>
+                  </div>
+                  <div class="release-versions__content">
+                    <div class="release-versions__1">
+                      <h3>Noetic 1.1 LTS</h3>
+                      <p>
+                        <span><img src="/assets/images/icons/git.svg"></span>
+                        <a href="https://github.com/ros-planning/moveit" target="_blank">View branch</a>
+                      </p>
+                    </div>
+                    <div class="release-versions__2">
+                      ROS 1
+                    </div>
+                    <div class="release-versions__3">
+                      <span class="label label--orange">Maintained</span>
                     </div>
                   </div>
                 </div>
