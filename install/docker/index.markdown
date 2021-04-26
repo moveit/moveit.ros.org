@@ -45,7 +45,17 @@ title: MoveIt 1 Docker Install
     </p>
     <br/>
     <p>
-      Then, the wrapper script <span class="ros-command">gui-docker</span> can be used to correctly setup the docker environment for graphics support. For example, you can run the MoveIt docker container using the following command:
+      The next step is to download the gui-docker script that handles everything to get your docker up and running with graphical user interfaces such as RViz and Gazebo. To download the script run the following command:
+    </p>
+    <div class="bash-command">
+      <code>
+        curl -o gui-docker \<br/>
+        https://raw.githubusercontent.com/ros-planning/moveit/master/.docker/gui-docker && \<br/>
+        chmod +x gui-docker
+      </code>
+    </div>
+    <p>
+      Then, the wrapper script <span class="ros-command">gui-docker</span> can be used to correctly setup the docker environment for graphics support. For example, you can run the MoveIt docker container using the following command to pull the current noetic source build. If you want to pull the docker image for other distributions, see <a href="https://hub.docker.com/r/moveit/moveit/" target="_blank">official MoveIt Docker Hub Repository</a> for available docker images.
     </p>
     <div class="bash-command">
       <code>
@@ -59,7 +69,7 @@ title: MoveIt 1 Docker Install
       </code>
     </div>
     <p>As the previous command dropped the <span class="ros-command">--rm</span> option, the container will be persistent, so changes you make inside the container will remain.</p>
-    <p>Running <span class="ros-command">gui-docker</span> in multiple terminals will connect them all to the same container. For convienence, the script defines sensible defaults. So, just running</p>
+    <p>Running <span class="ros-command">gui-docker</span> in multiple terminals will connect them all to the same container. For convienence, the script defines sensible defaults. For example running the following command will try to pull the docker image containing the current master branch's source build namely, <a href="https://hub.docker.com/r/moveit/moveit/tags?page=1&ordering=last_updated" target="_blank"> moveit/moveit:master-source</a>, and if there already exists a container with this image, will directy connect to that container.</p>
     <div class="bash-command">
       <code>
         ./gui-docker

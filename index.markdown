@@ -211,7 +211,7 @@ redirect_from: '/moveit/'
                         <div class="text-block text-block--left">
                             <span class="application-categories">Intelligent</span>
                             <h3>Grasp Generation</h3>
-                            <p>A basic grasp generator for objects such as blocks or cylinders for use with the MoveIt pick and place pipeline.</p>
+                            <p>Libraries for geometric and machine learning-based grasp generation for use with the MoveIt pick and place pipeline.</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-6 blue-circle blue-circle--left">

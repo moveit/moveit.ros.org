@@ -107,7 +107,7 @@ For this, we need to identify and implement standard tasks at varying levels of 
 - **Programming skills**: C++
 - **Difficulty**: Medium
 - **Potential mentors**: Andy Zelenak, Robert Haschke
-- **Description**: Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt plans. Improve the [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/master/moveit_plugins/moveit_ros_control_interface). Documentation on how to combine the components.
+- **Description**: Utilize low-level controller switching (position/velocity/force-torque) during execution of MoveIt plans. Remove the deprecated [ROSControlInterface plugin](https://github.com/ros-planning/moveit/tree/master/moveit_plugins/moveit_ros_control_interface). Improve the ability to trigger other events during trajectory execution.
 
 ## Port Inverse Kinematic Solver Libraries to MoveIt 2
 
@@ -116,6 +116,14 @@ For this, we need to identify and implement standard tasks at varying levels of 
 - **Difficulty**: Medium
 - **Potential mentors**: Andy Zelenak, Henning Kayser
 - **Description**: There are several Inverse Kinematics libraries that need to be ported to MoveIt 2. Prime candidates are [BioIK](https://github.com/TAMS-Group/bio_ik) and [TRAC-IK](https://bitbucket.org/traclabs/trac_ik/src/master/).
+
+## MoveIt Wrapper for Reinforcement Learning
+
+- **Prerequisites**: ROS, MoveIt, reinforcement learning
+- **Programming skills**: C++
+- **Difficulty**: Medium
+- **Potential mentors**: Andy Zelenak, Mark Moll
+- **Description**: Conduct a brief survey of reinforcement learning methods that could be implemented over the summer. Choose one and implement it. One possibility is described in "Operator training for preferred manipulator trajectories" by Sharp, Horn, & Pryor.
 
 <!--
 ## Improve MoveIt Grasps Library

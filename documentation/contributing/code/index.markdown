@@ -2,7 +2,7 @@
 author: davetcoleman
 comments: true
 date: 2016-8-1 02:13:26+00:00
-layout: page
+layout: pullrequests
 slug: code
 title: Style Guidelines
 redirect_from: "/documentation/contributing/code.html"
