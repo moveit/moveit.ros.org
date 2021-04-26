@@ -44,12 +44,20 @@ Joining the Maintainer team means you have the responsibility of commit access t
 You then can merge other's code contributions, but you should never merge your own code without someone else's review.
 
 We've formalized the process here to disambiguate when someone should be added.
-We hope it's not too intimidating as we want to add as many qualified Maintainers as possible:
+We hope it's not too intimidating as we want to add as many qualified Maintainers as possible.
+To qualify for being added to the group you must:
 
  - Have proven a good understanding of fundamental parts of the MoveIt code base
  - Have completed at least the minimum requirements for Core Contributors, above
  - Be willing to help review on average 1 pull request a week or more
  - Read the MoveIt pull request guidelines to understand our policies
+
+Once having joined, the responsibilities of a MoveIt maintainer include:
+
+ - Review incoming code contributions for style, quality, and overall fit into the goals of MoveIt.
+ - Ensure that Continuous Integration does not break.
+ - Merge pull requests that meet the quality and CI standards above.
+ - Address issues opened up by users.
 
 ## Inactive Core Contributors and Maintainers
 
