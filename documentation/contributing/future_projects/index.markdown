@@ -22,6 +22,7 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 # Table of Contents <!-- omit in toc -->
 - [TrajOpt Integration and Related Work on Trajectory Optimization Methods](#trajopt-integration-and-related-work-on-trajectory-optimization-methods)
 - [Simultaneous Trajectory Execution](#simultaneous-trajectory-execution)
+- [Grasp Pose Generation](#grasp-pose-generation)
 - [Tutorial for multiple robot arms](#tutorial-for-multiple-robot-arms)
 - [Scene graph support](#scene-graph-support)
 - [Creation of a Benchmark Suite for Evaluating MoveIt Performance](#creation-of-a-benchmark-suite-for-evaluating-moveit-performance)
@@ -55,6 +56,16 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
   - What are the next positions of the other currently active robot arms?
 
 - **Related Github issues**: [2287](https://github.com/ros-planning/moveit/issues/2287)
+
+## Grasp Pose Generation
+
+- **Prerequisites**: ROS
+- **Programming skills**: C++, Python
+- **Difficulty**: Medium
+- **Potential mentors**: Mark Moll
+- **Description**: Improve grasp pose synthesis within MoveIt and the MoveIt Task constructor. Current grasp synthesis algorithms pair deep neural networks and sampling point clouds, see [GPD](https://github.com/atenpas/gpd) and [Dex-Net](https://berkeleyautomation.github.io/dex-net/). An initial effort using the previous grasping methods includes a [demo](https://github.com/PickNikRobotics/deep_grasp_demo) and a [tutorial](https://ros-planning.github.io/moveit_tutorials/doc/moveit_deep_grasps/moveit_deep_grasps_tutorial.html). Further work is required to harden this implementation, see [PR 196](https://github.com/ros-planning/moveit_task_constructor/pull/196).
+
+- **Related Github issues**: [188](https://github.com/ros-planning/moveit_task_constructor/issues/188)
 
 ## Tutorial for multiple robot arms
 
