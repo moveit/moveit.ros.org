@@ -46,7 +46,7 @@ fi
 
 # Test website using same script as Travis
 if have_check_arg "$@"; then
-  NOKOGIRI_USE_SYSTEM_LIBRARIES=true ./.check_build.sh
+  ./.check_build.sh
 fi
 
 # Launch website

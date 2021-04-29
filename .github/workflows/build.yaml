@@ -19,4 +19,4 @@ jobs:
         ruby-version: '2.7.0'
         bundler-cache: true
     - name: Build and Check Website
-      run: NOKOGIRI_USE_SYSTEM_LIBRARIES=true ./.check_build.sh
+      run: ./.check_build.sh
