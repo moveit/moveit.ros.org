@@ -11,8 +11,6 @@ jobs:
   build-website:
     name: Build Website
     runs-on: ubuntu-latest
-    env:
-      NOKOGIRI_USE_SYSTEM_LIBRARIES: true
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
@@ -22,5 +20,6 @@ jobs:
         bundler-cache: true
     - name: Build and Check Website
       run: |
+        export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
         bundle exec jekyll build --strict_front_matter
         bundle exec htmlproofer ./_site --check-html --only-4xx --http-status-ignore 429 --alt-ignore '/.*/'

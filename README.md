@@ -1,9 +1,10 @@
 # The MoveIt Website
 
-[![Build Status](https://travis-ci.org/ros-planning/moveit.ros.org.svg?branch=master)](https://travis-ci.org/ros-planning/moveit.ros.org)
+[![Formatting (pre-commit)](https://github.com/ros-planning/moveit.ros.org/actions/workflows/format.yaml/badge.svg?branch=main)](https://github.com/ros-planning/moveit.ros.org/actions/workflows/format.yaml?query=branch%3Amain)
+[![Build Status](https://github.com/ros-planning/moveit.ros.org/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/ros-planning/moveit.ros.org/actions/workflows/build.yaml?query=branch%3Amain)
 
 The MoveIt website (http://moveit.ros.org/) is hosted on **Github Pages** using Markdown format.
-Changes to the ``master`` branch become immediately available online.
+Changes to the ``main`` branch become immediately available online.
 
 ## Images
 
@@ -27,8 +28,8 @@ If Jekyll is for some reason still running in the background, kill to prevent po
 
     pkill -9 -f jekyll
 
-### Run Travis Tests Locally
+### Run Github Action Tests Locally
 
 Will check all links are valid, etc:
 
-    ./build_locally.sh travis
+    ./build_locally.sh github_actions
