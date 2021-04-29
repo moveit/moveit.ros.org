@@ -1,9 +1,9 @@
 #!/bin/bash -eu
 # Locally build the Jekyl site for testing on Ubuntu 16.04
 
-have_github_actions() {
+have_check_arg() {
   for arg in "$@"; do
-    if [[ "${arg}" == "github_actions" ]]; then
+    if [[ "${arg}" == "check" ]]; then
       return 0
     fi
   done
@@ -45,10 +45,8 @@ if ! have_noinstall "$@"; then
 fi
 
 # Test website using same script as Travis
-if have_github_actions "$@"; then
-  export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  bundle exec jekyll build --strict_front_matter
-  bundle exec htmlproofer ./_site --check-html --only-4xx --http-status-ignore 429 --alt-ignore '/.*/'
+if have_check_arg "$@"; then
+  NOKOGIRI_USE_SYSTEM_LIBRARIES=true ./.check_build.sh
 fi
 
 # Launch website

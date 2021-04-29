@@ -28,8 +28,8 @@ If Jekyll is for some reason still running in the background, kill to prevent po
 
     pkill -9 -f jekyll
 
-### Run Github Action Tests Locally
+### Run Build Tests Locally
 
 Will check all links are valid, etc:
 
-    ./build_locally.sh github_actions
+    ./build_locally.sh check
