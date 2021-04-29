@@ -1,9 +1,9 @@
 #!/bin/bash -eu
 # Locally build the Jekyl site for testing on Ubuntu 16.04
 
-have_travis() {
+have_check_arg() {
   for arg in "$@"; do
-    if [[ "${arg}" == "travis" ]]; then
+    if [[ "${arg}" == "check" ]]; then
       return 0
     fi
   done
@@ -45,8 +45,8 @@ if ! have_noinstall "$@"; then
 fi
 
 # Test website using same script as Travis
-if have_travis "$@"; then
-  ./.travis.sh
+if have_check_arg "$@"; then
+  ./.check_build.sh
 fi
 
 # Launch website
