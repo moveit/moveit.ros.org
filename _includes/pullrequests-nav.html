@@ -58,6 +58,20 @@
           </div>
         </div>
   </a>
+  <a href="/documentation/contributing/continuous_integration/">
+    {% if page.url == "/documentation/contributing/continuous_integration/" %}
+    <div class="row no-gutters">
+      <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
+      <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
+      <div class="font-current-page">
+        {% else %}
+        <div>
+          <div class="row font-other-page">
+            {% endif %}
+            Continuous Integration
+          </div>
+        </div>
+  </a>
   <a href="https://github.com/ros-planning/moveit.ros.org/pulls">
     {% if page.url == "https://github.com/ros-planning/moveit.ros.org/pulls" %}
     <div class="row no-gutters">
