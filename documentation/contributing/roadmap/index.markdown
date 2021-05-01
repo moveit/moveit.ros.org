@@ -65,9 +65,9 @@ title: MoveIt Roadmap
       </span>
        Upcoming Features
     </h2>
-    <span class="sub-title">There are no guarantees that any feature on our roadmap will be developed.</span>
+    <span class="sub-title">There are no guarantees that any feature in this list will be developed.</span>
     <p class="paragraph-big">
-      The following list outlines what our <a href="/about/">MoveIt Maintainers and Core Contributors</a> are working on currently. If you are working on a new feature for the MoveIt roadmap, please create a pull request to this page to have the feature added. We'd love to increase visibility of that work, prevent overlapping effortings, and encourage collaborations between developers.
+      The following list outlines what our <a href="/about/">MoveIt Maintainers and Core Contributors</a> are working on currently. If you are actively working on a new major feature for MoveIt, please create a pull request to this page to add it. We'd love to increase visibility of that work, prevent overlapping effortings, and encourage collaborations between developers.
     </p>
   </div>
   <div class="release-versions">
@@ -187,11 +187,11 @@ title: MoveIt Roadmap
     <img alt="Calendar plus" src="/assets/images/icons/calendar_plus.svg">
   </div>
   <div class='col-sm-12 col-lg-10'>
-    <h3>Long Term Roadmap</h3>
+    <h3>Long Term Goals</h3>
     <p class="paragraph-big">
       In order to align collaborative development and understand what MoveIt is and is not, we maintain a document of long term goals, target users, and future direction.
     </p>
-    <a class="button button-transparent button-transparent__blue" href="https://docs.google.com/document/d/1bRi5mNFrdXndY73jkoWxqi-vwcyJpkjCbYwrAc7qN3M/edit" target="_blank">VIEW LONG TERM ROADMAP</a>
+    <a class="button button-transparent button-transparent__blue" href="https://docs.google.com/document/d/1bRi5mNFrdXndY73jkoWxqi-vwcyJpkjCbYwrAc7qN3M/edit" target="_blank">VIEW LONG TERM GOALS</a>
   </div>
 </div>
 <div class='row roadmap-box'>
