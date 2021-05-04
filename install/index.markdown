@@ -335,7 +335,7 @@ title: MoveIt 1 Binary Install
       <p>
         MoveIt is released every few months into Ubuntu debian packages via
         the ROS infrastructure. For more information see the <a href="https://www.ros.org/reps/rep-0003.html" target="_blank">ROS target platforms</a>
-        and <a href="/documentation/contributing/pullrequests/">MoveIt’s release process</a>.
+        and <a href="/documentation/contributing/releases/">MoveIt’s release process</a>.
       </p>
     </div>
   </div>
