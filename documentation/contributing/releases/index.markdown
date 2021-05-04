@@ -1,6 +1,6 @@
 ---
 author: tylerjw
-layout: pullrequests
+layout: contribution-guide
 slug: releases
 title: Releases
 ---

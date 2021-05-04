@@ -2,7 +2,7 @@
 author: davetcoleman
 comments: true
 date: 2016-9-14 02:13:26+00:00
-layout: page
+layout: contribution-guide
 slug: contributing
 title: Continuous Integration
 redirect_from: "/documentation/contributing/continuous_integration.html"

@@ -1,6 +1,6 @@
 ---
 author: v4hn
-layout: pullrequests
+layout: contribution-guide
 slug: maintainer_pr
 title: Pull Requests - Maintainer
 ---
