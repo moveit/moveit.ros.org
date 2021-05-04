@@ -48,7 +48,7 @@ title: Support
         Post issues to the main <a href="https://github.com/ros-planning/moveit/issues" target="_blank">moveit</a> code repository. Our <a href="https://github.com/ros-planning/moveit/issues/new/choose" target="_blank">Github Issue Templates</a> offer guidelines on creating high quality issues. Note we are volunteers and have limited resources. We are much more inclined to give advice on helping you fix your own bugs ;-)
       </li>
       <li>
-        Join the MoveIt Discord channel to view or post questions
+        Join the <a href="https://discord.com/invite/RrySut8" target="_blank">MoveIt Discord channel</a> to view or post questions
       </li>
       <li>
         Check the old <a href="https://groups.google.com/forum/#!forum/moveit-users" target="_blank">Google Groups list</a> page to find archived discussions
