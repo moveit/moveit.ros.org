@@ -4,7 +4,7 @@ comments: false
 date: 2018-11-19 04:37:44+00:00
 layout: page
 slug: press_kit
-title: Press kit
+title: Press Kit
 ---
 # Press Kit
 
@@ -18,17 +18,17 @@ For general mentions of MoveIt framework:
 
 Specific version references of MoveIt framework:
 
-- all specific mentions of the MoveIt are written as "MoveIt 2", "MoveIt 3", etc.
-- all mentions of the MoveIt 2 port will be written as “MoveIt 2” or as “the MoveIt port to ROS 2.0"
+- All specific mentions of the MoveIt are written as "MoveIt 2", "MoveIt 3", etc.
+- All mentions of the MoveIt 2 port will be written as “MoveIt 2” or as “the MoveIt port to ROS 2.0"
 
 ## Logo Guidelines
 
 We ask that you not:
 
-- place a logo in such close proximity to other content that it is indistinguishable
-- make the logo the most distinctive or prominent feature on your website, printed material or other content
-- use the logos in a way that is harmful, deceptive, obscene or otherwise objectionable to the average person
-- use the logos to, or in connection with, content that disparages us or sullies MoveIt’s reputation
+- Place a logo in such close proximity to other content that it is indistinguishable
+- Make the logo the most distinctive or prominent feature on your website, printed material or other content
+- Use the logos in a way that is harmful, deceptive, obscene or otherwise objectionable to the average person
+- Use the logos to, or in connection with, content that disparages us or sullies MoveIt’s reputation
 
 The logo files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
 
