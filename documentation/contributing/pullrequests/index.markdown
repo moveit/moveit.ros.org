@@ -1,6 +1,6 @@
 ---
 author: v4hn
-layout: pullrequests
+layout: contribution-guide
 slug: pullrequests
 title: Pull Requests
 ---

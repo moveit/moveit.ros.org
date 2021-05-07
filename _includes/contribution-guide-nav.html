@@ -30,20 +30,38 @@
           </div>
         </div>
   </a>
-  <a href="/documentation/contributing/releases/">
-    {% if page.url == "/documentation/contributing/releases/" %}
+  <div class="font-other-page"><b>See Pull Requests on GitHub:</b></div>
+  <a href="https://github.com/ros-planning/moveit/pulls" target="_blank">
+    {% if page.url == "https://github.com/ros-planning/moveit/pulls" %}
     <div class="row no-gutters">
       <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
       <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
       <div class="font-current-page">
         {% else %}
         <div>
-          <div class="row font-other-page">
+          <div class="row font-other-page" style="text-indent: 10px">
             {% endif %}
-            Releases
+	    → MoveIt 1
           </div>
         </div>
   </a>
+  <a href="https://github.com/ros-planning/moveit2/pulls" target="_blank">
+    {% if page.url == "https://github.com/ros-planning/moveit2/pulls" %}
+    <div class="row no-gutters">
+      <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
+      <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
+      <div class="font-current-page">
+        {% else %}
+        <div>
+          <div class="row font-other-page" style="text-indent: 10px">
+            {% endif %}
+	    → MoveIt 2
+          </div>
+        </div>
+  </a>
+  <div class="version-header">
+    Development
+  </div>
   <a href="/documentation/contributing/code/">
     {% if page.url == "/documentation/contributing/code/" %}
     <div class="row no-gutters">
@@ -72,8 +90,8 @@
           </div>
         </div>
   </a>
-  <a href="https://github.com/ros-planning/moveit.ros.org/pulls">
-    {% if page.url == "https://github.com/ros-planning/moveit.ros.org/pulls" %}
+  <a href="/documentation/contributing/releases/">
+    {% if page.url == "/documentation/contributing/releases/" %}
     <div class="row no-gutters">
       <img src="/assets/install_page/current_page_left.png" class="current-page-image-left">
       <img src="/assets/install_page/current_page_right.png" class="current-page-image-right">
@@ -82,8 +100,9 @@
         <div>
           <div class="row font-other-page">
             {% endif %}
-            See Pull Requests on GitHub
+            Releases
           </div>
         </div>
   </a>
+
 </div>
