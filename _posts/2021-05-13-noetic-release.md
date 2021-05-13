@@ -86,4 +86,5 @@ This release comes with features from 12 different contributors.
 *   Nathan Brooks
 *   Peter Mitrano
 *   Robert Haschke
+*   Simon Schmeisser
 *   Tyler Weaver
