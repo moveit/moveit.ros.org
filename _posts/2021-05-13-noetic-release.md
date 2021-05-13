@@ -63,7 +63,7 @@ We are proud to announce a release of Noetic is on the way. There were 28 separa
 *   Use private NodeHandle instead of child for PlanningPipeline topics [#2652](https://github.com/ros-planning/moveit/pull/2652)
 *   Lock the octomap/octree while collision checking for thread safety [#2596](https://github.com/ros-planning/moveit/pull/2596) and [#2660](https://github.com/ros-planning/moveit/pull/2660)
 *   Fix file conflict when upgrading moveit_ros_planning [#2659](https://github.com/ros-planning/moveit/pull/2659)
-*   Lock the Bullet collision environment, for thread safety [#2597](https://github.com/ros-planning/moveit/pull/2597)
+*   Lock the Bullet collision environment, for thread safety [#2598](https://github.com/ros-planning/moveit/pull/2598)
 *   Avoid joint jump when SuddenHalt() is called in velocity mode [#2594](https://github.com/ros-planning/moveit/pull/2594)
 *   Fix Pilz Velocity limit error [#2610](https://github.com/ros-planning/moveit/pull/2610)
 *   Add sphinx-rtd-theme for python docs as a dependency [#2645](https://github.com/ros-planning/moveit/pull/2645)
