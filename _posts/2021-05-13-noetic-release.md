@@ -35,7 +35,7 @@ We are proud to announce a release of Noetic is on the way. There were 28 separa
 *   Add pre-commit hook for .rst files
 
 
-## Documentaion
+## Documentation
 
 
 
