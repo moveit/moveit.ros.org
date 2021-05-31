@@ -79,68 +79,54 @@ title: MoveIt Roadmap
     <div class="release-versions__body">
       <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Hybrid Planning</h3>
+          <h3>Rolling Ridley Support</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit2/issues/300" target="_blank">View issue</a>
+            <a href="https://github.com/ros-planning/moveit2/issues/329" target="_blank">View issue</a>
           </p>
         </div>
         <div class="release-versions__2">
-          February 2021
+          June 2021
         </div>
         <div class="release-versions__3">
           <div class="release-versions__divide">
-            <strong>Henning Kayser</strong><br/>
+            <strong>Tyler Weaver</strong><br/>
             PickNik
           </div>
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>Hybrid Planning</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit2/issues/433" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__2">
+          June 2021
+        </div>
+        <div class="release-versions__3">
           <div class="release-versions__divide">
             <strong>Sebastian Jahr</strong><br/>
             PickNik
           </div>
+          <div class="release-versions__divide">
+            <strong>Henning Kayser</strong><br/>
+            PickNik
+          </div>
         </div>
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Integration with ros2_control</h3>
-          <!-- <p>
+          <h3>Finalize Bullet Collision Detection</h3>
+	  <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="/" target="_blank">View issue</a>
-          </p> -->
-        </div>
-        <div class="release-versions__2">
-          March 2021
-        </div>
-        <div class="release-versions__3">
-          <strong>Andy Zelenak</strong><br/>
-          PickNik
-        </div>
-      </div>
-      <div class="release-versions__content">
-        <div class="release-versions__1">
-          <h3>Constrained Cartesian Planning</h3>
-          <p>
-            <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit2/issues/373" target="_blank">View issue</a>
+            <a href="https://github.com/ros-planning/moveit2/issues/473" target="_blank">View issue</a>
           </p>
         </div>
         <div class="release-versions__2">
-          March 2021
-        </div>
-        <div class="release-versions__3">
-          <strong>Boston Cleek</strong><br/>
-          PickNik
-        </div>
-      </div>
-      <div class="release-versions__content">
-        <div class="release-versions__1">
-          <h3>Use Bullet as default for continuous collision detection</h3>
-          <!-- <p>
-            <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="/" target="_blank">View issue</a>
-          </p> -->
-        </div>
-        <div class="release-versions__2">
-          April 2021
+          July 2021
         </div>
         <div class="release-versions__3">
           <strong>Jorge Nicho</strong><br/>
@@ -149,19 +135,41 @@ title: MoveIt Roadmap
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Whole body planning for mobile manipulator</h3>
-          <!-- <p>
+          <h3>Migrate Pilz Industrial Motion Planner to ROS 2</h3>
+          <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="/" target="_blank">View issue</a>
-          </p> -->
+            <a href="https://github.com/ros-planning/moveit2/issues/315" target="_blank">View issue</a>
+          </p>
         </div>
         <div class="release-versions__2">
-          May 2021
+          July 2021
         </div>
         <div class="release-versions__3">
-          <strong>Mark Moll</strong><br/>
+          <strong>Henning Kayser</strong><br/>
           PickNik
         </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>MoveIt Config Redesign - Migrate MSA to ROS&nbsp;2</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit2/issues/208" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__2">
+          October 2021
+        </div>
+        <div class="release-versions__3">
+          <div class="release-versions__divide">
+            <strong>Henning Kayser</strong><br/>
+            PickNik
+          </div>
+          <div class="release-versions__divide">
+            <strong>Tyler Weaver</strong><br/>
+            PickNik
+          </div>
+	</div>
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
@@ -177,6 +185,36 @@ title: MoveIt Roadmap
         <div class="release-versions__3">
           <strong>Felix von Drigalski</strong><br/>
           OMRON SINIC X
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>OMPL Orientation Constraints</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit2/issues/348" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__2">
+          December 2021
+        </div>
+        <div class="release-versions__3">
+          <strong>TBD</strong><br/>
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>Add ability to attach and detach end-effector links</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit2/issues/208" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__2">
+          December 2021
+        </div>
+        <div class="release-versions__3">
+          <strong>TBD</strong><br/>
         </div>
       </div>
     </div>
