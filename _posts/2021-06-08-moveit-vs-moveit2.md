@@ -26,7 +26,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
 | [Probabilistically complete Cartesian Planning](https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_ompl_constrained_planning) | ✕        | ✓              |
 | ROS 2 Component Nodes                                                                                                                              | ✕        | ✓              |
 | [Planning for Differential Drive Bases](http://moveit2_tutorials.picknik.ai/doc/mobile_base_arm/mobile_base_arm_tutorial.html)                     | ✕        | ✓              |
-| [Hybrid planning](https://github.com/ros-planning/moveit2/pull/488) (global + local planners)                                                      | ✕        | ✓              |
+| [Hybrid Planning](https://github.com/ros-planning/moveit2/pull/488) (global + local planners)                                                      | ✕        | ✓              |
 | Realtime Support via DDS                                                                                                                           | ✕        | ✓              |
 | Improved Cross-Platform Support                                                                                                                    | ✕        | ✓              |
 | Actively Developed by PickNik                                                                                                                      | ✕        | ✓              |
