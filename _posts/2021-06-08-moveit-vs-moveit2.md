@@ -25,12 +25,13 @@ With the release of ROS 2 Galactic, we would like to share the new features only
 | Game Controller Integration for Servo                                                                                                              | ✓        | ✓              |
 | [Probabilistically complete Cartesian Planning](https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_ompl_constrained_planning) | ✕        | ✓              |
 | ROS 2 Component Nodes                                                                                                                              | ✕        | ✓              |
-| [Planning for differential drive bases](http://moveit2_tutorials.picknik.ai/doc/mobile_base_arm/mobile_base_arm_tutorial.html)                     | ✕        | ✓              |
+| [Planning for Differential Drive Bases](http://moveit2_tutorials.picknik.ai/doc/mobile_base_arm/mobile_base_arm_tutorial.html)                     | ✕        | ✓              |
 | [Hybrid planning](https://github.com/ros-planning/moveit2/pull/488) (global + local planners)                                                      | ✕        | ✓              |
-| Realtime support via DDS                                                                                                                           | ✕        | ✓              |
-| Improved cross-platform support                                                                                                                    | ✕        | ✓              |
-| Actively developed by PickNik & ROS 2 Technical Steering Committee                                                                                 | ✕        | ✓              |
-| [Built for industrial security ](https://design.ros2.org/articles/ros2_dds_security.html)                                                          | ✕        | ✓              |
+| Realtime Support via DDS                                                                                                                           | ✕        | ✓              |
+| Improved Cross-Platform Support                                                                                                                    | ✕        | ✓              |
+| Actively Developed by PickNik                                                                                                                      | ✕        | ✓              |
+| Development Coordinated with the TSC                                                                                                               | ✕        | ✓              |
+| [Built for Industrial Security ](https://design.ros2.org/articles/ros2_dds_security.html)                                                          | ✕        | ✓              |
 
 <br>
 
