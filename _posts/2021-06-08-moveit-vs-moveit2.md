@@ -22,7 +22,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
 | Perception                                                                                                                                         | ✓        | ✓              |
 | Grasping                                                                                                                                           | ✓        | ✓              |
 | Setup Assistant                                                                                                                                    | ✓        | In Development |
-| Game controller integration for Servo                                                                                                              | ✓        | ✓              |
+| Game Controller Integration for Servo                                                                                                              | ✓        | ✓              |
 | [Probabilistically complete Cartesian Planning](https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_ompl_constrained_planning) | ✕        | ✓              |
 | ROS 2 Component Nodes                                                                                                                              | ✕        | ✓              |
 | [Planning for differential drive bases](http://moveit2_tutorials.picknik.ai/doc/mobile_base_arm/mobile_base_arm_tutorial.html)                     | ✕        | ✓              |
