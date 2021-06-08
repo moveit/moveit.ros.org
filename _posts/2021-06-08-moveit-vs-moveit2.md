@@ -29,7 +29,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
 | [Hybrid planning](https://github.com/ros-planning/moveit2/pull/488) (global + local planners)                                                      | ✕        | ✓              |
 | Realtime support via DDS                                                                                                                           | ✕        | ✓              |
 | Improved cross-platform support                                                                                                                    | ✕        | ✓              |
-| Actively developed by PickNik & ROS 2 Technical Steering Committee                                                                                 | ✕        | ✓              |
+| Actively developed by PickNik & ROS 2 TSC                                                                                                          | ✕        | ✓              |
 | [Built for industrial security ](https://design.ros2.org/articles/ros2_dds_security.html)                                                          | ✕        | ✓              |
 
 <br>
