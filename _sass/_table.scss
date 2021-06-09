@@ -1,3 +1,37 @@
 table {
   width: 100%;
 }
+
+.table--moveit-status-update {
+  font-size: 12px;
+
+  tr {
+    th {
+      max-width: 200px;
+    }
+
+    th,
+    td {
+      vertical-align: middle;
+
+      &:not(:first-child) {
+        text-align: center;
+      }
+
+      &.done {
+        font-weight: bold;
+        color: #18d44d;
+      }
+
+      &.not {
+        color: #f70a0a;
+      }
+
+      &.dev {
+        font-weight: bold;
+        color: #f7a20a;
+        font-size: 9px;
+      }
+    }
+  }
+}
