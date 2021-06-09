@@ -24,6 +24,16 @@ With the release of ROS 2 Galactic, we would like to share the new features only
   </thead>
   <tbody>
     <tr>
+      <td>ROS1 Support</td>
+      <td class="done">✓</td>
+      <td class="dev">via ros1_bridge</td>
+    </tr>
+    <tr>
+      <td>ROS2 Support</td>
+      <td class="not">✕</td>
+      <td class="done">✓</td>
+    </tr>
+    <tr>
       <td>Motion Planning</td>
       <td class="done">✓</td>
       <td class="done">✓</td>
@@ -54,12 +64,17 @@ With the release of ROS 2 Galactic, we would like to share the new features only
       <td class="done">✓</td>
     </tr>
     <tr>
+      <td>Industrial Trajectory Generator</td>
+      <td class="done">✓</td>
+      <td class="dev">planned</td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_ompl_constrained_planning" target="_blank">Probabilistically complete Cartesian Planning</a></td>
       <td class="not">✕</td>
       <td class="done">✓</td>
     </tr>
     <tr>
-      <td>ROS 2 Component Nodes</td>
+      <td>ROS2 Component Nodes</td>
       <td class="not">✕</td>
       <td class="done">✓</td>
     </tr>
@@ -71,25 +86,25 @@ With the release of ROS 2 Galactic, we would like to share the new features only
     <tr>
       <td><a href="https://github.com/ros-planning/moveit2/pull/488" target="_blank">Hybrid Planning</a> (global + local planners)</td>
       <td class="not">✕</td>
-      <td class="done">✓</td>
+      <td class="done">pending</td>
     </tr>
     <tr>
-      <td>Realtime Support via DDS</td>
+      <td>Realtime Capable via DDS</td>
       <td class="not">✕</td>
       <td class="done">✓</td>
     </tr>
     <tr>
       <td>Improved Cross-Platform Support</td>
+      <td class="dev">via RoboStack</td>
+      <td class="done">✓</td>
+    </tr>
+    <tr>
+      <td>New Feature Development by PickNik</td>
       <td class="not">✕</td>
       <td class="done">✓</td>
     </tr>
     <tr>
-      <td>Actively Developed by PickNik</td>
-      <td class="not">✕</td>
-      <td class="done">✓</td>
-    </tr>
-    <tr>
-      <td>Development Coordinated with the TSC</td>
+      <td>Development Coordinated with ROS2 Technical Steering Committee</td>
       <td class="not">✕</td>
       <td class="done">✓</td>
     </tr>
