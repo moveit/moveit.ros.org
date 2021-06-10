@@ -56,7 +56,12 @@ With the release of ROS 2 Galactic, we would like to share the new features only
     <tr>
       <td>Setup Assistant</td>
       <td class="done">✓</td>
-      <td class="dev">In Development</td>
+      <td class="dev">in development</td>
+    </tr>
+    <tr>
+      <td>MoveIt Task Constructor</td>
+      <td class="done">✓</td>
+      <td class="done">active fork</td>
     </tr>
     <tr>
       <td>Game Controller Integration for Servo</td>
@@ -70,12 +75,12 @@ With the release of ROS 2 Galactic, we would like to share the new features only
     </tr>
     <tr>
       <td><a href="https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_ompl_constrained_planning" target="_blank">Probabilistically complete Cartesian Planning</a></td>
-      <td class="not">✕</td>
+      <td class="dev"><a href="https://github.com/ros-planning/moveit/pull/2273" target="_blank">Stale Patch</a></td>
       <td class="done">✓</td>
     </tr>
     <tr>
-      <td>ROS2 Component Nodes</td>
-      <td class="not">✕</td>
+      <td>Composable Nodes</td>
+      <td class="dev">nodelet subsystem</td>
       <td class="done">✓</td>
     </tr>
     <tr>
@@ -89,12 +94,12 @@ With the release of ROS 2 Galactic, we would like to share the new features only
       <td class="done">pending</td>
     </tr>
     <tr>
-      <td>Realtime Capable via DDS</td>
+      <td>Based on Realtime Capable DDS Messaging</td>
       <td class="not">✕</td>
       <td class="done">✓</td>
     </tr>
     <tr>
-      <td>Improved Cross-Platform Support</td>
+      <td>Improved Cross-Platform Operation</td>
       <td class="dev">via RoboStack</td>
       <td class="done">✓</td>
     </tr>
