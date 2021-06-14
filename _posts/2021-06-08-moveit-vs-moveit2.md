@@ -24,12 +24,12 @@ With the release of ROS 2 Galactic, we would like to share the new features only
   </thead>
   <tbody>
     <tr>
-      <td>ROS1 Support</td>
+      <td>ROS 1 Support</td>
       <td class="done">✓</td>
       <td class="dev">via ros1_bridge</td>
     </tr>
     <tr>
-      <td>ROS2 Support</td>
+      <td>ROS 2 Support</td>
       <td class="not">✕</td>
       <td class="done">✓</td>
     </tr>
@@ -109,7 +109,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
       <td class="done">✓</td>
     </tr>
     <tr>
-      <td>Development Coordinated with ROS2 Technical Steering Committee</td>
+      <td>Development Coordinated with ROS 2 Technical Steering Committee</td>
       <td class="not">✕</td>
       <td class="done">✓</td>
     </tr>
