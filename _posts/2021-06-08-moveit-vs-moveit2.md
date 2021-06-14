@@ -99,9 +99,9 @@ With the release of ROS 2 Galactic, we would like to share the new features only
       <td class="done">✓</td>
     </tr>
     <tr>
-      <td>Improved Cross-Platform Operation</td>
+      <td>Native Windows Build</td>
       <td class="dev">via RoboStack</td>
-      <td class="done">✓</td>
+      <td class="dev">in development</td>
     </tr>
     <tr>
       <td>New Feature Development by PickNik</td>
