@@ -66,7 +66,7 @@ Its current implementation takes as input a pose vector (postition and orientati
 
 <img src="/assets/images/related_projects/moveit_grasps.png" height="500"/>
 
-## MoveIt Dynamic Programming Redundancy Resolution 
+## MoveIt Dynamic Programming Redundancy Resolution
 
 [UNISA Automatic Control Group](http://www.automatica.unisa.it/) in *Globally Optimal Redundancy Resolution with Dynamic Programming for Robot Planning: A ROS Implementation*, published on [MDPI Robotics](https://www.mdpi.com/2218-6581/10/1/42), provides an optimal kineto-dynamic trajectory planner for kinematically redundant robots, based on dynamic programming. Demos on a 4R planar robot and Franka Emika's Panda robot are provided. MoveIt planning capabilities are extended by computing optimal joint-space trajectories for redundant robots along pre-scribed workspace paths, considering actuation limits. [More info](https://github.com/unisa-acg/moveit_dp_redundancy_resolution)
 
