@@ -104,7 +104,7 @@ Any and all use of the "MoveIt" name, the MoveIt logo, and other MoveIt trademar
   </table>
 
 
-#### **Attribution** ####
+## **Attribution** ##
 
 Any use of the MoveIt trademarks needs to include this attribution in your communication: MoveIt [and/or the MoveIt logo and/or any other MoveIt trademark used] is a trademark of PickNik Robotics.
 
