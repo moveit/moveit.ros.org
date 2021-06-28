@@ -6,7 +6,9 @@ layout: page
 slug: press_kit
 title: Press Kit
 ---
-# Press Kit
+# MoveIt Brand Guidelines
+
+The MoveIt press kit includes vector versions of the MoveIt logos. You may use the MoveIt logos in your projects subject to the trademark policy below.
 
 ## Naming Guidelines ##
 
@@ -48,13 +50,13 @@ Any and all use of the "MoveIt" name, the MoveIt logo, and other MoveIt trademar
     *   Correct: "MoveIt Training Services, offered by Foo Corp"
 
 
-#### MoveIt logo ####
+## MoveIt logo ##
 
 
 *   The MoveIt logo should have a trademark symbol the first time it appears in a creative.
 *   You may not incorporate or combine the MoveIt logo with any other logo without the prior written approval of PickNik Robotics.
 
-##### Note for any print media it is necessary to use the provided .AI file and print in the provided CYMK values. #####
+### Note for any print media it is necessary to use the provided .AI file and print in the provided CYMK values. ###
 
 *   Digital Color 0A58F7
 *   Print Color (CMYK) C96 M64 Y0 K3
