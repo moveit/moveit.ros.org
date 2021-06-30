@@ -79,24 +79,6 @@ title: MoveIt Roadmap
     <div class="release-versions__body">
       <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Rolling Ridley Support</h3>
-          <p>
-            <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit2/issues/329" target="_blank">View issue</a>
-          </p>
-        </div>
-        <div class="release-versions__2">
-          June 2021
-        </div>
-        <div class="release-versions__3">
-          <div class="release-versions__divide">
-            <strong>Tyler Weaver</strong><br/>
-            PickNik
-          </div>
-        </div>
-      </div>
-      <div class="release-versions__content">
-        <div class="release-versions__1">
           <h3>Hybrid Planning</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
@@ -115,22 +97,6 @@ title: MoveIt Roadmap
             <strong>Henning Kayser</strong><br/>
             PickNik
           </div>
-        </div>
-      </div>
-      <div class="release-versions__content">
-        <div class="release-versions__1">
-          <h3>Finalize Bullet Collision Detection</h3>
-	  <p>
-            <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit2/issues/473" target="_blank">View issue</a>
-          </p>
-        </div>
-        <div class="release-versions__2">
-          July 2021
-        </div>
-        <div class="release-versions__3">
-          <strong>Jorge Nicho</strong><br/>
-          Southwest Research Institute
         </div>
       </div>
       <div class="release-versions__content">

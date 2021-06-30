@@ -296,6 +296,7 @@ redirect_from: '/moveit/'
                 <!--         </div> -->
                 <!--     </div> -->
                 <!-- </div> -->
+		<!--
                 <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
                     <h3>MoveIt 2.2 Galactic Geochelone</h3>
                     <a class="button button-transparent" href="/documentation/contributing/roadmap/">SEE ROADMAP</a>
@@ -335,6 +336,7 @@ redirect_from: '/moveit/'
                     </div>
                 </div>
             </div>
+	    -->
             <div class='row'>
               <div class="release-versions">
                 <div class="release-versions__header">
@@ -343,6 +345,21 @@ redirect_from: '/moveit/'
                   <div class="release-versions__3">STATUS</div>
                 </div>
                 <div class="release-versions__body">
+                  <div class="release-versions__content">
+                    <div class="release-versions__1">
+                      <h3>Rolling 2.2</h3>
+                      <p>
+                        <span><img src="/assets/images/icons/git.svg"></span>
+                        <a href="https://github.com/ros-planning/moveit2" target="_blank">View branch</a>
+                      </p>
+                    </div>
+                    <div class="release-versions__2">
+                      ROS 2
+                    </div>
+                    <div class="release-versions__3">
+                      <span class="label label--blue">DEVELOPED</span>
+                    </div>
+                  </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
                       <h3>Galactic 2.2</h3>
@@ -355,12 +372,12 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--blue">In Development</span>
+                      <span class="label label--green">RECOMMENDED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Foxy 2.1 LTS</h3>
+                      <h3>Foxy 2.2 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/ros-planning/moveit2" target="_blank">View branch</a>
@@ -370,7 +387,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--green">Recommended</span>
+                      <span class="label label--orange">MAINTAINED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -391,6 +408,6 @@ redirect_from: '/moveit/'
                 </div>
               </div>
             </div>
-        </div>
+      </div>
     </div>
 </div>
