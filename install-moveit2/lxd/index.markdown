@@ -88,7 +88,7 @@ and open a bash shell in the running container instance as user `ubuntu` with su
 
 Verify GUI is working by running `glxgears`. In case `glxgears` is not available or the command fails, see the GUI Troubleshooting section below.
 
-Once you are logged in, you will find the precompiled and source ROS2 workspace directory inside `~/ws_ros2`. Now you are ready to start running the demos ([MoveItCpp](https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_moveit_cpp), [MoveGroup](https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_move_group), [MoveIt Servo](https://github.com/ros-planning/moveit2/blob/main/moveit_ros/moveit_servo/doc/running_the_demos.md)) as for instance:
+Once you are logged in, you will find the precompiled and source ROS2 workspace directory inside `~/ws_ros2`. Now you are ready to start running the demos ([MoveItCpp](https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_moveit_cpp), [MoveGroup](https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_move_group), [MoveIt Servo](http://moveit2_tutorials.picknik.ai/doc/realtime_servo/realtime_servo_tutorial.html)) as for instance:
 
     ros2 launch run_moveit_cpp run_moveit_cpp.launch.py
 
