@@ -11,13 +11,6 @@ title: ROSCON 2021 MoveIt Workshop
 
 This workshop will provide a hands-on introduction to MoveIt 2. Participants will learn how to plan motions for a mobile manipulator. No prior ROS 2 or MoveIt 2 experience is necessary, but basic familiarity with core robotics concepts is assumed. The participants can follow along on their own computers, but they will also have opportunities to plan and execute motions on real hardware: two [Stretch mobile manipulators](https://hello-robot.com/) from Hello Robot will be available for experiments. The presenters will cover use and trade-offs of different strategies for motion planning approaches, inverse kinematics, grasping, trajectory generation, and integration with a perception pipeline.
 
-Workshop participants will leave with an understanding of how to use MoveIt 2 to program a mobile manipulator to do a variety of tasks:
-
-* Plan and execute whole-body motions (including the base), arm motions, and head motions.
-* Use MoveIt Servo for remote control of a manipulator.
-* Configure various aspects of the motion planning pipeline such as the planning algorithm, the Inverse Kinematics solver, and trajectory generator to use.
-* Define, plan, and basic pick and place operations using the MoveIt Task Constructor.
-
 ### Time and Venue
 
 * Date: Thursday, October 21, 2021
