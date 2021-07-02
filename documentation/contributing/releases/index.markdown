@@ -7,7 +7,9 @@ title: Releases
 
 # Release Process
 
-MoveIt has a 6 week cadence for releases.  This pace is a balance between releasing new improvements quickly and preserving the stability of releases.  We are choosing this schedule to reduce the amount of work per release, reduce the time it takes to get an improvement released and make it easier to schedule for the Picknik team.  These releases will include the main MoveIt repo along with any dependencies we control if they have changed (e.g. moveit_msgs).
+MoveIt has a 6 week cadence for releases, though we occationally miss this schedule. We are working to better automate this process.
+
+This 6 week pace is a balance between releasing new improvements quickly and preserving the stability of releases.  We are choosing this schedule to reduce the amount of work per release, reduce the time it takes to get an improvement released and make it easier to schedule for the Picknik team.  These releases will include the main MoveIt repo along with any dependencies we control if they have changed (e.g. moveit_msgs).
 
 ## Upcoming releases
 
