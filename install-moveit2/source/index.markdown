@@ -15,7 +15,7 @@ MoveIt is mainly supported on Linux, and the following build instructions suppor
 
 - Ubuntu 20.04 / ROS 2 Foxy Fitzroy (LTS)
 - Ubuntu 20.04 / ROS 2 Galactic Geochelone (Recommended)
-- Ubuntu 20.04 / ROS 2 Rolling Ridley (Development)
+- Ubuntu 20.04 / ROS 2 Rolling Ridley (Continuously Updated)
 
 In the future, we would like to expand our source build instructions to more OS's, please contribute instruction write-ups to [this repo](https://github.com/ros-planning/moveit.ros.org).
 
