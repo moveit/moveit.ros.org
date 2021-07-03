@@ -154,7 +154,7 @@ title: MoveIt Roadmap
           <h3>MoveIt Config Redesign - Migrate MSA to ROS&nbsp;2</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit2/issues/208" target="_blank">View issue</a>
+            <a href="https://github.com/ros-planning/moveit2/issues/313" target="_blank">View issue</a>
           </p>
         </div>
         <div class="release-versions__2">
