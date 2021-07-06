@@ -296,47 +296,11 @@ redirect_from: '/moveit/'
                 <!--         </div> -->
                 <!--     </div> -->
                 <!-- </div> -->
-		<!--
-                <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
-                    <h3>MoveIt 2.2 Galactic Geochelone</h3>
-                    <a class="button button-transparent" href="/documentation/contributing/roadmap/">SEE ROADMAP</a>
-                    <div class="time-line">
-                        <div class="time-line--orange" id="time-line--orange-2"></div>
-                        <div class="time-line--blue" id="time-line--blue-2"></div>
-                        <div class="time-line--red" id="time-line--red-2"></div>
-                    </div>
-                    <div class="time-line-content">
-                        <div class="time-line--info">
-                            <p>September 2020</p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--blue"></span>
-                            <p>
-                                <strong class="color-blue">Initial Development</strong>
-                                <small>14 September 2020</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--orange"></span>
-                            <p>
-                                <strong class="color-orange">Feature Freeze</strong>
-                                <small>30 May 2021</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--red"></span>
-                            <p>
-                                <strong class="color-red">Official Release</strong>
-                                <small>30 June 2021</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <p>June 2021</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-	    -->
+
+            <!-- Release progress bar -->
+            {% include release-progress.html %}
+
+            <!-- Release versions table -->
             <div class='row'>
               <div class="release-versions">
                 <div class="release-versions__header">
@@ -372,7 +336,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--green">RECOMMENDED</span>
+                      <span class="label label--green text-dark">RECOMMENDED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -387,7 +351,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--orange">MAINTAINED</span>
+                      <span class="label label--orange text-dark">MAINTAINED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -402,7 +366,7 @@ redirect_from: '/moveit/'
                       ROS 1
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--orange">Maintained</span>
+                      <span class="label label--orange text-dark">Maintained</span>
                     </div>
                   </div>
                 </div>

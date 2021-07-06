@@ -18,12 +18,12 @@ $('#modalVideo').on('hidden.bs.modal', function(e) {
   $('#modalVideo iframe').attr('src', null);
 });
 
-function currentVersion() {
+function futureVersion() {
   var currentDate = Date.now();
   //                        DAY / MONTH / YEAR
-  var startDate  = new Date('09/14/2020'); // Start Date
-  var freezeDate = new Date('05/28/2021'); // Feature Freeze
-  var finalDate  = new Date('06/28/2021'); // Release Date
+  var startDate  = new Date('07/01/2021'); // Start Date
+  var freezeDate = new Date('04/30/2022'); // Feature Freeze
+  var finalDate  = new Date('05/30/2022'); // Release Date
   var totalTime = finalDate.getTime() - startDate.getTime();
   var progressTime = currentDate - startDate;
   var percent = (progressTime / totalTime) * 100;
@@ -36,25 +36,6 @@ function currentVersion() {
   }
 }
 
-function futureVersion() {
-  var currentDate = Date.now();
-  //                        MONTH / DAY / YEAR
-  var startDate  = new Date('09/14/2020'); // Start Date
-  var freezeDate = new Date('05/28/2021'); // Feature Freeze
-  var finalDate  = new Date('06/28/2021'); // Release Date
-  var totalTime = finalDate.getTime() - startDate.getTime();
-  var progressTime = currentDate - startDate;
-  var percent = (progressTime / totalTime) * 100;
-  if (currentDate >= finalDate.getTime()) {
-    $('#time-line--red-2').css('display', 'block');
-  } else if (currentDate > freezeDate.getTime()) {
-    $('#time-line--orange-2').css('width', `${percent}%`);
-  } else {
-    $('#time-line--blue-2').css('width', `${percent}%`);
-  }
-}
-
 $(document).ready(function() {
-  currentVersion();
   futureVersion();
 });
