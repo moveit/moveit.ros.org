@@ -25,7 +25,7 @@ These instructions assume you are running on Ubuntu 20.04.
 
 ### Install <img src="/assets/install_page/ros_logo.jpeg"/>
 
-Install ROS2 [Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html), [Galactic](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html), [Rolling](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html) following the installation instructions.
+Install ROS2 [Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html), [Galactic](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html) (recommended), or [Rolling](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html) following the installation instructions.
 Use the desktop installation and don't forget to source the setup script.
 
 Make sure you have the latest versions of packages installed:
