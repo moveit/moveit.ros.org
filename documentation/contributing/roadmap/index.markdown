@@ -18,44 +18,11 @@ title: MoveIt Roadmap
   </div>
 </div>
 <div class="row current-version roadmap-current-version">
-  <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
-    <h3>MoveIt 2.2 Galactic Geochelone</h3>
     <a class="button button-transparent button-transparent__blue" href="/documentation/contributing/releases/">See Every 6 Week Release Schedule</a>
-    <div class="time-line">
-        <div class="time-line--orange" id="time-line--orange-2"></div>
-        <div class="time-line--blue" id="time-line--blue-2"></div>
-        <div class="time-line--red" id="time-line--red-2"></div>
-    </div>
-    <div class="time-line-content">
-        <div class="time-line--info">
-            <p>September 2020</p>
-        </div>
-        <div class="time-line--info">
-            <span class="time-line-box time-line-box--blue"></span>
-            <p>
-                <strong class="color-blue">Initial Development</strong>
-                <small>14 September 2020</small>
-            </p>
-        </div>
-        <div class="time-line--info">
-            <span class="time-line-box time-line-box--orange"></span>
-            <p>
-                <strong class="color-orange">Feature Freeze</strong>
-                <small>30 May 2021</small>
-            </p>
-        </div>
-        <div class="time-line--info">
-            <span class="time-line-box time-line-box--red"></span>
-            <p>
-                <strong class="color-red">Official Release</strong>
-                <small>30 June 2021</small>
-            </p>
-        </div>
-        <div class="time-line--info">
-            <p>June 2021</p>
-        </div>
-    </div>
-  </div>
+
+    <!-- Release progress bar -->
+    {% include release-progress.html %}
+
 </div>
 <div class='row roadmap-features'>
   <div class='col-sm-12 col-lg-12'>
@@ -79,24 +46,6 @@ title: MoveIt Roadmap
     <div class="release-versions__body">
       <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Rolling Ridley Support</h3>
-          <p>
-            <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit2/issues/329" target="_blank">View issue</a>
-          </p>
-        </div>
-        <div class="release-versions__2">
-          June 2021
-        </div>
-        <div class="release-versions__3">
-          <div class="release-versions__divide">
-            <strong>Tyler Weaver</strong><br/>
-            PickNik
-          </div>
-        </div>
-      </div>
-      <div class="release-versions__content">
-        <div class="release-versions__1">
           <h3>Hybrid Planning</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
@@ -115,22 +64,6 @@ title: MoveIt Roadmap
             <strong>Henning Kayser</strong><br/>
             PickNik
           </div>
-        </div>
-      </div>
-      <div class="release-versions__content">
-        <div class="release-versions__1">
-          <h3>Finalize Bullet Collision Detection</h3>
-	  <p>
-            <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit2/issues/473" target="_blank">View issue</a>
-          </p>
-        </div>
-        <div class="release-versions__2">
-          July 2021
-        </div>
-        <div class="release-versions__3">
-          <strong>Jorge Nicho</strong><br/>
-          Southwest Research Institute
         </div>
       </div>
       <div class="release-versions__content">
