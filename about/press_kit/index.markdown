@@ -24,6 +24,12 @@ Specific version references of MoveIt framework:
 - All mentions of the MoveIt 2 port will be written as “MoveIt 2” or as “the MoveIt port to ROS 2.0"
 
 
+# MoveIt Trademark Policy
+
+The "MoveIt" name and other MoveIt trademarks are property of PickNik Inc. ("PickNik" or "PickNik Robotics").
+
+Below are the relevant agreements, rules, and guidelines on displaying the MoveIt trademarks, which may be updated from time to time. Use of any MoveIt trademark must be in accordance with this Policy or a separate written agreement between you and PickNik.
+
 ## Trademark Use ##
 
 Subject to compliance with this Policy, you may use the "MoveIt" name or the MoveIt logo to indicate your implementation of the MoveIt platform as set forth in this Policy. All other uses of the MoveIt trademarks must be expressly approved in writing by PickNik Robotics. To inquire about approval for any such other uses of the MoveIt trademarks, please contact hello@picknik.ai.
