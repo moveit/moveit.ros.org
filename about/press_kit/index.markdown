@@ -53,7 +53,7 @@ Any and all use of the "MoveIt" name, the MoveIt logo, and other MoveIt trademar
 ## MoveIt logo ##
 
 
-*   The MoveIt logo should have a trademark symbol the first time it appears in a [creative](https://en.wikipedia.org/wiki/Creative_work). 
+*   The MoveIt logo should have a trademark symbol the first time it appears in a [creative work](https://en.wikipedia.org/wiki/creative_work).
 *   You may not incorporate or combine the MoveIt logo with any other logo without the prior written approval of PickNik Robotics.
 
 ### Note for any print media it is necessary to use the provided .AI file and print in the provided CYMK values. ###
