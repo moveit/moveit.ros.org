@@ -38,7 +38,7 @@ Any and all use of the "MoveIt" name, the MoveIt logo, and other MoveIt trademar
 
 
 *   MoveIt™ should have a trademark symbol the first time it appears in a creative.
-*   MoveIt should always be presented in camel case and is never plural.
+*   MoveIt should always be presented in upper camel case and is never plural.
 *   Specific versions of MoveIt should be specified by placing the release name or version number after the MoveIt name, separated by a space. For example, MoveIt Melodic, MoveIt Dashing, MoveIt 1, MoveIt 2.
 *   The MoveIt trademarks should not be used in names of companies, organizations, applications, products, or services without the prior written approval of PickNik Robotics. Purely nominative uses (for example: "Our company consults on use of MoveIt." for consultation-based services and "Our company provides training on the use of MoveIt" for training-based services) are acceptable, presuming that the rest of this Policy is followed and there is no express or implied message that PickNik Robotics or the MoveIt project sponsors, endorses, or is otherwise affiliated with your company or its goods and services.
     *   Incorrect: "MoveIt Deliverbot"
