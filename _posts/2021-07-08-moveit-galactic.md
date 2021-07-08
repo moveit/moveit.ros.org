@@ -21,7 +21,7 @@ With MoveIt’s latest version bump to 2.2.0 we’ve finally added support for r
 * Enabled Bullet collision detection ([#473](https://github.com/ros-planning/moveit2/issues/473))
 * Galactic and Rolling Support, enable CI ([#494](https://github.com/ros-planning/moveit2/issues/494))
 
-(see [here 1](https://github.com/ros-planning/moveit2/commit/43050efd60fdaae7e64299c0d8de71de80c7af71) for full CHANGELOG)
+(see [here](https://github.com/ros-planning/moveit2/commit/43050efd60fdaae7e64299c0d8de71de80c7af71) for full CHANGELOG)
 
 For now, all distros are supported from the [main](https://github.com/ros-planning/moveit2/tree/main) branch. In the future, main will run Rolling, support for older distros - like Foxy now - will be continued in separate maintenance branches.
 
