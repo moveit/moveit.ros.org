@@ -18,9 +18,10 @@ With MoveIt’s latest version bump to 2.2.0 we’ve finally added support for r
 
 * Full sync with MoveIt 1 ([#505](https://github.com/ros-planning/moveit2/pull/505))
     * Use MoveItCpp as MoveGroup context, multi planning pipeline support ([moveit#2127](https://github.com/ros-planning/moveit/issues/2127))
+    * * Much faster FCL collision distance checks [moveit#2698](https://github.com/ros-planning/moveit/pull/2698)
 * Enabled Bullet collision detection ([#473](https://github.com/ros-planning/moveit2/issues/473))
 * Galactic and Rolling Support, enable CI ([#494](https://github.com/ros-planning/moveit2/issues/494))
-* Much faster FCL collision distance checks [moveit#2698](https://github.com/ros-planning/moveit/pull/2698)
+
 
 (see [here](https://github.com/ros-planning/moveit2/commit/43050efd60fdaae7e64299c0d8de71de80c7af71) for full CHANGELOG)
 
