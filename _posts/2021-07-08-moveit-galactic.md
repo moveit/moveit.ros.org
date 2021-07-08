@@ -28,4 +28,4 @@ For now, all distros are supported from the [main](https://github.com/ros-planni
 The release is currently only available as source install as we are still working on some issues with the build farm. For getting started, check out the [install instructions](https://moveit.ros.org/install-moveit2/source/) and the [tutorials](http://moveit2_tutorials.picknik.ai/).
 
 ### What's next...
-You can always find out more about what features and fixes are in the next version of MoveIt on the [MoveIt Roadmap](https://moveit.ros.org/documentation/contributing/roadmap/) along with long term goals, and sprint plans.
+You can always find out more about what features and fixes are in the next version of MoveIt on the [MoveIt Roadmap](https://moveit.ros.org/documentation/contributing/roadmap/) along with long term goals and sprint plans.
