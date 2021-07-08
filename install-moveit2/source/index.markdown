@@ -79,6 +79,8 @@ Download the repository and install any dependencies:
 
     git clone https://github.com/ros-planning/moveit2.git
     vcs import < moveit2/moveit2.repos
+    # For galactic
+    # vcs import < moveit2/moveit2_galactic.repos
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 
 ## Build MoveIt
