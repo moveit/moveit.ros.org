@@ -1,7 +1,7 @@
 ---
 author: Henning Kayser
 comments: false
-date: 2021-07-07
+date: 2021-07-08
 layout: post
 title: MoveIt 2.2 Galactic Release
 media_type: image
