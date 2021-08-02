@@ -322,7 +322,7 @@ title: About
         </div>
         <div class="sponsors-card-single">
           <img class="mx-auto d-block" src="/assets/images/sponsors/rosi.png" alt="ROSi">
-          The port to ROS 2 is supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components. More information: <a href="rosin-project.eu">Learn More</a>
+          The port to ROS 2 is supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components. More information: <a href="https://www.rosin-project.eu/">Learn More</a>
         </div>
         <div class="sponsors-card-single">
           <img class="mx-auto d-block" src="/assets/images/sponsors/franka_logo.png" alt="Franka Emika">
