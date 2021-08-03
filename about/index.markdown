@@ -321,9 +321,8 @@ title: About
           <a href="http://picknik.ai">Learn More</a>
         </div>
         <div class="sponsors-card-single">
-          <img class="mx-auto d-block" src="/assets/images/sponsors/acutronicrobotics.jpg" alt="Acutronic">
-          Acutronic sponsored a collaborative effort in 2019 to begin the port of MoveIt to ROS 2.0.
-          <a href="/moveit!/ros/2019/03/01/announcing-the-moveit-2-port.html">Learn More</a>
+          <img class="mx-auto d-block" src="/assets/images/sponsors/rosi.png" alt="ROSi">
+          The port to ROS 2 is supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components. More information: <a href="https://www.rosin-project.eu/">Learn More</a>
         </div>
         <div class="sponsors-card-single">
           <img class="mx-auto d-block" src="/assets/images/sponsors/franka_logo.png" alt="Franka Emika">
