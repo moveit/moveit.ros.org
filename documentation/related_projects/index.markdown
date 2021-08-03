@@ -88,7 +88,7 @@ The [Nishida Takeshi Lab](http://lab.cntl.kyutech.ac.jp/) in Fukuoka, Japan supp
 
 ## Cartesian Path Planner Plug-In for MoveIt!
 
-[ROS Industrial](https://rosindustrial.org/) create a user friendly [Cartesian Path Planner Plug-In for MoveIt!](https://rosindustrial.org/news/2014/9/5/cartesian-path-planner-plug-in-for-moveit). In the current version of the project, the user can simultaneously interact with a Qt Widget and the RViz environment to define and set Cartesian Way-Points, which can then be passed to the Cartesian Planner of the MoveIt package and executed both on a simulated and real robot.
+[ROS Industrial](https://rosindustrial.org/) has created a user friendly [Cartesian Path Planner Plug-In for MoveIt](https://rosindustrial.org/news/2014/9/5/cartesian-path-planner-plug-in-for-moveit). In the current version of the project, the user can simultaneously interact with a Qt Widget and the RViz environment to define and set Cartesian Way-Points, which can then be passed to the Cartesian Planner of the MoveIt package and executed both on a simulated and real robot.
 
 <iframe width="800" height="500" src="https://www.youtube-nocookie.com/embed/jQc3z7FQwHw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
