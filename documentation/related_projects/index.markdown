@@ -50,7 +50,9 @@ This package provides ROS2 interfaces compliant with the MoveIt motion planning 
 
 ROS-Industrial Special Project: Cartesian Path Planner. Descartes performs path-planning on under-defined Cartesian trajectories. It uses trajectory points, robot models, and planners to generate an joint-trajectory that complies with the constraints of a given process. [More Info](https://github.com/ros-industrial-consortium/descartes)
 
-<iframe width="800" height="500" src="https://www.youtube-nocookie.com/embed/cZxt00uoyBo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<iframe width="800" height="500" src="https://player.vimeo.com/video/142622435" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## MoveIt GPD Grasping
 
@@ -83,3 +85,16 @@ MoveGroupCapability that does simple extrapolation to check for possible collisi
 The [Nishida Takeshi Lab](http://lab.cntl.kyutech.ac.jp/) in Fukuoka, Japan supports a suite of ROS packages for working with the Motoman line of Robots from [Yaskawa](https://www.motoman.com/) through a number of interfaces including Matlab. You can explore some of these interfaces in the [motoman_apps](https://github.com/ntl-ros-pkg/motoman_apps) repository.
 
 <img src="/assets/images/related_projects/motoman_apps.png" height="500"/>
+
+## Cartesian Path Planner Plug-In for MoveIt!
+
+[ROS Industrial](https://rosindustrial.org/) has created a user friendly [Cartesian Path Planner Plug-In for MoveIt](https://rosindustrial.org/news/2014/9/5/cartesian-path-planner-plug-in-for-moveit). In the current version of the project, the user can simultaneously interact with a Qt Widget and the RViz environment to define and set Cartesian Way-Points, which can then be passed to the Cartesian Planner of the MoveIt package and executed both on a simulated and real robot.
+
+<iframe width="800" height="500" src="https://www.youtube-nocookie.com/embed/jQc3z7FQwHw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+## Robotic Evaluation And Comparison Heuristic (REACH)
+
+[REACH](https://github.com/ros-industrial/reach) is a tool that allows users to visualize and quantitatively evaluate the reach capability of a robot system for a given workpiece.
+
+<img src="/assets/images/related_projects/reach_study.png" height="500"/>
