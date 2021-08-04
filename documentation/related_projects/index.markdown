@@ -95,6 +95,6 @@ The [Nishida Takeshi Lab](http://lab.cntl.kyutech.ac.jp/) in Fukuoka, Japan supp
 
 ## Robotic Evaluation And Comparison Heuristic (REACH)
 
-The [REACH repository](https://github.com/ros-industrial/reach) is a tool that allows users to visualize and quantitatively evaluate the reach capability of a robot system for a given workpiece.
+[REACH](https://github.com/ros-industrial/reach) is a tool that allows users to visualize and quantitatively evaluate the reach capability of a robot system for a given workpiece.
 
 <img src="/assets/images/related_projects/reach_study.png" height="500"/>
