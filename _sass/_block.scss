@@ -19,22 +19,15 @@
   margin-bottom: 25px;
   border: 1px solid rgba(128, 128, 128, 0.1);
   &.real-image {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
 
-  img,
-  iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    width: 80%;
+  iframe,
+  img {
+    width: 100%;
+    height: inherit;
   }
 
   &-main {
