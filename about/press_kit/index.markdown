@@ -8,20 +8,7 @@ title: Press Kit
 ---
 # MoveIt Press Kit
 
- Welcome to the non-legally-binding introductory paragraph to the MoveIt Press Kit Terms of Use! We recognize that the following seem pedantic, but it’s important we have it because there have been legal issues before, and it’s important to us that we protect all the work everyone has done on MoveIt. We’ve done our best to make this readable, but it’s still legal-speak. Here's a  [Google open source case book](https://google.github.io/opencasebook/trademarks/) paragraph to help understand why there is a trademark on MoveIt, and what it does.
-
-
- `Trademarks serve a different purpose from copyrights and patents and can be licensed differently. Unlike copyright and patent laws, which were designed to incentivize creative works and useful inventions, trademark law’s purpose is to protect consumers by guaranteeing the source of a product or service.3 Copyrights and patent rights are property rights, whereas trademarks are fundamentally concerned with consumer protection. As such, an open source author may choose to openly license her project’s copyrights and patents while still enforcing her trademarks. Trademark enforcement is not inconsistent with open source principles: it restricts how a brand identifier can be used, rather than restricting what you can do with the open source code.4 Even Richard Stallman, the founder and president of the Free Software Foundation, recognizes that trademark enforcement is reasonable as long as software freedom is not restricted.5`
-
-
-### For Developers:
-
-The MoveIt trademark is the property of PickNik robotics, which can determine how the trademark is used as the owner. If this wasn't the case, another company could file a trademark, and then there would be legal issues with everyone's work. PickNik pursued this because ROS did it, and it seemed like a good idea to protect the name. While PickNik owns the trademark, they do not intend to enforce it for projects that operate within the spirit of open source, as listed below.
-
-OK, on to the legally binding portion!
-
-
-# MoveIt Brand Guidelines
+## MoveIt Brand Guidelines
 
 The MoveIt press kit includes vector versions of the MoveIt logos. You may use the MoveIt logos in your projects subject to the trademark policy below.
 
@@ -38,14 +25,17 @@ Specific version references of MoveIt framework:
 - All specific mentions of the MoveIt are written as "MoveIt 2", "MoveIt 3", etc.
 - All mentions of the MoveIt 2 port will be written as “MoveIt 2” or as “the MoveIt port to ROS 2.0"
 
-
 ## MoveIt Trademark Policy
+
+We recognize that having a trademark on an open source project may seem at odds with open source, but its very standard. Here's the  [Google open source case book](https://google.github.io/opencasebook/trademarks/) for more info.
+
+## Legal Terms
 
 The "MoveIt" name and other MoveIt trademarks are property of PickNik Inc. ("PickNik" or "PickNik Robotics").
 
 Below are the relevant agreements, rules, and guidelines on displaying the MoveIt trademarks, which may be updated from time to time. Use of any MoveIt trademark must be in accordance with this Policy or a separate written agreement between you and PickNik.
 
-## Trademark Use ##
+### Trademark Use
 
 Subject to compliance with this Policy, you may use the "MoveIt" name or the MoveIt logo to indicate your implementation of the MoveIt platform as set forth in this Policy. All other uses of the MoveIt trademarks must be expressly approved in writing by PickNik Robotics. To inquire about approval for any such other uses of the MoveIt trademarks, please contact hello@picknik.ai.
 
@@ -53,7 +43,6 @@ Any and all use of the "MoveIt" name, the MoveIt logo, and other MoveIt trademar
 
 
 ## Trademark Style Guidelines
-
 
 #### MoveIt in text
 
@@ -71,7 +60,7 @@ Any and all use of the "MoveIt" name, the MoveIt logo, and other MoveIt trademar
     *   Correct: "MoveIt Training Services, offered by Foo Corp"
 
 
-## MoveIt logo
+## MoveIt Logo
 
 
 *   The MoveIt logo should have a trademark symbol the first time it appears in a [creative work](https://en.wikipedia.org/wiki/creative_work).
