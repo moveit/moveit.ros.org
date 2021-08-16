@@ -63,7 +63,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
     <tr>
       <td>MoveIt Task Constructor</td>
       <td class="done">✓</td>
-      <td class="done">✓</td>
+      <td class="done"><a href="https://github.com/ros-planning/moveit_task_constructor/pull/170">pending</a></td>
     </tr>
     <tr>
       <td>Game Controller Integration for Servo</td>
