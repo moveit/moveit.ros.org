@@ -14,6 +14,8 @@ categories:
 
 With the release of ROS 2 Galactic, we would like to share the new features only available in MoveIt 2. We hope to encourage the community to upgrade to MoveIt 2 as soon as possible. MoveIt 2 is out of beta.
 
+*Table last updated August 15, 2021*
+
 <table class="table table-striped table--moveit-status-update">
   <thead>
     <tr>
@@ -61,7 +63,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
     <tr>
       <td>MoveIt Task Constructor</td>
       <td class="done">✓</td>
-      <td class="done">active fork</td>
+      <td class="done"><a href="https://github.com/ros-planning/moveit_task_constructor/pull/170">pending</a></td>
     </tr>
     <tr>
       <td>Game Controller Integration for Servo</td>
@@ -101,7 +103,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
     <tr>
       <td>Native Windows Build</td>
       <td class="dev">via RoboStack</td>
-      <td class="dev">in development</td>
+      <td class="done">✓</td>
     </tr>
     <tr>
       <td>New Feature Development by PickNik</td>
