@@ -25,7 +25,7 @@ These instructions assume you are running on Ubuntu 20.04.
 
 ### Install <img src="/assets/install_page/ros_logo.jpeg"/>
 
-Install ROS2 [Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html), [Galactic](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html), or [Rolling](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html) following the installation instructions. We recommend Foxy for stable latest LTS distribution needs, Galactic for general use case that has the latest features with a stable distribution and Rolling for contributing to MoveIt 2. Currently the [main branch](https://github.com/ros-planning/moveit2) of MoveIt 2 is tested and should compile on both Rolling and Galactic. For Foxy please use the [foxy branch](https://github.com/ros-planning/moveit2/tree/foxy) and the relevant build instructions below.
+Install ROS2 [Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html), [Galactic](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html), or [Rolling](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html) following the installation instructions. We recommend Foxy for stable latest LTS distribution needs, Galactic for general use case that has the latest features with a stable distribution and Rolling for contributing to MoveIt 2. Currently the [main branch](https://github.com/ros-planning/moveit2) of MoveIt 2 is supported on both Rolling and Galactic. For Foxy please use the [foxy branch](https://github.com/ros-planning/moveit2/tree/foxy) and the relevant build instructions below.
 
 Use the desktop installation and don't forget to source the setup script.
 
