@@ -65,7 +65,7 @@ The maintainer handling the release must have write access to both devel repos (
    ```
    bloom-release --rosdistro melodic moveit
    ```
-1. Bump the version number to the next upcoming one and _finally_ push to the github:
+1. Bump the version number to the next upcoming one and _finally_ push to the github (we do this if someone requests it for their workflow):
    ```
    # Bump the release number, but don't yet push to github
    catkin_prepare_release --no-push
