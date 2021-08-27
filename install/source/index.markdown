@@ -81,23 +81,23 @@ title: MoveIt 1 Source Build - Linux
     </ul>
     <p>Here we show some examples using <span class="ros-command">catkin_tools</span>. Note: If you have already built these packages in your workspace you will need to use <span class="ros-command">catkin clean</span> first.</p>
     <h3>Disable All High-Level User Interfaces (optional)</h3>
-    <pre class="bash-command">catkin config --blacklist \
-                moveit_commander \
-                moveit_setup_assistant \
-                moveit_ros_robot_interaction \
-                moveit_ros_visualization \
-                moveit_ros_benchmarks \
-                moveit_controller_manager_example \
-                moveit_ros_warehouse \
-                moveit_ros_manipulation \
-                moveit_visual_tools \
-                rviz_visual_tools</pre>
+    <div class="bash-command" white-space="pre"><pre>catkin config --blacklist \
+    moveit_commander \
+    moveit_setup_assistant \
+    moveit_ros_robot_interaction \
+    moveit_ros_visualization \
+    moveit_ros_benchmarks \
+    moveit_controller_manager_example \
+    moveit_ros_warehouse \
+    moveit_ros_manipulation \
+    moveit_visual_tools \
+    rviz_visual_tools</pre></div>
     <h3>Disable CHOMP Motion Planner (optional)</h3>
     <p>Note, every command to <span class="ros-command">catkin config --blacklist</span> will override the previous list by default. Using the option <span class="ros-command">--append-args</span> you can augment the existing blacklist.</p>
-    <pre class="bash-command">catkin config --blacklist \
-        moveit_chomp_optimizer_adapter \
-        moveit_planners_chomp \
-        chomp_motion_planner</pre>
+    <div class="bash-command" white-space="pre"><pre>catkin config --blacklist \
+    moveit_chomp_optimizer_adapter \
+    moveit_planners_chomp \
+    chomp_motion_planner</pre></div>
     <h2>Optional: Install a Compiler Cache</h2>
     <p>Building <i>all</i> or even just <i>some</i> of MoveIt from source can take up to an hour.
     A compiler cache can reduce this time to a few minutes by preventing unchanged files from being recompiled.
