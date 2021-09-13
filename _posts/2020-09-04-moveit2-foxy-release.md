@@ -16,7 +16,7 @@ categories:
 
 We are proud to announce the first non-beta release of MoveIt 2, for ROS 2 Foxy Fitzroy. MoveIt 2 Foxy is a major milestone for the MoveIt project as we are now feature complete with MoveIt 1. We believe this achievement will enable the next generation of complex dexterous manipulation applications, beyond the impact it has already had over the past 10 years.
 
-The focus of MoveIt 2 is on realtime performance, particularly provided by ROS 2's native realtime support via DDS. The latest feature on this front is MoveIt Servo a closed-loop, Jacobian-based planner that can avoid collision objects in realtime. The latest version of Servo (previously Jog Arm) uses ROS 2 composable nodes and greatly improved test coverage: see <a href="http://moveit2_tutorials.picknik.ai/doc/realtime_servo/realtime_servo_tutorial.html" target="_blank">the MoveIt Servo tutorials</a>.
+The focus of MoveIt 2 is on realtime performance, particularly provided by ROS 2's native realtime support via DDS. The latest feature on this front is MoveIt Servo a closed-loop, Jacobian-based planner that can avoid collision objects in realtime. The latest version of Servo (previously Jog Arm) uses ROS 2 composable nodes and greatly improved test coverage: see <a href="https://moveit2-tutorials.picknik.ai/doc/realtime_servo/realtime_servo_tutorial.html" target="_blank">the MoveIt Servo tutorials</a>.
 
 ![](/assets/images/blog_posts/moveit2_foxy/servo_teleop_demo.gif)
 
@@ -67,7 +67,7 @@ We are also happy to report that MoveIt 2 now builds on <a href="https://github.
 
 ## Getting Started
 
-To jump in, we have prepared several example applications and launch configurations for testing <a href="https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_moveit_cpp" target="_blank">MoveItCpp</a>, <a href="https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_move_group" target="_blank">MoveGroup</a> and <a href="http://moveit2_tutorials.picknik.ai/doc/realtime_servo/realtime_servo_tutorial.html" target="_blank">MoveIt Servo</a>. Full tutorials are yet to be ported from MoveIt 1, but due to their similarity are still largely applicable. We know it takes forever to get things running if you are new to ROS2, so we’ve prepared an LXD container that provides you with a precompiled MoveIt 2 workspace that allows you to run all demos right away Check out <a href="https://docs.google.com/document/d/15TJ8U9vk6NBaOUkObfPLFdjzut-JsJsb__H-0mbethE/edit#heading=h.jjeryzb28kbj" target="_blank">these instructions</a>.
+To jump in, we have prepared several example applications and launch configurations for testing <a href="https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_moveit_cpp" target="_blank">MoveItCpp</a>, <a href="https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_move_group" target="_blank">MoveGroup</a> and <a href="https://moveit2-tutorials.picknik.ai/doc/realtime_servo/realtime_servo_tutorial.html" target="_blank">MoveIt Servo</a>. Full tutorials are yet to be ported from MoveIt 1, but due to their similarity are still largely applicable. We know it takes forever to get things running if you are new to ROS2, so we’ve prepared an LXD container that provides you with a precompiled MoveIt 2 workspace that allows you to run all demos right away Check out <a href="https://docs.google.com/document/d/15TJ8U9vk6NBaOUkObfPLFdjzut-JsJsb__H-0mbethE/edit#heading=h.jjeryzb28kbj" target="_blank">these instructions</a>.
 
 ## Thanks
 

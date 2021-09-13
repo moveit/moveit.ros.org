@@ -44,7 +44,7 @@ redirect_from: '/moveit/'
                                 Watch overview
                                 </button>
                                 <a class="button button-yellow modal-link" href="https://www.youtube-nocookie.com/embed/7KvF7Dj7bz0" target="_blank">Watch overview</a>
-                                <a class="button button-transparent" href="http://moveit2_tutorials.picknik.ai/" target="_blank">Get Started</a>
+                                <a class="button button-transparent" href="https://moveit2-tutorials.picknik.ai/" target="_blank">Get Started</a>
                             </div>
                         </div>
                     </div>

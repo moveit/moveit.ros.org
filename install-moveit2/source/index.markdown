@@ -109,7 +109,7 @@ Setup your environment - you can do this every time you work with this particula
 
 Check out the MoveIt 2 Tutorials on how to get started with simple demo packages.
 
-<a href="http://moveit2_tutorials.picknik.ai/" target="_blank">
+<a href="https://moveit2-tutorials.picknik.ai/" target="_blank">
   <span class="link-with-background">
     MoveIt 2 Tutorials
   </span>
