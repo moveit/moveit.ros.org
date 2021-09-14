@@ -48,6 +48,7 @@ All times are UTC-5 (US Central Daylight Time)
 - - - -
 
 During the _Free play_ sessions, participants will be divided into groups for a guided hands-on exploration of MoveIt capabilities. One or more MoveIt experts will be available per group.
+
 ### Expected Outcomes
 
 Workshop participants will leave with an understanding of how to use MoveIt 2 to program a mobile manipulator to do a variety of tasks:
@@ -57,9 +58,18 @@ Workshop participants will leave with an understanding of how to use MoveIt 2 to
 * Configure various aspects of the motion planning pipeline such as the planning algorithm, the Inverse Kinematics solver, and trajectory generator to use.
 * Define, plan, and basic pick and place operations using the MoveIt Task Constructor.
 
+Specifically, you will be able to:
+
+* Control a Stretch mobile manipulator via the RViz motion planning panel,
+* Configure settings in the MoveIt configuration files to change the default planner, IK solver, trajectory generator, velocity limits, etc.
+* Execute motions in Ignition using simulated controllers and collect sensor data from simulated cameras, and
+* Write MoveIt Task Constructor C++ code to script complex sequences of motions.
+
 ### Preparation for the Workshop
 
 Participants will be provided with preparation instructions weeks before the event. We plan to provide both a docker image with the setup used during the workshop as well as ROS 2 installation instructions for users who are already running ROS 2 on their own computer.
+
+Please complete the setup at least a day before the workshop. MoveIt maintainers will be monitoring the `#rosworld2021` channel on the [MoveIt Discord server](https://discord.gg/RrySut8), so please post your questions there if you run into problems with the setup. (Note that _Discord_ is a chat client, different from _Discourse_.)
 
 #### Installation instructions
 
