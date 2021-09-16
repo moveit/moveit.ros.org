@@ -15,7 +15,7 @@ This workshop will provide a hands-on introduction to MoveIt 2. Participants wil
 ### Time and Venue
 
 * Date: Thursday, October 19, 2021
-* Venue: ROS World 2021, New Orleans
+* Venue: ROS World 2021 (virtual)
 
 ### Organizers
 
