@@ -30,7 +30,7 @@ redirect_from: '/moveit/'
                             <div class="main-tag">
                                 <a href="https://roscon.ros.org/2021/">
                                     <span class="blue">Announcement</span>
-                                    <span>Sign up for ROS World now!</span>
+                                    <span>ROS World is Oct 19-21. Sign up now!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
