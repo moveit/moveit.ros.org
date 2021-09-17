@@ -28,9 +28,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="ros/moveit/2021/04/04/WMD-2021-results.html">
+                                <a href="https://roscon.ros.org/2021/">
                                     <span class="blue">Announcement</span>
-                                    <span>World MoveIt Day Results Are In</span>
+                                    <span>ROS World is Oct 19-21. Sign up now!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
