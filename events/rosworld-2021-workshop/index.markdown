@@ -14,7 +14,7 @@ This workshop will provide a hands-on introduction to MoveIt 2. Participants wil
 
 ### Time and Venue
 
-* Date: Thursday, October 19, 2021
+* Date: Tuesday, October 19, 2021
 * Venue: ROS World 2021 (virtual)
 
 ### Organizers
@@ -22,6 +22,7 @@ This workshop will provide a hands-on introduction to MoveIt 2. Participants wil
 * Mark Moll (PickNik)
 * Henning Kayser (PickNik)
 * Dave Coleman (PickNik)
+* Vatan Tezer (PickNik)
 * Aaron Edsinger (Hello Robot)
 * Charlie Kemp (Hello Robot)
 * Binit Shah (Hello Robot)
@@ -33,21 +34,22 @@ All times are UTC-5 (US Central Daylight Time)
 
 | Time | Title |
 |-----------|-------------------------|
-|**13:00** | Overview and Introduction — Dave Coleman &amp; Charlie Kemp|
-|**13:15** | MoveIt overview — Mark Moll|
-|**13:45** | _Free play:_ `stretch_moveit_config` demo — all|
-|**14:00** | MoveIt and the rest of ROS: perception, control, and simulation — Vatan Tezer |
-|**14:30** | _Free play:_ Ignition Demo World — all |
-|**14:45** | Break |
-|**15:00** | High-level Task and Motion Planning using the MoveIt Task Constructor — Henning Kayser |
-|**15:30** | _Free play:_ Pick and place with whole body planning — all |
-|**16:45** | Wrap up — Mark Moll|
-|**17:00** | Virtual happy hour — all|
+|**10:00** | Overview and Introduction — Dave Coleman &amp; Charlie Kemp|
+|**10:15** | Hardware demonstration of mobile manipulation capabilities — Binit Shah|
+|**10:30** | MoveIt overview — Mark Moll|
+|**11:00** | _Guided exploration:_ `stretch_moveit_config` demo — all|
+|**11:15** | MoveIt and the rest of ROS: perception, control, and simulation — Vatan Tezer |
+|**11:45** | _Guided exploration:_ Ignition Demo World — all |
+|**12:00** | Break |
+|**12:15** | High-level Task and Motion Planning using the MoveIt Task Constructor — Henning Kayser |
+|**12:45** | _Guided exploration:_ Pick and place with whole body planning — all |
+|**13:45** | Wrap up — Mark Moll|
+|**14:00** | Virtual happy hour — all|
 |------------|-------------------------|
 
 - - - -
 
-During the _Free play_ sessions, participants will be divided into groups for a guided hands-on exploration of MoveIt capabilities. One or more MoveIt experts will be available per group.
+During the _Guided exploration_ sessions, participants will be divided into groups for a guided, hands-on exploration of MoveIt capabilities. One or more MoveIt experts will be available per group.
 
 ### Expected Outcomes
 
@@ -63,7 +65,7 @@ Specifically, you will be able to:
 * Control a Stretch mobile manipulator via the RViz motion planning panel,
 * Configure settings in the MoveIt configuration files to change the default planner, IK solver, trajectory generator, velocity limits, etc.
 * Execute motions in Ignition using simulated controllers and collect sensor data from simulated cameras, and
-* Write MoveIt Task Constructor C++ code to script complex sequences of motions.
+* Write MoveIt Task Constructor C++ code to script picking and placing of objects.
 
 ### Preparation for the Workshop
 
