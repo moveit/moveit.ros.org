@@ -125,7 +125,7 @@ title: About
                   <div class="organization-name">CITEC, Bielefeld University</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/rhaschke" target="_blank">rhaschke</a>
-                </div>                
+                </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Simon Schmeißer</div>
                   <div class="organization-name">Optonic</div>
