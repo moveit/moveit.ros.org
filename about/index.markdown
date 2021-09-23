@@ -127,6 +127,12 @@ title: About
                   <a href="https://github.com/rhaschke" target="_blank">rhaschke</a>
                 </div>
                 <div class="main-card-single-small">
+                  <div class="person-name">Simon Schmeißer</div>
+                  <div class="organization-name">Optonic</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/simonschmeisser" target="_blank">simonschmeisser</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Tyler Weaver</div>
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
@@ -240,12 +246,6 @@ title: About
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/nbbrooks" target="_blank">nbbrooks</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Simon Schmeißer</div>
-                  <div class="organization-name">isys vision</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/simonschmeisser" target="_blank">simonschmeisser</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Yan Yu</div>
