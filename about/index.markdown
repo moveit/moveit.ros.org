@@ -61,12 +61,6 @@ title: About
                   <a href="https://github.com/davetcoleman" target="_blank">davetcoleman</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Felix von Drigalski</div>
-                  <div class="organization-name">OMRON SINIC X Corporation</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/felixvd" target="_blank">felixvd</a>
-                </div>
-                <div class="main-card-single-small">
                   <div class="person-name">Gijs van der Hoorn</div>
                   <div class="organization-name">Delft Univ. of Tech / ROS-I</div>
                   <img src="/assets/install_page/github.png"/>
@@ -203,6 +197,11 @@ title: About
                   <div class="organization-name">Plus One Robotics</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/130s" target="_blank">130s</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Felix von Drigalski</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/felixvd" target="_blank">felixvd</a>
                 </div>
               </div>
             </div>

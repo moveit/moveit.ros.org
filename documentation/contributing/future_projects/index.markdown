@@ -50,7 +50,7 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 - **Prerequisites**: some ROS
 - **Programming skills**: C++
 - **Difficulty**: Medium
-- **Potential mentors**: Felix von Drigalski
+- **Potential mentors**: -
 - **Description**: MoveIt currently only supports the execution of one robot trajectory (although the trajectory can involve multiple planning groups, e.g. two arms). However, to run e.g. a robot workcell efficiently, each robot arm has to move independently.
 
   The goal of this project is to allow multiple trajectories to be started, executed and stopped independently from one another. The main difficulty is that the arms may collide with one another, so additional checks will be necessary, such as:
@@ -75,7 +75,7 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 - **Prerequisites**: ROS
 - **Programming skills**: C++, Python
 - **Difficulty**: Low-Medium
-- **Potential mentors**: Felix von Drigalski
+- **Potential mentors**: -
 - **Description**: While there are some ROS Answers posts and examples floating around, there is no definitive resource on how to set up multiple robot (arms) with MoveIt. The goal of this project is to write a tutorial that should become the reference. This project is a good preparation for the one above.
 
 - **Related Github issues**: [465](https://github.com/ros-planning/moveit_tutorials/issues/465)
@@ -85,7 +85,7 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 - **Prerequisites**: ROS
 - **Programming skills**: C++
 - **Difficulty**: Medium-High
-- **Potential mentors**: Felix von Drigalski
+- **Potential mentors**: -
 - **Description**: The planning scene in MoveIt is currently represented as a flat list of transforms from the origin. In this project, the planning scene should be extended with a scene graph or kinematic tree, so that it allows e.g. picking up a tray or rack with other items in/on it, or the dynamic attachment or removal of a hand to a robot arm.
 
   As a blueprint for the implementation, it is worth looking at [Tesseract](https://github.com/ros-industrial-consortium/tesseract) (forked from MoveIt) and [TMKit](https://github.com/kavrakilab/tmkit.git) (no ROS support).
@@ -96,7 +96,7 @@ Feel free to contact [PickNik Robotics](https://picknik.ai/connect/) for further
 - **Prerequisites**: ROS, some motion planning background
 - **Programming skills**: C++
 - **Difficulty**: Medium
-- **Potential mentors**: Felix von Drigalski, Mark Moll, Henning Kayser
+- **Potential mentors**: Mark Moll, Henning Kayser
 - **Description**: It would be a set of benchmark tasks to serve as examples, and to run as part of continuous tests.
 For this, we need to identify and implement standard tasks at varying levels of difficulty that can be achieved with several robots for which a MoveIt configuration is available. E.g.:
   - Moving to a goal position in uncluttered space
