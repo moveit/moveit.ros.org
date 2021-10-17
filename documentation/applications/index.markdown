@@ -27,7 +27,7 @@ If you have a large open source project using MoveIt, you can share the project 
 
 ![](o2as.gif)
 
-- [Diabolo Play](https://github.com/o2as/ur-o2as/). 2 robot arms with sticks and string, playing with a diabolo. Uses MoveIt and BioIK. Includes a Gazebo simulation plugin and Rviz visualization.
+- [Diabolo Play](https://github.com/o2as/ur-o2as/). 2 robot arms with sticks and string, playing with a diabolo. Uses MoveIt and bio_ik. Includes a Gazebo simulation plugin and Rviz visualization.
 
 ![](diabolo.gif)  
 
