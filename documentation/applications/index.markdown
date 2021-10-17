@@ -23,8 +23,14 @@ If you have a large open source project using MoveIt, you can share the project 
 
 ![](o2ac.gif)
 
-- [Team O2AS at the World Robot Summit Assembly Challenge 2018](https://github.com/o2as/ur-o2as/). 3-arm robot workcell performing assembly tasks with a custom gripper. Used MoveIt for parametrized motions, includes a custom assembly generator.
+- [Team O2AS at the World Robot Summit Assembly Challenge 2018](https://github.com/o2as/ur-o2as/). 3-arm robot workcell performing assembly tasks with a custom gripper. Uses MoveIt for parametrized motions, includes a custom assembly generator.
 
 ![](o2as.gif)
 
-- [Team NAIST-Panasonic at the Amazon Robotics Challenge 2017](https://github.com/warehouse-picking-automation-challenges/team_naist_panasonic). Single robot arm performing pick-and-place with recognition. Used MoveIt for motion primitives and kinematic checks and the robot's internal IK for linear motions.
+- [Diabolo Play](https://github.com/o2as/ur-o2as/). 2 robot arms with sticks and string, playing with a diabolo. Uses MoveIt and bio_ik. Includes a Gazebo simulation plugin and Rviz visualization.
+
+![](diabolo.gif)
+
+![](diabolosim.gif)
+
+- [Team NAIST-Panasonic at the Amazon Robotics Challenge 2017](https://github.com/warehouse-picking-automation-challenges/team_naist_panasonic). Single robot arm performing pick-and-place with recognition. Uses MoveIt for motion primitives and kinematic checks and the robot's internal IK for linear motions.
