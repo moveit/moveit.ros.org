@@ -38,7 +38,7 @@ All times are UTC-5 (US Central Daylight Time)
 |**10:15** | Hardware demonstration of mobile manipulation capabilities — Binit Shah|
 |**10:30** | [MoveIt overview](https://docs.google.com/presentation/d/1dts0_vhpo1DhMEBAlpB3LQBQjLHKG9oz3XmVHTs9p54/) — Mark Moll|
 |**11:00** | _Guided exploration:_ `stretch_moveit_config` demo — all|
-|**11:15** | MoveIt and the rest of ROS: perception, control, and simulation — Vatan Tezer |
+|**11:15** | [MoveIt and the rest of ROS: perception, control, and simulation] (https://docs.google.com/presentation/d/1Qx66OICZrTRzJ73qj3tsJS0eOS2Cqw5e-JaNmpRGywQ) — Vatan Tezer |
 |**11:45** | _Guided exploration:_ Ignition Demo World — all |
 |**12:00** | Break |
 |**12:15** | [High-level Task and Motion Planning using the MoveIt Task Constructor](https://docs.google.com/presentation/d/1v3oM9EmljaZklmBy27NgfRkhq1CZ7iEtnY_5jt1f_Po) — Henning Kayser |
