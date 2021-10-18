@@ -34,14 +34,14 @@ All times are UTC-5 (US Central Daylight Time)
 
 | Time | Title |
 |-----------|-------------------------|
-|**10:00** | Overview and Introduction — Dave Coleman &amp; Charlie Kemp|
+|**10:00** | Overview and [Introduction to Stretch](https://docs.google.com/presentation/d/1SvAXqfjtmg98fP72LTuWRPXanjfOeWEecIYdW-BU6RU) — Dave Coleman &amp; Charlie Kemp|
 |**10:15** | Hardware demonstration of mobile manipulation capabilities — Binit Shah|
-|**10:30** | MoveIt overview — Mark Moll|
+|**10:30** | [MoveIt overview](https://docs.google.com/presentation/d/1dts0_vhpo1DhMEBAlpB3LQBQjLHKG9oz3XmVHTs9p54/) — Mark Moll|
 |**11:00** | _Guided exploration:_ `stretch_moveit_config` demo — all|
-|**11:15** | MoveIt and the rest of ROS: perception, control, and simulation — Vatan Tezer |
+|**11:15** | [MoveIt and the rest of ROS: perception, control, and simulation] (https://docs.google.com/presentation/d/1Qx66OICZrTRzJ73qj3tsJS0eOS2Cqw5e-JaNmpRGywQ) — Vatan Tezer |
 |**11:45** | _Guided exploration:_ Ignition Demo World — all |
 |**12:00** | Break |
-|**12:15** | High-level Task and Motion Planning using the MoveIt Task Constructor — Henning Kayser |
+|**12:15** | [High-level Task and Motion Planning using the MoveIt Task Constructor](https://docs.google.com/presentation/d/1v3oM9EmljaZklmBy27NgfRkhq1CZ7iEtnY_5jt1f_Po) — Henning Kayser |
 |**12:45** | _Guided exploration:_ Pick and place with whole body planning — all |
 |**13:45** | Wrap up — Mark Moll|
 |**14:00** | Virtual happy hour — all|
@@ -77,5 +77,7 @@ Please complete the setup at least a day before the workshop. MoveIt maintainers
 
 Use one of following two options:
 
-1. **Docker**: _detailed instructions to follow_
-2. **ROS 2 Foxy installation**: _detailed instructions to follow_
+1. **Docker**: See [these detailed instructions](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/README.md#linux-installation-with-docker).
+2. **ROS 2 Galactic installation**: See [these detailed instructions](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/README.md#linux-installation-source).
+
+Please go through these instructions _before_ the workshop. The docker image is 6.29GB in size, so this may take some time to download (depending on the speed of your internet connection).
