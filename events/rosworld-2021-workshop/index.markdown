@@ -75,7 +75,4 @@ Please complete the setup at least a day before the workshop. MoveIt maintainers
 
 #### Installation instructions
 
-Use one of following two options:
-
-1. **Docker**: _detailed instructions to follow_
-2. **ROS 2 Foxy installation**: _detailed instructions to follow_
+Please follow the installation for docker or source-based instructions in [ros_world2021 branch of official stretch_ros2 repository](https://github.com/hello-robot/stretch_ros2/tree/ros_world2021).
