@@ -78,6 +78,6 @@ Please complete the setup at least a day before the workshop. MoveIt maintainers
 Use one of following two options:
 
 1. **Docker**: See [these detailed instructions](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/README.md#linux-installation-with-docker).
-2. **ROS 2 Foxy installation**: See [these detailed instructions](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/README.md#linux-installation-source).
+2. **ROS 2 Galactic installation**: See [these detailed instructions](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/README.md#linux-installation-source).
 
 Please go through these instructions _before_ the workshop. The docker image is 6.29GB in size, so this may take some time to download (depending on the speed of your internet connection).
