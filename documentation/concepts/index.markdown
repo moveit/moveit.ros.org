@@ -177,7 +177,7 @@ MoveIt uses a plugin infrastructure, especially targeted towards allowing users 
 
 ### **IKFast Plugin**
 
-Often, users may choose to implement their own kinematics solvers, e.g. the PR2 has its own kinematics solvers. A popular approach to implementing such a solver is using the [IKFast package](http://moveit2_tutorials.picknik.ai/doc/ikfast/ikfast_tutorial.html) to generate the C++ code needed to work with your particular robot.
+Often, users may choose to implement their own kinematics solvers, e.g. the PR2 has its own kinematics solvers. A popular approach to implementing such a solver is using the [IKFast package](https://ros-planning.github.io/moveit_tutorials/doc/ikfast/ikfast_tutorial.html) to generate the C++ code needed to work with your particular robot.
 
 ---
 
