@@ -18,7 +18,7 @@ In addition MoveIt has some extra style preferences:
 
 ## C++
 
- - We use C++14
+ - We use C++17
  - Use the C++ standard library (``std::``) whenever possible
  - Avoid C-style functions such as ``FLT_EPSILON`` - instead use ``std::numeric_limits<double>::epsilon()``
  - Boost is an encouraged library when functionality is not available in the standard library
