@@ -6,7 +6,7 @@ layout: post
 title: Hands-on training with MoveIt 2 and the Stretch mobile manipulator
 media_type: video
 media_link: TBD
-description: The MoveIt community is proud to announce the release of MoveIt 2.2 Galactic
+description: Mobile Manipulation with MoveIt 2 Workshop at ROS World 2021
 categories:
 - ROS
 - MoveIt
