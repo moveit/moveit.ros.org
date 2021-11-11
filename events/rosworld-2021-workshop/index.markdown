@@ -27,21 +27,22 @@ This workshop will provide a hands-on introduction to MoveIt 2. Participants wil
 * Charlie Kemp (Hello Robot)
 * Binit Shah (Hello Robot)
 
+Additional assistance during breakout sessions will be provided by David Lu!!, Cassidy Elliott, and Andy Zelenak (all from PickNik).
+
 ### Program (Tentative)
 
 All times are UTC-5 (US Central Daylight Time)
 
-
 | Time | Title |
 |-----------|-------------------------|
-|**10:00** | Overview and [Introduction to Stretch](https://docs.google.com/presentation/d/1SvAXqfjtmg98fP72LTuWRPXanjfOeWEecIYdW-BU6RU) — Dave Coleman &amp; Charlie Kemp|
+|**10:00** | Overview and [Introduction to Stretch](https://docs.google.com/presentation/d/1SvAXqfjtmg98fP72LTuWRPXanjfOeWEecIYdW-BU6RU) [[PDF]](ROS World 2021 Tutorial - Introduction to Stretch.pdf) — Dave Coleman &amp; Charlie Kemp|
 |**10:15** | Hardware demonstration of mobile manipulation capabilities — Binit Shah|
-|**10:30** | [MoveIt overview](https://docs.google.com/presentation/d/1dts0_vhpo1DhMEBAlpB3LQBQjLHKG9oz3XmVHTs9p54/) — Mark Moll|
+|**10:30** | [MoveIt overview](https://docs.google.com/presentation/d/1dts0_vhpo1DhMEBAlpB3LQBQjLHKG9oz3XmVHTs9p54/) [[PDF]](ROSWorld 2021 - Mobile Manipulation Workshop - MoveIt Overview.pdf) — Mark Moll|
 |**11:00** | _Guided exploration:_ `stretch_moveit_config` demo — all|
-|**11:15** | [MoveIt and the rest of ROS: perception, control, and simulation](https://docs.google.com/presentation/d/1Qx66OICZrTRzJ73qj3tsJS0eOS2Cqw5e-JaNmpRGywQ) — Vatan Tezer |
+|**11:15** | [MoveIt and the rest of ROS: perception, control, and simulation](https://docs.google.com/presentation/d/1Qx66OICZrTRzJ73qj3tsJS0eOS2Cqw5e-JaNmpRGywQ) [[PDF]](MoveIt and the rest of ROS_ Perception, Control, and Simulation ROSWorld October 2021 - Mobile Manipulation Workshop.pdf) — Vatan Tezer |
 |**11:45** | _Guided exploration:_ Ignition Demo World — all |
 |**12:00** | Break |
-|**12:15** | [High-level Task and Motion Planning using the MoveIt Task Constructor](https://docs.google.com/presentation/d/1v3oM9EmljaZklmBy27NgfRkhq1CZ7iEtnY_5jt1f_Po) — Henning Kayser |
+|**12:15** | [High-level Task and Motion Planning using the MoveIt Task Constructor](https://docs.google.com/presentation/d/1v3oM9EmljaZklmBy27NgfRkhq1CZ7iEtnY_5jt1f_Po) [[PDF]](ROSWorld 2021 - Mobile Manipulation Workshop - MoveIt Task Constructor.pdf) — Henning Kayser |
 |**12:45** | _Guided exploration:_ Pick and place with whole body planning — all |
 |**13:45** | Wrap up — Mark Moll|
 |**14:00** | Virtual happy hour — all|
@@ -81,3 +82,19 @@ Use one of following two options:
 2. **ROS 2 Galactic installation**: See [these detailed instructions](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/README.md#linux-installation-source).
 
 Please go through these instructions _before_ the workshop. The docker image is 6.29GB in size, so this may take some time to download (depending on the speed of your internet connection).
+
+### Further reading & watching
+
+* The code for the workshop can be found in the `ros_world2021` branch of the [`stretch_ros2` repo](https://github.com/hello-robot/stretch_ros2/tree/ros_world2021) on GitHub.
+* The [MoveIt Concepts page](https://moveit.ros.org/documentation/concepts/) goes into more detail than the workshop in describing the general structure of MoveIt.
+* There are [many more MoveIt 2 tutorials](http://moveit2_tutorials.picknik.ai) available.
+* [This paper](https://arxiv.org/abs/2109.10892) describes in more detail the design of the Stretch mobile manipulator from Hello Robotics, while more information on the Stretch payload and pulling force can be found [here](Stretch Payload & Pulling Force.pdf).
+* Video demos from the different _Guided exploration_ sessions:
+  1. A demonstration of the MoveIt motion planning panel in RViz:<br>
+     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MwDs_uX6SKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  2. A basic pick & place demo [[code]](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/stretch_roscon_demos/src/move_group_interface_demo.cpp):<br>
+     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/auazxjtOjsY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  3. An advanced pick & place demo using the MoveIt Task Constructor [[code]](https://github.com/PickNikRobotics/stretch_moveit_plugins/tree/main/pick_place_task):<br>
+     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Tm93GFlT234" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  4. Whole body planning with execution in a complex environment in Ignition:<br>
+     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pmpdBpE_Rng" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
