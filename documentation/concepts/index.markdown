@@ -9,7 +9,7 @@ title: Concepts
 
 # Concepts
 
-The following is an overview of how MoveIt works. For more concrete documentation and details see the [tutorials](http://moveit2_tutorials.picknik.ai/) or the [developers' concepts](/documentation/concepts/developer_concepts/).
+The following is an overview of how MoveIt works. For more concrete documentation and details see the [tutorials](https://moveit.picknik.ai/) or the [developers' concepts](/documentation/concepts/developer_concepts/).
 
 ## System Architecture
 
@@ -30,7 +30,7 @@ The users can access the actions and services provided by _move_group_ in three 
 
 - **In Python** - using the [moveit_commander](http://docs.ros.org/noetic/api/moveit_commander/html/classmoveit__commander_1_1move__group_1_1MoveGroupCommander.html) package
 
-- **Through a GUI** - using the [Motion Planning plugin to Rviz](http://moveit2_tutorials.picknik.ai/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html) (the ROS visualizer)
+- **Through a GUI** - using the [Motion Planning plugin to Rviz](https://moveit.picknik.ai/foxy/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html) (the ROS visualizer)
 
 _move_group_ can be configured using the ROS param server from where it will also get the URDF and SRDF for the robot.
 

@@ -133,4 +133,4 @@ As of June 8th 2021, we have an experimental chain of PRs that enable compiling 
 
 We are looking for help from upstream maintainers to release their packages so that MoveIt Galactic can be released. We are also facing challenges relating to pre-release testing of packages and debugging packages failing on the buildfarm. When these two issues are resolved we will have a Galactic and Rolling release.
 
-There has been a lot of recent progress in porting the [tutorials](http://moveit2_tutorials.picknik.ai) to MoveIt 2. We look forward to the official release of MoveIt 2 Galactic on June 30th!
+There has been a lot of recent progress in porting the [tutorials](http://moveit.picknik.ai) to MoveIt 2. We look forward to the official release of MoveIt 2 Galactic on June 30th!

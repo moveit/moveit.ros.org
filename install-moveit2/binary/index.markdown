@@ -79,7 +79,7 @@ title: MoveIt 2 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="http://moveit2_tutorials.picknik.ai/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+        <a href="https://moveit.picknik.ai/foxy/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
           <span class="link-with-background">
             MoveIt 2 Getting Started Tutorial
           </span>
@@ -113,7 +113,7 @@ title: MoveIt 2 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="http://moveit2_tutorials.picknik.ai/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+        <a href="https://moveit.picknik.ai/foxy/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
           <span class="link-with-background">
             MoveIt 2 Getting Started Tutorial
           </span>
@@ -147,7 +147,7 @@ title: MoveIt 2 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="http://moveit2_tutorials.picknik.ai/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+        <a href="https://moveit.picknik.ai/foxy/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
           <span class="link-with-background">
             MoveIt 2 Getting Started Tutorial
           </span>
