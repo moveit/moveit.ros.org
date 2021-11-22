@@ -87,7 +87,7 @@ Please go through these instructions _before_ the workshop. The docker image is 
 
 * The code for the workshop can be found in the `ros_world2021` branch of the [`stretch_ros2` repo](https://github.com/hello-robot/stretch_ros2/tree/ros_world2021) on GitHub.
 * The [MoveIt Concepts page](https://moveit.ros.org/documentation/concepts/) goes into more detail than the workshop in describing the general structure of MoveIt.
-* There are [many more MoveIt 2 tutorials](http://moveit2_tutorials.picknik.ai) available.
+* There are [many more MoveIt 2 tutorials](http://moveit.picknik.ai) available.
 * [This paper](https://arxiv.org/abs/2109.10892) describes in more detail the design of the Stretch mobile manipulator from Hello Robotics, while more information on the Stretch payload and pulling force can be found [here](Stretch Payload & Pulling Force.pdf).
 * Video demos from the different _Guided exploration_ sessions:
   1. A demonstration of the MoveIt motion planning panel in RViz:<br>
