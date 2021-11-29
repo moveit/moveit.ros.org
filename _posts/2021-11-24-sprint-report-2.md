@@ -1,7 +1,7 @@
 ---
 author: Tyler Weaver
 comments: false
-date: 2021-11-24 17:00:00+07:00
+date: 2021-11-30 17:00:00+07:00
 layout: post
 slug: sprint-report-2
 title: MoveIt Sprint Report
