@@ -19,7 +19,7 @@ We are on our second MoveIt sprint using ZenHub for planning and would like to s
 - [AndyZe](https://github.com/AndyZe) is working to get [sjahr](https://github.com/sjahr)'s Hybrid Planning feature finished.
 - [DLu](https://github.com/DLu) is working on improving robot_description handling.
 - [henningkayser](https://github.com/henningkayser) updated documentation, did many reviews, and lead the team.
-- [JafarAbdi](https://github.com/JafarAbdi) cut a Foxy release to get bug fixes out into debains.
+- [JafarAbdi](https://github.com/JafarAbdi) cut a Foxy release to get bug fixes out into debians.
 - [schornakj](https://github.com/schornakj) added functionality to MoveItControllerManager to let it manage more than just trajectory execution controllers.
 - [stephanie-eng](https://github.com/stephanie-eng) added descriptions and default values to parameters for moveit_servo.
 - [tylerjw](https://github.com/tylerjw) continued the project of making the documentation more correct and user-friendly.
