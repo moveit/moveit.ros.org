@@ -31,6 +31,13 @@ This sprint [henningkayser](https://github.com/henningkayser) is continuing his 
 The Hybrid Planner is also getting close to being merged.
 These improvements and many more are targeted to be included in our December Galactic release of MoveIt.
 
+### MoveIt Task Constructor on ROS 2
+
+[JafarAbdi](https://github.com/JafarAbdi) project to port MTC to ROS 2 is now merged.
+You can see his work [here in the PR](https://github.com/ros-planning/moveit_task_constructor/pull/170).
+It is an impressive 3k line change.
+The next step in this project is to port rviz_marker_tools, which will enable more of MTC to be usable in ROS 2.
+
 ### Infrastructure
 
 [vatanaksoytezer](https://github.com/vatanaksoytezer) made some nice additions to our infrastructure.
