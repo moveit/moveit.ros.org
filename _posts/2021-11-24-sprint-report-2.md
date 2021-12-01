@@ -15,7 +15,7 @@ categories:
 
 We are on our second MoveIt sprint using ZenHub for planning and would like to share with you what the PickNik team is doing to improve MoveIt.  From a high level the major efforts of this sprint were:
 
-- [Abishalin](https://github.com/Abishalini) has taken over forward porting work from MoveIt on ROS 1 and finished a PR for testing of TrajectoryMonitor.
+- [Abishalini](https://github.com/Abishalini) has taken over forward porting work from MoveIt on ROS 1 and finished a PR for testing of TrajectoryMonitor.
 - [AndyZe](https://github.com/AndyZe) is working to get [sjahr](https://github.com/sjahr)'s Hybrid Planning feature finished.
 - [DLu](https://github.com/DLu) is working on improving robot_description handling.
 - [henningkayser](https://github.com/henningkayser) updated documentation, did many reviews, and lead the team.
@@ -65,4 +65,4 @@ Here is a link to her PR: [Use ros2 interfaces for parameters in moveit_servo](h
 ### Syncing changes from MoveIt on ROS 1
 
 [henningkayser](https://github.com/henningkayser) added documentation to the [MoveIt website here](https://moveit.ros.org/documentation/contributing/syncing_backporting/) about the process we are now using to sync changes made on MoveIt on ROS 1 into MoveIt on ROS 2.
-[Abishalin](https://github.com/Abishalini) has taken doing the work of these syncs and has closed many of these.  We are still many commits behind but are now doing syncs regularly and catching up.
+[Abishalini](https://github.com/Abishalini) has taken doing the work of these syncs and has closed many of these.  We are still many commits behind but are now doing syncs regularly and catching up.
