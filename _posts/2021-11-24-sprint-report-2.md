@@ -33,10 +33,9 @@ These improvements and many more are targeted to be included in our December Gal
 
 ### MoveIt Task Constructor on ROS 2
 
-[JafarAbdi](https://github.com/JafarAbdi) project to port MTC to ROS 2 is now merged.
+[JafarAbdi](https://github.com/JafarAbdi)'s project to port MTC to ROS 2 is now merged.
 You can see his work [here in the PR](https://github.com/ros-planning/moveit_task_constructor/pull/170).
-It is an impressive 3k line change.
-The next step in this project is to port rviz_marker_tools, which will enable more of MTC to be usable in ROS 2.
+MTC is now complete ready to be used on ROS 2.
 
 ### Infrastructure
 
