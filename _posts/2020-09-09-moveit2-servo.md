@@ -29,7 +29,7 @@ Pick and place, mobile manipulation, and contact tasks are the kinds of things S
 
 ## Interface Options
 
-Servo can still be run through its C++ API, and this remains a great option for using Servo in your projects. A demonstration of the C++ API in action was included with the ROS 2 effort, and the hope is that you can get MoveIt Servo running within minutes using this demo, similar to the available [moveit_cpp](https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_moveit_cpp) demonstration included in the Foxy release. See the [Servo demonstration page](https://moveit.picknik.ai/foxy/doc/realtime_servo/realtime_servo_tutorial.html) for details on getting started.
+Servo can still be run through its C++ API, and this remains a great option for using Servo in your projects. A demonstration of the C++ API in action was included with the ROS 2 effort, and the hope is that you can get MoveIt Servo running within minutes using this demo, similar to the available [MoveItCpp Tutorial](https://moveit.picknik.ai/foxy/doc/moveit_cpp/moveitcpp_tutorial.html) demonstration included in the Foxy version of MoveIt2 tutorials. See the [Servo demonstration page](https://moveit.picknik.ai/foxy/doc/realtime_servo/realtime_servo_tutorial.html) for details on getting started.
 
 ![](/assets/images/blog_posts/moveit2_servo/Cpp_Interface_Demo.gif)
 
