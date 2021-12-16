@@ -76,7 +76,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
       <td class="dev">planned</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/ros-planning/moveit2/tree/main/moveit_demo_nodes/run_ompl_constrained_planning" target="_blank">Probabilistically complete Cartesian Planning</a></td>
+      <td><a href="https://github.com/ros-planning/moveit2/tree/4cbd1a767630c3a98eeef8e91cb0fc8627f57c94/moveit_demo_nodes/run_ompl_constrained_planning" target="_blank">Probabilistically complete Cartesian Planning</a></td>
       <td class="dev"><a href="https://github.com/ros-planning/moveit/pull/2273" target="_blank">Stale Patch</a></td>
       <td class="done">✓</td>
     </tr>
