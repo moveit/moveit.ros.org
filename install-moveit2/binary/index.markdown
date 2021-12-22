@@ -23,7 +23,7 @@ title: MoveIt 2 Binary Install
             </div>
           </div>
       </button>
-      <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Galactic" aria-expanded="true" aria-controls="Galatic">
+      <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Galactic" aria-expanded="true" aria-controls="Galactic">
         <div class="row no-gutters">
             <div class="col-auto">
                 <img src="/assets/install_page/ros_icon.png"/>

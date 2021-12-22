@@ -69,7 +69,7 @@ title: MoveIt 1 Docker Install
       </code>
     </div>
     <p>As the previous command dropped the <span class="ros-command">--rm</span> option, the container will be persistent, so changes you make inside the container will remain.</p>
-    <p>Running <span class="ros-command">gui-docker</span> in multiple terminals will connect them all to the same container. For convienence, the script defines sensible defaults. For example running the following command will try to pull the docker image containing the current master branch's source build namely, <a href="https://hub.docker.com/r/moveit/moveit/tags?page=1&ordering=last_updated" target="_blank"> moveit/moveit:master-source</a>, and if there already exists a container with this image, will directy connect to that container.</p>
+    <p>Running <span class="ros-command">gui-docker</span> in multiple terminals will connect them all to the same container. For convenience, the script defines sensible defaults. For example running the following command will try to pull the docker image containing the current master branch's source build namely, <a href="https://hub.docker.com/r/moveit/moveit/tags?page=1&ordering=last_updated" target="_blank"> moveit/moveit:master-source</a>, and if there already exists a container with this image, will directly connect to that container.</p>
     <div class="bash-command">
       <code>
         ./gui-docker
@@ -96,7 +96,7 @@ title: MoveIt 1 Docker Install
             </div>
             <div class="col-4 install-card-single">
                 <h3>moveit/moveit:melodic-release</h3>
-                <p>builds ontop of the CI image, the full debian-based install of MoveIt using apt.</p>
+                <p>builds on top of the CI image, the full debian-based install of MoveIt using apt.</p>
             </div>
             <div class="col-4 install-card-single">
                 <h3>moveit/moveit:master-ci</h3>

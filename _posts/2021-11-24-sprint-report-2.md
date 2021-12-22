@@ -50,7 +50,7 @@ We've already used it several times for things in the tutorials and it is saving
 The base homepage of the tutorials for MoveIt 2 has changed this sprint from [http:://moveit2_tutorials.picknik.ai](https://moveit.picknik.ai) to [https://moveit.picknik.ai](https://moveit.picknik.ai).
 The reason for the URL change is that it is a GitHub page and you cannot get an SSL certificate for pages with an underscore in the name.
 
-Secondly, the tutorials now follow the pattern of the [offical ROS 2 docs](https://docs.ros.org/en/foxy/index.html) in that they are deployed from multiple branches for the various ROS repos.
+Secondly, the tutorials now follow the pattern of the [official ROS 2 docs](https://docs.ros.org/en/foxy/index.html) in that they are deployed from multiple branches for the various ROS repos.
 
 Currently, the Foxy version is the most up-to-date and tested version of the tutorials.
 We look forward to having a well-tested Galactic version of the tutorials ready soon.

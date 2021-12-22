@@ -52,7 +52,7 @@ Results of the MoveIt! Survey are now posted [here]({{ site.url }}/assets/pdfs/2
 * Kinova Jaco (3)
 * Korus Homemate robot
 * KUKA LBR (3)
-* Kuka Leightweight Arm (7)
+* Kuka Lightweight Arm (7)
 * KUKA LWR4
 * KUKA OmniRob
 * KUKA youBot (2)

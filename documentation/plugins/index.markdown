@@ -51,7 +51,7 @@ The interface is defined in the [move_group_capability.h](https://github.com/ros
 
 Moveit offers a number of [default capabilities](https://github.com/ros-planning/moveit/tree/master/moveit_ros/move_group/src/default_capabilities). A description of these can be found [here](https://github.com/ros-planning/moveit/blob/master/moveit_ros/move_group/default_capabilities_plugin_description.xml).
 
-An example for a specific plugin is the [cartesian_path_service_capability](https://github.com/ros-planning/moveit/blob/master/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp). This particular plugin can be used to compute a cartesian path. The implementation of the intialized function is shown below. In the example the plugin advertises a topic containing information about the trajectory and a service for computing a new trajectory.
+An example for a specific plugin is the [cartesian_path_service_capability](https://github.com/ros-planning/moveit/blob/master/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp). This particular plugin can be used to compute a cartesian path. The implementation of the initialized function is shown below. In the example the plugin advertises a topic containing information about the trajectory and a service for computing a new trajectory.
 
 ```
 void move_group::MoveGroupCartesianPathService::initialize()

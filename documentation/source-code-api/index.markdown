@@ -23,7 +23,7 @@ MoveIt code is hosted on GitHub in the [ros-planning organization](http://github
   - moveit_ros_planning_interface - Python and ROS msg interfaces to communicate with `move_group`
   - moveit_ros_perception - Octomap and other perception plugins
   - moveit_ros_manipulation - High level pick and place pipeline
-  - moveit_ros_robot_interaction - Interative marker tools for Rviz
+  - moveit_ros_robot_interaction - Interactive marker tools for Rviz
   - moveit_ros_visualization - Rviz tools
   - moveit_ros_warehouse - Database plugins for storing scene and configuration data
   - moveit_ros_benchmarks - Benchmarking using PlannerArena
@@ -62,7 +62,7 @@ The following repos are where documentation can be found:
 
 # Code Health
 
-We use [Travis](https://travis-ci.org/ros-planning/) continous integration combined with the [moveit_ci](https://github.com/ros-planning/moveit_ci) for testing pull requests and overall code health. Travis status badges should be visible on the README.md of every MoveIt repository.
+We use [Travis](https://travis-ci.org/ros-planning/) continuous integration combined with the [moveit_ci](https://github.com/ros-planning/moveit_ci) for testing pull requests and overall code health. Travis status badges should be visible on the README.md of every MoveIt repository.
 
 To see an overview of the activity for MoveIt check our [Open HUB Project Summary](https://www.openhub.net/p/moveit/analyses/latest/languages_summary).
 

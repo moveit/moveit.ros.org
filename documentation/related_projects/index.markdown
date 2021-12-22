@@ -64,7 +64,7 @@ A sample implementation as MoveIt "GraspPlanning" plugin, to perform grasps dete
 
 Geometric grasping generator library for cuboids. A basic grasp generator for objects such as blocks or cylinders for use with the MoveIt pick and place pipeline. Does not consider friction cones or other dynamics.
 
-Its current implementation takes as input a pose vector (postition and orientation) and generates a large number of potential grasp approaches and directions. Also includes a grasp filter for removing kinematically infeasible grasps via threaded IK solvers. [More Info](https://github.com/PickNikRobotics/moveit_grasps)
+Its current implementation takes as input a pose vector (position and orientation) and generates a large number of potential grasp approaches and directions. Also includes a grasp filter for removing kinematically infeasible grasps via threaded IK solvers. [More Info](https://github.com/PickNikRobotics/moveit_grasps)
 
 <img src="/assets/images/related_projects/moveit_grasps.png" height="500"/>
 
