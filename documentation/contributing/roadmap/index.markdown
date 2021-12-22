@@ -18,7 +18,7 @@ title: MoveIt Roadmap
   </div>
 </div>
 <div class="row current-version roadmap-current-version">
-    <a class="button button-transparent button-transparent__blue" href="/documentation/contributing/releases/">See Every 6 Week Release Schedule</a>
+    <a class="button button-transparent button-transparent__blue" href="https://app.zenhub.com/workspaces/moveit-61675936b391800012280f6d/roadmap">Detailed Roadmap on ZenHub</a>
 
     <!-- Release progress bar -->
     {% include release-progress.html %}
