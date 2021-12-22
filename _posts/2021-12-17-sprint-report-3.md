@@ -20,7 +20,7 @@ We have just finished our third MoveIt sprint using ZenHub for planning and woul
 - [Abishalini](https://github.com/Abishalini) continues to lead the work of forward porting from MoveIt on ROS 1.  In this sprint, she merged a particularly large forward port containing some nuanced cmake changes.
 - [AndyZe](https://github.com/AndyZe) finished getting the Hybrid Planner merged.  He also landed a tutorial for it to make it easier for users.
 - [DLu](https://github.com/DLu) landed his change to improve robot_description handling and opened a PR that refactors and ports the framework for MoveIt Setup Assistant.
-- [henningkayser](https://github.com/henningkayser) finished his port of the Pilz Planner and got that merged.
+- [henningkayser](https://github.com/henningkayser) finished his port of the [Pilz Industrial Motion Planner](https://moveit.picknik.ai/main/doc/pilz_industrial_motion_planner/pilz_industrial_motion_planner.html?highlight=pilz) and got that merged.
 - [JafarAbdi](https://github.com/JafarAbdi) released rviz_visual_tools, moveit_visual_tools, and moveit_msgs into various ROS 2 distros.
 - [ParthasarathyBana](https://github.com/ParthasarathyBana) merged his first PR into MoveIt getting rid of our use of ``std::endl``.
 - [stephanie-eng](https://github.com/stephanie-eng) updated the links and list of MoveIt items on REP2005.
