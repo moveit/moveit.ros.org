@@ -23,7 +23,7 @@ We have just finished our third MoveIt sprint using ZenHub for planning and woul
 - [henningkayser](https://github.com/henningkayser) finished his port of the [Pilz Industrial Motion Planner](https://moveit.picknik.ai/main/doc/pilz_industrial_motion_planner/pilz_industrial_motion_planner.html?highlight=pilz) and got that merged.
 - [JafarAbdi](https://github.com/JafarAbdi) released rviz_visual_tools, moveit_visual_tools, and moveit_msgs into various ROS 2 distros.
 - [ParthasarathyBana](https://github.com/ParthasarathyBana) merged his first PR into MoveIt getting rid of our use of ``std::endl``.
-- [stephanie-eng](https://github.com/stephanie-eng) updated the links and list of MoveIt items on REP2005.
+- [stephanie-eng](https://github.com/stephanie-eng) updated the links and list of MoveIt items on [REP2005](https://www.ros.org/reps/rep-2005.html).
 - [tylerjw](https://github.com/tylerjw) find ways to speed our CI times and continued his work refactoring servo.
 - [vatanaksoytezer](https://github.com/vatanaksoytezer) moved the run_* examples from moveit2 into the tutorials package.
 
