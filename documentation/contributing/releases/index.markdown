@@ -13,15 +13,7 @@ This 6 week pace is a balance between releasing new improvements quickly and pre
 
 ## Upcoming releases
 
-The release schedule is shown here:
-
-<iframe src="https://calendar.google.com/calendar/embed?src=c_bpueq5jcajuaejr2di0hdr4qgg%40group.calendar.google.com&ctz=America%2FDenver" width="100%" height="350px" title="MoveIt release calendar"></iframe>
-
-### Typical Release Schedule
-
-* Friday: Begin preparing release
-* Following Friday: Bloom
-* Tuesday After Bloom: Public Announcement
+Releases for MoveIt are planned using the ZenHub Roadmap.  You can follow our [detailed Roadmap here](https://app.zenhub.com/workspaces/moveit-61675936b391800012280f6d/roadmap).
 
 ## Permissions
 
