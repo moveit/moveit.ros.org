@@ -8,7 +8,7 @@ title: MoveIt Roadmap
 
 <div class='row'>
   <div class='col-sm-12 col-lg-6'>
-    <h1>MoveIt Roadmap 2021</h1>
+    <h1>MoveIt Roadmap 2022</h1>
     <p class="paragraph-big">
       As an open source project, we rely on everyone to get involved with contributions of new features and bug improvements. Financial support in the form of grants and code sprints are of course welcomed too! Please <a href="https://picknik.ai/connect/" target="_blank">contact us</a> if you’re interested in supporting these efforts.
     </p>
