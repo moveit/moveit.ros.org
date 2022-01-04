@@ -8,7 +8,7 @@ title: MoveIt Roadmap
 
 <div class='row'>
   <div class='col-sm-12 col-lg-6'>
-    <h1>MoveIt Roadmap 2021</h1>
+    <h1>MoveIt Roadmap 2022</h1>
     <p class="paragraph-big">
       As an open source project, we rely on everyone to get involved with contributions of new features and bug improvements. Financial support in the form of grants and code sprints are of course welcomed too! Please <a href="https://picknik.ai/connect/" target="_blank">contact us</a> if you’re interested in supporting these efforts.
     </p>
@@ -53,7 +53,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__2">
-          June 2021
+          Landed December 2021
         </div>
         <div class="release-versions__3">
           <div class="release-versions__divide">
@@ -68,14 +68,36 @@ title: MoveIt Roadmap
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Migrate Pilz Industrial Motion Planner to ROS 2</h3>
+          <h3>Port MoveIt Task Constructor to ROS 2</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit_task_constructor/pull/170" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__2">
+          Landed November 2021
+        </div>
+        <div class="release-versions__3">
+          <div class="release-versions__divide">
+            <strong>Jafar Abdi</strong><br/>
+            PickNik
+          </div>
+          <div class="release-versions__divide">
+            <strong>Henning Kayser</strong><br/>
+            PickNik
+          </div>
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>Port Pilz Industrial Motion Planner to ROS 2</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
             <a href="https://github.com/ros-planning/moveit2/issues/315" target="_blank">View issue</a>
           </p>
         </div>
         <div class="release-versions__2">
-          July 2021
+          Landed December 2021
         </div>
         <div class="release-versions__3">
           <strong>Henning Kayser</strong><br/>
@@ -91,7 +113,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__2">
-          October 2021
+          May 2022
         </div>
         <div class="release-versions__3">
           <div class="release-versions__divide">
@@ -99,11 +121,11 @@ title: MoveIt Roadmap
             PickNik
           </div>
           <div class="release-versions__divide">
-            <strong>Tyler Weaver</strong><br/>
+            <strong>David Lu!</strong><br/>
             PickNik
           </div>
-	</div>
-      </div>
+        </div>
+    	</div>
       <div class="release-versions__content">
         <div class="release-versions__1">
           <h3>Scene Graph Support</h3>
