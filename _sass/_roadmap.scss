@@ -110,6 +110,9 @@
       }
 
       &__1 {
+        flex: 0 0 40%;
+        max-width: 40%;
+
         @media screen and (max-width: 992px) {
           flex: 0 0 100%;
           max-width: 100%;

@@ -42,6 +42,7 @@ title: MoveIt Roadmap
       <div class="release-versions__1">FEATURE</div>
       <div class="release-versions__2">ESTIMATED DATE</div>
       <div class="release-versions__3">FEATURE LEAD</div>
+      <div class="release-versions__4">STATUS</div>
     </div>
     <div class="release-versions__body">
       <div class="release-versions__content">
@@ -65,6 +66,9 @@ title: MoveIt Roadmap
             PickNik
           </div>
         </div>
+        <div class="release-versions__4">
+          <strong>TBD</strong><br/>
+        </div>
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
@@ -80,6 +84,9 @@ title: MoveIt Roadmap
         <div class="release-versions__3">
           <strong>Henning Kayser</strong><br/>
           PickNik
+        </div>
+        <div class="release-versions__4">
+          <strong>TBD</strong><br/>
         </div>
       </div>
       <div class="release-versions__content">
@@ -102,7 +109,10 @@ title: MoveIt Roadmap
             <strong>Tyler Weaver</strong><br/>
             PickNik
           </div>
-	</div>
+	      </div>
+        <div class="release-versions__4">
+          <strong>TBD</strong><br/>
+        </div>
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
@@ -119,6 +129,9 @@ title: MoveIt Roadmap
           <strong>Felix von Drigalski</strong><br/>
           OMRON SINIC X
         </div>
+        <div class="release-versions__4">
+          <strong>TBD</strong><br/>
+        </div>
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
@@ -134,6 +147,9 @@ title: MoveIt Roadmap
         <div class="release-versions__3">
           <strong>TBD</strong><br/>
         </div>
+        <div class="release-versions__4">
+          <strong>TBD</strong><br/>
+        </div>
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
@@ -147,6 +163,9 @@ title: MoveIt Roadmap
           December 2021
         </div>
         <div class="release-versions__3">
+          <strong>TBD</strong><br/>
+        </div>
+        <div class="release-versions__4">
           <strong>TBD</strong><br/>
         </div>
       </div>
