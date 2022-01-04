@@ -141,6 +141,9 @@
   filter: grayscale(100%);
   width: 180px;
   margin: 32px 40px 0;
+  &:hover {
+    filter: none;
+  }
 }
 
 .blue-circle {
