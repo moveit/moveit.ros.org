@@ -132,18 +132,9 @@
 }
 
 .companies-using-moveit-logos {
-  opacity: 1;
   vertical-align: middle;
-  transition: filter 0.5s ease-in-out;
-  transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -webkit-transition: opacity 0.25s ease-in-out;
-  filter: grayscale(100%);
   width: 180px;
   margin: 32px 40px 0;
-  &:hover {
-    filter: none;
-  }
 }
 
 .blue-circle {

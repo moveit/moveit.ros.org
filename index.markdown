@@ -155,6 +155,7 @@ redirect_from: '/moveit/'
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/franka-logo.png" alt="Franka Emika logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/pal-logo.png" alt="Pal Robotics logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/kinova-logo.png" alt="Kinova logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/samsung.png" alt="Samsung logo">
                     </div>
                 </div>
                 <div class="row justify-content-between block-with-image">
