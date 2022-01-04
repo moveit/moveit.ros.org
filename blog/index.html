@@ -7,9 +7,9 @@ slug: blog
 title: Blog
 ---
 
-<div class="row">
+<div class="row blog-main-row">
   {% for post in site.posts limit: 1 %}
-  <div class="col-sm-6 col-lg-8">
+  <div class="col-md-12 col-lg-8">
     <a href="{{ post.url }}">
       {% if post.media_type == 'video' %}
       <div class="blog-image-wrapper blog-image-wrapper-main">
@@ -33,7 +33,7 @@ title: Blog
       {% endif %}
     </a>
   </div>
-  <div class="col-sm-6 col-lg-4 blog-align-center">
+  <div class="col-md-12 col-lg-4 blog-align-center">
     <a href="{{ post.url }}">
       <div class="blog-text-wrapper">
         <span class="blog-date">
@@ -48,9 +48,9 @@ title: Blog
   </div>
   {% endfor %}
 </div>
-<div class="row">
+<div class="row blog-row">
   {% for post in site.posts offset:1 %}
-  <div class="col-sm-6 col-lg-4">
+  <div class="col-sm-12 col-md-6 col-lg-4">
     <div class="blog-single">
       <a href="{{ post.url }}">
         {% if post.media_type == 'video' %}

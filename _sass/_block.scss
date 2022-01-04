@@ -1,23 +1,38 @@
 .blog-single {
-  max-width: 300px;
-  margin: 0 auto 70px;
+  max-width: 350px;
+  margin-bottom: 70px;
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+}
+
+.blog-main-row {
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.blog-row {
+  justify-content: space-between;
 }
 
 .blog-align-center {
   display: flex;
   align-items: center;
-  @media screen and (max-width: 575px) {
-    margin-bottom: 50px;
-  }
 }
 
 .blog-image-wrapper {
-  height: 160px;
+  height: 180px;
   width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 25px;
   border: 1px solid rgba(128, 128, 128, 0.1);
+
+  @media screen and (max-width: 768px) {
+    height: 320px;
+  }
+
   &.real-image {
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +47,6 @@
 
   &-main {
     height: 320px;
-    margin-bottom: 60px;
     img,
     iframe {
       @media screen and (max-width: 768px) {
