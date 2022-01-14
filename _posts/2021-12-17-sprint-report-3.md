@@ -29,13 +29,13 @@ We have just finished our third MoveIt sprint using ZenHub for planning and woul
 
 ### MoveIt 2
 
-In this sprint, we landed the port of the [Pilz Industrial Motion Planner](https://moveit.picknik.ai/main/doc/pilz_industrial_motion_planner/pilz_industrial_motion_planner.html?highlight=pilz) into MoveIt 2.
+In this sprint, we landed the port of the [Pilz Industrial Motion Planner](https://moveit.picknik.ai/main/doc/examples/pilz_industrial_motion_planner/pilz_industrial_motion_planner.html?highlight=pilz) into MoveIt 2.
 
 The merge of this introduced a circular dependency we are working on resolving before we can release for Galactic and Rolling.
 There are two approaches in PRs and we are working out which approach will work best.
 [henningkayser](https://github.com/henningkayser) did this port over the last few sprints and was especially careful to make sure many of the tests were ported and working before we merged it.
 
-In this sprint, we also landed the [Hybrid Planner](https://moveit.picknik.ai/main/doc/hybrid_planning/hybrid_planning_tutorial.html) into MoveIt 2 which was the project of [sjahr](https://github.com/sjahr) this last summer.
+In this sprint, we also landed the [Hybrid Planner](https://moveit.picknik.ai/main/doc/examples/hybrid_planning/hybrid_planning_tutorial.html) into MoveIt 2 which was the project of [sjahr](https://github.com/sjahr) this last summer.
 [AndyZe](https://github.com/AndyZe) lead the effort to get it finished so it can be merged.
 
 We look forward to releasing both of these into Galactic and Rolling.

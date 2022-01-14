@@ -19,6 +19,7 @@ In addition to gratitude, some advantages of being a MoveIt maintainer / core co
  - Be listed on the MoveIt website
  - Networking opportunities: gain reputation in the largest robotics community on earth
  - Quicker code contributions: you only need one review to get your code merged in, while non-maintainer/non-core contributor pull requests require two approvals.
+ - Free MoveIt T-Shirt from PickNik Robotics
 
 ## Core Contributors
 
@@ -31,7 +32,9 @@ We also ask you have completed at minimum the following:
 
  - 2 substantial pull requests merged
  - 4 pull requests reviewed via the "Approve" or "Request Changes" button
- - 1 maintainer meeting attended
+ - 2 maintainer meetings attended
+
+If you feel like you qualify to be a core contributor please reach out to any of the [MoveIt Maintainers](https://moveit.ros.org/about/) and we'd be happy to discuss and get you added!
 
 ## Maintainers
 
@@ -47,8 +50,8 @@ We've formalized the process here to disambiguate when someone should be added.
 We hope it's not too intimidating as we want to add as many qualified Maintainers as possible.
 To qualify for being added to the group you must:
 
- - Have proven a good understanding of fundamental parts of the MoveIt code base
- - Have completed at least the minimum requirements for Core Contributors, above
+ - Have proven a decent understanding of fundamental parts of the MoveIt code base
+ - Have completed at least double of the minimum requirements for Core Contributors, above
  - Be willing to help review on average 1 pull request a week or more
  - Read the MoveIt pull request guidelines to understand our policies
 
@@ -84,10 +87,12 @@ In the [ros-planning](https://github.com/ros-planning/) Github organization, the
 
 These projects are run entirely by different teams, maintainer policies, etc.
 Write access between these two projects is isolated via usage of different Github Org Teams.
-In addition, MoveIt has a secondary Github team for non-write access. The ros-planning org currently has three total teams:
+In addition, MoveIt has a secondary Github team for non-write access. The ros-planning org currently has four total teams:
 
  - Navigation Maintainers
    - Has write access to all navigation-related packages
+ - MoveIt Admin
+   - Has write access to all MoveIt-related packages & admin access to all repos settings
  - MoveIt Maintainers
    - Has write access to all MoveIt-related packages
  - MoveIt Contributors
