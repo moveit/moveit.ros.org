@@ -5,7 +5,6 @@ date: 2022-01-10 10:00:00+00:00
 layout: page
 slug: 2022-moveit-community-meeting
 title: 2022 MoveIt Community Meeting
-redirect_from: "/events/2022-moveit-community-meeting/"
 ---
 
 ## 2022 MoveIt Community Meeting
