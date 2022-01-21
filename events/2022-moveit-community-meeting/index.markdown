@@ -8,24 +8,19 @@ title: 2022 MoveIt Community Meeting
 ---
 
 ## 2022 MoveIt Community Meeting
-The 2022 Moveit Community is a time to for the maintainers, enthusists, and experimenters with MOveit to meet, discuss, and decide the futture of MoveIt. The event will be 5 hours with speakers, decision groupis, and exhibitions to show MoveIt projects to the commuyity. The event will be held virtually on Swapcard.
+The 2022 Moveit Community is a time for the maintainers, enthusiasts, and experimenters with MOveit to meet, discuss, and decide the future of MoveIt. The event will be 5 hours with speakers, decision groups, and exhibitions to show MoveIt projects to the community. The event will be held virtually, with details to be determined.
 
-If you are interested in exhibiting a lighting talk, white paper, or other moveit related project pleas fill out this [form](wyx) by Feb 10th. You do not need to register as both a atende and an exhibitor;
-
-
-[Stretch mobile manipulator](https://hello-robot.com/)
 
 ### Time and Venue
 
-* Date: Thursday, Feb 17, 2022
-* Venue: Swapcard (virtual)
+* Date: Thursday, Feb 24, 2022
+* Venue: (virtual)
 
 ### Organizers
 
 * Mark Moll (PickNik)
 * Henning Kayser (PickNik)
 * Tyler Weaver (PickNik)
-* Sean Kolk (PickNik)
 
 
 ### Program (Tentative)
@@ -45,8 +40,8 @@ All times are UTC-6 (US Mountain  Time)
 
 
 ### Registation
-General atendee registation will be on (Eventbrite)[xyz] (free)
+General attendee registration: [Google Forum](https://docs.google.com/forms/d/e/1FAIpQLScaMfoY1iUKVnHDlqIuuEK91z53WfD669NFQqPKJ3AqMXNYXg/viewform?usp=sf_link) (free)
 
-If you are interested in exhibiting a lighting talk, white paper, or other moveit related project pleas fill out this [form](wyx) by Feb 10th. You do not need to register as both a atende and an exhibitor;
+If you are interested in exhibiting a lighting talk, white paper, or other MoveIt related projects, please fill out this [Exhibitor Form](https://docs.google.com/forms/d/e/1FAIpQLSdip4ByjDuaqaEPYlouO7ssDJ6XwuPbeJB4jnnPlC6SbY252A/viewform?usp=sf_link) by *Feb 15th*. You do not need to register as both an attendee and an exhibitor;
 
-If you have any questions email (sean.kolk@picknik.ai)[emailto:sean.kolk@picknik.ai]
+If you have any questions, email [henningkayser@picknik.ai](mailto:henningkayser@picknik.ai)
