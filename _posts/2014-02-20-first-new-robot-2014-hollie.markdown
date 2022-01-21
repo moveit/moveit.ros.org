@@ -12,7 +12,7 @@ categories:
 - General
 ---
 
-MoveIt! is excited to welcome our first new robot in 2014! HoLLiE the Assistance Robot is a mobile service robot with an actuated body and two Schunk Powerball arms. HoLLiE is an Acronym for “House of Living Labs intelligent Escort“ and was developed at the FZI Karlsruhe as part of the “House of Living Labs” (HoLL). One of HoLLiE's outstanding features is her ability to reach the floor by bending the body forwards, allowing her to pick up objects from the ground. Among other things, HoLLiE is a test platform for cutting-edge GPU-based real-time motion planning algorithms. For more information and pics visit: [http://www.fzi.de/forschung/projekt-details/hollie/](http://www.fzi.de/forschung/projekt-details/hollie/)
+MoveIt! is excited to welcome our first new robot in 2014! HoLLiE the Assistance Robot is a mobile service robot with an actuated body and two Schunk Powerball arms. HoLLiE is an Acronym for “House of Living Labs intelligent Escort“ and was developed at the FZI Karlsruhe as part of the “House of Living Labs” (HoLL). One of HoLLiE's outstanding features is her ability to reach the floor by bending the body forwards, allowing her to pick up objects from the ground. Among other things, HoLLiE is a test platform for cutting-edge GPU-based real-time motion planning algorithms.
 
 ![](/assets/images/robots/hollie.png)
 
