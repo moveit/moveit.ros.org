@@ -25,7 +25,7 @@ In addition to gratitude, some advantages of being a MoveIt maintainer / core co
 
 We have a stringent process for giving commit access to the code base, but we want to have as many people involved in reviewing pull requests and responding to issues.
 We have a non-commit access category ([Github Triage](https://github.blog/changelog/2019-05-23-triage-and-maintain-roles-beta/)) of MoveIt experts we call "Core Contributors" - these participants are recognized for their hard work and contributions to MoveIt early on.
-Eventually after fully proving their expertise, full maintainer/commiter status can be granted.
+Eventually after fully proving their expertise, full maintainer/committer status can be granted.
 
 To be considered a "Core Contributor", we look for demonstrated excitement about the MoveIt project.
 We also ask you have completed at minimum the following:

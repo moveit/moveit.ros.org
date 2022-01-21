@@ -265,7 +265,7 @@ title: MoveIt 1 Binary Install
           <img src="/assets/install_page/mac-os.png"> Install on Mac
         </h2>
         <h3>
-           <p>Our appologies, there are currently no documented instructions for MoveIt 1 on OSX.
+           <p>Our apologies, there are currently no documented instructions for MoveIt 1 on OSX.
               Various users have reported mixed results building MoveIt on OSX.</p>
            <p>MoveIt 2 has much better reported support for OSX.</p>
            <p>Please contribute any documentation you have to this Github repo, thanks!</p>

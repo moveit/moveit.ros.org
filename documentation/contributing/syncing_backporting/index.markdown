@@ -15,7 +15,7 @@ Syncing refers to the process of preparing a merge commit from one branch to ano
 This allows us to better keep track of all the changes that need to get synced, but also helps with resolving issues later on since the original history of the source branch is available in the correct order for later review.
 We usually only do this from the MoveIt 1 master branch to the `main` branch of MoveIt 2, but other repos could also use the same strategy.
 
-Backporting is the act of migrating isolated pull reqests or commits from one branch to another using a cherry-pick.
+Backporting is the act of migrating isolated pull requests or commits from one branch to another using a cherry-pick.
 The typical use case is that we backport bug-fixes from the MoveIt 2 `main` branch to stable distro branches or to MoveIt 1.
 
 Below are step-by-step guides that should help maintainers to perform a proper sync or backport.

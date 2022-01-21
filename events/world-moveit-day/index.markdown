@@ -60,7 +60,7 @@ If you are a beginner, we recommend the stable Indigo branch/release. The PR2, M
 Suggested areas for improvement will be tracked on the new unified moveit repo via several labels that are ideal for World MoveIt Day:
 
 - [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates the issue can probably be tackled in less than a few hours.
-- [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggestes new tutorials, changes to the website, etc.
+- [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials, changes to the website, etc.
 - [assigned](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+is%3Aissue+label%3Aassigned) aids developers to find issues that are not already being worked on.
 - **no label** - even issues that are not marked as "simple" can be worked on for World MoveIt day, though they will likely take longer than one day to compelete
 

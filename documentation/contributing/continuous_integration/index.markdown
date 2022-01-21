@@ -14,7 +14,7 @@ Here we outline the current setup of MoveIt's continuous integration setup, incl
 
 ## Docker
 
-For each ROS distribution there are up to 4 containers, built on top of a standard [ros:noetic-ros-base](https://hub.docker.com/_/ros/) (or other distro version) image. We use Dockerhub to automatically build new versions of the containers each time a code change is commited to the ``moveit`` repo (but only for the corresponding branch).
+For each ROS distribution there are up to 4 containers, built on top of a standard [ros:noetic-ros-base](https://hub.docker.com/_/ros/) (or other distro version) image. We use Dockerhub to automatically build new versions of the containers each time a code change is committed to the ``moveit`` repo (but only for the corresponding branch).
 
 ### CI Container
 
@@ -22,11 +22,11 @@ An image optimized for running continuous integration with Travis. This containe
 
 ## Source Container
 
-Builds ontop of the CI image, contains a full MoveIt workspace downloaded and built to ``~/ws_moveit/src``. This container is useful for developers wanting to test or develop in a sandbox.
+Builds on top of the CI image, contains a full MoveIt workspace downloaded and built to ``~/ws_moveit/src``. This container is useful for developers wanting to test or develop in a sandbox.
 
 ## Release Container
 
-Builds ontop of the CI image, the full debian-based install of MoveIt using ``apt``.
+Builds on top of the CI image, the full debian-based install of MoveIt using ``apt``.
 
 ## Experimental Container
 
@@ -38,9 +38,9 @@ MoveIt uses the [industrial_ci](https://github.com/ros-industrial/industrial_ci)
 
 ## Running industrial_ci jobs locally
 
-To setup your enviroment for running the CI workflows locally follow [these instructions from industrial_ci's documentation](https://github.com/ros-industrial/industrial_ci/blob/master/doc/index.rst#run-industrial-ci-on-local-host)
+To setup your environment for running the CI workflows locally follow [these instructions from industrial_ci's documentation](https://github.com/ros-industrial/industrial_ci/blob/master/doc/index.rst#run-industrial-ci-on-local-host)
 
-Industrial CI is configured using enviroment variables.  These can be found by expanding the top of the industrial_ci step in the CI job you'd like to replicate.  If you use [this job](https://github.com/ros-planning/moveit2/runs/2468526504) as an example you'll see this at the top of the industrial_ci step:
+Industrial CI is configured using environment variables.  These can be found by expanding the top of the industrial_ci step in the CI job you'd like to replicate.  If you use [this job](https://github.com/ros-planning/moveit2/runs/2468526504) as an example you'll see this at the top of the industrial_ci step:
 
 ```
 Run ros-industrial/industrial_ci@master
@@ -75,7 +75,7 @@ ros2 run industrial_ci rerun_ci ~/ws_moveit/src/moveit2 \
   CLANG_TIDY='true'
 ```
 
-You'll notice a couple things.  First is that I changed the ccache directory to use the ccache I have locally.  Do this if the enviroment you are running matches your local enviroment for a speed up.  The second is that I changed the ``AFTER_SETUP_UPSTREAM_WORKSPACE``.  This is because the directory used by CI is specific to github and we want to use the default directory structure from industrial_ci instead of a custom one.
+You'll notice a couple things.  First is that I changed the ccache directory to use the ccache I have locally.  Do this if the environment you are running matches your local environment for a speed up.  The second is that I changed the ``AFTER_SETUP_UPSTREAM_WORKSPACE``.  This is because the directory used by CI is specific to github and we want to use the default directory structure from industrial_ci instead of a custom one.
 
 After this finishes (pass or fail) it will output a docker commit tag that it creates.  That line will look something like this:
 
