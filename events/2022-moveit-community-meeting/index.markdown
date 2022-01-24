@@ -8,7 +8,7 @@ title: 2022 MoveIt Community Meeting
 ---
 
 ## 2022 MoveIt Community Meeting
-The 2022 Moveit Community is a time for the maintainers, enthusiasts, and experimenters with MOveit to meet, discuss, and decide the future of MoveIt. The event will be 5 hours with speakers, decision groups, and exhibitions to show MoveIt projects to the community. The event will be held virtually, with details to be determined.
+The 2022 MoveIt Community is a time for the maintainers, enthusiasts, and experimenters with MoveIt to meet, discuss, and decide the future of MoveIt. The event will be 5 hours with speakers, decision groups, and exhibitions to show MoveIt projects to the community. The event will be held virtually, with details to be determined.
 
 
 ### Time and Venue
