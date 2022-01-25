@@ -28,9 +28,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="https://roscon.ros.org/2021/">
+                                <a href="/events/2022-moveit-community-meeting">
                                     <span class="blue">Announcement</span>
-                                    <span>ROS World is Oct 19-21. Sign up now!</span>
+                                    <span>The 2022 MoveIt Community Meeting is Feb 24th! Sign Up! </span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
