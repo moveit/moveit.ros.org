@@ -1,7 +1,7 @@
 ---
 author: Sean Kolk
 comments: false
-date: 2022-01-25 10:00:00+00:00
+date: 2022-01-25 00:00:00 -0700
 layout: page
 slug: 2022-moveit-community-meeting
 title: 2022 MoveIt Community Meeting
