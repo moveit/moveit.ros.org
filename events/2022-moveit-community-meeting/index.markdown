@@ -34,7 +34,7 @@ title: 2022 MoveIt Community Meeting
 
 ## Program (Tentative)
 
-All times are UTC-6 (US Mountain  Time)
+All times are UTC-7 (US Mountain Time)
 
 | Event                               | Time        |
 | ----------------------------------- | ----------- |
