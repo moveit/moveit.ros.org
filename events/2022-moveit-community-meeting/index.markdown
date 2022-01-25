@@ -52,6 +52,6 @@ All times are UTC-6 (US Mountain  Time)
 ## Registation
 **General attendee registration:** [Google Forum](https://docs.google.com/forms/d/e/1FAIpQLScaMfoY1iUKVnHDlqIuuEK91z53WfD669NFQqPKJ3AqMXNYXg/viewform?usp=sf_link) (free)
 
-If you are interested in **exhibiting** a lighting talk, white paper, or other MoveIt related projects, please fill out this [Exhibitor Form](https://docs.google.com/forms/d/e/1FAIpQLSdip4ByjDuaqaEPYlouO7ssDJ6XwuPbeJB4jnnPlC6SbY252A/viewform?usp=sf_link) by *Feb 15th*. You do not need to register as both an attendee and an exhibitor;
+If you are interested in **exhibiting** a lighting talk ([here is a great how-to via ROSCon](https://discourse.ros.org/t/ros-world-2021-call-for-lightning-talk-videos/22298)), white paper, or other MoveIt related projects, please fill out this [Exhibitor Form](https://docs.google.com/forms/d/e/1FAIpQLSdip4ByjDuaqaEPYlouO7ssDJ6XwuPbeJB4jnnPlC6SbY252A/viewform?usp=sf_link) by *Feb 15th*. You do not need to register as both an attendee and an exhibitor;
 
 If you have any questions, email [henningkayser@picknik.ai](mailto:henningkayser@picknik.ai)
