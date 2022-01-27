@@ -39,13 +39,10 @@ All times are UTC-7 (US Mountain Time)
 | Event                               | Time        |
 | ----------------------------------- | ----------- |
 | Opening                             | 8:00:00 AM  |
-| MoveIt 2022 highlights              | 8:15:00 AM  |
-| Motion planning and MoveIt           | 8:30:00 AM  |
-| Networking session (dedicated time) | 10:00:00 AM |
-| The current state of Industrial Robots and MoveIt      | 11:00:00 AM |
-| Working group break out sessions    | 11:30:00 AM |
-| Closing Comments                    | 12:30:00 PM |
-| Happy Hour                          | 12:40:00 PM |
+| Talks                               | TBD |
+| Working group break out sessions    | TBD |
+| Closing Comments                    | 12:00:00 PM |
+| Happy Hour                          | 12:30:00 PM |
 | ----------------------------------- | ----------- |
 
 
