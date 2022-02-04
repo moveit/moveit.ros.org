@@ -46,8 +46,9 @@ All times are UTC-7 (US Mountain Time)
 | 9:25 AM || [Tiffany Cappellari (Southwest Research Institute)](https://www.linkedin.com/in/tiffany-cappellari-199174149/), MoveIt  for Aerospace Automation Tasks |
 | 9:45 AM || [Daniel Honerkamp (Universität Freiburg)](https://rl.uni-freiburg.de/people/honerkamp), Learning Kinematic Feasibility for Mobile Manipulation |
 | 10:05 AM || [Kei Okada (University of Tokyo)](http://www.jsk.t.u-tokyo.ac.jp/~k-okada/index-e.html), Whole body control of JSK humanoid robots (without Motion Planning) |
-| 10:25 AM || Closing Comments |
-| 10:30 AM || Happy Hour |
+| 10:25 AM || Lightning talks |
+| 10:45 AM || Closing Comments |
+| 10:50 AM || Happy Hour |
 |----------||------------|
 
 
