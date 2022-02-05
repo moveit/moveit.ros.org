@@ -41,7 +41,7 @@ All times are UTC-7 (US Mountain Time)
 | 8:00 AM || Welcome & Opening |
 | 8:15 AM || [Henning Kayser (PickNik Robotics)](http://picknik.ai/), MoveIt 2 Development Roadmap |
 | 8:35 AM || [Yu Yan (Intel)](https://roboticsyy.github.io), The integration of Intel Edge Controls for Industrial with MoveIt2 |
-| 8:55 AM || [Zachary Kingston (Rice University)](http://zkingston.com), Robowflex: Robot Motion Planning with MoveIt Made Easy |
+| 8:55 AM || [Zachary Kingston (Rice University)](http://zkingston.com), Robowflex: Simplifying Planning and Benchmarking with MoveIt |
 | 9:15 AM || Coffee break / networking session |
 | 9:25 AM || [Tiffany Cappellari (Southwest Research Institute)](https://www.linkedin.com/in/tiffany-cappellari-199174149/), MoveIt  for Aerospace Automation Tasks |
 | 9:45 AM || [Daniel Honerkamp (Universität Freiburg)](https://rl.uni-freiburg.de/people/honerkamp), Learning Kinematic Feasibility for Mobile Manipulation |
