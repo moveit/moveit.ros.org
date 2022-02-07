@@ -29,65 +29,40 @@ title: Distribution
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Foxy-Fitzroy.html">Foxy Fitzroy</a></td>
+          <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Foxy-Fitzroy.html">MoveIt Rolling</a></td>
           <td>June 5th, 2020</td>
-          <td><img src="/assets/images/distribution/foxy-small.png" /></td>
+          <td></td>
+          <td>N/A</td>
+        </tr>
+
+        <tr>
+          <td><a href="https://moveit.ros.org/ros/moveit/galactic/2021/07/08/moveit-galactic.html">MoveIt 2 Galactic</a></td>
+          <td>June 5th, 2020</td>
+          <td><img src="/assets/images/distribution/galactic.png" height="100" /></td>
           <td>May 2023</td>
         </tr>
-        <tr class="orange">
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Eloquent-Elusor.html">Eloquent Elusory</a></td>
-          <td>Nov 22nd, 2019</td>
-          <td><img src="/assets/images/distribution/eloquent-small.png" /></td>
-          <td>Nov 2020</td>
-        </tr>
-        <tr class="green">
-          <td><a href="hhttps://docs.ros.org/en/crystal/Releases/Release-Dashing-Diademata.html">Dashing Diademata</a></td>
-          <td>May 31st, 2019</td>
-          <td><img src="/assets/images/distribution/dashing-small.png" /></td>
-          <td>May 2021</td>
-        </tr>
-        <tr class="blue">
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Crystal-Clemmys.html">Crystal Clemmys</a></td>
-          <td>December 14th, 2018</td>
-          <td><img src="/assets/images/distribution/crystal-small.png" /></td>
-          <td>Dec 2019</td>
-        </tr>
+
         <tr>
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Bouncy-Bolson.html">Bouncy Bolson</a></td>
-          <td>July 2nd, 2018</td>
-          <td><img src="/assets/images/distribution/bouncy-small.png" /></td>
-          <td>Jul 2019</td>
+          <td><a href="https://moveit.ros.org/moveit2/ros2/foxy/release/2020/09/04/moveit2-foxy-release.html">MoveIt 2 Foxy Fitzroy</a></td>
+          <td>June 5th, 2020</td>
+          <td><img src="/assets/images/distribution/moveit2-foxy.png" height="100" /></td>
+          <td>?</td>
         </tr>
+
         <tr>
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Ardent-Apalone.html">Ardent Apalone</a></td>
-          <td>December 8th, 2017</td>
-          <td><img src="/assets/images/distribution/ardent-small.png" /></td>
-          <td>Dec 2018</td>
-        </tr>
-        <tr>
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Beta3-Overview.html">beta3</a></td>
-          <td>September 13th, 2017</td>
+          <td><a href="https://moveit.ros.org/moveit/ros/noetic/2020/10/13/announcing-moveit-1-1-1-release-for-ros-noetic.html">MoveIt 1 Noetic</a></td>
+          <td>?</td>
           <td></td>
-          <td>Dec 2017</td>
+          <td>May 2023</td>
         </tr>
+
         <tr>
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Beta2-Overview.html">beta2</a></td>
-          <td>July 5th, 2017</td>
+          <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Foxy-Fitzroy.html">MoveIt 1 Melodic</a></td>
+          <td>?</td>
           <td></td>
-          <td>Sep 2017</td>
+          <td>May 2023</td>
         </tr>
-        <tr>
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Beta1-Overview.html">beta1</a></td>
-          <td>December 19th, 2016</td>
-          <td></td>
-          <td>Jul 2017</td>
-        </tr>
-        <tr>
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Alpha-Overview.html">alpha1 - alpha8</a></td>
-          <td>August 31th, 2015</td>
-          <td></td>
-          <td>Dec 2016</td>
-        </tr>
+
       </tbody>
     </table>
     <h2>Distribution Details</h2>
