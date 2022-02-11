@@ -1,7 +1,7 @@
 ---
 author: Henning Kayser
 comments: false
-date: 2022-02-10 17:00:00+07:00
+date: 2022-02-15 17:00:00+07:00
 layout: post
 slug: 2022-community-meeting
 title: 2022 MoveIt Community Meeting
