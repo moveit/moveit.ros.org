@@ -137,7 +137,7 @@ title: MoveIt 2 Binary Install
         <h3>
           ROS 2 Rolling
           <div class="bash-command">
-            <code>sudo apt install ros-rolling-moveit</code>
+            <code>sudo apt install ros-rolling-moveit-ros</code>
           </div>
         </h3>
         <div class="horizontal-line"></div>
