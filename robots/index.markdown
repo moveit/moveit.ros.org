@@ -416,6 +416,17 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL_robotics/ARI.png');">
+				</div>
+				<div class="robots-content">
+					<h2>ARI</h2>
+					<h3>PAL Robotics</h3>
+					<a href="https://github.com/pal-robotics/ari_moveit_config" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
 				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/hollie.png');">
 				</div>
 				<div class="robots-content">
