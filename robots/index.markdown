@@ -372,7 +372,7 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL_robotics/TIAGo.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL_robotics/TIAGo.png');">
 				</div>
 				<div class="robots-content">
 					<h2>TIAGo</h2>
@@ -383,7 +383,18 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL_robotics/TALOS.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL_robotics/TIAGo++.png');">
+				</div>
+				<div class="robots-content">
+					<h2>TIAGo++</h2>
+					<h3>PAL Robotics</h3>
+					<a href="https://github.com/pal-robotics/tiago_dual_moveit_config" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL_robotics/TALOS.png');">
 				</div>
 				<div class="robots-content">
 					<h2>TALOS</h2>
@@ -394,12 +405,23 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL_robotics/REEM-C.jpg');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL_robotics/REEM-C.png');">
 				</div>
 				<div class="robots-content">
 					<h2>REEM-C</h2>
 					<h3>PAL Robotics</h3>
 					<a href="https://github.com/pal-robotics/reemc_moveit_config" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/PAL_robotics/ARI.png');">
+				</div>
+				<div class="robots-content">
+					<h2>ARI</h2>
+					<h3>PAL Robotics</h3>
+					<a href="https://github.com/pal-robotics/ari_moveit_config" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
