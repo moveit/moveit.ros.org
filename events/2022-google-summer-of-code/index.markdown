@@ -24,7 +24,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: large
 * Mentors: Henning Kayser
 
-### Improved benchmarking Support in MoveIt
+### Improved benchmarking support in MoveIt
 
 * Continue the work from last year's Google Summer of Code project to create more benchmarking capabilities.
 * Project size: large
