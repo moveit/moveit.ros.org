@@ -30,12 +30,6 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: large
 * Mentors: Michael Görner
 
-### Adopt modern C++ best practices
-
-* Help overhaul MoveIt's code to adopt modern C++ best practices. Many examples for doing this can be found in the [Moveit 2 issues that are marked "good first issue."](https://github.com/ros-planning/moveit2/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
-* Project size: medium--large
-* Mentor: Tyler Weaver
-
 ### Add ability to attach/detach end-effector links
 
 * Add functionality to MoveIt to programmatically attach and detach grippers from a manipulator. See [this issue](https://github.com/ros-planning/moveit2/issues/208) for a more detailed discussion.
