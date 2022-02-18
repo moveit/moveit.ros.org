@@ -55,6 +55,6 @@ The goal of this project is to allow multiple trajectories to be started, execut
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
-* Be specific in describing your experience. Rather than saying "experienced C++ programmer," point us to code that you have written.
+* Be specific in describing your experience. Rather than saying "experienced C++ programmer," point us to code that you have written and contributed.
 * Describe your background and experience in robotics and ROS.
 * Tell us what you hope to get out of the Summer of Code experience.
