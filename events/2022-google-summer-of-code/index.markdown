@@ -30,6 +30,17 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: large
 * Mentors: Michael Görner
 
+### Simultaneous trajectory execution
+
+* MoveIt currently only supports the execution of one robot trajectory (although the trajectory can involve multiple planning groups, e.g. two arms). However, to run e.g. a robot workcell efficiently, each robot arm has to move independently.
+
+The goal of this project is to allow multiple trajectories to be started, executed and stopped independently from one another. The main difficulty is that the arms may collide with one another, so additional checks will be necessary, such as:
+  - Do two trajectories intersect at all?
+  - Does the next position in a trajectory collide with another robot arm?
+  - What are the next positions of the other currently active robot arms?
+* Project size: large
+* Mentors: Henning Kayser
+
 ### Add ability to attach/detach end-effector links
 
 * Add functionality to MoveIt to programmatically attach and detach grippers from a manipulator. See [this issue](https://github.com/ros-planning/moveit2/issues/208) for a more detailed discussion.
