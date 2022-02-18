@@ -12,34 +12,31 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 
 ## Project ideas
 
-### Bullet collision checking integration
-
-* Bullet support is partially done, but more work is needed. Support for continuous collision checking would be nice.
-* Project size: medium
-* Mentors: ???
-
 ### Python bindings for MoveIt 2
 
 * Use [pybind11](https://pybind11.readthedocs.io/en/latest) to create python bindings for a subset of the MoveIt C++ API.
 * Project size: large
-* Mentors: Henning Kayser
+* Mentor: Henning Kayser
 
 ### Improved benchmarking support in MoveIt
 
 * Continue the work from last year's Google Summer of Code project to create more benchmarking capabilities.
 * Project size: large
-* Mentors: Michael Görner
+* Mentor: Michael Görner
 
 ### Simultaneous trajectory execution
 
 * MoveIt currently only supports the execution of one robot trajectory (although the trajectory can involve multiple planning groups, e.g. two arms). However, to run e.g. a robot workcell efficiently, each robot arm has to move independently.
 
-The goal of this project is to allow multiple trajectories to be started, executed and stopped independently from one another. The main difficulty is that the arms may collide with one another, so additional checks will be necessary, such as:
-  - Do two trajectories intersect at all?
-  - Does the next position in a trajectory collide with another robot arm?
-  - What are the next positions of the other currently active robot arms?
+  The goal of this project is to allow multiple trajectories to be started, executed and stopped independently from one another. The main difficulty is that the arms may collide with one another, so additional checks will be necessary, such as:
+
+  * Do two trajectories intersect at all?
+  * Does the next position in a trajectory collide with another robot arm?
+  * What are the next positions of the other currently active robot arms?
+
+  Much of the preliminary work is done in [this PR](https://github.com/ros-planning/moveit/pull/2810).
 * Project size: large
-* Mentors: Henning Kayser
+* Mentor: Henning Kayser
 
 ### Add ability to attach/detach end-effector links
 
@@ -52,6 +49,12 @@ The goal of this project is to allow multiple trajectories to be started, execut
 * While there are some ROS Answers posts and examples floating around, there is no definitive resource on how to set up multiple manipulators with MoveIt (and especially MoveIt2). The goal of this project is to write a tutorial that should become the reference.
 * Project size: medium
 * Mentor: Tyler Weaver, Andy Zelenak
+
+### Bullet collision checking integration
+
+* Bullet support is partially done, but more work is needed. Support for continuous collision checking would be nice. Related pull requests include [PR 2897](https://github.com/ros-planning/moveit/pull/2897) and [PR 2838](https://github.com/ros-planning/moveit/pull/2838).
+* Project size: medium
+* Mentor: Simon Schmeisser
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
