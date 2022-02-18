@@ -36,6 +36,12 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: large
 * Mentor: Andy Zelenak
 
+### Tutorial for multiple robot arms
+
+* While there are some ROS Answers posts and examples floating around, there is no definitive resource on how to set up multiple manipulators with MoveIt (and especially MoveIt2). The goal of this project is to write a tutorial that should become the reference.
+* Project size: medium
+* Mentor: Tyler Weaver, Andy Zelenak
+
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
 * Be specific in describing your experience. Rather than saying "experienced C++ programmer," point us to code that you have written.
