@@ -20,7 +20,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 
 ### Improved benchmarking support in MoveIt
 
-* Continue the work from last year's Google Summer of Code project to create more benchmarking capabilities.
+* Utilize the [MoveIt Benchmark Suite](https://github.com/captain-yoshi/moveit_benchmark_suite) developed during last year's GSoC to prepare a set of realistic scenarios to benchmark independent components of the MoveIt eco-system. Based on these tests, we would like to setup a CI runner to evaluate the performance impact of new pull-requests in MoveIt. An advanced component in this might evaluate the benchmark results for statistically significant changes and point these out in a CI report.
 * Project size: large
 * Mentor: Michael Görner
 
@@ -54,7 +54,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 
 * Bullet support is partially done, but more work is needed. Support for continuous collision checking would be nice. Related pull requests include [PR 2897](https://github.com/ros-planning/moveit/pull/2897) and [PR 2838](https://github.com/ros-planning/moveit/pull/2838).
 * Project size: medium
-* Mentor: Simon Schmeisser
+* Mentor: Simon Schmeisser, Michael Görner
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
