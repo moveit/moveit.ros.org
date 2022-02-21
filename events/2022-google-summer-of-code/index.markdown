@@ -52,9 +52,9 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 
 ### Refactor Calculations and add Tests
 
-* Much of the code in MoveIt that does not have tests is difficult to test because it depends on how many times it is run or messaging through ROS.  To improve the robustness of MoveIt and make the calculations more reusable this project will refactor code to extract reusable pure functions.  As part of refactoring into pure functions this project will add tests to validate these functions.  See [this issue](https://github.com/ros-planning/moveit2/issues/1082) for more detailed discussion.
+* MoveIt contains many routines that mix actions that produce different results depending on when or how many times they are run and pure calculations where the output is always the same with the same inputs.  Because of the mixing of types of of code it makes MoveIt larger than it needs to be due to copy-pasted logic. Secondly MoveIt is less robust than it could be because it is very difficult to test those routinues. For this project, the conributor will refactor calcualations (pure functions) out of code that has side-affects (depends on when or how many times it is run) and then they will write tests for that code.  This will make MoveIt more robust, easier to maintain, and easier to use. See [this issue](https://github.com/ros-planning/moveit2/issues/1082) for more detailed discussion.  Doing this project will develop skill in functional programming, generic library development, and software architecture.
 * Project size: medium to large
-* Mentor: Tyler Weaver
+* Mentor: Tyler Weaver, Michael Görner
 
 ### Bullet collision checking integration
 
