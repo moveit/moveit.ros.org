@@ -48,7 +48,13 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 
 * While there are some ROS Answers posts and examples floating around, there is no definitive resource on how to set up multiple manipulators with MoveIt (and especially MoveIt2). The goal of this project is to write a tutorial that should become the reference.
 * Project size: medium
-* Mentor: Tyler Weaver, Andy Zelenak
+* Mentor: Andy Zelenak
+
+### Refactor Calculations and add Tests
+
+* Much of the code in MoveIt that does not have tests is difficult to test because it depends on how many times it is run or messaging through ROS.  To improve the robustness of MoveIt and make the calculations more reusable this project will refactor code to extract reusable pure functions.  As part of refactoring into pure functions this project will add tests to validate these functions.  See [this issue](https://github.com/ros-planning/moveit2/issues/1082) for more detailed discussion.
+* Project size: medium to large
+* Mentor: Tyler Weaver
 
 ### Bullet collision checking integration
 
