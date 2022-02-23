@@ -23,7 +23,7 @@ title: 2022 MoveIt Community Meeting
 ## Time and Venue
 
 * **Date: Thursday, Feb 24, 2022**
-* **Venue: (virtual)**
+* **Venue: virtual: [join the meeting](https://meet.google.com/fpo-srqg-feg).**<br/><small>Alternatively, you can call in via this number +1 347-486-5750 (PIN: 644991049#).</small>
 
 ## Organizers
 
