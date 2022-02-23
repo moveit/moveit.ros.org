@@ -126,7 +126,7 @@ For this, we need to identify and implement standard tasks at varying levels of 
 - **Programming skills**: C++
 - **Difficulty**: Medium
 - **Potential mentors**: Andy Zelenak, Henning Kayser
-- **Description**: There are several Inverse Kinematics libraries that need to be ported to MoveIt 2. Prime candidates are [BioIK](https://github.com/TAMS-Group/bio_ik) and [TRAC-IK](https://bitbucket.org/traclabs/trac_ik/src/master/).
+- **Description**: There are several Inverse Kinematics libraries that need to be ported to MoveIt 2. Prime candidates are [TRAC-IK](https://bitbucket.org/traclabs/trac_ik/src/master/).
 
 ## MoveIt Wrapper for Reinforcement Learning
 
