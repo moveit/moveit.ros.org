@@ -27,7 +27,7 @@ Create a colcon workspace:
 
 ## Download Source Code
 
-Download the foxy branch of the moveit2 repository. The required dependencies to build moveit2 are included in `ros-foxy-desktop`. 
+Download the foxy branch of the moveit2 repository. The required dependencies to build moveit2 are included in `ros-foxy-desktop`.
 ### Foxy
 
     git clone https://github.com/ros-planning/moveit2.git -b foxy
