@@ -14,14 +14,20 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 
 ### Python bindings for MoveIt 2
 
-* Use [pybind11](https://pybind11.readthedocs.io/en/latest) to create python bindings for a subset of the MoveIt C++ API.
-* Project size: large
+* Python is very popular, especially in the machine learning world. Use [pybind11](https://pybind11.readthedocs.io/en/latest) to create python bindings for a subset of the MoveIt C++ API.
+* Expected outcome: The most common MoveIt functionalities are available in Python.
+* Project size: large (350 hours)
+* Difficulty: medium
+* Preferred skills: several years experience in (ROS, MoveIt, Python, C++)
 * Mentor: Henning Kayser
 
 ### Improved benchmarking support in MoveIt
 
 * Utilize the [MoveIt Benchmark Suite](https://github.com/captain-yoshi/moveit_benchmark_suite) developed during last year's GSoC to prepare a set of realistic scenarios to benchmark independent components of the MoveIt eco-system. Based on these tests, we would like to setup a CI runner to evaluate the performance impact of new pull-requests in MoveIt. An advanced component in this might evaluate the benchmark results for statistically significant changes and point these out in a CI report.
-* Project size: large
+* Expected outcome: New pull requests are automatically checked for performance regressions or improvements.
+* Project size: large (350 hours)
+* Difficulty: medium
+* Preferred skills: several years experience in (ROS, MoveIt, C++)
 * Mentor: Michael Görner
 
 ### Simultaneous trajectory execution
@@ -35,31 +41,46 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
   * What are the next positions of the other currently active robot arms?
 
   Much of the preliminary work is done in [this PR](https://github.com/ros-planning/moveit/pull/2810).
-* Project size: large
+* Expected outcome: MoveIt is capable of supporting simultaneous motion with two arms.
+* Project size: large (350 hours)
+* Difficulty: hard
+* Preferred skills: several years experience in (ROS, MoveIt, C++)
 * Mentor: Henning Kayser
 
 ### Add ability to attach/detach end-effector links
 
 * Add functionality to MoveIt to programmatically attach and detach grippers from a manipulator. See [this issue](https://github.com/ros-planning/moveit2/issues/208) for a more detailed discussion.
-* Project size: large
+* Expected outcome: End-effector tooling can be swapped programmatically.
+* Project size: large (350 hours)
+* Difficulty: hard
+* Preferred skills: several years experience in (ROS, MoveIt, C++)
 * Mentor: Andy Zelenak
 
 ### Tutorial for multiple robot arms
 
 * While there are some ROS Answers posts and examples floating around, there is no definitive resource on how to set up multiple manipulators with MoveIt (and especially MoveIt2). The goal of this project is to write a tutorial that should become the reference.
-* Project size: medium
+* Expected outcome: A ROS beginner can read the tutorial and set up a ros2_control / MoveIt pipeline without additional help.
+* Project size: medium (175 hours)
+* Difficulty: easy
+* Preferred skills: at least a year of experience with (ROS, MoveIt)
 * Mentor: Andy Zelenak
 
 ### Refactor Calculations and add Tests
 
 * MoveIt contains many routines that mix actions that produce different results depending on when or how many times they are run and pure calculations where the output is always the same with the same inputs.  Because of the mixing of types of code MoveIt is larger than it needs to be with a significant amount of redundant logic. Secondly, MoveIt is less robust than it could be because it is very difficult to test those routines and the test base fails to consider many of the side effects. For this project, the contributor will refactor calculations (pure functions) out of code that has side-affects (depends on when or how many times it is run) and will write tests for that code in isolation. This will make MoveIt more robust, easier to maintain, and easier to use. See [this issue](https://github.com/ros-planning/moveit2/issues/1082) for more discussion.  Doing this project will develop skills in functional programming, code refactoring, and software architecture.
-* Project size: medium
+* Expected outcome: Better test coverage of the codebase.
+* Project size: medium (175 hours)
+* Difficulty: hard
+* Preferred skills: several years experience in (ROS, MoveIt, C++)
 * Mentor: Tyler Weaver, Michael Görner
 
 ### Bullet collision checking integration
 
-* Bullet support is partially done, but more work is needed. Support for continuous collision checking would be nice. Related pull requests include [PR 2897](https://github.com/ros-planning/moveit/pull/2897) and [PR 2838](https://github.com/ros-planning/moveit/pull/2838).
-* Project size: medium
+* Bullet support is partially done, but more work is needed. [A memory leak issue](https://github.com/ros-planning/moveit_task_constructor/issues/232#issuecomment-774249206) was identified that needs to be fixed. Support for continuous collision checking would be nice. Related pull requests include [PR 2897](https://github.com/ros-planning/moveit/pull/2897) and [PR 2838](https://github.com/ros-planning/moveit/pull/2838).
+* Project size: medium (175 hours)
+* Expected outcome: Continuous collision checking is supported and the memory leak is eliminated.
+* Difficulty: hard
+* Preferred skills: several years experience in (ROS, MoveIt, C++)
 * Mentor: Simon Schmeisser, Michael Görner
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
