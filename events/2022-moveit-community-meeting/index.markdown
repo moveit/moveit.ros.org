@@ -23,7 +23,6 @@ title: 2022 MoveIt Community Meeting
 ## Time and Venue
 
 * **Date: Thursday, Feb 24, 2022**
-* **Venue: virtual: [join the meeting](https://meet.google.com/fpo-srqg-feg).**<br/><small>Alternatively, you can call in via this number +1 347-486-5750 (PIN: 644991049#).</small>
 
 ## Organizers
 
@@ -54,8 +53,8 @@ All times are UTC-7 (US Mountain Time)
 
 
 ## Registation
-**General attendee registration:** [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScaMfoY1iUKVnHDlqIuuEK91z53WfD669NFQqPKJ3AqMXNYXg/viewform?usp=sf_link) (free)
+~~**General attendee registration:** [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScaMfoY1iUKVnHDlqIuuEK91z53WfD669NFQqPKJ3AqMXNYXg/viewform?usp=sf_link) (free)~~
 
-If you are interested in **exhibiting** a lightning talk ([here is a great how-to via ROSCon](https://discourse.ros.org/t/ros-world-2021-call-for-lightning-talk-videos/22298)), white paper, or other MoveIt related projects, please fill out this [Exhibitor Form](https://docs.google.com/forms/d/e/1FAIpQLSdip4ByjDuaqaEPYlouO7ssDJ6XwuPbeJB4jnnPlC6SbY252A/viewform?usp=sf_link) by *Feb 15th*. You do not need to register as both an attendee and an exhibitor;
+~~If you are interested in **exhibiting** a lightning talk ([here is a great how-to via ROSCon](https://discourse.ros.org/t/ros-world-2021-call-for-lightning-talk-videos/22298)), white paper, or other MoveIt related projects, please fill out this [Exhibitor Form](https://docs.google.com/forms/d/e/1FAIpQLSdip4ByjDuaqaEPYlouO7ssDJ6XwuPbeJB4jnnPlC6SbY252A/viewform?usp=sf_link) by *Feb 15th*. You do not need to register as both an attendee and an exhibitor;~~
 
 If you have any questions, email [henningkayser@picknik.ai](mailto:henningkayser@picknik.ai)
