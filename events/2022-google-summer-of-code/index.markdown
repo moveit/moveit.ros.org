@@ -27,7 +27,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Expected outcome: New pull requests are automatically checked for performance regressions or improvements.
 * Project size: large (350 hours)
 * Difficulty: medium
-* Preferred skills: C++, Python, MoveIt, Motion Planning, Benchmarking, and Building Infrastructure```
+* Preferred skills: C++, Python, MoveIt, Motion Planning, Benchmarking, and Building Infrastructure
 * Mentor: Michael Görner
 
 ### Simultaneous trajectory execution
@@ -71,7 +71,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Expected outcome: Core parts of MoveIt are refactored to use pure functions.
 * Project size: medium (175 hours)
 * Difficulty: hard
-* Preferred skills: C++, functional programming, and gtest.
+* Preferred skills: C++, Functional Programming, and GTest
 * Mentor: Tyler Weaver, Michael Görner
 
 ### Bullet collision checking integration
