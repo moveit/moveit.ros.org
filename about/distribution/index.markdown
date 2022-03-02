@@ -52,14 +52,14 @@ title: Distribution
         <tr>
           <td><a href="https://moveit.ros.org/moveit/ros/noetic/2020/10/13/announcing-moveit-1-1-1-release-for-ros-noetic.html">MoveIt 1 Noetic</a></td>
           <td>?</td>
-          <td></td>
+          <td><img src="/assets/images/distribution/MoveIt.png" height="100" /></td>
           <td>May 2023</td>
         </tr>
 
         <tr>
           <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Foxy-Fitzroy.html">MoveIt 1 Melodic</a></td>
           <td>?</td>
-          <td></td>
+          <td><img src="/assets/images/distribution/MoveIt.png" height="100" /></td>
           <td>May 2023</td>
         </tr>
 
