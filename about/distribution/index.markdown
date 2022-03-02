@@ -46,7 +46,7 @@ title: Distribution
           <td><a href="https://moveit.ros.org/moveit2/ros2/foxy/release/2020/09/04/moveit2-foxy-release.html">MoveIt 2 Foxy Fitzroy</a></td>
           <td>June 5th, 2020</td>
           <td><img src="/assets/images/distribution/moveit2-foxy.png" height="100" /></td>
-          <td>?</td>
+          <td>May 2023</td>
         </tr>
 
         <tr>
