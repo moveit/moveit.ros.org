@@ -30,7 +30,7 @@ title: Distribution
       <tbody>
         <tr>
           <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Foxy-Fitzroy.html">MoveIt Rolling</a></td>
-          <td>June 5th, 2020</td>
+          <td>2021</td>
           <td></td>
           <td>N/A</td>
         </tr>
