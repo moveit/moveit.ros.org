@@ -37,7 +37,7 @@ title: Distribution
 
         <tr>
           <td><a href="https://moveit.ros.org/ros/moveit/galactic/2021/07/08/moveit-galactic.html">MoveIt 2 Galactic</a></td>
-          <td>June 5th, 2020</td>
+          <td>June, 2021</td>
           <td><img src="/assets/images/distribution/galactic.png" height="100" /></td>
           <td>November 2022</td>
         </tr>
