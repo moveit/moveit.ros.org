@@ -31,7 +31,7 @@ title: 2022 MoveIt Community Meeting
 * Tyler Weaver (PickNik)
 
 
-## Program (Tentative)
+## Program
 
 All times are UTC-7 (US Mountain Time). **Clicking on the titles takes you to a recording of the presentation.**
 
