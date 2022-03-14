@@ -27,12 +27,6 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between homepage-main-wrapper">
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
-                            <div class="main-tag">
-                                <a href="/events/2022-moveit-community-meeting">
-                                    <span class="blue">Announcement</span>
-                                    <span>The 2022 MoveIt Community Meeting is Feb 24th! Sign Up! </span>
-                                </a>
-                            </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
                             <p class="main-text">Incorporating the latest advances in motion planning,<br/>
                             manipulation, 3D perception, kinematics, control and navigation</p>
@@ -374,4 +368,5 @@ redirect_from: '/moveit/'
             </div>
       </div>
     </div>
+
 </div>
