@@ -229,10 +229,22 @@ title: About
             <div class="container">
               <div class="main-card-wrapper">
                 <div class="main-card-single-small">
+                  <div class="person-name">Abishalini Sivaraman</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/Abishalini" target="_blank">Abishalini</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Christian Henkel</div>
                   <div class="organization-name">Pilz</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/ct2034" target="_blank">ct2034</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">David V. Lu!!</div>
+                  <div class="organization-name">Metro Robots</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/DLu" target="_blank">DLu</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Kei Okada</div>
@@ -245,12 +257,6 @@ title: About
                   <div class="organization-name">DFKI</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/mintar" target="_blank">mintar</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Mohmmad El khzragy</div>
-                  <div class="organization-name">TUM</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/MohmadAyman" target="_blank">MohmadAyman</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Nathan Brooks</div>
@@ -286,6 +292,12 @@ title: About
                   <div class="organization-name">SwRI / ROS-I</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/Levi-Armstrong" target="_blank">Levi-Armstrong</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Mohmad El khzragy</div>
+                  <div class="organization-name">TUM</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/MohmadAyman" target="_blank">MohmadAyman</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Shingo Kitagawa</div>
