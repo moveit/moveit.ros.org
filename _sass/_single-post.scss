@@ -46,6 +46,12 @@
       margin-bottom: 20px;
     }
   }
+
+  img {
+    &.image-wrapper {
+      height: auto;
+    }
+  }
 }
 
 .other-post {
