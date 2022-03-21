@@ -29,7 +29,7 @@ redirect_from: '/moveit/'
                         <div class="main">
                             <div class="main-tag">
                                 <a href="/events/2022-google-summer-of-code/">
-                                    <span class="blue">Announcement</span>
+                                    <span class="blue glitch">Announcement</span>
                                     <span>MoveIt is participating in the 2022 Google Summer of Code!</span>
                                 </a>
                             </div>
@@ -374,4 +374,5 @@ redirect_from: '/moveit/'
             </div>
       </div>
     </div>
+
 </div>

@@ -13,10 +13,7 @@
     }
 
     &-tag {
-      width: 87%;
-      @media screen and (max-width: 1199px) {
-        width: 100%;
-      }
+      width: 100%;
 
       a {
         position: relative;
@@ -66,6 +63,8 @@
           display: inline-block;
           margin-left: 5px;
           border-radius: 16px;
+          font-size: 13px;
+
           @media screen and (max-width: 1199px) {
             margin: 5px;
           }
