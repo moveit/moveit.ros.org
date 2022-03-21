@@ -122,6 +122,16 @@
         margin-top: 0;
       }
 
+      &__status {
+        flex: 0 0 13%;
+        max-width: 13%;
+        text-align: center;
+
+        @media screen and (max-width: 992px) {
+          text-align: left;
+        }
+      }
+
       &__1 {
         flex: 0 0 35%;
         max-width: 35%;
@@ -140,8 +150,8 @@
         max-width: 17%;
 
         @media screen and (max-width: 992px) {
-          flex: 0 0 40%;
-          max-width: 40%;
+          flex: 0 0 100%;
+          max-width: 100%;
         }
 
         @media screen and (max-width: 768px) {

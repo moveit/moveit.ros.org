@@ -54,7 +54,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>TBD</strong><br/>
+          <strong>Needs Funding</strong><br/>
         </div>
         <div class="release-versions__2">
           Landed December 2021
@@ -79,7 +79,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>TBD</strong><br/>
+          <strong>Planned</strong><br/>
         </div>
         <div class="release-versions__2">
           Landed November 2021
@@ -104,7 +104,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>TBD</strong><br/>
+          <strong>In Progress</strong><br/>
         </div>
         <div class="release-versions__2">
           Landed December 2021
@@ -123,7 +123,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>TBD</strong><br/>
+          <strong>Completed</strong><br/>
         </div>
         <div class="release-versions__2">
           May 2022
@@ -148,7 +148,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>TBD</strong><br/>
+          <strong>Completed</strong><br/>
         </div>
         <div class="release-versions__2">
           December 2021
@@ -167,7 +167,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>TBD</strong><br/>
+          <strong>Needs Funding</strong><br/>
         </div>
         <div class="release-versions__2">
           December 2021
@@ -185,7 +185,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>TBD</strong><br/>
+          <strong>Needs Funding</strong><br/>
         </div>
         <div class="release-versions__2">
           December 2021
