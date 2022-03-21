@@ -10,9 +10,6 @@ title: Distribution
 <div class='row'>
   <div class='col-sm-12 text-center'>
     <h1>Distributions</h1>
-    <p class="paragraph-big">
-     You're reading the documentation for a version of ROS 2 that has reached its EOL (end-of-life), and is no longer officially supported. If you want up-to-date information, please have a look at Galactic.
-    </p>
   </div>
   <div class="col-sm-12">
     <h2>What is a Distribution?</h2>
@@ -29,40 +26,35 @@ title: Distribution
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Foxy-Fitzroy.html">MoveIt Rolling</a></td>
+          <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt Rolling</a></td>
           <td>2021</td>
-          <td></td>
+          <td><img src="/assets/images/distribution/moveIt-rolling.jpg" alt="MoveIt Rolling" height="100" /></td>
           <td>N/A</td>
         </tr>
-
         <tr>
-          <td><a href="https://moveit.ros.org/ros/moveit/galactic/2021/07/08/moveit-galactic.html">MoveIt 2 Galactic</a></td>
+          <td><a href="https://moveit.picknik.ai/galactic/index.html">MoveIt 2 Galactic</a></td>
           <td>July 8th, 2021</td>
-          <td><img src="/assets/images/distribution/galactic.png" height="100" /></td>
+          <td><img src="/assets/images/distribution/galactic.png" alt="MoveIt 2 Galactic" height="100" /></td>
           <td>November 2022</td>
         </tr>
-
         <tr>
-          <td><a href="https://moveit.ros.org/moveit2/ros2/foxy/release/2020/09/04/moveit2-foxy-release.html">MoveIt 2 Foxy Fitzroy</a></td>
+          <td><a href="https://moveit.picknik.ai/foxy/index.html">MoveIt 2 Foxy Fitzroy</a></td>
           <td>June 5th, 2020</td>
-          <td><img src="/assets/images/distribution/moveit2-foxy.png" height="100" /></td>
+          <td><img src="/assets/images/distribution/moveit2-foxy.png" alt="MoveIt 2 Foxy Fitzroyc" height="100" /></td>
           <td>May 2023</td>
         </tr>
-
         <tr>
-          <td><a href="https://moveit.ros.org/moveit/ros/noetic/2020/10/13/announcing-moveit-1-1-1-release-for-ros-noetic.html">MoveIt 1 Noetic</a></td>
+          <td><a href="https://ros-planning.github.io/moveit_tutorials/">MoveIt 1 Noetic</a></td>
           <td>October 13th, 2020</td>
-          <td><img src="/assets/images/distribution/MoveIt.png" height="100" /></td>
+          <td><img src="/assets/images/distribution/MoveIt.png" alt="MoveIt 1 Noetic" height="100" /></td>
           <td>May 2023</td>
         </tr>
-
         <tr>
-          <td><a href="https://docs.ros.org/en/crystal/Releases/Release-Foxy-Fitzroy.html">MoveIt 1 Melodic</a></td>
+          <td><a href="http://docs.ros.org/en/melodic/api/moveit_tutorials/html/index.html">MoveIt 1 Melodic</a></td>
           <td>June 5th, 2020</td>
-          <td><img src="/assets/images/distribution/MoveIt.png" height="100" /></td>
+          <td><img src="/assets/images/distribution/MoveIt.png" alt="MoveIt 1 Melodic" height="100" /></td>
           <td>May 2023</td>
         </tr>
-
       </tbody>
     </table>
     <h2>Distribution Details</h2>
