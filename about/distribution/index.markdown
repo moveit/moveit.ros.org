@@ -61,7 +61,7 @@ title: Distribution
     <p>For details on the distributions see each release page. For the supported platforms and versions of common dependencies and other considerations, see the official ROS 2 Target Platforms REP 2000.</p>
     <h2>Future Distributions</h2>
     <p>For details on upcoming features see the roadmap.</p>
-    <p>Currently there is a new ROS 2 distribution roughly every 6 months. The following information is a best estimate and is subject to change.</p>
+    <p>Currently there is a new ROS 2 distribution roughly every year. The following information is a best estimate and is subject to change.</p>
     <p>The expectation is to release new ROS 2 distributions once per year.</p>
     <h2>Rolling Distribution</h2>
     <p>The Rolling distribution of ROS 2 serves as a staging area for future stable distributions of ROS 2 and as a collection of the most recent development releases. Unlike most stable ROS 2 distributions which have an initial release, a support window during which they are updated, and a definite end of support (see List of Distributions above) the Rolling distribution is continuously updated and is subject to in-place updates which will at times include breaking changes.</p>
