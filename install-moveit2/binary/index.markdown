@@ -171,15 +171,6 @@ title: MoveIt 2 Binary Install
             See <a href="/install-moveit2/source/">build instructions</a>
           </p>
         </div>
-        <div class="col-5 offset-1">
-          <h4>
-            <img src="/assets/install_page/lxd.png"/>
-            LXD container
-          </h4>
-          <p>
-            See <a href="/install-moveit2/lxd/">build instructions</a>
-          </p>
-        </div>
       </div>
       <div class="horizontal-line"></div>
       <h2>
