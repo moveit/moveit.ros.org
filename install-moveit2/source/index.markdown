@@ -84,9 +84,16 @@ Download the repository and install any dependencies. Issue the relevant command
     vcs import < moveit2/moveit2.repos
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 
-### Galactic and Rolling
+### Galactic
 
     git clone https://github.com/ros-planning/moveit2.git -b main
+    for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
+    rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
+
+### Rolling
+
+    git clone https://github.com/ros-planning/moveit2.git -b main
+    export ROSDISTRO_INDEX_URL=https://raw.githubusercontent.com/ros/rosdistro/rolling/2022-01-28/index-v4.yaml
     for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 
