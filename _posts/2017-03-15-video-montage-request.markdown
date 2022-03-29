@@ -15,8 +15,6 @@ categories:
 
 Join us in celebrating [5 years](https://github.com/ros-planning/moveit/commit/206e93c555a6ddcdbe826809c30b90b89bbb52d8) of MoveIt! by contributing your robot video clips to create a video montage! We are combining our call for videos with ROS-Industrial to save you and us effort, but if you are not involved with ROS-Industrial you are still strongly encouraged to submit your videos also.
 
-Submit your clips here: [http://rosindustrial.org/video-submission](http://rosindustrial.org/video-submission)
-
 If you're curious, MoveIt!'s 2013 montage:
 
 **[MoveIt!'s 2013 montage](https://www.youtube-nocookie.com/embed/dblCGZzeUqs)**
