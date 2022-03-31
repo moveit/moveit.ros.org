@@ -85,6 +85,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
+* **Create at least one pull request in a MoveIt-related repository and include a reference to this pull request in your application.**
 * Be specific in describing your experience. Rather than saying "experienced C++ programmer," point us to code that you have written and contributed.
 * Describe your background and experience in robotics and ROS.
 * Tell us what you hope to get out of the Summer of Code experience.
