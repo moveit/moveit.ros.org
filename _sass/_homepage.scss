@@ -13,10 +13,7 @@
     }
 
     &-tag {
-      width: 87%;
-      @media screen and (max-width: 1199px) {
-        width: 100%;
-      }
+      width: 100%;
 
       a {
         position: relative;
@@ -64,8 +61,10 @@
           z-index: 2;
           position: relative;
           display: inline-block;
-          margin-left: 5px;
+          margin-left: 0;
           border-radius: 16px;
+          font-size: 14px;
+
           @media screen and (max-width: 1199px) {
             margin: 5px;
           }
@@ -78,7 +77,7 @@
 
           &.blue {
             background-color: #0a58f7;
-            margin-right: 5px;
+            margin-right: 2px;
             padding: 0 10px;
             margin-left: 0;
           }
