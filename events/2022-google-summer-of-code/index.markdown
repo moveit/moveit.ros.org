@@ -74,7 +74,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Project size: medium (175 hours)
 * Difficulty: hard
 * Preferred skills: C++, Functional Programming, and GTest
-* Mentor: [Tyler Weaver](tyler@picknik.ai), [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
+* Mentor: [Tyler Weaver](mailto:tyler@picknik.ai), [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
 
 ### Bullet collision checking integration
 
