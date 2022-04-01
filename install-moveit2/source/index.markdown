@@ -79,23 +79,29 @@ Create a colcon workspace:
 Download the repository and install any dependencies. Issue the relevant commands for your ROS distribution.
 ### Foxy
 
-
     git clone https://github.com/ros-planning/moveit2.git -b foxy
     vcs import < moveit2/moveit2.repos
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 
 ### Galactic
 
-    git clone https://github.com/ros-planning/moveit2.git -b main
+    git clone https://github.com/ros-planning/moveit2.git -b galactic
     for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 
-### Rolling
+### Rolling on Ubuntu Focal (Deprecated)
 
     git clone https://github.com/ros-planning/moveit2.git -b main
     export ROSDISTRO_INDEX_URL=https://raw.githubusercontent.com/ros/rosdistro/rolling/2022-01-28/index-v4.yaml
     for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
+
+### Rolling on Ubuntu Jammy
+
+    git clone https://github.com/ros-planning/moveit2.git -b main
+    for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
+    rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
+
 
 ## Build MoveIt
 
