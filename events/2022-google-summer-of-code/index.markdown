@@ -83,7 +83,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Expected outcome: Continuous collision checking is supported and the memory leak is eliminated.
 * Difficulty: hard
 * Preferred skills: MoveIt, Collision Checking, and C++
-* Mentor: [Simon Schmeisser](mailto:simon.schmeisser@isys-vision.de), [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
+* Mentor: [Simon Schmeisser](mailto:simon.schmeisser@optonic.com), [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
