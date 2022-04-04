@@ -10,6 +10,8 @@ title: 2022 Google Summer of Code
 
 MoveIt is planning to participate again in the [Google Summer of Code](https://summerofcode.withgoogle.com). Below is a tentative list of project ideas. If you have your own project idea, feel free to create a pull request on the [repository for this page](https://github.com/ros-planning/moveit.ros.org). Unlike previous years, there are now two different project sizes. Medium projects are 175 hours, while large projects are 350 hours. See the [Google Summer of Code FAQ](https://developers.google.com/open-source/gsoc/faq) for details.
 
+For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@picknik.ai) (**but make sure to read the [tips at the bottom of this page first](#tips-for-writing-a-successful-google-summer-of-code-application-for-moveit)**).
+
 ## Project ideas
 
 ### Python bindings for MoveIt 2
@@ -19,7 +21,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: large (350 hours)
 * Difficulty: medium
 * Preferred skills: Using pybind11 to create Python interfaces to C++ libraries.
-* Mentor: Henning Kayser
+* Mentor: [Henning Kayser](mailto:henningkayser@picknik.ai)
 
 ### Improved benchmarking support in MoveIt
 
@@ -28,7 +30,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: large (350 hours)
 * Difficulty: medium
 * Preferred skills: C++, Python, MoveIt, Motion Planning, Benchmarking, and Building Infrastructure
-* Mentor: Michael Görner
+* Mentor: [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
 
 ### Simultaneous trajectory execution
 
@@ -45,7 +47,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: large (350 hours)
 * Difficulty: hard
 * Preferred skills: MoveIt, Collision Checking, Robotic Controls, C++
-* Mentor: Henning Kayser
+* Mentor: [Henning Kayser](mailto:henningkayser@picknik.ai)
 
 ### Add ability to attach/detach end-effector links
 
@@ -54,7 +56,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: large (350 hours)
 * Difficulty: hard
 * Preferred skills: several years experience in (ROS, MoveIt, C++)
-* Mentor: Andy Zelenak
+* Mentor: [Andy Zelenak](mailto:zelenak@picknik.ai)
 
 ### Tutorial for multiple robot arms
 
@@ -63,7 +65,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: medium (175 hours)
 * Difficulty: easy
 * Preferred skills: Technical Writing, ROS, MoveIt, Python, and YAML
-* Mentor: Andy Zelenak
+* Mentor: [Andy Zelenak](mailto:zelenak@picknik.ai)
 
 ### Refactor Calculations and add Tests
 
@@ -72,7 +74,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Project size: medium (175 hours)
 * Difficulty: hard
 * Preferred skills: C++, Functional Programming, and GTest
-* Mentor: Tyler Weaver, Michael Görner
+* Mentor: [Tyler Weaver](mailto:tyler@picknik.ai), [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
 
 ### Bullet collision checking integration
 
@@ -81,7 +83,7 @@ MoveIt is planning to participate again in the [Google Summer of Code](https://s
 * Expected outcome: Continuous collision checking is supported and the memory leak is eliminated.
 * Difficulty: hard
 * Preferred skills: MoveIt, Collision Checking, and C++
-* Mentor: Simon Schmeisser, Michael Görner
+* Mentor: [Simon Schmeisser](mailto:simon.schmeisser@optonic.com), [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
