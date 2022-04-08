@@ -13,7 +13,7 @@ title: Distribution
   </div>
   <div class="col-sm-12">
     <h2>What is a Distribution?</h2>
-    <a href="https://wiki.ros.org/Distributions" target="_blank">See wiki.ros.org/Distributions.</a>
+    <a href="https://docs.ros.org/en/rolling/Releases.html" target="_blank">See https://docs.ros.org/en/rolling/Releases.html for a description and a list of available ROS distributions.</a>
     <h2>List of Distributions</h2>
     <table class="table table-striped table--distribution">
       <thead>
