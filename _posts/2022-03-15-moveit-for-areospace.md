@@ -1,7 +1,7 @@
 ---
 author: Sean Kolk
 comments: false
-date: 2022-04-12
+date: 2022-04-19
 layout: post
 title: MoveIt for Aerospace Automation Tasks
 media_type: image
