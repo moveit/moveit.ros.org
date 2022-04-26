@@ -127,6 +127,7 @@ For this, we need to identify and implement standard tasks at varying levels of 
 - **Difficulty**: Medium
 - **Potential mentors**: Andy Zelenak, Henning Kayser
 - **Description**: There are several Inverse Kinematics libraries that need to be ported to MoveIt 2. Prime candidates are [TRAC-IK](https://bitbucket.org/traclabs/trac_ik/src/master/).
+- [This ROS2](https://github.com/aprotyas/trac_ik) TRAC-IK port could be linked or worked upon if it isn't up to standards.
 
 ## MoveIt Wrapper for Reinforcement Learning
 
