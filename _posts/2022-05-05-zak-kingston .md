@@ -17,6 +17,7 @@ categories:
 
  Zak's work on Robowflex is available [here](https://github.com/KavrakiLab/robowflex)! Robowflex makes using MoveIt simple and has been used in a number of publications. Take a look at the [associated paper](http://zkingston.com/#Kingston2021) and [documentation online](https://kavrakilab.github.io/robowflex/).
 
+Zak will also talk about MotionBenchMaker, a tool to generate datasets for motion planning, and contains pre-generated realistic datasets for evaluating planning. MotionBenchMaker is [available here](https://github.com/KavrakiLab/motion_bench_maker). Take a look at the [associated paper](http://zkingston.com/#Chamzas2021a).
 You can find out more about Zak on his [website](http://zkingston.com/).
 
 <div class="iframe-container">
