@@ -123,7 +123,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>Completed</strong><br/>
+          <strong>In Progress</strong><br/>
         </div>
         <div class="release-versions__2">
           May 2022
