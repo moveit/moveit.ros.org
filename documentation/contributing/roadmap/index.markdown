@@ -54,7 +54,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>Needs Funding</strong><br/>
+          <strong>Completed</strong><br/>
         </div>
         <div class="release-versions__2">
           Landed December 2021
