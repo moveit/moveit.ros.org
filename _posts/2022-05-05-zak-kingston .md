@@ -1,7 +1,7 @@
 ---
 author: Sean Kolk
 comments: false
-date: 2022-05-01
+date: 2022-05-05
 layout: post
 title: Robowflex for MoveIt
 media_type: image
