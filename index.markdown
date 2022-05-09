@@ -28,9 +28,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="/events/2022-google-summer-of-code/">
+                                <a href="/events/world-moveit-day-2022/">
                                     <span class="blue">Announcement</span>
-                                    <span>MoveIt is participating in the 2022 Google Summer of Code!</span>
+                                    <span>Hack with us on World MoveIt Day 2022!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
