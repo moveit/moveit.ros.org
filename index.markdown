@@ -30,7 +30,7 @@ redirect_from: '/moveit/'
                             <div class="main-tag">
                                 <a href="/events/world-moveit-day-2022/">
                                     <span class="blue">Announcement</span>
-                                    <span>Hack with us on World MoveIt Day 2022!</span>
+                                    <span>Hack with us on June 2nd at World MoveIt Day 2022!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
