@@ -6,7 +6,7 @@ layout: page
 slug: 2022-google-summer-of-code-students
 title: 2022 Google Summer of Code Students
 media_type: image
-media_link: /assets/images/blog_posts/gsoc-2022-badge.svg
+media_link: /assets/images/blog_posts/gsoc-2022-badge_a.svg.png
 description: Two students selected for 2022 Google Summer of Code projects
 categories:
 - Events

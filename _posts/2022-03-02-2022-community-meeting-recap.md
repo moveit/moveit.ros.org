@@ -7,7 +7,7 @@ slug: 2022-community-meeting
 title: Recap of the 2022 MoveIt Community Meeting
 description: Recap and links to videos
 media_type: image
-media_link: /assets/images/blog_posts/2022_02_15_2022_community_meeting.png
+media_link: /assets/images/blog_posts/2022_02_15_2022_community_meeting_a.png
 categories:
 - MoveIt
 - ROS
