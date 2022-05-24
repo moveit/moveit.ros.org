@@ -160,7 +160,7 @@ title: MoveIt 2 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="https://moveit.picknik.ai/humble/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+        <a href="https://moveit.picknik.ai/humble/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
           <span class="link-with-background">
             MoveIt 2 Getting Started Tutorial
           </span>
