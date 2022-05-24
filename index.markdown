@@ -53,11 +53,11 @@ redirect_from: '/moveit/'
                             <img class="robot-hand" src="/assets/images/main/hero.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
-                                    Latest: MoveIt 2 Foxy / Ubuntu 20.04
+                                    Latest: <b>MoveIt 2 Humble</b>
                                 </div>
                                 <a href="/install-moveit2/source/" class="info-box-button button">Build MoveIt 2 from Source</a>
                                 <div class="info-box-version">
-                                    Version: 2.1.0
+                                    Ubuntu 22.04
                                 </div>
                                 <div class="link-group">
                                     <a href="/install/" class="info-box-link">Install MoveIt 1.0</a>
@@ -311,7 +311,7 @@ redirect_from: '/moveit/'
                 <div class="release-versions__body">
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Rolling 2.2</h3>
+                      <h3>Rolling 2.4</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/ros-planning/moveit2" target="_blank">View branch</a>
@@ -326,7 +326,7 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Galactic 2.2</h3>
+                      <h3>Galactic 2.3</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/ros-planning/moveit2" target="_blank">View branch</a>
