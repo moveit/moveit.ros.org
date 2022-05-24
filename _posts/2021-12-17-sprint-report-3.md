@@ -7,7 +7,7 @@ slug: sprint-report-3
 title: MoveIt Sprint Report
 description: Nov 26 - Dec 16
 media_type: image
-media_link: /assets/images/blog_posts/2021_11_24_sprint_update.png
+media_link: /assets/images/blog_posts/2021_11_24_sprint_update_a.png
 categories:
 - MoveIt
 - ROS

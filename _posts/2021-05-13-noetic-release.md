@@ -5,7 +5,7 @@ date: 2021-05-13
 layout: post
 title: MoveIt Noetic Update
 media_type: image
-media_link: /assets/images/blog_posts/2021_05_13_noetic_release.png
+media_link: /assets/images/blog_posts/2021_05_13_noetic_release_a.png
 description: Noetic 1.1.4 Update May 2021
 categories:
 - ROS
