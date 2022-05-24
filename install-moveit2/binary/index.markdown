@@ -149,10 +149,11 @@ title: MoveIt 2 Binary Install
         </h2>
         <h3>
           ROS 2 Humble
-          <div class="bash-command">
-            <code>sudo apt install ros-humble-moveit</code>
-          </div>
         </h3>
+	<p style="color:red;">NOTE: The debian has not been released yet. Please use the source build for now.</p>
+	<div class="bash-command">
+           <code>sudo apt install ros-humble-moveit</code>
+        </div>
         <div class="horizontal-line"></div>
         <h2>
           Quick Start
