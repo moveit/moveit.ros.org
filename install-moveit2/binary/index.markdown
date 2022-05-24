@@ -7,7 +7,7 @@ title: MoveIt 2 Binary Install
   <div>
     <h1>MoveIt 2 Binary Install</h1>
     We're thrilled you're ready to start using MoveIt 2!
-    Binary installation for MoveIt 2 is currently only available for ROS 2 Foxy, ROS 2 Galactic and ROS 2 Rolling on Ubuntu 20.04.
+    Binary installation for MoveIt 2 are available for the ROS 2 distributions Foxy and Galactic on Ubuntu 20.04, and Humble and Rolling on Ubuntu 22.04.
     Select your preferred ROS 2 distribution below:
     <div class="row systems-rectangle">
       <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Foxy" aria-expanded="true" aria-controls="Foxy">
@@ -33,6 +33,19 @@ title: MoveIt 2 Binary Install
                 ROS 2
             </div>
             Galactic
+          </div>
+        </div>
+    </button>
+      <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Humble" aria-expanded="true" aria-controls="Humble">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <img src="/assets/install_page/ros_icon.png"/>
+              </div>
+          <div class="col-auto system-type">
+            <div class="system-name">
+                ROS 2
+            </div>
+            Humble
           </div>
         </div>
     </button>
