@@ -113,7 +113,41 @@ title: MoveIt 2 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="https://moveit.picknik.ai/foxy/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+        <a href="https://moveit.picknik.ai/galactic/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+          <span class="link-with-background">
+            MoveIt 2 Getting Started Tutorial
+          </span>
+        </a>
+      </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <div class="collapse" id="Humble" data-parent="#accordion">
+        <h3>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+        </h3>
+        <p>
+          Follow all the instructions to install <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble</a>.
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 22.04
+        </h2>
+        <h3>
+          ROS 2 Humble
+          <div class="bash-command">
+            <code>sudo apt install ros-humble-moveit</code>
+          </div>
+        </h3>
+        <div class="horizontal-line"></div>
+        <h2>
+          Quick Start
+        </h2>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="https://moveit.picknik.ai/humble/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
           <span class="link-with-background">
             MoveIt 2 Getting Started Tutorial
           </span>
@@ -132,7 +166,7 @@ title: MoveIt 2 Binary Install
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 20.04
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 22.04
         </h2>
         <h3>
           ROS 2 Rolling
