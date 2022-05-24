@@ -32,6 +32,12 @@ title: Distribution
           <td>N/A</td>
         </tr>
         <tr>
+          <td><a href="https://moveit.picknik.ai/humble/index.html">MoveIt 2 Humble</a></td>
+          <td>May 23rd, 2022</td>
+          <td><img src="/assets/images/distribution/MoveIt.png" alt="MoveIt 2 Humble" height="100" /></td>
+          <td>May 2027</td>
+        </tr>
+        <tr>
           <td><a href="https://moveit.picknik.ai/galactic/index.html">MoveIt 2 Galactic</a></td>
           <td>July 8th, 2021</td>
           <td><img src="/assets/images/distribution/galactic.png" alt="MoveIt 2 Galactic" height="100" /></td>
