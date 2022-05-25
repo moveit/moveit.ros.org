@@ -24,6 +24,14 @@ Please register for World MoveIt Day using [this form](https://forms.gle/BFrtLjv
 
 [PickNik Robotics](https://picknik.ai/) // world-moveit-day@picknik.ai
 
+## Open House
+
+PickNik will host an afternoon open house for World MoveIt Day at our headquarters in Boulder, CO. Stop by the office and see some of our robots and learn about the things PickNik is working on. Light refreshments and tour provided.
+
+Location: 4730 Walnut St. Suite 106, Boulder, CO  80301
+
+Time: 2 PM - 5 PM
+
 ## Participating Remotely
 
 There will be a livestream set up for this event (details coming soon).
