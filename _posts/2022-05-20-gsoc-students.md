@@ -2,7 +2,7 @@
 author: Mark Moll
 comments: false
 date: 2022-05-20 00:00:00 -0700
-layout: page
+layout: post
 slug: 2022-google-summer-of-code-students
 title: 2022 Google Summer of Code Students
 media_type: image
