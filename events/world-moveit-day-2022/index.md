@@ -32,6 +32,8 @@ Location: 4730 Walnut St. Suite 106, Boulder, CO  80301
 
 Time: 2 PM - 5 PM
 
+Please RSVP [here](https://www.eventbrite.com/e/world-moveit-day-open-house-2022-tickets-354136540927).
+
 ## Participating Remotely
 
 There will be a livestream set up for this event (details coming soon).
