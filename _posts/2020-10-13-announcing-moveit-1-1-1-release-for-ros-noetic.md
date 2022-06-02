@@ -5,7 +5,7 @@ date: 2020-10-13
 layout: post
 title: Announcing MoveIt 1.1.1 Release for ROS Noetic
 media_type: image
-media_link: /assets/images/blog_posts/noetic.png
+media_link: /assets/images/blog_posts/noeticmoveit.png
 description: We are happy to announce a minor release of MoveIt in Noetic along with many of the related packages.
 categories:
 - moveit
