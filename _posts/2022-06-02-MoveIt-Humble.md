@@ -61,7 +61,7 @@ There is much more to come in the not too distant future. The main focus will be
 * [Vatan Aksoy Tezer](https://github.com/vatanaksoytezer)
 * [Tyler Weaver](https://github.com/tylerjw)
 * [Henning Kayser](https://github.com/henningkayser)
-* [Abi Sivaraman]
+* [Abi Sivaraman](https://github.com/Abishalini)
 * [David V. Lu!!](https://github.com/DLu)
 * [Sebastian Jahr]
 * [Stephanie Eng](https://github.com/stephanie-eng)
