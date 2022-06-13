@@ -41,7 +41,7 @@ title: MoveIt Roadmap
     <div class="release-versions__header">
       <div class="release-versions__1">FEATURE</div>
       <div class="release-versions__status">STATUS</div>
-      <div class="release-versions__2">ESTIMATED DATE</div>
+      <div class="release-versions__2">TARGET DATE</div>
       <div class="release-versions__3">FEATURE LEAD</div>
     </div>
     <div class="release-versions__body">
@@ -57,7 +57,7 @@ title: MoveIt Roadmap
           <strong>Completed</strong><br/>
         </div>
         <div class="release-versions__2">
-          Landed December 2021
+	  December 2021
         </div>
         <div class="release-versions__3">
           <div class="release-versions__divide">
@@ -82,7 +82,7 @@ title: MoveIt Roadmap
           <strong>Completed</strong><br/>
         </div>
         <div class="release-versions__2">
-          Landed November 2021
+	  November 2021
         </div>
         <div class="release-versions__3">
           <div class="release-versions__divide">
@@ -107,11 +107,30 @@ title: MoveIt Roadmap
           <strong>Completed</strong><br/>
         </div>
         <div class="release-versions__2">
-          Landed December 2021
+	  December 2021
         </div>
         <div class="release-versions__3">
           <strong>Henning Kayser</strong><br/>
           PickNik
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>OMPL Orientation Constraints</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit2/issues/348" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__status">
+          <strong>Completed</strong><br/>
+        </div>
+        <div class="release-versions__2">
+          June 2022
+        </div>
+        <div class="release-versions__3">
+          <strong>Stephanie Eng</strong><br/>
+	  PickNik
         </div>
       </div>
       <div class="release-versions__content">
@@ -126,7 +145,7 @@ title: MoveIt Roadmap
           <strong>In Progress</strong><br/>
         </div>
         <div class="release-versions__2">
-          May 2022
+	  June 2022
         </div>
         <div class="release-versions__3">
           <div class="release-versions__divide">
@@ -138,7 +157,63 @@ title: MoveIt Roadmap
             PickNik
           </div>
         </div>
-    	</div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>GSoC: Create Python bindings for MoveIt 2</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit2/issues/1279" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__status">
+          <b>In Progress</b><br>
+        </div>
+        <div class="release-versions__2">
+	  November 2022
+        </div>
+        <div class="release-versions__3">
+          <strong>Peter David Fagan</strong><br/>
+          University of Edinburgh
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>GSoC: Simultaneous Trajectory Execution</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit/issues/3156" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__status">
+          <b>In Progress</b><br>
+        </div>
+        <div class="release-versions__2">
+	  November 2022
+        </div>
+        <div class="release-versions__3">
+          <strong>Cristian C. Beltran-Hernandez</strong><br/>
+          Osaka University
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>Better path quality when planning with MoveItCpp</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit/issues/1200" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__status">
+          <b>Needs Funding</b>
+        </div>
+        <div class="release-versions__2">
+          <strong>TBD</strong>
+        </div>
+        <div class="release-versions__3">
+          <strong>TBD</strong>
+        </div>
+      </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
           <h3>Scene Graph Support</h3>
@@ -148,32 +223,13 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>Needs Funding</strong><br/>
+          <strong>Needs Funding</strong>
         </div>
         <div class="release-versions__2">
-          December 2021
+          <strong>TBD</strong>
         </div>
         <div class="release-versions__3">
-          <strong>Felix von Drigalski</strong><br/>
-          OMRON SINIC X
-        </div>
-      </div>
-      <div class="release-versions__content">
-        <div class="release-versions__1">
-          <h3>OMPL Orientation Constraints</h3>
-          <p>
-            <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit2/issues/348" target="_blank">View issue</a>
-          </p>
-        </div>
-        <div class="release-versions__status">
-          <strong>Needs Funding</strong><br/>
-        </div>
-        <div class="release-versions__2">
-          December 2021
-        </div>
-        <div class="release-versions__3">
-          <strong>TBD</strong><br/>
+          <strong>TBD</strong>
         </div>
       </div>
       <div class="release-versions__content">
@@ -185,13 +241,13 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>Needs Funding</strong><br/>
+          <strong>Needs Funding</strong>
         </div>
         <div class="release-versions__2">
-          December 2021
+          <strong>TBD</strong>
         </div>
         <div class="release-versions__3">
-          <strong>TBD</strong><br/>
+          <strong>TBD</strong>
         </div>
       </div>
     </div>
