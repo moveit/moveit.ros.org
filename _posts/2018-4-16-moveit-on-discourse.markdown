@@ -6,7 +6,7 @@ layout: post
 slug: moveit-on-discourse
 title: MoveIt! Migrating from Google Groups to ROS Discourse
 media_type: image
-media_link: http://moveit.ros.org/assets/images/discourse.png
+media_link: /assets/images/blog_posts/2018_04_16_ROS_Discourse_logo.png
 description: In recent years there has been a migration related to ROS discussions, Q&amp;A, and collaboration to ROS Discourse. Inspired by ROS-Industrial's migration this month away from Google Groups, and we believe its time for MoveIt! to migrate as well.
 categories:
 - MoveIt!

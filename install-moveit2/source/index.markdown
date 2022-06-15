@@ -14,18 +14,19 @@ Installing MoveIt 2 from source is the first step in contributing new features, 
 MoveIt is mainly supported on Linux, and the following build instructions support in particular:
 
 - Ubuntu 20.04 / ROS 2 Foxy Fitzroy (LTS)
-- Ubuntu 20.04 / ROS 2 Galactic Geochelone (Recommended)
-- Ubuntu 20.04 / ROS 2 Rolling Ridley (Continuously Updated)
+- Ubuntu 20.04 / ROS 2 Galactic Geochelone
+- Ubuntu 22.04 / ROS 2 Humble Hawksbill (Recommended LTS)
+- Ubuntu 22.04 / ROS 2 Rolling Ridley (Continuously Updated)
 
 In the future, we would like to expand our source build instructions to more OS's, please contribute instruction write-ups to [this repo](https://github.com/ros-planning/moveit.ros.org).
 
-These instructions assume you are running on Ubuntu 20.04.
+These instructions assume you are running on Ubuntu 22.04 (Humble, Rolling), or Ubuntu 20.04 (Foxy, Galactic).
 
 ## Prerequisites
 
 ### Install <img src="/assets/install_page/ros_logo.jpeg"/>
 
-Install ROS2 [Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html), [Galactic](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html), or [Rolling](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html) following the installation instructions. We recommend Foxy for stable latest LTS distribution needs, Galactic for general use case that has the latest features with a stable distribution and Rolling for contributing to MoveIt 2. Currently the [main branch](https://github.com/ros-planning/moveit2) of MoveIt 2 is supported on both Rolling and Galactic. For Foxy please use the [foxy branch](https://github.com/ros-planning/moveit2/tree/foxy) and the relevant build instructions below.
+Install ROS 2 [Foxy](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html), [Galactic](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html), [Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html), or [Rolling](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html) following the installation instructions. We recommend Humble for stable latest LTS distribution needs, and Rolling for contributing to MoveIt 2. Currently the [main branch](https://github.com/ros-planning/moveit2) of MoveIt 2 is supported on both Rolling and also Humble, but since it's used for latest development, it's unstable. For stable versions, please use the distro branches [foxy](https://github.com/ros-planning/moveit2/tree/foxy), [galactic](https://github.com/ros-planning/moveit2/tree/galactic), or [humble](https://github.com/ros-planning/moveit2/tree/humble).
 
 Use the desktop installation and don't forget to source the setup script.
 
@@ -77,18 +78,19 @@ Create a colcon workspace:
 ## Download Source Code
 
 Download the repository and install any dependencies. Issue the relevant commands for your ROS distribution.
-### Foxy
 
+### Foxy, Galactic, Humble - stable
 
-    git clone https://github.com/ros-planning/moveit2.git -b foxy
-    vcs import < moveit2/moveit2.repos
+    git clone https://github.com/ros-planning/moveit2.git -b $ROS_DISTRO
+    for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 
-### Galactic and Rolling
+### Rolling, Humble - unstable
 
     git clone https://github.com/ros-planning/moveit2.git -b main
     for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
+
 
 ## Build MoveIt
 

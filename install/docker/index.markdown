@@ -24,7 +24,7 @@ title: MoveIt 1 Docker Install
     </p>
     <br/>
     <p>
-      Note that for recent Linux distros, the installation is basically just a single <span class="ros-command">wget</span> command. You may also want <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" target="_blank">add your user to the docker group</a> to avoid having to use sudo permissions when you use the docker command.
+      Note that for recent Linux distros, the installation is basically just a single <span class="ros-command">wget</span> command. You may also want to <a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" target="_blank">add your user to the docker group</a> to avoid having to use sudo permissions when you use the docker command.
     </p>
     <h2>
       <img src="/assets/install_page/ubuntu_black.png"> Ubuntu

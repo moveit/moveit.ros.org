@@ -21,9 +21,9 @@ $('#modalVideo').on('hidden.bs.modal', function(e) {
 function futureVersion() {
   var currentDate = Date.now();
   //                        DAY / MONTH / YEAR
-  var startDate  = new Date('07/01/2021'); // Start Date
-  var freezeDate = new Date('04/30/2022'); // Feature Freeze
-  var finalDate  = new Date('05/30/2022'); // Release Date
+  var startDate  = new Date('06/01/2022'); // Start Date
+  var freezeDate = new Date('03/30/2023'); // Feature Freeze
+  var finalDate  = new Date('05/30/2023'); // Release Date
   var totalTime = finalDate.getTime() - startDate.getTime();
   var progressTime = currentDate - startDate;
   var percent = (progressTime / totalTime) * 100;

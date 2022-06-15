@@ -7,7 +7,7 @@ title: MoveIt 2 Binary Install
   <div>
     <h1>MoveIt 2 Binary Install</h1>
     We're thrilled you're ready to start using MoveIt 2!
-    Binary installation for MoveIt 2 is currently only available for ROS 2 Foxy, ROS 2 Galactic and ROS 2 Rolling on Ubuntu 20.04.
+    Binary installation for MoveIt 2 are available for the ROS 2 distributions Foxy and Galactic on Ubuntu 20.04, and Humble and Rolling on Ubuntu 22.04.
     Select your preferred ROS 2 distribution below:
     <div class="row systems-rectangle">
       <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Foxy" aria-expanded="true" aria-controls="Foxy">
@@ -33,6 +33,19 @@ title: MoveIt 2 Binary Install
                 ROS 2
             </div>
             Galactic
+          </div>
+        </div>
+    </button>
+      <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Humble" aria-expanded="true" aria-controls="Humble">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <img src="/assets/install_page/ros_icon.png"/>
+              </div>
+          <div class="col-auto system-type">
+            <div class="system-name">
+                ROS 2
+            </div>
+            Humble
           </div>
         </div>
     </button>
@@ -113,7 +126,42 @@ title: MoveIt 2 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="https://moveit.picknik.ai/foxy/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+        <a href="https://moveit.picknik.ai/galactic/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+          <span class="link-with-background">
+            MoveIt 2 Getting Started Tutorial
+          </span>
+        </a>
+      </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <div class="collapse" id="Humble" data-parent="#accordion">
+        <h3>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+        </h3>
+        <p>
+          Follow all the instructions to install <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble</a>.
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 22.04
+        </h2>
+        <h3>
+          ROS 2 Humble
+        </h3>
+	<p style="color:red;">NOTE: The debian has not been released yet. Please use the source build for now.</p>
+	<div class="bash-command">
+           <code>sudo apt install ros-humble-moveit</code>
+        </div>
+        <div class="horizontal-line"></div>
+        <h2>
+          Quick Start
+        </h2>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="https://moveit.picknik.ai/humble/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
           <span class="link-with-background">
             MoveIt 2 Getting Started Tutorial
           </span>
@@ -132,7 +180,7 @@ title: MoveIt 2 Binary Install
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 20.04
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 22.04
         </h2>
         <h3>
           ROS 2 Rolling
