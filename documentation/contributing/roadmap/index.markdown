@@ -40,6 +40,7 @@ title: MoveIt Roadmap
   <div class="release-versions">
     <div class="release-versions__header">
       <div class="release-versions__1">FEATURE</div>
+      <div class="release-versions__status">STATUS</div>
       <div class="release-versions__2">ESTIMATED DATE</div>
       <div class="release-versions__3">FEATURE LEAD</div>
     </div>
@@ -51,6 +52,9 @@ title: MoveIt Roadmap
             <span><img src="/assets/images/icons/git-black.svg"></span>
             <a href="https://github.com/ros-planning/moveit2/issues/433" target="_blank">View issue</a>
           </p>
+        </div>
+        <div class="release-versions__status">
+          <strong>Completed</strong><br/>
         </div>
         <div class="release-versions__2">
           Landed December 2021
@@ -74,6 +78,9 @@ title: MoveIt Roadmap
             <a href="https://github.com/ros-planning/moveit_task_constructor/pull/170" target="_blank">View issue</a>
           </p>
         </div>
+        <div class="release-versions__status">
+          <strong>Completed</strong><br/>
+        </div>
         <div class="release-versions__2">
           Landed November 2021
         </div>
@@ -96,6 +103,9 @@ title: MoveIt Roadmap
             <a href="https://github.com/ros-planning/moveit2/issues/315" target="_blank">View issue</a>
           </p>
         </div>
+        <div class="release-versions__status">
+          <strong>Completed</strong><br/>
+        </div>
         <div class="release-versions__2">
           Landed December 2021
         </div>
@@ -111,6 +121,9 @@ title: MoveIt Roadmap
             <span><img src="/assets/images/icons/git-black.svg"></span>
             <a href="https://github.com/ros-planning/moveit2/issues/313" target="_blank">View issue</a>
           </p>
+        </div>
+        <div class="release-versions__status">
+          <strong>In Progress</strong><br/>
         </div>
         <div class="release-versions__2">
           May 2022
@@ -134,6 +147,9 @@ title: MoveIt Roadmap
             <a href="https://github.com/ros-planning/moveit/issues/202" target="_blank">View issue</a>
           </p>
         </div>
+        <div class="release-versions__status">
+          <strong>Needs Funding</strong><br/>
+        </div>
         <div class="release-versions__2">
           December 2021
         </div>
@@ -150,6 +166,9 @@ title: MoveIt Roadmap
             <a href="https://github.com/ros-planning/moveit2/issues/348" target="_blank">View issue</a>
           </p>
         </div>
+        <div class="release-versions__status">
+          <strong>Needs Funding</strong><br/>
+        </div>
         <div class="release-versions__2">
           December 2021
         </div>
@@ -164,6 +183,9 @@ title: MoveIt Roadmap
             <span><img src="/assets/images/icons/git-black.svg"></span>
             <a href="https://github.com/ros-planning/moveit2/issues/208" target="_blank">View issue</a>
           </p>
+        </div>
+        <div class="release-versions__status">
+          <strong>Needs Funding</strong><br/>
         </div>
         <div class="release-versions__2">
           December 2021
