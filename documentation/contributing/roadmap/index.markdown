@@ -45,7 +45,7 @@ title: MoveIt Roadmap
       <div class="release-versions__3">FEATURE LEAD</div>
     </div>
     <div class="release-versions__body">
-      <div class="release-versions__content">
+      <div class="release-versions__content" style="background-color:PaleGreen">
         <div class="release-versions__1">
           <h3>Hybrid Planning</h3>
           <p>
@@ -70,7 +70,7 @@ title: MoveIt Roadmap
           </div>
         </div>
       </div>
-      <div class="release-versions__content">
+      <div class="release-versions__content" style="background-color:PaleGreen">
         <div class="release-versions__1">
           <h3>Port MoveIt Task Constructor to ROS 2</h3>
           <p>
@@ -95,7 +95,7 @@ title: MoveIt Roadmap
           </div>
         </div>
       </div>
-      <div class="release-versions__content">
+      <div class="release-versions__content" style="background-color:PaleGreen">
         <div class="release-versions__1">
           <h3>Port Pilz Industrial Motion Planner to ROS 2</h3>
           <p>
@@ -114,7 +114,7 @@ title: MoveIt Roadmap
           PickNik
         </div>
       </div>
-      <div class="release-versions__content">
+      <div class="release-versions__content" style="background-color:PaleGreen">
         <div class="release-versions__1">
           <h3>OMPL Orientation Constraints</h3>
           <p>
@@ -196,7 +196,7 @@ title: MoveIt Roadmap
           Osaka University
         </div>
       </div>
-      <div class="release-versions__content">
+      <div class="release-versions__content" style="background-color:WhiteSmoke">
         <div class="release-versions__1">
           <h3>Better path quality when planning with MoveItCpp</h3>
           <p>
@@ -214,7 +214,7 @@ title: MoveIt Roadmap
           <strong>TBD</strong>
         </div>
       </div>
-      <div class="release-versions__content">
+      <div class="release-versions__content" style="background-color:WhiteSmoke">
         <div class="release-versions__1">
           <h3>Scene Graph Support</h3>
           <p>
@@ -232,7 +232,7 @@ title: MoveIt Roadmap
           <strong>TBD</strong>
         </div>
       </div>
-      <div class="release-versions__content">
+      <div class="release-versions__content" style="background-color:WhiteSmoke">
         <div class="release-versions__1">
           <h3>Add ability to attach and detach end-effector links</h3>
           <p>
