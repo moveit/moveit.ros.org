@@ -40,7 +40,7 @@ title: Distribution
         <tr>
           <td><a href="https://moveit.picknik.ai/humble/index.html">MoveIt 2 Humble</a></td>
           <td>May 23rd, 2022</td>
-          <td><img src="/assets/images/distribution/humble.png" alt="MoveIt 2 Humble" height="100" /></td>
+          <td><img src="/assets/images/distribution/humble.jpg" alt="MoveIt 2 Humble" height="100" /></td>
           <td>May 2027</td>
         </tr>
         <tr>
@@ -58,13 +58,13 @@ title: Distribution
         <tr>
           <td><a href="https://ros-planning.github.io/moveit_tutorials/">MoveIt 1 Noetic</a></td>
           <td>October 13th, 2020</td>
-          <td><img src="/assets/images/distribution/noetic.png" alt="MoveIt 1 Noetic" height="100" /></td>
+          <td><img src="/assets/images/distribution/noetic.jpg" alt="MoveIt 1 Noetic" height="100" /></td>
           <td>May 2025</td>
         </tr>
         <tr>
           <td><a href="http://docs.ros.org/en/melodic/api/moveit_tutorials/html/index.html">MoveIt 1 Melodic</a></td>
           <td>June 5th, 2020</td>
-          <td><img src="/assets/images/distribution/melodic.png" alt="MoveIt 1 Melodic" height="100" /></td>
+          <td><img src="/assets/images/distribution/melodic.jpg" alt="MoveIt 1 Melodic" height="100" /></td>
           <td>May 2023</td>
         </tr>
       </tbody>
