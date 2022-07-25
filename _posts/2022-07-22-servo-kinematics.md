@@ -5,7 +5,7 @@ date: 2022-07-22 00:00:00 -0600
 layout: post
 slug: MoveIt-Servo-Inverse-Kinematics
 title: MoveIt Servo Inverse Kinematics Improvements
-media_type: gif
+media_type: image
 media_link: /assets/images/blog_posts/ee_swirl.gif
 description: Inverse kinematics has been overhauled in MoveIt Servo
 
