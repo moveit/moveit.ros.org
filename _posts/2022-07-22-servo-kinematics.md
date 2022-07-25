@@ -36,5 +36,8 @@ MoveIt comes packaged with a few kinematics plugins:
 
 Another popular inverse kinematics plugin, external to MoveIt, is [bio_ik](https://github.com/PickNikRobotics/bio_ik), which was recently ported to ROS 2.
 This plugin provides the ability to specify cost functions that can prioritize certain solutions to the inverse kinematics problem, as well as provide custom position & orientation constraints.
-This plugin provides a rich set of ways one can specify their priorities when solving inverse kinematics.
+These cost functions provide a rich set of ways one can specify their priorities when solving inverse kinematics.
+Additionally, it has been shown to outperform other inverse kinematics solvers in singularity avoidance.
+One may also specify cost functions that explicitly penalize robot configurations that are close to a singularity.
+If you struggle with running into singularities when teleoperating your robot with MoveIt Servo, bio_ik could be for you.
 We expect it to be the most common choice for Servo in the future.
