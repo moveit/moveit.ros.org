@@ -6,7 +6,7 @@ layout: post
 slug: MoveIt-Servo-Inverse-Kinematics
 title: MoveIt Servo Inverse Kinematics Improvements
 media_type: image
-media_link: /assets/images/blog_posts/ee_swirl.gif
+media_link: /assets/images/blog_posts/bioik_sing_avoid_annotated.gif
 description: Inverse kinematics has been overhauled in MoveIt Servo
 
 categories:
@@ -19,7 +19,7 @@ A new, exciting improvement has made it into MoveIt Servo!
 Until now, MoveIt Servo has used the inverse Jacobian method for computing inverse kinematics.
 While this may work in many situations, a significant portion of robotics research has been dedicated to more performant algorithms for computing inverse kinematics.
 A primary focus of this research is _redundancy resolution_, in which robots with redundant degrees of freedom may utilize alternative joint configurations to achieve the same end-effector pose.
-By doing so, robots may be enabled to better avoid singularies, avoid collisions, and lower power consumption, to name a few benefits.
+By doing so, robots may be enabled to better avoid singularities, avoid collisions, and lower power consumption, to name a few benefits.
 
 In order to take advantage of these ongoing innovations in inverse kinematics, MoveIt Servo now has the capability to use a plugin architecture for computing inverse kinematics.
 If you have an idea for a new way to compute inverse kinematics, you can now easily integrate it into MoveIt!
