@@ -30,4 +30,4 @@ A CMake function takes the YAML file input, calls a python executable to generat
 
 If you have also found that using ROS 2 parameter interface in `rclcpp` results in lots of copy-pasta, we invite you to try using the tool we are developing for use in MoveIt and ros2_control.
 
-This package into ROS 2 Humble and Rolling. Backporting to Galactic and Foxy is possible but not planned at this time.
+This package is released into ROS 2 Humble and Rolling. Backporting to Galactic and Foxy is possible but not planned at this time.
