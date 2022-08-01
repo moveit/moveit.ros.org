@@ -24,8 +24,10 @@ The primary pain points we kept running into are:
 * How to map the structure of the config file to structures in C++?
 
 While working on Admittance Control, [Paul](https://github.com/pac48) developed the initial version of what would become [generate_parameter_library](https://github.com/PickNikRobotics/generate_parameter_library).
-Unable to make a significant dent in the amount of boilerplate we needed to copy and paste through other means, we chose an approach of last resort.
-This package generates C++ code from a YAML file.
+Over the summer he has collaberated with others to make it easy to use, robust, and solve the major pain points of the the ROS 2 parameter interface.
+
+Not satisfied with the results of using gentler approaches to this problem, `generate_parameter_library` uses a heavy-handed approach.
+This package generates a C++ library from a YAML file.
 A CMake function takes the YAML file input, calls a python executable to generate C++ source files, and then builds those source files into a library target.
 
 If you have also found that using ROS 2 parameter interface in `rclcpp` results in lots of copy-pasta, we invite you to try using the tool we are developing for use in MoveIt and ros2_control.
