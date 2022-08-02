@@ -6,7 +6,7 @@ layout: post
 slug: Declaritive-ROS-2-Parameters
 title: Declarative ROS 2 Parameters
 media_type: image
-media_link: /assets/images/blog_posts/i_choose_violence.gif
+media_link: /assets/images/blog_posts/i_choose_violence.png
 description: Specify what your parameters are
 
 categories:
