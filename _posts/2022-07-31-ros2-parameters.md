@@ -6,7 +6,7 @@ layout: post
 slug: Declaritive-ROS-2-Parameters
 title: Declarative ROS 2 Parameters
 media_type: image
-media_link: /assets/images/blog_posts/code-gen.jpg
+media_link: /assets/images/blog_posts/declarative_ros2_parameters.png
 description: PickNik is excited to announce the release of the generate_parameter_library ROS package, which has been developed to address many of the issues the MoveIt project has faced using ROS 2 parameters in C++.
 
 categories:
