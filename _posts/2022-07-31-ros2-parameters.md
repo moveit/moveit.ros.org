@@ -14,7 +14,7 @@ categories:
 
 ---
 
-PickNik is excited to announce the release of the [generate_parameter_library](https://github.com/PickNikRobotics/generate_parameter_library) ROS package, which has been developed to address many of the issues the MoveIt project has faced using ROS 2 parameters in C++.
+#### PickNik is excited to announce the release of the [generate_parameter_library](https://github.com/PickNikRobotics/generate_parameter_library) ROS package, which has been developed to address many of the issues the MoveIt project has faced using ROS 2 parameters in C++.
 
 Over the last two years, many of us from PickNik have attempted to improve our usage of ROS 2 parameters in C++.
 We have created patterns for usage and made several attempts at building libraries that would abstract declaring, getting, validating, and updating parameters that might be dynamic.
