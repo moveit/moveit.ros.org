@@ -21,4 +21,4 @@ categories:
 </div>
 <br>
 
-This talk was part of the 2022 MoveIt Community Meeting, you can find more talks from that event [here](https://moveit.ros.org/events/2022-moveit-community-meeting/).
+This talk was part of the 2022 MoveIt Community Meeting, you can find more talks from that event [here](/events/2022-moveit-community-meeting/).
