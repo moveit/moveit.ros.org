@@ -3,7 +3,7 @@ author: Tyler Weaver
 comments: false
 date: 2022-07-22 00:00:00 -0600
 layout: post
-slug: Declaritive-ROS-2-Parameters
+slug: Declarative-ROS-2-Parameters
 title: Declarative ROS 2 Parameters
 media_type: image
 media_link: /assets/images/blog_posts/declarative_ros2_parameters.png
