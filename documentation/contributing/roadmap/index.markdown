@@ -160,6 +160,31 @@ title: MoveIt Roadmap
       </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
+          <h3>Make ROS&nbsp;2 parameters more dynamic and easier to use</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/orgs/ros-planning/discussions/1403" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__status">
+          <strong>In Progress</strong><br/>
+        </div>
+        <div class="release-versions__2">
+	  August 2022
+        </div>
+        <div class="release-versions__3">
+          <div class="release-versions__divide">
+            <strong>Henning Kayser</strong><br/>
+            PickNik
+          </div>
+          <div class="release-versions__divide">
+            <strong>Tyler Weaver</strong><br/>
+            PickNik
+          </div>
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
           <h3>GSoC: Create Python bindings for MoveIt 2</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
