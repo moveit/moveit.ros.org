@@ -28,9 +28,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="/events/world-moveit-day-2022/">
+                                <a href="https://picknik.ai/studio/">
                                     <span class="blue">Announcement</span>
-                                    <span>Hack with us on June 2nd at World MoveIt Day 2022!</span>
+                                    <span>MoveIt Studio is out now! The power of MoveIt, made easy.</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
