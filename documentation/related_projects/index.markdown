@@ -15,7 +15,7 @@ MoveIt is designed to be easily extensible as separate plugins or projects. Belo
 
 Our MoveIt Studio Developer Platform enables robotics engineers and robot field operators to more quickly build advanced applications that include manipulator arms. Designed with a user-friendly interface, it includes a set of pre-built tools that make it easy to build and debug behavior trees, inspect trajectories, diagnose failures, and provide robot recovery. [Click here to learn more](https://picknik.ai/studio/).
 
-<img src="/assets/images/related_projects/studio_launch.png" height="500"/>
+<img src="/assets/images/related_projects/moveit_studio.png" height="500"/>
 
 ## ROS Control
 
