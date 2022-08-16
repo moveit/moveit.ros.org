@@ -183,3 +183,33 @@ img {
     transform: rotate(10deg);
   }
 }
+
+.moveit_announcement_banner {
+  position: fixed;
+  z-index: 9999;
+  bottom: 10px;
+  right: 0;
+  animation: fadeFromRight 1s linear;
+
+  img {
+    width: 320px;
+
+    @media screen and (max-width: 479px) {
+      width: 300px;
+    }
+  }
+}
+
+@keyframes fadeFromRight {
+  0% {
+    right: -500px;
+  }
+
+  70% {
+    right: 5px;
+  }
+
+  100% {
+    right: 0;
+  }
+}
