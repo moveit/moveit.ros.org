@@ -11,6 +11,12 @@ title: Related Projects
 
 MoveIt is designed to be easily extensible as separate plugins or projects. Below is a list of related projects that have been aligned with the MoveIt framework, in alphabetical order of project names. This is by no means exhaustive. Please create pull-requests in the repository [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) to **add** other projects to this list. Or if not sure about the relevance, please post on the [ROS Discourse category](https://discourse.ros.org/c/moveit).
 
+## MoveIt Studio
+
+Our MoveIt Studio Developer Platform enables robotics engineers and robot field operators to more quickly build advanced applications that include manipulator arms. Designed with a user-friendly interface, it includes a set of pre-built tools that make it easy to build and debug behavior trees, inspect trajectories, diagnose failures, and provide robot recovery. [Click here to learn more](https://picknik.ai/studio/).
+
+<img src="/assets/images/related_projects/moveit_studio.png" height="500"/>
+
 ## ROS Control
 
 A set of packages that include controller interfaces, controller managers, transmissions and hardware_interfaces. The ros_control packages are a rewrite of the [pr2_mechanism](http://wiki.ros.org/pr2_mechanism) packages to make controllers generic to all robots beyond just the PR2. The ros_control packages takes as input the joint state data from your robot's actuator's encoders and an input set point. It uses a generic control loop feedback mechanism, typically a PID controller, to control the output, typically effort, sent to your actuators. ros_control gets more complicated for physical mechanisms that do not have one-to-one mappings of joint positions, efforts, etc but these scenarios are accounted for using transmissions.
