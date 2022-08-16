@@ -36,4 +36,4 @@ We are excited about our partners and customers who are already using MoveIt Stu
 
 PickNik continues to invest heavily in the MoveIt open source project across all our projects, with dedicated engineers providing feature addition, maintenance, and documentation. We believe these new products will better position PickNik and the MoveIt project to remain competitive in the next decade of robotics innovation.
 
-For more information about how MoveIt Studio can accelerate your robotics development, please reach out to [hello@picknik.ai](hello@picknik.ai) for a free trial.
+For more information about how MoveIt Studio can accelerate your robotics development, please reach out to [hello@picknik.ai](mailto:hello@picknik.ai) for a free trial.
