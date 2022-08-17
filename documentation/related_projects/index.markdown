@@ -11,12 +11,6 @@ title: Related Projects
 
 MoveIt is designed to be easily extensible as separate plugins or projects. Below is a list of related projects that have been aligned with the MoveIt framework, in alphabetical order of project names. This is by no means exhaustive. Please create pull-requests in the repository [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) to **add** other projects to this list. Or if not sure about the relevance, please post on the [ROS Discourse category](https://discourse.ros.org/c/moveit).
 
-## MoveIt Studio
-
-PickNik's MoveIt Studio Developer Platform enables robotics engineers and robot field operators to more quickly build advanced applications that include manipulator arms. Designed with a user-friendly interface, it includes a set of pre-built tools that make it easy to build and debug behavior trees, inspect trajectories, diagnose failures, and provide robot recovery. [Click here to learn more](https://picknik.ai/studio/).
-
-<img src="/assets/images/related_projects/moveit_studio.png" height="500"/>
-
 ## Cartesian Path Planner Plug-In for MoveIt!
 
 [ROS Industrial](https://rosindustrial.org/) has created a user friendly [Cartesian Path Planner Plug-In for MoveIt](https://rosindustrial.org/news/2014/9/5/cartesian-path-planner-plug-in-for-moveit). In the current version of the project, the user can simultaneously interact with a Qt Widget and the RViz environment to define and set Cartesian Way-Points, which can then be passed to the Cartesian Planner of the MoveIt package and executed both on a simulated and real robot.
@@ -66,6 +60,12 @@ Geometric grasping generator library for cuboids. A basic grasp generator for ob
 Its current implementation takes as input a pose vector (position and orientation) and generates a large number of potential grasp approaches and directions. Also includes a grasp filter for removing kinematically infeasible grasps via threaded IK solvers. [More Info](https://github.com/PickNikRobotics/moveit_grasps)
 
 <img src="/assets/images/related_projects/moveit_grasps.png" height="500"/>
+
+## MoveIt Studio
+
+PickNik's MoveIt Studio Developer Platform enables robotics engineers and robot field operators to more quickly build advanced applications that include manipulator arms. Designed with a user-friendly interface, it includes a set of pre-built tools that make it easy to build and debug behavior trees, inspect trajectories, diagnose failures, and provide robot recovery. [Click here to learn more](https://picknik.ai/studio/).
+
+<img src="/assets/images/related_projects/moveit_studio.png" height="500"/>
 
 ## Pilz Industrial Motion
 
