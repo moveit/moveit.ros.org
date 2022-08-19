@@ -337,7 +337,7 @@ title: About
   <h1>Sponsors</h1>
   <div class="container-fluid container-fluid-margin">
     <div class="container">
-      <div class="main-card-wrapper">
+      <div class="main-card-wrapper justify-content-start">
         <div class="sponsors-card-single">
           <img class="mx-auto d-block" src="/assets/images/sponsors/picknik.png" alt="PickNik">
           PickNik was founded with the mission of growing the MoveIt project through community building and contract consulting.
@@ -346,11 +346,6 @@ title: About
         <div class="sponsors-card-single">
           <img class="mx-auto d-block" src="/assets/images/sponsors/rosi.png" alt="ROSi">
           The port to ROS 2 is supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components. More information: <a href="https://www.rosin-project.eu/">Learn More</a>
-        </div>
-        <div class="sponsors-card-single">
-          <img class="mx-auto d-block" src="/assets/images/sponsors/franka_logo.png" alt="Franka Emika">
-          Franka Emika sponsored a codesprint in 2018 to improve MoveIt’s tutorials, documentation, and website.
-          <a href="/moveit!/ros/2018/02/26/tutorials-documentation-codesprint.html">Learn More</a>
         </div>
       </div>
     </div>
