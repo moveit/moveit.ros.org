@@ -47,13 +47,16 @@
     flex: 0 0 30.333333%;
     max-width: 30.333333%;
     text-align: left;
+    margin-right: 60px;
     @media screen and (max-width: 1200px) {
-      max-width: 49%;
-      flex: 0 0 49%;
+      max-width: 45%;
+      flex: 0 0 45%;
+      margin-right: 40px;
     }
     @media screen and (max-width: 900px) {
       max-width: 100%;
       flex: 0 0 100%;
+      margin-right: 0;
     }
     img {
       margin-left: 0px !important;
