@@ -30,7 +30,7 @@ redirect_from: '/moveit/'
                             <div class="main-tag">
                                 <a href="https://picknik.ai/studio/">
                                     <span class="blue">Announcement</span>
-                                    <span>MoveIt Studio is out now! The power of MoveIt, made easy.</span>
+                                    <span>See you at ROSCon Japan! PickNik booth w/ MoveIt Studio!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
