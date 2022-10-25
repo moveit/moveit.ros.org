@@ -133,7 +133,7 @@ title: MoveIt Roadmap
 	  PickNik
         </div>
       </div>
-      <div class="release-versions__content">
+      <div class="release-versions__content" style="background-color:PaleGreen">
         <div class="release-versions__1">
           <h3>MoveIt Config Redesign - Migrate MSA to ROS&nbsp;2</h3>
           <p>
@@ -142,7 +142,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>In Progress</strong><br/>
+          <strong>Completed</strong><br/>
         </div>
         <div class="release-versions__2">
 	  June 2022
@@ -158,6 +158,46 @@ title: MoveIt Roadmap
           </div>
         </div>
       </div>
+      <div class="release-versions__content" style="background-color:PaleGreen">
+        <div class="release-versions__1">
+          <h3>Remove outdated & unused code</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit2/issues/1038" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__status">
+          <strong>Completed</strong><br/>
+        </div>
+        <div class="release-versions__2">
+	  October 2022
+        </div>
+        <div class="release-versions__3">
+          <div class="release-versions__divide">
+            <strong>Henning Kayser</strong><br/>
+            PickNik
+          </div>
+        </div>
+      </div>
+      <div class="release-versions__content">
+        <div class="release-versions__1">
+          <h3>Better path quality when planning with MoveItCpp</h3>
+          <p>
+            <span><img src="/assets/images/icons/git-black.svg"></span>
+            <a href="https://github.com/ros-planning/moveit/issues/1200" target="_blank">View issue</a>
+          </p>
+        </div>
+        <div class="release-versions__status">
+          <b>In Progress</b>
+        </div>
+        <div class="release-versions__2">
+	  October 2022
+        </div>
+        <div class="release-versions__3">
+          <strong>Sebastian Jahr</strong><br/>
+	  PickNik
+        </div>
+      </div>
       <div class="release-versions__content">
         <div class="release-versions__1">
           <h3>Make ROS&nbsp;2 parameters more dynamic and easier to use</h3>
@@ -170,7 +210,7 @@ title: MoveIt Roadmap
           <strong>In Progress</strong><br/>
         </div>
         <div class="release-versions__2">
-	  August 2022
+	  November 2022
         </div>
         <div class="release-versions__3">
           <div class="release-versions__divide">
@@ -221,40 +261,50 @@ title: MoveIt Roadmap
           Osaka University
         </div>
       </div>
-      <div class="release-versions__content" style="background-color:WhiteSmoke">
+      <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Better path quality when planning with MoveItCpp</h3>
+          <h3>Cartesian Interpolation with optimization-based IK</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit/issues/1200" target="_blank">View issue</a>
+            <a href="https://github.com/ros-planning/moveit2/issues/1370" target="_blank">View issue</a>
           </p>
         </div>
         <div class="release-versions__status">
-          <b>Needs Funding</b>
+          <b>In Progress</b><br>
         </div>
         <div class="release-versions__2">
-          <strong>TBD</strong>
+	  November 2022
         </div>
         <div class="release-versions__3">
-          <strong>TBD</strong>
+          <div class="release-versions__divide">
+            <strong>Tyler Weaver</strong><br/>
+            PickNik
+          </div>
+	  <div class="release-versions__divide">
+            <strong>Wyatt Rees</strong><br/>
+            PickNik
+          </div>
         </div>
       </div>
-      <div class="release-versions__content" style="background-color:WhiteSmoke">
+      <div class="release-versions__content">
         <div class="release-versions__1">
-          <h3>Scene Graph Support</h3>
+          <h3>Camera Calibration for MoveIt 2</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            <a href="https://github.com/ros-planning/moveit/issues/202" target="_blank">View issue</a>
+            <a href="https://github.com/ros-planning/moveit2/issues/1370" target="_blank">View issue</a>
           </p>
         </div>
         <div class="release-versions__status">
-          <strong>Needs Funding</strong>
+          <b>In Progress</b><br>
         </div>
         <div class="release-versions__2">
-          <strong>TBD</strong>
+	  October 2022
         </div>
         <div class="release-versions__3">
-          <strong>TBD</strong>
+	  <div class="release-versions__divide">
+            <strong>Abishalini Sivaraman</strong><br/>
+            PickNik
+          </div>
         </div>
       </div>
       <div class="release-versions__content" style="background-color:WhiteSmoke">
