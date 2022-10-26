@@ -91,6 +91,14 @@ Download the repository and install any dependencies. Issue the relevant command
     for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 
+## Middleware
+
+We recommend CycloneDDS as a middleware. Note: this makes all nodes started using this RMW incompatible with any other nodes not using Cyclone DDS.
+
+    sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp
+    export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+
+You may want to add `export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp` to your ~/.bashrc to source it automatically.
 
 ## Build MoveIt
 

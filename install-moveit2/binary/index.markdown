@@ -156,6 +156,16 @@ title: MoveIt 2 Binary Install
         </div>
         <div class="horizontal-line"></div>
         <h2>
+          Middleware
+        </h2>
+        <p>
+          We recommend CycloneDDS as a middleware. Note: this makes all nodes started using this RMW incompatible with any other nodes not using Cyclone DDS.
+          <code>sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp</code>
+          <code>export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp</code>
+          You may want to add `export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp` to your ~/.bashrc to source it automatically.
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
           Quick Start
         </h2>
         <p>
@@ -188,6 +198,16 @@ title: MoveIt 2 Binary Install
             <code>sudo apt install ros-rolling-moveit</code>
           </div>
         </h3>
+        <div class="horizontal-line"></div>
+        <h2>
+          Middleware
+        </h2>
+        <p>
+          We recommend CycloneDDS as a middleware. Note: this makes all nodes started using this RMW incompatible with any other nodes not using Cyclone DDS.
+          <code>sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp</code>
+          <code>export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp</code>
+          You may want to add `export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp` to your ~/.bashrc to source it automatically.
+        </p>
         <div class="horizontal-line"></div>
         <h2>
           Quick Start
