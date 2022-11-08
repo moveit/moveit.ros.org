@@ -28,10 +28,8 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="https://picknik.ai/studio/">
-                                    <span class="blue">Announcement</span>
-                                    <span>See you at ROSCon Japan! PickNik booth w/ MoveIt Studio!</span>
-                                </a>
+                              <span class="blue">Announcement</span>
+                              <span>Company integrating MoveIt? <a href="https://picknik.ai/connect/" target="_blank">We can help!</a></span>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
                             <p class="main-text">Incorporating the latest advances in motion planning,<br/>
