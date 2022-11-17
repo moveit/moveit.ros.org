@@ -83,34 +83,14 @@ Any and all use of the "MoveIt" name, the MoveIt logo, and other MoveIt trademar
   </thead>
   <tbody>
     <tr>
-      <td>MoveIt</td>
-      <td> <a href="https://moveit.ros.org/assets/logo/moveit_logo-white.png">PNG</a> </td>
+      <td>MoveIt Logo PNG</td>
+      <td><a href="https://moveit.ros.org/assets/logo/moveit_logo-white.png">PNG</a> </td>
       <td><a href="https://moveit.ros.org/assets/logo/moveit_logo-black.png">PNG</a></td>
     </tr>
     <tr>
-      <td></td>
+      <td>MoveIt Logo SVG</td>
       <td><a href="https://moveit.ros.org/assets/logo/moveit_logo-white.svg">SVG</a></td>
       <td> <a href="https://moveit.ros.org/assets/logo/moveit_logo-black.svg">SVG</a> </td>
-    </tr>
-    <tr>
-      <td>MoveIt 1</td>
-      <td> <a href="https://moveit.ros.org/assets/logo/moveit1/moveit_logo-white.png">PNG</a> </td>
-      <td><a href="https://moveit.ros.org/assets/logo/moveit1/moveit_logo-black.png">PNG</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td> <a href="https://moveit.ros.org/assets/logo/moveit1/moveit_logo-white.svg">SVG</a> </td>
-      <td><a href="https://moveit.ros.org/assets/logo/moveit1/moveit_logo-black.svg">SVG</a></td>
-    </tr>
-    <tr>
-      <td>MoveIt 2</td>
-      <td> <a href="https://moveit.ros.org/assets/logo/moveit2/moveit_logo-white.png">PNG</a> </td>
-      <td><a href="https://moveit.ros.org/assets/logo/moveit2/moveit_logo-black.png">PNG</a></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td> <a href="https://moveit.ros.org/assets/logo/moveit2/moveit_logo-white.svg">SVG</a> </td>
-      <td><a href="https://moveit.ros.org/assets/logo/moveit2/moveit_logo-black.svg">SVG</a></td>
     </tr>
     </tbody>
   </table>
