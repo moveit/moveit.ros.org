@@ -148,12 +148,6 @@ Navigate to ``Tools`` > ``Options`` > ``Beautifier``
 On the ``General`` tab, enable auto format on file save, using ``ClangFormat``.
 On the ``Clang Format`` tab, configure ``clang-format-10`` as your executable and choose ``Use predefined style`` from ``File``.
 
-### Atom Editor Configuration
-
-Install the [clang-format](https://atom.io/packages/clang-format) package via the Atom package manager or ``apm install clang-format``.
-
-In the package settings set ``clang-format-10`` as your executable and point 'Style' to your ``.clang-format`` file.
-
 ## clang-tidy Linting
 
 **clang-tidy** is a linting tool for C++. Where **clang-format** will fix the formatting of your code
