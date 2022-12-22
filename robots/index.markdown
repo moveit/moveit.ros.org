@@ -1654,17 +1654,6 @@ title: Robots
                                 </div>
                         </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div class="robots-single">
-                                <div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/MIP_Junior.png');">
-                                </div>
-                                <div class="robots-content">
-                                        <h2>Junior 300</h2>
-                                        <h3>MIP Robotics</h3>
-                                        <a href="https://github.com/MIPRobotics/ROS_robotics_simulation" target="_blank">View package</a>
-                                </div>
-                        </div>
-                </div>
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-12">
