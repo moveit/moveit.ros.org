@@ -315,7 +315,7 @@ title: About
                   <div class="person-name">Mohmad El khzragy</div>
                   <div class="organization-name">TUM</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/MohmadAyman" target="_blank">MohmadAyman</a>
+                  N/A
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Shingo Kitagawa</div>
