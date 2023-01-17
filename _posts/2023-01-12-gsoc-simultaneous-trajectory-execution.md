@@ -22,11 +22,13 @@ The goal was then to allow the simultaneous execution of multiple trajectories o
 
 ## Example Use Cases
 1. Several trajectories are planned and executed through the `MoveIt Motion Planning Rviz` plugin. 
-![simultaneous-execution-rviz](https://user-images.githubusercontent.com/3798796/196121126-6842200c-6a81-42cc-bc7a-b9f7200d7a2b.gif)
+![simultaneous-execution-rviz](https://github.com/ros-planning/moveit.ros.org/raw/main/assets/images/blog_posts/gsoc_2022/demo-simultaneous-execution1.gif)
 2. Trajectories being planned and executed from different scripts (Rviz + Python script)
-![simultaneous-execution-python-rviz](https://user-images.githubusercontent.com/3798796/196125955-68b9698a-45ce-4a3c-9bac-668b7d4f15d6.gif)
-3. **Real application** examples can be found [here](https://github.com/ros-planning/moveit/pull/2810) such as executing screwing task independently with each arm.
-![simultaneous-screwing](https://user-images.githubusercontent.com/3798796/212067483-b8ff2c2f-994e-42bd-a411-66a27e91eeb1.gif)
+![simultaneous-execution-python-rviz](https://github.com/ros-planning/moveit.ros.org/raw/main/assets/images/blog_posts/gsoc_2022/demo-simultaneous-execution2.gif)
+3. **Collision checking on planning scene update**. After a planning scene update, if any of the concurrently executing trajectories is in a collision path, that trajectory alone would be aborted. Any valid trajectory will continue its execution.
+![planning-scene-update](https://github.com/ros-planning/moveit.ros.org/raw/main/assets/images/blog_posts/gsoc_2022/pln-scene-update.gif)
+4. **Real application** examples can be found [here](https://github.com/ros-planning/moveit/pull/2810) such as executing screwing task independently with each arm.
+![simultaneous-screwing](https://github.com/ros-planning/moveit.ros.org/raw/main/assets/images/blog_posts/gsoc_2022/real-simultaneous-execution.gif)
 
 
 ## Feature Description
