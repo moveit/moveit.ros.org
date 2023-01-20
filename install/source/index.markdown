@@ -28,10 +28,10 @@ title: MoveIt 1 Source Build - Linux
             sudo apt dist-upgrade
         </code>
     </div>
-    <p>Source installation requires <a href="http://wiki.ros.org/wstool" target="_blank">wstool</a>, <a href="https://catkin-tools.readthedocs.io/en/latest/" target="_blank">catkin_tools</a>, and optionally <a href="https://clang.llvm.org/docs/ClangFormat.html" target="_blank">clang-format</a>:</p>
+    <p>Source installation requires <a href="http://wiki.ros.org/wstool" target="_blank">wstool</a>, <a href="https://catkin-tools.readthedocs.io/en/latest/" target="_blank">catkin_tools</a>:</p>
     <div class="bash-command">
         <code>
-            sudo apt install python3-wstool python3-catkin-tools clang-format-10 python3-rosdep
+            sudo apt install python3-wstool python3-catkin-tools python3-rosdep
         </code>
     </div>
     <p><i>Kinetic/Melodic Note: for Ubuntu 16.04 and 18.04, replace 'python3' with just 'python'</i></p>

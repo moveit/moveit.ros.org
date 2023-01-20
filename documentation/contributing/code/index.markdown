@@ -89,13 +89,11 @@ To run pre-commit automatically before committing in a local repo, install git h
 
 ## clang-format Auto Code Formatting
 
-Note that if you use pre-commit as described above, clang-format is applied automatically before each commit (if `clang-format-10` is installed). This section describes how to use it manually.
+Note that if you use pre-commit as described above, clang-format is applied automatically before each commit (if `clang-format` is installed). This section describes how to use it manually.
 
 You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
-    sudo apt install clang-format-10
-
-Please note that we rely on clang-format version **10**. Sadly, newer versions are not fully backward compatible.
+    sudo apt install clang-format
 
 clang-format requires a configuration file in the root of your catkin workspace. The MoveIt repo contains this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-format).
 

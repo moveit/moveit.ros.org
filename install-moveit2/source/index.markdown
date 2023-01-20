@@ -36,7 +36,7 @@ Make sure you have the latest versions of packages installed:
     sudo apt dist-upgrade
     rosdep update
 
-Source installation requires various <a href="https://docs.ros.org/en/foxy/Installation/Linux-Development-Setup.html" target="_blank">ROS2 build tools</a> and optionally <a href="https://clang.llvm.org/docs/ClangFormat.html" target="_blank">clang-format</a>:
+Source installation requires various <a href="https://docs.ros.org/en/foxy/Installation/Linux-Development-Setup.html" target="_blank">ROS2 build tools</a>:
 
     sudo apt install -y \
       build-essential \
@@ -50,8 +50,7 @@ Source installation requires various <a href="https://docs.ros.org/en/foxy/Insta
       python3-rosdep \
       python3-setuptools \
       python3-vcstool \
-      wget \
-      clang-format-10 && \
+      wget && \
     # install some pip packages needed for testing
     python3 -m pip install -U \
       argcomplete \
