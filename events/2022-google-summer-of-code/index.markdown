@@ -85,9 +85,23 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Preferred skills: MoveIt, Collision Checking, and C++
 * Mentor: [Simon Schmeisser](mailto:simon.schmeisser@optonic.com), [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
 
+### Better Parallel Planning with MoveIt 2
+* One of the latest features of MoveIt 2 is the [parallel planning API for moveit_cpp](https://moveit.picknik.ai/main/doc/how_to_guides/parallel_planning/parallel_planning_tutorial.html). It enables using multiple planning pipelines in parallel, choosing a stopping criteria and a solution selection function. While the initial implementation is finished and the feature is fully operational, there is a still room for improvements. Here is s list of ideas in which ways the feature could be developed further over the course of a GSoC project:
+  * Enable parallel planning in the [move_group interface](https://moveit.picknik.ai/main/doc/examples/move_group_interface/move_group_interface_tutorial.html)
+  * Make parallel planning usable in [RVIZ Motion Planning Panel](https://moveit.picknik.ai/main/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html)
+  * Visualize different parallel planning solutions in RVIZ
+  * Improve logging of parallel planning processes
+  * Add additional default solution selection functions
+  * Your idea to make parallel planning with MoveIt 2 better
+* This list is neither complete, nor need all items be addressed in your project. In addition to choosing some items for a project proposal, it would be very excited to hear your improvement idea(s).
+* Preferred skills: MoveIt 2, ROS 2, Motion Planning, C++
+* Mentor: [Sebastian Jahr](mailto:sebastian.jahr@picknik.ai)
+
+
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
 * **Create at least one pull request in a MoveIt-related repository and include a reference to this pull request in your application.**
 * Be specific in describing your experience. Rather than saying "experienced C++ programmer," point us to code that you have written and contributed.
 * Describe your background and experience in robotics and ROS.
 * Tell us what you hope to get out of the Summer of Code experience.
+* Reach out to the mentor(s) of your preferred project to discuss your ideas
