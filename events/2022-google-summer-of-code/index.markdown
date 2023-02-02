@@ -93,7 +93,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
   * Improve logging of parallel planning processes
   * Add additional default solution selection functions
   * Your idea to make parallel planning with MoveIt 2 better
-* This list is neither complete, nor need all items be addressed in your project. In addition to choosing some items for a project proposal, it would be very excited to hear your improvement idea(s).
+* This list is neither complete, nor need all items be addressed in your project. In addition to choosing some items for a project proposal, it would be very exciting to hear your improvement idea(s).
 * Preferred skills: MoveIt 2, ROS 2, Motion Planning, C++
 * Mentor: [Sebastian Jahr](mailto:sebastian.jahr@picknik.ai), [Jafar Uruç](mailto:jafar.uruc@gmail.com)
 ## Tips for writing a successful Google Summer of Code application for MoveIt
