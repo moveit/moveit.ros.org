@@ -68,14 +68,14 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ### Improved Realtime Control with MoveIt Servo
 
-* moveit_servo is the realtime control package of MoveIt. It is used for teleoperation and reactive or contact applications such as opening doors or generally interacting with any physical object with uncertain position. One of the downsides of Servo is that it only offers a ROS interface. The interface could be improved so that other C++ applications have better access to Servo; it would also be nice to document how a user can set custom IK goals. Specifically:
+* [moveit_servo](https://moveit.picknik.ai/main/doc/examples/realtime_servo/realtime_servo_tutorial.html) is the realtime control package of MoveIt. It is used for teleoperation and reactive or contact applications such as opening doors or generally interacting with any physical object with uncertain position. One of the downsides of Servo is that it only offers a ROS interface. The interface could be improved so that other C++ applications have better access to Servo; it would also be nice to document how a user can set custom IK goals. Specifically:
   * Implement a C++ interface so that other C++ applications can instantiate and interact with Servo.
   * Implement callbacks for pausing. This could be useful in scenarios such as opening a door, e.g. "Rotate 90* about X."
-  * Document how to use custom IK goal functions.
-* Expected outcome: Implement the above 3 ideas and document them well in the [tutorial](https://moveit.picknik.ai/main/doc/examples/realtime_servo/realtime_servo_tutorial.html)
+  * Document how to create and use custom IK goal functions with the [pick_ik package](https://github.com/PickNikRobotics/pick_ik).
+* Expected outcome: Implement the above ideas and document them well in the [tutorial](https://moveit.picknik.ai/main/doc/examples/realtime_servo/realtime_servo_tutorial.html)
 * Project size: Large (350 hours)
 * Difficulty: hard
-* Preferred skills: MoveIt 2, ROS 2, C++
+* Preferred skills: MoveIt 2, ROS 2, C++, transformations or geometry for robotics
 * Mentor: [Andy Zelenak](mailto:zelenak@picknik.ai), [Sebastian Castro](mailto:sebastian.castro@picknik.ai)
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
