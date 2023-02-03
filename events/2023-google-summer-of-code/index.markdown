@@ -76,7 +76,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Project size: Large (350 hours)
 * Difficulty: hard
 * Preferred skills: MoveIt 2, ROS 2, C++
-* Mentor: [Andy Zelenak](mailto:zelenak@picknik.ai), [Sebastian Castro](sebastian.castro@picknik.ai)
+* Mentor: [Andy Zelenak](mailto:zelenak@picknik.ai), [Sebastian Castro](mailto:sebastian.castro@picknik.ai)
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
