@@ -49,6 +49,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Difficulty: hard
 * Preferred skills: MoveIt, Collision Checking, and C++
 * Mentor: [Simon Schmeisser](mailto:simon.schmeisser@optonic.com), [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
+
 ### Better Parallel Planning with MoveIt 2
 * One of the latest features of MoveIt 2 is the [parallel planning API for moveit_cpp](https://moveit.picknik.ai/main/doc/how_to_guides/parallel_planning/parallel_planning_tutorial.html). It enables using multiple planning pipelines in parallel, a choosing stopping criteria and a solution selection function. While the initial implementation is finished and the feature is fully operational, there is still room for improvement. Here is s list of ideas in which ways the feature could be developed further over the course of a GSoC project:
   * Enable parallel planning in the [move_group interface](https://moveit.picknik.ai/main/doc/examples/move_group_interface/move_group_interface_tutorial.html)
