@@ -79,3 +79,4 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Be specific in describing your experience. Rather than saying "experienced C++ programmer," point us to code that you have written and contributed.
 * Describe your background and experience in robotics and ROS.
 * Tell us what you hope to get out of the Summer of Code experience.
+* Reach out to the mentor(s) of your preferred project to discuss your ideas
