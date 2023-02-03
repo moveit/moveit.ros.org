@@ -1,0 +1,43 @@
+/* Layout for proper anchor positioning used by anchor_headings.html.
+   See https://github.com/allejo/jekyll-anchor-headings/wiki/Examples
+*/
+
+h1 {
+  text-indent: -12px;
+}
+
+h2 {
+  text-indent: -10px;
+}
+
+h3 {
+  text-indent: -8px;
+}
+
+h4 {
+  text-indent: -6px;
+}
+
+h5 {
+  text-indent: -4px;
+}
+
+h6 {
+  text-indent: -2px;
+}
+
+h1 .anchor, h2 .anchor, h3 .anchor, h4 .anchor, h5 .anchor, h6 .anchor  {
+  visibility: hidden;
+}
+
+h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
+  visibility: visible;
+}
+
+.anchor {
+  fill: currentColor;
+  padding: 0;
+  margin-left: -16px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
