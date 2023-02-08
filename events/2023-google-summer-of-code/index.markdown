@@ -51,6 +51,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Mentor: [Simon Schmeisser](mailto:simon.schmeisser@optonic.com), [Michael Görner](mailto:goerner@informatik.uni-hamburg.de)
 
 ### Better Parallel Planning with MoveIt 2
+
 * One of the latest features of MoveIt 2 is the [parallel planning API for moveit_cpp](https://moveit.picknik.ai/main/doc/how_to_guides/parallel_planning/parallel_planning_tutorial.html). It enables using multiple planning pipelines in parallel, a choosing stopping criteria and a solution selection function. While the initial implementation is finished and the feature is fully operational, there is still room for improvement. Here is s list of ideas in which ways the feature could be developed further over the course of a GSoC project:
   * Enable parallel planning in the [move_group interface](https://moveit.picknik.ai/main/doc/examples/move_group_interface/move_group_interface_tutorial.html)
   * Make parallel planning usable in [RVIZ Motion Planning Panel](https://moveit.picknik.ai/main/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html)
@@ -64,6 +65,18 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Difficulty: medium
 * Preferred skills: MoveIt 2, ROS 2, Motion Planning, C++
 * Mentor: [Sebastian Jahr](mailto:sebastian.jahr@picknik.ai), [Jafar Uruç](mailto:jafar.uruc@gmail.com)
+
+### Improved Realtime Control with MoveIt Servo
+
+* [moveit_servo](https://moveit.picknik.ai/main/doc/examples/realtime_servo/realtime_servo_tutorial.html) is the realtime control package of MoveIt. It is used for teleoperation and reactive or contact applications such as opening doors or generally interacting with any physical object with uncertain position. One of the downsides of Servo is that it only offers a ROS interface. The interface could be improved so that other C++ applications have better access to Servo; it would also be nice to document how a user can set custom IK goals. Specifically:
+  * Implement a C++ interface so that other C++ applications can instantiate and interact with Servo.
+  * Implement callbacks for pausing. This could be useful in scenarios such as opening a door, e.g. "Rotate 90* about X."
+  * Document how to create and use custom IK goal functions with the [pick_ik package](https://github.com/PickNikRobotics/pick_ik).
+* Expected outcome: Implement the above ideas and document them well in the [tutorial](https://moveit.picknik.ai/main/doc/examples/realtime_servo/realtime_servo_tutorial.html)
+* Project size: Large (350 hours)
+* Difficulty: hard
+* Preferred skills: MoveIt 2, ROS 2, C++, transformations or geometry for robotics
+* Mentor: [Andy Zelenak](mailto:zelenak@picknik.ai), [Sebastian Castro](mailto:sebastian.castro@picknik.ai)
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
