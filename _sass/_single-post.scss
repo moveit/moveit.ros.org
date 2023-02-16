@@ -7,6 +7,7 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 25px;
+
     &.real-image {
       background-size: contain;
       background-repeat: no-repeat;
@@ -41,15 +42,71 @@
   p {
     font-size: 14px;
     margin-bottom: 20px;
+
     &.content {
       font-size: 18px;
       margin-bottom: 20px;
     }
   }
 
+  table {
+    ul {
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+
   ul {
     li {
       font-size: 14px;
+    }
+
+    &.plus-list,
+    &.minus-list {
+      margin-bottom: 0;
+      margin-left: 0;
+      padding: 0;
+
+
+      @media screen and (max-width: 480px) {
+        margin-left: 0;
+        margin-bottom: 0;
+      }
+
+      &::before {
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+
+      li {
+        color: #3c4a69;
+        font-size: 12px;
+        line-height: 20px;
+        list-style: none;
+
+        @media screen and (max-width: 560px) {
+          margin-bottom: 10px;
+        }
+      }
+
+    }
+
+    &.plus-list {
+      li {
+        &::before {
+          content: '\002B';
+        }
+      }
+    }
+
+    &.minus-list {
+      li {
+        &::before {
+          content: '\002D';
+        }
+      }
     }
   }
 
@@ -62,8 +119,12 @@
 
 .other-post {
   margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+
   .other-single {
     margin-bottom: 60px;
+
     .image-wrapper {
       height: 160px;
       width: 100%;
@@ -71,6 +132,7 @@
       overflow: hidden;
       margin-bottom: 20px;
       border: 1px solid #e7e7e7;
+
       &.real-image {
         background-size: contain;
         background-repeat: no-repeat;
@@ -90,12 +152,14 @@
         width: 80%;
       }
     }
+
     .text-wrapper {
       h3 {
         font-size: 17px;
         margin-bottom: 15px;
         line-height: 1.4;
       }
+
       p {
         line-height: 24px;
         color: $dark-text;
