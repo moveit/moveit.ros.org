@@ -14,6 +14,7 @@ table {
     &.blue {
       background-color: #0a58f7 !important;
       color: #ffffff;
+
       a {
         color: #ffffff;
         text-decoration: underline;
@@ -23,6 +24,7 @@ table {
     &.orange {
       background-color: #f7a20a !important;
       color: #ffffff;
+
       a {
         color: #ffffff;
         text-decoration: underline;
@@ -32,6 +34,7 @@ table {
     &.green {
       background-color: #18d44d !important;
       color: #ffffff;
+
       a {
         color: #ffffff;
         text-decoration: underline;
@@ -80,5 +83,13 @@ table {
         font-size: 9px;
       }
     }
+  }
+}
+
+.table-striped {
+  font-size: 12px;
+
+  td {
+    vertical-align: middle;
   }
 }
