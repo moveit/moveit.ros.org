@@ -82,7 +82,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 * [pick_ik](https://github.com/PickNikRobotics/pick_ik) is an inverse kinematics (IK) solver developed for MoveIt, which is largely based on the [BioIK](https://github.com/TAMS-Group/bio_ik) solver, but developed with extensibility and ease of use in mind using modern C++. As this is a relatively new solver, there is more work needed to communicate how to use it, its strengths and weaknesses relative to other IK solvers, and to expand the existing feature set.
 * Required tasks for this project:
-  * Implement official benchmarks against other IK solvers compatible with MoveIt 2 (e.g., KDL, BioIK) to compare planning time, success rate, and other metrics related to solution quality.
+  * Implement official benchmarks against other IK solvers compatible with MoveIt 2 (e.g., KDL, BioIK, TRAC-IK) to compare planning time, success rate, and other metrics related to solution quality. This will involve finishing the TRAC-IK ROS 2 port to work as a MoveIt 2 plugin.
   * Improve documentation, including a comparison of `pick_ik` and BioIK features.
   * Add an official `pick_ik` tutorial to the [MoveIt 2 Tutorials repo](https://github.com/ros-planning/moveit2_tutorials)
 * Additional tasks to explore:
