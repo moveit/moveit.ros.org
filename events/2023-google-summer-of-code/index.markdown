@@ -78,6 +78,22 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Preferred skills: MoveIt 2, ROS 2, C++, transformations or geometry for robotics
 * Mentor: [Andy Zelenak](mailto:zelenak@picknik.ai), [Sebastian Castro](mailto:sebastian.castro@picknik.ai)
 
+### Improvements to pick_ik Solver
+
+* [pick_ik](https://github.com/PickNikRobotics/pick_ik) is an inverse kinematics (IK) solver developed for MoveIt, which is largely based on the [BioIK](https://github.com/TAMS-Group/bio_ik) solver, but developed with extensibility and ease of use in mind using modern C++. As this is a relatively new solver, there is more work needed to communicate how to use it, its strengths and weaknesses relative to other IK solvers, and to expand the existing feature set.
+* Required tasks for this project:
+  * Implement official benchmarks against other IK solvers compatible with MoveIt 2 (e.g., KDL, BioIK, TRAC-IK) to compare planning time, success rate, and other metrics related to solution quality. This will involve finishing the TRAC-IK ROS 2 port to work as a MoveIt 2 plugin.
+  * Improve documentation, including a comparison of `pick_ik` and BioIK features.
+  * Add an official `pick_ik` tutorial to the [MoveIt 2 Tutorials repo](https://github.com/ros-planning/moveit2_tutorials)
+* Additional tasks to explore:
+  * Implement additional cost functions to establish and exceed feature parity with BioIK, such as gaze objectives, collision checking, etc.
+  * Use a generic nonlinear optimization package, such as [NLopt](https://nlopt.readthedocs.io/en/latest/), which is used by the [TRAC-IK](https://traclabs.com/projects/trac-ik/) tool, as an alternative to the numeric gradient solver.
+* Expected outcome: Implement the above ideas and document them well in the pick_ik and MoveIt 2 tutorials repositories.
+* Project size: Large (350 hours)
+* Difficulty: hard
+* Preferred skills: MoveIt 2, ROS 2, C++, transformations or geometry for robotics
+* Mentor: [Sebastian Castro](mailto:sebastian.castro@picknik.ai), [Tyler Weaver](mailto:tyler@picknik.ai)
+
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
 * **Create at least one pull request in a MoveIt-related repository and include a reference to this pull request in your application.**
