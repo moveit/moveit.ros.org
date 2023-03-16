@@ -241,6 +241,12 @@ title: About
             <div class="container">
               <div class="main-card-wrapper">
                 <div class="main-card-single-small">
+                  <div class="person-name">Chris Thrasher</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/ChrisThrasher" target="_blank">ChrisThrasher</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Christian Henkel</div>
                   <div class="organization-name">Pilz</div>
                   <img src="/assets/install_page/github.png"/>
@@ -271,10 +277,10 @@ title: About
                   <a href="https://github.com/nbbrooks" target="_blank">nbbrooks</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Yan Yu</div>
-                  <div class="organization-name">Intel</div>
+                  <div class="person-name">Peter David Fagan</div>
+                  <div class="organization-name">University of Edinburgh</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/RoboticsYY" target="_blank">RoboticsYY</a>
+                  <a href="https://github.com/peterdavidfagan" target="_blank">peterdavidfagan</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Stephanie Eng</div>
@@ -283,10 +289,10 @@ title: About
                   <a href="https://github.com/stephanie-eng" target="_blank">stephanie-eng</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Chris Thrasher</div>
-                  <div class="organization-name">PickNik Robotics</div>
+                  <div class="person-name">Yan Yu</div>
+                  <div class="organization-name">Intel</div>
                   <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/ChrisThrasher" target="_blank">ChrisThrasher</a>
+                  <a href="https://github.com/RoboticsYY" target="_blank">RoboticsYY</a>
                 </div>
               </div>
             </div>
