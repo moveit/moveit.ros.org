@@ -79,11 +79,11 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ### Update OMPL and ompl_interface [MoveIt 2]
 
-* The Open Motion Planning Library (OMPL) provides the default planning pipeline for MoveIt. It is a library that contains many sampling-based planning algorithms (like PRM and RRT), but is starting to show its age (development started in 2010!). This project is focused on modernizing OMPL, adopting more idiomatic C++17 patterns and avoiding things like using raw pointers and type casting. There are also many OMPL features that are not well supported within MoveIt's `ompl_interface` just yet. Finally, there are features in the `ompl_interface` that seem generally useful and could be abstracted out of this.
+* The Open Motion Planning Library (OMPL) provides the default planning pipeline for MoveIt. It is a library that contains many sampling-based planning algorithms (like PRM and RRT), but is starting to show its age (development started in 2010!). This project is focused on modernizing OMPL, adopting more idiomatic C++17 patterns and avoiding things like using raw pointers and type casting. There are also many OMPL features that are not well supported within MoveIt's [`ompl_interface`](https://github.com/ros-planning/moveit2/tree/main/moveit_planners/ompl/ompl_interface) just yet. Finally, there are features in the [`ompl_interface`](https://github.com/ros-planning/moveit2/tree/main/moveit_planners/ompl/ompl_interface) that seem generally useful and could be abstracted out of this.
 * Possible tasks (you are not required to do all of this; your application should make clear which parts you want to focus on):
   * Use `clang-tidy` to identify areas of improvement in OMPL. Remove raw pointer usage in the most commonly used parts. Eliminate ambiguity in the API about the lifetime of objects.
   * Make constrained motion planning work more generally. See, e.g., this [work-in-progress PR](https://github.com/ros-planning/moveit2/pull/1946) for a specific (but very important) use case.
-  * Generalize things in `ompl_interface` and move them to `moveit_core`.
+  * Generalize things in [`ompl_interface`](https://github.com/ros-planning/moveit2/tree/main/moveit_planners/ompl/ompl_interface) and move them to `moveit_core`.
 * Project size: Large (350 hours)
 * Difficulty: hard
 * Preferred skills: MoveIt 2, OMPL, C++, good understanding of algorithms
