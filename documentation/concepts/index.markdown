@@ -30,7 +30,7 @@ The users can access the actions and services provided by _move_group_ in three 
 
 - **In Python** - using the [moveit_commander](http://docs.ros.org/noetic/api/moveit_commander/html/classmoveit__commander_1_1move__group_1_1MoveGroupCommander.html) package
 
-- **Through a GUI** - using the [Motion Planning plugin to Rviz](https://moveit.picknik.ai/foxy/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html) (the ROS visualizer)
+- **Through a GUI** - using the [Motion Planning plugin to Rviz](https://moveit.picknik.ai/humble/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html) (the ROS visualizer)
 
 _move_group_ can be configured using the ROS param server from where it will also get the URDF and SRDF for the robot.
 
