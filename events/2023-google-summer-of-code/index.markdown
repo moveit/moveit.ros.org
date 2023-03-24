@@ -110,6 +110,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ## Tips for writing a successful Google Summer of Code application for MoveIt
 
+* **Follow [GSoC's Writing a proposal guidelines](https://google.github.io/gsocguides/student/writing-a-proposal)**
 * **Create at least one pull request in a MoveIt-related repository and include a reference to this pull request in your application.**
 * Be specific in describing your experience. Rather than saying "experienced C++ programmer," point us to code that you have written and contributed.
 * Describe your background and experience in robotics and ROS.
