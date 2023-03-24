@@ -72,6 +72,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
   * Implement a C++ interface so that other C++ applications can instantiate and interact with Servo.
   * Implement callbacks for pausing. This could be useful in scenarios such as opening a door, e.g. "Rotate 90* about X."
   * Document how to create and use custom IK goal functions with the [pick_ik package](https://github.com/PickNikRobotics/pick_ik).
+  * Implement realtime IK cost function updates. This could be useful in scenarios where the motion profile changes, such as "insert a key in a lock then turn it."
 * Expected outcome: Implement the above ideas and document them well in the [tutorial](https://moveit.picknik.ai/main/doc/examples/realtime_servo/realtime_servo_tutorial.html)
 * Project size: Large (350 hours)
 * Difficulty: hard

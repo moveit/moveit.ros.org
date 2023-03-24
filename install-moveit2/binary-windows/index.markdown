@@ -14,7 +14,7 @@ Binary installation for MoveIt 2 on Windows is currently included in the `ros-fo
 
 Start planning in Rviz with:
 
-<a href="https://moveit.picknik.ai/foxy/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+<a href="https://moveit.picknik.ai/humble/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
   <span class="link-with-background">
     MoveIt 2 Getting Started Tutorial
   </span>

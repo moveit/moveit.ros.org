@@ -44,18 +44,6 @@ title: Distribution
           <td>May 2027</td>
         </tr>
         <tr>
-          <td><a href="https://moveit.picknik.ai/galactic/index.html">MoveIt 2 Galactic</a></td>
-          <td>July 8th, 2021</td>
-          <td><img src="/assets/images/distribution/galactic.png" alt="MoveIt 2 Galactic" height="100" /></td>
-          <td>November 2022</td>
-        </tr>
-        <tr>
-          <td><a href="https://moveit.picknik.ai/foxy/index.html">MoveIt 2 Foxy Fitzroy</a></td>
-          <td>June 5th, 2020</td>
-          <td><img src="/assets/images/distribution/moveit2-foxy.png" alt="MoveIt 2 Foxy Fitzroyc" height="100" /></td>
-          <td>May 2023</td>
-        </tr>
-        <tr>
           <td><a href="https://ros-planning.github.io/moveit_tutorials/">MoveIt 1 Noetic</a></td>
           <td>October 13th, 2020</td>
           <td><img src="/assets/images/distribution/noetic.jpg" alt="MoveIt 1 Noetic" height="100" /></td>
