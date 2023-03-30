@@ -7,7 +7,7 @@ redirect_from: '/moveit/'
 
 <div class="container">
     <div class='row'>
-      <div class='col-sm-12'>
+        <div class='col-sm-12'>
             <div class="homepage">
                 <div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="modalVideoLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
@@ -28,17 +28,18 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                              <span class="blue">Announcement</span>
-                              <span>Company integrating MoveIt? <a href="https://picknik.ai/connect/" target="_blank">We can help!</a></span>
+                                <span class="blue">Announcement</span>
+                                <span>Company integrating MoveIt? <a href="https://picknik.ai/connect/" target="_blank">We can help!</a></span>
                             </div>
-                            <h1>Moving robots into&nbsp;the&nbsp;future</h1>
-                            <p class="main-text">Incorporating the latest advances in motion planning,<br/>
-                            manipulation, 3D perception, kinematics, control and navigation</p>
+                            <h1>Moving robots into the future</h1>
+                            <p class="main-text">Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control, and navigation.</p>
                             <div class="button-group">
                                 <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">
-                                <span class="button-play">
-                                    <img src="/assets/images/icons/play.svg">
-                                </span>
+                                    <span class="button-play">
+                                        <img src="/assets/images/icons/play.svg" alt="Play Icon">
+                                    </span>
+                                    Play Video
+                                
                                 Watch overview
                                 </button>
                                 <a class="button button-yellow modal-link" href="https://www.youtube-nocookie.com/embed/7KvF7Dj7bz0" target="_blank">Watch overview</a>
@@ -101,7 +102,7 @@ redirect_from: '/moveit/'
                                         Inverse Kinematics
                                     </h3>
                                     <p>
-                                        Solve for joint positions for a given pose, even in over-actuated arms
+                                        Calculate the joint positions necessary to achieve a desired end-effector pose, even in over-actuated arms with redundant degrees of freedom. This feature is useful for tasks such as picking and placing objects, and can help optimize robot motion to avoid collisions and improve overall efficiency.
                                     </p>
                                 </li>
                                 <li>
