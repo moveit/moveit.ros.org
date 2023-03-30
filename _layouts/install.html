@@ -1,20 +1,61 @@
-{% include default.html %}
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoveIt Motion Planning Framework</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-  {% include nav-bar.html %}
-  <div class="container">
-    <div class="sub-pages section">
-      <div class='row'>
-        <div class='col-sm-12'>
-          <div class='row no-gutters'>
-            {% include install-nav.html %}
-            <div class="rectangle-boarder-big col-9 col-sm-9">
-              {% include moveit-anchors.html html=content %}
-            </div>
-          </div>
-        </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/download">Download</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="sub-pages">
+      <div class="row">
+        <aside class="install-nav">
+          <h2>Installation</h2>
+          <ul>
+            <li><a href="/install/linux">Linux</a></li>
+            <li><a href="/install/windows">Windows</a></li>
+            <li><a href="/install/mac">Mac</a></li>
+          </ul>
+        </aside>
+        <article class="content">
+          <h1>MoveIt Motion Planning Framework</h1>
+          <p>Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation.</p>
+          <img src="image.jpg" alt="Image description">
+          <h2>Features</h2>
+          <ul>
+            <li>Motion planning</li>
+            <li>Manipulation</li>
+            <li>3D perception</li>
+            <li>Kinematics</li>
+            <li>Control</li>
+            <li>Navigation</li>
+          </ul>
+          <a href="/download" class="download-btn">Download now</a>
+        </article>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2023 MoveIt Motion Planning Framework</p>
+    <nav>
+      <ul>
+        <li><a href="/terms">Terms of use</a></li>
+        <li><a href="/privacy">Privacy policy</a></li>
+      </ul>
+    </nav>
+  </footer>
+
 </body>
-{% include footer.html %}
+</html>
