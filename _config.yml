@@ -1,15 +1,20 @@
 url: https://moveit.ros.org
-name: MoveIt Motion Planning Framework
-description: Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation.
+# Website settings
+title: MoveIt Motion Planning Framework
+description: Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control, and navigation.
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
 
+# Stylesheet configuration
 sass:
   style: compressed
 
-#RSS Config
+# RSS feed configuration
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
+
