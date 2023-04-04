@@ -8,7 +8,7 @@ Changes to the ``main`` branch become immediately available online.
 
 ## Images
 
-Please compress images before loading to repo, we recommend [https://tinypng.com/](https://tinypng.com/). High resolution images from professional photographers will kill load times.
+Please compress images before loading them to the repo, we recommend [https://tinypng.com/](https://tinypng.com/). High-resolution images from professional photographers will kill load times.
 
 ## YouTube Videos
 
@@ -16,11 +16,11 @@ Please use https://www.youtube-nocookie.com/ instead of  https://www.youtube.com
 
 ## Build Locally on Ubuntu
 
-Will install Ruby, Jekyll, build the website, and server the website on localhost:
+Will install Ruby, and Jekyll, build the website, and server the website on localhost:
 
     ./build_locally.sh
 
-If the dependencies are already installed (you've already run the previous command before locally):
+If the dependencies are already installed (you've already run the previous command locally):
 
     ./build_locally.sh noinstall
 
