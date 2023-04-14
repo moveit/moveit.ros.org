@@ -80,6 +80,7 @@ Create a colcon workspace:
     mkdir -p $COLCON_WS/src
     cd $COLCON_WS/src
 
+You might want to add `export COLCON_WS=~/ws_moveit2/` to your `.bashrc` file.
 ## Download Source Code
 
 Download the repository and install any dependencies. Issue the relevant commands for your ROS distribution.
@@ -116,7 +117,7 @@ Configure and build the workspace:
 
 ### Source the Colcon Workspace
 
-Setup your environment - you can do this every time you work with this particular source install of the code, or you can add this to your ``.bashrc`` (recommended):
+Setup your environment - you can do this every time you work with this particular source install of the code, or you can add this to your ``.bashrc`` (recommended) using `echo $COLCON_WS/install/setup.bash >> ~/.bashrc` :
 
     source $COLCON_WS/install/setup.bash
 
