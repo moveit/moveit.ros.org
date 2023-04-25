@@ -19,7 +19,7 @@ A new Python library for MoveIt is now available in ROS 2 Rolling. The new Pytho
 
 **Python Library Features**
 
-The Python library can be found under the folder [moveit_py]() in the MoveIt 2 repository root directory. An outline of the codebase structure is provided within the package [``README.md``](), below we provide a high-level overview of the structure of the Python library,
+The Python library can be found under the folder [moveit_py](https://github.com/ros-planning/moveit2/tree/main/moveit_py) in the MoveIt 2 repository root directory. An outline of the codebase structure is provided within the package [``README.md``](https://github.com/ros-planning/moveit2/blob/main/moveit_py/README.md), below we provide a high-level overview of the structure of the Python library,
 
 * A ``core`` module that provides Python bindings for packages available in ``moveit_core``
 	* collision_detection
@@ -38,10 +38,10 @@ The Python library can be found under the folder [moveit_py]() in the MoveIt 2 r
 **Getting Started**
 In order to help new users get started with the library we have curated the following set of tutorials,
 
-* [Motion Planning Tutorial]()
-* [Jupyter Notebook Tutorial]()
+* [Motion Planning Tutorial](https://moveit.picknik.ai/main/doc/examples/motion_planning_python_api/motion_planning_python_api_tutorial.html)
+* [Jupyter Notebook Tutorial](https://moveit.picknik.ai/main/doc/examples/jupyter_notebook_prototyping/jupyter_notebook_prototyping_tutorial.html)
 
-API documentation is also available for the library [here]().
+API documentation is also available for the library [here](https://moveit.picknik.ai/main/doc/api/python_api/api.html).
 
 **What's next?**
 
