@@ -15,7 +15,7 @@ categories:
 - Google
 ---
 
-A new Python library for MoveIt is now available in ROS2 Rolling. The new Python library binds core components of the MoveIt C++ API and exposes the functionalities of these components through a Python API.
+A new Python library for MoveIt is now available in ROS 2 Rolling. The new Python library binds core components of the MoveIt C++ API and exposes the functionalities of these components through a Python API.
 
 **Python Library Features**
 
