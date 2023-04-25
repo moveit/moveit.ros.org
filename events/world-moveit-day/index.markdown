@@ -80,7 +80,7 @@ We're having issues with Google Hangouts so have switched to good old IRC and ar
 
 We will use Google Hangouts for the video conferencing software. Please join the following video call (limited to 10 particpants overnight Pacific time, but will increase to 25 participants during the day in Pacific time):
 
-[Google Hangouts Video Link](https://hangouts.google.com/hangouts/_/fetchrobotics.com/mferguson)
+[Google Hangouts Video Link](https://hangouts.google.com)
 
 Note: this link is subject to change throughout the day, check back
 
