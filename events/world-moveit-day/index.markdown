@@ -76,15 +76,7 @@ For more details on modifying documentation, see [Contributing](http://moveit.ro
 
 ### Video Conference and IRC
 
-We're having issues with Google Hangouts so have switched to good old IRC and are in #moveit at irc.freenode.net.
-
-We will use Google Hangouts for the video conferencing software. Please join the following video call (limited to 10 particpants overnight Pacific time, but will increase to 25 participants during the day in Pacific time):
-
-[Google Hangouts Video Link](https://hangouts.google.com)
-
-Note: this link is subject to change throughout the day, check back
-
-Some people are also using https://appear.in/world-moveit-day
+NOTE: This event has passed, so the links are no longer active.
 
 ### MoveIt Integrated Manipulation Simulation
 
