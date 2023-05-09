@@ -15,4 +15,4 @@ The MoveIt project is excited to announce that MoveIt was awarded 2 slots for th
 
 [V Mohammed Ibrahim](https://www.linkedin.com/in/ibrahiminfinite/) ([Github](https://github.com/ibrahiminfinite)) is a robotics software engineer. He will be working on improved realtime control with MoveIt Servo. He will be mentored by Andy Zelenak and Sebastian Castro.
 
-[Mohamed Raessa](https://www.linkedin.com/in/mohraessa/) ([Github](https://github.com/Robotawi)) is a robotics R&D engineer with Avatarin inc. He has a Ph.D. in robotic manipulation from Osaka University, Japan. His project is focused on  improvements to the `pick_ik` solver. He will _also_ be mentored by Andy Zelenak and Sebastian Castro.
+[Mohamed Raessa](https://www.linkedin.com/in/mohraessa/) ([Github](https://github.com/Robotawi)) is a robotics R&D engineer with Avatarin inc. He has a Ph.D. in robotic manipulation from Osaka University, Japan. His project is focused on  improvements to the `pick_ik` solver. He will be mentored by Sebastian Castro and Stephanie Eng.
