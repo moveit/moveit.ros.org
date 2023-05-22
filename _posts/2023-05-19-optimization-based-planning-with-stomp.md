@@ -37,3 +37,29 @@ There you can also find more information on the difference between STOMP, OMPL p
 Please let us know how it worked for you and give us feedback about what new use cases STOMP may solve for you.
 
 Thanks go to [Matej Vargovcik](https://github.com/afrixs), [Robert Haschke](https://github.com/rhaschke), [Sebastian Jahr](https://github.com/sjahr) for helping with this feature!
+
+----------------------------------------------------------------
+
+**Update:**  May 22nd, 2023 - [Discourse comment](https://discourse.ros.org/t/optimization-based-planning-with-stomp/31488/4)
+
+There are several improvements, which I should've better described in this post. The GIF animation is in real-time. I've created it using the [example executable](https://github.com/ros-planning/stomp_moveit/blob/main/src/stomp_moveit_example.cpp) in the development repo, however on an older version that didn't include the constraint planning example yet. You should be able to reproduce the results using RViz and the planning scene updater.
+
+**Function-based API**
+stomp_ros had a [plugin-based interface for implementing cost functions](https://github.com/ros-industrial/stomp_ros/blob/melodic-devel/stomp_moveit/include/stomp_moveit/cost_functions/stomp_cost_function.h) which was very clunky and I never really saw a lot of extensions based on it. The new interface uses [generic functions for costs, noise, filtering](https://github.com/ros-planning/moveit2/blob/main/moveit_planners/stomp/include/stomp_moveit/stomp_moveit_task.hpp#L65) etc which are MoveIt-agnostic and which make it much easier to inject any kind of implementation with much less code. Compare the new [collision cost function](https://github.com/ros-planning/moveit2/blob/main/moveit_planners/stomp/include/stomp_moveit/cost_functions.hpp#L168) with the old plugin implementation ([header](https://github.com/ros-industrial/stomp_ros/blob/melodic-devel/stomp_moveit/include/stomp_moveit/cost_functions/collision_check.h), [source](https://github.com/ros-industrial/stomp_ros/blob/melodic-devel/stomp_moveit/src/cost_functions/collision_check.cpp)) for an example. The implementation of collision checks, noise generation, smoothing, filtering does pretty much the same.
+
+Side note: We are working on exposing generic cost functions via MoveIt's plugin API so that the same kind of cost objectives can be used with STOMP and with OMPL's optimizing planners.
+
+**Constraint Planning**
+The new implementation comes with full support for planning and smoothing with path constraints which wasn't implemented for the ROS 1 plugin. Solving with constraints can have a huge drag on performance, however this feature could be particularly useful for post-processing trajectories solved with [OMPL's consrained planner](https://moveit.picknik.ai/humble/doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning.html). 
+
+**Parameters**
+Parameters are declared and documented [using the generate_parameter_library interface](https://github.com/ros-planning/moveit2/blob/main/moveit_planners/stomp/res/stomp_moveit.yaml).
+
+**Performance**
+I haven't performed an extensive side-by-side benchmark yet, but overall the new implementation and default parameters appear to perform better. The implementation of noise generation, collision check and smoothing are fairly optimized.
+The curious parameter *exponentiated_cost_sensitivity* now defaults to 0.5 instead of 10 which seems to make the planner converge in a more robust way. Interestingly, I have never seen this parameter exposed in MoveIt 1 configs even though it was defined in the plugin, so I wouldn't be surprised if not a lot of people have ever heard of it (I just ran into this param while implementing the new version).
+
+**TODO's**
+* Visualization is still somewhat minimal. The gif is generated with MVT which is not supported in the main repo. There is still a simple [path publisher](https://github.com/ros-planning/moveit2/blob/main/moveit_planners/stomp/res/stomp_moveit.yaml#L60) that can be used for visualizing the candidate.
+* The new implementation doesn't have a cost for the [obstacle distance gradient](https://github.com/ros-industrial/stomp_ros/blob/melodic-devel/stomp_moveit/include/stomp_moveit/cost_functions/obstacle_distance_gradient.h), we are working on a replacement as part of the MoveIt cost-function API extension.
+* STOMP is still not very easy to tune and some parameters like *stdddev* for noise generation are not exposed, yet. In general, we would like to implement more "smart decision making" for setting these parameters based on the planning request and try to focus on good performance by default. It's possible, that some parameters (like *num_waypoints*) will be set automatically in the future while still allowing to enforce an override.
