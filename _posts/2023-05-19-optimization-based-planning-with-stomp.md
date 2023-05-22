@@ -50,7 +50,7 @@ stomp_ros had a [plugin-based interface for implementing cost functions](https:/
 Side note: We are working on exposing generic cost functions via MoveIt's plugin API so that the same kind of cost objectives can be used with STOMP and with OMPL's optimizing planners.
 
 **Constraint Planning**
-The new implementation comes with full support for planning and smoothing with path constraints which wasn't implemented for the ROS 1 plugin. Solving with constraints can have a huge drag on performance, however this feature could be particularly useful for post-processing trajectories solved with [OMPL's consrained planner](https://moveit.picknik.ai/humble/doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning.html). 
+The new implementation comes with full support for planning and smoothing with path constraints which wasn't implemented for the ROS 1 plugin. Solving with constraints can have a huge drag on performance, however this feature could be particularly useful for post-processing trajectories solved with [OMPL's consrained planner](https://moveit.picknik.ai/main/doc/how_to_guides/using_ompl_constrained_planning/ompl_constrained_planning.html).
 
 **Parameters**
 Parameters are declared and documented [using the generate_parameter_library interface](https://github.com/ros-planning/moveit2/blob/main/moveit_planners/stomp/res/stomp_moveit.yaml).
