@@ -283,6 +283,12 @@ title: About
                   <a href="https://github.com/peterdavidfagan" target="_blank">peterdavidfagan</a>
                 </div>
                 <div class="main-card-single-small">
+                  <div class="person-name">Sebastian Castro</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/sea-bass" target="_blank">sea-bass</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Stephanie Eng</div>
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
