@@ -34,6 +34,8 @@ title: About
           <p>M. Görner, R. Haschke, H. Ritter, and J. Zhang, “Moveit! task constructor for task-level motion planning,” in <em>IEEE Intl. Conf. on Robotics and Automation</em>, pp. 190–196, May 2019. doi: <a href="https://www.researchgate.net/publication/335138707_MoveIt_Task_Constructor_for_Task-Level_Motion_Planning" target="_blank">10.1109/ICRA.2019.8793898</a>.</p>
           <p class="text-center"><a class="button" href="https://pub.uni-bielefeld.de/download/2918864/2933599/paper.pdf" target="_blank">PDF</a>
           <a class="button" href="https://www.researchgate.net/publication/335138707_MoveIt_Task_Constructor_for_Task-Level_Motion_Planning" target="_blank">Publisher</a></p>
+        </div>
       </div>
     </div>
   </div>
+</div>
