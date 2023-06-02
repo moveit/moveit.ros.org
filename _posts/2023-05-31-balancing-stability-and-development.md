@@ -43,8 +43,25 @@ MoveIt releases into the stable versions of ROS (currently Humble and Iron) and 
 ## Main branch supports more than one ROS release
 This leaves us in a tough spot when working with clients using MoveIt on their projects. PickNik's clients drive new feature development with their cutting-edge applications. They also contribute bug fixes upstream that are discovered when working on their projects. As many of these improvements would cause ABI breaks they cannot be released into the stable ROS releases.
 
-At the same time, many of these clients desire to use a stable (sometimes even the LTS) version of ROS in their projects to reduce the time we spend adapting to upstream changes in ROS. For this reason, we use compile time features to make the `main` branch of MoveIt compatible with the latest LTS, any non-LTS since the latest LTS, and ROS Rolling. Currently, the `main` branch of MoveIt supports Humble, Iron, and Rolling. Here is a code example of how we achieve this:
-https://github.com/ros-planning/moveit2/blob/243b0b2ccac156a75bcd158eefa86c8acf409110/moveit_ros/planning_interface/move_group_interface/src/move_group_interface.cpp#L89-L102
+At the same time, many of these clients desire to use a stable (sometimes even the LTS) version of ROS in their projects to reduce the time we spend adapting to upstream changes in ROS. For this reason, we use compile time features to make the `main` branch of MoveIt compatible with the latest LTS, any non-LTS since the latest LTS, and ROS Rolling. Currently, the `main` branch of MoveIt supports Humble, Iron, and Rolling. Here is a code example of how we achieve this (from [move_group_interface.cpp#L89-L102](https://github.com/ros-planning/moveit2/blob/243b0b2ccac156a75bcd158eefa86c8acf409110/moveit_ros/planning_interface/move_group_interface/src/move_group_interface.cpp#L89-L102)):
+
+
+```cpp
+// Function to support both Rolling and Humble on the main branch
+// Rolling has deprecated the version of the create_client method that takes
+// rmw_qos_profile_services_default for the QoS argument
+#if RCLCPP_VERSION_GTE(17, 0, 0)  // Rolling
+auto qos_default()
+{
+  return rclcpp::SystemDefaultsQoS();
+}
+#else  // Humble
+auto qos_default()
+{
+  return rmw_qos_profile_services_default;
+}
+#endif
+```
 
 ## So who should use the stable binaries of MoveIt in the OSRF apt repo?
 Any project that can be built using the version of MoveIt when the stable version of ROS was released is welcome to use those binaries. We do not normally use them ourselves for the reasons stated above.
