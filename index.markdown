@@ -29,7 +29,7 @@ redirect_from: '/moveit/'
                         <div class="main">
                             <div class="main-tag">
                               <span class="blue">Announcement</span>
-                              <span>World MoveIt Day Hackathon! <a href="https://picknik.ai/worldmoveitday2023" target="_blank">June 8th</a></span>
+                              <span>MoveIt Studio 2.0 and MoveIt 2.7 <a href="https://discourse.ros.org/t/announcing-moveit-studio-2-0-and-moveit-2-7-iron-releases/32296" target="_blank">released!</a></span>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
                             <p class="main-text">Incorporating the latest advances in motion planning,<br/>
