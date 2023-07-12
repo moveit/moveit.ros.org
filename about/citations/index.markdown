@@ -5,7 +5,7 @@ title: About
 ---
 <div class="people-page">
   <h1>Citing MoveIt</h1>
-  <p>If you use <b>MoveIt</b> in your research, we kindly ask you to include one of the following citations in your publications:
+  <p>If you use <b>MoveIt</b> in your research, we kindly ask you to include one of the following citations in your publications:</p>
   <div class="container-fluid">
     <div class="container">
       <div class="main-card-wrapper">
