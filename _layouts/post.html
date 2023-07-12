@@ -1,69 +1,69 @@
 {% include default.html %}
-
-<body>
-  {% include nav-bar.html %}
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-sm-12 col-md-8">
-        <div class="single-post">
-          {% if page.date %}
-          <span class="blog-date">
-            {{ page.date | date: '%B %d, %Y'}}
-          </span>
-          {% endif %}
-          {% if page.media_type == 'video' %}
-          <div class="image-wrapper">
-            <iframe style="width:100%;" height="315" src="{{ page.media_link }}" frameborder="0"
-              allowfullscreen></iframe>
-          </div>
-          {% elsif page.media_type == 'image' %}
-          <img class="image-wrapper" src="{{ page.media_link }}" alt="{{ page.title | truncate: 50, '' }}" />
-          {% else %}
-          <div class="image-wrapper">
-            <img src="/assets/images/main/default-image.jpg" style="width:100%;" />
-          </div>
-          {% endif %}
-          <h1>{{ page.title }}</h1>
-          {% if page.author %}
-          <div class="author-name">
-            <h5>by {{ page.author }}</h5><br>
-          </div>
-          {% endif %}
-          {{ content }}
-        </div>
-      </div>
-      <div class="col-sm-12 col-lg-3 d-sm-none d-md-block">
-        <div class="other-post">
-          {% for post in site.related_posts limit:2 %}
-          <div class="col-sm-6 col-lg-12">
-            <div class="other-single">
-              <a href="{{ post.url }}">
-                {% if post.media_type == 'video' %}
-                <div class="image-wrapper">
-                  <iframe style="width:100%;" height="315" src="{{ post.media_link }}" frameborder="0"
-                    allowfullscreen></iframe>
-                </div>
-                {% elsif post.media_type == 'image' %}
-                <div class="image-wrapper real-image" style="background-image: url('{{ post.media_link }}');"></div>
-                {% else %}
-                <div class="image-wrapper">
-                  <img src="/assets/images/main/default-image.jpg" style="width:100%;" />
-                </div>
-                {% endif %}
-                <div class="text-wrapper">
-                  <span class="blog-date">
-                    {{ post.date | date: "%B %d, %Y" }}
-                  </span>
-                  <h3>{{ post.title }}</h3>
-                  <p>{{ post.description }}</p>
-                </div>
-              </a>
+  <body>
+    {% include nav-bar.html %}
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-sm-12 col-md-8">
+          <div class="single-post">
+            {% if page.date %}
+            <span class="blog-date">
+              {{ page.date | date: '%B %d, %Y'}}
+            </span>
+            {% endif %}
+            {% if page.media_type == 'video' %}
+            <div class="image-wrapper">
+              <iframe style="width:100%;" height="315" src="{{ page.media_link }}" frameborder="0"
+                allowfullscreen></iframe>
             </div>
+            {% elsif page.media_type == 'image' %}
+            <img class="image-wrapper" src="{{ page.media_link }}" alt="{{ page.title | truncate: 50, '' }}" />
+            {% else %}
+            <div class="image-wrapper">
+              <img src="/assets/images/main/default-image.jpg" style="width:100%;" />
+            </div>
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+            {% if page.author %}
+            <div class="author-name">
+              <h5>by {{ page.author }}</h5><br>
+            </div>
+            {% endif %}
+            {{ content }}
           </div>
-          {% endfor %}
+        </div>
+        <div class="col-sm-12 col-lg-3 d-sm-none d-md-block">
+          <div class="other-post">
+            {% for post in site.related_posts limit:2 %}
+            <div class="col-sm-6 col-lg-12">
+              <div class="other-single">
+                <a href="{{ post.url }}">
+                  {% if post.media_type == 'video' %}
+                  <div class="image-wrapper">
+                    <iframe style="width:100%;" height="315" src="{{ post.media_link }}" frameborder="0"
+                      allowfullscreen></iframe>
+                  </div>
+                  {% elsif post.media_type == 'image' %}
+                  <div class="image-wrapper real-image" style="background-image: url('{{ post.media_link }}');"></div>
+                  {% else %}
+                  <div class="image-wrapper">
+                    <img src="/assets/images/main/default-image.jpg" style="width:100%;" />
+                  </div>
+                  {% endif %}
+                  <div class="text-wrapper">
+                    <span class="blog-date">
+                      {{ post.date | date: "%B %d, %Y" }}
+                    </span>
+                    <h3>{{ post.title }}</h3>
+                    <p>{{ post.description }}</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
-{% include footer.html %}
+    {% include footer.html %}
+  </body>
+</html>
