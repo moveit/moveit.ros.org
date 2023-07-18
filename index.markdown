@@ -285,7 +285,7 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Iron 2.6</h3>
+                      <h3>Iron 2.7</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/ros-planning/moveit2/tree/main" target="_blank">View branch</a>
