@@ -26,16 +26,16 @@ title: Distribution
       </thead>
       <tbody>
         <tr>
-          <td>MoveIt 2 Iron</td>
-          <td>TBD</td>
-          <td>TBD</td>
-          <td>TBD</td>
-        </tr>
-        <tr>
           <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt Rolling</a></td>
           <td>2021</td>
           <td><img src="/assets/images/distribution/moveIt-rolling.jpg" alt="MoveIt Rolling" height="100" /></td>
           <td>N/A</td>
+        </tr>
+        <tr>
+          <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt 2 Iron</a></td>
+          <td>May 23, 2023</td>
+          <td><img src="/assets/images/distribution/moveit-iron.png" alt="MoveIt 2 Iron" height="100" /></td>
+          <td>November 2024</td>
         </tr>
         <tr>
           <td><a href="https://moveit.picknik.ai/humble/index.html">MoveIt 2 Humble</a></td>
