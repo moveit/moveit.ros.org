@@ -51,7 +51,7 @@ redirect_from: '/moveit/'
                             <img class="robot-hand" src="/assets/images/main/hero.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
-                                    Latest: <b>MoveIt 2 Humble</b>
+                                    Latest: <b>MoveIt 2 Iron</b>
                                 </div>
                                 <a href="/install-moveit2/source/" class="info-box-button button">Build MoveIt 2 from Source</a>
                                 <div class="info-box-version">
@@ -257,10 +257,8 @@ redirect_from: '/moveit/'
                 <div class='col-sm-12'>
                     <h2 class="h1 text-center"><a id="release-versions" href="#release-versions">Current and Future Versions</a></h2>
                 </div>
-
             <!-- Release progress bar -->
             {% include release-progress.html %}
-
             <!-- Release versions table -->
             <div class='row'>
               <div class="release-versions">
@@ -272,7 +270,7 @@ redirect_from: '/moveit/'
                 <div class="release-versions__body">
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Rolling 2.5</h3>
+                      <h3>Rolling 2.7</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/ros-planning/moveit2/tree/main" target="_blank">View branch</a>
@@ -283,6 +281,21 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="release-versions__3">
                       <span class="label label--blue">CONTINUALLY DEVELOPED</span>
+                    </div>
+                  </div>
+                  <div class="release-versions__content">
+                    <div class="release-versions__1">
+                      <h3>Iron 2.7</h3>
+                      <p>
+                        <span><img src="/assets/images/icons/git.svg"></span>
+                        <a href="https://github.com/ros-planning/moveit2/tree/main" target="_blank">View branch</a>
+                      </p>
+                    </div>
+                    <div class="release-versions__2">
+                      ROS 2
+                    </div>
+                    <div class="release-versions__3">
+                      <span class="label label--green">LATEST STABLE</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -312,7 +325,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--orange text-dark">MAINTAINED</span>
+                      <span class="label label--red">EOL - DISCONTINUED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -327,7 +340,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--orange text-dark">MAINTAINED</span>
+                      <span class="label label--red">EOL - DISCONTINUED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -350,5 +363,4 @@ redirect_from: '/moveit/'
             </div>
       </div>
     </div>
-
 </div>
