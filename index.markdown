@@ -325,7 +325,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--orange text-dark">MAINTAINED</span>
+                      <span class="label label--red">EOL - DISCONTINUED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -340,7 +340,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--orange text-dark">MAINTAINED</span>
+                      <span class="label label--red">EOL - DISCONTINUED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
