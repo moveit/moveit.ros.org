@@ -97,16 +97,16 @@ title: About
                   <a href="https://github.com/jrgnicho" target="_blank">jrgnicho</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Lior Lustgarten</div>
-                  <div class="organization-name">Microsoft Edge Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/lilustga" target="_blank">lilustga</a>
-                </div>
-                <div class="main-card-single-small">
                   <div class="person-name">Mark Moll</div>
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/mamoll" target="_blank">mamoll</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Marq Rasmussen</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/MarqRazz" target="_blank">MarqRazz</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Michael Ferguson</div>
@@ -121,16 +121,16 @@ title: About
                   <a href="https://github.com/v4hn" target="_blank">v4hn</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Mike Lautman</div>
-                  <div class="organization-name">PickNik Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/mlautman" target="_blank">mlautman</a>
-                </div>
-                <div class="main-card-single-small">
                   <div class="person-name">Robert Haschke</div>
                   <div class="organization-name">CITEC, Bielefeld University</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/rhaschke" target="_blank">rhaschke</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Sebastian Castro</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/sea-bass" target="_blank">sea-bass</a>
                 </div>
 		<div class="main-card-single-small">
                   <div class="person-name">Sebastian Jahr</div>
@@ -221,6 +221,18 @@ title: About
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/felixvd" target="_blank">felixvd</a>
                 </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Lior Lustgarten</div>
+                  <div class="organization-name">Microsoft Edge Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/lilustga" target="_blank">lilustga</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Mike Lautman</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/mlautman" target="_blank">mlautman</a>
+                </div>
               </div>
             </div>
           </div>
@@ -281,12 +293,6 @@ title: About
                   <div class="organization-name">University of Edinburgh</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/peterdavidfagan" target="_blank">peterdavidfagan</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Sebastian Castro</div>
-                  <div class="organization-name">PickNik Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/sea-bass" target="_blank">sea-bass</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Stephanie Eng</div>
