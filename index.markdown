@@ -58,7 +58,7 @@ redirect_from: '/moveit/'
                                     Ubuntu 22.04
                                 </div>
                                 <div class="link-group">
-                                    <a href="/install-moveit2/source/" class="info-box-link">Install From Source</a>
+                                    <a href="/install-moveit2/source/" class="info-box-link">Build From Source</a>
                                     <span>|</span>
                                     <a href="https://github.com/ros-planning/moveit2" target="_blank" class="info-box-link">View on Github</a>
                                 </div>
