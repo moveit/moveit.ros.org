@@ -19,7 +19,7 @@ Below are some videos demos of the code that the participants played around with
 
 * A demonstration of the MoveIt motion planning panel in RViz:<br>
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MwDs_uX6SKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-* A basic pick & place demo [[code]](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/stretch_roscon_demos/src/move_group_interface_demo.cpp):<br>
+* A basic pick & place demo [[code]](https://github.com/hello-robot/AndyZe/blob/ros_world2021/stretch_roscon_demos/src/move_group_interface_demo.cpp):<br>
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/auazxjtOjsY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * An advanced pick & place demo using the MoveIt Task Constructor [[code]](https://github.com/PickNikRobotics/stretch_moveit_plugins/tree/main/pick_place_task):<br>
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Tm93GFlT234" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -51,14 +51,14 @@ redirect_from: '/moveit/'
                             <img class="robot-hand" src="/assets/images/main/hero.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
-                                    Latest: <b>MoveIt 2 Iron</b>
+                                    Latest: <b>MoveIt Iron</b>
                                 </div>
-                                <a href="/install-moveit2/source/" class="info-box-button button">Build MoveIt 2 from Source</a>
+                                <a href="/install-moveit2/binary/" class="info-box-button button">Install MoveIt From Debian</a>
                                 <div class="info-box-version">
                                     Ubuntu 22.04
                                 </div>
                                 <div class="link-group">
-                                    <a href="/install/" class="info-box-link">Install MoveIt 1.0</a>
+                                    <a href="/install-moveit2/source/" class="info-box-link">Build From Source</a>
                                     <span>|</span>
                                     <a href="https://github.com/ros-planning/moveit2" target="_blank" class="info-box-link">View on Github</a>
                                 </div>
