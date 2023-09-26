@@ -86,7 +86,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
       <td class="done">✓</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/hello-robot/stretch_ros2/tree/ros_world2021#whole_body_planning" target="_blank">Planning for Differential Drive Bases</a></td>
+      <td><a href="https://github.com/AndyZe/stretch_ros2/tree/ros_world2021#guided-exploration-pick-and-place-with-whole-body-planning" target="_blank">Planning for Differential Drive Bases</a></td>
       <td class="not">✕</td>
       <td class="done">✓</td>
     </tr>

@@ -78,21 +78,21 @@ Please complete the setup at least a day before the workshop. MoveIt maintainers
 
 Use one of following two options:
 
-1. **Docker**: See [these detailed instructions](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/README.md#linux-installation-with-docker).
-2. **ROS 2 Galactic installation**: See [these detailed instructions](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/README.md#linux-installation-source).
+1. **Docker**: See [these detailed instructions](https://github.com/AndyZe/stretch_ros2/tree/ros_world2021/README.md#linux-installation-with-docker).
+2. **ROS 2 Galactic installation**: See [these detailed instructions](https://github.com/AndyZe/stretch_ros2/tree/ros_world2021/README.md#linux-installation-source).
 
 Please go through these instructions _before_ the workshop. The docker image is 6.29GB in size, so this may take some time to download (depending on the speed of your internet connection).
 
 ### Further reading & watching
 
-* The code for the workshop can be found in the `ros_world2021` branch of the [`stretch_ros2` repo](https://github.com/hello-robot/stretch_ros2/tree/ros_world2021) on GitHub.
+* The code for the workshop can be found in the `ros_world2021` branch of the [`stretch_ros2` repo](https://github.com/AndyZe/stretch_ros2/tree/ros_world2021) on GitHub.
 * The [MoveIt Concepts page](https://moveit.ros.org/documentation/concepts/) goes into more detail than the workshop in describing the general structure of MoveIt.
 * There are [many more MoveIt 2 tutorials](http://moveit.picknik.ai) available.
 * [This paper](https://arxiv.org/abs/2109.10892) describes in more detail the design of the Stretch mobile manipulator from Hello Robotics, while more information on the Stretch payload and pulling force can be found [here](Stretch Payload & Pulling Force.pdf).
 * Video demos from the different _Guided exploration_ sessions:
   1. A demonstration of the MoveIt motion planning panel in RViz:<br>
      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MwDs_uX6SKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  2. A basic pick & place demo [[code]](https://github.com/hello-robot/stretch_ros2/blob/ros_world2021/stretch_roscon_demos/src/move_group_interface_demo.cpp):<br>
+  2. A basic pick & place demo [[code]](https://github.com/AndyZe/stretch_ros2/blob/ros_world2021/stretch_roscon_demos/src/move_group_interface_demo.cpp):<br>
      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/auazxjtOjsY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   3. An advanced pick & place demo using the MoveIt Task Constructor [[code]](https://github.com/PickNikRobotics/stretch_moveit_plugins/tree/main/pick_place_task):<br>
      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Tm93GFlT234" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
