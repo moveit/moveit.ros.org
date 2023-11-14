@@ -277,6 +277,12 @@ title: About
                   <a href="https://github.com/k-okada" target="_blank">k-okada</a>
                 </div>
                 <div class="main-card-single-small">
+                  <div class="person-name">Mario Prats</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/marioprats" target="_blank">marioprats</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Martin Günther</div>
                   <div class="organization-name">DFKI</div>
                   <img src="/assets/install_page/github.png"/>
@@ -299,6 +305,11 @@ title: About
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/stephanie-eng" target="_blank">stephanie-eng</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">V Mohammed Ibrahim</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/ibrahiminfinite" target="_blank">ibrahiminfinite</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Yan Yu</div>
