@@ -40,26 +40,39 @@ MoveIt uses the [industrial_ci](https://github.com/ros-industrial/industrial_ci)
 
 To setup your environment for running the CI workflows locally follow [these instructions from industrial_ci's documentation](https://github.com/ros-industrial/industrial_ci/blob/master/doc/index.rst#run-industrial-ci-on-local-host)
 
-Industrial CI is configured using environment variables.  These can be found by expanding the top of the industrial_ci step in the CI job you'd like to replicate.  If you use [this job](https://github.com/ros-planning/moveit2/runs/2468526504) as an example you'll see this at the top of the industrial_ci step:
+Industrial CI is configured using environment variables.  These can be found by expanding the top of the industrial_ci step in the CI job you'd like to replicate.  If you use [one of the CI jobs](https://github.com/ros-planning/moveit2/actions/workflows/ci.yaml) as an example you'll see something like this at the top of the industrial_ci step dropdown:
 
 ```
 Run ros-industrial/industrial_ci@master
   with:
   env:
-    DOCKER_IMAGE: moveit/moveit2:foxy-ci-testing
-    UPSTREAM_WORKSPACE: moveit2.repos
-    AFTER_SETUP_UPSTREAM_WORKSPACE: vcs pull $BASEDIR/upstream_ws/src
-    BEFORE_TARGET_TEST_EMBED: set +u && source moveit_kinematics/test/test_ikfast_plugins.sh && set -u
-    AFTER_RUN_TARGET_TEST:
-    TARGET_CMAKE_ARGS: -DCMAKE_BUILD_TYPE=Release
+    CXXFLAGS: -Wall -Wextra -Wwrite-strings -Wunreachable-code -Wpointer-arith -Wredundant-decls
+    CLANG_TIDY_ARGS: --fix --fix-errors --format-style=file
+    DOCKER_IMAGE: moveit/moveit2:humble-ci
+    UPSTREAM_WORKSPACE: moveit2.repos $(f="moveit2_$(sed 's/-.*$//' <<< "humble-ci").repos"; test -r $f && echo $f)
 
+    AFTER_SETUP_UPSTREAM_WORKSPACE: vcs pull $BASEDIR/upstream_ws/src
+    AFTER_SETUP_DOWNSTREAM_WORKSPACE: vcs pull $BASEDIR/downstream_ws/src
+    AFTER_SETUP_CCACHE: ccache --zero-stats --max-size=10.0G
+    BEFORE_BUILD_UPSTREAM_WORKSPACE: ccache -z
+    AFTER_BUILD_TARGET_WORKSPACE: ccache -s
+    TARGET_CMAKE_ARGS: -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_SHARED_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_MODULE_LINKER_FLAGS=-fuse-ld=lld -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-Werror $CXXFLAGS"
+
+    UPSTREAM_CMAKE_ARGS: -DCMAKE_CXX_FLAGS=''
+    DOWNSTREAM_CMAKE_ARGS: -DCMAKE_CXX_FLAGS="-Wall -Wextra"
     CCACHE_DIR: /home/runner/work/moveit2/moveit2/.ccache
     BASEDIR: /home/runner/work/moveit2/moveit2/.work
-    CACHE_PREFIX: foxy-ci-testing
-    CLANG_TIDY_BASE_REF: refs/heads/main
-    IMAGE: foxy-ci-testing
-    IKFAST_TEST: true
-    CLANG_TIDY: true
+    CLANG_TIDY_BASE_REF: main
+    BEFORE_CLANG_TIDY_CHECKS: # Show list of applied checks
+  (cd $TARGET_REPO_PATH; clang-tidy --list-checks)
+  # Disable clang-tidy for ikfast plugins as we cannot fix the generated code
+  find $BASEDIR/target_ws/build -iwholename "*_ikfast_plugin/compile_commands.json" -exec rm {} \;
+
+    CC:
+    CXX:
+    ADDITIONAL_DEBS: lld
+    IMAGE: humble-ci
+    ROS_DISTRO: humble
 Running test 'source_tests'
 ```
 To re-create this job locally you'll need a checkout of moveit2 at the commit you want to test.  For the sake of this example the checkout is at ``~/ws_moveit/src/moveit2``.  Below is the command you'd construct to run the above job:
