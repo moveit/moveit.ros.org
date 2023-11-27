@@ -26,7 +26,7 @@ Collision detection is a core necessity in path planning for any type of robot. 
 task. Inspired by the motion planning framework “[Tesseract](https://rosindustrial.org/news/2018/7/5/optimization-motion-planning-with-tesseract-and-trajopt-for-industrial-applications)”
 of ROS-Industrial, the aim of the project is to integrate Bullet as an additional collision checking library into MoveIt. This includes additional
 new features like continuous collision detection (CCD). CCD is useful as many state-of-the-art path planning frameworks like
-Trajectory Optimization (TrajOpt) rely on it.
+[Trajectory Optimization](https://rll.berkeley.edu/trajopt/doc/sphinx_build/html/) (TrajOpt) rely on it.
 
 **Primary Goals**
 1. Integrate Bullet as a collision detection library
