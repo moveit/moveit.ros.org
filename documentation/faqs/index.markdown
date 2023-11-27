@@ -113,7 +113,7 @@ _How do I hear the latest announcements on MoveIt?_
 
   * Watch the [MoveIt Category on ROS Discourse](https://discourse.ros.org/c/moveit)
   * Follow the [MoveIt blog](/blog).
-  * Follow <a href="https://twitter.com/PickNikRobotics" target="_blank" data-proofer-ignore>@PickNikRobotics</a> on Twitter.
+  * Follow <a href="https://twitter.com/PickNikRobotics" target="_blank">@PickNikRobotics</a> on Twitter.
 
 ## Legal
 
