@@ -5,7 +5,7 @@ date: 2020-06-09
 layout: post
 title: MoveIt 2 Used on Collaborative Robotic Sanding Application
 media_type: video
-media_link: https://www.youtube.com/embed/5cBrwU9o5JA
+media_link: https://www.youtube-nocookie.com/embed/5cBrwU9o5JA
 description: The ROS-Industrial team leveraged MoveIt 2 for their Collaborative Robotic Sanding Application.
 categories:
 - industrial

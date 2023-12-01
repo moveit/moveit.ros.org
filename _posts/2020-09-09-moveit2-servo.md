@@ -5,7 +5,7 @@ date: 2020-09-09
 layout: post
 title: Introducing MoveIt Servo in ROS 2
 media_type: video
-media_link: https://www.youtube.com/embed/MF-_XKpGefY
+media_link: https://www.youtube-nocookie.com/embed/MF-_XKpGefY
 description: MoveIt Servo (formerly JogArm) is now available in ROS 2 Foxy Fitzroy.
 categories:
 - moveit
