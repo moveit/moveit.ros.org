@@ -6,8 +6,13 @@ title: MoveIt 2 Binary Install On Windows
 
 # MoveIt 2 Binary Install On Windows
 
-We're thrilled you're ready to start using MoveIt 2!
-Binary installation for MoveIt 2 on Windows is currently included in the `ros-foxy-desktop` Metapackage. You can can install it with the [ROS on Windows Installation Instructions](http://wiki.ros.org/Installation/Windows).
+MoveIt 2 binaries for Windows are available through the [RoboStack ROS distribution bundler](https://robostack.github.io/humble.html).
+
+Simply follow the [Getting Started](https://robostack.github.io/GettingStarted.html) instructions for installing ROS on Windows, and afterwards install the MoveIt binary release using the following command:
+
+```
+mamba install ros-humble-moveit
+```
 
 
 ##  Quick Start

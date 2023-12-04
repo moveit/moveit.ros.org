@@ -7,6 +7,8 @@ title: MoveIt 2 Source Build - Windows
 
 # MoveIt 2 Source Build - Windows
 
+**NOTE: The Windows source build support is not being maintained, currently. The install instructions are provided for completeness, but have not been tested. Contributions and fixes are welcome.**
+
 Installing MoveIt 2 from source is the first step in contributing new features, optimizations, and bug fixes back to the open source project. Thanks for getting involved!
 
 <img class="docker-img" src="/assets/install_page/docker-illustration.png"/>
@@ -15,7 +17,7 @@ Installing MoveIt 2 from source is the first step in contributing new features, 
 
 ### Install <img src="/assets/install_page/ros_logo.jpeg"/>
 
-Install the `ros-foxy-desktop` metapackage. You can can install it with the [ROS on Windows Installation Instructions](http://wiki.ros.org/Installation/Windows).
+Install the `ros-humble-desktop` metapackage. You can can install it with the [ROS on Windows Installation Instructions](http://wiki.ros.org/Installation/Windows).
 
 ### Create Workspace and Source
 
@@ -27,21 +29,16 @@ Create a colcon workspace:
 
 ## Download Source Code
 
-Download the foxy branch of the moveit2 repository. The required dependencies to build moveit2 are included in `ros-foxy-desktop`.
-### Foxy
+Download the humble branch of the moveit2 repository. The required dependencies to build moveit2 are included in `ros-humble-desktop`.
 
-    git clone https://github.com/ros-planning/moveit2.git -b foxy
+    git clone https://github.com/ros-planning/moveit2.git -b humble
 
 ## Build MoveIt
-
-Currently `warehourse_ros_mongo` is not supported on windows so it is ignored when building:
-
-    set IGNORED_PACKAGES=warehouse_ros_mongo
 
 Configure and build the workspace:
 
     cd %COLCON_WS%
-    colcon build --packages-skip-by-dep %IGNORED_PACKAGES%  --packages-skip %IGNORED_PACKAGES% --event-handlers desktop_notification- status- --cmake-args -DCMAKE_BUILD_TYPE=Release
+    colcon build --event-handlers desktop_notification- status- --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 ### Source the Colcon Workspace
 
