@@ -13,15 +13,13 @@ Installing MoveIt 2 from source is the first step in contributing new features, 
 
 MoveIt is mainly supported on Linux, and the following build instructions support in particular:
 
-- Ubuntu 20.04 / ROS 2 Foxy Fitzroy (LTS)
-- Ubuntu 20.04 / ROS 2 Galactic Geochelone
 - Ubuntu 22.04 / ROS 2 Humble Hawksbill (Recommended LTS)
 - Ubuntu 22.04 / ROS 2 Iron Irwini (Recommended Stable)
 - Ubuntu 22.04 / ROS 2 Rolling Ridley (Continuously Updated. Use this to access latest features.)
 
 In the future, we would like to expand our source build instructions to more OS's, please contribute instruction write-ups to [this repo](https://github.com/ros-planning/moveit.ros.org).
 
-These instructions assume you are running on Ubuntu 22.04 (Humble, Iron, Rolling), or Ubuntu 20.04 (Foxy, Galactic).
+These instructions assume you are running on Ubuntu 22.04 (Humble, Iron, Rolling)
 
 ## Prerequisites
 
@@ -72,7 +70,7 @@ Create a colcon workspace:
 
 Download the repository and install any dependencies. Issue the relevant commands for your ROS distribution.
 
-### Foxy, Galactic, Humble, Iron -stable
+### Humble, Iron -stable
 
     git clone https://github.com/ros-planning/moveit2.git -b $ROS_DISTRO
     for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
