@@ -1598,6 +1598,18 @@ title: Robots
 				<div class="robots-content">
 					<h2>iCub</h2>
 					<h3>IIT</h3>
+					<a href="https://github.com/icub-tech-iit/xcub-moveit2" target="_blank">View package</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3">
+			<div class="robots-single">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/ergoCub.jpg');">
+				</div>
+				<div class="robots-content">
+					<h2>ergoCub</h2>
+					<h3>IIT</h3>
+					<a href="https://github.com/icub-tech-iit/xcub-moveit2" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
