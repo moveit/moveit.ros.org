@@ -654,10 +654,10 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/irmate200ib3l.png');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/lrmate200ib3l.png');">
 				</div>
 				<div class="robots-content">
-					<h2>irmate200ib3l</h2>
+					<h2>lrmate200ib3l</h2>
 					<h3>Fanuc</h3>
 					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
 				</div>
@@ -665,10 +665,10 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/irmate200ib.png');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/lrmate200ib.png');">
 				</div>
 				<div class="robots-content">
-					<h2>irmate200ib</h2>
+					<h2>lrmate200ib</h2>
 					<h3>Fanuc</h3>
 					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
 				</div>
@@ -676,10 +676,10 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/irmate200ic5h.png');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/lrmate200ic5h.png');">
 				</div>
 				<div class="robots-content">
-					<h2>irmate200ic5h</h2>
+					<h2>lrmate200ic5h</h2>
 					<h3>Fanuc</h3>
 					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
 				</div>
@@ -687,10 +687,10 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/irmate200ic5l.png');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/lrmate200ic5l.png');">
 				</div>
 				<div class="robots-content">
-					<h2>irmate200ic5l</h2>
+					<h2>lrmate200ic5l</h2>
 					<h3>Fanuc</h3>
 					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
 				</div>
@@ -698,10 +698,10 @@ title: Robots
 		</div>
 		<div class="col-xs-12 col-sm-6 col-lg-3">
 			<div class="robots-single">
-				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/irmate200ic.png');">
+				<div class="robots-image-wrapper" style="background-image: url('/assets/images/robots/fanuc/lrmate200ic.png');">
 				</div>
 				<div class="robots-content">
-					<h2>irmate200ic</h2>
+					<h2>lrmate200ic</h2>
 					<h3>Fanuc</h3>
 					<a href="https://github.com/ros-industrial/fanuc" target="_blank">View package</a>
 				</div>
