@@ -61,9 +61,9 @@ Its current implementation takes as input a pose vector (position and orientatio
 
 <img src="/assets/images/related_projects/moveit_grasps.png" height="500"/>
 
-## MoveIt Studio
+## MoveIt Pro
 
-PickNik's MoveIt Studio Developer Platform enables robotics engineers and robot field operators to more quickly build advanced applications that include manipulator arms. Designed with a user-friendly interface, it includes a set of pre-built tools that make it easy to build and debug behavior trees, inspect trajectories, diagnose failures, and provide robot recovery. [Click here to learn more](https://picknik.ai/studio/).
+PickNik's MoveIt Pro Developer Platform enables robotics engineers and robot field operators to more quickly build advanced applications that include manipulator arms. Designed with a user-friendly interface, it includes a set of pre-built tools that make it easy to build and debug behavior trees, inspect trajectories, diagnose failures, and provide robot recovery. [Click here to learn more](https://picknik.ai/pro/).
 
 <img src="/assets/images/related_projects/moveit_studio.png" height="500"/>
 
