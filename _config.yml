@@ -1,5 +1,6 @@
 url: https://moveit.ros.org
 name: MoveIt Motion Planning Framework
+title: MoveIt Motion Planning Framework
 description: Incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation.
 
 plugins:
