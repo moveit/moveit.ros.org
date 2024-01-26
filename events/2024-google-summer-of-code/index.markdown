@@ -53,7 +53,7 @@ Mentor: [Henning](https://github.com/henningkayser), [Tyler](https://github.com/
 * **Follow [GSoC's Writing a proposal guidelines](https://google.github.io/gsocguides/student/writing-a-proposal)**
 * **Create at least one pull request in a MoveIt-related repository and include a reference to this pull request in your application.**
 * Be specific in describing your experience. Rather than saying "experienced C++ programmer," point us to code that you have written and contributed.
-* Describe your background and experience in robotics and ROS.
+* Describe your background and experience in robotics and ROS 2.
 * Tell us what you hope to get out of the Summer of Code experience.
 * Reach out to the project mentors on GitHub to discuss your ideas
 * For further questions, please contact [Henning Kayser](mailto:henningkayser@picknik.ai)
