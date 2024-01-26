@@ -36,7 +36,7 @@ Select at least one use case in MoveIt that could be improved or enabled by usin
 Mentor: [Sebastian Jahr](https://github.com/sjahr), [Sebastian Castro](https://github.com/sea-bass)
 
 ### Support Closed-chain Kinematics
-Investigate use cases for closed-chain kinematics planning problems and MoveIt's current limitations in solvng them.
+Investigate use cases for closed-chain kinematics planning problems and MoveIt's current limitations in solving them.
 Select at least one demo application to implement and demo while improve MoveIt's planning capabilities.
 
 Mentor: [Tyler](https://github.com/tylerjw), [Henning](https://github.com/henningkayser)
