@@ -20,7 +20,7 @@ title: Support
 </div>
 <div class='row support-box'>
   <div class='col-sm-12 col-lg-4'>
-    <img alt="Picknik robotics" src="/assets/images/picknik-robotics.png">
+    <img alt="Picknik robotics" src="/assets/images/sponsors/picknik.png">
   </div>
   <div class='col-sm-12 col-lg-8'>
     <h2>Professional Support</h2>
