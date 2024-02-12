@@ -3,7 +3,7 @@ author: Michael Wrock
 comments: false
 date: 2024-01-31 00:01
 layout: post
-title: "Bin Picking"
+title: "Announcing a new example application with MoveIt Pro: Warehouse Bin Picking"
 media_type: video
 media_link: https://www.youtube-nocookie.com/embed/4bpiLJjUDzU
 description: Flexible & Fast For Any Brand of Robot Arm
