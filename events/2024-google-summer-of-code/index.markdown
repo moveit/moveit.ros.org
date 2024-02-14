@@ -89,7 +89,7 @@ Doing this project will allow you to contribute to the newest development in ROS
   - Benchmark impacts on message latency
   - Benchmark impacts on large messages such as point clouds
   - Benchmark how the number of topics and participants impacts performance
-  - Contribute changes to MoveIt and ROS where applicable to support Zenoh users 
+  - Contribute changes to MoveIt and ROS where applicable to support Zenoh users
   - Contribute CI jobs to test MoveIt with each ROS middleware
   - Benchmark the use of the zenoh-dds bridge in comparison to rmw_zenoh
 
