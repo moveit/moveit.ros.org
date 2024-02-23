@@ -132,7 +132,7 @@ title: About
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/sea-bass" target="_blank">sea-bass</a>
                 </div>
-		<div class="main-card-single-small">
+                <div class="main-card-single-small">
                   <div class="person-name">Sebastian Jahr</div>
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
@@ -293,6 +293,12 @@ title: About
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/nbbrooks" target="_blank">nbbrooks</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Paul Gesel</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/pac48" target="_blank">pac48</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Peter David Fagan</div>
