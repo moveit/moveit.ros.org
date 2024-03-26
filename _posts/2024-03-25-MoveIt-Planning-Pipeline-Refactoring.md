@@ -39,7 +39,7 @@ Our goal was to refactor the current pipeline implementation (caricatural contro
 into a clean and tidy structure as shown in Fig. 2
 
 <div style="text-align:center">
-    <img style="margin: 10px auto 32px;" src="{{ site.url }}/assets/images/blog_posts/planing_pipeline/image1.png" alt="Refactrored planning pipeline implementation" />
+    <img style="margin: 10px auto 32px;" src="{{ site.url }}/assets/images/blog_posts/planing_pipeline/image1.png" alt="Refactored planning pipeline implementation" />
     <p>Fig. 2: Refactrored planning pipeline implementation</p>
 </div>
 
