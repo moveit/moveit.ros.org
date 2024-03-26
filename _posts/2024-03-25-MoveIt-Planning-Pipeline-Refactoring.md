@@ -3,7 +3,7 @@ author: Sebastian Jahr, Robotics Engineer
 comments: false
 date: 2024-03-25 00:01
 layout: post
-title: "MoveIt Planning Pipeline Refactoring"
+title: "MoveIt 2 Planning Pipeline Refactoring"
 media_type: image
 media_link: /assets/images/blog_posts/planing_pipeline/image2.png
 description: We refactored the planning pipeline class to make it more deterministic and customizable.
@@ -69,7 +69,7 @@ into a clean and tidy structure as shown in Fig. 2
     - You can now create seed trajectories for optimizing planner plugins with other planner plugins! For example, use OMPL’s RRTConnect to create a solution and optimize it with STOMP.
     - STOMP and CHOMP planner plugins can now use the reference trajectory in the MotionPlanResponse if available. While warm-starting optimization-based planning algorithms is not a new feature, it is now possible to do so by chaining planner plugins instead of writing an additional smoothing plugin. The chaining approach enables leaner and more flexible planning pipeline configurations.
 - Removes duplicate code
-    - Before:  Two implementations of STOMP/CHOMP plugins existed: A PlannerPlugin and a RequestAdapterPlugin.
+    - Before: Two implementations of STOMP/CHOMP plugins existed: A PlannerPlugin and a RequestAdapterPlugin.
     - After: STOMP and CHOMP are only PlannerPlugin types.
 
 ### Exemplary Setup
@@ -129,4 +129,4 @@ PILZIndustrialMotionPlanner<br/>
 &nbsp;&nbsp;&nbsp;Publishes the computed path to RVIZ for visualization.<br/>
 
 ### Conclusion
-MoveIt now supports re-configuring planning pipelines to support the varying planning needs of unstructured environments. We are looking forward to seeing your planner or adapter plugin implementations as contributions to the MoveIt ecosystem! For more production environment features, check out our [MoveIt Pro](https://picknik.ai/pro/) offering.
+MoveIt 2 now supports more customizable planning pipelines to support the varying planning needs of unstructured environments. We are looking forward to seeing your planner or adapter plugin implementations as contributions to the MoveIt ecosystem! For more production environment features, check out our [MoveIt Pro](https://picknik.ai/pro/) offering.
