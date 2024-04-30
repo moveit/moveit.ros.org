@@ -104,7 +104,7 @@ title: MoveIt 1 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="https://ros-planning.github.io/moveit_tutorials/" target="_blank">
+        <a href="https://moveit.github.io/moveit_tutorials/" target="_blank">
           <span class="link-with-background">
             MoveIt Getting Started Tutorial
           </span>
@@ -250,7 +250,7 @@ title: MoveIt 1 Binary Install
         <h3>MoveIt Quickstart in RViz</h3>
         <p>Now you are ready to start planning in Rviz with:
         </p>
-        <a href="https://ros-planning.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+        <a href="https://moveit.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
           <span class="link-with-background">
             MoveIt Getting Started Tutorial
           </span>
