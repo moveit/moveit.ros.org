@@ -78,19 +78,9 @@ Their past contributions should be acknowledged and appreciated, and they will c
 For maintainers specifically, we will also remove their repo commit access and change them to just Github Triage access.
 For Core Contributors, their Github access can remain the same.
 
-## ROS-Planning Github Org Policy
+## MoveIt Github Org Policy
 
-In the [ros-planning](https://github.com/moveit/) Github organization, there are essentially two projects co-located there:
-
- - MoveIt
- - Navigation
-
-These projects are run entirely by different teams, maintainer policies, etc.
-Write access between these two projects is isolated via usage of different Github Org Teams.
-In addition, MoveIt has a secondary Github team for non-write access. The ros-planning org currently has four total teams:
-
- - Navigation Maintainers
-   - Has write access to all navigation-related packages
+We have three organization teams to organize work:
  - MoveIt Admin
    - Has write access to all MoveIt-related packages & admin access to all repos settings
  - MoveIt Maintainers

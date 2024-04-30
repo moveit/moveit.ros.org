@@ -13,7 +13,7 @@ MoveIt is open source and released under the [BSD License v3](https://opensource
 
 # Source Code
 
-MoveIt code is hosted on GitHub in the [ros-planning organization](http://github.com/ros-planning) in the following repos:
+MoveIt code is hosted on GitHub in the [moveit organization](http://github.com/moveit) in the following repos:
 
 - [moveit](https://github.com/moveit/moveit) - Main repo of MoveIt, contains the following packages:
   - moveit - Metapackage
@@ -47,7 +47,7 @@ MoveIt code is hosted on GitHub in the [ros-planning organization](http://github
 - [rqt_moveit](https://github.com/ros-visualization/rqt_moveit/) - Plugin for the GUI framework of ROS, RQT
 - [srdfdom](https://github.com/moveit/srdfdom) - Semantic Robot Description Format used exclusively by MoveIt
 
-Dependencies maintained by the ros-planning MoveIt team:
+Dependencies maintained by the MoveIt team:
 
 - [warehouse_ros](https://github.com/moveit/warehouse_ros) - Abstract interface for persisting ROS message data
 - [random_numbers](https://github.com/moveit/random_numbers) - package for generating random numbers
