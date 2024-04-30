@@ -15,7 +15,7 @@ MoveIt is open source and released under the [BSD License v3](https://opensource
 
 MoveIt code is hosted on GitHub in the [ros-planning organization](http://github.com/ros-planning) in the following repos:
 
-- [moveit](https://github.com/ros-planning/moveit) - Main repo of MoveIt, contains the following packages:
+- [moveit](https://github.com/moveit/moveit) - Main repo of MoveIt, contains the following packages:
   - moveit - Metapackage
   - moveit_core - Core functionality including RobotModel, RobotState, collision checking
   - moveit_ros_planning - planning components, execution manager, plugin loaders
@@ -35,34 +35,34 @@ MoveIt code is hosted on GitHub in the [ros-planning organization](http://github
   - moveit_plugins - plugins for controller managers
   - chomp_motion_planner - Gradient Optimization Techniques for Efficient Motion Planning
   - chomp_interface - adapter for using CHOMP with MoveIt
-- [moveit2](https://github.com/ros-planning/moveit2) - The beta version of MoveIt for ROS 2
-- [moveit_msgs](https://github.com/ros-planning/moveit_msgs) - ROS messages
-- [moveit_task_constructor](https://github.com/ros-planning/moveit_task_constructor) - An approach to hierarchical, multi-stage manipulation planning
-- [moveit_grasps](https://github.com/ros-planning/moveit_grasps) - A geometric-based grasp generation library for manipulation
-- [moveit_visual_tools](https://github.com/ros-planning/moveit_visual_tools) - display and debugging data in Rviz
-- [moveit_resources](https://github.com/ros-planning/moveit_resources) - large file assets such as testing robots
-- [moveit_calibration](https://github.com/ros-planning/moveit_calibration) - hand-eye calibration routines with GUI
-- [moveit_advanced](https://github.com/ros-planning/moveit_advanced) - Experimental advanced capabilities
-- [moveit_ci](https://github.com/ros-planning/moveit_ci) - script to run with Travis for continuous integration
+- [moveit2](https://github.com/moveit/moveit2) - The beta version of MoveIt for ROS 2
+- [moveit_msgs](https://github.com/moveit/moveit_msgs) - ROS messages
+- [moveit_task_constructor](https://github.com/moveit/moveit_task_constructor) - An approach to hierarchical, multi-stage manipulation planning
+- [moveit_grasps](https://github.com/moveit/moveit_grasps) - A geometric-based grasp generation library for manipulation
+- [moveit_visual_tools](https://github.com/moveit/moveit_visual_tools) - display and debugging data in Rviz
+- [moveit_resources](https://github.com/moveit/moveit_resources) - large file assets such as testing robots
+- [moveit_calibration](https://github.com/moveit/moveit_calibration) - hand-eye calibration routines with GUI
+- [moveit_advanced](https://github.com/moveit/moveit_advanced) - Experimental advanced capabilities
+- [moveit_ci](https://github.com/moveit/moveit_ci) - script to run with Travis for continuous integration
 - [rqt_moveit](https://github.com/ros-visualization/rqt_moveit/) - Plugin for the GUI framework of ROS, RQT
-- [srdfdom](https://github.com/ros-planning/srdfdom) - Semantic Robot Description Format used exclusively by MoveIt
+- [srdfdom](https://github.com/moveit/srdfdom) - Semantic Robot Description Format used exclusively by MoveIt
 
 Dependencies maintained by the ros-planning MoveIt team:
 
-- [warehouse_ros](https://github.com/ros-planning/warehouse_ros) - Abstract interface for persisting ROS message data
-- [random_numbers](https://github.com/ros-planning/random_numbers) - package for generating random numbers
+- [warehouse_ros](https://github.com/moveit/warehouse_ros) - Abstract interface for persisting ROS message data
+- [random_numbers](https://github.com/moveit/random_numbers) - package for generating random numbers
 
 The following repos are where documentation can be found:
 
-- [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) - this main website
-- [moveit_tutorials](https://github.com/ros-planning/moveit_tutorials) - step by step examples for learning MoveIt
-- [moveit_example_apps](https://github.com/ros-planning/moveit_example_apps) - sandbox of example high level application code
+- [moveit.ros.org](https://github.com/moveit/moveit.ros.org) - this main website
+- [moveit_tutorials](https://github.com/moveit/moveit_tutorials) - step by step examples for learning MoveIt
+- [moveit_example_apps](https://github.com/moveit/moveit_example_apps) - sandbox of example high level application code
 
 <img src='/assets/images/diagrams/moveit_api.png' style="width: 80%;"/>
 
 # Code Health
 
-We use [Travis](https://travis-ci.org/ros-planning/) continuous integration combined with the [moveit_ci](https://github.com/ros-planning/moveit_ci) for testing pull requests and overall code health. Travis status badges should be visible on the README.md of every MoveIt repository.
+We use [Travis](https://travis-ci.org/ros-planning/) continuous integration combined with the [moveit_ci](https://github.com/moveit/moveit_ci) for testing pull requests and overall code health. Travis status badges should be visible on the README.md of every MoveIt repository.
 
 To see an overview of the activity for MoveIt check our [Open HUB Project Summary](https://www.openhub.net/p/moveit/analyses/latest/languages_summary).
 
@@ -72,7 +72,7 @@ To see an overview of the activity for MoveIt check our [Open HUB Project Summar
 
 - [MoveItCpp class](http://docs.ros.org/en/noetic/api/moveit_ros_planning/html/classmoveit__cpp_1_1MoveItCpp.html) - the main new, faster C++ interface to MoveIt.
 - [MoveGroupInterface class](http://docs.ros.org/noetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1MoveGroupInterface.html) - the main C++ interface to the _move_group_node_.
-  `MoveGroupInterface` is the successor to the `MoveGroup` class from previous releases, which is [now deprecated](https://github.com/ros-planning/moveit/issues/37).
+  `MoveGroupInterface` is the successor to the `MoveGroup` class from previous releases, which is [now deprecated](https://github.com/moveit/moveit/issues/37).
 - [PlanningSceneInterface class](http://docs.ros.org/noetic/api/moveit_ros_planning_interface/html/classmoveit_1_1planning__interface_1_1PlanningSceneInterface.html) - a C++ interface to the planning scene
 - [MoveIt commander](http://docs.ros.org/noetic/api/moveit_commander/html/index.html) - documentation for the MoveIt commander.
 

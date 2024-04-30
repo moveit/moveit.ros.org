@@ -84,13 +84,13 @@ You can also use a [Docker container](https://moveit.ros.org/install/docker/) fo
 
 ### Finding Where You Can Help
 
-Suggested areas for improvement are tracked on the [MoveIt repository](https://github.com/ros-planning/moveit/issues). Find appropriate issues by looking for these labels:
+Suggested areas for improvement are tracked on the [MoveIt repository](https://github.com/moveit/moveit/issues). Find appropriate issues by looking for these labels:
 
-- [moveit day candidate](https://github.com/ros-planning/moveit/labels/moveit%20day%20candidate) labels issues as possible entry points for participants in the event.
+- [moveit day candidate](https://github.com/moveit/moveit/labels/moveit%20day%20candidate) labels issues as possible entry points for participants in the event.
   Make sure to check this before the event This list will grow longer before the event.
-- [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates issues can
+- [simple improvements](https://github.com/moveit/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates issues can
   probably be tackled in a few hours.
-- [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials,
+- [documentation](https://github.com/moveit/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials,
   changes to the website, etc.
 - no label - of course issues that are not marked can still be worked on during World MoveIt day, though they will likely take longer than one day to complete.
 
@@ -100,7 +100,7 @@ If you would like to help the MoveIt project by tackling an issue, make sure to 
 
 Feel free to ask further questions in each issue’s comments.
 
-Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/ros-planning/moveit_tutorials/issues).
+Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/moveit/moveit_tutorials/issues).
 
 Other larger code sprint ideas can be found on [this page](http://moveit.ros.org/documentation/contributing/future_projects/). While they will take longer than a day the
 ideas might provide a good reference for other things to contribute on WMD.

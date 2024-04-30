@@ -81,17 +81,17 @@ We recommend the Kinetic LTS branch/release. The Lunar release is simply a copy 
 
 Suggested areas for improvement are tracked on the new unified moveit repo via several labels:
 
-- [moveit day candidate](https://github.com/ros-planning/moveit/labels/moveit%20day%20candidate) labels issues as possible entry points for participants in the event. This list will grow longer before the event.
-- [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates the issue can probably be tackled in a few hours.
-- [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials, changes to the website, etc.
-- [assigned](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+is%3Aissue+label%3Aassigned) aids developers to find issues that are not already being worked on.
+- [moveit day candidate](https://github.com/moveit/moveit/labels/moveit%20day%20candidate) labels issues as possible entry points for participants in the event. This list will grow longer before the event.
+- [simple improvements](https://github.com/moveit/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates the issue can probably be tackled in a few hours.
+- [documentation](https://github.com/moveit/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials, changes to the website, etc.
+- [assigned](https://github.com/moveit/moveit/issues?q=is%3Aopen+is%3Aissue+label%3Aassigned) aids developers to find issues that are not already being worked on.
 - **no label** - of course issues that are not marked can still be worked on during World MoveIt day, though they will likely take longer than one day to complete.
 
 If you would like to help the MoveIt project by tackling an issue, claim the issue by commenting "I'll work on this" and a maintainer will then hopefully add the label "assigned". Feel free to ask further questions in each issue's comments.
 
 If you have ideas and improvements for the project, please add your own issues to the tracker, using the appropriate labels where applicable. It's fine if you want to then claim them for yourself.
 
-Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/ros-planning/moveit_tutorials/issues).
+Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/moveit/moveit_tutorials/issues).
 
 Other larger code sprint ideas can be found [on this page](http://moveit.ros.org/documentation/contributing/future_projects/). While they will take longer than a day the ideas might provide a good reference for other things to contribute on WMD.
 

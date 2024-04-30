@@ -45,7 +45,7 @@ We look forward to releasing both of these into Galactic and Rolling.
 The last large missing feature from MoveIt on ROS 2 is the MoveIt Setup Assistant.
 It is a wizard that assists users in getting their robot working with MoveIt.
 The primary reason it has been held back as long as it has is we are not net content with the state of configs and launch files in MoveIt on ROS 2.
-Meanwhile though [DLu](https://github.com/DLu) has prepared a [draft PR here](https://github.com/ros-planning/moveit2/pull/838) that modularizes MSA in a way that should make it much easier to contribute and develop the various steps of MSA.
+Meanwhile though [DLu](https://github.com/DLu) has prepared a [draft PR here](https://github.com/moveit/moveit2/pull/838) that modularizes MSA in a way that should make it much easier to contribute and develop the various steps of MSA.
 Hopefully, shortly we can finish what he started and get this landed into MoveIt.
 
 ### Infrastructure
@@ -62,11 +62,11 @@ He was able to decrease not only the CI times for the clang workflow but all wor
 
 This sprint [ParthasarathyBana](https://github.com/ParthasarathyBana) joined our team and merged his first PR into MoveIt.
 The PR added helped make MoveIt follow [modern C++ best practices](https://github.com/cpp-best-practices/cppbestpractices/blob/master/08-Considering_Performance.md#get-rid-of-stdendl) by getting rid of our use of ``std::endl``.
-Here is a link to his PR: [Get rid of "std::endl"](https://github.com/ros-planning/moveit2/pull/918).
+Here is a link to his PR: [Get rid of "std::endl"](https://github.com/moveit/moveit2/pull/918).
 
 ### Good First Issues for Modern C++ Best Practices
 
-[tylerjw](https://github.com/tylerjw) created an [epic in ZenHub](https://github.com/ros-planning/moveit2/issues/840) to moderize MoveIt's use of C++ based on the advice from Jason Turner's github repo [cppbestpractices](https://github.com/cpp-best-practices/cppbestpractices).
+[tylerjw](https://github.com/tylerjw) created an [epic in ZenHub](https://github.com/moveit/moveit2/issues/840) to moderize MoveIt's use of C++ based on the advice from Jason Turner's github repo [cppbestpractices](https://github.com/cpp-best-practices/cppbestpractices).
 This epic contains issues that range from trivial find and replace tasks to ones that are much more nuanced.
 The exciting part of this is several new contributors have already contributed changes to MoveIt during this sprint.
 In the past, we tried creating ``good-first-issue`` issues and struggled to find tasks that were both meaningful and well enough defined for new contributors.

@@ -80,7 +80,7 @@ For Core Contributors, their Github access can remain the same.
 
 ## ROS-Planning Github Org Policy
 
-In the [ros-planning](https://github.com/ros-planning/) Github organization, there are essentially two projects co-located there:
+In the [ros-planning](https://github.com/moveit/) Github organization, there are essentially two projects co-located there:
 
  - MoveIt
  - Navigation

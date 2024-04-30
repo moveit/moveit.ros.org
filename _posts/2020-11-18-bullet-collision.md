@@ -29,11 +29,11 @@ This finally led to the decision to restructure major parts of MoveIt's collisio
 
 To demonstrate the new collision checking capabilities, I added a [new tutorial](https://ros-planning.github.io/moveit_tutorials/doc/bullet_collision_checker/bullet_collision_checker.html). In an interactive environment, Bullet can be tested with a demo object and the Panda robot. The CCD capabilities are demonstrated in the second part of the tutorial. Try it out yourself!
 
-A detailed overview of the work done including discussions is available in the [Github issue](https://github.com/ros-planning/moveit/issues/1427). For a better understanding of the collision detection process, I created several flowcharts shown in the [Developer Concepts page](https://moveit.ros.org/documentation/concepts/developer_concepts/).
+A detailed overview of the work done including discussions is available in the [Github issue](https://github.com/moveit/moveit/issues/1427). For a better understanding of the collision detection process, I created several flowcharts shown in the [Developer Concepts page](https://moveit.ros.org/documentation/concepts/developer_concepts/).
 
 ## Results and Future Work
 
-Besides the added CCD capabilities, another major contribution of Bullet is increased speed. As collision detection is performed all the time, efficiency gains have a big impact on MoveIt's general performance. In certain scenarios, Bullet outperforms FCL [up to ten times](https://github.com/ros-planning/moveit/issues/1427#issuecomment-514143218). Although Bullet in its current state already delivers performance gains compared to FCL, there is still room for improvement. I summarized possible ideas in [this Github issue](https://github.com/ros-planning/moveit/issues/1646).
+Besides the added CCD capabilities, another major contribution of Bullet is increased speed. As collision detection is performed all the time, efficiency gains have a big impact on MoveIt's general performance. In certain scenarios, Bullet outperforms FCL [up to ten times](https://github.com/moveit/moveit/issues/1427#issuecomment-514143218). Although Bullet in its current state already delivers performance gains compared to FCL, there is still room for improvement. I summarized possible ideas in [this Github issue](https://github.com/moveit/moveit/issues/1646).
 
 ## Conclusion
 I had a great time contributing to MoveIt as part of the GSoC 2019. Thanks to my mentors Felix von Drigalski (OMRON SINIC X) and Bryce Willey (Realtime Robotics). I learned a lot about professional software development in a distributed team and look back with pride on the work achieved!

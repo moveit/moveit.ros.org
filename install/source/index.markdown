@@ -15,7 +15,7 @@ title: MoveIt 1 Source Build - Linux
             <li>Ubuntu 18.04 / <a href="http://www.ros.org/wiki/melodic/Installation/Ubuntu" target="_blank">ROS Melodic</a></li>
             <li>Ubuntu 16.04 / <a href="http://www.ros.org/wiki/kinetic/Installation/Ubuntu" target="_blank">ROS Kinetic</a> <i>(no longer officially supported)</i></li>
         </ul>
-        <p>We would like to expand our source build instructions to more operating systems, please <a target="_blank" href="https://github.com/ros-planning/moveit.ros.org/tree/master/install/source">contribute</a>!</p>
+        <p>We would like to expand our source build instructions to more operating systems, please <a target="_blank" href="https://github.com/moveit/moveit.ros.org/tree/master/install/source">contribute</a>!</p>
     <h2>Prerequisites</h2>
     <h3>
     Install <img src="/assets/install_page/ros_logo.jpeg"/>
