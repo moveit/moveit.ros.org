@@ -63,4 +63,4 @@ that should be addressed before the release. At least one of the points will be 
 Should we move from boost::shared_ptr to std::shared_ptr in the public API in Kinetic?
 
 You're input is clearly welcome on these points.
-See [ros-planning/moveit/#18](https://github.com/moveit/moveit/issues/18) and [ros-planning/moveit/#48](https://github.com/moveit/moveit/issues/48) for more information.
+See [moveit/moveit/#18](https://github.com/moveit/moveit/issues/18) and [moveit/moveit/#48](https://github.com/moveit/moveit/issues/48) for more information.

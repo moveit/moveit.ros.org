@@ -240,7 +240,7 @@ title: MoveIt Roadmap
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
             Issue: <a href="https://github.com/moveit/moveit2/issues/1603" target="_blank">#1603</a>
-            Repo: <a href="https://github.com/moveit/stomp_moveit" target="_blank">ros-planning/stomp_moveit</a>
+            Repo: <a href="https://github.com/moveit/stomp_moveit" target="_blank">moveit/stomp_moveit</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -320,7 +320,7 @@ title: MoveIt Roadmap
           <h3>Make ROS&nbsp;2 parameters more dynamic and easier to use</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/orgs/ros-planning/discussions/1403" target="_blank">#1403</a>
+            Issue: <a href="https://github.com/orgs/moveit/discussions/1403" target="_blank">#1403</a>
           </p>
         </div>
         <div class="release-versions__status">

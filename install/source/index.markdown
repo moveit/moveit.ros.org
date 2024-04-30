@@ -62,7 +62,7 @@ title: MoveIt 1 Source Build - Linux
     <div class="bash-command">
         <code>
             wstool init src<br/>
-            wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/master/moveit.rosinstall<br/>
+            wstool merge -t src https://raw.githubusercontent.com/moveit/moveit/master/moveit.rosinstall<br/>
             wstool update -t src<br/>
             rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}<br/>
             catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
@@ -145,7 +145,7 @@ title: MoveIt 1 Source Build - Linux
     <div class="bash-command">
         <code>
             wstool init src<br/>
-            wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/${ROS_DISTRO}-devel/moveit.rosinstall<br/>
+            wstool merge -t src https://raw.githubusercontent.com/moveit/moveit/${ROS_DISTRO}-devel/moveit.rosinstall<br/>
             wstool update -t src<br/>
             rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}<br/>
             catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release<br/>

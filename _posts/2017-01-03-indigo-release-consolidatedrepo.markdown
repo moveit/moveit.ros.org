@@ -31,7 +31,7 @@ If you want to build MoveIt! from source instead of binaries, then simply clone 
 ```
 $ cd %YOUR_CATKIN_WS%/src
 $ git clone https://github.com/moveit/moveit.git   (http)
-$ git clone git@github.com:ros-planning/moveit.git       (ssh)
+$ git clone git@github.com:moveit/moveit.git       (ssh)
 ```
 
 For more info about installation, check the tutorial [moveit.ros.org/install](http://moveit.ros.org/install/).

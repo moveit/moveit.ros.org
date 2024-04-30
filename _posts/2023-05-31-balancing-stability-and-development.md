@@ -12,7 +12,7 @@ categories:
 - ROS
 ---
 
-> [This was originally posted as a GitHub discussion here.](https://github.com/orgs/ros-planning/discussions/2190)
+> [This was originally posted as a GitHub discussion here.](https://github.com/orgs/moveit/discussions/2190)
 
 It has become apparent that there needs to be more clarity about how MoveIt and ROS balance the need for stability and development. This is more complex because our dependencies attempt to strike a balance and sometimes take different approaches.
 
