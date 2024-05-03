@@ -35,4 +35,4 @@ The animation below shows the capabilities of deep learning for grasp pose gener
 |                |                  |
 |                |                  |
 
-To learn more about how to use GPD and Dex-Net within MoveIt see the [Deep Grasp Tutorial](https://ros-planning.github.io/moveit_tutorials/doc/moveit_deep_grasps/moveit_deep_grasps_tutorial.html) and the [Deep Grasp Demo](https://github.com/PickNikRobotics/deep_grasp_demo). The demo contains detailed instructions for acquiring data by simulating depth sensors and executing motion plans in Gazebo.
+To learn more about how to use GPD and Dex-Net within MoveIt see the [Deep Grasp Tutorial](https://moveit.github.io/moveit_tutorials/doc/moveit_deep_grasps/moveit_deep_grasps_tutorial.html) and the [Deep Grasp Demo](https://github.com/PickNikRobotics/deep_grasp_demo). The demo contains detailed instructions for acquiring data by simulating depth sensors and executing motion plans in Gazebo.

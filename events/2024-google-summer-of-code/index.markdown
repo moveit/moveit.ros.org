@@ -10,7 +10,7 @@ title: 2024 Google Summer of Code
 
 MoveIt is planning to participate again in the [Google Summer of Code](https://summerofcode.withgoogle.com).
 Below is a tentative list of project ideas, the content and scope is still being discussed and updated.
-If you have your own project idea, please file a [MoveIt GitHub issue](https://github.com/ros-planning/moveit2/issues) using the "gsoc" label to get the ball rolling.
+If you have your own project idea, please file a [MoveIt GitHub issue](https://github.com/moveit/moveit2/issues) using the "gsoc" label to get the ball rolling.
 
 More information about the MoveIt GSoC project applications [tips at the bottom of this page](#tips-for-writing-a-successful-google-summer-of-code-application-for-moveit).
 
@@ -33,7 +33,7 @@ Integrate alternative collision checking backends like [HPP-FCL](https://github.
 Experiment with new use cases like continuous collision detection or online collision avoidance.
 
 Some example ideas include:
-  - Support HPP-FCL as collision checking backend in MoveIt (see [#1435](https://github.com/ros-planning/moveit2/issues/1435), [#3167](https://github.com/ros-planning/moveit/pull/3167), [#1521](https://github.com/ros-planning/moveit2/pull/1521))
+  - Support HPP-FCL as collision checking backend in MoveIt (see [#1435](https://github.com/moveit/moveit2/issues/1435), [#3167](https://github.com/moveit/moveit/pull/3167), [#1521](https://github.com/moveit/moveit2/pull/1521))
   - Update or reimplement MoveIt’s discrete SDF approach, apply with Servo or STOMP
   - Implement a sphere-based or convex mesh decomposition of the robot geometry for accelerated collision checking
 

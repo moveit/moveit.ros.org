@@ -17,7 +17,7 @@ categories:
 
 *“Motion planning is the problem of finding a robot motion from a start state to a goal state that avoids obstacles in the environment and satisfies other constraints”* ([Lynch, K. M., & Park, F. C. (2017)](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)). Such a planning problem can be encoded as constraints and optimization objectives. In many cases, the solution is a trajectory (a timed sequence of robot states) that a robot can execute. The classical approach to solving motion planning problems uses a sequence of algorithms, for example, Path planning -> Path Optimization -> Trajectory Generation.
 
-A generic implementation of such a planning pipeline is one of the core components of MoveIt. Data structures to encode planning problems ([MotionPlanRequest](https://github.com/ros-planning/moveit_msgs/blob/ros2/msg/MotionPlanRequest.msg)) and solutions ([MotionPlanResponse](https://github.com/ros-planning/moveit_msgs/blob/ros2/msg/MotionPlanResponse.msg)) are provided, and it is possible to create custom pipelines by choosing from various algorithms in MoveIt. These algorithms are implemented as plugins so that you can specify a planning pipeline at runtime and make it easy to integrate your implementations. Since no planning algorithm is a jack of all trades, it is important to be able to define and swap pipelines. Take for example, a [bin picking application](https://youtu.be/4bpiLJjUDzU), where a planning pipeline with a Cartesian planner is useful to plan grasp and retreat motions and a planning pipeline with a sampling-based planner could be used to quickly find collision free motions to get the picked object to the drop position.
+A generic implementation of such a planning pipeline is one of the core components of MoveIt. Data structures to encode planning problems ([MotionPlanRequest](https://github.com/moveit/moveit_msgs/blob/ros2/msg/MotionPlanRequest.msg)) and solutions ([MotionPlanResponse](https://github.com/moveit/moveit_msgs/blob/ros2/msg/MotionPlanResponse.msg)) are provided, and it is possible to create custom pipelines by choosing from various algorithms in MoveIt. These algorithms are implemented as plugins so that you can specify a planning pipeline at runtime and make it easy to integrate your implementations. Since no planning algorithm is a jack of all trades, it is important to be able to define and swap pipelines. Take for example, a [bin picking application](https://youtu.be/4bpiLJjUDzU), where a planning pipeline with a Cartesian planner is useful to plan grasp and retreat motions and a planning pipeline with a sampling-based planner could be used to quickly find collision free motions to get the picked object to the drop position.
 
 
 <p class="m-0">However, the planning pipeline implementation in MoveIt had some shortcomings:</p>
@@ -25,7 +25,7 @@ A generic implementation of such a planning pipeline is one of the core componen
 - It was not possible to chain planner algorithms.
 - No clear separation and naming of pre-processing, planning and post-processing algorithms.
 
-This is why we decided to refactor the planning pipeline to address the problems above (tracked by [moveit2#2408](https://github.com/ros-planning/moveit2/issues/2408)). This blog post describes these changes in detail.
+This is why we decided to refactor the planning pipeline to address the problems above (tracked by [moveit2#2408](https://github.com/moveit/moveit2/issues/2408)). This blog post describes these changes in detail.
 
 ### Refactoring Steps
 

@@ -35,7 +35,7 @@ Default velocity/acceleration scaling factors in Move Group (do not always execu
 
 ## What does it take to Migrate to Noetic?
 
-Full migration notes are [available here](https://github.com/ros-planning/moveit/blob/master/MIGRATION.md), but some important changes include:
+Full migration notes are [available here](https://github.com/moveit/moveit/blob/master/MIGRATION.md), but some important changes include:
 
 - RobotModel no longer overrides empty URDF collision geometry
 - Planned trajectories are now slow by default - you can set the default yourself.

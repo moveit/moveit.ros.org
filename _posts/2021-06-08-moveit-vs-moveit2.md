@@ -63,7 +63,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
     <tr>
       <td>MoveIt Task Constructor</td>
       <td class="done">✓</td>
-      <td class="done"><a href="https://github.com/ros-planning/moveit_task_constructor/pull/170">pending</a></td>
+      <td class="done"><a href="https://github.com/moveit/moveit_task_constructor/pull/170">pending</a></td>
     </tr>
     <tr>
       <td>Game Controller Integration for Servo</td>
@@ -76,8 +76,8 @@ With the release of ROS 2 Galactic, we would like to share the new features only
       <td class="dev">planned</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/ros-planning/moveit2/tree/4cbd1a767630c3a98eeef8e91cb0fc8627f57c94/moveit_demo_nodes/run_ompl_constrained_planning" target="_blank">Probabilistically complete Cartesian Planning</a></td>
-      <td class="dev"><a href="https://github.com/ros-planning/moveit/pull/2273" target="_blank">Stale Patch</a></td>
+      <td><a href="https://github.com/moveit/moveit2/tree/4cbd1a767630c3a98eeef8e91cb0fc8627f57c94/moveit_demo_nodes/run_ompl_constrained_planning" target="_blank">Probabilistically complete Cartesian Planning</a></td>
+      <td class="dev"><a href="https://github.com/moveit/moveit/pull/2273" target="_blank">Stale Patch</a></td>
       <td class="done">✓</td>
     </tr>
     <tr>
@@ -91,7 +91,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
       <td class="done">✓</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/ros-planning/moveit2/pull/488" target="_blank">Hybrid Planning</a> (global + local planners)</td>
+      <td><a href="https://github.com/moveit/moveit2/pull/488" target="_blank">Hybrid Planning</a> (global + local planners)</td>
       <td class="not">✕</td>
       <td class="done">pending</td>
     </tr>

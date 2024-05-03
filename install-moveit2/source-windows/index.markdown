@@ -31,7 +31,7 @@ Create a colcon workspace:
 
 Download the humble branch of the moveit2 repository. The required dependencies to build moveit2 are included in `ros-humble-desktop`.
 
-    git clone https://github.com/ros-planning/moveit2.git -b humble
+    git clone https://github.com/moveit/moveit2.git -b humble
 
 ## Build MoveIt
 

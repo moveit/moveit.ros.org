@@ -21,11 +21,11 @@ We’re excited to announce that MoveIt has just been released for ROS 2 Humble,
 **What’s new?** \
 The Humble release provides all the latest features and improvements:
 
-* [Hybrid Planning](https://github.com/ros-planning/moveit2/issues/433): use a (slower) global motion planner with a (faster) local motion planner to enable a robot to solve different tasks online and in dynamic environments
-* [TOTG](https://github.com/ros-planning/moveit2/pull/1218): now default parameterization method
-* [Ruckig](https://github.com/ros-planning/moveit2/pull/571): improved time parameterization and jerk smoothing that allows for nonzero initial/final conditions
-* [MoveIt Setup Assistant](https://github.com/ros-planning/moveit2/pull/1254): the entry point for using MoveIt, now for ROS 2 (still in feature branch)
-* [MoveIt Config Utilities](https://github.com/ros-planning/moveit2/pull/591): simplify loading parameters
+* [Hybrid Planning](https://github.com/moveit/moveit2/issues/433): use a (slower) global motion planner with a (faster) local motion planner to enable a robot to solve different tasks online and in dynamic environments
+* [TOTG](https://github.com/moveit/moveit2/pull/1218): now default parameterization method
+* [Ruckig](https://github.com/moveit/moveit2/pull/571): improved time parameterization and jerk smoothing that allows for nonzero initial/final conditions
+* [MoveIt Setup Assistant](https://github.com/moveit/moveit2/pull/1254): the entry point for using MoveIt, now for ROS 2 (still in feature branch)
+* [MoveIt Config Utilities](https://github.com/moveit/moveit2/pull/591): simplify loading parameters
 * Lots of new ROS 2 drivers for arms ([Universal Robotics](https://discourse.ros.org/t/universal-robots-ros-2-driver-release/25461) and more announced soon)
 
 Everyone who has done new LTS releases in the past probably knows that this can be a very time-consuming and error-prone endeavor. But since the latest MoveIt version 2.5 was cut from Rolling, we actually had a flawless transition to Humble without any issues whatsoever. This shows that the prior time investment for keeping up with Rolling actually pays off.
@@ -49,9 +49,9 @@ _[PickNik and Fraunhofer IPA have applied MoveIt 2](https://picknik.ai/hybrid-pl
 
 **What’s next?**
 
-There is much more to come in the not too distant future. The main focus will be on two things: making MoveIt easier to use, and supporting more intuitive and advanced trajectories.  Support for OMPL’s orientation constraints is[ finally being completed](https://github.com/ros-planning/moveit2/pull/1273), and we’re determined to investigate solutions for [more intuitive motions by default](https://github.com/ros-planning/moveit2/issues/1200). Stay tuned for new planner features, IK solvers and reworked interfaces.
+There is much more to come in the not too distant future. The main focus will be on two things: making MoveIt easier to use, and supporting more intuitive and advanced trajectories.  Support for OMPL’s orientation constraints is[ finally being completed](https://github.com/moveit/moveit2/pull/1273), and we’re determined to investigate solutions for [more intuitive motions by default](https://github.com/moveit/moveit2/issues/1200). Stay tuned for new planner features, IK solvers and reworked interfaces.
 
-[Our two GSoC students](https://moveit.ros.org/events/moveit/mentor/google/2022/05/20/2022-google-summer-of-code-students.html) have already started working on much-anticipated features:[ Python support](https://github.com/ros-planning/moveit2/issues/1279) and [multi-arm trajectory execution](https://github.com/ros-planning/moveit/pull/2810). PickNik Robotics summer interns are improving how BioIK is integrated into MoveIt as well as finalizing admittance control in ros2_control & MoveIt.
+[Our two GSoC students](https://moveit.ros.org/events/moveit/mentor/google/2022/05/20/2022-google-summer-of-code-students.html) have already started working on much-anticipated features:[ Python support](https://github.com/moveit/moveit2/issues/1279) and [multi-arm trajectory execution](https://github.com/moveit/moveit/pull/2810). PickNik Robotics summer interns are improving how BioIK is integrated into MoveIt as well as finalizing admittance control in ros2_control & MoveIt.
 
 
 ### Thanks to our Maintainers and Contributors

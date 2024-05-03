@@ -57,11 +57,11 @@ The following packages have been deprecated from ROS 1 for various reasons:
 - moveit_ros_control_interface
 - moveit_controller_manager_example
 
-One other note: in response to the ROS community's <a href="https://github.com/ros-planning/moveit/issues/2213" target="_blank">migration away from using a 'master' branch</a> in favor of 'main', MoveIt 2 has now adopted our primary development branch being named 'main' as well.
+One other note: in response to the ROS community's <a href="https://github.com/moveit/moveit/issues/2213" target="_blank">migration away from using a 'master' branch</a> in favor of 'main', MoveIt 2 has now adopted our primary development branch being named 'main' as well.
 
 ## Multi-Platform Support
 
-We are also happy to report that MoveIt 2 now builds on <a href="https://github.com/ros-planning/moveit2/pull/238" target="_blank">Microsoft Windows</a> (thanks to contributions from the Microsoft Edge Robotics Team) and <a href="https://github.com/ros-planning/moveit2/pull/271" target="_blank">macOS</a> (thanks to Mark Moll), in addition to many Linux variants.
+We are also happy to report that MoveIt 2 now builds on <a href="https://github.com/moveit/moveit2/pull/238" target="_blank">Microsoft Windows</a> (thanks to contributions from the Microsoft Edge Robotics Team) and <a href="https://github.com/moveit/moveit2/pull/271" target="_blank">macOS</a> (thanks to Mark Moll), in addition to many Linux variants.
 
 [![](/assets/images/blog_posts/moveit2_foxy/os.png)][1]
 
