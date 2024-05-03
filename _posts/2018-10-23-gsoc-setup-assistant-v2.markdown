@@ -31,8 +31,8 @@ The outcomes, successes, and key metrics of improvement:
 Instead of writing many configuration files manually, you can now simulate your motion planning in Rviz along side Gazebo by using a few clicks in the MoveIt! Setup Assistant!
 
 ### Useful resources / links
-For further reading look at the [GitHub issue of the project](https://github.com/ros-planning/moveit/issues/894) and [MoveIt! Tutorial](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html).
-The GitHub issue for the project is [here](https://github.com/ros-planning/moveit/issues/894) and an overview of the relationship between simulation, hardware, controllers, and transmissions is [here](https://classic.gazebosim.org/tutorials).
+For further reading look at the [GitHub issue of the project](https://github.com/moveit/moveit/issues/894) and [MoveIt! Tutorial](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/setup_assistant/setup_assistant_tutorial.html).
+The GitHub issue for the project is [here](https://github.com/moveit/moveit/issues/894) and an overview of the relationship between simulation, hardware, controllers, and transmissions is [here](https://classic.gazebosim.org/tutorials).
 
 
 [<img src="{{ site.url }}/assets/images/gsoc18/control_screen.png" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/images/gsoc18/control_screen.png)

@@ -80,7 +80,7 @@ title: MoveIt 1 Docker Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="https://ros-planning.github.io/moveit_tutorials/" target="_blank">
+        <a href="https://moveit.github.io/moveit_tutorials/" target="_blank">
           <span class="link-with-background">
             MoveIt Getting Started Tutorial
           </span>

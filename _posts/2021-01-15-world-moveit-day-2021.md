@@ -15,7 +15,7 @@ categories:
 
 # Day of Reminders:
 
-*   For those experienced with MoveIt, it's helpful to stress that you should choose your issue ***before*** the event. **Post on the Github issue "I'm claiming this issue for World MoveIt Day". Also if you wish to join a 'Track', [find out more on GitHub](https://github.com/ros-planning/moveit2/issues/363){:target="_blank"}**
+*   For those experienced with MoveIt, it's helpful to stress that you should choose your issue ***before*** the event. **Post on the Github issue "I'm claiming this issue for World MoveIt Day". Also if you wish to join a 'Track', [find out more on GitHub](https://github.com/moveit/moveit2/issues/363){:target="_blank"}**
 *   Pre-setup ROS, MoveIt, Virtualbox, Docker, LXD, etc
 *   The download and setup time can significantly eat into the day's productivity
 *   The recommended ROS versions are ROS 2 Galactic.
@@ -72,7 +72,7 @@ Join the conversation on **Discord** (a chat client, different from *Discourse*)
 
 ### Squash Bugs / Issues
 
-Suggested areas for improvement are tracked on the [MoveIt 2 repository](https://github.com/ros-planning/moveit2). Our team of maintainers is working on finding and labeling suggested issues for the event.
+Suggested areas for improvement are tracked on the [MoveIt 2 repository](https://github.com/moveit/moveit2). Our team of maintainers is working on finding and labeling suggested issues for the event.
 
 If you would like to help the MoveIt project by tackling an issue, make sure to claim the issue by commenting before you start working:
 
@@ -85,7 +85,7 @@ Feel free to ask further questions in each issue’s comments.
 Improving our documentation for new and current users is always a goal of WMD!
 
 <!-- need to update for Moveit 2 tutorials when ready -->
-<!-- Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/ros-planning/moveit_tutorials/issues). -->
+<!-- Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/moveit/moveit_tutorials/issues). -->
 
 If you have studied an aspect of MoveIt extensively that is not currently documented, please convert your notes into a pull request in the appropriate location. If you’ve
 started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request

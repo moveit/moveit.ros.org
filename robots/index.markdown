@@ -92,7 +92,7 @@ title: Robots
 				<div class="robots-content">
 					<h2>Robonaut 2</h2>
 					<h3>NASA Johnson Space Center</h3>
-					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/r2_moveit_generated" target="_blank">View package</a>
+					<a href="https://github.com/moveit/moveit_robots/tree/kinetic-devel/r2_moveit_generated" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -135,7 +135,7 @@ title: Robots
 				<div class="robots-content">
 					<h2>PR2</h2>
 					<h3>Willow Garage</h3>
-					<a href="https://github.com/ros-planning/moveit_pr2/" target="_blank">View package</a>
+					<a href="https://github.com/moveit/moveit_pr2/" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -146,7 +146,7 @@ title: Robots
 				<div class="robots-content">
 					<h2>Atlas</h2>
 					<h3>Boston Dynamics</h3>
-					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/atlas_v3_moveit_config" target="_blank">View package</a>
+					<a href="https://github.com/moveit/moveit_robots/tree/kinetic-devel/atlas_v3_moveit_config" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>
@@ -157,7 +157,7 @@ title: Robots
 				<div class="robots-content">
 					<h2>Baxter Research Robot</h2>
 					<h3>Rethink Robotics</h3>
-					<a href="https://github.com/ros-planning/moveit_robots/tree/kinetic-devel/baxter" target="_blank">View package</a>
+					<a href="https://github.com/moveit/moveit_robots/tree/kinetic-devel/baxter" target="_blank">View package</a>
 				</div>
 			</div>
 		</div>

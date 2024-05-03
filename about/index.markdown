@@ -21,7 +21,7 @@ title: About
         <p>
         The primary governance of MoveIt takes place during the public monthly maintainer meetings through majority vote.
         The meetings are also now known as the ROS 2 Manipulation Working Group.
-        For more information see the <a href="maintainer_policy">full maintainer policy</a> as well as the <a href="https://github.com/ros-planning/moveit/blob/master/.github/CODEOWNERS" target="_blank">CODEOWNERS</a> file.
+        For more information see the <a href="maintainer_policy">full maintainer policy</a> as well as the <a href="https://github.com/moveit/moveit/blob/master/.github/CODEOWNERS" target="_blank">CODEOWNERS</a> file.
         </p>
         <p>
         Organizational leadership, outreach, publicity, and additional maintenance is led by <a href="https://picknik.ai/" target="_blank">PickNik Robotics</a>.
@@ -413,7 +413,7 @@ title: About
     <div class="container">
       <div class="history-card-wrapper">
         <div class="history-card-single">
-          <p>MoveIt's first <a href="https://github.com/ros-planning/moveit/commit/206e93c555a6ddcdbe826809c30b90b89bbb52d8" target="_blank">commit</a> was October 2011. MoveIt was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli, and Dave Hershberger and we thank Willow Garage for its support of the MoveIt project. We would also like to thank SRI International for its support of the MoveIt project between October 2013 and June 2015. Since then, PickNik has been leading the support of the MoveIt project.</p>
+          <p>MoveIt's first <a href="https://github.com/moveit/moveit/commit/206e93c555a6ddcdbe826809c30b90b89bbb52d8" target="_blank">commit</a> was October 2011. MoveIt was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli, and Dave Hershberger and we thank Willow Garage for its support of the MoveIt project. We would also like to thank SRI International for its support of the MoveIt project between October 2013 and June 2015. Since then, PickNik has been leading the support of the MoveIt project.</p>
           <p>We gratefully acknowledge the early contributions of the following people to MoveIt and associated packages that MoveIt uses:</p>
           <ul>
             <li>

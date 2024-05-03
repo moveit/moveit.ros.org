@@ -34,7 +34,7 @@ These improvements and many more are targeted to be included in our December Gal
 ### MoveIt Task Constructor on ROS 2
 
 [JafarAbdi](https://github.com/JafarAbdi)'s project to port MTC to ROS 2 is now merged.
-You can see his work [here in the PR](https://github.com/ros-planning/moveit_task_constructor/pull/170).
+You can see his work [here in the PR](https://github.com/moveit/moveit_task_constructor/pull/170).
 MTC is now complete ready to be used on ROS 2.
 
 ### Infrastructure
@@ -60,7 +60,7 @@ There are still many tutorials on the main branch that are not ported yet and ne
 
 This sprint [stephanie-eng](https://github.com/stephanie-eng) joined our team and merged her first PR into MoveIt.
 The PR added descriptions and default values to each of the parameters in moveit_servo.
-Here is a link to her PR: [Use ros2 interfaces for parameters in moveit_servo](https://github.com/ros-planning/moveit2/issues/790).
+Here is a link to her PR: [Use ros2 interfaces for parameters in moveit_servo](https://github.com/moveit/moveit2/issues/790).
 
 ### Syncing changes from MoveIt on ROS 1
 

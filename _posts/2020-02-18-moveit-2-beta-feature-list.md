@@ -12,7 +12,7 @@ categories:
 - ROS2
 ---
 
-<b>Big news!</b> <a href="https://github.com/ros-planning/moveit2" target="_blank">MoveIt 2 Beta</a> has been launched today thanks to a big effort from the PickNik Robotics' team, Yu Yan (Intel), Robert Haschke and other MoveIt maintainers. This is a big step forward in providing next generation open source robotics. MoveIt 2 will enable many compelling advantages over its predecessor, namely faster, more reactive planning through realtime control of robot arms. The new platform version will enable more reliable robot behaviors, based on industry feedback.
+<b>Big news!</b> <a href="https://github.com/moveit/moveit2" target="_blank">MoveIt 2 Beta</a> has been launched today thanks to a big effort from the PickNik Robotics' team, Yu Yan (Intel), Robert Haschke and other MoveIt maintainers. This is a big step forward in providing next generation open source robotics. MoveIt 2 will enable many compelling advantages over its predecessor, namely faster, more reactive planning through realtime control of robot arms. The new platform version will enable more reliable robot behaviors, based on industry feedback.
 
 ### Feature List
 

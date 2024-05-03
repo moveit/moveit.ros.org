@@ -28,34 +28,34 @@ For a full roadmap of MoveIt versioning, see the [MoveIt 1.0 release plan](https
 
 There have been lots of new features being added to MoveIt the past year that we're really excited about.
 Beyond features, a ton of code cleanup has occurred (clang-tidy, catkin lint) and we have a lot more code coverage.
-For more info, see [Migration Notes](https://github.com/ros-planning/moveit/blob/master/MIGRATION.md).
+For more info, see [Migration Notes](https://github.com/moveit/moveit/blob/master/MIGRATION.md).
 
 Highlights of changes:
 
-* [KDL Inverse Kinematic speedups](https://github.com/ros-planning/moveit/pull/1321)
-* [Improved support for Gazebo](https://github.com/ros-planning/moveit/pull/1051)
-* [Improved integration with ROS Control](https://github.com/ros-planning/moveit/pull/994)
-* [CHOMP planning adapter for optimizing result of other planners](https://github.com/ros-planning/moveit/pull/1012)
-* [Interpolation and motion validation consistency with OMPL](https://github.com/ros-planning/moveit/pull/869)
-* [Improved quality of Cartesian paths](https://github.com/ros-planning/moveit/pull/1293)
-* [Tool to generate constraint approximation databases](https://github.com/ros-planning/moveit/pull/1253)
-* [Improved iterative spline parameterization](https://github.com/ros-planning/moveit/pull/1298)
-* [IKFast](https://github.com/ros-planning/moveit/pull/1320) and [LMA IK](https://github.com/ros-planning/moveit/pull/1318) improvements
-* [FCL shape cache thread-local for speedup](https://github.com/ros-planning/moveit/pull/1316)
-* [Iterative cubic spline algorithm](https://github.com/ros-planning/moveit/pull/853)
-* [Improved benchmarking](https://github.com/ros-planning/moveit/pull/992)
-* [Computation speedups with Eigen::Isometry3d](https://github.com/ros-planning/moveit/pull/1096)
-* [Migration to TF2](https://github.com/ros-planning/moveit/pull/830)
-* [Improved Python 3 support](https://github.com/ros-planning/moveit/pull/1054)
-* [Constrained Cartesian planning using moveit commander](https://github.com/ros-planning/moveit/pull/805)
-* [Allow multiple eefs per planning group](https://github.com/ros-planning/moveit/pull/1347)
-* [Support for fcl 0.6](https://github.com/ros-planning/moveit/pull/1156)
-* [CartesianPath planning check box](https://github.com/ros-planning/moveit/pull/1238)
-* [Improved Rviz motion planning plugin](https://github.com/ros-planning/moveit/pull/1198)
-* [Add namespace capabilities to moveit_commander](https://github.com/ros-planning/moveit/pull/835)
-* [Command line utility tool to print planning scene info](https://github.com/ros-planning/moveit/pull/1239)
-* [Remove TinyXML-based API](https://github.com/ros-planning/moveit/pull/1254)
-* [Added locale support](https://github.com/ros-planning/moveit/pull/1099)
+* [KDL Inverse Kinematic speedups](https://github.com/moveit/moveit/pull/1321)
+* [Improved support for Gazebo](https://github.com/moveit/moveit/pull/1051)
+* [Improved integration with ROS Control](https://github.com/moveit/moveit/pull/994)
+* [CHOMP planning adapter for optimizing result of other planners](https://github.com/moveit/moveit/pull/1012)
+* [Interpolation and motion validation consistency with OMPL](https://github.com/moveit/moveit/pull/869)
+* [Improved quality of Cartesian paths](https://github.com/moveit/moveit/pull/1293)
+* [Tool to generate constraint approximation databases](https://github.com/moveit/moveit/pull/1253)
+* [Improved iterative spline parameterization](https://github.com/moveit/moveit/pull/1298)
+* [IKFast](https://github.com/moveit/moveit/pull/1320) and [LMA IK](https://github.com/moveit/moveit/pull/1318) improvements
+* [FCL shape cache thread-local for speedup](https://github.com/moveit/moveit/pull/1316)
+* [Iterative cubic spline algorithm](https://github.com/moveit/moveit/pull/853)
+* [Improved benchmarking](https://github.com/moveit/moveit/pull/992)
+* [Computation speedups with Eigen::Isometry3d](https://github.com/moveit/moveit/pull/1096)
+* [Migration to TF2](https://github.com/moveit/moveit/pull/830)
+* [Improved Python 3 support](https://github.com/moveit/moveit/pull/1054)
+* [Constrained Cartesian planning using moveit commander](https://github.com/moveit/moveit/pull/805)
+* [Allow multiple eefs per planning group](https://github.com/moveit/moveit/pull/1347)
+* [Support for fcl 0.6](https://github.com/moveit/moveit/pull/1156)
+* [CartesianPath planning check box](https://github.com/moveit/moveit/pull/1238)
+* [Improved Rviz motion planning plugin](https://github.com/moveit/moveit/pull/1198)
+* [Add namespace capabilities to moveit_commander](https://github.com/moveit/moveit/pull/835)
+* [Command line utility tool to print planning scene info](https://github.com/moveit/moveit/pull/1239)
+* [Remove TinyXML-based API](https://github.com/moveit/moveit/pull/1254)
+* [Added locale support](https://github.com/moveit/moveit/pull/1099)
 
 **Thanks to all our contributors!**
 
@@ -70,6 +70,6 @@ See our [2017 montage](https://moveit.ros.org/moveit!/ros/2017/06/20/videoMontag
 Under [PickNik Consulting](https://picknik.ai/)'s guidance, we're encouraging more people to get involved --  including you!
 Our third year of [World MoveIt Day](https://moveit.ros.org/moveit!/ros/2018/11/20/wordlmoveitdayreport3.html) had approximately 310 participants from 13 locations around the globe.
 Together with Open Robotics, PickNik sponsored three Google Summer of Code students to [work on MoveIt](https://moveit.ros.org/moveit!/ros/2018/05/08/google-summer-of-code.html) last summer.
-We've also put in a ton of effort making MoveIt easier to use, from the [MoveIt Setup Assistant 2.0](https://moveit.ros.org/moveit!/ros/2018/10/23/gsoc-2018-setup-assistant-v2.html) to [new tutorials using the Franka Emika Panda robot](https://github.com/ros-planning/moveit_tutorials/pull/166).
+We've also put in a ton of effort making MoveIt easier to use, from the [MoveIt Setup Assistant 2.0](https://moveit.ros.org/moveit!/ros/2018/10/23/gsoc-2018-setup-assistant-v2.html) to [new tutorials using the Franka Emika Panda robot](https://github.com/moveit/moveit_tutorials/pull/166).
 
 We hope MoveIt 1.0 continues to support the worldwide open source robotics effort and the ideals of ROS.

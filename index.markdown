@@ -60,7 +60,7 @@ redirect_from: '/moveit/'
                                 <div class="link-group">
                                     <a href="/install-moveit2/source/" class="info-box-link">Build From Source</a>
                                     <span>|</span>
-                                    <a href="https://github.com/ros-planning/moveit2" target="_blank" class="info-box-link">View on Github</a>
+                                    <a href="https://github.com/moveit/moveit2" target="_blank" class="info-box-link">View on Github</a>
                                 </div>
                                 <img src="/assets/images/logo/ROS_logo.png" alt="ROS logo" class="info-box-logo" />
                             </div>
@@ -273,7 +273,7 @@ redirect_from: '/moveit/'
                       <h3>Rolling 2.7</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2/tree/main" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -288,7 +288,7 @@ redirect_from: '/moveit/'
                       <h3>Iron 2.7</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2/tree/main" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -303,7 +303,7 @@ redirect_from: '/moveit/'
                       <h3>Humble 2.5 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2/tree/humble" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2/tree/humble" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -318,7 +318,7 @@ redirect_from: '/moveit/'
                       <h3>Galactic 2.3</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2/tree/galactic" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2/tree/galactic" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -333,7 +333,7 @@ redirect_from: '/moveit/'
                       <h3>Foxy 2.2 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -348,7 +348,7 @@ redirect_from: '/moveit/'
                       <h3>Noetic 1.1 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">

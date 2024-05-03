@@ -8,7 +8,7 @@ title: 2023 Google Summer of Code
 ---
 # 2023 Google Summer of Code
 
-MoveIt is planning to participate again in the [Google Summer of Code](https://summerofcode.withgoogle.com). Below is a tentative list of project ideas. If you have your own project idea, feel free to create a pull request on the [repository for this page](https://github.com/ros-planning/moveit.ros.org). Unlike previous years, there are now two different project sizes. Medium projects are 175 hours, while large projects are 350 hours. See the [Google Summer of Code FAQ](https://developers.google.com/open-source/gsoc/faq) for details.
+MoveIt is planning to participate again in the [Google Summer of Code](https://summerofcode.withgoogle.com). Below is a tentative list of project ideas. If you have your own project idea, feel free to create a pull request on the [repository for this page](https://github.com/moveit/moveit.ros.org). Unlike previous years, there are now two different project sizes. Medium projects are 175 hours, while large projects are 350 hours. See the [Google Summer of Code FAQ](https://developers.google.com/open-source/gsoc/faq) for details.
 
 For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@picknik.ai) (**but make sure to read the [tips at the bottom of this page first](#tips-for-writing-a-successful-google-summer-of-code-application-for-moveit)**).
 
@@ -16,7 +16,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ### Add ability to attach/detach end-effector links [MoveIt 2]
 
-* Add functionality to MoveIt to programmatically attach and detach grippers from a manipulator. See [this issue](https://github.com/ros-planning/moveit2/issues/208) for a more detailed discussion.
+* Add functionality to MoveIt to programmatically attach and detach grippers from a manipulator. See [this issue](https://github.com/moveit/moveit2/issues/208) for a more detailed discussion.
 * Expected outcome: End-effector tooling can be swapped programmatically.
 * Project size: large (350 hours)
 * Difficulty: hard
@@ -25,7 +25,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ### Refactor Calculations and add Tests [MoveIt 2]
 
-* MoveIt contains many routines that mix actions that produce different results depending on when or how many times they are run and pure calculations where the output is always the same with the same inputs.  Because of the mixing of types of code MoveIt is larger than it needs to be with a significant amount of redundant logic. Secondly, MoveIt is less robust than it could be because it is very difficult to test those routines and the test base fails to consider many of the side effects. For this project, the contributor will refactor calculations (pure functions) out of code that has side-affects (depends on when or how many times it is run) and will write tests for that code in isolation. This will make MoveIt more robust, easier to maintain, and easier to use. See [this issue](https://github.com/ros-planning/moveit2/issues/1082) for more discussion.  Doing this project will develop skills in functional programming, code refactoring, and software architecture.
+* MoveIt contains many routines that mix actions that produce different results depending on when or how many times they are run and pure calculations where the output is always the same with the same inputs.  Because of the mixing of types of code MoveIt is larger than it needs to be with a significant amount of redundant logic. Secondly, MoveIt is less robust than it could be because it is very difficult to test those routines and the test base fails to consider many of the side effects. For this project, the contributor will refactor calculations (pure functions) out of code that has side-affects (depends on when or how many times it is run) and will write tests for that code in isolation. This will make MoveIt more robust, easier to maintain, and easier to use. See [this issue](https://github.com/moveit/moveit2/issues/1082) for more discussion.  Doing this project will develop skills in functional programming, code refactoring, and software architecture.
 * Expected outcome: Core parts of MoveIt are refactored to use pure functions.
 * Project size: medium (175 hours)
 * Difficulty: hard
@@ -67,7 +67,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 * Required tasks for this project:
   * Implement official benchmarks against other IK solvers compatible with MoveIt 2 (e.g., KDL, BioIK, TRAC-IK) to compare planning time, success rate, and other metrics related to solution quality. This will involve finishing the TRAC-IK ROS 2 port to work as a MoveIt 2 plugin.
   * Improve documentation, including a comparison of `pick_ik` and BioIK features.
-  * Add an official `pick_ik` tutorial to the [MoveIt 2 Tutorials repo](https://github.com/ros-planning/moveit2_tutorials)
+  * Add an official `pick_ik` tutorial to the [MoveIt 2 Tutorials repo](https://github.com/moveit/moveit2_tutorials)
 * Additional tasks to explore:
   * Implement additional cost functions to establish and exceed feature parity with BioIK, such as gaze objectives, collision checking, etc.
   * Use a generic nonlinear optimization package, such as [NLopt](https://nlopt.readthedocs.io/en/latest/), which is used by the [TRAC-IK](https://traclabs.com/projects/trac-ik/) tool, as an alternative to the numeric gradient solver.
@@ -79,11 +79,11 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ### Update OMPL and ompl_interface [MoveIt 2]
 
-* The Open Motion Planning Library (OMPL) provides the default planning pipeline for MoveIt. It is a library that contains many sampling-based planning algorithms (like PRM and RRT), but is starting to show its age (development started in 2010!). This project is focused on modernizing OMPL, adopting more idiomatic C++17 patterns and avoiding things like using raw pointers and type casting. There are also many OMPL features that are not well supported within MoveIt's [`ompl_interface`](https://github.com/ros-planning/moveit2/tree/main/moveit_planners/ompl/ompl_interface) just yet. Finally, there are features in the [`ompl_interface`](https://github.com/ros-planning/moveit2/tree/main/moveit_planners/ompl/ompl_interface) that seem generally useful and could be abstracted out of this.
+* The Open Motion Planning Library (OMPL) provides the default planning pipeline for MoveIt. It is a library that contains many sampling-based planning algorithms (like PRM and RRT), but is starting to show its age (development started in 2010!). This project is focused on modernizing OMPL, adopting more idiomatic C++17 patterns and avoiding things like using raw pointers and type casting. There are also many OMPL features that are not well supported within MoveIt's [`ompl_interface`](https://github.com/moveit/moveit2/tree/main/moveit_planners/ompl/ompl_interface) just yet. Finally, there are features in the [`ompl_interface`](https://github.com/moveit/moveit2/tree/main/moveit_planners/ompl/ompl_interface) that seem generally useful and could be abstracted out of this.
 * Possible tasks (you are not required to do all of this; your application should make clear which parts you want to focus on):
   * Use `clang-tidy` to identify areas of improvement in OMPL. Remove raw pointer usage in the most commonly used parts. Eliminate ambiguity in the API about the lifetime of objects.
-  * Make constrained motion planning work more generally. See, e.g., this [work-in-progress PR](https://github.com/ros-planning/moveit2/pull/1946) for a specific (but very important) use case.
-  * Generalize things in [`ompl_interface`](https://github.com/ros-planning/moveit2/tree/main/moveit_planners/ompl/ompl_interface) and move them to `moveit_core`.
+  * Make constrained motion planning work more generally. See, e.g., this [work-in-progress PR](https://github.com/moveit/moveit2/pull/1946) for a specific (but very important) use case.
+  * Generalize things in [`ompl_interface`](https://github.com/moveit/moveit2/tree/main/moveit_planners/ompl/ompl_interface) and move them to `moveit_core`.
 * Project size: Large (350 hours)
 * Difficulty: hard
 * Preferred skills: MoveIt 2, OMPL, C++, good understanding of algorithms
@@ -91,7 +91,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ### Bullet collision checking integration [MoveIt 1/2]
 
-* Bullet support is partially done, but more work is needed. [A memory leak issue](https://github.com/ros-planning/moveit_task_constructor/issues/232#issuecomment-774249206) was identified that needs to be fixed. Support for continuous collision checking would be nice. Related pull requests include [PR 2897](https://github.com/ros-planning/moveit/pull/2897) and [PR 2838](https://github.com/ros-planning/moveit/pull/2838).
+* Bullet support is partially done, but more work is needed. [A memory leak issue](https://github.com/moveit/moveit_task_constructor/issues/232#issuecomment-774249206) was identified that needs to be fixed. Support for continuous collision checking would be nice. Related pull requests include [PR 2897](https://github.com/moveit/moveit/pull/2897) and [PR 2838](https://github.com/moveit/moveit/pull/2838).
 * Project size: medium (175 hours)
 * Expected outcome: Continuous collision checking is supported and the memory leak is eliminated.
 * Difficulty: hard

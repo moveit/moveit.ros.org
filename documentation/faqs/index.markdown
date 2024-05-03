@@ -19,7 +19,7 @@ _I'm totally new, how do I get started?_
 
 _What version of MoveIt should I use?_
 
-  * For most developers, we recommend building the [master](https://github.com/ros-planning/moveit) branch from source.
+  * For most developers, we recommend building the [master](https://github.com/moveit/moveit) branch from source.
   * If you are a beginner, installing the Noetic LTS release from Debian is the easiest and fastest.
   * You can also use a [Docker container](/install/docker/) for a virtual setup.
 
@@ -36,7 +36,7 @@ _What kind of computer do I need?_
 
 _Where is the source code?_
 
-  * See the cute Octocat at the top right corner of this webpage. Or just go to [MoveIt's Github](https://github.com/ros-planning/moveit).
+  * See the cute Octocat at the top right corner of this webpage. Or just go to [MoveIt's Github](https://github.com/moveit/moveit).
 
 _How do I create a pull request?_
 
@@ -89,7 +89,7 @@ _What is the difference between MoveIt and ROS-Industrial?_
 
 _I have a fix for a bug in the MoveIt tutorials. What should I do?_
 
-  * The MoveIt tutorials are hosted on [this Github repo](https://github.com/ros-planning/moveit_tutorials).
+  * The MoveIt tutorials are hosted on [this Github repo](https://github.com/moveit/moveit_tutorials).
   * To improve the tutorials, fork that package on Github, make the corrections, and create a pull request.
 
 _I have a found a bug in MoveIt itself. What should I do?_
@@ -100,7 +100,7 @@ _I have a found a bug in MoveIt itself. What should I do?_
 
 _I would like to add a new robot to the list of robots using MoveIt. What should I do?_
 
-  * Create a pull request to [moveit.ros.org's Github repo](https://github.com/ros-planning/moveit.ros.org) or email [PickNik Robotics](http://picknik.ai/connect) for additional assitance.
+  * Create a pull request to [moveit.ros.org's Github repo](https://github.com/moveit/moveit.ros.org) or email [PickNik Robotics](http://picknik.ai/connect) for additional assitance.
 
 _What robots does MoveIt support?_
 

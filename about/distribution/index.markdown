@@ -44,7 +44,7 @@ title: Distribution
           <td>May 2027</td>
         </tr>
         <tr>
-          <td><a href="https://ros-planning.github.io/moveit_tutorials/">MoveIt 1 Noetic</a></td>
+          <td><a href="https://moveit.github.io/moveit_tutorials/">MoveIt 1 Noetic</a></td>
           <td>October 13th, 2020</td>
           <td><img src="/assets/images/distribution/noetic.jpg" alt="MoveIt 1 Noetic" height="100" /></td>
           <td>May 2025</td>
