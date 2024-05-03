@@ -8,7 +8,7 @@ title: 2022 Google Summer of Code
 ---
 # 2022 Google Summer of Code
 
-MoveIt is planning to participate again in the [Google Summer of Code](https://summerofcode.withgoogle.com). Below is a tentative list of project ideas. If you have your own project idea, feel free to create a pull request on the [repository for this page](https://github.com/ros-planning/moveit.ros.org). Unlike previous years, there are now two different project sizes. Medium projects are 175 hours, while large projects are 350 hours. See the [Google Summer of Code FAQ](https://developers.google.com/open-source/gsoc/faq) for details.
+MoveIt is planning to participate again in the [Google Summer of Code](https://summerofcode.withgoogle.com). Below is a tentative list of project ideas. If you have your own project idea, feel free to create a pull request on the [repository for this page](https://github.com/moveit/moveit.ros.org). Unlike previous years, there are now two different project sizes. Medium projects are 175 hours, while large projects are 350 hours. See the [Google Summer of Code FAQ](https://developers.google.com/open-source/gsoc/faq) for details.
 
 For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@picknik.ai) (**but make sure to read the [tips at the bottom of this page first](#tips-for-writing-a-successful-google-summer-of-code-application-for-moveit)**).
 
@@ -42,7 +42,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
   * Does the next position in a trajectory collide with another robot arm?
   * What are the next positions of the other currently active robot arms?
 
-  Much of the preliminary work is done in [this PR](https://github.com/ros-planning/moveit/pull/2810).
+  Much of the preliminary work is done in [this PR](https://github.com/moveit/moveit/pull/2810).
 * Expected outcome: MoveIt is capable of supporting simultaneous motion with two arms.
 * Project size: large (350 hours)
 * Difficulty: hard
@@ -51,7 +51,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ### Add ability to attach/detach end-effector links
 
-* Add functionality to MoveIt to programmatically attach and detach grippers from a manipulator. See [this issue](https://github.com/ros-planning/moveit2/issues/208) for a more detailed discussion.
+* Add functionality to MoveIt to programmatically attach and detach grippers from a manipulator. See [this issue](https://github.com/moveit/moveit2/issues/208) for a more detailed discussion.
 * Expected outcome: End-effector tooling can be swapped programmatically.
 * Project size: large (350 hours)
 * Difficulty: hard
@@ -69,7 +69,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ### Refactor Calculations and add Tests
 
-* MoveIt contains many routines that mix actions that produce different results depending on when or how many times they are run and pure calculations where the output is always the same with the same inputs.  Because of the mixing of types of code MoveIt is larger than it needs to be with a significant amount of redundant logic. Secondly, MoveIt is less robust than it could be because it is very difficult to test those routines and the test base fails to consider many of the side effects. For this project, the contributor will refactor calculations (pure functions) out of code that has side-affects (depends on when or how many times it is run) and will write tests for that code in isolation. This will make MoveIt more robust, easier to maintain, and easier to use. See [this issue](https://github.com/ros-planning/moveit2/issues/1082) for more discussion.  Doing this project will develop skills in functional programming, code refactoring, and software architecture.
+* MoveIt contains many routines that mix actions that produce different results depending on when or how many times they are run and pure calculations where the output is always the same with the same inputs.  Because of the mixing of types of code MoveIt is larger than it needs to be with a significant amount of redundant logic. Secondly, MoveIt is less robust than it could be because it is very difficult to test those routines and the test base fails to consider many of the side effects. For this project, the contributor will refactor calculations (pure functions) out of code that has side-affects (depends on when or how many times it is run) and will write tests for that code in isolation. This will make MoveIt more robust, easier to maintain, and easier to use. See [this issue](https://github.com/moveit/moveit2/issues/1082) for more discussion.  Doing this project will develop skills in functional programming, code refactoring, and software architecture.
 * Expected outcome: Core parts of MoveIt are refactored to use pure functions.
 * Project size: medium (175 hours)
 * Difficulty: hard
@@ -78,7 +78,7 @@ For general MoveIt GSoC questions you can contact [Mark Moll](mailto:mark@pickni
 
 ### Bullet collision checking integration
 
-* Bullet support is partially done, but more work is needed. [A memory leak issue](https://github.com/ros-planning/moveit_task_constructor/issues/232#issuecomment-774249206) was identified that needs to be fixed. Support for continuous collision checking would be nice. Related pull requests include [PR 2897](https://github.com/ros-planning/moveit/pull/2897) and [PR 2838](https://github.com/ros-planning/moveit/pull/2838).
+* Bullet support is partially done, but more work is needed. [A memory leak issue](https://github.com/moveit/moveit_task_constructor/issues/232#issuecomment-774249206) was identified that needs to be fixed. Support for continuous collision checking would be nice. Related pull requests include [PR 2897](https://github.com/moveit/moveit/pull/2897) and [PR 2838](https://github.com/moveit/moveit/pull/2838).
 * Project size: medium (175 hours)
 * Expected outcome: Continuous collision checking is supported and the memory leak is eliminated.
 * Difficulty: hard

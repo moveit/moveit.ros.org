@@ -45,7 +45,7 @@ title: Support
         Ask questions at <a href="http://answers.ros.org/" target="_blank">answers.ros.org</a>, the official question forum of ROS and MoveIt, if you haven’t found similar questions.
       </li>
       <li>
-        Post issues to the main <a href="https://github.com/ros-planning/moveit/issues" target="_blank">moveit</a> code repository. Our <a href="https://github.com/ros-planning/moveit/issues/new/choose" target="_blank">Github Issue Templates</a> offer guidelines on creating high quality issues. Note we are volunteers and have limited resources. We are much more inclined to give advice on helping you fix your own bugs ;-)
+        Post issues to the main <a href="https://github.com/moveit/moveit/issues" target="_blank">moveit</a> code repository. Our <a href="https://github.com/moveit/moveit/issues/new/choose" target="_blank">Github Issue Templates</a> offer guidelines on creating high quality issues. Note we are volunteers and have limited resources. We are much more inclined to give advice on helping you fix your own bugs ;-)
       </li>
       <li>
         Join the <a href="https://discord.com/invite/RrySut8" target="_blank">MoveIt Discord channel</a> to view or post questions
@@ -58,13 +58,13 @@ title: Support
     <p>Post issues and share improvements for the web documentation to the appropriate Github repo:</p>
     <ul>
       <li>
-        <a href="https://github.com/ros-planning/moveit.ros.org/issues" target="_blank">moveit.ros.org</a> - Issues related to the Jekyll-based website
+        <a href="https://github.com/moveit/moveit.ros.org/issues" target="_blank">moveit.ros.org</a> - Issues related to the Jekyll-based website
       </li>
       <li>
-        <a href="https://github.com/ros-planning/moveit_tutorials" target="_blank">moveit1_tutorials</a> - Issues related to the Sphinx-based Moveit1 tutorials
+        <a href="https://github.com/moveit/moveit_tutorials" target="_blank">moveit1_tutorials</a> - Issues related to the Sphinx-based Moveit1 tutorials
       </li>
       <li>
-        <a href="https://github.com/ros-planning/moveit2_tutorials" target="_blank">moveit2_tutorials</a> - Issues related to the Sphinx-based Moveit2 tutorials
+        <a href="https://github.com/moveit/moveit2_tutorials" target="_blank">moveit2_tutorials</a> - Issues related to the Sphinx-based Moveit2 tutorials
       </li>
     </ul>
     <h3>Change Logs and Migration Notes</h3>
@@ -73,7 +73,7 @@ title: Support
         Change logs are available directly from the corresponding <a href="http://wiki.ros.org/moveit" target="_blank">ROS wiki page for MoveIt</a>.
       </li>
       <li>
-        New release migration notes are available in the root of the MoveIt code repository under <a href="https://github.com/ros-planning/moveit/blob/master/MIGRATION.md" target="_blank">MIGRATION.md</a>
+        New release migration notes are available in the root of the MoveIt code repository under <a href="https://github.com/moveit/moveit/blob/master/MIGRATION.md" target="_blank">MIGRATION.md</a>
       </li>
     </ul>
   </div>

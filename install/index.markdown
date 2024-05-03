@@ -104,7 +104,7 @@ title: MoveIt 1 Binary Install
         <p>
           Start planning in Rviz with:
         </p>
-        <a href="https://ros-planning.github.io/moveit_tutorials/" target="_blank">
+        <a href="https://moveit.github.io/moveit_tutorials/" target="_blank">
           <span class="link-with-background">
             MoveIt Getting Started Tutorial
           </span>
@@ -234,8 +234,8 @@ title: MoveIt 1 Binary Install
           <code>
             mkdir c:\moveit_ws\src<br/>
             cd c:\moveit_ws\src<br/>
-            git clone https://github.com/ros-planning/moveit_tutorials.git -b melodic-devel<br/>
-            git clone https://github.com/ros-planning/panda_moveit_config.git -b melodic-devel<br/>
+            git clone https://github.com/moveit/moveit_tutorials.git -b melodic-devel<br/>
+            git clone https://github.com/moveit/panda_moveit_config.git -b melodic-devel<br/>
             git clone https://github.com/frankaemika/franka_ros-release -b release/kinetic/franka_description<br/>
             cd c:\moveit_ws<br/>
             catkin_make
@@ -250,7 +250,7 @@ title: MoveIt 1 Binary Install
         <h3>MoveIt Quickstart in RViz</h3>
         <p>Now you are ready to start planning in Rviz with:
         </p>
-        <a href="https://ros-planning.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+        <a href="https://moveit.github.io/moveit_tutorials/doc/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
           <span class="link-with-background">
             MoveIt Getting Started Tutorial
           </span>

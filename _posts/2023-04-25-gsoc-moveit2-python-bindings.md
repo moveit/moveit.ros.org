@@ -19,7 +19,7 @@ A new Python library for MoveIt is now available in ROS 2 Rolling. The new Pytho
 
 **Python Library Features**
 
-The Python library can be found under the folder [moveit_py](https://github.com/ros-planning/moveit2/tree/main/moveit_py) in the MoveIt 2 repository root directory. An outline of the codebase structure is provided within the package [``README.md``](https://github.com/ros-planning/moveit2/blob/main/moveit_py/README.md), below we provide a high-level overview of the structure of the Python library,
+The Python library can be found under the folder [moveit_py](https://github.com/moveit/moveit2/tree/main/moveit_py) in the MoveIt 2 repository root directory. An outline of the codebase structure is provided within the package [``README.md``](https://github.com/moveit/moveit2/blob/main/moveit_py/README.md), below we provide a high-level overview of the structure of the Python library,
 
 * A ``core`` module that provides Python bindings for packages available in ``moveit_core``
 	* collision_detection
@@ -53,8 +53,8 @@ There are many additional features, enhancements and tutorials that can be made 
 	* Establish feature parity with existing C++ API
 
 * enhancements
-	* [Migrate docstrings to header files](https://github.com/ros-planning/moveit2/issues/1945)
-	* [Create custom typeCaster for ``Eigen::Isometry3d``](https://github.com/ros-planning/moveit2/issues/1886)
+	* [Migrate docstrings to header files](https://github.com/moveit/moveit2/issues/1945)
+	* [Create custom typeCaster for ``Eigen::Isometry3d``](https://github.com/moveit/moveit2/issues/1886)
 
 * tutorials
 	* Real-world data collection for imitation learning

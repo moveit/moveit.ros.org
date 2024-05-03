@@ -25,9 +25,9 @@ Below are step-by-step guides that should help maintainers to perform a proper s
 Let's assume `origin` is the git remote for MoveIt 2 and `moveit1` the one for MoveIt 1, like below (using SSH works just the same, of course):
 
 
-**origin:** https://github.com/ros-planning/moveit2.git
+**origin:** https://github.com/moveit/moveit2.git
 
-**moveit1:** https://github.com/ros-planning/moveit.git
+**moveit1:** https://github.com/moveit/moveit.git
 
 
 
@@ -58,7 +58,7 @@ You should be able to verify the merge commit hash of the last sync by searching
 git log --oneline | grep $LAST_SYNC_COMMIT
 ```
 
-It should print a merge commit message similar to `"Merge https://github.com/ros-planning/moveit/commit/<commit_hash>"`.
+It should print a merge commit message similar to `"Merge https://github.com/moveit/moveit/commit/<commit_hash>"`.
 If you don't find a matching commit message the last maintainer didn't follow this guide.
 In that case you can try searching for the merge commit by only filtering for the first couple digits of the hash.
 
@@ -103,7 +103,7 @@ You can filter this diff by files or directories if needed.
 Please use this message style so that it's easier to find old sync commits later on.
 
 ```
-git merge --message="Merge https://github.com/ros-planning/moveit/commit/${NEW_SYNC_COMMIT}" $NEW_SYNC_COMMIT
+git merge --message="Merge https://github.com/moveit/moveit/commit/${NEW_SYNC_COMMIT}" $NEW_SYNC_COMMIT
 ```
 
 

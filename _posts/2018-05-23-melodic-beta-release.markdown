@@ -17,6 +17,6 @@ MoveIt! is now released into ROS [Melodic](http://wiki.ros.org/melodic) LTS (Lon
 
 While MoveIt! in Melodic is still beta, if you're running your robot packages with ROS Melodic, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](http://moveit.ros.org/install/)
 
-See the [MIGRATION.md](https://github.com/ros-planning/moveit/blob/melodic-devel/MIGRATION.md) for a list of breaking changes in this release.
+See the [MIGRATION.md](https://github.com/moveit/moveit/blob/melodic-devel/MIGRATION.md) for a list of breaking changes in this release.
 
 --Your friendly MoveIt! maintenance team.

@@ -40,7 +40,7 @@ MoveIt uses the [industrial_ci](https://github.com/ros-industrial/industrial_ci)
 
 To setup your environment for running the CI workflows locally follow [these instructions from industrial_ci's documentation](https://github.com/ros-industrial/industrial_ci/blob/master/doc/index.rst#run-industrial-ci-on-local-host)
 
-Industrial CI is configured using environment variables.  These can be found by expanding the top of the industrial_ci step in the CI job you'd like to replicate.  If you use [one of the CI jobs](https://github.com/ros-planning/moveit2/actions/workflows/ci.yaml) as an example you'll see something like this at the top of the industrial_ci step dropdown:
+Industrial CI is configured using environment variables.  These can be found by expanding the top of the industrial_ci step in the CI job you'd like to replicate.  If you use [one of the CI jobs](https://github.com/moveit/moveit2/actions/workflows/ci.yaml) as an example you'll see something like this at the top of the industrial_ci step dropdown:
 
 ```
 Run ros-industrial/industrial_ci@master

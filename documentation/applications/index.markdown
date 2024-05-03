@@ -13,7 +13,7 @@ There are many diverse application examples of what you can use MoveIt for. The 
 
 ## MoveIt Example Apps
 
-Some advanced MoveIt applications with full robotic setups can be found in [moveit_example_apps](https://github.com/ros-planning/moveit_example_apps). If you have an awesome application using MoveIt, and you would like to share it with others, consider contributing it to this project with a tutorial detailing how to build and launch your application.
+Some advanced MoveIt applications with full robotic setups can be found in [moveit_example_apps](https://github.com/moveit/moveit_example_apps). If you have an awesome application using MoveIt, and you would like to share it with others, consider contributing it to this project with a tutorial detailing how to build and launch your application.
 
 ## MoveIt Pro
 
