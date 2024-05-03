@@ -31,7 +31,7 @@ title: Contributing
     <p>
       We're interested in helping you take the first step and can answer questions and help you out as you do. Note that we're especially interested in contributions from people from groups underrepresented in free and open-source software! 💝
     </p>
-    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit2/labels/good%20first%20issue" target="_blank">Tackle Your First Issue</a>
+    <a class="button button-transparent button-transparent__blue" href="https://github.com/moveit/moveit2/labels/good%20first%20issue" target="_blank">Tackle Your First Issue</a>
   </div>
 </div>
 <div class="row contributing-boxes">
@@ -58,19 +58,19 @@ title: Contributing
     </p>
     <ul>
     <li>
-        <a href="https://github.com/ros-planning/moveit2_tutorials" target="_blank">https://github.com/ros-planning/moveit2_tutorials</a>
+        <a href="https://github.com/moveit/moveit2_tutorials" target="_blank">https://github.com/moveit/moveit2_tutorials</a>
       </li>
       <li>
-        <a href="https://github.com/ros-planning/moveit_tutorials" target="_blank">https://github.com/ros-planning/moveit_tutorials</a>
+        <a href="https://github.com/moveit/moveit_tutorials" target="_blank">https://github.com/moveit/moveit_tutorials</a>
       </li>
       <li>
-        <a href="https://github.com/ros-planning/moveit.ros.org" target="_blank">https://github.com/ros-planning/moveit.ros.org</a>
+        <a href="https://github.com/moveit/moveit.ros.org" target="_blank">https://github.com/moveit/moveit.ros.org</a>
       </li>
     </ul>
     <p class="second-paragraph">
       You can edit the contents directly through the Github website or by using ``git clone`` to edit it locally on your computer. Enhancing documentation makes you a hero among heroes.😻
     </p>
-    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit2_tutorials" target="_blank">IMPROVE THE MOVEIT TUTORIALS</a>
+    <a class="button button-transparent button-transparent__blue" href="https://github.com/moveit/moveit2_tutorials" target="_blank">IMPROVE THE MOVEIT TUTORIALS</a>
   </div>
   <div class='contributing-single-box'>
     <span class="icon">
@@ -91,8 +91,8 @@ title: Contributing
     </span>
     <h3>Report and Fix Bugs</h3>
     <p>
-      As an ever improving software project, there's bound to be growing pains and issues arising. Check out <a href="https://github.com/ros-planning/moveit2/issues" target="_blank">currently open issues that need solving</a> and take a stab at improving MoveIt. For reporting bugs, checkout the <a href="/support/">MoveIt Support</a> page.
+      As an ever improving software project, there's bound to be growing pains and issues arising. Check out <a href="https://github.com/moveit/moveit2/issues" target="_blank">currently open issues that need solving</a> and take a stab at improving MoveIt. For reporting bugs, checkout the <a href="/support/">MoveIt Support</a> page.
     </p>
-    <a class="button button-transparent button-transparent__blue" href="https://github.com/ros-planning/moveit2/issues" target="_blank">TACKLE OPEN ISSUES</a>
+    <a class="button button-transparent button-transparent__blue" href="https://github.com/moveit/moveit2/issues" target="_blank">TACKLE OPEN ISSUES</a>
   </div>
 </div>

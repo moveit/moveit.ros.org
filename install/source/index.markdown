@@ -15,7 +15,7 @@ title: MoveIt 1 Source Build - Linux
             <li>Ubuntu 18.04 / <a href="http://www.ros.org/wiki/melodic/Installation/Ubuntu" target="_blank">ROS Melodic</a></li>
             <li>Ubuntu 16.04 / <a href="http://www.ros.org/wiki/kinetic/Installation/Ubuntu" target="_blank">ROS Kinetic</a> <i>(no longer officially supported)</i></li>
         </ul>
-        <p>We would like to expand our source build instructions to more operating systems, please <a target="_blank" href="https://github.com/ros-planning/moveit.ros.org/tree/master/install/source">contribute</a>!</p>
+        <p>We would like to expand our source build instructions to more operating systems, please <a target="_blank" href="https://github.com/moveit/moveit.ros.org/tree/master/install/source">contribute</a>!</p>
     <h2>Prerequisites</h2>
     <h3>
     Install <img src="/assets/install_page/ros_logo.jpeg"/>
@@ -62,7 +62,7 @@ title: MoveIt 1 Source Build - Linux
     <div class="bash-command">
         <code>
             wstool init src<br/>
-            wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/master/moveit.rosinstall<br/>
+            wstool merge -t src https://raw.githubusercontent.com/moveit/moveit/master/moveit.rosinstall<br/>
             wstool update -t src<br/>
             rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}<br/>
             catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
@@ -145,7 +145,7 @@ title: MoveIt 1 Source Build - Linux
     <div class="bash-command">
         <code>
             wstool init src<br/>
-            wstool merge -t src https://raw.githubusercontent.com/ros-planning/moveit/${ROS_DISTRO}-devel/moveit.rosinstall<br/>
+            wstool merge -t src https://raw.githubusercontent.com/moveit/moveit/${ROS_DISTRO}-devel/moveit.rosinstall<br/>
             wstool update -t src<br/>
             rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}<br/>
             catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release<br/>

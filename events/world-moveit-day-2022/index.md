@@ -38,7 +38,7 @@ You may also join the conversation on **Discord** (a chat client, different from
 ## How To Get Involved
 
 *   For those experienced with MoveIt, it's best to choose your issue ***before*** the event. **Post on the Github issue "I'm claiming this issue for World MoveIt Day".**
-*   You may also join a 'Track' and work in a team, **[find out more on GitHub](https://github.com/ros-planning/moveit2/issues/1219){:target="_blank"}**. Each track is lead by a maintainer who can help you get up-to-speed with MoveIt, and to find work that fits your skill level.
+*   You may also join a 'Track' and work in a team, **[find out more on GitHub](https://github.com/moveit/moveit2/issues/1219){:target="_blank"}**. Each track is lead by a maintainer who can help you get up-to-speed with MoveIt, and to find work that fits your skill level.
 *   The download and setup time can significantly eat into the day's productivity, so pre-setup ROS, MoveIt, Virtualbox, Docker, LXD depending on your workflow
 *   The recommended ROS versions is ROS 2 Rolling Jammy.
 *   Please try to install MoveIt 2 the day before and try a basic tutorial. Keep notes on anything that did not work or was not clear. Addressing those issues is perfect for World MoveIt Day. If you cannot fix it yourself, then you can create a new issue (and use the WMD tag).
@@ -48,7 +48,7 @@ You may also join the conversation on **Discord** (a chat client, different from
 
 ### Squash Bugs / Issues
 
-Suggested areas for improvement are tracked on the [MoveIt 2 repository](https://github.com/ros-planning/moveit2). Our team of maintainers is working on finding and labeling suggested issues for the event.
+Suggested areas for improvement are tracked on the [MoveIt 2 repository](https://github.com/moveit/moveit2). Our team of maintainers is working on finding and labeling suggested issues for the event.
 
 If you would like to help the MoveIt project by tackling an issue, make sure to claim the issue by commenting before you start working:
 
@@ -61,7 +61,7 @@ Feel free to ask further questions in each issue’s comments.
 Improving our documentation for new and current users is always a goal of WMD!
 
 <!-- need to update for Moveit 2 tutorials when ready -->
-<!-- Further needs for documentation and tutorials improvement can be found directly on the [moveit2_tutorials issue tracker](https://github.com/ros-planning/moveit2_tutorials/issues). -->
+<!-- Further needs for documentation and tutorials improvement can be found directly on the [moveit2_tutorials issue tracker](https://github.com/moveit/moveit2_tutorials/issues). -->
 
 If you have studied an aspect of MoveIt extensively that is not currently documented, please convert your notes into a pull request in the appropriate location. If you’ve
 started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request

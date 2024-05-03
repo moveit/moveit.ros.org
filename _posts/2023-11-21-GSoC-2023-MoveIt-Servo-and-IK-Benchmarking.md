@@ -29,7 +29,7 @@ For those unfamiliar, MoveIt Servo is one of the many packages in MoveIt, and yo
     <img width="500" style="margin: 10px auto 32px;" src="{{ site.url }}/assets/images/blog_posts/GSoC_2023/image3.gif" alt="Project 1: MoveIt Servo Refactor" />
 </div>
 
-While MoveIt Servo has been around for a while, and has already been used in various academic and commercial projects, we were excited to have Ibrahim do a [complete refactor of the code](https://github.com/ros-planning/moveit2/pull/2224) for two main reasons:
+While MoveIt Servo has been around for a while, and has already been used in various academic and commercial projects, we were excited to have Ibrahim do a [complete refactor of the code](https://github.com/moveit/moveit2/pull/2224) for two main reasons:
 
 1. The ROS parameters for MoveIt Servo are now easier to define, validate, and tune at runtime. This was made possible by using the [generate_parameter_library](https://github.com/PickNikRobotics/generate_parameter_library) package which we are moving towards using consistently in the MoveIt 2 code base. You can learn more about this in [Tyler Weaver’s ROSCon 2023 talk](https://vimeo.com/879001499/558ba81bef).
 
@@ -75,7 +75,7 @@ This was motivated by our work with NASA Johnson Space Center, which deals with 
 </div>
 
 ## Project 2: IK Benchmarking
-This work was done by [Mohamed Raessa](https://github.com/Robotawi), advised by [me](https://github.com/sea-bass) and [Stephanie Eng](https://github.com/stephanie-eng). Mohamed had previously worked with MoveIt Servo for this PhD thesis, and prior to starting the main project he had already developed a few MoveIt tutorials, including a [ROS 2 port of the MoveIt Setup Assistant tutorial](https://github.com/ros-planning/moveit2_tutorials/pull/647). However, Mohamed was looking forward to getting more familiar with inverse kinematics (IK) solvers in MoveIt and contributing to open-source software in a bigger capacity.
+This work was done by [Mohamed Raessa](https://github.com/Robotawi), advised by [me](https://github.com/sea-bass) and [Stephanie Eng](https://github.com/stephanie-eng). Mohamed had previously worked with MoveIt Servo for this PhD thesis, and prior to starting the main project he had already developed a few MoveIt tutorials, including a [ROS 2 port of the MoveIt Setup Assistant tutorial](https://github.com/moveit/moveit2_tutorials/pull/647). However, Mohamed was looking forward to getting more familiar with inverse kinematics (IK) solvers in MoveIt and contributing to open-source software in a bigger capacity.
 
 While this project originally started with a focus on our new [pick_ik](https://github.com/PickNikRobotics/pick_ik) solver, including a [new tutorial](https://moveit.picknik.ai/main/doc/how_to_guides/pick_ik/pick_ik_tutorial.html), by far the most requested information with each new IK solver we released was: how well does it perform? And it was challenging for us to provide quantitative answers. To drill down into this question:
 

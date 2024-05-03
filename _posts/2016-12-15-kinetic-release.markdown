@@ -19,14 +19,14 @@ Notably, in Kinetic, C++11 is now fully utilized for MoveIt! -- which means you 
 
 Some new features and bug-fixes added since the [last release into Jade](http://moveit.ros.org/moveit!/ros/2016/09/02/firstjaderelease.html), :
 
-- [Trajectory safety validation before execution](https://github.com/ros-planning/moveit/pull/63) (Kinetic onward only)
-- New planners in [OMPL](http://ompl.kavrakilab.org/) are now available from MoveIt! (geometric::{FMT, BFMT, PDST, STRIDE, BiTRRT, LBTRRT, BiEST, ProjEST, LazyPRM, LazyPRMstar, SPARS, SPARStwo}) ([see PR for detail](https://github.com/ros-planning/moveit/pull/338))
-- [MoveGroup's default capabilities are now added by default](https://github.com/ros-planning/moveit/pull/359).
-- [New benchmarking using PlanningArena](https://github.com/ros-planning/moveit/pull/228)
-- [Separate Pick request without Grasps from Grasp Planning request](https://github.com/ros-planning/moveit/pull/328)
-- [Increase collision checking reliability for newly created moveit_config packages](https://github.com/ros-planning/moveit/pull/337)
-- [IK solvers consolidated into a new moveit_kinematics package](https://github.com/ros-planning/moveit/pull/247)
-- [Fix unreasonable "Invalid Trajectory: start point deviates" error](https://github.com/ros-planning/moveit/issues/283)
+- [Trajectory safety validation before execution](https://github.com/moveit/moveit/pull/63) (Kinetic onward only)
+- New planners in [OMPL](http://ompl.kavrakilab.org/) are now available from MoveIt! (geometric::{FMT, BFMT, PDST, STRIDE, BiTRRT, LBTRRT, BiEST, ProjEST, LazyPRM, LazyPRMstar, SPARS, SPARStwo}) ([see PR for detail](https://github.com/moveit/moveit/pull/338))
+- [MoveGroup's default capabilities are now added by default](https://github.com/moveit/moveit/pull/359).
+- [New benchmarking using PlanningArena](https://github.com/moveit/moveit/pull/228)
+- [Separate Pick request without Grasps from Grasp Planning request](https://github.com/moveit/moveit/pull/328)
+- [Increase collision checking reliability for newly created moveit_config packages](https://github.com/moveit/moveit/pull/337)
+- [IK solvers consolidated into a new moveit_kinematics package](https://github.com/moveit/moveit/pull/247)
+- [Fix unreasonable "Invalid Trajectory: start point deviates" error](https://github.com/moveit/moveit/issues/283)
 - Fedora support is added. Feedback (and fix if necessary) welcomed!
 
 If you're running your robot packages with ROS Kinetic, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](http://moveit.ros.org/install/)

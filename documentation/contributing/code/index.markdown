@@ -60,7 +60,7 @@ In addition MoveIt has some extra style preferences:
 
 ## Shared Ptrs
 
- - For creating ``shared_ptr`` of any object, use MoveIt's standard [macro](https://github.com/ros-planning/moveit/blob/master/moveit_core/macros/include/moveit/macros/class_forward.h) ``MOVEIT_CLASS_FORWARD(ClassName)`` before the class declaration, and add the include ``#include <moveit/macros/class_forward.h>``. This will create two typedefs of shared pointers - ``<ClassName>Ptr`` and ``<ClassName>ConstPtr`` using either ``boost`` or ``std``.
+ - For creating ``shared_ptr`` of any object, use MoveIt's standard [macro](https://github.com/moveit/moveit/blob/master/moveit_core/macros/include/moveit/macros/class_forward.h) ``MOVEIT_CLASS_FORWARD(ClassName)`` before the class declaration, and add the include ``#include <moveit/macros/class_forward.h>``. This will create two typedefs of shared pointers - ``<ClassName>Ptr`` and ``<ClassName>ConstPtr`` using either ``boost`` or ``std``.
 
 ## CMakeLists.txt
 
@@ -95,7 +95,7 @@ You can run **clang-format** in several ways. To install on Ubuntu simply run:
 
     sudo apt install clang-format
 
-clang-format requires a configuration file in the root of your catkin workspace. The MoveIt repo contains this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-format).
+clang-format requires a configuration file in the root of your catkin workspace. The MoveIt repo contains this file [here](https://github.com/moveit/moveit/blob/master/.clang-format).
 
 ### Command Line
 
@@ -155,7 +155,7 @@ more modern, more readable, and less prone to common bugs.
 You can install clang-tidy and other clang related tools with
 `sudo apt install clang-tidy clang-tools`
 
-Similarly to clang-format, clang-tidy uses the configuration file [``.clang-tidy``](https://github.com/ros-planning/moveit/blob/master/.clang-tidy) that is found first when traversing the source folder hierarchy upwards. The MoveIt repo provides this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-tidy).
+Similarly to clang-format, clang-tidy uses the configuration file [``.clang-tidy``](https://github.com/moveit/moveit/blob/master/.clang-tidy) that is found first when traversing the source folder hierarchy upwards. The MoveIt repo provides this file [here](https://github.com/moveit/moveit/blob/master/.clang-tidy).
 
 
 Unlike clang-format, clang-tidy needs to know the exact compiler options used to build your project.

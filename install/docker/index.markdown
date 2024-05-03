@@ -50,7 +50,7 @@ title: MoveIt 1 Docker Install
     <div class="bash-command">
       <code>
         curl -o gui-docker \<br/>
-        https://raw.githubusercontent.com/ros-planning/moveit/master/.docker/gui-docker && \<br/>
+        https://raw.githubusercontent.com/moveit/moveit/master/.docker/gui-docker && \<br/>
         chmod +x gui-docker
       </code>
     </div>
