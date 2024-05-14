@@ -28,7 +28,7 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="https://discourse.ros.org/t/announcing-moveit-studio-2-0-and-moveit-2-7-iron-releases/32296" target="_blank">
+                                <a href="https://discourse.ros.org/t/announcing-moveit-pro-runtime-and-developer-platform-previously-moveit-studio/36235" target="_blank">
                                     <span class="blue">Announcing</span>
                                     <span>MoveIt Pro Runtime and Developer Platform</span>
                                 </a>
@@ -274,20 +274,6 @@ redirect_from: '/moveit/'
                 <div class="release-versions__body">
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>MoveIt Pro 5.0</h3>
-                      <p>
-                        <a href="https://picknik.ai/pro/" target="_blank">View product page</a>
-                      </p>
-                    </div>
-                    <div class="release-versions__2">
-                      ROS 2
-                    </div>
-                    <div class="release-versions__3">
-                      <span class="label label--green">COMMERCIALLY SUPPORTED</span>
-                    </div>
-                  </div>
-                  <div class="release-versions__content">
-                    <div class="release-versions__1">
                       <h3>Rolling 2.7</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
@@ -374,6 +360,20 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="release-versions__3">
                       <span class="label label--orange text-dark">Maintained</span>
+                    </div>
+                  </div>
+                  <div class="release-versions__content">
+                    <div class="release-versions__1">
+                      <h3>MoveIt Pro 5.0</h3>
+                      <p>
+                        <a href="https://picknik.ai/pro/" target="_blank">View product page</a>
+                      </p>
+                    </div>
+                    <div class="release-versions__2">
+                      ROS 2
+                    </div>
+                    <div class="release-versions__3">
+                      <span class="label label--green">COMMERCIALLY SUPPORTED</span>
                     </div>
                   </div>
                 </div>
