@@ -216,7 +216,7 @@ img {
   color: white;
   height: 24px;
   width: 24px;
-  border: 1px solid red;
+  border: 1px solid #0a58f7;
   border-radius: 100%;
   background-color: #17181d;
   &::after{
@@ -224,6 +224,8 @@ img {
     content: "\00d7";
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -1px;
   }
 }
 
