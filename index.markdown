@@ -53,11 +53,11 @@ redirect_from: '/moveit/'
                             <img class="robot-hand" src="/assets/images/main/hero.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
-                                    Latest: <b>MoveIt Iron</b>
+                                    Latest: <b>MoveIt Jazzy</b>
                                 </div>
                                 <a href="/install-moveit2/binary/" class="info-box-button button">Install MoveIt From Debian</a>
                                 <div class="info-box-version">
-                                    Ubuntu 22.04
+                                    Ubuntu 24.04
                                 </div>
                                 <div class="link-group">
                                     <a href="/install-moveit2/source/" class="info-box-link">Build&nbsp;From&nbsp;Source</a>
@@ -262,7 +262,7 @@ redirect_from: '/moveit/'
                     <h2 class="h1 text-center"><a id="release-versions" href="#release-versions">Current and Future Versions</a></h2>
                 </div>
             <!-- Release progress bar -->
-            {% include release-progress.html %}
+            <!-- {% include release-progress.html %} -->
             <!-- Release versions table -->
             <div class='row'>
               <div class="release-versions">
@@ -274,7 +274,7 @@ redirect_from: '/moveit/'
                 <div class="release-versions__body">
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Rolling 2.7</h3>
+                      <h3>Rolling 2.10</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
@@ -289,10 +289,25 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Iron 2.7</h3>
+                      <h3>Jazzy 2.10 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
+                      </p>
+                    </div>
+                    <div class="release-versions__2">
+                      ROS 2
+                    </div>
+                    <div class="release-versions__3">
+                      <span class="label label--green">RECOMMENDED</span>
+                    </div>
+                  </div>
+                  <div class="release-versions__content">
+                    <div class="release-versions__1">
+                      <h3>Iron 2.7</h3>
+                      <p>
+                        <span><img src="/assets/images/icons/git.svg"></span>
+                        <a href="https://github.com/moveit/moveit2/tree/iron" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -314,7 +329,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--green">RECOMMENDED</span>
+                      <span class="label label--orange text-dark">MAINTAINED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
