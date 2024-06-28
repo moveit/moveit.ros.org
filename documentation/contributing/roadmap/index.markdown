@@ -8,7 +8,7 @@ title: MoveIt Roadmap
 
 <div class='row'>
   <div class='col-sm-12 col-lg-6'>
-    <h1>MoveIt Roadmap 2022</h1>
+    <h1>MoveIt Roadmap</h1>
     <p class="paragraph-big">
       As an open source project, we rely on everyone to get involved with contributions of new features and bug improvements. Financial support in the form of grants and code sprints are of course welcomed too! Please <a href="https://picknik.ai/connect/" target="_blank">contact us</a> if you’re interested in supporting these efforts.
     </p>
@@ -18,7 +18,6 @@ title: MoveIt Roadmap
   </div>
 </div>
 <div class="row current-version roadmap-current-version">
-    <a class="button button-transparent button-transparent__blue" href="https://app.zenhub.com/workspaces/moveit-61675936b391800012280f6d/roadmap">Detailed Roadmap on ZenHub</a>
 
     <!-- Release progress bar -->
     {% include release-progress.html %}
@@ -275,7 +274,9 @@ title: MoveIt Roadmap
         </div>
       </div>
       </details>
-      <div class="release-versions__content">
+      <details style="width:100%;padding-left:0px;background-color:Gray">
+      <summary style=";padding:3px"><b>2023</b></summary>
+      <div class="release-versions__content" style="background-color:PaleGreen">
         <div class="release-versions__1">
           <h3>GSoC: Create Python bindings for MoveIt 2</h3>
           <p>
@@ -285,7 +286,7 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <b>In Review</b><br>
+          <b>Completed</b><br>
         </div>
         <div class="release-versions__2">
 	  February 2023
@@ -315,6 +316,7 @@ title: MoveIt Roadmap
           Osaka University
         </div>
       </div>
+      </details>
       <div class="release-versions__content">
         <div class="release-versions__1">
           <h3>Make ROS&nbsp;2 parameters more dynamic and easier to use</h3>
@@ -327,7 +329,7 @@ title: MoveIt Roadmap
           <strong>In Progress</strong><br/>
         </div>
         <div class="release-versions__2">
-	  February 2023
+	  TBD
         </div>
         <div class="release-versions__3">
           <div class="release-versions__divide">
@@ -350,14 +352,13 @@ title: MoveIt Roadmap
           </p>
         </div>
         <div class="release-versions__status">
-          <b>In Progress</b><br>
+          <b>Needs Funding</b><br>
         </div>
         <div class="release-versions__2">
-	  February 2023
+	  <strong>TBD</strong>
         </div>
         <div class="release-versions__3">
-          <strong>Vatan Aksoy Tezer</strong><br/>
-          Rapyuta Robotics
+          <strong>TBD</strong><br/>
         </div>
       </div>
       <div class="release-versions__content" style="background-color:WhiteSmoke">
