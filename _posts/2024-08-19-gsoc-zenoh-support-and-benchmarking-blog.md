@@ -6,7 +6,7 @@ layout: post
 title: "Google Summer of Code : Zenoh Support & Benchmarking"
 media_type: image
 media_link: /assets/images/blog_posts/GSoc2024.jpg
-description: "We've completed our project titled "Zenoh Support & Benchmarking". With this project, we could try to understand how to be used rmw_zenoh in MoveIt2 project and how rmw_zenoh affects MoveIt2's workflow. "
+description: "We've completed our project titled \"Zenoh Support & Benchmarking\". With this project, we could try to understand how to be used rmw_zenoh in MoveIt2 project and how rmw_zenoh affects MoveIt2's workflow. "
 categories:
 - MoveIt
 - GSoC
@@ -16,9 +16,9 @@ We've completed our project titled "Zenoh Support & Benchmarking". With this pro
 
 ## Movitation
 
-The aims of this Google Summer of Code Project was to make [rmw_zenoh_cpp](https://github.com/ros2/rmw_zenoh) enable, benchmark the midlewares such as rmw_cyclonedds and rmw_fastrtps against some scenarios from complex robotic problems like trajectory planning and task planning to basic ROS works like basic topic subscription-publishing, service-client operations, report the found bugs to rmw_zenoh team and configure CI in a way that rmw_zenoh can be supported.
+The aims of this Google Summer of Code Project was to make [rmw_zenoh_cpp](https://github.com/ros2/rmw_zenoh) enable for MoveIt2, benchmark the midlewares such as rmw_cyclonedds and rmw_fastrtps against some scenarios from complex robotic problems like trajectory planning and task planning to basic ROS works like basic topic subscription-publishing, service-client operations, report the found bugs to rmw_zenoh team and configure CI in a way that rmw_zenoh can be supported.
 
-rmw_zenoh comes to the fore with some exciting features like configurability with elastic topologies, supporting a lot of protocol such as TCP, UDP, usable at WIFI networks even though it's still in development phase.
+rmw_zenoh comes to the fore with some exciting features like configurability with elastic topologies, supporting a lot of protocol such as TCP, UDP and usable at WIFI networks compared to DDS based middlewares even though it's still in development phase.
 
 ## Progress
 **Integration to Moveit2**
