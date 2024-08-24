@@ -18,24 +18,28 @@ As part of GSoC 2024, I have been working on MuJoCo support for ROS 2 and MoveIt
 The main goal of the project was to provide another simulator option for ROS 2 and MoveIt since Gazebo, which is the widely used simulator in the ROS community, was unstable when contacts between objects existed. To accomplish this, I planned to deliver two outcomes: the interface between `ros2_control` and MuJoCo simulation, and examples with the implemented interface.
 
 ### Accomplishments
-**Joint Command/State Interface**  
+**Joint Command/State Interface**
+
 In order to write commands to the joints and read states from the joints, the joint command interface and the joint state interface were implemented first. For the command interface, initially, the position, velocity, and effort interfaces were implemented.
 
 However, directly manipulating position or velocity causes discontinuity in the simulation and sometimes causes simulation crashes. Therefore, a PID controller was also implemented for the position and velocity interfaces.
 
 ![mujoco_position_pid](/assets/images/blog_posts/gsoc_2024/mujoco_position_pid.gif)
 
-**FT Sensor Interface**  
+**FT Sensor Interface**
+
 The force torque sensor is a commonly used sensor in robotic applications. It was also needed to create a peg-in-hole example. Therefore, the force torque sensor interface was implemented. One of the notable things was that the sign convention of the sensor output in MuJoCo was different from the one in ROS.
 
 ![mujoco_ft_sensor](/assets/images/blog_posts/gsoc_2024/mujoco_ft_sensor.gif)
 
-**Setup the Scene for Peg-In-Hole Example**  
+**Setup the Scene for Peg-In-Hole Example**
+
 To create a peg-in-hole example, I needed to set up a robot, a peg, and a hole in the simulation environment. I set up the Panda robot so that I could control it with MoveIt. One challenge with creating a hole was that MuJoCo doesn’t allow concave collision shapes. So, I had to perform convex decomposition to split the hole into multiple convex shapes.
 
 ![mujoco_panda](/assets/images/blog_posts/gsoc_2024/mujoco_panda.gif)
 
-**Controller for Peg-In-Hole Example**  
+**Controller for Peg-In-Hole Example**
+
 For the controller, the joint trajectory controller combined with the admittance controller was used. Tuning the parameters for the admittance controller was quite tricky, and it took a long time to achieve robust motion. I also experienced strange behavior at the end of the scenario, where the robot jumped off from its position when the controller canceled its goal.
 
 ![mujoco_peg_in_hole](/assets/images/blog_posts/gsoc_2024/mujoco_peg_in_hole.gif)
