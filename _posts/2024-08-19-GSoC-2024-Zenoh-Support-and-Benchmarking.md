@@ -68,9 +68,18 @@ Finally, the benchmarks have been conducted in a way to give the reliable compar
 We have benchmarked the middlewares against various scenarios and we have found below benchmark results. We have used default configurations of rmw_zenoh except the fact that we configured some tcp settings like below:
 
 ```sh
+# for rmw_zenoh
 sudo sysctl -w "net.ipv4.tcp_rmem=4096 4096 4096"
 sudo sysctl -w "net.ipv4.tcp_wmem=4096 4096 4096"
 sudo sysctl -w "net.ipv4.tcp_mem=4096 4096 4096"
+
+# for all middlewares
+sudo sysctl -w net.ipv4.udp_mem="102400 873800 16777216"
+sudo sysctl -w net.core.netdev_max_backlog="30000"
+sudo sysctl -w net.core.rmem_max="20971520"
+sudo sysctl -w net.core.wmem_max="20971520"
+sudo sysctl -w net.core.rmem_default="20971520"
+sudo sysctl -w net.core.wmem_default="20971520"
 ```
 
 ![scenario_perception_pipeline](../assets/images/gsoc24/scenario_perception_pipeline_blog.png)
