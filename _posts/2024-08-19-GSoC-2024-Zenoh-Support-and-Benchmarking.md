@@ -48,9 +48,6 @@ It's also reported some bugs in a case of catching it. These are
 It's also contributed to rmw_zenoh.
 
 - https://github.com/ros2/rmw_zenoh/pull/252
-
-I also have two open PRs in rmw_zenoh repository.
-
 - https://github.com/ros2/rmw_zenoh/pull/255
 - https://github.com/ros2/rmw_zenoh/pull/256
 
