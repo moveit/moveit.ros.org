@@ -57,7 +57,7 @@ Additionally, the website for visualization of benchmark results created so that
 
 Finally, the benchmarks have been conducted in a way to give the reliable comparisons in github-actions and the results are visualized in website.
 
-**Contributions to MoveIt During GSoC Project
+**Contributions to MoveIt During GSoC Project**
 - https://github.com/moveit/moveit2/pull/2963
 - https://github.com/moveit/moveit2/pull/2834
 - https://github.com/moveit/moveit2_tutorials/pull/906
@@ -69,9 +69,9 @@ We have benchmarked the middlewares against various scenarios and we have found 
 
 ```sh
 # for rmw_zenoh
-sudo sysctl -w "net.ipv4.tcp_rmem=4096 4096 4096"
-sudo sysctl -w "net.ipv4.tcp_wmem=4096 4096 4096"
-sudo sysctl -w "net.ipv4.tcp_mem=4096 4096 4096"
+sudo sysctl -w "net.ipv4.tcp_rmem=102400 102400 102400"
+sudo sysctl -w "net.ipv4.tcp_wmem=102400 102400 102400"
+sudo sysctl -w "net.ipv4.tcp_mem=102400 102400 102400"
 
 # for all middlewares
 sudo sysctl -w net.ipv4.udp_mem="102400 873800 16777216"
@@ -82,11 +82,17 @@ sudo sysctl -w net.core.rmem_default="20971520"
 sudo sysctl -w net.core.wmem_default="20971520"
 ```
 
-![scenario_perception_pipeline](../assets/images/gsoc24/scenario_perception_pipeline_blog.png)
+![scenario_perception_pipeline](/assets/images/gsoc24/scenario_perception_pipeline_blog.png)
 
-![scenario_moveit_task_constructor](../assets/images/gsoc24/scenario_moveit_task_constructor_blog.png)
+![scenario_moveit_task_constructor](/assets/images/gsoc24/scenario_moveit_task_constructor_blog.png)
 
-![scenario_basic_topic_sub_pub](../assets/images/gsoc24/scenario_basic_topic_sub_pub_blog.png)
+![scenario_basic_topic_sub_pub](/assets/images/gsoc24/scenario_basic_topic_sub_pub_blog.png)
+
+![scenario_basic_service_client](/assets/images/gsoc24/scenario_basic_service_client_blog.png)
+
+## Conclusion
+
+It was an exciting progress for me. I've contributed a lot of open source project in this period and i've learnt a lot from my works and my mentors's showing the way during Google Summer of Code. I strongly suggest you to join Google Summer of Code Program, especially in MoveIt organization side for those who interested in robotics. After this Google Summer of Code works, i'm willing to continue this project.
 
 ## Additional
 
