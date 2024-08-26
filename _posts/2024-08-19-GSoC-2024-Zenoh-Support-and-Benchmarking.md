@@ -65,7 +65,7 @@ Finally, the benchmarks have been conducted in a way to give the reliable compar
 
 ## Achievements
 
-We have benchmarked the middlewares against various scenarios and we have found below benchmark results. We have used default configurations of rmw_zenoh except the fact that we configured some tcp settings like below:
+We have benchmarked the middlewares against various scenarios using [this script](https://github.com/CihatAltiparmak/moveit_middleware_benchmark/blob/24-Aug-2024-demonstration/scripts/run_all_benchmarks.sh) and we have found below benchmark results. We have used default configurations of rmw_zenoh except the fact that we configured some tcp settings like below:
 
 ```sh
 # for rmw_zenoh
