@@ -81,4 +81,4 @@ sudo sysctl -w "net.ipv4.tcp_mem=4096 4096 4096"
 
 ## Additional
 
-THe heartfelt thank you goes to my mentors [Sebastian Jahr](https://github.com/sjahr) and [Henning Kayser](https://github.com/henningkayser). An other thanks goes to [Julien Enoch](https://github.com/JEnoch) and [Zenoh Community](https://zenoh.io/community/) for trying our middleware benchmark tool and giving valuable feedbacks to us. Without valuable helps of [Zenoh Community](https://zenoh.io/community/), we couldn't complete this project.
+The heartfelt thank you goes to my mentors [Sebastian Jahr](https://github.com/sjahr) and [Henning Kayser](https://github.com/henningkayser). An other thanks goes to [Julien Enoch](https://github.com/JEnoch) and [Zenoh Community](https://zenoh.io/community/) for trying our middleware benchmark tool and giving valuable feedbacks to us. Without valuable helps of [Zenoh Community](https://zenoh.io/community/), we couldn't complete this project.
