@@ -187,7 +187,7 @@ The interface is defined in [ControllerHandle.h](https://github.com/moveit/movei
 
 ### Concrete Implementation
 
-An examplary implementation of this interface is the [joint_trajectory_controller_plugin.cpp](https://github.com/moveit/moveit/blob/master/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp). This is also currently the only implementation available.
+An exemplary implementation of this interface is the [joint_trajectory_controller_plugin.cpp](https://github.com/moveit/moveit/blob/master/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp). This is also currently the only implementation available.
 
 ***
 
