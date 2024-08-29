@@ -17,7 +17,7 @@ More information about the MoveIt GSoC project applications [tips at the bottom 
 ## Project Ideas
 
 ### Better Simulation Support
-Experiment with alternative simulation backends like [MuJoCo](https://mujoco.org/), [O3DE](https://o3de.org/), [Gazebo](https://gazebosim.org/home) while improving interoperability with MoveIt.
+Experiment with alternative simulation backends like [MuJoCo](https://mujoco.org/), [O3DE](https://o3de.org/), [Gazebo](https://classic.gazebosim.org) while improving interoperability with MoveIt.
 Investigate new use cases and best practices, and document your findings in a well-structured review page including updated tutorials and demo implementations. An example application for showcasing improved simulation support could be running an admittance controller for solving a peg-in-hole problem.
 
 **Mentors**: [David](https://github.com/dyackzan), [Henning](https://github.com/henningkayser)\
