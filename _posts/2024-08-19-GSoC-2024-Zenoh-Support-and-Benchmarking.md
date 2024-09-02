@@ -14,7 +14,7 @@ categories:
 
 We've completed our project titled "Zenoh Support & Benchmarking". With this project, investigated how rmw_zenoh would be used in MoveIt 2 and how rmw_zenoh would affect MoveIt's runtime performance.
 
-## Movitation
+## Motivation
 
 The goal of this Google Summer of Code Project was to make [rmw_zenoh_cpp](https://github.com/ros2/rmw_zenoh) available for MoveIt 2, benchmark the different midlewares such as rmw_cyclonedds and rmw_fastrtps against scenarios from complex robotic problems, ranging from trajectory planning and task planning to basic ROS works like basic topic subscription-publishing, and service-client operations. In addition we reported the found bugs to the rmw_zenoh project and implemented a CI configuration that supports testing rmw_zenoh.
 
