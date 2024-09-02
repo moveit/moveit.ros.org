@@ -89,7 +89,7 @@ The Pull  Requests for the same can be seen below:
 - [Moveit_tutorials PR#204](https://github.com/moveit/moveit_tutorials/pull/204): Added tutorial on using OMPL as a pre-processor for CHOMP
 - [Moveit_tutorials PR#220](https://github.com/moveit/moveit_tutorials/pull/220): Added a tutorial page for the usage and benefits of using planning adapters with existing motion planners in MoveIt! to produce more robust trajectories under different situations
 - [Ros_industrial PR#78](https://github.com/ros-industrial/industrial_moveit/pull/78): Addition of the requirements (trajectory initialization) for STOMP Smoothing Adapter tutorial into MoveIt package
-- [Moveit PR#1081](https://github.com/moveit/moveit/pull/1081): Addition of STOMP Smoothing Adapter for ues as a post-processing algorithm with other motion planners
+- [Moveit PR#1081](https://github.com/moveit/moveit/pull/1081): Addition of STOMP Smoothing Adapter for use as a post-processing algorithm with other motion planners
 
 ### Outcomes
 

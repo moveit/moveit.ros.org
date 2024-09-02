@@ -40,7 +40,7 @@ We typically follow a **two approval requirement**. Two reviewers must approve a
 MoveIt Maintainers only need need one other review if the following criteria are met:
 - The review is from another maintainer
 - The change is not too large or controversial
-- All feedback has been addressed by the requestor
+- All feedback has been addressed by the requester
 
 Once this criteria is met, the maintainer who is the original author is free to merge their own PR in.
 
@@ -79,7 +79,7 @@ We use [`mergify`](https://docs.mergify.com) to automize backporting. Just add t
 If the commits apply cleanly to future branches and there is no evidence that they will break anything there, you are free to add the changes to the respective branches.
 (Make sure you respect the all-commits-in-latest-branch guideline though).
 
-Otherwise either the requestor or the maintainer should create new pull-requests targeting the later branches.
+Otherwise either the requester or the maintainer should create new pull-requests targeting the later branches.
 If possible, merge these *together* with the original request.
 In this context it might be worth spending some time on making use of features available in later ROS distributions to simplify the code, e.g. by using a new coding standard or a more current version of a library.
 
