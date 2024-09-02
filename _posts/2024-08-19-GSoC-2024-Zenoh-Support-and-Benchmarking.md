@@ -6,7 +6,7 @@ layout: post
 title: "Google Summer of Code : Zenoh Support & Benchmarking"
 media_type: image
 media_link: /assets/images/blog_posts/GSoc2024.jpg
-description: "We've completed our project titled \"Zenoh Support & Benchmarking\". With this project, we could try to understand how to be used rmw_zenoh in MoveIt2 project and how rmw_zenoh affects MoveIt2's workflow. "
+description: "We've completed our project titled \"Zenoh Support & Benchmarking\". With this project, we could try to understand how to be used rmw_zenoh in MoveIt 2 and how rmw_zenoh affects MoveIt's runtime performance. "
 categories:
 - MoveIt
 - GSoC
