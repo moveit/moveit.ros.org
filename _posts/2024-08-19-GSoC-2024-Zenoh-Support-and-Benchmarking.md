@@ -27,7 +27,7 @@ Initially, we couldn't run MoveIt with rmw_zenoh due to data races inside the `r
 
 **Benchmarking**
 
-During this summer, the middleware benchmarking tool has been implemented to compare the different middlewares including rmw_zenoh, rmw_cyclonedds and rmw_fastrtps. Several scenarios have been implemented for measuring how the middlewares affects performance in typical robotics use cases. You can find the middleware benhmarking tool here: [moveit_middleware_bechmark](https://github.com/CihatAltiparmak/moveit_middleware_benchmark).
+During this summer, the middleware benchmarking tool has been implemented to compare the different middlewares including rmw_zenoh, rmw_cyclonedds and rmw_fastrtps. Several scenarios have been implemented for measuring how the middlewares affects performance in typical robotics use cases. You can find the middleware benchmarking tool here: [moveit_middleware_bechmark](https://github.com/CihatAltiparmak/moveit_middleware_benchmark).
 
 The implemented test scenarios include:
 
