@@ -28,9 +28,9 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                                <a href="https://discourse.ros.org/t/announcing-moveit-pro-runtime-and-developer-platform-previously-moveit-studio/36235" target="_blank">
+                                <a href="https://discourse.ros.org/t/move-of-nav2-and-moveit-repositories-at-github/37450" target="_blank">
                                     <span class="blue">Announcing</span>
-                                    <span>MoveIt Pro Runtime and Developer Platform</span>
+                                    <span>A new website domain name for the MoveIt project - moveit.ai!</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
