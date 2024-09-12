@@ -30,7 +30,7 @@ redirect_from: '/moveit/'
                             <div class="main-tag">
                                 <a href="https://discourse.ros.org/t/move-of-nav2-and-moveit-repositories-at-github/37450" target="_blank">
                                     <span class="blue">Announcing</span>
-                                    <span>A new website domain name for the MoveIt project - moveit.ai!</span>
+                                    <span>A new website domain for the MoveIt project</span>
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
