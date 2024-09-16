@@ -3,7 +3,7 @@
 [![Formatting (pre-commit)](https://github.com/moveit/moveit.ros.org/actions/workflows/format.yaml/badge.svg?branch=main)](https://github.com/moveit/moveit.ros.org/actions/workflows/format.yaml?query=branch%3Amain)
 [![Build Status](https://github.com/moveit/moveit.ros.org/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/moveit/moveit.ros.org/actions/workflows/build.yaml?query=branch%3Amain)
 
-The MoveIt website (http://moveit.ros.org/) is hosted on **Github Pages** using Markdown format.
+The MoveIt website (https://moveit.ai/) is hosted on **Github Pages** using Markdown format.
 Changes to the ``main`` branch become immediately available online.
 
 ## Images
