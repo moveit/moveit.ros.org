@@ -160,7 +160,7 @@ The workshop will consist of a combination of invited talks and panel discussion
 
 
 
-##### Hanns Wolfram Tappeiner ([Anki Robotics](http://anki.com))
+##### Hanns Wolfram Tappeiner (Anki Robotics)
 
 
 Title: _Every day is demo day - Robotics in consumer products_
@@ -178,7 +178,7 @@ Title: _Every day is demo day - Robotics in consumer products_
 
 
 
-##### Jim Ostrowski ([Blue River Technology](http://www.bluerivert.com/))
+##### Jim Ostrowski (Blue River Technology)
 
 
 Title: _Robots Going Agro: Opportunities and Challenges in Cultivating an Agrobotics Business_
