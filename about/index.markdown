@@ -128,7 +128,7 @@ title: About
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Sebastian Castro</div>
-                  <div class="organization-name">PickNik Robotics</div>
+                  <div class="organization-name">The AI Institute</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/sea-bass" target="_blank">sea-bass</a>
                 </div>
