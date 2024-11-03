@@ -253,12 +253,6 @@ title: About
             <div class="container">
               <div class="main-card-wrapper">
                 <div class="main-card-single-small">
-                  <div class="person-name">Chris Thrasher</div>
-                  <div class="organization-name">PickNik Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/ChrisThrasher" target="_blank">ChrisThrasher</a>
-                </div>
-                <div class="main-card-single-small">
                   <div class="person-name">Christian Henkel</div>
                   <div class="organization-name">Pilz</div>
                   <img src="/assets/install_page/github.png"/>
@@ -334,7 +328,11 @@ title: About
           <div class="container-fluid">
             <div class="container">
               <div class="main-card-wrapper">
-
+                <div class="main-card-single-small">
+                  <div class="person-name">Chris Thrasher</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/ChrisThrasher" target="_blank">ChrisThrasher</a>
+                </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Anas Mchichou</div>
                   <img src="/assets/install_page/github.png"/>
