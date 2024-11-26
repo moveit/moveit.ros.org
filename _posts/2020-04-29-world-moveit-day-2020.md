@@ -33,8 +33,6 @@ Please register on [this form](https://docs.google.com/forms/d/e/1FAIpQLSfuNEA71
 
 ## Participating Remotely
 
-Join the live stream on [this Google Meet](https://meet.google.com/_meet/cjk-qoym-qzz), which supports up to 250 simultaneous users.
-
 Join the conversation on **Discord** (a chat client, different from *Discourse*) in the new [MoveIt Server](https://discord.gg/RrySut8). Register instantly [here](https://discord.gg/RrySut8).
 
 *For old school hackers, check out our IRC channel with #moveit at irc.freenode.net.*
@@ -46,13 +44,13 @@ Join the conversation on **Discord** (a chat client, different from *Discourse*)
 
 ### Squash Bugs / Issues
 
-Suggested areas for improvement are tracked on the [MoveIt repository](https://github.com/ros-planning/moveit/issues). Find appropriate issues by looking for these labels:
+Suggested areas for improvement are tracked on the [MoveIt repository](https://github.com/moveit/moveit/issues). Find appropriate issues by looking for these labels:
 
-- [moveit day candidate](https://github.com/ros-planning/moveit/labels/moveit%20day%20candidate) labels issues as possible entry points for participants in the event.
+- [moveit day candidate](https://github.com/moveit/moveit/labels/moveit%20day%20candidate) labels issues as possible entry points for participants in the event.
   Make sure to check this before the event This list will grow longer before the event.
-- [simple improvements](https://github.com/ros-planning/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates issues can
+- [simple improvements](https://github.com/moveit/moveit/issues?q=is%3Aopen+-label%3Aassigned+label%3A%22simple+improvements%22) indicates issues can
   probably be tackled in a few hours.
-- [documentation](https://github.com/ros-planning/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials,
+- [documentation](https://github.com/moveit/moveit/issues?utf8=%E2%9C%93&q=is%3Aopen%20label%3Adocumentation%20-label%3Aassigned%20) suggests new tutorials,
   changes to the website, etc.
 - no label - of course issues that are not marked can still be worked on during World MoveIt day, though they will likely take longer than one day to complete.
 
@@ -66,7 +64,7 @@ Feel free to ask further questions in each issue’s comments.
 
 Improving our documentation for new and current users is always a goal of WMD!
 
-Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/ros-planning/moveit_tutorials/issues).
+Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/moveit/moveit_tutorials/issues).
 
 If you have studied an aspect of MoveIt extensively that is not currently documented, please convert your notes into a pull request in the appropriate location. If you’ve
 started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request

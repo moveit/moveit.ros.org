@@ -37,7 +37,7 @@ Deprecated:
 
 ### Usage
 
-By implementing the [move_group_capability.h](https://github.com/ros-planning/moveit/blob/master/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h) interface it is possible to realize functionalities that are executed frequently. Each capability has access to the [move group context](https://github.com/ros-planning/moveit/blob/master/moveit_ros/move_group/include/moveit/move_group/move_group_context.h) including e.g. obstacle for collision avoidance.
+By implementing the [move_group_capability.h](https://github.com/moveit/moveit/blob/master/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h) interface it is possible to realize functionalities that are executed frequently. Each capability has access to the [move group context](https://github.com/moveit/moveit/blob/master/moveit_ros/move_group/include/moveit/move_group/move_group_context.h) including e.g. obstacle for collision avoidance.
 
 ### Field of Application
 
@@ -45,13 +45,13 @@ Plugins of this type usually create communication functionality in form of a ros
 
 ### Interface Description
 
-The interface is defined in the [move_group_capability.h](https://github.com/ros-planning/moveit/blob/master/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h). It mainly consists of an initialize function which has to be overwritten.
+The interface is defined in the [move_group_capability.h](https://github.com/moveit/moveit/blob/master/moveit_ros/move_group/include/moveit/move_group/move_group_capability.h). It mainly consists of an initialize function which has to be overwritten.
 
 ### Concrete Implementation
 
-Moveit offers a number of [default capabilities](https://github.com/ros-planning/moveit/tree/master/moveit_ros/move_group/src/default_capabilities). A description of these can be found [here](https://github.com/ros-planning/moveit/blob/master/moveit_ros/move_group/default_capabilities_plugin_description.xml).
+Moveit offers a number of [default capabilities](https://github.com/moveit/moveit/tree/master/moveit_ros/move_group/src/default_capabilities). A description of these can be found [here](https://github.com/moveit/moveit/blob/master/moveit_ros/move_group/default_capabilities_plugin_description.xml).
 
-An example for a specific plugin is the [cartesian_path_service_capability](https://github.com/ros-planning/moveit/blob/master/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp). This particular plugin can be used to compute a cartesian path. The implementation of the initialized function is shown below. In the example the plugin advertises a topic containing information about the trajectory and a service for computing a new trajectory.
+An example for a specific plugin is the [cartesian_path_service_capability](https://github.com/moveit/moveit/blob/master/moveit_ros/move_group/src/default_capabilities/cartesian_path_service_capability.cpp). This particular plugin can be used to compute a cartesian path. The implementation of the initialized function is shown below. In the example the plugin advertises a topic containing information about the trajectory and a service for computing a new trajectory.
 
 ```
 void move_group::MoveGroupCartesianPathService::initialize()
@@ -75,18 +75,18 @@ The KinematicsBase interface enables you, to:
 
 ### Interface Description
 
-The well documented interface is located [here](https://github.com/ros-planning/moveit/blob/3464e3d27bd8655aa6187ca5d3a031a4f72663e2/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h).
+The well documented interface is located [here](https://github.com/moveit/moveit/blob/3464e3d27bd8655aa6187ca5d3a031a4f72663e2/moveit_core/kinematics_base/include/moveit/kinematics_base/kinematics_base.h).
 
 ### Concrete Implementations
 Examples for implementations of the KinematicsBase are
 
 - the KDL plugin:
-  [header](https://github.com/ros-planning/moveit/blob/master/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h),
-  [cpp](https://github.com/ros-planning/moveit/blob/master/moveit_kinematics/kdl_kinematics_plugin/src/kdl_kinematics_plugin.cpp)
+  [header](https://github.com/moveit/moveit/blob/master/moveit_kinematics/kdl_kinematics_plugin/include/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h),
+  [cpp](https://github.com/moveit/moveit/blob/master/moveit_kinematics/kdl_kinematics_plugin/src/kdl_kinematics_plugin.cpp)
 
 - the SrvKinematicsPlugin:
-  [header](https://github.com/ros-planning/moveit/blob/master/moveit_kinematics/srv_kinematics_plugin/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h),
-  [cpp](https://github.com/ros-planning/moveit/blob/master/moveit_kinematics/srv_kinematics_plugin/src/srv_kinematics_plugin.cpp)
+  [header](https://github.com/moveit/moveit/blob/master/moveit_kinematics/srv_kinematics_plugin/include/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h),
+  [cpp](https://github.com/moveit/moveit/blob/master/moveit_kinematics/srv_kinematics_plugin/src/srv_kinematics_plugin.cpp)
 
 ***
 
@@ -100,11 +100,11 @@ Base class for MoveIt planners. By implementing it you can hook your own planner
 
 ### Interface Description
 
-The interface is defined in [planning_interface.h](https://github.com/ros-planning/moveit/blob/master/moveit_core/planning_interface/include/moveit/planning_interface/planning_interface.h).
+The interface is defined in [planning_interface.h](https://github.com/moveit/moveit/blob/master/moveit_core/planning_interface/include/moveit/planning_interface/planning_interface.h).
 
 ### Concrete Implementation
 
-MoveIt's default implementation of this interface is the [OMPL Planner](https://github.com/ros-planning/moveit/blob/master/moveit_planners/ompl/ompl_interface/src/ompl_planner_manager.cpp).
+MoveIt's default implementation of this interface is the [OMPL Planner](https://github.com/moveit/moveit/blob/master/moveit_planners/ompl/ompl_interface/src/ompl_planner_manager.cpp).
 
 
 
@@ -130,11 +130,11 @@ resulting motion plan as generated by the planner. By default the following adap
 
 ### Interface Description
 
-The interface is located [here](https://github.com/ros-planning/moveit/blob/master/moveit_core/planning_request_adapter/include/moveit/planning_request_adapter/planning_request_adapter.h).
+The interface is located [here](https://github.com/moveit/moveit/blob/master/moveit_core/planning_request_adapter/include/moveit/planning_request_adapter/planning_request_adapter.h).
 
 ### Concrete Implementation
 
-The planning request adapters are currently specified in ``ompl_planning_pipeline.launch`` generated for each robot. Examples for implementations of the PlanningRequestAdapters can all be found in this [moveit_ros_planning folder](https://github.com/ros-planning/moveit/tree/master/moveit_ros/planning/planning_request_adapter_plugins/src)
+The planning request adapters are currently specified in ``ompl_planning_pipeline.launch`` generated for each robot. Examples for implementations of the PlanningRequestAdapters can all be found in this [moveit_ros_planning folder](https://github.com/moveit/moveit/tree/master/moveit_ros/planning/planning_request_adapter_plugins/src)
 
 
 ***
@@ -152,8 +152,8 @@ A controller can be active or inactive. This means that MoveIt could activate th
 
 ### Concrete Implementation
 
-The interfaces are defined in [controller_manager.h](https://github.com/ros-planning/moveit/blob/master/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h).
-A concrete implementation can be found here: [moveit_simple_controller_manager](https://github.com/ros-planning/moveit/blob/master/moveit_plugins/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h)
+The interfaces are defined in [controller_manager.h](https://github.com/moveit/moveit/blob/master/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h).
+A concrete implementation can be found here: [moveit_simple_controller_manager](https://github.com/moveit/moveit/blob/master/moveit_plugins/moveit_simple_controller_manager/include/moveit_simple_controller_manager/action_based_controller_handle.h)
 
 controller_manager.launch could be look like this:
 
@@ -175,7 +175,7 @@ where the controllers are defined in the 'controllers.yaml'.
 
 ### Usage
 
-By implementing the [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h) interface it is possible to offer allocations of handlers for action based controllers. The controller handler are based on the class [MoveItControllerHandle](https://github.com/ros-planning/moveit/blob/master/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h). These handlers communicate with the controller in order to e.g. send trajectories.
+By implementing the [ControllerHandle.h](https://github.com/moveit/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h) interface it is possible to offer allocations of handlers for action based controllers. The controller handler are based on the class [MoveItControllerHandle](https://github.com/moveit/moveit/blob/master/moveit_core/controller_manager/include/moveit/controller_manager/controller_manager.h). These handlers communicate with the controller in order to e.g. send trajectories.
 
 ### Field of Application
 
@@ -183,11 +183,11 @@ TODO
 
 ### Interface Description
 
-The interface is defined in [ControllerHandle.h](https://github.com/ros-planning/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h).
+The interface is defined in [ControllerHandle.h](https://github.com/moveit/moveit/blob/4ac0c7432d335f57aab6836cbcaaac3fccf4b6f9/moveit_plugins/moveit_ros_control_interface/include/moveit_ros_control_interface/ControllerHandle.h).
 
 ### Concrete Implementation
 
-An examplary implementation of this interface is the [joint_trajectory_controller_plugin.cpp](https://github.com/ros-planning/moveit/blob/master/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp). This is also currently the only implementation available.
+An exemplary implementation of this interface is the [joint_trajectory_controller_plugin.cpp](https://github.com/moveit/moveit/blob/master/moveit_plugins/moveit_ros_control_interface/src/joint_trajectory_controller_plugin.cpp). This is also currently the only implementation available.
 
 ***
 
@@ -195,7 +195,7 @@ An examplary implementation of this interface is the [joint_trajectory_controlle
 
 *moveit_sensor_manager::MoveItSensorManager*
 
-This plugin is used to integrate sensores into the planning process. Defined in: [sensor_manager.h](https://github.com/ros-planning/moveit/blob/master/moveit_core/sensor_manager/include/moveit/sensor_manager/sensor_manager.h)
+This plugin is used to integrate sensores into the planning process. Defined in: [sensor_manager.h](https://github.com/moveit/moveit/blob/master/moveit_core/sensor_manager/include/moveit/sensor_manager/sensor_manager.h)
 
 ### Usage
 
@@ -266,7 +266,7 @@ If you want to use a customized collision detection algorithm for self-collision
 
 ### Interface Description
 
-The interface is defined in the [collision_plugin.h](https://github.com/ros-planning/moveit/blob/master/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h). It mainly consists of an initialize function which has to be overwritten.
+The interface is defined in the [collision_plugin.h](https://github.com/moveit/moveit/blob/master/moveit_core/collision_detection/include/moveit/collision_detection/collision_plugin.h). It mainly consists of an initialize function which has to be overwritten.
 
 ### Concrete Implementation
 NO IMPLEMENTATIONS AVAILABLE
@@ -302,4 +302,4 @@ Deprecated!
 ### Info
 
 Old base class for MoveIt planners which has been removed in commit daa9fd2062df65e713e6c40570b2f7dceafed178. Was replaced by PlannerManager.
-This class can still be found in use by outdated code, for example [SBPLMetaPlanner](https://github.com/ros-planning/moveit/blob/master/moveit_planners/sbpl/ros/sbpl_interface_ros/src/sbpl_meta_plugin.cpp) and [ChompPlanner](https://github.com/ros-planning/moveit/blob/master/moveit_planners/chomp/chomp_interface/src/chomp_plugin.cpp).
+This class can still be found in use by outdated code, for example [SBPLMetaPlanner](https://github.com/moveit/moveit/blob/master/moveit_planners/sbpl/ros/sbpl_interface_ros/src/sbpl_meta_plugin.cpp) and [ChompPlanner](https://github.com/moveit/moveit/blob/master/moveit_planners/chomp/chomp_interface/src/chomp_plugin.cpp).

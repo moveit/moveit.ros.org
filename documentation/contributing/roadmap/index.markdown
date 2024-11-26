@@ -8,7 +8,7 @@ title: MoveIt Roadmap
 
 <div class='row'>
   <div class='col-sm-12 col-lg-6'>
-    <h1>MoveIt Roadmap 2022</h1>
+    <h1>MoveIt Roadmap</h1>
     <p class="paragraph-big">
       As an open source project, we rely on everyone to get involved with contributions of new features and bug improvements. Financial support in the form of grants and code sprints are of course welcomed too! Please <a href="https://picknik.ai/connect/" target="_blank">contact us</a> if you’re interested in supporting these efforts.
     </p>
@@ -18,7 +18,6 @@ title: MoveIt Roadmap
   </div>
 </div>
 <div class="row current-version roadmap-current-version">
-    <a class="button button-transparent button-transparent__blue" href="https://app.zenhub.com/workspaces/moveit-61675936b391800012280f6d/roadmap">Detailed Roadmap on ZenHub</a>
 
     <!-- Release progress bar -->
     {% include release-progress.html %}
@@ -52,7 +51,7 @@ title: MoveIt Roadmap
           <h3>Hybrid Planning</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/433" target="_blank">#433</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/433" target="_blank">#433</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -77,7 +76,7 @@ title: MoveIt Roadmap
           <h3>Port MoveIt Task Constructor to ROS 2</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit_task_constructor/pull/170" target="_blank">#170</a>
+            Issue: <a href="https://github.com/moveit/moveit_task_constructor/pull/170" target="_blank">#170</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -102,7 +101,7 @@ title: MoveIt Roadmap
           <h3>Port Pilz Industrial Motion Planner to ROS 2</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/315" target="_blank">#315</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/315" target="_blank">#315</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -124,8 +123,8 @@ title: MoveIt Roadmap
           <h3>OMPL Orientation Constraints</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/348" target="_blank">#348</a>
-	    PRs: <a href="https://github.com/ros-planning/moveit2/pull/550" target="_blank">#550</a>, <a href="https://github.com/ros-planning/moveit2/pull/1273" target="_blank">#1273</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/348" target="_blank">#348</a>
+	    PRs: <a href="https://github.com/moveit/moveit2/pull/550" target="_blank">#550</a>, <a href="https://github.com/moveit/moveit2/pull/1273" target="_blank">#1273</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -144,8 +143,8 @@ title: MoveIt Roadmap
           <h3>MoveIt Config Redesign - Migrate MSA to ROS&nbsp;2</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/313" target="_blank">#313</a>
-            PR: <a href="https://github.com/ros-planning/moveit2/pull/1254" target="_blank">#1254</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/313" target="_blank">#313</a>
+            PR: <a href="https://github.com/moveit/moveit2/pull/1254" target="_blank">#1254</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -170,8 +169,8 @@ title: MoveIt Roadmap
           <h3>Cartesian Interpolation with optimization-based IK</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/1370" target="_blank">#1370</a>
-            PRs: <a href="https://github.com/ros-planning/moveit2/pull/1386" target="_blank">#1386</a>, <a href="https://github.com/ros-planning/moveit2/pull/1434" target="_blank">#1434</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/1370" target="_blank">#1370</a>
+            PRs: <a href="https://github.com/moveit/moveit2/pull/1386" target="_blank">#1386</a>, <a href="https://github.com/moveit/moveit2/pull/1434" target="_blank">#1434</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -196,8 +195,8 @@ title: MoveIt Roadmap
           <h3>Support Chainable Admittance Controllers</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/1371" target="_blank">#1371</a>
-            PR: <a href="https://github.com/ros-planning/moveit2/pull/1482" target="_blank">#1482</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/1371" target="_blank">#1371</a>
+            PR: <a href="https://github.com/moveit/moveit2/pull/1482" target="_blank">#1482</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -218,7 +217,7 @@ title: MoveIt Roadmap
           <h3>Remove outdated & unused code</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/1038" target="_blank">#1038</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/1038" target="_blank">#1038</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -239,8 +238,8 @@ title: MoveIt Roadmap
           <h3>Cost-optimized planning with STOMP</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/1603" target="_blank">#1603</a>
-            Repo: <a href="https://github.com/ros-planning/stomp_moveit" target="_blank">ros-planning/stomp_moveit</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/1603" target="_blank">#1603</a>
+            Repo: <a href="https://github.com/moveit/stomp_moveit" target="_blank">moveit/stomp_moveit</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -259,8 +258,8 @@ title: MoveIt Roadmap
           <h3>Better path quality when planning with MoveItCpp</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/1200" target="_blank">#1200</a>
-            PR: <a href="https://github.com/ros-planning/moveit2/issues/1420" target="_blank">#1420</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/1200" target="_blank">#1200</a>
+            PR: <a href="https://github.com/moveit/moveit2/issues/1420" target="_blank">#1420</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -275,17 +274,19 @@ title: MoveIt Roadmap
         </div>
       </div>
       </details>
-      <div class="release-versions__content">
+      <details style="width:100%;padding-left:0px;background-color:Gray">
+      <summary style=";padding:3px"><b>2023</b></summary>
+      <div class="release-versions__content" style="background-color:PaleGreen">
         <div class="release-versions__1">
           <h3>GSoC: Create Python bindings for MoveIt 2</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/1279" target="_blank">#1279</a>
-            PR: <a href="https://github.com/ros-planning/moveit2/pull/1546" target="_blank">#1546</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/1279" target="_blank">#1279</a>
+            PR: <a href="https://github.com/moveit/moveit2/pull/1546" target="_blank">#1546</a>
           </p>
         </div>
         <div class="release-versions__status">
-          <b>In Review</b><br>
+          <b>Completed</b><br>
         </div>
         <div class="release-versions__2">
 	  February 2023
@@ -300,8 +301,8 @@ title: MoveIt Roadmap
           <h3>GSoC: Simultaneous Trajectory Execution</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit/issues/3156" target="_blank">#3156</a>
-            PR: <a href="https://github.com/ros-planning/moveit/issues/3243" target="_blank">#3243</a>
+            Issue: <a href="https://github.com/moveit/moveit/issues/3156" target="_blank">#3156</a>
+            PR: <a href="https://github.com/moveit/moveit/issues/3243" target="_blank">#3243</a>
           </p>
         </div>
         <div class="release-versions__status">
@@ -315,19 +316,20 @@ title: MoveIt Roadmap
           Osaka University
         </div>
       </div>
+      </details>
       <div class="release-versions__content">
         <div class="release-versions__1">
           <h3>Make ROS&nbsp;2 parameters more dynamic and easier to use</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/orgs/ros-planning/discussions/1403" target="_blank">#1403</a>
+            Issue: <a href="https://github.com/orgs/moveit/discussions/1403" target="_blank">#1403</a>
           </p>
         </div>
         <div class="release-versions__status">
           <strong>In Progress</strong><br/>
         </div>
         <div class="release-versions__2">
-	  February 2023
+	  TBD
         </div>
         <div class="release-versions__3">
           <div class="release-versions__divide">
@@ -345,19 +347,18 @@ title: MoveIt Roadmap
           <h3>Support HPP-FCL as collision checker</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/1435" target="_blank">#1435</a>
-            PR: <a href="https://github.com/ros-planning/moveit2/issues/1521" target="_blank">#1521</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/1435" target="_blank">#1435</a>
+            PR: <a href="https://github.com/moveit/moveit2/issues/1521" target="_blank">#1521</a>
           </p>
         </div>
         <div class="release-versions__status">
-          <b>In Progress</b><br>
+          <b>Needs Funding</b><br>
         </div>
         <div class="release-versions__2">
-	  February 2023
+	  <strong>TBD</strong>
         </div>
         <div class="release-versions__3">
-          <strong>Vatan Aksoy Tezer</strong><br/>
-          Rapyuta Robotics
+          <strong>TBD</strong><br/>
         </div>
       </div>
       <div class="release-versions__content" style="background-color:WhiteSmoke">
@@ -365,7 +366,7 @@ title: MoveIt Roadmap
           <h3>Add ability to attach and detach end-effector links</h3>
           <p>
             <span><img src="/assets/images/icons/git-black.svg"></span>
-            Issue: <a href="https://github.com/ros-planning/moveit2/issues/208" target="_blank">#208</a>
+            Issue: <a href="https://github.com/moveit/moveit2/issues/208" target="_blank">#208</a>
           </p>
         </div>
         <div class="release-versions__status">

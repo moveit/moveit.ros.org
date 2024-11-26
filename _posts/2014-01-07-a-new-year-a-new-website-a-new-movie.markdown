@@ -40,7 +40,7 @@ We have listened to your feedback and added:
   * [New documentation](/)
 
 
-  * [New tutorials](https://ros-planning.github.io/moveit_tutorials/) - Sphinx-based tutorials living next to the code so they are easier to maintain
+  * [New tutorials](https://moveit.github.io/moveit_tutorials/) - Sphinx-based tutorials living next to the code so they are easier to maintain
 
 
   * [Robots using MoveIt!](/robots/) page

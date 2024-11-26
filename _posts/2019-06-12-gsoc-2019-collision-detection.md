@@ -33,7 +33,7 @@ new features like continuous collision detection (CCD). CCD is useful as many st
 2. Implement continuous collision detection using Bullet
 3. Tutorial on how to implement additional collision checking libraries into MoveIt
 
-To see the progress of this effort this summer, follow along [here](https://github.com/ros-planning/moveit/issues/1427).
+To see the progress of this effort this summer, follow along [here](https://github.com/moveit/moveit/issues/1427).
 
 [<img src="{{  site.url }}/assets/logo/moveit_logo-black.png" width="500" style="margin-right:20px"/>]({{ site.url }}/assets/logo/moveit_logo-black.png)
 
@@ -48,5 +48,5 @@ is at the same time powerful and fun. Jens is excited to contribute to such a po
 robotics experts. Besides coding this summer, he can be found  practicing Aikido or hiking in the beautiful Alps.
 
 **Useful Links**
-* [Main Github issue](https://github.com/ros-planning/moveit/issues/1427)
+* [Main Github issue](https://github.com/moveit/moveit/issues/1427)
 * [MoveIt fork](https://github.com/j-petit/moveit)

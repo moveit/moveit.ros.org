@@ -13,7 +13,23 @@ There are many diverse application examples of what you can use MoveIt for. The 
 
 ## MoveIt Example Apps
 
-Some advanced MoveIt applications with full robotic setups can be found in [moveit_example_apps](https://github.com/ros-planning/moveit_example_apps). If you have an awesome application using MoveIt, and you would like to share it with others, consider contributing it to this project with a tutorial detailing how to build and launch your application.
+Some advanced MoveIt applications with full robotic setups can be found in [moveit_example_apps](https://github.com/moveit/moveit_example_apps). If you have an awesome application using MoveIt, and you would like to share it with others, consider contributing it to this project with a tutorial detailing how to build and launch your application.
+
+## MoveIt Pro
+
+PickNik Robotics offers the commercial-grade [MoveIt Pro](https://picknik.ai/pro/) runtime and developer platform. Build on the foundation of the open-source codebase, MoveIt Pro enables commercial deployments of robots in unstructured environments faster and more reliable to ship to production. MoveIt Pro has been used to create challenging applications like:
+
+### Complex Task Sequencing for Material Handling
+
+![](complex_handling.gif)
+
+### ML-Powered Bin Picking
+
+![](pickandplace.gif)
+
+### Whole Body Cartesian Planning
+
+![](whole_body_planning.gif)
 
 ## Other Application Resources
 

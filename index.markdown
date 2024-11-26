@@ -28,8 +28,10 @@ redirect_from: '/moveit/'
                     <div class="col-xs-12 col-lg-6 col-sm-12">
                         <div class="main">
                             <div class="main-tag">
-                              <span class="blue">Announcement</span>
-                              <span>MoveIt Studio 2.0 and MoveIt 2.7 <a href="https://discourse.ros.org/t/announcing-moveit-studio-2-0-and-moveit-2-7-iron-releases/32296" target="_blank">released!</a></span>
+                                <a href="https://discourse.ros.org/t/move-of-nav2-and-moveit-repositories-at-github/37450" target="_blank">
+                                    <span class="blue">Announcing</span>
+                                    <span>A new website domain for the MoveIt project</span>
+                                </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
                             <p class="main-text">Incorporating the latest advances in motion planning,<br/>
@@ -51,16 +53,18 @@ redirect_from: '/moveit/'
                             <img class="robot-hand" src="/assets/images/main/hero.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
-                                    Latest: <b>MoveIt Iron</b>
+                                    Latest: <b>MoveIt Jazzy</b>
                                 </div>
                                 <a href="/install-moveit2/binary/" class="info-box-button button">Install MoveIt From Debian</a>
                                 <div class="info-box-version">
-                                    Ubuntu 22.04
+                                    Ubuntu 24.04
                                 </div>
                                 <div class="link-group">
-                                    <a href="/install-moveit2/source/" class="info-box-link">Build From Source</a>
+                                    <a href="/install-moveit2/source/" class="info-box-link">Build&nbsp;From&nbsp;Source</a>
                                     <span>|</span>
-                                    <a href="https://github.com/ros-planning/moveit2" target="_blank" class="info-box-link">View on Github</a>
+                                    <a href="https://github.com/moveit/moveit2" target="_blank" class="info-box-link">View&nbsp;on&nbsp;Github</a>
+                                    <span>|</span>
+                                    <a href="https://picknik.ai/pro/" target="_blank" class="info-box-link">MoveIt&nbsp;Pro</a>
                                 </div>
                                 <img src="/assets/images/logo/ROS_logo.png" alt="ROS logo" class="info-box-logo" />
                             </div>
@@ -149,7 +153,7 @@ redirect_from: '/moveit/'
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/nasa-logo.png" alt="Nasa logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/google-logo.png" alt="Google logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/ms-logo.png" alt="Microsoft logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/fetch-logo.png" alt="Fetch robotics logo">
+                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/picknik-logo.png" alt="PickNik logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/franka-logo.png" alt="Franka Emika logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/pal-logo.png" alt="Pal Robotics logo">
                         <img class="companies-using-moveit-logos" src="/assets/images/Companies/kinova-logo.png" alt="Kinova logo">
@@ -258,7 +262,7 @@ redirect_from: '/moveit/'
                     <h2 class="h1 text-center"><a id="release-versions" href="#release-versions">Current and Future Versions</a></h2>
                 </div>
             <!-- Release progress bar -->
-            {% include release-progress.html %}
+            <!-- {% include release-progress.html %} -->
             <!-- Release versions table -->
             <div class='row'>
               <div class="release-versions">
@@ -270,10 +274,10 @@ redirect_from: '/moveit/'
                 <div class="release-versions__body">
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Rolling 2.7</h3>
+                      <h3>Rolling 2.10</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2/tree/main" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -285,10 +289,25 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
+                      <h3>Jazzy 2.10 LTS</h3>
+                      <p>
+                        <span><img src="/assets/images/icons/git.svg"></span>
+                        <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
+                      </p>
+                    </div>
+                    <div class="release-versions__2">
+                      ROS 2
+                    </div>
+                    <div class="release-versions__3">
+                      <span class="label label--green">RECOMMENDED</span>
+                    </div>
+                  </div>
+                  <div class="release-versions__content">
+                    <div class="release-versions__1">
                       <h3>Iron 2.7</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2/tree/main" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2/tree/iron" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -303,14 +322,14 @@ redirect_from: '/moveit/'
                       <h3>Humble 2.5 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2/tree/humble" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2/tree/humble" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--green">RECOMMENDED</span>
+                      <span class="label label--orange text-dark">MAINTAINED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -318,7 +337,7 @@ redirect_from: '/moveit/'
                       <h3>Galactic 2.3</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2/tree/galactic" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2/tree/galactic" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -333,7 +352,7 @@ redirect_from: '/moveit/'
                       <h3>Foxy 2.2 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit2" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -348,7 +367,7 @@ redirect_from: '/moveit/'
                       <h3>Noetic 1.1 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/ros-planning/moveit" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
@@ -356,6 +375,20 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="release-versions__3">
                       <span class="label label--orange text-dark">Maintained</span>
+                    </div>
+                  </div>
+                  <div class="release-versions__content">
+                    <div class="release-versions__1">
+                      <h3>MoveIt Pro 5.0</h3>
+                      <p>
+                        <a href="https://picknik.ai/pro/" target="_blank">View product page</a>
+                      </p>
+                    </div>
+                    <div class="release-versions__2">
+                      ROS 2
+                    </div>
+                    <div class="release-versions__3">
+                      <span class="label label--green">COMMERCIALLY SUPPORTED</span>
                     </div>
                   </div>
                 </div>

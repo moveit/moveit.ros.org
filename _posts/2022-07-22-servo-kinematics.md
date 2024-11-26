@@ -29,10 +29,10 @@ Given the modularity of a plugin architecture, MoveIt can be agnostic to exactly
 
 MoveIt comes packaged with a few kinematics plugins:
 
-* [Cached IK Kinematics Plugin](https://github.com/ros-planning/moveit2/tree/main/moveit_kinematics/cached_ik_kinematics_plugin): Use a persistent cache to speed up similar inverse kinematics calculations
-* [IKFast](https://github.com/ros-planning/moveit2/tree/main/moveit_kinematics/ikfast_kinematics_plugin): automatically analyze any complex kinematic chain for common patterns that allow for an analytic solution
-* [KDL](https://github.com/ros-planning/moveit2/tree/main/moveit_kinematics/kdl_kinematics_plugin), [LMA](https://github.com/ros-planning/moveit2/tree/main/moveit_kinematics/lma_kinematics_plugin): Wrappers around the numerical inverse kinematics solver provided by Orocos
-* [SRV](https://github.com/ros-planning/moveit2/tree/main/moveit_kinematics/srv_kinematics_plugin): A client for querying for IK solutions from a ROS service.
+* [Cached IK Kinematics Plugin](https://github.com/moveit/moveit2/tree/humble/moveit_kinematics/cached_ik_kinematics_plugin): Use a persistent cache to speed up similar inverse kinematics calculations
+* [IKFast](https://github.com/moveit/moveit2/tree/humble/moveit_kinematics/ikfast_kinematics_plugin): automatically analyze any complex kinematic chain for common patterns that allow for an analytic solution
+* [KDL](https://github.com/moveit/moveit2/tree/humble/moveit_kinematics/kdl_kinematics_plugin), [LMA](https://github.com/moveit/moveit2/tree/humble/moveit_kinematics/lma_kinematics_plugin): Wrappers around the numerical inverse kinematics solver provided by Orocos
+* [SRV](https://github.com/moveit/moveit2/tree/humble/moveit_kinematics/srv_kinematics_plugin): A client for querying for IK solutions from a ROS service.
 
 Another popular inverse kinematics plugin, external to MoveIt, is [bio_ik](https://github.com/PickNikRobotics/bio_ik), which was recently ported to ROS 2.
 This plugin provides the ability to specify cost functions that can prioritize certain solutions to the inverse kinematics problem, as well as provide custom position & orientation constraints.

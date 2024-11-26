@@ -7,7 +7,7 @@ title: MoveIt 2 Binary Install
   <div>
     <h1>MoveIt 2 Binary Install</h1>
     We're thrilled you're ready to start using MoveIt 2!
-    Binary installation for MoveIt 2 are available for the ROS 2 distributions Humble and Rolling on Ubuntu 22.04.
+    Binary installation for MoveIt 2 are available for the ROS 2 distributions Jazzy and Rolling on Ubuntu 24.04, and Humble and Iron on Ubuntu 22.04.
     Select your preferred ROS 2 distribution below:
     <div class="row systems-rectangle">
       <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Humble" aria-expanded="true" aria-controls="Humble">
@@ -33,6 +33,19 @@ title: MoveIt 2 Binary Install
                 ROS 2
             </div>
             Iron
+          </div>
+        </div>
+    </button>
+    <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Jazzy" aria-expanded="true" aria-controls="Jazzy">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <img src="/assets/install_page/ros_icon.png"/>
+              </div>
+          <div class="col-auto system-type">
+            <div class="system-name">
+                ROS 2
+            </div>
+            Jazzy
           </div>
         </div>
     </button>
@@ -143,6 +156,50 @@ title: MoveIt 2 Binary Install
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
+      <div class="collapse" id="Jazzy" data-parent="#accordion">
+        <h3>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+        </h3>
+        <p>
+          Follow all the instructions to install <a href="https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Jazzy</a>.
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 24.04
+        </h2>
+        <h3>
+          ROS 2 Jazzy
+          <div class="bash-command">
+            <code>sudo apt install ros-jazzy-moveit</code>
+          </div>
+        </h3>
+        <div class="horizontal-line"></div>
+        <h2>
+          Middleware
+        </h2>
+        <p>
+          We recommend CycloneDDS as a middleware. Note: this makes all nodes started using this RMW incompatible with any other nodes not using Cyclone DDS.
+          <code>sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp</code>
+          <code>export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp</code>
+          You may want to add `export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp` to your ~/.bashrc to source it automatically.
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          Quick Start
+        </h2>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="https://moveit.picknik.ai/main/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+          <span class="link-with-background">
+            MoveIt 2 Getting Started Tutorial
+          </span>
+        </a>
+      </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="Rolling" data-parent="#accordion">
         <h3>
           Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
@@ -152,7 +209,7 @@ title: MoveIt 2 Binary Install
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 22.04
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 24.04
         </h2>
         <h3>
           ROS 2 Rolling

@@ -21,7 +21,7 @@ title: About
         <p>
         The primary governance of MoveIt takes place during the public monthly maintainer meetings through majority vote.
         The meetings are also now known as the ROS 2 Manipulation Working Group.
-        For more information see the <a href="maintainer_policy">full maintainer policy</a> as well as the <a href="https://github.com/ros-planning/moveit/blob/master/.github/CODEOWNERS" target="_blank">CODEOWNERS</a> file.
+        For more information see the <a href="maintainer_policy">full maintainer policy</a> as well as the <a href="https://github.com/moveit/moveit/blob/master/.github/CODEOWNERS" target="_blank">CODEOWNERS</a> file.
         </p>
         <p>
         Organizational leadership, outreach, publicity, and additional maintenance is led by <a href="https://picknik.ai/" target="_blank">PickNik Robotics</a>.
@@ -56,7 +56,7 @@ title: About
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Andy Zelenak</div>
-                  <div class="organization-name">PickNik Robotics</div>
+                  <div class="organization-name">Apptronik</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/AndyZe" target="_blank">AndyZe</a>
                 </div>
@@ -128,11 +128,11 @@ title: About
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Sebastian Castro</div>
-                  <div class="organization-name">PickNik Robotics</div>
+                  <div class="organization-name">The AI Institute</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/sea-bass" target="_blank">sea-bass</a>
                 </div>
-		<div class="main-card-single-small">
+                <div class="main-card-single-small">
                   <div class="person-name">Sebastian Jahr</div>
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
@@ -143,12 +143,6 @@ title: About
                   <div class="organization-name">Optonic</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/simonschmeisser" target="_blank">simonschmeisser</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Tyler Weaver</div>
-                  <div class="organization-name">PickNik Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/tylerjw" target="_blank">tylerjw</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Vatan Aksoy Tezer</div>
@@ -233,6 +227,12 @@ title: About
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/mlautman" target="_blank">mlautman</a>
                 </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Tyler Weaver</div>
+                  <div class="organization-name">SciTec</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/tylerjw" target="_blank">tylerjw</a>
+                </div>
               </div>
             </div>
           </div>
@@ -252,12 +252,6 @@ title: About
           <div class="container-fluid">
             <div class="container">
               <div class="main-card-wrapper">
-                <div class="main-card-single-small">
-                  <div class="person-name">Chris Thrasher</div>
-                  <div class="organization-name">PickNik Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/ChrisThrasher" target="_blank">ChrisThrasher</a>
-                </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Christian Henkel</div>
                   <div class="organization-name">Pilz</div>
@@ -295,6 +289,12 @@ title: About
                   <a href="https://github.com/nbbrooks" target="_blank">nbbrooks</a>
                 </div>
                 <div class="main-card-single-small">
+                  <div class="person-name">Paul Gesel</div>
+                  <div class="organization-name">PickNik Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/pac48" target="_blank">pac48</a>
+                </div>
+                <div class="main-card-single-small">
                   <div class="person-name">Peter David Fagan</div>
                   <div class="organization-name">University of Edinburgh</div>
                   <img src="/assets/install_page/github.png"/>
@@ -328,7 +328,11 @@ title: About
           <div class="container-fluid">
             <div class="container">
               <div class="main-card-wrapper">
-
+                <div class="main-card-single-small">
+                  <div class="person-name">Chris Thrasher</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/ChrisThrasher" target="_blank">ChrisThrasher</a>
+                </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Anas Mchichou</div>
                   <img src="/assets/install_page/github.png"/>
@@ -407,7 +411,7 @@ title: About
     <div class="container">
       <div class="history-card-wrapper">
         <div class="history-card-single">
-          <p>MoveIt's first <a href="https://github.com/ros-planning/moveit/commit/206e93c555a6ddcdbe826809c30b90b89bbb52d8" target="_blank">commit</a> was October 2011. MoveIt was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli, and Dave Hershberger and we thank Willow Garage for its support of the MoveIt project. We would also like to thank SRI International for its support of the MoveIt project between October 2013 and June 2015. Since then, PickNik has been leading the support of the MoveIt project.</p>
+          <p>MoveIt's first <a href="https://github.com/moveit/moveit/commit/206e93c555a6ddcdbe826809c30b90b89bbb52d8" target="_blank">commit</a> was October 2011. MoveIt was initially developed at Willow Garage by Sachin Chitta, Ioan Sucan, Gil E. Jones, Acorn Pooley, Suat Gedikli, and Dave Hershberger and we thank Willow Garage for its support of the MoveIt project. We would also like to thank SRI International for its support of the MoveIt project between October 2013 and June 2015. Since then, PickNik has been leading the support of the MoveIt project.</p>
           <p>We gratefully acknowledge the early contributions of the following people to MoveIt and associated packages that MoveIt uses:</p>
           <ul>
             <li>

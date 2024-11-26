@@ -26,10 +26,16 @@ title: Distribution
       </thead>
       <tbody>
         <tr>
-          <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt Rolling</a></td>
+          <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt 2 Rolling</a></td>
           <td>2021</td>
           <td><img src="/assets/images/distribution/moveIt-rolling.jpg" alt="MoveIt Rolling" height="100" /></td>
           <td>N/A</td>
+        </tr>
+        <tr>
+          <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt 2 Jazzy</a></td>
+          <td>May 23, 2024</td>
+          <td><img src="/assets/images/distribution/moveit-jazzy.png" alt="MoveIt 2 Iron" height="100" /></td>
+          <td>May 2029</td>
         </tr>
         <tr>
           <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt 2 Iron</a></td>
@@ -44,7 +50,7 @@ title: Distribution
           <td>May 2027</td>
         </tr>
         <tr>
-          <td><a href="https://ros-planning.github.io/moveit_tutorials/">MoveIt 1 Noetic</a></td>
+          <td><a href="https://moveit.github.io/moveit_tutorials/">MoveIt 1 Noetic</a></td>
           <td>October 13th, 2020</td>
           <td><img src="/assets/images/distribution/noetic.jpg" alt="MoveIt 1 Noetic" height="100" /></td>
           <td>May 2025</td>

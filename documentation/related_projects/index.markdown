@@ -9,7 +9,7 @@ title: Related Projects
 
 # MoveIt Related Projects
 
-MoveIt is designed to be easily extensible as separate plugins or projects. Below is a list of related projects that have been aligned with the MoveIt framework, in alphabetical order of project names. This is by no means exhaustive. Please create pull-requests in the repository [moveit.ros.org](https://github.com/ros-planning/moveit.ros.org) to **add** other projects to this list. Or if not sure about the relevance, please post on the [ROS Discourse category](https://discourse.ros.org/c/moveit).
+MoveIt is designed to be easily extensible as separate plugins or projects. Below is a list of related projects that have been aligned with the MoveIt framework, in alphabetical order of project names. This is by no means exhaustive. Please create pull-requests in the repository [moveit.ros.org](https://github.com/moveit/moveit.ros.org) to **add** other projects to this list. Or if not sure about the relevance, please post on the [ROS Discourse category](https://discourse.ros.org/c/moveit).
 
 ## Cartesian Path Planner Plug-In for MoveIt!
 
@@ -61,11 +61,11 @@ Its current implementation takes as input a pose vector (position and orientatio
 
 <img src="/assets/images/related_projects/moveit_grasps.png" height="500"/>
 
-## MoveIt Studio
+## MoveIt Pro Runtime and Developer Platform
 
-PickNik's MoveIt Studio Developer Platform enables robotics engineers and robot field operators to more quickly build advanced applications that include manipulator arms. Designed with a user-friendly interface, it includes a set of pre-built tools that make it easy to build and debug behavior trees, inspect trajectories, diagnose failures, and provide robot recovery. [Click here to learn more](https://picknik.ai/studio/).
+PickNik's MoveIt Pro Runtime and Developer Platform enables robotics engineers and robot field operators to more quickly build advanced applications that include mobile manipulators and robot arms. Designed with a user-friendly interface, it includes advanced drop-in motion control, grasping and perception capabilities. State management is done with behavior trees and MoveIt Pro comes with an extensive tool-set that make it easy to build and debug applications, inspect trajectories, diagnose failures, and provide robot recovery. [Click here to learn more](https://picknik.ai/pro/).
 
-<img src="/assets/images/related_projects/moveit_studio.png" height="500"/>
+<img src="/documentation/applications/pickandplace.gif" height="500"/>
 
 ## Pilz Industrial Motion
 

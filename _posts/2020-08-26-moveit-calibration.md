@@ -28,4 +28,4 @@ For more information on the mathematical methods used in MoveIt Calibration to s
 
 We'd like to thank Yu Yan at the Intel Open Source Technology Center for his work developing this new tool in the MoveIt ecosystem. PickNik Robotics has collaborated with Intel in testing and preparing this new functionality for release.
 
-If you have a camera and a robot arm, MoveIt Calibration can help you use them together. For more information, check out [http://github.com/ros-planning/moveit_calibration](http://github.com/ros-planning/moveit_calibration), and the [MoveIt Calibration tutorial](https://github.com/JStech/moveit_tutorials/blob/new-calibration-tutorial/doc/hand_eye_calibration/hand_eye_calibration_tutorial.rst). See it, move it, do it.
+If you have a camera and a robot arm, MoveIt Calibration can help you use them together. For more information, check out [http://github.com/moveit/moveit_calibration](http://github.com/moveit/moveit_calibration), and the [MoveIt Calibration tutorial](https://github.com/JStech/moveit_tutorials/blob/new-calibration-tutorial/doc/hand_eye_calibration/hand_eye_calibration_tutorial.rst). See it, move it, do it.
