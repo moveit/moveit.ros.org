@@ -13,7 +13,7 @@ To ease the process of getting contributions merged into the project quickly, th
 
 ## Branches Policy
 
-Our development branches are called ``main`` (MoveIt 2) and ``master`` (MoveIt 1). We also have important distribution-specific release branches, named ``*-devel`` (MoveIt 1) or just e.g. ``foxy`` (MoveIt 2).
+Our development branches are called ``main`` (MoveIt 2) and ``master`` (MoveIt 1). We also have important distribution-specific release branches, named ``*-devel`` (MoveIt 1) or just e.g. ``jazzy`` (MoveIt 2).
 
 ## No Direct Commits or Force Pushes
 
@@ -74,7 +74,7 @@ Future versions of MoveIt might not share the whole history of older branches an
 Don't merge a request unless you make sure the same (or a similar) patch-set is merged into all later branches at the same time.
 We don't want to lose changes that are available in one ROS distribution because someone forgot to do that.
 
-We use [`mergify`](https://docs.mergify.com) to automize backporting. Just add the corresponding label, e.g. `backport-foxy` to trigger a backport to Foxy.
+We use [`mergify`](https://docs.mergify.com) to automize backporting. Just add the corresponding label, e.g. `backport-jazzy` to trigger a backport to Jazzy.
 
 If the commits apply cleanly to future branches and there is no evidence that they will break anything there, you are free to add the changes to the respective branches.
 (Make sure you respect the all-commits-in-latest-branch guideline though).
