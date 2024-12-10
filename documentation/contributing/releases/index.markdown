@@ -7,7 +7,7 @@ title: Releases
 
 # Release Process
 
-While the latest code is always available in source format, we also make releases available in binary formats. Releases are made on a periodic basis into all of the currently supported <a href="distribution">ROS distributions</a>. The decision to make a new release is usually made during the monthly maintainer meeting.
+While the latest code is always available in source format, we also make releases available in binary formats. Releases are made on a periodic basis into all of the currently supported <a href="/about/distribution">ROS distributions</a>. The decision to make a new release is usually made during the monthly maintainer meeting.
 
 New features and API or ABI breaking changes can be merged at any time into the `main` branch. For this reason, most ROS releases will have a stable branch named after the ROS release, for instance `jazzy`. These release-specific branches aim to maintain API and ABI compatibility for the life of the ROS distribution.
 
