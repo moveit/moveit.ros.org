@@ -38,12 +38,6 @@ title: Distribution
           <td>May 2029</td>
         </tr>
         <tr>
-          <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt 2 Iron</a></td>
-          <td>May 23, 2023</td>
-          <td><img src="/assets/images/distribution/moveit-iron.png" alt="MoveIt 2 Iron" height="100" /></td>
-          <td>November 2024</td>
-        </tr>
-        <tr>
           <td><a href="https://moveit.picknik.ai/humble/index.html">MoveIt 2 Humble</a></td>
           <td>May 23rd, 2022</td>
           <td><img src="/assets/images/distribution/humble.jpg" alt="MoveIt 2 Humble" height="100" /></td>
@@ -54,12 +48,6 @@ title: Distribution
           <td>October 13th, 2020</td>
           <td><img src="/assets/images/distribution/noetic.jpg" alt="MoveIt 1 Noetic" height="100" /></td>
           <td>May 2025</td>
-        </tr>
-        <tr>
-          <td><a href="http://docs.ros.org/en/melodic/api/moveit_tutorials/html/index.html">MoveIt 1 Melodic</a></td>
-          <td>June 5th, 2020</td>
-          <td><img src="/assets/images/distribution/melodic.jpg" alt="MoveIt 1 Melodic" height="100" /></td>
-          <td>May 2023</td>
         </tr>
       </tbody>
     </table>
