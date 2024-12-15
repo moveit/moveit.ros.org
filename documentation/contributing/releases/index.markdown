@@ -7,13 +7,11 @@ title: Releases
 
 # Release Process
 
-MoveIt has a 6 week cadence for releases, though we occasionally miss this schedule. We are working to better automate this process.
+While the latest code is always available in source format, we also make releases available in binary formats. Releases are made on a periodic basis into all of the currently supported <a href="/about/distribution">ROS distributions</a>. The decision to make a new release is usually made during the monthly maintainer meeting.
 
-This 6 week pace is a balance between releasing new improvements quickly and preserving the stability of releases.  We are choosing this schedule to reduce the amount of work per release, reduce the time it takes to get an improvement released and make it easier to schedule for the Picknik team.  These releases will include the main MoveIt repo along with any dependencies we control if they have changed (e.g. moveit_msgs).
+New features and API or ABI breaking changes can be merged at any time into the `main` branch. For this reason, most ROS releases will have a stable branch named after the ROS release, for instance `jazzy`. These release-specific branches aim to maintain API and ABI compatibility for the life of the ROS distribution.
 
-## Upcoming releases
-
-Releases for MoveIt are planned using the ZenHub Roadmap.  You can follow our [detailed Roadmap here](https://app.zenhub.com/workspaces/moveit-61675936b391800012280f6d/roadmap).
+Since it usually takes some time for users to migrate to a new ROS distribution, these release-specific branches are usually not forked from `main` until approximately six months after the official release of the ROS distribution is made (recent ROS releases have been made in May, so this usually happens in November). The official decision to fork is usually made during a maintainer meeting.
 
 ## Permissions
 
@@ -21,7 +19,7 @@ The maintainer handling the release must have write access to both devel repos (
 
 ## Steps
 
-1. Create an issue to track the status of the upcoming release.  This issue should include a list of the changes since the last release so maintainers can determine which ones should be backported into the release branch.  Do this for each repo that will be released with references to the issue in the main repo.  To generate the list of changes use the `review-for-backport` branch. The `reviewed-for-backport` branch exists as a marker in the commit history for `master`, marking the last commit that was considered for backporting. Run `git cherry -v <release-branch> master reviewed-for-backport | grep '^+'` to generate a list of all commits between `reviewed-for-backport` and the current `master` branch that have not been merged in `release-branch` (without modifications). Backports should be pull-requests and reviewed separately, though possibly bundled.
+1. Create an issue to track the status of the upcoming release.  This issue should include a list of the changes since the last release so maintainers can determine which ones should be backported into the release branch.  Do this for each repo that will be released with references to the issue in the main repo.  To generate the list of changes use the `review-for-backport` branch. The `reviewed-for-backport` branch exists as a marker in the commit history for `main`, marking the last commit that was considered for backporting. Run `git cherry -v <release-branch> main reviewed-for-backport | grep '^+'` to generate a list of all commits between `reviewed-for-backport` and the current `main` branch that have not been merged in `release-branch` (without modifications). Backports should be pull-requests and reviewed separately, though possibly bundled.
 1. Run ROS buildfarm prerelease test for **all** supported Ubuntu distributions in [REP-0003](http://www.ros.org/reps/rep-0003.html).
    * You can see [here](http://wiki.ros.org/bloom/Tutorials/PrereleaseTest) for the general instruction of prerelease test. If you're done for the setup already and just want to refer to command examples, see [here](http://wiki.ros.org/regression_tests#Running_prerelease_test).
    * As long as REP-0003 supports, we must test even EOLed Ubuntu distros (e.g. Saucy for ROS Indigo was retired in 2014 but REP-0003 still supports it and there's no way as of December 2016 to skip it. See [moveit/#100](https://github.com/moveit/moveit/issues/100#issuecomment-268826497) as a previous example).
@@ -73,7 +71,7 @@ The maintainer handling the release must have write access to both devel repos (
    find . -iname package.xml -exec \
      sed -i "s#<version>.*</version>#<version>x.y.z</version>#g" {} \;
    ```
-1. Write release notes on moveit.ros.org (e.g. [1](https://github.com/moveit/moveit.ros.org/pull/115), [2](https://github.com/moveit/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt category](https://discourse.ros.org/c/moveit).
+1. Write release notes on moveit.ai (e.g. [1](https://github.com/moveit/moveit.ros.org/pull/115), [2](https://github.com/moveit/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt category](https://discourse.ros.org/c/moveit).
 1. Forward the `reviewed-for-backport` branch to `<release-branch>: git checkout reviewed-for-backport; git merge --ff-only <release-branch>`.
 
 ### Release Versioning Policy
