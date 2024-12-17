@@ -7,7 +7,7 @@ title: MoveIt 2 Binary Install
   <div>
     <h1>MoveIt 2 Binary Install</h1>
     We're thrilled you're ready to start using MoveIt 2!
-    Binary installation for MoveIt 2 are available for the ROS 2 distributions Jazzy and Rolling on Ubuntu 24.04, and Humble and Iron on Ubuntu 22.04.
+    Binary installation for MoveIt 2 are available for the ROS 2 distributions Jazzy and Rolling on Ubuntu 24.04, and Humble on Ubuntu 22.04.
     Select your preferred ROS 2 distribution below:
     <div class="row systems-rectangle">
       <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Humble" aria-expanded="true" aria-controls="Humble">
