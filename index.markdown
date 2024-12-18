@@ -274,7 +274,7 @@ redirect_from: '/moveit/'
                 <div class="release-versions__body">
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Rolling 2.10</h3>
+                      <h3>Rolling 2.12</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
@@ -289,7 +289,7 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Jazzy 2.10 LTS</h3>
+                      <h3>Jazzy 2.12 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
@@ -299,7 +299,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--green">RECOMMENDED</span>
+                      <span class="label label--green">LATEST STABLE - RECOMMENDED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -314,7 +314,7 @@ redirect_from: '/moveit/'
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--green">LATEST STABLE</span>
+                      <span class="label label--red">EOL-DISCONTINUED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
