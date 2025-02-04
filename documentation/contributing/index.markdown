@@ -41,12 +41,12 @@ title: Contributing
     </span>
     <h3>Answer User Questions</h3>
     <p>
-      You can contribute greatly to the MoveIt community by answering other people’s questions on the <a href="https://answers.ros.org/questions/scope:all/sort:activity-desc/tags:moveit/page:1/" target="_blank">answers.ros.org</a>, ROS community’s official question-answer forum. Please feel free help answer questions there, and gain Karma in the process!
+      You can contribute greatly to the MoveIt community by answering other people’s questions on the <a href="https://robotics.stackexchange.com/questions/tagged/moveit" target="_blank">answers.ros.org</a>, ROS community’s official question-answer forum. Please feel free help answer questions there, and gain Karma in the process!
     </p>
     <p class="second-paragraph">
       You don't need to know everything in MoveIt to be helpful to others. Any amount of experience can be helpful. To really get involved, here's how to setup an email alert for ROS Answers to track the &lt;moveit&gt; tag.
     </p>
-    <a class="button button-transparent button-transparent__blue" href="https://answers.ros.org/questions/scope:all/sort:activity-desc/tags:moveit/page:1/" target="_blank">ANSWER MOVEIT QUESTIONS</a>
+    <a class="button button-transparent button-transparent__blue" href="https://robotics.stackexchange.com/questions/tagged/moveit" target="_blank">ANSWER MOVEIT QUESTIONS</a>
   </div>
   <div class='contributing-single-box'>
     <span class="icon">
