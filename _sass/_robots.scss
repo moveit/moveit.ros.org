@@ -38,4 +38,36 @@
       font-size: 16px;
     }
   }
+
+  .robots-info {
+    background-color: #eef9fd;
+    border-left: 5px solid #4cb3d4;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 16px auto;
+    color: #193c47;
+    font-size: 16px;
+
+    .robots-info-header {
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 14px;
+      font-weight: 600;
+
+      img {
+        width: 22px;
+      }
+    }
+
+    .button {
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
 }
