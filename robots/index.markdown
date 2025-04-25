@@ -13,7 +13,18 @@ title: Robots
 			<div class="robots-main">
 				<h1>{{page.title}}</h1>
 				<p>MoveIt has been used on over 126 robots by the community. From deep sea to outerspace, from hobbiests to industrial applications, check out a few of the many examples below using MoveIt with different robots.</p>
-				<hr/>
+				<div class="robots-info">
+					<div class="robots-info-header">
+						<img src="/assets/icon/exclamation-circle.svg" alt="info" />
+						info
+					</div>
+					<div class="robots-info-content">
+						<p>
+							This page is not really maintained anymore, and we recommend you see the newer page on ROS 2 hardware that works with MoveIt
+						</p>
+						<a class="button" href="https://picknik.ai/hardware-ecosystem/" target="_blank">ROS 2 Compatible Robot Arms</a>
+					</div>
+				</div>
 				<p>See something missing? If you would like to add a robot to this list, please contact <a href="http://picknik.ai/">PickNik Robotics</a></p>
 				<p>We are also looking for robot maintainers and new robots. If you are willing to maintain the MoveIt packages for any robot in this list please post on the <a href="https://discourse.ros.org/c/moveit" target="_blank">ROS Discourse category</a>.</p>
 			</div>
