@@ -103,7 +103,7 @@ title: About
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Marq Rasmussen</div>
-                  <div class="organization-name">PickNik Robotics</div>
+                  <div class="organization-name">Locus Robotics</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/MarqRazz" target="_blank">MarqRazz</a>
                 </div>
