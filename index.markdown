@@ -34,8 +34,7 @@ redirect_from: '/moveit/'
                                 </a>
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
-                            <p class="main-text">Incorporating the latest advances in motion planning,<br/>
-                            manipulation, 3D perception, kinematics, control and navigation</p>
+                            <p class="main-text">MoveIt is widely-used and ideal for students,<br/> high schools and universities.</p>
                             <div class="button-group">
                                 <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">
                                 <span class="button-play">
@@ -145,25 +144,9 @@ redirect_from: '/moveit/'
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center text-center mb-100">
-                    <div class="col-sm-12">
-                        <h2 class="h2 text-center companies-header">Companies using MoveIt</h2>
-                    </div>
-                    <div class="col-sm-12">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/nasa-logo.png" alt="Nasa logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/google-logo.png" alt="Google logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/ms-logo.png" alt="Microsoft logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/picknik-logo.png" alt="PickNik logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/franka-logo.png" alt="Franka Emika logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/pal-logo.png" alt="Pal Robotics logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/kinova-logo.png" alt="Kinova logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/samsung.png" alt="Samsung logo">
-                    </div>
-                </div>
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-lg-6 col-md-6">
                         <div class="text-block text-block--left">
-                            <span class="application-categories">Powerful</span>
                             <h3>3D Interactive Visualizer</h3>
                             <p>Out-of-the box visual demonstrations in Rviz allow new users experimentation with various planning algorithms around obstacles. Execution on physical hardware is then just a click away.</p>
                         </div>
@@ -178,7 +161,6 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="col-xs-12 col-lg-6 col-md-6">
                         <div class="text-block text-block--right">
-                            <span class="application-categories">Cutting edge</span>
                             <h3>Gazebo Simulation</h3>
                             <p>Speed up development and testing cycles by leveraging a full physics-based simulator with MoveIt. Combine Gazebo, ROS Control, and MoveIt for a powerful robotics development platform.</p>
                         </div>
@@ -187,7 +169,6 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-lg-6 col-md-6">
                         <div class="text-block text-block--left">
-                            <span class="application-categories">Easy to use</span>
                             <h3>Setup Assistant</h3>
                             <p>Quickly setup any robot to work with MoveIt with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control.</p>
                         </div>
@@ -202,7 +183,6 @@ redirect_from: '/moveit/'
                     </div>
                     <div class="col-xs-12 col-lg-6 col-md-6">
                         <div class="text-block text-block--right">
-                            <span class="application-categories">Advanced</span>
                             <h3>Task Constructor</h3>
                             <p>A flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks.</p>
                         </div>
@@ -211,7 +191,6 @@ redirect_from: '/moveit/'
                 <div class="row justify-content-between block-with-image">
                     <div class="col-xs-12 col-lg-6 col-md-6">
                         <div class="text-block text-block--left">
-                            <span class="application-categories">Intelligent</span>
                             <h3>Grasp Generation</h3>
                             <p>Libraries for geometric and machine learning-based grasp generation for use with the MoveIt pick and place pipeline.</p>
                         </div>
