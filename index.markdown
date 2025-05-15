@@ -35,7 +35,7 @@ redirect_from: '/moveit/'
                             </div>
                             <h1>Moving robots into&nbsp;the&nbsp;future</h1>
                             <p class="main-text">A motion planning, manipulation, and kinematics framework for ROS,<br/>
-                            ideal for students and researchers.</p>
+                            ideal for students and university researchers.</p>
                             <div class="button-group">
                                 <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">
                                 <span class="button-play">
