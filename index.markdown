@@ -361,7 +361,7 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>MoveIt Pro 5.0</h3>
+                      <h3>MoveIt Pro</h3>
                       <p>
                         <a href="https://picknik.ai/pro/" target="_blank">View product page</a>
                       </p>
