@@ -111,7 +111,7 @@ _What robots does MoveIt support?_
 
 _How do I hear the latest announcements on MoveIt?_
 
-  * Watch the [MoveIt Category on ROS Discourse](https://discourse.ros.org/c/moveit)
+  * Watch the [MoveIt Category on ROS Discourse](https://discourse.openrobotics.org/tag/moveit)
   * Follow the [MoveIt blog](/blog).
   * Follow <a href="https://twitter.com/PickNikRobotics" target="_blank">@PickNikRobotics</a> on Twitter.
 

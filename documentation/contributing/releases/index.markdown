@@ -71,7 +71,7 @@ The maintainer handling the release must have write access to both devel repos (
    find . -iname package.xml -exec \
      sed -i "s#<version>.*</version>#<version>x.y.z</version>#g" {} \;
    ```
-1. Write release notes on moveit.ai (e.g. [1](https://github.com/moveit/moveit.ros.org/pull/115), [2](https://github.com/moveit/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt category](https://discourse.ros.org/c/moveit).
+1. Write release notes on moveit.ai (e.g. [1](https://github.com/moveit/moveit.ros.org/pull/115), [2](https://github.com/moveit/moveit.ros.org/pull/110)). Send it to [Discourse MoveIt category](https://discourse.openrobotics.org/tag/moveit).
 1. Forward the `reviewed-for-backport` branch to `<release-branch>: git checkout reviewed-for-backport; git merge --ff-only <release-branch>`.
 
 ### Release Versioning Policy
