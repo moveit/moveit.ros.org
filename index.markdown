@@ -66,7 +66,7 @@ redirect_from: '/moveit/'
                                     <span>|</span>
                                     <a href="https://github.com/moveit/moveit2" target="_blank" class="info-box-link">View&nbsp;on&nbsp;Github</a>
                                     <span>|</span>
-                                    <a href="https://picknik.ai/pro/" target="_blank" class="info-box-link">MoveIt&nbsp;Pro</a>
+                                    <a href="https://picknik.ai/moveit-2-vs-moveit-pro/" target="_blank" class="info-box-link">MoveIt&nbsp;Pro</a>
                                 </div>
                                 <img src="/assets/images/logo/ROS_logo.png" alt="ROS logo" class="info-box-logo" />
                             </div>
@@ -363,7 +363,7 @@ redirect_from: '/moveit/'
                     <div class="release-versions__1">
                       <h3>MoveIt Pro</h3>
                       <p>
-                        <a href="https://picknik.ai/pro/" target="_blank">View product page</a>
+                        <a href="https://picknik.ai/moveit-2-vs-moveit-pro/" target="_blank">View product page</a>
                       </p>
                     </div>
                     <div class="release-versions__2">

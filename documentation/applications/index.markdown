@@ -17,7 +17,7 @@ Some advanced MoveIt applications with full robotic setups can be found in [move
 
 ## MoveIt Pro
 
-PickNik Robotics offers the commercial-grade [MoveIt Pro](https://picknik.ai/pro/) runtime and developer platform. Build on the foundation of the open-source codebase, MoveIt Pro enables commercial deployments of robots in unstructured environments faster and more reliable to ship to production. MoveIt Pro has been used to create challenging applications like:
+PickNik Robotics offers the commercial-grade [MoveIt Pro](https://picknik.ai/moveit-2-vs-moveit-pro/) runtime and developer platform. Build on the foundation of the open-source codebase, MoveIt Pro enables commercial deployments of robots in unstructured environments faster and more reliable to ship to production. MoveIt Pro has been used to create challenging applications like:
 
 ### Complex Task Sequencing for Material Handling
 
