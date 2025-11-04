@@ -84,7 +84,7 @@ While this project originally started with a focus on our new [pick_ik](https://
 * How accurate are the solutions?
 * If solver X is faster than solver Y, when/why is it better to use solver Y at all?
 
-Taking these questions as a starting point, Mohamed was crucial in the release of our new [ik_benchmarking](https://github.com/PickNikRobotics/ik_benchmarking) tool. While benchmarking pick_ik was our original goal, coincidentally, this project was happening at the same time as TRACLabs open-sourced their [ROS 2 port of the TRAC-IK solver](https://bitbucket.org/traclabs/trac_ik/src/rolling-devel/). This solver’s performance (speed and solve rate) with our benchmarks matched those presented in their repo very well.
+Taking these questions as a starting point, Mohamed was crucial in the release of our new [ik_benchmarking](https://github.com/PickNikRobotics/ik_benchmarking) tool. While benchmarking pick_ik was our original goal, coincidentally, this project was happening at the same time as TRACLabs open-sourced their ROS 2 port of the TRAC-IK solver. This solver’s performance (speed and solve rate) with our benchmarks matched those presented in their repo very well.
 
 To configure your IK benchmarking experiment with this new package, you can create a YAML file like this. The key parts are the MoveIt configuration package, a list of IK solver configuration files within that package, and the actual samples to generate.
 
