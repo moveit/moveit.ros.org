@@ -26,7 +26,7 @@ title: Robots
 					</div>
 				</div>
 				<p>See something missing? If you would like to add a robot to this list, please contact <a href="http://picknik.ai/">PickNik Robotics</a></p>
-				<p>We are also looking for robot maintainers and new robots. If you are willing to maintain the MoveIt packages for any robot in this list please post on the <a href="https://discourse.ros.org/c/moveit" target="_blank">ROS Discourse category</a>.</p>
+				<p>We are also looking for robot maintainers and new robots. If you are willing to maintain the MoveIt packages for any robot in this list please post on the <a href="https://discourse.openrobotics.org/tag/moveit" target="_blank">ROS Discourse category</a>.</p>
 			</div>
 		</div>
 	</div>

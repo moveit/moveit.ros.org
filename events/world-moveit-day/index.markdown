@@ -101,7 +101,7 @@ If you have any questions refer to the [Discourse Topic](http://discourse.ros.or
 
 We'd like to thank the following sponsors:
 
-- [Fetch Robotics](http://fetchrobotics.com/) for sponsoring the main event, stickers, and helping organize
+- Fetch Robotics for sponsoring the main event, stickers, and helping organize
 - [Travis CI](http://travis-ci.com) for providing increased continuous integration time on their build farm for this event
 
 <img src="/assets/images/sponsors/travis-ci.png" width="300" css="margin-right:20px"/>

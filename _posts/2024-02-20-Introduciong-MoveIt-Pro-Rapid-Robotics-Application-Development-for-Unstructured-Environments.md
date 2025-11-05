@@ -37,7 +37,7 @@ MoveIt Studio’s intuitive visual UI streamlines the creation of advanced robot
 
 **Extensive Library of Reference Applications**
 
-Our library of reference applications allows you to significantly reduce development time. Current reference applications include, bin picking, opening doors, pick & place, peg in hole, scan & plan, cutting along path, and visual servoing. See our reference applications in action at [https://picknik.ai/pro/](https://picknik.ai/pro/).
+Our library of reference applications allows you to significantly reduce development time. Current reference applications include, bin picking, opening doors, pick & place, peg in hole, scan & plan, cutting along path, and visual servoing. See our reference applications in action at [https://picknik.ai/moveit-2-vs-moveit-pro/](https://picknik.ai/moveit-2-vs-moveit-pro/).
 
 **Robust Enterprise Support**
 

@@ -35,4 +35,3 @@ For a more detailed view of how the manager handles the collision checking proce
 ## TrajOpt Planner
 TrajOpt is an optimization-based motion planner. The following diagram shows how it works in MoveIt.
 <img src='/assets/images/diagrams/trajopt.png' style="width: 100%;"/>
-[The chart source file](https://docs.google.com/drawings/d/1_j75qFitQEAEHOYASnI3DN0RiVp4o0r5Txlh78wzvUY/edit?usp=sharing)

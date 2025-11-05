@@ -21,8 +21,8 @@ title: Get Involved
     <h3>Stay in touch</h3>
     <div class="get-involved-content">
       <img alt="Discourse" src="/assets/images/discourse.png">
-      <p>Follow MoveIt on <a href="http://discourse.ros.org/c/moveit" target="_blank">ROS Discourse</a> for project announcements, discussion of future development, maintenance, testing, and releases.</p>
-      <a class="button" href="http://discourse.ros.org/c/moveit" target="_blank">SUBSCRIBE</a>
+      <p>Follow MoveIt on <a href="http://discourse.ros.org/" target="_blank">ROS Discourse</a> for project announcements, discussion of future development, maintenance, testing, and releases.</p>
+      <a class="button" href="http://discourse.ros.org/" target="_blank">SUBSCRIBE</a>
     </div>
     <img alt="Discord" src="/assets/images/discord.jpg">
     <p>

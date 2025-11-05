@@ -129,4 +129,4 @@ PILZIndustrialMotionPlanner<br/>
 &nbsp;&nbsp;&nbsp;Publishes the computed path to RVIZ for visualization.<br/>
 
 ### Conclusion
-MoveIt 2 now supports more customizable planning pipelines to support the varying planning needs of unstructured environments. We are looking forward to seeing your planner or adapter plugin implementations as contributions to the MoveIt ecosystem! For more production environment features, check out our [MoveIt Pro](https://picknik.ai/pro/) offering.
+MoveIt 2 now supports more customizable planning pipelines to support the varying planning needs of unstructured environments. We are looking forward to seeing your planner or adapter plugin implementations as contributions to the MoveIt ecosystem! For more production environment features, check out our [MoveIt Pro](https://picknik.ai/moveit-2-vs-moveit-pro/) offering.

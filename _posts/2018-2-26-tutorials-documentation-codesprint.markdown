@@ -25,6 +25,6 @@ There are several key objectives we want to achieve:
  - Clean up the content and organization of the tutorials to help new users learn MoveIt! faster
  - Revamp the aesthetic appearance of the MoveIt! website
 
-We would like to thank Franka Emika for agreeing to sponsor this code sprint and their newest sensitive robotic arm - Panda - becoming the new flagship robot in the MoveIt! tutorials. You can find more information about open-source libraries and existing ROS integration of Panda at [https://frankaemika.github.io](https://frankaemika.github.io).
+We would like to thank Franka Emika for agreeing to sponsor this code sprint and their newest sensitive robotic arm - Panda - becoming the new flagship robot in the MoveIt! tutorials.
 
 <img src="{{ site.url }}/assets/images/sponsors/franka_logo.png" width="300" style="margin-top:20px"/>
