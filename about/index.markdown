@@ -55,12 +55,6 @@ title: About
                   <a href="https://github.com/Abishalini" target="_blank">Abishalini</a>
                 </div>
                 <div class="main-card-single-small">
-                  <div class="person-name">Andy Zelenak</div>
-                  <div class="organization-name">Apptronik</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/AndyZe" target="_blank">AndyZe</a>
-                </div>
-                <div class="main-card-single-small">
                   <div class="person-name">Dave Coleman</div>
                   <div class="organization-name">PickNik Robotics</div>
                   <img src="/assets/install_page/github.png"/>
@@ -229,6 +223,12 @@ title: About
                   <div class="person-name">Sebastian Jahr</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/sjahr" target="_blank">sjahr</a>
+                </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Andy Zelenak</div>
+                  <div class="organization-name">Elevate Robotics</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/AndyZe" target="_blank">AndyZe</a>
                 </div>
               </div>
             </div>
