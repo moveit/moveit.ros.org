@@ -1,0 +1,90 @@
+// Cookie-consent banner. Gates the Leadfeeder tracker behind an opt-in.
+.consent-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: $white;
+  color: $robots-black;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.2);
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 16px 20px;
+  }
+
+  &__text {
+    flex: 1 1 320px;
+  }
+
+  &__title {
+    margin: 0 0 4px;
+    font-size: 18px;
+    color: $robots-black;
+    text-indent: 0;
+  }
+
+  &__text p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: $dark-text;
+
+    a {
+      color: $blue;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+.consent-btn {
+  padding: 8px 22px;
+  border-radius: 4px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  &--accept {
+    background-color: $blue;
+    border: 1px solid $blue;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $blue;
+    }
+  }
+
+  &--reject {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: $robots-black;
+
+    &:hover {
+      border-color: $robots-black;
+    }
+  }
+}
+
+// Lift the MoveIt Pro announcement banner above the consent banner while it is
+// open, and drop it back to its default position once a choice is made.
+.moveit_announcement_banner {
+  transition: bottom 0.2s ease;
+}
+
+body.consent-open .moveit_announcement_banner {
+  bottom: 115px;
+}
