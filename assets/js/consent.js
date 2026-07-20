@@ -1,8 +1,9 @@
 /*
- * Consent manager for moveit.ai. The only third-party tag is the Leadfeeder
- * (Dealfront) visitor tracker; it loads only after the visitor opts in, so no
- * tracking cookies are set without consent. Mirrors the picknik.ai consent flow:
- * denied by default, granted on opt-in, cleared and reloaded on withdrawal.
+ * Consent manager for moveit.ai. Two third-party tags — Google Analytics 4
+ * (analytics) and the Dealfront (Leadfeeder) visitor tracker (advertising) —
+ * load only after the visitor opts in, so no tracking cookies are set without
+ * consent. Mirrors the picknik.ai consent flow: denied by default, granted on
+ * opt-in, cleared and reloaded on withdrawal.
  */
 (function () {
   'use strict';
@@ -10,12 +11,16 @@
   var COOKIE_NAME = 'pn_consent';
   var COOKIE_MAX_AGE = 60 * 60 * 24 * 365; // 1 year
   var SCHEMA_VERSION = 1; // re-ask when the cookie shape changes
+  var GA_MEASUREMENT_ID = 'G-0FNPMEP8NE';
   var LEADFEEDER_ID = 'lYNOR8xOKPOaWQJZ';
   var PRIVACY_POLICY_URL = 'https://picknik.ai/privacy-policy/';
 
-  // Cookie Leadfeeder drops; cleared when advertising consent is withdrawn.
-  var LF_COOKIES = ['_lfa'];
+  // Cookies the vendors drop; cleared when consent is withdrawn. _ga_<ID> and
+  // _gac_* vary per property, so they are matched by prefix.
+  var TRACKING_COOKIES = ['_ga', '_gid', '_gat', '_lfa'];
+  var TRACKING_COOKIE_PREFIXES = ['_ga_', '_gac_', '_lfa'];
 
+  var gaLoaded = false;
   var leadfeederLoaded = false;
   var banner = null;
 
@@ -27,21 +32,21 @@
     try {
       var parsed = JSON.parse(decodeURIComponent(match[1]));
       if (!parsed || parsed.v !== SCHEMA_VERSION) return null;
-      return { advertising: parsed.advertising === true };
+      return { analytics: parsed.analytics === true, advertising: parsed.advertising === true };
     } catch (e) {
       return null;
     }
   }
 
-  function writeConsent(advertising) {
-    // Same shape as picknik.ai's pn_consent; moveit.ai only exposes advertising
-    // (Leadfeeder), so the other categories are always false.
+  function writeConsent(granted) {
+    // Same shape as picknik.ai's pn_consent. moveit.ai's single Accept/Reject
+    // grants analytics (GA4) and advertising (Leadfeeder) together.
     var payload = {
       v: SCHEMA_VERSION,
       ts: new Date().toISOString(),
       functional: false,
-      analytics: false,
-      advertising: advertising === true
+      analytics: granted === true,
+      advertising: granted === true
     };
     document.cookie =
       COOKIE_NAME + '=' + encodeURIComponent(JSON.stringify(payload)) +
@@ -49,24 +54,32 @@
       (location.protocol === 'https:' ? ';Secure' : '');
   }
 
-  function hasLeadfeederCookies() {
+  function isTrackingCookie(name) {
+    if (TRACKING_COOKIES.indexOf(name) !== -1) return true;
+    for (var i = 0; i < TRACKING_COOKIE_PREFIXES.length; i++) {
+      if (name.indexOf(TRACKING_COOKIE_PREFIXES[i]) === 0) return true;
+    }
+    return false;
+  }
+
+  function hasTrackingCookies() {
     return document.cookie.split('; ').some(function (raw) {
-      return LF_COOKIES.indexOf(raw.split('=')[0]) !== -1;
+      return isTrackingCookie(raw.split('=')[0]);
     });
   }
 
-  function clearLeadfeederCookies() {
+  function clearTrackingCookies() {
     var host = location.hostname;
     var domains = ['', host, '.' + host];
-    // Leadfeeder may scope _lfa to the registrable domain so it's shared across
-    // subdomains; clear it there too (e.g. on www.moveit.ai). ES5 suffix check.
+    // GA4/Leadfeeder scope cookies to the registrable domain so they are shared
+    // across subdomains; clear them there too (e.g. on www.moveit.ai). ES5 check.
     var apex = '.moveit.ai';
     if (host.length > apex.length && host.slice(-apex.length) === apex) {
       domains.push(apex);
     }
     document.cookie.split('; ').forEach(function (raw) {
       var name = raw.split('=')[0];
-      if (LF_COOKIES.indexOf(name) === -1) return;
+      if (!isTrackingCookie(name)) return;
       domains.forEach(function (d) {
         document.cookie =
           name + '=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT' + (d ? ';domain=' + d : '');
@@ -74,7 +87,37 @@
     });
   }
 
-  /* ------------------------------------------------------------------ loader */
+  /* ------------------------------------------------------- google consent mode */
+
+  function initConsentMode() {
+    window.dataLayer = window.dataLayer || [];
+    // A plain function (not an arrow) so `arguments` is available — this is
+    // Google's canonical gtag shim.
+    window.gtag = function gtag() {
+      window.dataLayer.push(arguments);
+    };
+    // Denied is the starting point for everyone; GA is not loaded until opt-in.
+    window.gtag('consent', 'default', {
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      analytics_storage: 'denied'
+    });
+  }
+
+  /* ------------------------------------------------------------------ loaders */
+
+  function loadGA() {
+    if (gaLoaded) return;
+    gaLoaded = true;
+    window.gtag('consent', 'update', { analytics_storage: 'granted' });
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
+    document.head.appendChild(script);
+    window.gtag('js', new Date());
+    window.gtag('config', GA_MEASUREMENT_ID);
+  }
 
   // The vendor snippet formerly inlined in _includes/default.html; runs only
   // after the visitor opts in.
@@ -95,19 +138,20 @@
 
   /* -------------------------------------------------------------------- banner */
 
-  function decide(advertising) {
-    writeConsent(advertising);
+  function decide(granted) {
+    writeConsent(granted);
     if (banner) banner.hidden = true;
     document.body.classList.remove('consent-open'); // drop the announcement banner back down
 
-    if (advertising) {
+    if (granted) {
+      loadGA();
       loadLeadfeeder();
       return;
     }
-    // Leadfeeder can't be unloaded once running: if it loaded this session or
+    // A loaded tag can't be pulled back out: if anything loaded this session or
     // left cookies behind, drop them and reload.
-    if (leadfeederLoaded || hasLeadfeederCookies()) {
-      clearLeadfeederCookies();
+    if (gaLoaded || leadfeederLoaded || hasTrackingCookies()) {
+      clearTrackingCookies();
       location.reload();
     }
   }
@@ -123,8 +167,8 @@
       '<div class="consent-banner__inner">' +
       '<div class="consent-banner__text">' +
       '<h2 class="consent-banner__title">Cookies? Your call.</h2>' +
-      '<p>This site uses cookies to understand ' +
-      'which organizations find MoveIt useful. It loads only if you allow it. See our ' +
+      '<p>This site uses cookies to understand which organizations find MoveIt ' +
+      'useful. It loads only if you allow it. See our ' +
       '<a href="' + PRIVACY_POLICY_URL + '" rel="noopener" target="_blank">Privacy Policy</a>.</p>' +
       '</div>' +
       '<div class="consent-banner__actions">' +
@@ -142,19 +186,32 @@
     document.body.appendChild(banner);
   }
 
+  function openBanner() {
+    if (!banner) return;
+    banner.hidden = false;
+    document.body.classList.add('consent-open'); // lift the announcement banner above ours
+  }
+
   function init() {
     buildBanner();
-    // `stored` is assigned in the boot block before init runs.
-    if (!stored && banner) {
-      banner.hidden = false;
-      document.body.classList.add('consent-open'); // lift the announcement banner above ours
-    }
+    if (!stored) openBanner(); // `stored` is assigned in the boot block before init runs
+
+    // Footer "Cookie settings" link reopens the banner so a visitor can change
+    // (and withdraw) their choice as easily as they gave it.
+    document.addEventListener('click', function (event) {
+      var trigger = event.target.closest ? event.target.closest('[data-consent-open]') : null;
+      if (!trigger) return;
+      event.preventDefault();
+      openBanner();
+    });
   }
 
   /* --------------------------------------------------------------------- boot */
 
+  initConsentMode();
   var stored = readConsent();
-  if (stored && stored.advertising) loadLeadfeeder(); // returning opt-in tracks from the start
+  if (stored && stored.analytics) loadGA(); // returning opt-in tracks from the start
+  if (stored && stored.advertising) loadLeadfeeder();
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);

@@ -88,3 +88,18 @@
 body.consent-open .moveit_announcement_banner {
   bottom: 115px;
 }
+
+// Footer "Cookie settings" link that reopens the consent banner. Sits on its
+// own line, centered, below the "Edit website on Github" link.
+.consent-reopen {
+  display: block;
+  width: fit-content;
+  margin: 8px auto 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
