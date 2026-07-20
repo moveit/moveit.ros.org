@@ -123,7 +123,7 @@
       '<div class="consent-banner__inner">' +
       '<div class="consent-banner__text">' +
       '<h2 class="consent-banner__title">Cookies? Your call.</h2>' +
-      '<p>This site uses the Dealfront (Leadfeeder) visitor tracker to understand ' +
+      '<p>This site uses cookies to understand ' +
       'which organizations find MoveIt useful. It loads only if you allow it. See our ' +
       '<a href="' + PRIVACY_POLICY_URL + '" rel="noopener" target="_blank">Privacy Policy</a>.</p>' +
       '</div>' +
