@@ -52,17 +52,8 @@ ript>
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
     <script type="text/javascript" src="/assets/bootstrap-4.1.0-dist/js/bootstrap.min.js" ></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108532843-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-108532843-1');
-    </script>
-    <!-- Leadfeeder Tracker -->
-    <script>
-      (function (ss, ex) { window.ldfdr = window.ldfdr || function () { (ldfdr._q = ldfdr._q || []).push([].slice.call(arguments)); }; (function (d, s) { fs = d.getElementsByTagName(s)[0]; function ce(src) { var cs = d.createElement(s); cs.src = src; cs.async = 1; fs.parentNode.insertBefore(cs, fs); }; ce('https://sc.lfeeder.com/lftracker_v1_' + ss + (ex ? '_' + ex : '') + '.js'); })(document, 'script'); })('lYNOR8xOKPOaWQJZ');
-    </script>
+    <!-- Consent-gated analytics: Google Analytics 4 and the Leadfeeder tracker
+         load only after opt-in (see /assets/js/consent.js). The dead Universal
+         Analytics tag UA-108532843-1 was replaced by GA4. -->
+    <script defer src="{{ '/assets/js/consent.js' | relative_url }}"></script>
   </head>
