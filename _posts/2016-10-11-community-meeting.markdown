@@ -6,7 +6,7 @@ layout: post
 slug: moveit_community_meeting
 title: Second MoveIt! Community Meeting
 media_type: image
-media_link: http://moveit.ros.org/assets/images/community_meeting_2016.jpg
+media_link: /assets/images/community_meeting_2016.jpg
 description: The second MoveIt! community meeting will be on October 27th at 8am Pacific to discuss the latest developments and uses of MoveIt! around the world.
 categories:
 - MoveIt!

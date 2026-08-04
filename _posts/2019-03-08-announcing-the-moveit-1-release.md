@@ -21,7 +21,7 @@ This will allow us to add exciting new features, even if it means we have to bre
 See Dave Coleman's [Open Letter To MoveIt Community](https://discourse.ros.org/t/open-letter-to-moveit-community/6779) for more reasoning.
 
 It also allows us to break ground on MoveIt 2.0, which will provide support for the exciting ROS 2.0 framework.
-The port of MoveIt to ROS 2 has already begun, as described in [this recent blog post](https://moveit.ros.org/moveit!/ros/2019/03/01/announcing-the-moveit-2-port.html).
+The port of MoveIt to ROS 2 has already begun, as described in [this recent blog post](/moveit!/ros/2019/03/01/announcing-the-moveit-2-port.html).
 For a full roadmap of MoveIt versioning, see the [MoveIt 1.0 release plan](https://discourse.ros.org/t/versioning-roadmap-moveit-1-0-release-plan/7437).
 
 **What's New In MoveIt 1.0?**
@@ -60,16 +60,16 @@ Highlights of changes:
 **Thanks to all our contributors!**
 
 MoveIt is a vibrant open source community with a rapidly improving codebase.
-Our [maintainer team](https://moveit.ros.org/about/) is awesome, particularly Robert Haschke and Michael Görner, both hailing from Germany.
+Our [maintainer team](/about/) is awesome, particularly Robert Haschke and Michael Görner, both hailing from Germany.
 
 We've had 158 contributors to date that have made MoveIt 1.0 possible.
 We've come a long way from the early days of MoveIt at Willow Garage.
 MoveIt is now a huge international effort with contributors from research labs and companies around the world.
-See our [2017 montage](https://moveit.ros.org/moveit!/ros/2017/06/20/videoMontage2017.html) for some of the impressive applications using MoveIt.
+See our [2017 montage](/moveit!/ros/2017/06/20/videoMontage2017.html) for some of the impressive applications using MoveIt.
 
 Under [PickNik Consulting](https://picknik.ai/)'s guidance, we're encouraging more people to get involved --  including you!
-Our third year of [World MoveIt Day](https://moveit.ros.org/moveit!/ros/2018/11/20/wordlmoveitdayreport3.html) had approximately 310 participants from 13 locations around the globe.
-Together with Open Robotics, PickNik sponsored three Google Summer of Code students to [work on MoveIt](https://moveit.ros.org/moveit!/ros/2018/05/08/google-summer-of-code.html) last summer.
-We've also put in a ton of effort making MoveIt easier to use, from the [MoveIt Setup Assistant 2.0](https://moveit.ros.org/moveit!/ros/2018/10/23/gsoc-2018-setup-assistant-v2.html) to [new tutorials using the Franka Emika Panda robot](https://github.com/moveit/moveit_tutorials/pull/166).
+Our third year of [World MoveIt Day](/moveit!/ros/2018/11/20/wordlmoveitdayreport3.html) had approximately 310 participants from 13 locations around the globe.
+Together with Open Robotics, PickNik sponsored three Google Summer of Code students to [work on MoveIt](/moveit!/ros/2018/05/08/google-summer-of-code.html) last summer.
+We've also put in a ton of effort making MoveIt easier to use, from the [MoveIt Setup Assistant 2.0](/moveit!/ros/2018/10/23/gsoc-2018-setup-assistant-v2.html) to [new tutorials using the Franka Emika Panda robot](https://github.com/moveit/moveit_tutorials/pull/166).
 
 We hope MoveIt 1.0 continues to support the worldwide open source robotics effort and the ideals of ROS.

@@ -125,7 +125,7 @@ With the release of ROS 2 Galactic, we would like to share the new features only
 
 <br>
 
-For more details, see the [MoveIt Roadmap and Upcoming Features](https://moveit.ros.org/documentation/contributing/roadmap/).
+For more details, see the [MoveIt Roadmap and Upcoming Features](/documentation/contributing/roadmap/).
 
 ## Status Update for MoveIt 2 on Galactic & Rolling
 

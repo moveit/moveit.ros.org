@@ -35,8 +35,8 @@ Student applications will open on Monday, March 29, 2021 at 19:00 UTC and the de
 
 
 **Moving robots into the future |**
-About [MoveIt](https://moveit.ros.org/):
+About [MoveIt](/):
 
-MoveIt is the most widely used software for manipulation and has been used on [over 100 robots](https://moveit.ros.org/robots/). It provides an easy-to-use robotics platform for developing advanced applications, evaluating new designs and building integrated products for industrial, commercial, R&D, and other domains.
+MoveIt is the most widely used software for manipulation and has been used on [over 100 robots](/robots/). It provides an easy-to-use robotics platform for developing advanced applications, evaluating new designs and building integrated products for industrial, commercial, R&D, and other domains.
 
 By incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation, MoveIt is state of the art software for mobile manipulation.

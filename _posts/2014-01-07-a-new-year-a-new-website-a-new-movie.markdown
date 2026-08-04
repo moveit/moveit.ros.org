@@ -27,7 +27,7 @@ The MoveIt! development team would like to wish you a very happy new year and br
 ### A new website
 
 
-[(http://moveit.ros.org)](http://moveit.ros.org)
+[(/)](/)
 
 We have listened to your feedback and added:
 

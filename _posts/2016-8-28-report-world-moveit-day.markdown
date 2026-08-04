@@ -6,7 +6,7 @@ layout: post
 slug: wordlmoveitdayreport
 title: Report on World MoveIt! Day
 media_type: image
-media_link: http://moveit.ros.org/assets/images/report_on_world_moveit_day.jpg
+media_link: /assets/images/report_on_world_moveit_day.jpg
 description: Results from our first international hackathon to improve the MoveIt! code base, documentation, and community.
 categories:
 - MoveIt!

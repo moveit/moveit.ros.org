@@ -80,13 +80,13 @@ If you have ideas and improvements for the project, please add your own issues t
 
 Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/moveit/moveit_tutorials/issues).
 
-Other larger code sprint ideas can be found [on this page](http://moveit.ros.org/documentation/contributing/future_projects/). While they will take longer than a day the ideas might provide a good reference for other things to contribute on WMD.
+Other larger code sprint ideas can be found [on this page](/documentation/contributing/future_projects/). While they will take longer than a day the ideas might provide a good reference for other things to contribute on WMD.
 
 ### Documentation
 
 Improving our documentation is at least as important as fixing bugs in the system. Please add to our Sphinx and Markdown-based documentation within our packages and on the MoveIt website. If you have studied extensively an aspect of MoveIt that is not currently documented well, please convert your notes into a pull request in the appropriate location. If you've started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request to help others in the future with the same question.
 
-For more details on modifying documentation, see [Contributing](http://moveit.ros.org/documentation/contributing/).
+For more details on modifying documentation, see [Contributing](/documentation/contributing/).
 
 ### Video Conference and IRC
 

@@ -17,7 +17,7 @@ We are happy to announce MoveIt! is now released into ROS [Kinetic](http://wiki.
 
 Notably, in Kinetic, C++11 is now fully utilized for MoveIt! -- which means you *must* build all packages that include MoveIt! headers with support for C++11.
 
-Some new features and bug-fixes added since the [last release into Jade](http://moveit.ros.org/moveit!/ros/2016/09/02/firstjaderelease.html), :
+Some new features and bug-fixes added since the [last release into Jade](/moveit!/ros/2016/09/02/firstjaderelease.html), :
 
 - [Trajectory safety validation before execution](https://github.com/moveit/moveit/pull/63) (Kinetic onward only)
 - New planners in [OMPL](http://ompl.kavrakilab.org/) are now available from MoveIt! (geometric::{FMT, BFMT, PDST, STRIDE, BiTRRT, LBTRRT, BiEST, ProjEST, LazyPRM, LazyPRMstar, SPARS, SPARStwo}) ([see PR for detail](https://github.com/moveit/moveit/pull/338))
@@ -29,7 +29,7 @@ Some new features and bug-fixes added since the [last release into Jade](http://
 - [Fix unreasonable "Invalid Trajectory: start point deviates" error](https://github.com/moveit/moveit/issues/283)
 - Fedora support is added. Feedback (and fix if necessary) welcomed!
 
-If you're running your robot packages with ROS Kinetic, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](http://moveit.ros.org/install/)
+If you're running your robot packages with ROS Kinetic, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](/install/)
 
 ![1st Kinetic release](http://www.ros.org/news/assets_c/2016/04/kinetic-thumb-640x530-1441.png)
 

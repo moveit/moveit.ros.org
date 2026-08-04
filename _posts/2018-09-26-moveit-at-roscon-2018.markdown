@@ -5,7 +5,7 @@ date: 2018-09-26 12:15:12+00:00
 layout: post
 title: MoveIt! At ROSCon 2018
 media_type: image
-media_link: http://moveit.ros.org/assets/images/roscon18/ROSConMadrid.png
+media_link: /assets/images/roscon18/ROSConMadrid.png
 description: Join us at ROSCon Madrid this year to meet your fellow developers, bring your ideas, and ask pressing questions about MoveIt!.
 categories:
 - MoveIt!

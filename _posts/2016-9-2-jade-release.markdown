@@ -13,7 +13,7 @@ categories:
 - ROS
 ---
 
-If you're running your robot packages with ROS Jade, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](http://moveit.ros.org/install/)
+If you're running your robot packages with ROS Jade, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](/install/)
 
 Among numerous bug-fixes, there are quite a number of new features included:
 
@@ -47,7 +47,7 @@ also address multiple safety issues that were known among senior MoveIt develope
 - [https://github.com/moveit/moveit/pull/63](https://github.com/moveit/moveit/pull/63)
 - [https://github.com/moveit/moveit/commit/b317a5722f40c61f0b86a934a5b1e65c7c45e38a](https://github.com/moveit/moveit/commit/b317a5722f40c61f0b86a934a5b1e65c7c45e38a)
 
-For Indigo, if you don't mind building from source, go for it: [moveit.ros.org/install/source](http://moveit.ros.org/install/source/)
+For Indigo, if you don't mind building from source, go for it: [moveit.ros.org/install/source](/install/source/)
 Be aware though that the repository branches are used for active development, so you might hit severe regressions in the current HEADs.
 
 We are currently working towards more fast-paced release cycles, so that MoveIt! users

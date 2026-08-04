@@ -72,7 +72,7 @@ If you have ideas and improvements for the project, please add your own issues t
 
 Improving our documentation is a major goal of WMD - please add to our Sphynx and Markdown-based documentation within our packages and on the MoveIt website. If you have studied extensively an aspect of MoveIt that is not currently documented, please convert your notes into a pull request in the appropriate location. If you've started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request to help others in the future with the same question.
 
-For more details on modifying documentation, see [Contributing](http://moveit.ros.org/documentation/contributing/).
+For more details on modifying documentation, see [Contributing](/documentation/contributing/).
 
 ### Video Conference and IRC
 

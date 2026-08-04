@@ -80,7 +80,7 @@ PickNik Robotics // world-moveit-day@picknik.ai
 
 We recommend building the master branch or the Melodic LTS release. The Kinetic branch development has ended but is still under Long Term Support.
 
-You can also use a [Docker container](https://moveit.ros.org/install/docker/) for easy setup.
+You can also use a [Docker container](/install/docker/) for easy setup.
 
 ### Finding Where You Can Help
 
@@ -102,7 +102,7 @@ Feel free to ask further questions in each issue’s comments.
 
 Further needs for documentation and tutorials improvement can be found directly on the [moveit_tutorials issue tracker](https://github.com/moveit/moveit_tutorials/issues).
 
-Other larger code sprint ideas can be found on [this page](http://moveit.ros.org/documentation/contributing/future_projects/). While they will take longer than a day the
+Other larger code sprint ideas can be found on [this page](/documentation/contributing/future_projects/). While they will take longer than a day the
 ideas might provide a good reference for other things to contribute on WMD.
 
 ## Documentation
@@ -113,7 +113,7 @@ If you have studied an aspect of MoveIt extensively that is not currently docume
 started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request
 to help others in the future with the same question.
 
-For more details on modifying documentation, see [Contributing](http://moveit.ros.org/documentation/contributing/).
+For more details on modifying documentation, see [Contributing](/documentation/contributing/).
 
 ## Video Conference and IRC
 

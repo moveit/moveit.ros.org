@@ -46,4 +46,4 @@ If you are new to MoveIt we encourage you to take a look at our tutorials.  Youâ
 
 ## Final Notes
 
-Thank you to all the [maintainers and contributors](https://moveit.ros.org/about/) of MoveIt who made this release possible!
+Thank you to all the [maintainers and contributors](/about/) of MoveIt who made this release possible!

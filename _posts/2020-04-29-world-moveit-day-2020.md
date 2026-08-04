@@ -70,13 +70,13 @@ If you have studied an aspect of MoveIt extensively that is not currently docume
 started a conversation on the mailing list or other location where a more experienced developer explained a concept, consider converting that answer into a pull request
 to help others in the future with the same question.
 
-For more details on modifying documentation, see [Contributing](http://moveit.ros.org/documentation/contributing/).
+For more details on modifying documentation, see [Contributing](/documentation/contributing/).
 
 ### Add Features
 
 Generally a single day event is not enough time to complete a new feature, so we recommend you are sure you are committed to seeing the work through beyond World MoveIt Day before tackling a new feature.
 
-Other larger code sprint ideas can be found on [this page](http://moveit.ros.org/documentation/contributing/future_projects/).
+Other larger code sprint ideas can be found on [this page](/documentation/contributing/future_projects/).
 While they will take longer than a day, the ideas might provide a good reference for other things to contribute on WMD.
 
 ## Common & Beginner Questions

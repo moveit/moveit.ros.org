@@ -13,7 +13,7 @@ categories:
 - rolling
 ---
 
-We are very excited to announce that MoveIt 2 Jazzy is finally here. The newest LTS release Jazzy 2.10 will take Humble’s place as the recommended MoveIt version. It can be installed using the [ROS Debian binaries](https://moveit.ros.org/install-moveit2/binary/) (available with the upcoming Jazzy sync) on Ubuntu Noble 24.04, or through a [Linux source build](https://moveit.ros.org/install-moveit2/source/). The same version has also been released for Rolling Ridley.
+We are very excited to announce that MoveIt 2 Jazzy is finally here. The newest LTS release Jazzy 2.10 will take Humble’s place as the recommended MoveIt version. It can be installed using the [ROS Debian binaries](/install-moveit2/binary/) (available with the upcoming Jazzy sync) on Ubuntu Noble 24.04, or through a [Linux source build](/install-moveit2/source/). The same version has also been released for Rolling Ridley.
 
 New features in the Jazzy LTS release compared to Humble include (ordered randomly):
 

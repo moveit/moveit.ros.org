@@ -7,7 +7,7 @@ slug: videoMontageRequest
 title: Submit your videos for a 5 year MoveIt! video montage
 description: MoveIt! is 5 years old!
 media_type: image
-media_link: http://moveit.ros.org/assets/images/5th_anniversary_moveit.png
+media_link: /assets/images/5th_anniversary_moveit.png
 categories:
 - MoveIt!
 - ROS

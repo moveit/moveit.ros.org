@@ -61,7 +61,7 @@ There are many additional features, enhancements and tutorials that can be made 
 	* Setting up real-world reinforcement learning experiments
 	* Deploying policies learnt in Isaac-Sim on real robots
 
-New contributors to the MoveIt project are highly encouraged to get involved in development of the Python library. See the [Contribution Guides](https://moveit.ros.org/documentation/contributing/) for further details.
+New contributors to the MoveIt project are highly encouraged to get involved in development of the Python library. See the [Contribution Guides](/documentation/contributing/) for further details.
 
 ### Acknowledgements
 I would like to thank my project mentors Henning Kayser and Michael Gorner for the time they dedicated to supervise my project. I would also like to thank other MoveIt maintainers/contributors who took the time to review my code and provide feedback. Finally thank you to the [Google Summer of Code program](https://summerofcode.withgoogle.com/) for funding this project and to the [ML Collective](https://mlcollective.org/) for providing compute funding for this project.

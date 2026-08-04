@@ -28,4 +28,4 @@ Below are a few other statistics from the event and 30 days after, in the consol
 
 These numbers are comparable with the numbers from the previous World MoveIt Day. [Refer to yearly Word MoveIt Day stats for details.](https://docs.google.com/spreadsheets/d/1n19IOVJuqlQiFgLg5sRpWBPo5YQous25QmhUuJ2FO8g/edit?folder=0B2gNuURgfmGMa1dHYVkxWm9SQ2s#gid=0)
 
-See also [original blog post](https://moveit.ros.org/events/world-moveit-day/2020/04/28/world-moveit-day-2020.html).
+See also [original blog post](/events/world-moveit-day/2020/04/28/world-moveit-day-2020.html).

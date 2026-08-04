@@ -13,7 +13,7 @@ categories:
 
 We are happy to announce that a lot of improvements are now released into MoveIt! on ROS [Indigo](http://wiki.ros.org/indigo) LTS (Long Term Support)! It's been 6 months since the last release into Indigo back in June 2016.
 
-During this time, MoveIt! maintenance has been refurbished and we now [consolidated development repositories](https://github.com/moveit/moveit) of many packages whose repos were previously separated. For ROS [Jade](http://moveit.ros.org/moveit!/ros/2016/09/02/firstjaderelease.html) and [Kinetic](http://moveit.ros.org/moveit!/ros/2016/12/15/firstkineticrelease.html) MoveIt! has been already released from this single repo, and Indigo finally made a new release out from the same single repo.
+During this time, MoveIt! maintenance has been refurbished and we now [consolidated development repositories](https://github.com/moveit/moveit) of many packages whose repos were previously separated. For ROS [Jade](/moveit!/ros/2016/09/02/firstjaderelease.html) and [Kinetic](/moveit!/ros/2016/12/15/firstkineticrelease.html) MoveIt! has been already released from this single repo, and Indigo finally made a new release out from the same single repo.
 
 Change to installation
 ----------------------
@@ -34,7 +34,7 @@ $ git clone https://github.com/moveit/moveit.git   (http)
 $ git clone git@github.com:moveit/moveit.git       (ssh)
 ```
 
-For more info about installation, check the tutorial [moveit.ros.org/install](http://moveit.ros.org/install/).
+For more info about installation, check the tutorial [moveit.ros.org/install](/install/).
 
 Things you should know
 ----------------------
@@ -61,7 +61,7 @@ Things you should know
 Changelog
 ---------
 
-Among many changes added since the last Indigo release, some notable ones are listed as follows. Because the new feature development is mainly now happening for ROS Kinetic (as mentioned upon the latest [Kinetic release](http://moveit.ros.org/moveit!/ros/2016/12/15/firstkineticrelease.html)), some changes are only available in newer ROS distros and thus unavailable in Indigo mainly due to the following reasons:
+Among many changes added since the last Indigo release, some notable ones are listed as follows. Because the new feature development is mainly now happening for ROS Kinetic (as mentioned upon the latest [Kinetic release](/moveit!/ros/2016/12/15/firstkineticrelease.html)), some changes are only available in newer ROS distros and thus unavailable in Indigo mainly due to the following reasons:
 
 - unmet dependency
 - ABI brekage (it is avoided as much as possible, desite exceptional cases)
