@@ -70,7 +70,7 @@ Any and all use of the "MoveIt" name, the MoveIt logo, and other MoveIt trademar
 
 *   Digital Color 0A58F7
 *   Print Color (CMYK) C96 M64 Y0 K3
-*   [logo-moveit.ai](https://moveit.ros.org/assets/logo/logo-moveit.ai)
+*   [logo-moveit.ai](/assets/logo/logo-moveit.ai)
 
 
 <table class="table table-striped table--moveit-status-update">
@@ -84,13 +84,13 @@ Any and all use of the "MoveIt" name, the MoveIt logo, and other MoveIt trademar
   <tbody>
     <tr>
       <td>MoveIt Logo PNG</td>
-      <td><a href="https://moveit.ros.org/assets/logo/moveit_logo-white.png">PNG</a> </td>
-      <td><a href="https://moveit.ros.org/assets/logo/moveit_logo-black.png">PNG</a></td>
+      <td><a href="/assets/logo/moveit_logo-white.png">PNG</a> </td>
+      <td><a href="/assets/logo/moveit_logo-black.png">PNG</a></td>
     </tr>
     <tr>
       <td>MoveIt Logo SVG</td>
-      <td><a href="https://moveit.ros.org/assets/logo/moveit_logo-white.svg">SVG</a></td>
-      <td> <a href="https://moveit.ros.org/assets/logo/moveit_logo-black.svg">SVG</a> </td>
+      <td><a href="/assets/logo/moveit_logo-white.svg">SVG</a></td>
+      <td> <a href="/assets/logo/moveit_logo-black.svg">SVG</a> </td>
     </tr>
     </tbody>
   </table>

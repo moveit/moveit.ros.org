@@ -73,7 +73,7 @@ To jump in, we have prepared several example applications and launch configurati
 
 Sponsoring organization PickNik Robotics has led this effort, in collaboration with Intel, Open Robotics, SwRI, and students from Google Summer of Code. In addition, grant funding has been provided by the ROSin project, part of EU Horizons 2020.
 
-We at PickNik Robotics hope many benefit from MoveIt 2 and encourage everyone to contribute to its adoption and continued improvement. We would like to thank all of the MoveIt community members and contributors who have made this release a success, and welcome all to <a href="https://moveit.ros.org/about/get_involved/" target="_blank">get involved</a> with the project.
+We at PickNik Robotics hope many benefit from MoveIt 2 and encourage everyone to contribute to its adoption and continued improvement. We would like to thank all of the MoveIt community members and contributors who have made this release a success, and welcome all to <a href="/about/get_involved/" target="_blank">get involved</a> with the project.
 
 <a href="https://rosin-project.eu">
   <img src="https://rosin-project.eu/wp-content/uploads/rosin_ack_logo_wide.png"

@@ -7,4 +7,4 @@ slug: moveit
 title: Redirect Home
 ---
 
-See [home](http://moveit.ros.org/)
+See [home](/)

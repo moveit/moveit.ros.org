@@ -29,7 +29,7 @@ This finally led to the decision to restructure major parts of MoveIt's collisio
 
 To demonstrate the new collision checking capabilities, I added a [new tutorial](https://moveit.github.io/moveit_tutorials/doc/bullet_collision_checker/bullet_collision_checker.html). In an interactive environment, Bullet can be tested with a demo object and the Panda robot. The CCD capabilities are demonstrated in the second part of the tutorial. Try it out yourself!
 
-A detailed overview of the work done including discussions is available in the [Github issue](https://github.com/moveit/moveit/issues/1427). For a better understanding of the collision detection process, I created several flowcharts shown in the [Developer Concepts page](https://moveit.ros.org/documentation/concepts/developer_concepts/).
+A detailed overview of the work done including discussions is available in the [Github issue](https://github.com/moveit/moveit/issues/1427). For a better understanding of the collision detection process, I created several flowcharts shown in the [Developer Concepts page](/documentation/concepts/developer_concepts/).
 
 ## Results and Future Work
 

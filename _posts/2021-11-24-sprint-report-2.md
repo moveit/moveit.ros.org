@@ -64,5 +64,5 @@ Here is a link to her PR: [Use ros2 interfaces for parameters in moveit_servo](h
 
 ### Syncing changes from MoveIt on ROS 1
 
-[henningkayser](https://github.com/henningkayser) added documentation to the [MoveIt website here](https://moveit.ros.org/documentation/contributing/syncing_backporting/) about the process we are now using to sync changes made on MoveIt on ROS 1 into MoveIt on ROS 2.
+[henningkayser](https://github.com/henningkayser) added documentation to the [MoveIt website here](/documentation/contributing/syncing_backporting/) about the process we are now using to sync changes made on MoveIt on ROS 1 into MoveIt on ROS 2.
 [Abishalini](https://github.com/Abishalini) has taken doing the work of these syncs and has closed many of these.  We are still many commits behind but are now doing syncs regularly and catching up.

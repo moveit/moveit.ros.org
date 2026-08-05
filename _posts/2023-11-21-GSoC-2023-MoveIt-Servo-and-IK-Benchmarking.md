@@ -14,7 +14,7 @@ categories:
 - Servo
 ---
 
-Today, I am happy to share the great work from our 2023 [Google Summer of Code](https://summerofcode.withgoogle.com/) (GSoC) contributors. From all the great applications we received, this year we selected two engineers to work on [open-source projects related to MoveIt](https://moveit.ros.org/events/2023-google-summer-of-code/).
+Today, I am happy to share the great work from our 2023 [Google Summer of Code](https://summerofcode.withgoogle.com/) (GSoC) contributors. From all the great applications we received, this year we selected two engineers to work on [open-source projects related to MoveIt](/events/2023-google-summer-of-code/).
 
 ## Project 1: MoveIt Servo Refactor
 This work was done by [V Mohammed Ibrahim](https://github.com/ibrahiminfinite), advised by [Andy Zelenak](https://github.com/andyze) and [me](https://github.com/sea-bass). I first met Ibrahim since he had been contributing to one of my open-source personal projects, [pyrobosim](https://github.com/sea-bass/pyrobosim). However, my project is very small in comparison to MoveIt, and fortunately Ibrahim got to try out a much bigger and high-impact task through the GSoC program: refactoring and improving MoveIt Servo.

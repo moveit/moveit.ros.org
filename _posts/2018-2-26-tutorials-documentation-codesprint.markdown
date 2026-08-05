@@ -6,7 +6,7 @@ layout: post
 slug: tutorials-documentation-codesprint
 title: Announcing MoveIt! Tutorials Codesprint with Franka Emika & PickNik
 media_type: image
-media_link: http://moveit.ros.org/assets/images/Franka_Emika_Panda.jpg
+media_link: /assets/images/Franka_Emika_Panda.jpg
 description: We are excited to announce that the robotic arm manufacturer Franka Emika is partnering with PickNik to sponsor a MoveIt! codesprint to further improve MoveIt!’s tutorials, documentation, and website.
 categories:
 - MoveIt!

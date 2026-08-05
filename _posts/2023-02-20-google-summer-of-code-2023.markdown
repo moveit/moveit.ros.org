@@ -16,7 +16,7 @@ This is a rare opportunity for students to get paid for contributing to an open-
 For more details about the program, visit the [Google Summer of Code website](https://summerofcode.withgoogle.com/).
 
 Contributor proposal applications for GSoC 2023 opened today, and the deadline is April 4th.
-We have prepared a [list of project ideas for 2023 which you can find here](https://moveit.ros.org/events/2023-google-summer-of-code/).
+We have prepared a [list of project ideas for 2023 which you can find here](/events/2023-google-summer-of-code/).
 These projects cover various aspects of MoveIt, including motion planning, benchmarking, collision checking, and more.
 If you have your own project idea, feel free to create a pull request on the repository for this page.
 

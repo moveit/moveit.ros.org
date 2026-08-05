@@ -6,7 +6,7 @@ layout: post
 slug: wordlmoveitday
 title: MoveIt! Upcoming Events - World MoveIt! Day
 media_type: image
-media_link: http://moveit.ros.org/assets/images/world_moveit_day.png
+media_link: /assets/images/world_moveit_day.png
 description: Join us for an international hackathon to improve the MoveIt! code base, documentation, and community.
 categories:
 - MoveIt!

@@ -24,9 +24,9 @@ Thanks to recent work by <a href="https://github.com/seanyen" target="_blank">Se
 
 Future work includes hardening the MoveIt 1 build for Windows by having more users test and help improve the software. Beyond that, we look forward to adding Windows support for MoveIt 2, built on ROS 2. This should be easier given that ROS 2 has been built from the ground up to support all three major operating systems, being careful not to overly optimize design decisions for Ubuntu as happened in ROS 1.
 
-Currently binary and source install instructions for Windows 10 IoT are now available on the <a href="https://moveit.ros.org/install/" target="_blank">MoveIt website install page</a>. The binary installation leverages the Chocolatey package manager, and the source install leverages ROS's catkin build tool.
+Currently binary and source install instructions for Windows 10 IoT are now available on the <a href="/install/" target="_blank">MoveIt website install page</a>. The binary installation leverages the Chocolatey package manager, and the source install leverages ROS's catkin build tool.
 
 ##### Useful Links
-- <a href="https://moveit.ros.org/install/" target="_blank">MoveIt Binary Install Instructions for Windows</a>
-- <a href="https://moveit.ros.org/install/source-windows/" target="_blank">MoveIt Source Build Instructions for Windows</a>
+- <a href="/install/" target="_blank">MoveIt Binary Install Instructions for Windows</a>
+- <a href="/install/source-windows/" target="_blank">MoveIt Source Build Instructions for Windows</a>
 - <a href="http://wiki.ros.org/Installation/Windows" target="_blank">ROS Build Instructions for Windows</a>

@@ -34,7 +34,7 @@ We also ask you have completed at minimum the following:
  - 4 pull requests reviewed via the "Approve" or "Request Changes" button
  - 2 maintainer meetings attended
 
-If you feel like you qualify to be a core contributor please reach out to any of the [MoveIt Maintainers](https://moveit.ros.org/about/) and we'd be happy to discuss and get you added!
+If you feel like you qualify to be a core contributor please reach out to any of the [MoveIt Maintainers](/about/) and we'd be happy to discuss and get you added!
 
 ## Maintainers
 

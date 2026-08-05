@@ -15,7 +15,7 @@ categories:
 
 Our trip to ICRA and ROSCON 2013 was a grand success. The highlights:
 
-* MoveIt! is released: We released MoveIt! from ICRA 2013. Read all about it on [moveit.ros.org](https://moveit.ros.org/).
+* MoveIt! is released: We released MoveIt! from ICRA 2013. Read all about it on [moveit.ai](/).
 * The tutorial on Motion Planning for Mobile Manipulation: State-of-the-art Methods and Tools was a huge success. The talks were fantastic and a live demo with the PR2 showed the audience how they could start using MoveIt!
 * The booth demo with MoveIt! attracted a lot of audience interest as well. Thank you for coming to ICRA 2013 and visiting the Willow Garage booth.
 * The ROSCON Keynote talk was the first talk at ROSCON (after the introductory talks) and created a huge buzz around MoveIt!
