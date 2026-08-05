@@ -34,7 +34,7 @@ $ git clone https://github.com/moveit/moveit.git   (http)
 $ git clone git@github.com:moveit/moveit.git       (ssh)
 ```
 
-For more info about installation, check the tutorial [moveit.ros.org/install](/install/).
+For more info about installation, check the tutorial [moveit.ai/install](/install/).
 
 Things you should know
 ----------------------

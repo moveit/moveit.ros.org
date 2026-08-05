@@ -94,7 +94,7 @@ The maintainer handling the release must have write access to both devel repos (
 ```
 # MoveIt <ROS_VERSION_NAME> Release (<VERSION>)
 
-[_moveit.ros.org release documentation_](/documentation/contributing/releases/)
+[_moveit.ai release documentation_](/documentation/contributing/releases/)
 
 ### Backports
 

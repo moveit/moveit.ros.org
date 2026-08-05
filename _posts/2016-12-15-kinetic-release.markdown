@@ -29,7 +29,7 @@ Some new features and bug-fixes added since the [last release into Jade](/moveit
 - [Fix unreasonable "Invalid Trajectory: start point deviates" error](https://github.com/moveit/moveit/issues/283)
 - Fedora support is added. Feedback (and fix if necessary) welcomed!
 
-If you're running your robot packages with ROS Kinetic, and/or if you want to try the newest MoveIt!, start at [moveit.ros.org/install](/install/)
+If you're running your robot packages with ROS Kinetic, and/or if you want to try the newest MoveIt!, start at [moveit.ai/install](/install/)
 
 ![1st Kinetic release](http://www.ros.org/news/assets_c/2016/04/kinetic-thumb-640x530-1441.png)
 
