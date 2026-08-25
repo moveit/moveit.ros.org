@@ -330,6 +330,14 @@
       margin: 8px auto 0;
       text-align: left;
 
+      // Loading / error line shown before the form renders (or on failure).
+      .hs-newsletter-status {
+        font-size: 15px;
+        font-weight: normal;
+        color: $text;
+        margin: 0;
+      }
+
       // Hidden UTM fields still render a wrapper; collapse them so they
       // don't leave empty gaps between the visible fields.
       [class*="hs_utm"],

@@ -142,6 +142,18 @@
     first.parentNode.insertBefore(script, first);
   }
 
+  // Loading/error messages live inside the form container, separate from the
+  // consent prompt so its Cookie-settings control is never overwritten.
+  function setFormStatus(target, message) {
+    var status = target.querySelector('.hs-newsletter-status');
+    if (!status) {
+      status = document.createElement('p');
+      status.className = 'hs-newsletter-status';
+      target.appendChild(status);
+    }
+    status.textContent = message;
+  }
+
   // The PickNik newsletter signup on the Get Involved page. The HubSpot embed
   // pulls js.hsforms.net and sets hubspotutk, so it loads only after opt-in.
   function loadHubSpotForm() {
@@ -150,17 +162,20 @@
     if (!target) return; // the form only exists on the Get Involved page
     hubspotFormLoading = true;
 
-    // On failure, reset so a later opt-in (or reopening Cookie settings) can
-    // retry, and leave a message rather than an empty form area.
+    var timeoutId = null;
+    function stopLoading() {
+      hubspotFormLoading = false;
+      if (timeoutId) { clearTimeout(timeoutId); timeoutId = null; }
+    }
+    // Reset so a later opt-in (or reopening Cookie settings) can retry, and
+    // show a message in the form area rather than a blank space.
     function fail() {
       if (hubspotFormReady) return;
-      hubspotFormLoading = false;
-      var fb = document.getElementById('newsletter-consent-fallback');
-      if (fb) {
-        fb.textContent = 'The subscribe form could not load. Please refresh to try again.';
-        fb.hidden = false;
-      }
+      stopLoading();
+      setFormStatus(target, 'The subscribe form could not load. Please refresh to try again.');
     }
+
+    setFormStatus(target, 'Loading the subscribe form…');
 
     var script = document.createElement('script');
     script.src = 'https://js.hsforms.net/forms/embed/v2.js';
@@ -175,26 +190,28 @@
         target: '#newsletter-form',
         onFormReady: function () {
           hubspotFormReady = true;
-          hubspotFormLoading = false;
-          var fb = document.getElementById('newsletter-consent-fallback');
-          if (fb) fb.hidden = true; // hide the prompt only once the form has rendered
+          stopLoading();
+          var status = target.querySelector('.hs-newsletter-status');
+          if (status) status.parentNode.removeChild(status);
         }
       });
     };
     // If the form never renders (bad id, outage), surface the error instead of
-    // an empty area and allow a retry.
-    setTimeout(fail, 10000);
+    // a blank area. Cleared in stopLoading() so a retry can't hit a stale timer.
+    timeoutId = setTimeout(fail, 10000);
     document.head.appendChild(script);
   }
 
-  // Load the form when consent is granted (the prompt hides once it renders);
-  // otherwise show the "accept cookies" prompt. No-op on pages without the form.
+  // Consent granted: hide the prompt and load the form (which shows its own
+  // loading/error status). Otherwise show the untouched consent prompt. No-op on
+  // pages without the form.
   function updateNewsletterForm(granted) {
+    var fallback = document.getElementById('newsletter-consent-fallback');
     if (granted) {
+      if (fallback) fallback.hidden = true;
       loadHubSpotForm();
-    } else {
-      var fallback = document.getElementById('newsletter-consent-fallback');
-      if (fallback) fallback.hidden = false;
+    } else if (fallback) {
+      fallback.hidden = false;
     }
   }
 
