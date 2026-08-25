@@ -26,7 +26,8 @@
 
   var gaLoaded = false;
   var leadfeederLoaded = false;
-  var hubspotFormLoaded = false;
+  var hubspotFormLoading = false; // embed script injected, form not yet rendered
+  var hubspotFormReady = false;   // hbspt.forms.create has rendered the form
   var banner = null;
 
   /* ------------------------------------------------------------------ cookie */
@@ -144,35 +145,56 @@
   // The PickNik newsletter signup on the Get Involved page. The HubSpot embed
   // pulls js.hsforms.net and sets hubspotutk, so it loads only after opt-in.
   function loadHubSpotForm() {
-    if (hubspotFormLoaded) return;
+    if (hubspotFormReady || hubspotFormLoading) return;
     var target = document.getElementById('newsletter-form');
     if (!target) return; // the form only exists on the Get Involved page
-    hubspotFormLoaded = true;
+    hubspotFormLoading = true;
+
+    // On failure, reset so a later opt-in (or reopening Cookie settings) can
+    // retry, and leave a message rather than an empty form area.
+    function fail() {
+      if (hubspotFormReady) return;
+      hubspotFormLoading = false;
+      var fb = document.getElementById('newsletter-consent-fallback');
+      if (fb) {
+        fb.textContent = 'The subscribe form could not load. Please refresh to try again.';
+        fb.hidden = false;
+      }
+    }
+
     var script = document.createElement('script');
     script.src = 'https://js.hsforms.net/forms/embed/v2.js';
     script.charset = 'utf-8';
     script.async = true;
+    script.onerror = fail;
     script.onload = function () {
-      if (window.hbspt && window.hbspt.forms) {
-        window.hbspt.forms.create({
-          portalId: HUBSPOT_PORTAL_ID,
-          formId: HUBSPOT_FORM_ID,
-          target: '#newsletter-form'
-        });
-      }
+      if (!(window.hbspt && window.hbspt.forms)) { fail(); return; }
+      window.hbspt.forms.create({
+        portalId: HUBSPOT_PORTAL_ID,
+        formId: HUBSPOT_FORM_ID,
+        target: '#newsletter-form',
+        onFormReady: function () {
+          hubspotFormReady = true;
+          hubspotFormLoading = false;
+          var fb = document.getElementById('newsletter-consent-fallback');
+          if (fb) fb.hidden = true; // hide the prompt only once the form has rendered
+        }
+      });
     };
+    // If the form never renders (bad id, outage), surface the error instead of
+    // an empty area and allow a retry.
+    setTimeout(fail, 10000);
     document.head.appendChild(script);
   }
 
-  // Load the form when consent is granted; otherwise show the "accept cookies"
-  // prompt in its place. No-op on pages without the form.
+  // Load the form when consent is granted (the prompt hides once it renders);
+  // otherwise show the "accept cookies" prompt. No-op on pages without the form.
   function updateNewsletterForm(granted) {
-    var fallback = document.getElementById('newsletter-consent-fallback');
     if (granted) {
       loadHubSpotForm();
-      if (fallback) fallback.hidden = true;
-    } else if (fallback) {
-      fallback.hidden = false;
+    } else {
+      var fallback = document.getElementById('newsletter-consent-fallback');
+      if (fallback) fallback.hidden = false;
     }
   }
 
@@ -192,7 +214,7 @@
     updateNewsletterForm(false);
     // A loaded tag can't be pulled back out: if anything loaded this session or
     // left cookies behind, drop them and reload.
-    if (gaLoaded || leadfeederLoaded || hubspotFormLoaded || hasTrackingCookies()) {
+    if (gaLoaded || leadfeederLoaded || hubspotFormReady || hubspotFormLoading || hasTrackingCookies()) {
       clearTrackingCookies();
       location.reload();
     }
