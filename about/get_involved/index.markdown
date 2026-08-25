@@ -63,7 +63,7 @@ title: Get Involved
 <div class="row">
   <div class="get-involved-footer">
     <p>You can also get the <a href="https://picknik.ai/">PickNik Robotics</a> quarterly newsletter on MoveIt</p>
-    <div id="newsletter-form" class="hs-newsletter-form"></div>
-    <p id="newsletter-consent-fallback" class="hs-newsletter-fallback" hidden>To subscribe, please <button type="button" class="consent-reopen-inline" data-consent-open style="background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer">accept cookies</button> — the signup form loads once you do.</p>
+    <button type="button" id="newsletter-toggle" class="button button-transparent button-transparent__blue">SUBSCRIBE TO OUR NEWSLETTER</button>
+    <div id="newsletter-form" class="hs-newsletter-form" hidden></div>
   </div>
 </div>

@@ -1,8 +1,9 @@
 /*
  * Consent manager for moveit.ai. Third-party tags — Google Analytics 4
  * (analytics), the Dealfront (Leadfeeder) visitor tracker (advertising), and
- * the HubSpot newsletter form on Get Involved — load only after the visitor
- * opts in, so no tracking cookies are set without consent. Mirrors the
+ * the HubSpot newsletter form on Get Involved (behind a Subscribe button) —
+ * load only after the visitor opts in, so no tracking cookies are set without
+ * consent. Mirrors the
  * picknik.ai consent flow: denied by default, granted on opt-in, cleared and
  * reloaded on withdrawal.
  */
@@ -28,6 +29,7 @@
   var leadfeederLoaded = false;
   var hubspotFormLoading = false; // embed script injected, form not yet rendered
   var hubspotFormReady = false;   // hbspt.forms.create has rendered the form
+  var newsletterRequested = false; // visitor clicked the Subscribe button
   var banner = null;
 
   /* ------------------------------------------------------------------ cookie */
@@ -202,17 +204,16 @@
     document.head.appendChild(script);
   }
 
-  // Consent granted: hide the prompt and load the form (which shows its own
-  // loading/error status). Otherwise show the untouched consent prompt. No-op on
-  // pages without the form.
-  function updateNewsletterForm(granted) {
-    var fallback = document.getElementById('newsletter-consent-fallback');
-    if (granted) {
-      if (fallback) fallback.hidden = true;
-      loadHubSpotForm();
-    } else if (fallback) {
-      fallback.hidden = false;
-    }
+  // Swap the "Subscribe" button for the form and load it. Called when the
+  // visitor clicks Subscribe with consent already granted, or right after they
+  // grant it from the banner that click opened.
+  function revealNewsletterForm() {
+    var toggle = document.getElementById('newsletter-toggle');
+    var target = document.getElementById('newsletter-form');
+    if (!target) return; // the form only exists on the Get Involved page
+    if (toggle) toggle.hidden = true;
+    target.hidden = false;
+    loadHubSpotForm();
   }
 
   /* -------------------------------------------------------------------- banner */
@@ -225,10 +226,10 @@
     if (granted) {
       loadGA();
       loadLeadfeeder();
-      updateNewsletterForm(true);
+      // If the visitor reached the banner by clicking Subscribe, show the form now.
+      if (newsletterRequested) revealNewsletterForm();
       return;
     }
-    updateNewsletterForm(false);
     // A loaded tag can't be pulled back out: if anything loaded this session or
     // left cookies behind, drop them and reload.
     if (gaLoaded || leadfeederLoaded || hubspotFormReady || hubspotFormLoading || hasTrackingCookies()) {
@@ -277,9 +278,21 @@
     buildBanner();
     if (!stored) openBanner(); // `stored` is assigned in the boot block before init runs
 
-    // Reflect stored consent in the newsletter form: load it for returning
-    // opt-ins, show the "accept cookies" prompt otherwise (no-op off that page).
-    updateNewsletterForm(!!(stored && stored.analytics));
+    // Newsletter: reveal the form only when the visitor clicks Subscribe. With
+    // consent already given, load it in place; otherwise open the banner and
+    // reveal once they accept (handled in decide()).
+    document.addEventListener('click', function (event) {
+      var toggle = event.target.closest ? event.target.closest('#newsletter-toggle') : null;
+      if (!toggle) return;
+      event.preventDefault();
+      newsletterRequested = true;
+      var consent = readConsent();
+      if (consent && consent.analytics) {
+        revealNewsletterForm();
+      } else {
+        openBanner();
+      }
+    });
 
     // Footer "Cookie settings" link reopens the banner so a visitor can change
     // (and withdraw) their choice as easily as they gave it.
