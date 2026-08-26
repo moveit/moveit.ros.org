@@ -317,5 +317,88 @@
       font-weight: bold;
       margin-bottom: 24px;
     }
+
+    // Style the embedded HubSpot newsletter form to match the site.
+    #newsletter-form {
+      max-width: 420px;
+      margin: 8px auto 0;
+      text-align: left;
+
+      // Loading / error line shown before the form renders (or on failure).
+      .hs-newsletter-status {
+        font-size: 15px;
+        font-weight: normal;
+        color: $text;
+        margin: 0;
+      }
+
+      // Hidden UTM fields still render a wrapper; collapse them so they
+      // don't leave empty gaps between the visible fields.
+      [class*="hs_utm"],
+      .hs_gclid {
+        display: none;
+      }
+
+      .hs-form-field {
+        margin-bottom: 14px;
+      }
+
+      // Field labels only — error labels live in .hs-error-msgs below.
+      .hs-form-field > label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 6px;
+        color: $dark-text;
+      }
+
+      .hs-input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 14px;
+        font: inherit;
+        font-size: 15px;
+        color: $dark-blue;
+        background: $white;
+        border: 1px solid rgba(25, 26, 32, 0.2);
+        border-radius: 4px;
+
+        &:focus {
+          outline: none;
+          border-color: $blue;
+        }
+      }
+
+      .hs-error-msgs {
+        list-style: none;
+        padding: 0;
+        margin: 6px 0 0;
+
+        label {
+          color: $red;
+          font-size: 13px;
+          font-weight: normal;
+        }
+      }
+
+      .hs-button {
+        margin-top: 4px;
+        padding: 10px 30px;
+        background-color: $blue;
+        color: $white;
+        border: 1px solid $blue;
+        border-radius: 4px;
+        letter-spacing: 1px;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $white;
+          color: $blue;
+        }
+      }
+    }
   }
 }

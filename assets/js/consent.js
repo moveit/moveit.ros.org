@@ -1,9 +1,11 @@
 /*
- * Consent manager for moveit.ai. Two third-party tags — Google Analytics 4
- * (analytics) and the Dealfront (Leadfeeder) visitor tracker (advertising) —
+ * Consent manager for moveit.ai. Third-party tags — Google Analytics 4
+ * (analytics), the Dealfront (Leadfeeder) visitor tracker (advertising), and
+ * the HubSpot newsletter form on Get Involved (behind a Subscribe button) —
  * load only after the visitor opts in, so no tracking cookies are set without
- * consent. Mirrors the picknik.ai consent flow: denied by default, granted on
- * opt-in, cleared and reloaded on withdrawal.
+ * consent. Mirrors the
+ * picknik.ai consent flow: denied by default, granted on opt-in, cleared and
+ * reloaded on withdrawal.
  */
 (function () {
   'use strict';
@@ -13,15 +15,21 @@
   var SCHEMA_VERSION = 1; // re-ask when the cookie shape changes
   var GA_MEASUREMENT_ID = 'G-0FNPMEP8NE';
   var LEADFEEDER_ID = 'lYNOR8xOKPOaWQJZ';
+  var HUBSPOT_PORTAL_ID = '45692735';
+  var HUBSPOT_FORM_ID = 'dea35ae4-e2aa-4a2e-9edb-ef5af8a38626';
   var PRIVACY_POLICY_URL = 'https://picknik.ai/privacy-policy/';
 
   // Cookies the vendors drop; cleared when consent is withdrawn. _ga_<ID> and
-  // _gac_* vary per property, so they are matched by prefix.
-  var TRACKING_COOKIES = ['_ga', '_gid', '_gat', '_lfa'];
+  // _gac_* vary per property, so they are matched by prefix. The __hs*/hubspotutk
+  // cookies come from the newsletter form embed (Get Involved page).
+  var TRACKING_COOKIES = ['_ga', '_gid', '_gat', '_lfa', 'hubspotutk', '__hstc', '__hssc', '__hssrc'];
   var TRACKING_COOKIE_PREFIXES = ['_ga_', '_gac_', '_lfa'];
 
   var gaLoaded = false;
   var leadfeederLoaded = false;
+  var hubspotFormLoading = false; // embed script injected, form not yet rendered
+  var hubspotFormReady = false;   // hbspt.forms.create has rendered the form
+  var newsletterRequested = false; // visitor clicked the Subscribe button
   var banner = null;
 
   /* ------------------------------------------------------------------ cookie */
@@ -136,6 +144,78 @@
     first.parentNode.insertBefore(script, first);
   }
 
+  // Loading/error messages live inside the form container, separate from the
+  // consent prompt so its Cookie-settings control is never overwritten.
+  function setFormStatus(target, message) {
+    var status = target.querySelector('.hs-newsletter-status');
+    if (!status) {
+      status = document.createElement('p');
+      status.className = 'hs-newsletter-status';
+      target.appendChild(status);
+    }
+    status.textContent = message;
+  }
+
+  // The PickNik newsletter signup on the Get Involved page. The HubSpot embed
+  // pulls js.hsforms.net and sets hubspotutk, so it loads only after opt-in.
+  function loadHubSpotForm() {
+    if (hubspotFormReady || hubspotFormLoading) return;
+    var target = document.getElementById('newsletter-form');
+    if (!target) return; // the form only exists on the Get Involved page
+    hubspotFormLoading = true;
+
+    var timeoutId = null;
+    function stopLoading() {
+      hubspotFormLoading = false;
+      if (timeoutId) { clearTimeout(timeoutId); timeoutId = null; }
+    }
+    // Reset so a later opt-in (or reopening Cookie settings) can retry, and
+    // show a message in the form area rather than a blank space.
+    function fail() {
+      if (hubspotFormReady) return;
+      stopLoading();
+      setFormStatus(target, 'The subscribe form could not load. Please refresh to try again.');
+    }
+
+    setFormStatus(target, 'Loading the subscribe form…');
+
+    var script = document.createElement('script');
+    script.src = 'https://js.hsforms.net/forms/embed/v2.js';
+    script.charset = 'utf-8';
+    script.async = true;
+    script.onerror = fail;
+    script.onload = function () {
+      if (!(window.hbspt && window.hbspt.forms)) { fail(); return; }
+      window.hbspt.forms.create({
+        portalId: HUBSPOT_PORTAL_ID,
+        formId: HUBSPOT_FORM_ID,
+        target: '#newsletter-form',
+        onFormReady: function () {
+          hubspotFormReady = true;
+          stopLoading();
+          var status = target.querySelector('.hs-newsletter-status');
+          if (status) status.parentNode.removeChild(status);
+        }
+      });
+    };
+    // If the form never renders (bad id, outage), surface the error instead of
+    // a blank area. Cleared in stopLoading() so a retry can't hit a stale timer.
+    timeoutId = setTimeout(fail, 10000);
+    document.head.appendChild(script);
+  }
+
+  // Swap the "Subscribe" button for the form and load it. Called when the
+  // visitor clicks Subscribe with consent already granted, or right after they
+  // grant it from the banner that click opened.
+  function revealNewsletterForm() {
+    var toggle = document.getElementById('newsletter-toggle');
+    var target = document.getElementById('newsletter-form');
+    if (!target) return; // the form only exists on the Get Involved page
+    if (toggle) toggle.hidden = true;
+    target.hidden = false;
+    loadHubSpotForm();
+  }
+
   /* -------------------------------------------------------------------- banner */
 
   function decide(granted) {
@@ -146,11 +226,13 @@
     if (granted) {
       loadGA();
       loadLeadfeeder();
+      // If the visitor reached the banner by clicking Subscribe, show the form now.
+      if (newsletterRequested) revealNewsletterForm();
       return;
     }
     // A loaded tag can't be pulled back out: if anything loaded this session or
     // left cookies behind, drop them and reload.
-    if (gaLoaded || leadfeederLoaded || hasTrackingCookies()) {
+    if (gaLoaded || leadfeederLoaded || hubspotFormReady || hubspotFormLoading || hasTrackingCookies()) {
       clearTrackingCookies();
       location.reload();
     }
@@ -195,6 +277,22 @@
   function init() {
     buildBanner();
     if (!stored) openBanner(); // `stored` is assigned in the boot block before init runs
+
+    // Newsletter: reveal the form only when the visitor clicks Subscribe. With
+    // consent already given, load it in place; otherwise open the banner and
+    // reveal once they accept (handled in decide()).
+    document.addEventListener('click', function (event) {
+      var toggle = event.target.closest ? event.target.closest('#newsletter-toggle') : null;
+      if (!toggle) return;
+      event.preventDefault();
+      newsletterRequested = true;
+      var consent = readConsent();
+      if (consent && consent.analytics) {
+        revealNewsletterForm();
+      } else {
+        openBanner();
+      }
+    });
 
     // Footer "Cookie settings" link reopens the banner so a visitor can change
     // (and withdraw) their choice as easily as they gave it.

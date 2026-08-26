@@ -63,6 +63,7 @@ title: Get Involved
 <div class="row">
   <div class="get-involved-footer">
     <p>You can also get the <a href="https://picknik.ai/">PickNik Robotics</a> quarterly newsletter on MoveIt</p>
-    <a class="button button-transparent button-transparent__blue" href="https://picknik.us20.list-manage.com/subscribe?u=ec7904f1f579094c8e83e79e8&id=196b3fc03e" target="_blank">SUBSCRIBE TO OUR NEWSLETTER</a>
+    <button type="button" id="newsletter-toggle" class="button button-transparent button-transparent__blue">SUBSCRIBE TO OUR NEWSLETTER</button>
+    <div id="newsletter-form" class="hs-newsletter-form" hidden></div>
   </div>
 </div>
