@@ -13,9 +13,41 @@ footer {
 
   .footer-last-link {
     margin-top: 30px;
-    text-align: center;
-    a {
-      color: $white;
+    text-align: left;
+    // Center on narrow screens to match the rest of the footer.
+    @media screen and (max-width: 992px) {
+      text-align: center;
+    }
+    // Anchors keep Bootstrap's default link color, like the other footer
+    // links; the Cookie Settings button copies it since it isn't an anchor.
+    .consent-reopen {
+      color: #007bff;
+      &:hover {
+        color: #0056b3;
+      }
+    }
+    .footer-link-separator {
+      margin: 0 8px;
+      color: $text;
+    }
+    .footer-trademark {
+      margin-top: 8px;
+    }
+    // Stack the links on phones instead of wrapping the row, which would
+    // leave a separator stranded at the end of a line.
+    @media screen and (max-width: 576px) {
+      .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+      .footer-link-separator {
+        display: none;
+      }
+      .footer-trademark {
+        margin-top: 16px;
+      }
     }
   }
 
