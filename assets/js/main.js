@@ -1,9 +1,11 @@
-var videoSrc = $('#modalVideo iframe').attr('src');
+// Load the YouTube embed only when the modal opens, so nothing is fetched
+// from YouTube (no IP handed over) until the visitor asks for the video.
+var videoSrc = $('#modalVideo iframe').attr('data-src');
 
 $('#modalVideo').on('show.bs.modal', function() {
   // on opening the modal
   // set the video to autostart
-  $('#modalVideo iframe').attr('src', videoSrc + '&amp;autoplay=1');
+  $('#modalVideo iframe').attr('src', videoSrc + '&autoplay=1');
 });
 
 $('#modalVideo').on('hidden.bs.modal', function(e) {
