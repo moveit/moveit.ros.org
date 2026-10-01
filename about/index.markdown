@@ -131,6 +131,12 @@ title: About
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/vatanaksoytezer" target="_blank">vatanaksoytezer</a>
                 </div>
+                <div class="main-card-single-small">
+                  <div class="person-name">Isaac Saito</div>
+                  <div class="organization-name">Independent Consultant, close-r.com</div>
+                  <img src="/assets/install_page/github.png"/>
+                  <a href="https://github.com/130s" target="_blank">130s</a>
+                </div>
               </div>
             </div>
           </div>
@@ -184,12 +190,6 @@ title: About
                   <div class="organization-name">Toyota Research Institute</div>
                   <img src="/assets/install_page/github.png"/>
                   <a href="https://github.com/IanTheEngineer" target="_blank">IanTheEngineer</a>
-                </div>
-                <div class="main-card-single-small">
-                  <div class="person-name">Isaac IY Saito</div>
-                  <div class="organization-name">Plus One Robotics</div>
-                  <img src="/assets/install_page/github.png"/>
-                  <a href="https://github.com/130s" target="_blank">130s</a>
                 </div>
                 <div class="main-card-single-small">
                   <div class="person-name">Felix von Drigalski</div>
