@@ -318,8 +318,12 @@
 
   initConsentMode();
   var stored = readConsent();
-  loadGA(); // advanced mode: GA loads for everyone, cookieless until opt-in
-  if (stored && stored.analytics) grantAnalytics(); // returning opt-in tracks from the start
+  // Grant a stored opt-in BEFORE loadGA(), so the first hit (gtag 'config')
+  // is a full measurement rather than a cookieless ping. New visitors stay on
+  // the denied default: GA still loads (advanced mode) but cookieless until
+  // they opt in.
+  if (stored && stored.analytics) grantAnalytics();
+  loadGA();
   if (stored && stored.advertising) loadLeadfeeder();
 
   if (document.readyState === 'loading') {
