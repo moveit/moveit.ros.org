@@ -61,4 +61,4 @@ Also available through the ROS interface for both the C++ API and component:
 Additional services for starting and stopping Servo are available with the component method. See the [tutorial page](https://moveit.picknik.ai/humble/doc/examples/realtime_servo/realtime_servo_tutorial.html) for a detailed overview of MoveIt Servo.
 
 Below is a presentation that Adam gave on his Google Summer of Code project:
-<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/CZikVEoB52w" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="CZikVEoB52w" %}

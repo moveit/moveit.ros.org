@@ -31,4 +31,4 @@ In other news, MoveIt! now has a twitter account for updates: @moveitrobot
 
 **[Report on First MoveIt! Community Meeting](https://youtu.be/D5rs9uLrveg)**
 
-<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/D5rs9uLrveg" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="D5rs9uLrveg" %}

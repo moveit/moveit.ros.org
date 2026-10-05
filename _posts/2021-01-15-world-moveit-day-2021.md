@@ -11,7 +11,7 @@ categories:
 - Events
 - World-MoveIt-Day
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RWEKkehPg-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video.html youtube="RWEKkehPg-8" %}
 
 # Day of Reminders:
 

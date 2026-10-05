@@ -22,7 +22,7 @@ You can find out more about Zak on his [website](http://zkingston.com/).
 
 <div class="iframe-container">
 <div class="text-center">
-<iframe src="https://www.youtube-nocookie.com/embed/mPDE3QSkLJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include video.html youtube="mPDE3QSkLJ0" %}
 </div>
 </div>
 <br>
