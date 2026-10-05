@@ -104,7 +104,8 @@
     window.gtag = function gtag() {
       window.dataLayer.push(arguments);
     };
-    // Denied is the starting point for everyone; GA is not loaded until opt-in.
+    // Denied is the starting point for everyone; the GA tag loads in this state
+    // (advanced Consent Mode) and stays cookieless until opt-in.
     window.gtag('consent', 'default', {
       ad_storage: 'denied',
       ad_user_data: 'denied',
@@ -115,16 +116,22 @@
 
   /* ------------------------------------------------------------------ loaders */
 
+  // Advanced Consent Mode: load the GA tag for everyone. Consent Mode defaults
+  // to denied, so GA sends cookieless pings and stores nothing until opt-in.
   function loadGA() {
     if (gaLoaded) return;
     gaLoaded = true;
-    window.gtag('consent', 'update', { analytics_storage: 'granted' });
     var script = document.createElement('script');
     script.async = true;
     script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
     document.head.appendChild(script);
     window.gtag('js', new Date());
     window.gtag('config', GA_MEASUREMENT_ID);
+  }
+
+  // Called on opt-in: upgrade analytics storage so GA may set its cookies.
+  function grantAnalytics() {
+    window.gtag('consent', 'update', { analytics_storage: 'granted' });
   }
 
   // The vendor snippet formerly inlined in _includes/default.html; runs only
@@ -224,15 +231,18 @@
     document.body.classList.remove('consent-open'); // drop the announcement banner back down
 
     if (granted) {
-      loadGA();
+      grantAnalytics();
+      loadGA(); // already loaded on boot in advanced mode; no-op if so
       loadLeadfeeder();
       // If the visitor reached the banner by clicking Subscribe, show the form now.
       if (newsletterRequested) revealNewsletterForm();
       return;
     }
-    // A loaded tag can't be pulled back out: if anything loaded this session or
-    // left cookies behind, drop them and reload.
-    if (gaLoaded || leadfeederLoaded || hubspotFormReady || hubspotFormLoading || hasTrackingCookies()) {
+    // The GA tag stays loaded (advanced mode); re-deny so it goes back to
+    // cookieless. A cookie can't be pulled back out, so if anything stored one
+    // this session (GA after opt-in, Leadfeeder, HubSpot), drop it and reload.
+    window.gtag('consent', 'update', { analytics_storage: 'denied' });
+    if (leadfeederLoaded || hubspotFormReady || hubspotFormLoading || hasTrackingCookies()) {
       clearTrackingCookies();
       location.reload();
     }
@@ -308,7 +318,12 @@
 
   initConsentMode();
   var stored = readConsent();
-  if (stored && stored.analytics) loadGA(); // returning opt-in tracks from the start
+  // Grant a stored opt-in BEFORE loadGA(), so the first hit (gtag 'config')
+  // is a full measurement rather than a cookieless ping. New visitors stay on
+  // the denied default: GA still loads (advanced mode) but cookieless until
+  // they opt in.
+  if (stored && stored.analytics) grantAnalytics();
+  loadGA();
   if (stored && stored.advertising) loadLeadfeeder();
 
   if (document.readyState === 'loading') {
