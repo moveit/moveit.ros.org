@@ -16,8 +16,8 @@
               <div class="other-single">
                 <a href="{{ post.url }}">
                   {% if post.media_type == 'video' %}
-                  <div class="image-wrapper">
-                    <iframe style="width:100%; " height="315" src="{{ post.media_link }}" frameborder="0" allowfullscreen></iframe>
+                  <div class="image-wrapper video-facade video-facade--thumb" aria-hidden="true">
+                    <span class="video-facade__play"></span>
                   </div>
                   {% elsif post.media_type == 'image' %}
                   <div class="image-wrapper">

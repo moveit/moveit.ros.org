@@ -17,4 +17,4 @@ We are happy to announce that Team Delft, a team of scientists and engineers fro
 
 Several of the team members have written up a [short article](/assets/pdfs/2016/team_delft_apc_motion_module.pdf) describing how they used MoveIt! with their robot "to accomplish both the picking and stowing tasks in the challenge." The have also prepared the following video:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PKgFy6VUC-k" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="PKgFy6VUC-k" %}

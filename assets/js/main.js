@@ -1,9 +1,11 @@
-var videoSrc = $('#modalVideo iframe').attr('src');
+// Load the YouTube embed only when the modal opens, so nothing is fetched
+// from YouTube (no IP handed over) until the visitor asks for the video.
+var videoSrc = $('#modalVideo iframe').attr('data-src');
 
 $('#modalVideo').on('show.bs.modal', function() {
   // on opening the modal
   // set the video to autostart
-  $('#modalVideo iframe').attr('src', videoSrc + '&amp;autoplay=1');
+  $('#modalVideo iframe').attr('src', videoSrc + '&autoplay=1');
 });
 
 $('#modalVideo').on('hidden.bs.modal', function(e) {
@@ -69,6 +71,34 @@ function closeBannerOnClick() {
   });
 }
 
+// Click-to-load video facades (see _includes/video.html): the iframe is built
+// only on click, so no request reaches YouTube/Vimeo until the visitor asks.
+function initVideoFacades() {
+  function load(facade) {
+    if (facade.getAttribute('data-loaded')) return;
+    var src = facade.getAttribute('data-video-src');
+    if (!src) return;
+    var iframe = document.createElement('iframe');
+    iframe.src = src;
+    iframe.className = 'video-facade__frame';
+    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+    iframe.setAttribute('allowfullscreen', '');
+    iframe.setAttribute('title', facade.getAttribute('aria-label') || 'Video');
+    facade.innerHTML = '';
+    facade.appendChild(iframe);
+    facade.setAttribute('data-loaded', '1');
+  }
+  document.addEventListener('click', function (e) {
+    var f = e.target.closest ? e.target.closest('.video-facade') : null;
+    if (f) load(f);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
+    var f = e.target.closest ? e.target.closest('.video-facade') : null;
+    if (f) { e.preventDefault(); load(f); }
+  });
+}
+
 $(document).ready(function() {
   $('#toggle-nav').click(function() {
     $(this).toggleClass('open');
@@ -77,4 +107,14 @@ $(document).ready(function() {
   futureVersion();
   checkCookie();
   closeBannerOnClick();
+  initVideoFacades();
+
+  // Google feedback form: load the Forms iframe only when its modal opens, so
+  // it isn't fetched from Google on page load.
+  $('#feedbackform').on('show.bs.modal', function () {
+    var frame = document.getElementById('google-feedback-form');
+    if (frame && !frame.getAttribute('src') && frame.getAttribute('data-src')) {
+      frame.setAttribute('src', frame.getAttribute('data-src'));
+    }
+  });
 });

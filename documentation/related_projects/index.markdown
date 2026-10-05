@@ -15,13 +15,13 @@ MoveIt is designed to be easily extensible as separate plugins or projects. Belo
 
 [ROS Industrial](https://rosindustrial.org/) has created a user friendly [Cartesian Path Planner Plug-In for MoveIt](https://rosindustrial.org/news/2014/9/5/cartesian-path-planner-plug-in-for-moveit). In the current version of the project, the user can simultaneously interact with a Qt Widget and the RViz environment to define and set Cartesian Way-Points, which can then be passed to the Cartesian Planner of the MoveIt package and executed both on a simulated and real robot.
 
-<iframe width="800" height="500" src="https://www.youtube-nocookie.com/embed/jQc3z7FQwHw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include video.html youtube="jQc3z7FQwHw" %}
 
 ## Descartes
 
 ROS-Industrial Special Project: Cartesian Path Planner. Descartes performs path-planning on under-defined Cartesian trajectories. It uses trajectory points, robot models, and planners to generate an joint-trajectory that complies with the constraints of a given process. [More Info](https://github.com/ros-industrial-consortium/descartes)
 
-<iframe width="800" height="500" src="https://player.vimeo.com/video/142622435" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{% include video.html vimeo="142622435" %}
 
 ## IK Plugin `bio_ik`
 

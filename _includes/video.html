@@ -1,0 +1,23 @@
+{%- comment -%}
+Click-to-load video facade. Renders a self-hosted placeholder (no third-party
+request, no YouTube thumbnail) and swaps in the iframe only when the visitor
+clicks, so no IP is handed to YouTube/Vimeo on page load.
+
+Usage:
+  {% include video.html youtube="VIDEO_ID" %}
+  {% include video.html vimeo="VIDEO_ID" title="Optional label" %}
+  {% include video.html src=page.media_link %}   (full embed URL, e.g. media_link)
+
+The markup is deliberately emitted on a single line: a multi-line block-level
+<div> breaks kramdown when the include sits inside a list item or wrapper, which
+leaks a stray </div> into the page.
+{%- endcomment -%}
+{%- if include.youtube -%}
+  {%- assign video_src = include.youtube | prepend: "https://www.youtube-nocookie.com/embed/" | append: "?rel=0&autoplay=1" -%}
+{%- elsif include.vimeo -%}
+  {%- assign video_src = include.vimeo | prepend: "https://player.vimeo.com/video/" | append: "?dnt=1&autoplay=1" -%}
+{%- elsif include.src -%}
+  {%- if include.src contains "?" -%}{%- assign video_src = include.src | append: "&autoplay=1" -%}{%- else -%}{%- assign video_src = include.src | append: "?autoplay=1" -%}{%- endif -%}
+{%- endif -%}
+{%- assign video_label = include.title | default: "video" -%}
+<div class="video-facade" data-video-src="{{ video_src }}" role="button" tabindex="0" aria-label="Load and play {{ video_label | escape }}"><span class="video-facade__play" aria-hidden="true"></span><span class="video-facade__hint">Click to load video</span></div>

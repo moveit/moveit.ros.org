@@ -1,0 +1,73 @@
+// Click-to-load video facade (see _includes/video.html). A styled 16:9 box
+// with a play button; nothing is requested from YouTube/Vimeo until clicked.
+.video-facade {
+  position: relative;
+  width: 100%;
+  max-width: 710px;
+  margin: 1rem auto;
+  aspect-ratio: 16 / 9;
+  background: #0d1b2a;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: none;
+
+  &:hover,
+  &:focus-visible {
+    .video-facade__play { background: #ff0000; transform: scale(1.05); }
+  }
+
+  &:focus-visible { outline: 3px solid #0057b8; outline-offset: 2px; }
+
+  &__play {
+    width: 68px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(20, 20, 20, 0.8);
+    display: flex;
+    transition: background 0.15s ease, transform 0.15s ease;
+
+    &::before {
+      content: "";
+      margin: auto;
+      border-style: solid;
+      border-width: 11px 0 11px 19px;
+      border-color: transparent transparent transparent #fff;
+    }
+  }
+
+  &__hint {
+    margin-top: 12px;
+    color: #cdd6e0;
+    font-size: 14px;
+  }
+
+  // Fallback for browsers without aspect-ratio support.
+  @supports not (aspect-ratio: 16 / 9) {
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+
+  // The iframe swapped in on click fills the box.
+  &__frame {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+// Static preview inside a listing card (the card itself links to the post).
+// No iframe loads here — just a styled box with a play icon.
+.video-facade--thumb {
+  margin: 0;
+  max-width: none;
+  cursor: inherit;
+
+  .video-facade__play { width: 48px; height: 34px; }
+}

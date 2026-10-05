@@ -15,28 +15,28 @@ In case you missed it, watch a replay of the MoveIt Workshop 2019 Macau.
 
 1. Welcome and Updates, Dave Coleman (See Above)
 2. MoveIt 2.0 Progress and Roadmap, Mike Lautman
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KHM3X1BB214" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% include video.html youtube="KHM3X1BB214" %}
 
 3. Constrained and optimal planning using the Open Motion Planning Library (OMPL), Mark Moll
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QD8jHfjMM2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% include video.html youtube="QD8jHfjMM2o" %}
 
 4. Amazon Robomaker, Thomas Moulard
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EmXjRk0iXoE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% include video.html youtube="EmXjRk0iXoE" %}
 
 5. Machine assembly with MoveIt @ OMRON SINIC X; UX in MoveIt - What is hard for newcomers and non-expert users?, Felix von Drigalski
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nFWO9jVhobY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% include video.html youtube="nFWO9jVhobY" %}
 
 6. New IK Plugin API for Constraint-Based Solvers and Velocity IK, Robert Haschke
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aM5Ai_O12KY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% include video.html youtube="aM5Ai_O12KY" %}
 
 7. Panel Discussion About MoveIt Ideal User
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J5ozkAG-3fc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% include video.html youtube="J5ozkAG-3fc" %}
 
 8. MoveIt 2 Capabilities Roadmapping, Dave Coleman
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-QL6fjMoZw0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% include video.html youtube="-QL6fjMoZw0" %}
 
 9. Hands on with the Task Constructor, Robert Haschke
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a8r7O2bs1Mc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% include video.html youtube="a8r7O2bs1Mc" %}
 
 10. Lightning Rounds Michael Ferguson, Christian Henkel, Limor Schweitzer, Tan You Liang, Steve Macenski
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CkS4JrtrpGs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% include video.html youtube="CkS4JrtrpGs" %}

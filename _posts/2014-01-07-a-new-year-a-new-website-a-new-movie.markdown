@@ -21,7 +21,7 @@ The MoveIt! development team would like to wish you a very happy new year and br
 ### A MoveIt! 2013 Montage Movie
 
 
-<iframe width="710" height="315" src="https://www.youtube-nocookie.com/embed/dblCGZzeUqs" frameborder="0" allowfullscreen></iframe>
+{% include video.html youtube="dblCGZzeUqs" %}
 
 
 ### A new website
