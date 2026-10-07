@@ -43,7 +43,6 @@ MoveIt code is hosted on GitHub in the [moveit organization](http://github.com/m
 - [moveit_resources](https://github.com/moveit/moveit_resources) - large file assets such as testing robots
 - [moveit_calibration](https://github.com/moveit/moveit_calibration) - hand-eye calibration routines with GUI
 - [moveit_advanced](https://github.com/moveit/moveit_advanced) - Experimental advanced capabilities
-- [moveit_ci](https://github.com/moveit/moveit_ci) - script to run with Travis for continuous integration
 - [rqt_moveit](https://github.com/ros-visualization/rqt_moveit/) - Plugin for the GUI framework of ROS, RQT
 - [srdfdom](https://github.com/moveit/srdfdom) - Semantic Robot Description Format used exclusively by MoveIt
 
@@ -56,13 +55,12 @@ The following repos are where documentation can be found:
 
 - [moveit.ros.org](https://github.com/moveit/moveit.ros.org) - this main website
 - [moveit_tutorials](https://github.com/moveit/moveit_tutorials) - step by step examples for learning MoveIt
-- [moveit_example_apps](https://github.com/moveit/moveit_example_apps) - sandbox of example high level application code
 
 <img src='/assets/images/diagrams/moveit_api.png' style="width: 80%;"/>
 
 # Code Health
 
-We use [Travis](https://travis-ci.org/moveit/) continuous integration combined with the [moveit_ci](https://github.com/moveit/moveit_ci) for testing pull requests and overall code health. Travis status badges should be visible on the README.md of every MoveIt repository.
+We use GitHub Actions with [industrial_ci](https://github.com/ros-industrial/industrial_ci) for testing pull requests and overall code health.
 
 To see an overview of the activity for MoveIt check our [Open HUB Project Summary](https://www.openhub.net/p/moveit/analyses/latest/languages_summary).
 
