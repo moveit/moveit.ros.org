@@ -66,7 +66,7 @@ We use [Travis](https://travis-ci.org/moveit/) continuous integration combined w
 
 To see an overview of the activity for MoveIt check our [Open HUB Project Summary](https://www.openhub.net/p/moveit/analyses/latest/languages_summary).
 
-## ROS Noetic Code API
+## ROS Noetic Code API (MoveIt 1, EOL)
 
 ### Move Group Interface
 

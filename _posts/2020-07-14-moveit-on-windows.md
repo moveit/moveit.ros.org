@@ -28,5 +28,5 @@ Currently binary and source install instructions for Windows 10 IoT are now avai
 
 ##### Useful Links
 - <a href="/install/" target="_blank">MoveIt Binary Install Instructions for Windows</a>
-- <a href="/install/source-windows/" target="_blank">MoveIt Source Build Instructions for Windows</a>
+- <a href="https://github.com/moveit/moveit.ros.org/blob/b0c8cf715ca7f5441e347cd3fc7acdb5851937b6/install/source-windows/index.markdown" target="_blank">MoveIt Source Build Instructions for Windows</a>
 - <a href="http://wiki.ros.org/Installation/Windows" target="_blank">ROS Build Instructions for Windows</a>

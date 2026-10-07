@@ -85,6 +85,10 @@ The maintainer handling the release must have write access to both devel repos (
   * Kinetic 0.9.x (kinetic-devel)
   * Melodic 1.0.x (melodic-devel)
   * Noetic 1.1.x (noetic-devel)
+  * Humble 2.5.x (humble)
+  * Jazzy 2.12.x (jazzy)
+  * Kilted 2.14.x (kilted)
+  * Lyrical 2.15.x (released from main)
 * As of May 2020 we decided to bump the release version right after preparing a release, such that
   the `HEAD` of a development branch will already indicate the _next_ upcoming release version. See [rational](https://github.com/moveit/moveit/issues/2036).
 * See also: [discussion for the best practice for versioning](https://discourse.ros.org/t/maintainer-best-practices-handling-changes-through-ros-releases/771) on Discourse.

@@ -7,10 +7,10 @@ title: MoveIt 2 Binary Install
   <div>
     <h1>MoveIt 2 Binary Install</h1>
     We're thrilled you're ready to start using MoveIt 2!
-    Binary installation for MoveIt 2 are available for the ROS 2 distributions Jazzy and Rolling on Ubuntu 24.04, and Humble on Ubuntu 22.04.
+    Binary installation for MoveIt 2 are available for the ROS 2 distributions Lyrical and Rolling on Ubuntu 26.04, Kilted and Jazzy on Ubuntu 24.04, and Humble on Ubuntu 22.04.
     Select your preferred ROS 2 distribution below:
     <div class="row systems-rectangle">
-      <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Humble" aria-expanded="true" aria-controls="Humble">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#Humble" aria-expanded="true" aria-controls="Humble">
         <div class="row no-gutters">
             <div class="col-auto">
                 <img src="/assets/install_page/ros_icon.png"/>
@@ -23,7 +23,7 @@ title: MoveIt 2 Binary Install
           </div>
         </div>
     </button>
-    <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Jazzy" aria-expanded="true" aria-controls="Jazzy">
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#Jazzy" aria-expanded="true" aria-controls="Jazzy">
         <div class="row no-gutters">
             <div class="col-auto">
                 <img src="/assets/install_page/ros_icon.png"/>
@@ -36,7 +36,33 @@ title: MoveIt 2 Binary Install
           </div>
         </div>
     </button>
-    <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Rolling" aria-expanded="true" aria-controls="Rolling">
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#Kilted" aria-expanded="true" aria-controls="Kilted">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <img src="/assets/install_page/ros_icon.png"/>
+              </div>
+          <div class="col-auto system-type">
+            <div class="system-name">
+                ROS 2
+            </div>
+            Kilted
+          </div>
+        </div>
+    </button>
+    <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Lyrical" aria-expanded="true" aria-controls="Lyrical">
+        <div class="row no-gutters">
+            <div class="col-auto">
+                <img src="/assets/install_page/ros_icon.png"/>
+              </div>
+          <div class="col-auto system-type">
+            <div class="system-name">
+                ROS 2
+            </div>
+            Lyrical
+          </div>
+        </div>
+    </button>
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#Rolling" aria-expanded="true" aria-controls="Rolling">
         <div class="row no-gutters">
             <div class="col-auto">
                 <img src="/assets/install_page/ros_icon.png"/>
@@ -143,6 +169,94 @@ title: MoveIt 2 Binary Install
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------- -->
+      <div class="collapse" id="Kilted" data-parent="#accordion">
+        <h3>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+        </h3>
+        <p>
+          Follow all the instructions to install <a href="https://docs.ros.org/en/kilted/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Kilted</a>.
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 24.04
+        </h2>
+        <h3>
+          ROS 2 Kilted
+          <div class="bash-command">
+            <code>sudo apt install ros-kilted-moveit</code>
+          </div>
+        </h3>
+        <div class="horizontal-line"></div>
+        <h2>
+          Middleware
+        </h2>
+        <p>
+          We recommend CycloneDDS as a middleware. Note: this makes all nodes started using this RMW incompatible with any other nodes not using Cyclone DDS.
+          <code>sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp</code>
+          <code>export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp</code>
+          You may want to add `export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp` to your ~/.bashrc to source it automatically.
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          Quick Start
+        </h2>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="https://moveit.picknik.ai/main/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+          <span class="link-with-background">
+            MoveIt 2 Getting Started Tutorial
+          </span>
+        </a>
+      </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <div class="collapse" id="Lyrical" data-parent="#accordion">
+        <h3>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+        </h3>
+        <p>
+          Follow all the instructions to install <a href="https://docs.ros.org/en/lyrical/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Lyrical</a>.
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 26.04
+        </h2>
+        <h3>
+          ROS 2 Lyrical
+          <div class="bash-command">
+            <code>sudo apt install ros-lyrical-moveit</code>
+          </div>
+        </h3>
+        <div class="horizontal-line"></div>
+        <h2>
+          Middleware
+        </h2>
+        <p>
+          We recommend CycloneDDS as a middleware. Note: this makes all nodes started using this RMW incompatible with any other nodes not using Cyclone DDS.
+          <code>sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp</code>
+          <code>export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp</code>
+          You may want to add `export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp` to your ~/.bashrc to source it automatically.
+        </p>
+        <div class="horizontal-line"></div>
+        <h2>
+          Quick Start
+        </h2>
+        <p>
+          Start planning in Rviz with:
+        </p>
+        <a href="https://moveit.picknik.ai/main/doc/tutorials/quickstart_in_rviz/quickstart_in_rviz_tutorial.html" target="_blank">
+          <span class="link-with-background">
+            MoveIt 2 Getting Started Tutorial
+          </span>
+        </a>
+      </div>
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="Rolling" data-parent="#accordion">
         <h3>
           Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
@@ -152,7 +266,7 @@ title: MoveIt 2 Binary Install
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 24.04
+          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 26.04
         </h2>
         <h3>
           ROS 2 Rolling

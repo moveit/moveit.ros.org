@@ -19,19 +19,20 @@ _I'm totally new, how do I get started?_
 
 _What version of MoveIt should I use?_
 
-  * For most developers, we recommend building the [master](https://github.com/moveit/moveit) branch from source.
-  * If you are a beginner, installing the Noetic LTS release from Debian is the easiest and fastest.
+  * For most developers, we recommend MoveIt 2 on the latest LTS release, ROS 2 Lyrical. See the [supported distributions](/about/distribution/).
+  * If you are a beginner, [installing the Lyrical release from Debian](/install-moveit2/binary/) is the easiest and fastest.
+  * MoveIt 1 (ROS Noetic) is end-of-life and no longer receives updates.
   * You can also use a [Docker container](/install/docker/) for a virtual setup.
 
 _Should I build from source or install the Debians?_
 
   * If you are an intermediate to advanced user ready to contribute code, then install from source of course!
-  * If you are a beginner, the pre-built Debians for ROS Melodic and ROS Noetic are the easiest.
-  * Note however that the last ROS Distro was released almost 2 years ago, so the latest features are only on the *master* branch built from source.
+  * If you are a beginner, the pre-built Debians are the easiest.
+  * The latest features are only on the *main* branch built from source, or in the Rolling Debians.
 
 _What kind of computer do I need?_
 
-  * ROS 1.0 works best on a Linux computer, particularly Ubuntu 16.04 or 18.04. [Some Windows support](/install/) is also available.
+  * ROS 2 works best on a Linux computer, particularly Ubuntu 26.04 (Lyrical) or 24.04 (Jazzy). [Some Windows support](/install-moveit2/binary-windows/) is also available.
   * If you are running another operating system, we recommend to try dual booting, [installing on Docker](/install/docker/), or using a virtual machine (see [notes](/install/)).
 
 _Where is the source code?_

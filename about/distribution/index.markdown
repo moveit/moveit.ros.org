@@ -32,9 +32,21 @@ title: Distribution
           <td>N/A</td>
         </tr>
         <tr>
+          <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt 2 Lyrical</a></td>
+          <td>May 22, 2026</td>
+          <td><img src="/assets/images/distribution/lyrical.png" alt="MoveIt 2 Lyrical" height="100" /></td>
+          <td>May 2031</td>
+        </tr>
+        <tr>
+          <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt 2 Kilted</a></td>
+          <td>May 23, 2025</td>
+          <td><img src="/assets/images/distribution/kilted.png" alt="MoveIt 2 Kilted" height="100" /></td>
+          <td>December 2026</td>
+        </tr>
+        <tr>
           <td><a href="https://moveit.picknik.ai/main/index.html">MoveIt 2 Jazzy</a></td>
           <td>May 23, 2024</td>
-          <td><img src="/assets/images/distribution/moveit-jazzy.png" alt="MoveIt 2 Iron" height="100" /></td>
+          <td><img src="/assets/images/distribution/moveit-jazzy.png" alt="MoveIt 2 Jazzy" height="100" /></td>
           <td>May 2029</td>
         </tr>
         <tr>
@@ -47,7 +59,7 @@ title: Distribution
           <td><a href="https://moveit.github.io/moveit_tutorials/">MoveIt 1 Noetic</a></td>
           <td>October 13th, 2020</td>
           <td><img src="/assets/images/distribution/noetic.jpg" alt="MoveIt 1 Noetic" height="100" /></td>
-          <td>May 2025</td>
+          <td>May 2025 (EOL)</td>
         </tr>
       </tbody>
     </table>
