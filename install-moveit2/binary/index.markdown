@@ -10,10 +10,10 @@ title: MoveIt 2 Binary Install
     Binary installation for MoveIt 2 are available for the ROS 2 distributions Lyrical and Rolling on Ubuntu 26.04, Kilted and Jazzy on Ubuntu 24.04, and Humble on Ubuntu 22.04.
     Select your preferred ROS 2 distribution below:
     <div class="row systems-rectangle">
-      <button class="btn btn-primary" data-toggle="collapse" data-target="#Humble" aria-expanded="true" aria-controls="Humble">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#Humble" aria-expanded="false" aria-controls="Humble">
         <div class="row no-gutters">
             <div class="col-auto">
-                <img src="/assets/install_page/ros_icon.png"/>
+                <img src="/assets/install_page/ros_icon.png" alt=""/>
               </div>
           <div class="col-auto system-type">
             <div class="system-name">
@@ -23,10 +23,10 @@ title: MoveIt 2 Binary Install
           </div>
         </div>
     </button>
-    <button class="btn btn-primary" data-toggle="collapse" data-target="#Jazzy" aria-expanded="true" aria-controls="Jazzy">
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#Jazzy" aria-expanded="false" aria-controls="Jazzy">
         <div class="row no-gutters">
             <div class="col-auto">
-                <img src="/assets/install_page/ros_icon.png"/>
+                <img src="/assets/install_page/ros_icon.png" alt=""/>
               </div>
           <div class="col-auto system-type">
             <div class="system-name">
@@ -36,10 +36,10 @@ title: MoveIt 2 Binary Install
           </div>
         </div>
     </button>
-    <button class="btn btn-primary" data-toggle="collapse" data-target="#Kilted" aria-expanded="true" aria-controls="Kilted">
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#Kilted" aria-expanded="false" aria-controls="Kilted">
         <div class="row no-gutters">
             <div class="col-auto">
-                <img src="/assets/install_page/ros_icon.png"/>
+                <img src="/assets/install_page/ros_icon.png" alt=""/>
               </div>
           <div class="col-auto system-type">
             <div class="system-name">
@@ -49,10 +49,10 @@ title: MoveIt 2 Binary Install
           </div>
         </div>
     </button>
-    <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Lyrical" aria-expanded="true" aria-controls="Lyrical">
+    <button class="btn btn-primary" id="defaultButton" data-toggle="collapse" data-target="#Lyrical" aria-expanded="false" aria-controls="Lyrical">
         <div class="row no-gutters">
             <div class="col-auto">
-                <img src="/assets/install_page/ros_icon.png"/>
+                <img src="/assets/install_page/ros_icon.png" alt=""/>
               </div>
           <div class="col-auto system-type">
             <div class="system-name">
@@ -62,10 +62,10 @@ title: MoveIt 2 Binary Install
           </div>
         </div>
     </button>
-    <button class="btn btn-primary" data-toggle="collapse" data-target="#Rolling" aria-expanded="true" aria-controls="Rolling">
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#Rolling" aria-expanded="false" aria-controls="Rolling">
         <div class="row no-gutters">
             <div class="col-auto">
-                <img src="/assets/install_page/ros_icon.png"/>
+                <img src="/assets/install_page/ros_icon.png" alt=""/>
               </div>
           <div class="col-auto system-type">
             <div class="system-name">
@@ -83,14 +83,14 @@ title: MoveIt 2 Binary Install
       <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="Humble" data-parent="#accordion">
         <h3>
-          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg" alt=""/>
         </h3>
         <p>
           Follow all the instructions to install <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Humble</a>.
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 22.04
+          <img src="/assets/install_page/ubuntu_black.png" alt=""> Install on Ubuntu 22.04
         </h2>
         <h3>
           ROS 2 Humble
@@ -127,14 +127,14 @@ title: MoveIt 2 Binary Install
       <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="Jazzy" data-parent="#accordion">
         <h3>
-          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg" alt=""/>
         </h3>
         <p>
           Follow all the instructions to install <a href="https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Jazzy</a>.
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 24.04
+          <img src="/assets/install_page/ubuntu_black.png" alt=""> Install on Ubuntu 24.04
         </h2>
         <h3>
           ROS 2 Jazzy
@@ -171,14 +171,14 @@ title: MoveIt 2 Binary Install
       <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="Kilted" data-parent="#accordion">
         <h3>
-          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg" alt=""/>
         </h3>
         <p>
           Follow all the instructions to install <a href="https://docs.ros.org/en/kilted/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Kilted</a>.
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 24.04
+          <img src="/assets/install_page/ubuntu_black.png" alt=""> Install on Ubuntu 24.04
         </h2>
         <h3>
           ROS 2 Kilted
@@ -215,14 +215,14 @@ title: MoveIt 2 Binary Install
       <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="Lyrical" data-parent="#accordion">
         <h3>
-          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg" alt=""/>
         </h3>
         <p>
           Follow all the instructions to install <a href="https://docs.ros.org/en/lyrical/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Lyrical</a>.
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 26.04
+          <img src="/assets/install_page/ubuntu_black.png" alt=""> Install on Ubuntu 26.04
         </h2>
         <h3>
           ROS 2 Lyrical
@@ -259,14 +259,14 @@ title: MoveIt 2 Binary Install
       <!-- ----------------------------------------------------------------- -->
       <div class="collapse" id="Rolling" data-parent="#accordion">
         <h3>
-          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg"/>
+          Prereq: Install <img src="/assets/install_page/ros_logo.jpeg" alt=""/>
         </h3>
         <p>
           Follow all the instructions to install <a href="https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html" target="_blank">ROS 2 Rolling</a>.
         </p>
         <div class="horizontal-line"></div>
         <h2>
-          <img src="/assets/install_page/ubuntu_black.png"> Install on Ubuntu 26.04
+          <img src="/assets/install_page/ubuntu_black.png" alt=""> Install on Ubuntu 26.04
         </h2>
         <h3>
           ROS 2 Rolling
@@ -308,7 +308,7 @@ title: MoveIt 2 Binary Install
       <div class="row no-gutters">
         <div class="col-6">
           <h4>
-            <img src="/assets/install_page/github.png"/>
+            <img src="/assets/install_page/github.png" alt=""/>
             Source Build: Linux
           </h4>
           <p>

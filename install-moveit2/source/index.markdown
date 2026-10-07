@@ -29,7 +29,7 @@ These instructions assume you are running on Ubuntu 26.04 (Lyrical, Rolling). Ho
 
 Install ROS 2 [Lyrical](https://docs.ros.org/en/lyrical/Installation/Ubuntu-Install-Debians.html), or [Rolling](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html) following the installation instructions.
 
-We recommend Lyrical as the latest and stable LTS distribution, or alternatively Rolling for continuous development including contributions to MoveIt 2. Currently the [main branch](https://github.com/moveit/moveit2) supports Rolling, Lyrical, Jazzy, and Humble (note that Humble will be phased out once incompatible, as we only ensure support for the latest LTS versions).
+We recommend Lyrical as the latest and stable LTS distribution, or alternatively Rolling for continuous development including contributions to MoveIt 2. Currently the [main branch](https://github.com/moveit/moveit2) supports Rolling, Lyrical, Kilted, Jazzy, and Humble (note that Humble will be phased out once incompatible, as we only ensure support for the latest LTS versions).
 However, since the main branch is used for development, the MoveIt API is not stable. For stable versions, please use the distro branches [humble](https://github.com/moveit/moveit2/tree/humble), [jazzy](https://github.com/moveit/moveit2/tree/jazzy), or [kilted](https://github.com/moveit/moveit2/tree/kilted). Lyrical is currently released from the main branch.
 
 MoveIt 2 source installation requires various other tools apart from what is already mentioned in the ROS 2 install docs.
@@ -79,7 +79,7 @@ Download the repository and install any dependencies. Issue the relevant command
     for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
     rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
 
-### Rolling, Lyrical, Jazzy, Humble -unstable
+### Rolling, Lyrical, Kilted, Jazzy, Humble -unstable
 
     git clone https://github.com/moveit/moveit2.git -b main
     for repo in moveit2/moveit2.repos $(f="moveit2/moveit2_$ROS_DISTRO.repos"; test -r $f && echo $f); do vcs import < "$repo"; done
