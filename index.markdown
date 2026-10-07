@@ -55,11 +55,11 @@ redirect_from: '/moveit/'
                             <img class="robot-hand" src="/assets/images/main/hero.png" alt="Robot hand">
                             <div class="info-box-content">
                                 <div class="info-box-header">
-                                    Latest: <b>MoveIt Jazzy</b>
+                                    Latest: <b>MoveIt Lyrical</b>
                                 </div>
                                 <a href="/install-moveit2/binary/" class="info-box-button button">Install MoveIt From Debian</a>
                                 <div class="info-box-version">
-                                    Ubuntu 24.04
+                                    Ubuntu 26.04
                                 </div>
                                 <div class="link-group">
                                     <a href="/install-moveit2/source/" class="info-box-link">Build&nbsp;From&nbsp;Source</a>
@@ -256,7 +256,7 @@ redirect_from: '/moveit/'
                 <div class="release-versions__body">
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Rolling 2.13</h3>
+                      <h3>Rolling 2.15</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
@@ -271,7 +271,7 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Jazzy 2.12 LTS</h3>
+                      <h3>Lyrical 2.15 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
                         <a href="https://github.com/moveit/moveit2/tree/main" target="_blank">View branch</a>
@@ -286,17 +286,32 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Iron 2.7</h3>
+                      <h3>Kilted 2.14</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/moveit/moveit2/tree/iron" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit2/tree/kilted" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
                       ROS 2
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--red">EOL - DISCONTINUED</span>
+                      <span class="label label--orange text-dark">MAINTAINED</span>
+                    </div>
+                  </div>
+                  <div class="release-versions__content">
+                    <div class="release-versions__1">
+                      <h3>Jazzy 2.12 LTS</h3>
+                      <p>
+                        <span><img src="/assets/images/icons/git.svg"></span>
+                        <a href="https://github.com/moveit/moveit2/tree/jazzy" target="_blank">View branch</a>
+                      </p>
+                    </div>
+                    <div class="release-versions__2">
+                      ROS 2
+                    </div>
+                    <div class="release-versions__3">
+                      <span class="label label--orange text-dark">MAINTAINED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">
@@ -316,47 +331,17 @@ redirect_from: '/moveit/'
                   </div>
                   <div class="release-versions__content">
                     <div class="release-versions__1">
-                      <h3>Galactic 2.3</h3>
-                      <p>
-                        <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/moveit/moveit2/tree/galactic" target="_blank">View branch</a>
-                      </p>
-                    </div>
-                    <div class="release-versions__2">
-                      ROS 2
-                    </div>
-                    <div class="release-versions__3">
-                      <span class="label label--red">EOL - DISCONTINUED</span>
-                    </div>
-                  </div>
-                  <div class="release-versions__content">
-                    <div class="release-versions__1">
-                      <h3>Foxy 2.2 LTS</h3>
-                      <p>
-                        <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/moveit/moveit2" target="_blank">View branch</a>
-                      </p>
-                    </div>
-                    <div class="release-versions__2">
-                      ROS 2
-                    </div>
-                    <div class="release-versions__3">
-                      <span class="label label--red">EOL - DISCONTINUED</span>
-                    </div>
-                  </div>
-                  <div class="release-versions__content">
-                    <div class="release-versions__1">
                       <h3>Noetic 1.1 LTS</h3>
                       <p>
                         <span><img src="/assets/images/icons/git.svg"></span>
-                        <a href="https://github.com/moveit/moveit" target="_blank">View branch</a>
+                        <a href="https://github.com/moveit/moveit/tree/master" target="_blank">View branch</a>
                       </p>
                     </div>
                     <div class="release-versions__2">
                       ROS 1
                     </div>
                     <div class="release-versions__3">
-                      <span class="label label--orange text-dark">Maintained</span>
+                      <span class="label label--red">EOL - DISCONTINUED</span>
                     </div>
                   </div>
                   <div class="release-versions__content">

@@ -6,6 +6,10 @@ title: MoveIt 1 Docker Install
 
 <div>
     <h1><img src="/assets/install_page/docker.png">  MoveIt 1 Docker Install</h1>
+    <div class="alert alert-warning" role="alert">
+      <b>MoveIt 1 is end-of-life.</b> ROS Noetic, the last ROS 1 distribution, reached EOL in May 2025, and MoveIt 1 no longer receives updates.
+      For new projects, please use <a href="/install-moveit2/binary/">MoveIt 2</a>.
+    </div>
     <p>
       Docker is an open-source project that automates the deployment of Linux
       applications inside software containers.
@@ -87,7 +91,7 @@ title: MoveIt 1 Docker Install
         </a>
     <div class="horizontal-line"></div>
     <h2>MoveIt Container Types</h2>
-    <p>There are many variants of the MoveIt Docker available as <a href="/documentation/contributing/continuous_integration/">documented here</a>. For example, any of the two current distros work: [melodic, noetic]. Other variations include:</p>
+    <p>There are many variants of the MoveIt Docker available as <a href="/documentation/contributing/continuous_integration/">documented here</a>. For example, the ROS Noetic (EOL) variants. Other variations include:</p>
     <div class="container">
         <div class="install-card-wrapper">
             <div class="col-4 install-card-single">
@@ -95,7 +99,7 @@ title: MoveIt 1 Docker Install
                 <p>contains a full MoveIt workspace downloaded and built to ~/ws_moveit/src. This container is useful for developers wanting to test or develop in a sandbox.</p>
             </div>
             <div class="col-4 install-card-single">
-                <h3>moveit/moveit:melodic-release</h3>
+                <h3>moveit/moveit:noetic-release</h3>
                 <p>builds on top of the CI image, the full debian-based install of MoveIt using apt.</p>
             </div>
             <div class="col-4 install-card-single">

@@ -79,7 +79,7 @@ To re-create this job locally you'll need a checkout of moveit2 at the commit yo
 
 ```
 ros2 run industrial_ci rerun_ci ~/ws_moveit/src/moveit2 \
-  DOCKER_IMAGE='moveit/moveit2:foxy-ci-testing' \
+  DOCKER_IMAGE='moveit/moveit2:lyrical-ci-testing' \
   UPSTREAM_WORKSPACE='moveit2.repos' \
   AFTER_SETUP_UPSTREAM_WORKSPACE='vcs pull ~/upstream_ws/src/' \
   BEFORE_TARGET_TEST_EMBED='set +u && source moveit_kinematics/test/test_ikfast_plugins.sh && set -u' \

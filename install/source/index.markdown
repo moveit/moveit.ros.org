@@ -6,16 +6,14 @@ title: MoveIt 1 Source Build - Linux
 
   <div>
     <h1>MoveIt 1 Source Build: Linux</h1>
+        <div class="alert alert-warning" role="alert">
+          <b>MoveIt 1 is end-of-life.</b> ROS Noetic, the last ROS 1 distribution, reached EOL in May 2025, and MoveIt 1 no longer receives updates.
+          For new projects, please use <a href="/install-moveit2/source/">MoveIt 2</a>.
+        </div>
         <p>Installing MoveIt from source is the first step in contributing new features, optimizations, and bug fixes back to the open source project. Thanks for getting involved!</p>
         <img class="docker-img" src="/assets/install_page/docker-illustration.png"/>
         <br />
-        <p>MoveIt is mainly supported on Linux, and the following build instructions support in particular:</p>
-        <ul>
-            <li>Ubuntu 20.04 / <a href="http://www.ros.org/wiki/noetic/Installation/Ubuntu" target="_blank">ROS Noetic</a></li>
-            <li>Ubuntu 18.04 / <a href="http://www.ros.org/wiki/melodic/Installation/Ubuntu" target="_blank">ROS Melodic</a></li>
-            <li>Ubuntu 16.04 / <a href="http://www.ros.org/wiki/kinetic/Installation/Ubuntu" target="_blank">ROS Kinetic</a> <i>(no longer officially supported)</i></li>
-        </ul>
-        <p>We would like to expand our source build instructions to more operating systems, please <a target="_blank" href="https://github.com/moveit/moveit.ros.org/tree/master/install/source">contribute</a>!</p>
+        <p>These build instructions target Ubuntu 20.04 / <a href="http://www.ros.org/wiki/noetic/Installation/Ubuntu" target="_blank">ROS Noetic</a> (EOL).</p>
     <h2>Prerequisites</h2>
     <h3>
     Install <img src="/assets/install_page/ros_logo.jpeg"/>
@@ -34,7 +32,6 @@ title: MoveIt 1 Source Build - Linux
             sudo apt install python3-wstool python3-catkin-tools python3-rosdep
         </code>
     </div>
-    <p><i>Kinetic/Melodic Note: for Ubuntu 16.04 and 18.04, replace 'python3' with just 'python'</i></p>
 
     <h3>Create Workspace and Source</h3>
     <p>Optionally create a new workspace, you can name it whatever:</p>
@@ -44,20 +41,15 @@ title: MoveIt 1 Source Build - Linux
             cd ~/ws_moveit
         </code>
     </div>
-    <p>Next, source your ROS workspace to load the necessary environment variables, depending on what version of ROS you installed.</p>
-    <p>Choose one of the three:</p>
+    <p>Next, source your ROS workspace to load the necessary environment variables:</p>
     <div class="bash-command">
         <code>
-            source /opt/ros/noetic/setup.bash<br/>
-            source /opt/ros/melodic/setup.bash<br/>
-            source /opt/ros/kinetic/setup.bash
+            source /opt/ros/noetic/setup.bash
         </code>
     </div>
     <p>This will load the <span class="ros-command">${ROS_DISTRO}</span> variable, needed for the next step.</p>
     <h2>Download Source Code</h2>
-    <p>By default, we will assume you are building the latest branch on Ubuntu 20.04: <span class="ros-command">master</span>.
-    This branch builds for ROS Kinetic and newer, e.g. on Ubuntu 16.04 and newer.
-    If you would like to build an older release of MoveIt from source, see the section below.</p>
+    <p>We will assume you are building the latest MoveIt 1 branch on Ubuntu 20.04: <span class="ros-command">master</span>.</p>
     <p>Pull down required repositories and build from within the root directory of your catkin workspace:</p>
     <div class="bash-command">
         <code>
@@ -138,20 +130,4 @@ title: MoveIt 1 Source Build - Linux
             MoveIt Getting Started Tutorial
           </span>
         </a>
-    <div class="horizontal-line"></div>
-    <h2>Advanced</h2>
-    <h3>Building Older Releases Of MoveIt</h3>
-    <p>It's best to contribute to our latest branch, even if you're still on an earlier version of Ubuntu. However our latest branch does not support older versions of ROS such as ROS Indigo. Use the following command to build older releases from source:</p>
-    <div class="bash-command">
-        <code>
-            wstool init src<br/>
-            wstool merge -t src https://raw.githubusercontent.com/moveit/moveit/${ROS_DISTRO}-devel/moveit.rosinstall<br/>
-            wstool update -t src<br/>
-            rosdep install -y --from-paths src --ignore-src --rosdistro ${ROS_DISTRO}<br/>
-            catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release<br/>
-            catkin build
-        </code>
-    </div>
-    <h3>Build Dependencies From Source</h3>
-    <p>For MongoDB, OMPL, or FCL source installs, see <a href="/install/source/dependencies/">Building Common MoveIt Dependencies from Source in Catkin</a>.</p>
   </div>
